@@ -22,6 +22,7 @@
                 <a href="#about">About</a>
                 <a href="#partners">Customers</a>
                 <a href="#process">Process</a>
+                <a href="#apps">APPs</a>
                 <a href="#contact">Contact</a>
             </nav>
         </div>
@@ -317,6 +318,162 @@
                 </div>
             </div>
         </section>
+
+        <section id="apps" class="apps">
+            <div class="container">
+                <h2 class="section-title">Recent Apps</h2>
+                <div id="blog-list"></div>
+            </div>
+        </section>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", async () => {
+                const container = document.getElementById("blog-list");
+                const rss = "https://bhban.tistory.com/rss";
+                const url = "https://r.jina.ai/http://" + rss.replace(/^https?:\/\//, "");
+
+                // ✅ 이건 진짜 존재하는 파일로 바꿔줘야 "대체 이미지"가 보임
+                // 예: /assets/logo.png 같은 걸로
+                const fallbackThumb = "https://via.placeholder.com/240x144?text=Blog";
+
+                function pickThumb(item) {
+                    // 1) media:thumbnail
+                    const mt = item.getElementsByTagName("media:thumbnail")[0];
+                    if (mt?.getAttribute("url")) return mt.getAttribute("url");
+
+                    // 2) enclosure (가끔 여기로 이미지가 들어옴)
+                    const enc = item.getElementsByTagName("enclosure")[0];
+                    if (enc?.getAttribute("url")) return enc.getAttribute("url");
+
+                    // 3) content:encoded에서 첫 img
+                    const ce = item.getElementsByTagName("content:encoded")[0]?.textContent ?? "";
+                    let m = ce.match(/<img[^>]+src=['"]([^'"]+)['"]/i);
+                    if (m) return m[1];
+
+                    // 4) description에서 첫 img (티스토리에서 여기만 들어오는 경우 많음)
+                    const desc = item.getElementsByTagName("description")[0]?.textContent ?? "";
+                    // description은 HTML이 이스케이프되어 들어올 때가 있어서, 한번 파싱해줌
+                    const parsed = new DOMParser().parseFromString(desc, "text/html");
+                    const img = parsed.querySelector("img");
+                    if (img?.getAttribute("src")) return img.getAttribute("src");
+
+                    // 그래도 없으면 정규식으로 한 번 더
+                    m = desc.match(/<img[^>]+src=['"]([^'"]+)['"]/i);
+                    if (m) return m[1];
+
+                    return fallbackThumb;
+                }
+
+                try {
+                    const raw = await fetch(url).then(r => r.text());
+                    const start = raw.indexOf("<?xml");
+                    const xmlText = start >= 0 ? raw.slice(start) : raw;
+
+                    const doc = new DOMParser().parseFromString(xmlText, "text/xml");
+                    const items = Array.from(doc.querySelectorAll("item")).slice(0, 4);
+
+                    container.innerHTML = "";
+
+                    items.forEach(it => {
+                        const title = it.querySelector("title")?.textContent ?? "";
+                        const link = it.querySelector("link")?.textContent ?? "";
+                        const pub = it.querySelector("pubDate")?.textContent ?? "";
+                        const dateText = pub ? new Date(pub).toISOString().slice(0, 10) : "";
+
+                        const thumb = pickThumb(it);
+
+                        const a = document.createElement("a");
+                        a.href = link;
+                        a.target = "_blank";
+                        a.rel = "noopener noreferrer";
+                        a.innerHTML = `
+                                        <div class="card">
+                                            <img class="thumb" src="${thumb}" alt="">
+                                            <div class="meta">
+                                                <h3>${title}</h3>
+                                                <p class="date">${dateText}</p>
+                                            </div>
+                                        </div>
+                                    `;
+                        a.querySelector("img").addEventListener("error", e => e.currentTarget.src = fallbackThumb);
+                        container.appendChild(a);
+                    });
+
+                } catch (e) {
+                    console.error(e);
+                    container.innerHTML = `<p>APP 로딩 실패: ${e}</p>`;
+                }
+            });
+        </script>
+
+        <style>
+            #blog-list {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+                /* Narrower to fit 4 */
+                gap: 20px;
+                /* Tighter gap */
+                margin-top: 30px;
+            }
+
+            @media (max-width: 768px) {
+                #blog-list {
+                    grid-template-columns: repeat(2, 1fr);
+                    gap: 12px;
+                }
+
+                .thumb {
+                    height: 180px !important;
+                    border-radius: 12px !important;
+                }
+
+                .meta h3 {
+                    font-size: 0.95rem !important;
+                }
+            }
+
+            #blog-list a {
+                text-decoration: none;
+                color: inherit;
+                transition: transform 0.3s ease;
+                display: block;
+            }
+
+            #blog-list a:hover {
+                transform: translateY(-8px);
+            }
+
+            .card {
+                display: flex;
+                flex-direction: column;
+                gap: 12px;
+                height: 100%;
+            }
+
+            .thumb {
+                width: 100%;
+                height: 320px;
+                /* Portrait mode (Vertical) */
+                object-fit: cover;
+                border-radius: 16px;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            }
+
+            .meta h3 {
+                margin: 0;
+                font-size: 1.1rem;
+                font-weight: 700;
+                line-height: 1.4;
+                color: #111;
+                text-align: center;
+            }
+
+            .date {
+                display: none;
+                /* Hide date as requested */
+            }
+        </style>
+
         <section id="contact" class="contact">
             <div class="container contact-container">
                 <h2 class="section-title">Contact Us</h2>

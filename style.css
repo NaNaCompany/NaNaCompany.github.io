@@ -434,8 +434,8 @@ ul {
 /* Contact */
 .contact {
     padding: 100px 0;
-    background: #f9fafb;
-    /* Light gray background */
+    background: #ffffff;
+    /* Reverted to white */
 }
 
 .contact-container {
