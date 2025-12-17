@@ -146,22 +146,105 @@
                 <h2 class="section-title">Contact Us</h2>
                 <p class="contact-desc">나나컴퍼니와 함께 비즈니스의 혁신을 시작하세요.</p>
 
-                <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="contact-form">
+                <form id="contact-form" class="contact-form">
                     <div class="form-group">
                         <label for="name">Name</label>
-                        <input type="text" id="name" name="name" required placeholder="이름을 입력해주세요">
+                        <input type="text" id="mail_name" name="mail_name" required placeholder="이름을 입력해주세요">
                     </div>
                     <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" required placeholder="이메일을 입력해주세요">
+                        <label for="institution">Institution</label>
+                        <input type="text" id="mail_institution" name="mail_institution" required
+                            placeholder="소속 기관명을 입력해주세요">
+                    </div>
+                    <div class="form-group">
+                        <label for="mail_phone">Phone Number</label>
+                        <div class="phone-input-group">
+                            <select id="country_code" name="country_code">
+                                <option value="+82">🇰🇷 +82</option>
+                                <option value="+1">🇺🇸 +1</option>
+                                <option value="+81">🇯🇵 +81</option>
+                                <option value="+86">🇨🇳 +86</option>
+                                <option value="">직접입력</option>
+                            </select>
+                            <input type="tel" id="mail_phone" name="mail_phone" placeholder="전화번호를 입력해주세요">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="mail_email">Email</label>
+                        <input type="email" id="mail_email" name="mail_email" required placeholder="이메일을 입력해주세요">
+                    </div>
+                    <div class="form-group">
+                        <label for="mail_title">Title</label>
+                        <input id="mail_title" name="mail_title" required placeholder="제목을 입력해주세요"></input>
                     </div>
                     <div class="form-group">
                         <label for="message">Message</label>
-                        <textarea id="message" name="message" required placeholder="문의하실 내용을 남겨주세요"></textarea>
+                        <textarea id="mail_message" name="mail_message" required
+                            placeholder="문의하실 내용을 남겨주세요"></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary btn-full">문의 보내기</button>
-                    <!-- Formspree needs a real ID, user will need to replace YOUR_FORM_ID -->
                 </form>
+                <script type="text/javascript"
+                    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+                <script type="text/javascript">
+                    (function () {
+                        // Initialize EmailJS with your Public Key
+                        // You can find this in your Account > API Keys
+                        // emailjs.init("YOUR_PUBLIC_KEY");
+                    })();
+                </script>
+                <script>
+                    /* Custom Dropdown Logic */
+                    document.addEventListener('DOMContentLoaded', function () {
+                        var x, i, j, l, ll, selElmnt, a, b, c;
+                        /* Look for any elements with the class "custom-select": */
+                        const selectedDiv = document.querySelector(".select-selected");
+                        const itemsDiv = document.querySelector(".select-items");
+                        const hiddenInput = document.getElementById("country_code");
+                        const options = itemsDiv.getElementsByTagName("div");
+
+                        // Toggle dropdown
+                        selectedDiv.addEventListener("click", function (e) {
+                            e.stopPropagation();
+                            closeAllSelect(this);
+                            this.nextElementSibling.classList.toggle("select-hide");
+                            this.classList.toggle("select-arrow-active");
+                        });
+
+                        // Option click
+                        for (let i = 0; i < options.length; i++) {
+                            options[i].addEventListener("click", function (e) {
+                                e.stopPropagation();
+                                const value = this.getAttribute("data-value");
+                                const text = this.innerText;
+
+                                selectedDiv.innerHTML = text;
+                                hiddenInput.value = value;
+                                selectedDiv.classList.add("active"); // Change text color
+
+                                // Highlight selected
+                                const siblings = this.parentNode.children;
+                                for (let k = 0; k < siblings.length; k++) {
+                                    siblings[k].classList.remove("same-as-selected");
+                                }
+                                this.classList.add("same-as-selected");
+
+                                // Close dropdown
+                                itemsDiv.classList.add("select-hide");
+                                selectedDiv.classList.remove("select-arrow-active");
+                            });
+                        }
+
+                        function closeAllSelect(elmnt) {
+                            if (elmnt == selectedDiv) return;
+                            itemsDiv.classList.add("select-hide");
+                            selectedDiv.classList.remove("select-arrow-active");
+                        }
+
+                        document.addEventListener("click", closeAllSelect);
+                    });
+                </script>
+                <script src="email-sender.js"></script>
             </div>
         </section>
     </main>
