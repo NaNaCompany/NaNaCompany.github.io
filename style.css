@@ -224,15 +224,28 @@ ul {
 
 .img-placeholder {
     width: 100%;
-    height: 300px;
+    height: auto;
+    /* Let image define height to prevent cropping */
     background: linear-gradient(135deg, #e0e7ff 0%, #f3f4f6 100%);
     border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--text-muted);
-    font-weight: 600;
-    font-size: 1.2rem;
+    display: block;
+    /* Changed from flex to block */
+    overflow: hidden;
+    /* Ensure image doesn't bleed out */
+    box-shadow: var(--shadow-md);
+}
+
+#profile_pic {
+    width: 100%;
+    height: auto;
+    /* Maintain aspect ratio */
+    display: block;
+    /* Remove bottom space */
+    transition: transform 0.3s ease;
+}
+
+#profile_pic:hover {
+    transform: scale(1.05);
 }
 
 /* Services */
@@ -353,19 +366,63 @@ ul {
 .partners-grid {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 20px;
     flex-wrap: wrap;
     margin-top: 40px;
+    /* min-height removed to reduce empty space */
+    align-content: flex-start;
+    /* Prevent vertical stretching */
+}
+
+.partner-categories {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.category-btn {
+    padding: 10px 24px;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    /* Pill shape */
+    background: white;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text-muted);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.category-btn:hover {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.category-btn.active {
+    background: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+    box-shadow: 0 4px 10px rgba(255, 193, 7, 0.3);
 }
 
 .partner-logo {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #9ca3af;
-    padding: 20px 40px;
+    font-size: 1rem;
+    /* Reduced size */
+    font-weight: 600;
+    color: #6b7280;
+    padding: 12px 20px;
+    /* Reduced padding */
     border: 1px solid #e5e7eb;
-    border-radius: 10px;
+    border-radius: 8px;
     transition: all 0.3s;
+    background: white;
+    cursor: default;
+}
+
+.partner-logo.hidden {
+    display: none;
 }
 
 .partner-logo:hover {
@@ -377,7 +434,8 @@ ul {
 /* Contact */
 .contact {
     padding: 100px 0;
-    background: linear-gradient(to bottom, #fff, #f8f9fa);
+    background: #f9fafb;
+    /* Light gray background */
 }
 
 .contact-container {
@@ -430,6 +488,31 @@ ul {
 .form-group textarea {
     height: 120px;
     resize: vertical;
+}
+
+.form-reveal {
+    max-height: 0 !important;
+    opacity: 0 !important;
+    overflow: hidden !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding: 0 !important;
+    visibility: hidden !important;
+    transition: all 0.5s ease-in-out;
+}
+
+.form-reveal.active {
+    max-height: 150px !important;
+    /* Sufficient height for input */
+    opacity: 1 !important;
+    margin-bottom: 20px !important;
+    visibility: visible !important;
+    padding: 0 !important;
+    /* Form group padding is usually 0, inputs provide it */
+}
+
+.form-reveal.overflow-visible {
+    overflow: visible !important;
 }
 
 .btn-full {
@@ -493,7 +576,9 @@ ul {
 
     .img-placeholder {
         width: 100%;
-        max-width: 400px;
+        max-width: 300px;
+        height: auto;
+        /* Allow auto height on mobile too */
     }
 
     .process-steps {
