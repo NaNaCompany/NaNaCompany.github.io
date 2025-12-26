@@ -734,9 +734,15 @@ ul {
 
 .apps-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 30px;
+    grid-template-columns: 1fr;
+    /* Single column */
+    gap: 40px;
+    /* Increased gap for better separation */
     margin-top: 40px;
+    max-width: 600px;
+    /* Limit width for vertical cards to look like a feed */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .app-card {
@@ -748,27 +754,37 @@ ul {
     border: 1px solid rgba(0, 0, 0, 0.05);
     display: flex;
     flex-direction: column;
+    /* Revert to Vertical */
+}
+
+@media (max-width: 768px) {
+    /* Mobile styles default to the main styles now since main is also vertical */
 }
 
 .app-card:hover {
-    transform: translateY(-8px);
+    transform: translateY(-4px);
     box-shadow: var(--shadow-md);
     border-color: rgba(255, 193, 7, 0.4);
 }
 
 .app-thumb {
     width: 100%;
+    /* Full width */
     aspect-ratio: 3 / 2;
     object-fit: cover;
     background-color: #eee;
     border-bottom: 1px solid #f0f0f0;
+    /* Restore bottom border */
+    border-right: none;
+    /* Remove right border */
 }
 
 .app-content {
-    padding: 24px;
+    padding: 30px;
     flex: 1;
     display: flex;
     flex-direction: column;
+    /* align-items: flex-start;  Default block is fine */
 }
 
 .app-title {
