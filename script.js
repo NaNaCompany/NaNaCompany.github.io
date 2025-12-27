@@ -213,6 +213,43 @@ function initCoverFlow(slider) {
         targetScroll = currentScroll - walk;
     });
 
+    // Touch Events
+    slider.addEventListener('touchstart', (e) => {
+        resetIdle();
+        isDown = true;
+        isDragging = false;
+        slider.classList.add('active');
+        startX = e.touches[0].pageX;
+        currentScroll = slider.scrollLeft;
+        targetScroll = currentScroll;
+        isPhysicsActive = true;
+    }, { passive: true });
+
+    slider.addEventListener('touchend', () => {
+        isDown = false;
+        slider.classList.remove('active');
+    });
+
+    slider.addEventListener('touchmove', (e) => {
+        if (!isDown) return;
+        // Prevent page scroll while swiping
+        // Using passive: false to allow this
+        e.preventDefault();
+
+        const x = e.touches[0].pageX;
+        const walk = (x - startX) * SENSITIVITY;
+
+        // Lock scroll if mostly horizontal
+        // Simple approach: always prevent default if moving horizontally? 
+        // For better UX, we'd calculate slope. 
+        // But for this fix, we'll rely on CSS touch-action if possible, or just preventDefault.
+        // Since we are not changing CSS, let's just implement the logic.
+        // Note: 'passive: false' is needed to use preventDefault()
+
+        isDragging = true;
+        targetScroll = currentScroll - walk;
+    }, { passive: false });
+
     window.addEventListener('resize', () => requestAnimationFrame(() => updateVisuals(slider)));
 
     const items = slider.querySelectorAll('a');

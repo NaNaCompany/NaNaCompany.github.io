@@ -932,8 +932,9 @@ ul {
     }
 
     .thumb {
-        height: 180px !important;
-        border-radius: 12px !important;
+        /* height and border-radius override removed to allow full coverage */
+        /* height: 180px !important; */
+        /* border-radius: 12px !important; */
     }
 
     .meta h3 {
@@ -1063,8 +1064,8 @@ ul {
 
 @media (max-width: 768px) {
     #blog-list a {
-        flex: 0 0 200px;
-        height: 300px;
+        flex: 0 0 240px;
+        height: 400px;
         /* Portrait for mobile */
     }
 }
