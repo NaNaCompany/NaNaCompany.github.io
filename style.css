@@ -894,3 +894,191 @@ ul {
     border-color: var(--primary-color);
     color: var(--primary-color);
 }
+
+/* Extracted from index.html */
+#blog-list {
+    display: flex;
+    overflow-x: hidden;
+    /* Hide scrollbar, handled by JS */
+    gap: 0px;
+    padding: 60px calc(50% - 180px);
+    /* Centering padding for desktop */
+    /* scroll-snap-type removed to prevent conflict with JS physics */
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+
+    perspective: 1000px;
+    align-items: center;
+    cursor: grab;
+}
+
+#blog-list.active {
+    cursor: grabbing;
+    scroll-snap-type: none;
+    /* Disable snap while dragging */
+}
+
+#blog-list::-webkit-scrollbar {
+    display: none;
+    /* Hide scrollbar for WebKit */
+}
+
+@media (max-width: 768px) {
+    #blog-list {
+        /* Mobile item width is 200px usually. Half 100px */
+        padding: 40px calc(50% - 100px);
+        gap: 10px;
+        perspective: 800px;
+    }
+
+    .thumb {
+        height: 180px !important;
+        border-radius: 12px !important;
+    }
+
+    .meta h3 {
+        font-size: 0.95rem !important;
+    }
+}
+
+#blog-list a {
+    flex: 0 0 360px;
+    /* Desktop: 3:2 Ratio */
+    height: 240px;
+    /* scroll-snap-align removed */
+    text-decoration: none;
+    color: inherit;
+    display: block;
+
+    transition: opacity 0.3s, filter 0.3s;
+    /* Removed transform transition for smoother JS control */
+    transform-style: preserve-3d;
+    will-change: transform;
+    /* Hint for browser performance */
+    opacity: 0.7;
+    transform: scale(0.8) rotateY(0deg);
+    margin: 0 10px;
+
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+#blog-list a .thumb {
+    height: 100%;
+    /* Fill the card height */
+    object-fit: cover;
+}
+
+#blog-list a.active-card {
+    opacity: 1;
+    filter: brightness(1.1);
+    z-index: 100;
+}
+
+#blog-list a:hover {
+    filter: brightness(1.2);
+}
+
+/* Swipe Hint Styles */
+#swipe-hint {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    /* Let clicks pass through */
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    text-align: center;
+    z-index: 1000;
+    color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 15px 25px;
+    border-radius: 30px;
+    backdrop-filter: blur(4px);
+}
+
+#swipe-hint.visible {
+    opacity: 1;
+}
+
+.hand-icon {
+    animation: swipe-move 1.5s infinite ease-in-out;
+}
+
+.hint-text {
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+@keyframes swipe-move {
+
+    0%,
+    100% {
+        transform: translateX(-15px);
+    }
+
+    50% {
+        transform: translateX(15px);
+    }
+}
+
+.card {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    height: 100%;
+    pointer-events: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.thumb {
+    width: 100%;
+    height: 100%;
+    /* Fill container */
+    object-fit: cover;
+    border-radius: 16px;
+    /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); removed */
+}
+
+.meta {
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#blog-list a img {
+    pointer-events: none;
+}
+
+@media (max-width: 768px) {
+    #blog-list a {
+        flex: 0 0 200px;
+        height: 300px;
+        /* Portrait for mobile */
+    }
+}
+
+.meta h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 1.4;
+    color: #111;
+    text-align: center;
+}
+
+.date {
+    display: none;
+    /* Hide date as requested */
+}
