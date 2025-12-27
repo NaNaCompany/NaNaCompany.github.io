@@ -388,68 +388,105 @@
             document.addEventListener("DOMContentLoaded", async () => {
                 const container = document.getElementById("blog-list");
                 const rss = "https://bhban.tistory.com/rss";
-                const url = "https://r.jina.ai/http://" + rss.replace(/^https?:\/\//, "");
+                // Switch to r.jina.ai as requested for text-based RSS parsing
+                const url = "https://r.jina.ai/" + rss;
 
                 const fallbackThumb = "https://via.placeholder.com/240x144?text=Blog";
 
-                function pickThumb(item) {
-                    const mt = item.getElementsByTagName("media:thumbnail")[0];
-                    if (mt?.getAttribute("url")) return mt.getAttribute("url");
-
-                    const enc = item.getElementsByTagName("enclosure")[0];
-                    if (enc?.getAttribute("url")) return enc.getAttribute("url");
-
-                    const ce = item.getElementsByTagName("content:encoded")[0]?.textContent ?? "";
-                    let m = ce.match(/<img[^>]+src=['"]([^'"]+)['"]/i);
-                    if (m) return m[1];
-
-                    const desc = item.getElementsByTagName("description")[0]?.textContent ?? "";
-                    const parsed = new DOMParser().parseFromString(desc, "text/html");
-                    const img = parsed.querySelector("img");
-                    if (img?.getAttribute("src")) return img.getAttribute("src");
-
-                    m = desc.match(/<img[^>]+src=['"]([^'"]+)['"]/i);
-                    if (m) return m[1];
-
-                    return fallbackThumb;
-                }
-
                 try {
                     const raw = await fetch(url).then(r => r.text());
-                    const start = raw.indexOf("<?xml");
-                    const xmlText = start >= 0 ? raw.slice(start) : raw;
 
-                    const doc = new DOMParser().parseFromString(xmlText, "text/xml");
-                    const items = Array.from(doc.querySelectorAll("item")).slice(0, 10);
+                    // Split by the separator used by Jina's output
+                    const chunks = raw.split("===============");
+                    const items = [];
+
+                    // Logic:
+                    // Chunk i-1 Footer -> Title of Item i
+                    // Chunk i Content -> Content of Item i (Link, Date, Image)
+
+                    for (let i = 2; i < chunks.length; i++) {
+                        const prev = chunks[i - 1];
+                        const current = chunks[i];
+
+                        // Extract Title from previous chunk (end of the chunk)
+                        const prevLines = prev.trim().split(/\r?\n/);
+                        const lastLine = prevLines[prevLines.length - 1].trim();
+
+                        // The last line looks like: "Metadata   Title" or just "Title"
+                        // We split by 2 or more spaces to separate metadata from title
+                        const titleParts = lastLine.split(/\s{2,}/);
+                        const title = titleParts[titleParts.length - 1].trim();
+
+                        // Extract Link (Start of current chunk)
+                        const linkMatch = current.trim().match(/^https?:\/\/[^\s]+/);
+                        const link = linkMatch ? linkMatch[0] : "";
+
+                        // Extract Date (Look for date pattern at the end of current chunk)
+                        // Pattern: Sat, 27 Dec 2025 22:20:25 +0900
+                        const dateMatch = current.match(/[a-zA-Z]{3}, \d{1,2} [a-zA-Z]{3} \d{4} \d{2}:\d{2}:\d{2} \+\d{4}/);
+                        let isoDate = "";
+                        if (dateMatch) {
+                            try {
+                                isoDate = new Date(dateMatch[0]).toISOString().slice(0, 10);
+                            } catch (e) { /* ignore */ }
+                        }
+
+                        // Extract Image using DOMParser for robustness
+                        let thumb = fallbackThumb;
+                        try {
+                            // Extract potential HTML content
+                            const doc = new DOMParser().parseFromString(current, 'text/html');
+                            const img = doc.querySelector('img');
+                            if (img && img.src) {
+                                thumb = img.src;
+                            } else {
+                                // Fallback for pure Markdown images ![alt](url)
+                                const mdImg = current.match(/!\[.*?\]\((.*?)\)/);
+                                if (mdImg) thumb = mdImg[1];
+                            }
+                        } catch (e) { console.warn("Image parse error", e); }
+
+                        // Basic validation
+                        if (title && link) {
+                            items.push({ title, link, date: isoDate, thumb });
+                        }
+                    }
+
+                    // Remove the first item as requested (it's often the channel info)
+                    if (items.length > 0) {
+                        items.shift();
+                    }
+
+                    // Limit to 10 items
+                    const validItems = items.slice(0, 10);
 
                     container.innerHTML = "";
 
-                    items.forEach(it => {
-                        const title = it.querySelector("title")?.textContent ?? "";
-                        const link = it.querySelector("link")?.textContent ?? "";
-                        const pub = it.querySelector("pubDate")?.textContent ?? "";
-                        const dateText = pub ? new Date(pub).toISOString().slice(0, 10) : "";
+                    if (validItems.length === 0) {
+                        console.warn("No items parsed from Jina.ai");
+                    }
 
-                        const thumb = pickThumb(it);
-
+                    validItems.forEach(it => {
                         const a = document.createElement("a");
-                        a.href = link;
+                        a.href = it.link;
                         a.target = "_blank";
                         a.rel = "noopener noreferrer";
-                        a.className = "blog-item"; // Add class for selection
-                        // Prevent default drag
+                        a.className = "blog-item";
                         a.ondragstart = () => false;
 
                         a.innerHTML = `
                                         <div class="card">
-                                            <img class="thumb" src="${thumb}" alt="">
+                                            <img class="thumb" src="${it.thumb}" alt="">
                                             <div class="meta">
-                                                <h3>${title}</h3>
-                                                <p class="date">${dateText}</p>
+                                                <h3>${it.title}</h3>
+                                                <p class="date">${it.date}</p>
                                             </div>
                                         </div>
                                     `;
-                        a.querySelector("img").addEventListener("error", e => e.currentTarget.src = fallbackThumb);
+                        const img = a.querySelector("img");
+                        if (img) {
+                            img.addEventListener("error", e => e.currentTarget.src = fallbackThumb);
+                        }
                         container.appendChild(a);
                     });
 
@@ -457,8 +494,8 @@
                     initCoverFlow(container);
 
                 } catch (e) {
-                    console.error(e);
-                    container.innerHTML = `<p>APP 로딩 실패: ${e}</p>`;
+                    console.error("RSS parsing error:", e);
+                    container.innerHTML = `<p style="text-align:center; width:100%;">Failed to load apps: ${e.message}</p>`;
                 }
             });
 
