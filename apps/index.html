@@ -53,6 +53,11 @@
             <a href="../index.html" class="logo">
                 <img src="https://cdn.jsdelivr.net/gh/NaNaCompany/src_cdn@main/logo/logo.png" alt="NaNa Company Logo">
             </a>
+            <button class="menu-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
             <nav class="nav">
                 <a href="../index.html#services">Services</a>
                 <a href="../index.html#about">About</a>
@@ -163,6 +168,28 @@
                             </p>
 
                             <a href="https://nanalab.kr/doc_compress/" class="btn btn-sm btn-outline">Launch App</a>
+                        </div>
+                    </div>
+                    <!-- Video to GIF -->
+                    <div class="app-card">
+                        <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FcpRGXO%2FdJMcadgh7wA%2FAAAAAAAAAAAAAAAAAAAAAElZ09ffsp5yO5X3aLwJ_ip-ZCcHJb6DHWgc4DfU4YUL%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1767193199%26allow_ip%3D%26allow_referer%3D%26signature%3DQRrm4Ak4HPA2pFGl1ionKq5xmSE%253D"
+                            alt="Video to GIF" class="app-thumb">
+                        <div class="app-content">
+                            <h3 class="app-title">Video to GIF</h3>
+                            <p class="app-desc">
+                                Marketers, designers, webmasters, and other media professionals often need to convert
+                                videos into GIF files
+                                for presentations, documentation, or social media content.
+                                This lightweight GIF converter offers a much faster and more convenient alternative
+                                to launching heavy desktop software such as professional video editors.
+                                Built on a serverless architecture, all processing is performed locally on the user’s
+                                computer,
+                                so video data is never uploaded or transmitted externally.
+                                This makes the tool suitable for converting sensitive or confidential video materials
+                                while maintaining both efficiency and data privacy.
+                            </p>
+
+                            <a href="http://nanalab.kr/video_2_gif/" class="btn btn-sm btn-outline">Launch App</a>
                         </div>
                     </div>
                     <!-- Image Resize -->
@@ -291,8 +318,8 @@
                             Investment Apps require Google login, but it is to allow you to save your data on YOUR
                             GOOGLE DRIVE DIRECTORY, not our system. NaNa Apps does not have any DB servers so you do not
                             have to worry about data leakage. Please check
-                            our <a href="https://nanalab.kr/privacy"
-                                target="_blank" style="color: var(--primary-color); text-decoration: underline;">Privacy
+                            our <a href="https://nanalab.kr/privacy" target="_blank"
+                                style="color: var(--primary-color); text-decoration: underline;">Privacy
                                 Policy</a> for more details.</p>
                     </div>
                 </div>
@@ -314,6 +341,11 @@
             <p>&copy; 2025 NaNa Company. All rights reserved.</p>
         </div>
     </footer>
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function () {
+            document.querySelector('.nav').classList.toggle('active');
+        });
+    </script>
 </body>
 
 </html>

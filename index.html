@@ -49,11 +49,17 @@
             <a href="#" class="logo">
                 <img src="https://cdn.jsdelivr.net/gh/NaNaCompany/src_cdn@main/logo/logo.png" alt="NaNa Company Logo">
             </a>
+            <button class="menu-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
             <nav class="nav">
                 <a href="#services">Services</a>
                 <a href="#about">About</a>
                 <a href="#partners">Customers</a>
                 <a href="#process">Process</a>
+                <a href="#apps">Recent</a>
                 <a href="apps/">APPs</a>
                 <a href="#contact">Contact</a>
             </nav>
@@ -352,9 +358,29 @@
         </section>
 
         <section id="apps" class="apps">
-            <div class="container">
-                <h2 class="section-title">Recent Apps</h2>
-                <div id="blog-list"></div>
+            <div class="container" style="position: relative;"> <!-- Added relative positioning context -->
+                <a href="https://nanalab.kr/apps">
+                    <h2 class="section-title">Recent Apps</h2>
+                </a>
+
+                <div id="blog-list">
+                    <!-- Blog items will be dynamically inserted here -->
+                </div>
+
+                <!-- Swipe Hint Indicator -->
+                <div id="swipe-hint">
+                    <div class="hand-icon">
+                        <!-- Simple SVG Hand Icon -->
+                        <svg viewBox="0 0 24 24" width="40" height="40" fill="white">
+                            <path
+                                d="M12,1L9,9l-7,0l2,9h14l3-8l-5,0l1-9H12z M12,3h1.5L12.8,9H18l-2.1,5.6L14.5,17H6.6l-1.6-7.2L6.1,9H10L12,3z"
+                                opacity="0.5" />
+                            <path d="M9,9l-7,0l2,9h14l3-8l-5,0l1-9H12z" stroke="white" stroke-width="1.5"
+                                fill="rgba(255,255,255,0.2)" />
+                        </svg>
+                    </div>
+                    <div class="hint-text">Swipe to explore</div>
+                </div>
             </div>
         </section>
 
@@ -364,32 +390,24 @@
                 const rss = "https://bhban.tistory.com/rss";
                 const url = "https://r.jina.ai/http://" + rss.replace(/^https?:\/\//, "");
 
-                // ✅ 이건 진짜 존재하는 파일로 바꿔줘야 "대체 이미지"가 보임
-                // 예: /assets/logo.png 같은 걸로
                 const fallbackThumb = "https://via.placeholder.com/240x144?text=Blog";
 
                 function pickThumb(item) {
-                    // 1) media:thumbnail
                     const mt = item.getElementsByTagName("media:thumbnail")[0];
                     if (mt?.getAttribute("url")) return mt.getAttribute("url");
 
-                    // 2) enclosure (가끔 여기로 이미지가 들어옴)
                     const enc = item.getElementsByTagName("enclosure")[0];
                     if (enc?.getAttribute("url")) return enc.getAttribute("url");
 
-                    // 3) content:encoded에서 첫 img
                     const ce = item.getElementsByTagName("content:encoded")[0]?.textContent ?? "";
                     let m = ce.match(/<img[^>]+src=['"]([^'"]+)['"]/i);
                     if (m) return m[1];
 
-                    // 4) description에서 첫 img (티스토리에서 여기만 들어오는 경우 많음)
                     const desc = item.getElementsByTagName("description")[0]?.textContent ?? "";
-                    // description은 HTML이 이스케이프되어 들어올 때가 있어서, 한번 파싱해줌
                     const parsed = new DOMParser().parseFromString(desc, "text/html");
                     const img = parsed.querySelector("img");
                     if (img?.getAttribute("src")) return img.getAttribute("src");
 
-                    // 그래도 없으면 정규식으로 한 번 더
                     m = desc.match(/<img[^>]+src=['"]([^'"]+)['"]/i);
                     if (m) return m[1];
 
@@ -402,7 +420,7 @@
                     const xmlText = start >= 0 ? raw.slice(start) : raw;
 
                     const doc = new DOMParser().parseFromString(xmlText, "text/xml");
-                    const items = Array.from(doc.querySelectorAll("item")).slice(0, 4);
+                    const items = Array.from(doc.querySelectorAll("item")).slice(0, 10);
 
                     container.innerHTML = "";
 
@@ -418,6 +436,10 @@
                         a.href = link;
                         a.target = "_blank";
                         a.rel = "noopener noreferrer";
+                        a.className = "blog-item"; // Add class for selection
+                        // Prevent default drag
+                        a.ondragstart = () => false;
+
                         a.innerHTML = `
                                         <div class="card">
                                             <img class="thumb" src="${thumb}" alt="">
@@ -431,27 +453,366 @@
                         container.appendChild(a);
                     });
 
+                    // Initialize Cover Flow & Drag
+                    initCoverFlow(container);
+
                 } catch (e) {
                     console.error(e);
                     container.innerHTML = `<p>APP 로딩 실패: ${e}</p>`;
                 }
             });
+
+            function initCoverFlow(slider) {
+                let isDown = false;
+                let startX;
+                let scrollLeft;
+                let isDragging = false;
+
+                // Physics Variables
+                let currentScroll = slider.scrollLeft;
+                let targetScroll = slider.scrollLeft;
+                let velocity = 0;
+                let isPhysicsActive = false;
+
+                // Config
+                const SENSITIVITY = 4.2; // Boosted by 20% (3.5 -> 4.2)
+                const FRICTION = 0.96;
+                const LERP_FACTOR = 0.07; // Lowered from 0.1 to 0.07 for "heavier/slower" feel
+                const MAX_VELOCITY = 48; // Boosted by 20% (40 -> 48)
+                const SNAP_THRESHOLD = 3.0; // Speed under which we start snapping
+
+                // State for Snapping
+                let isSnapping = false;
+                let snapTarget = 0;
+
+                // Idle Timer State
+                let idleTimer;
+                const swipeHint = document.getElementById('swipe-hint');
+
+                function resetIdle() {
+                    if (swipeHint.classList.contains('visible')) {
+                        swipeHint.classList.remove('visible');
+                    }
+                    clearTimeout(idleTimer);
+                    idleTimer = setTimeout(() => {
+                        // Only show if we are not currently dragging
+                        if (!isDown && !isPhysicsActive) {
+                            swipeHint.classList.add('visible');
+                        }
+                    }, 3000); // 3 seconds
+                }
+
+                // Initialize Idle Timer
+                resetIdle();
+
+                // MAIN LOOP: Handles Physics AND Rendering together to prevent jitter
+                function render() {
+                    // 1. Physics Step
+                    if (isPhysicsActive) {
+                        // If moving, definitely not idle (though interaction handles reset, this is extra safety)
+                        if (swipeHint.classList.contains('visible') && Math.abs(velocity) > 0.5) {
+                            swipeHint.classList.remove('visible');
+                        }
+
+                        if (isDown) {
+                            // DRAGGING: Spring physics
+                            isSnapping = false; // Cancel any snap
+                            const diff = targetScroll - currentScroll;
+                            velocity = diff * LERP_FACTOR;
+
+                            // LIMIT SPEED
+                            if (Math.abs(velocity) > MAX_VELOCITY) {
+                                velocity = (velocity > 0 ? 1 : -1) * MAX_VELOCITY;
+                                targetScroll = currentScroll + (velocity / LERP_FACTOR);
+                            }
+                            currentScroll += velocity;
+                        } else {
+                            // RELEASED: Inertia Or Snapping
+
+                            if (isSnapping) {
+                                // Magnetic Snap (Spring to center)
+                                const snapDiff = snapTarget - currentScroll;
+                                velocity = snapDiff * 0.15; // Snap LERP factor
+                                currentScroll += velocity;
+
+                                // Stop if settled
+                                if (Math.abs(velocity) < 0.1 && Math.abs(snapDiff) < 0.5) {
+                                    isPhysicsActive = false;
+                                    velocity = 0;
+                                    currentScroll = snapTarget; // Force perfect alignment
+                                    resetIdle(); // Restart idle timer after settling
+                                }
+                            } else {
+                                // Free Glide (Inertia)
+                                currentScroll += velocity;
+                                velocity *= FRICTION;
+
+                                // Check if we should activate SNAP
+                                if (Math.abs(velocity) < SNAP_THRESHOLD) {
+                                    isSnapping = true;
+
+                                    // Calculate Step Size dynamically (Desktop vs Mobile)
+                                    // Desktop: 360width + 20margin = 380
+                                    // Mobile: 200width + 20margin = 220
+                                    const firstCard = slider.querySelector('a');
+                                    // Use hardcoded values for stability or measure? 
+                                    // Measuring is safer for responsiveness.
+                                    // Margin is 10px on both sides = 20px GAP.
+                                    const stepSize = (firstCard ? firstCard.offsetWidth : 360) + 20;
+
+                                    // Find Nearest Slot
+                                    const rawIndex = currentScroll / stepSize;
+                                    let snappedIndex = Math.round(rawIndex);
+
+                                    // Boundary checks (0 to length-1) -> Optional, visual update handles valid range, 
+                                    // but good to keep scroll reasonable. 
+                                    // Actually infinite scroll isn't enabled, so clamp to list bounds?
+                                    // scrollLeft can be anything, but let's clamp for sanity.
+                                    const maxIndex = slider.querySelectorAll('a').length - 1;
+                                    if (snappedIndex < 0) snappedIndex = 0;
+                                    if (snappedIndex > maxIndex) snappedIndex = maxIndex;
+
+                                    snapTarget = snappedIndex * stepSize;
+                                }
+                            }
+                        }
+                        // Apply physics to DOM
+                        slider.scrollLeft = currentScroll;
+                    } else {
+                        // If physics isn't running, we might be scrolling natively (trackpad)
+                        // Sync our physics var to the real DOM so we don't jump when we start dragging again
+                        if (Math.abs(slider.scrollLeft - currentScroll) > 1) {
+                            currentScroll = slider.scrollLeft;
+                            targetScroll = slider.scrollLeft;
+                            resetIdle(); // User scrolled natively, reset idle
+                        }
+                    }
+
+                    // 2. Render Step (Always run visuals)
+                    updateVisuals(slider);
+
+                    requestAnimationFrame(render);
+                }
+
+                // Start the loop
+                requestAnimationFrame(render);
+
+                // Drag Events
+                slider.addEventListener('mousedown', (e) => {
+                    resetIdle(); // User interacted
+                    isDown = true;
+                    isDragging = false;
+                    slider.classList.add('active');
+
+                    startX = e.pageX;
+                    // Sync state immediately
+                    currentScroll = slider.scrollLeft;
+                    targetScroll = currentScroll;
+
+                    isPhysicsActive = true;
+                });
+
+                slider.addEventListener('mouseleave', () => {
+                    isDown = false;
+                    slider.classList.remove('active');
+                });
+
+                slider.addEventListener('mouseup', () => {
+                    isDown = false;
+                    slider.classList.remove('active');
+                    // Physics loop continues in "Released" mode
+                });
+
+                slider.addEventListener('mousemove', (e) => {
+                    if (!isDown) return;
+                    e.preventDefault();
+                    isDragging = true;
+
+                    const x = e.pageX;
+                    const walk = (x - startX) * SENSITIVITY;
+                    // Update TARGET, not current. Current chases target in loop.
+                    // Note: direction inverted for drag (drag left = scroll right)
+                    targetScroll = currentScroll - walk; // Use currentScroll as base for target calculation
+                });
+
+                // Capture initial scrollLeft on mousedown - handled in new logic
+
+                // Clean up old listeners that might fight
+                // slider.addEventListener('scroll', ...) <-- Removed!
+                window.addEventListener('resize', () => requestAnimationFrame(() => updateVisuals(slider)));
+                // The following block was likely intended to be inside the forEach loop where 'a' (link) is created.
+                // Since it's outside, and 'link' is not defined here, I'm commenting it out to avoid a reference error.
+                // If it was meant to apply to all 'a' elements, it should be refactored.
+                /*
+                    link.addEventListener('click', (e) => {
+                        // If it was a drag, prevent everything
+                        if (isDragging) {
+                            e.preventDefault();
+                            e.stopPropagation();
+                            return;
+                        }
+
+                        // Check if this item is the "active" center card
+                        if (!link.classList.contains('active-card')) {
+                            // Ideally, we want to scroll to this item
+                            e.preventDefault();
+                            const targetCenter = link.offsetLeft + (link.offsetWidth / 2);
+                            const containerCenter = slider.offsetWidth / 2;
+
+                            slider.scrollTo({
+                                left: targetCenter - containerCenter,
+                                behavior: 'smooth'
+                            });
+
+                            // Also trigger visual update loop during smooth scroll
+                            // Native smooth scroll doesn't fire 'scroll' events as frequently/predictably for rAF in all browsers,
+                            // but our existing scroll listener should handle it.
+                        }
+                        // Else: Let default happen (navigation)
+                    });
+                */
+
+                // The `items.forEach` loop where `a` (link) is created is above.
+                // We need to add the click listener there.
+                // Re-adding the click listener logic inside the `items.forEach` loop.
+                const items = slider.querySelectorAll('a');
+                items.forEach(link => {
+                    link.addEventListener('click', (e) => {
+                        if (isDragging) {
+                            e.preventDefault();
+                            e.stopPropagation();
+                            return;
+                        }
+
+                        if (!link.classList.contains('active-card')) {
+                            e.preventDefault();
+                            const targetCenter = link.offsetLeft + (link.offsetWidth / 2);
+                            const containerCenter = slider.offsetWidth / 2;
+
+                            // Update targetScroll for smooth scroll via physics loop
+                            targetScroll = targetCenter - containerCenter;
+                            isPhysicsActive = true; // Ensure physics loop is active for smooth scroll
+                            resetIdle(); // User clicked, reset idle
+                        }
+                    });
+                });
+
+
+                // Scroll & Resize Listeners for Visuals
+                // These are now handled by the main render loop, but resize still needs to trigger updateVisuals
+                // slider.addEventListener('scroll', () => requestAnimationFrame(() => updateVisuals(slider))); // Removed, handled by render loop
+                window.addEventListener('resize', () => requestAnimationFrame(() => updateVisuals(slider)));
+
+                // Initial Update
+                // updateVisuals(slider); // Removed, render loop calls it immediately
+
+                // Center initial item (optional, scroll to start)
+                slider.scrollLeft = 0;
+            }
+
+            function updateVisuals(slider) {
+                const center = slider.scrollLeft + (slider.offsetWidth / 2);
+                const items = slider.querySelectorAll('a');
+
+                items.forEach(item => {
+                    const itemCenter = item.offsetLeft + (item.offsetWidth / 2);
+                    const distance = (center - itemCenter); // Signed distance
+                    const absDist = Math.abs(distance);
+                    const maxDist = slider.offsetWidth / 2;
+
+                    let scale = 1;
+                    let rotate = 0;
+                    let zIndex = 0;
+                    let opacity = 1;
+                    let translateX = 0;
+
+                    // Core Interaction
+                    if (absDist < maxDist) {
+                        const effect = 1 - (absDist / maxDist);
+
+                        scale = 0.8 + (effect * 0.2); // 0.8 -> 1.0
+                        opacity = 0.5 + (effect * 0.5);
+                        zIndex = Math.floor(effect * 100);
+
+                        // Rotation & Tightening (TranslateX)
+                        // Extreme overlap: was 130, now 190
+                        const overlap = 190 * (1 - effect);
+
+                        if (distance > 0) { // Item is to the LEFT of center
+                            rotate = 45 * (1 - effect); // Face right
+                            translateX = overlap;
+                        } else { // Item is to the RIGHT of center
+                            rotate = -45 * (1 - effect); // Face left
+                            translateX = -overlap;
+                        }
+
+                    } else {
+                        scale = 0.8;
+                        opacity = 0.5;
+                        zIndex = 0;
+                        const overlap = 190;  // Consistent with above
+                        if (distance > 0) {
+                            rotate = 45;
+                            translateX = overlap;
+                        } else {
+                            rotate = -45;
+                            translateX = -overlap;
+                        }
+                    }
+
+                    // Snap-to-center highlight
+                    if (absDist < 40) {
+                        item.classList.add('active-card');
+                        rotate = 0;
+                        translateX = 0;
+                        opacity = 1;
+                        scale = 1.05;
+                        zIndex = 200;
+                    } else {
+                        item.classList.remove('active-card');
+                    }
+
+                    item.style.transform = `translateX(${translateX}px) scale(${scale}) rotateY(${rotate}deg)`;
+                    item.style.opacity = opacity;
+                    item.style.zIndex = zIndex;
+                });
+            }
         </script>
 
         <style>
             #blog-list {
-                display: grid;
-                grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-                /* Narrower to fit 4 */
-                gap: 20px;
-                /* Tighter gap */
-                margin-top: 30px;
+                display: flex;
+                overflow-x: hidden;
+                /* Hide scrollbar, handled by JS */
+                gap: 0px;
+                padding: 60px calc(50% - 180px);
+                /* Centering padding for desktop */
+                /* scroll-snap-type removed to prevent conflict with JS physics */
+                -webkit-overflow-scrolling: touch;
+                scrollbar-width: none;
+
+                perspective: 1000px;
+                align-items: center;
+                cursor: grab;
+            }
+
+            #blog-list.active {
+                cursor: grabbing;
+                scroll-snap-type: none;
+                /* Disable snap while dragging */
+            }
+
+            #blog-list::-webkit-scrollbar {
+                display: none;
+                /* Hide scrollbar for WebKit */
             }
 
             @media (max-width: 768px) {
                 #blog-list {
-                    grid-template-columns: repeat(2, 1fr);
-                    gap: 12px;
+                    /* Mobile item width is 200px usually. Half 100px */
+                    padding: 40px calc(50% - 100px);
+                    gap: 10px;
+                    perspective: 800px;
                 }
 
                 .thumb {
@@ -465,30 +826,131 @@
             }
 
             #blog-list a {
+                flex: 0 0 360px;
+                /* Desktop: 3:2 Ratio */
+                height: 240px;
+                /* scroll-snap-align removed */
                 text-decoration: none;
                 color: inherit;
-                transition: transform 0.3s ease;
                 display: block;
+
+                transition: opacity 0.3s, filter 0.3s;
+                /* Removed transform transition for smoother JS control */
+                transform-style: preserve-3d;
+                will-change: transform;
+                /* Hint for browser performance */
+                opacity: 0.7;
+                transform: scale(0.8) rotateY(0deg);
+                margin: 0 10px;
+
+                user-select: none;
+                -webkit-user-drag: none;
+            }
+
+            #blog-list a .thumb {
+                height: 100%;
+                /* Fill the card height */
+                object-fit: cover;
+            }
+
+            #blog-list a.active-card {
+                opacity: 1;
+                filter: brightness(1.1);
+                z-index: 100;
             }
 
             #blog-list a:hover {
-                transform: translateY(-8px);
+                filter: brightness(1.2);
+            }
+
+            /* Swipe Hint Styles */
+            #swipe-hint {
+                position: absolute;
+                top: 55%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                pointer-events: none;
+                /* Let clicks pass through */
+                opacity: 0;
+                transition: opacity 0.5s ease-in-out;
+                text-align: center;
+                z-index: 1000;
+                color: rgba(255, 255, 255, 0.8);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+                background: rgba(0, 0, 0, 0.3);
+                padding: 15px 25px;
+                border-radius: 30px;
+                backdrop-filter: blur(4px);
+            }
+
+            #swipe-hint.visible {
+                opacity: 1;
+            }
+
+            .hand-icon {
+                animation: swipe-move 1.5s infinite ease-in-out;
+            }
+
+            .hint-text {
+                font-size: 0.9rem;
+                font-weight: 500;
+                letter-spacing: 0.5px;
+            }
+
+            @keyframes swipe-move {
+
+                0%,
+                100% {
+                    transform: translateX(-15px);
+                }
+
+                50% {
+                    transform: translateX(15px);
+                }
             }
 
             .card {
+                background: white;
+                border-radius: 16px;
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+                overflow: hidden;
+                height: 100%;
+                pointer-events: none;
                 display: flex;
                 flex-direction: column;
-                gap: 12px;
-                height: 100%;
             }
 
             .thumb {
                 width: 100%;
-                height: 320px;
-                /* Portrait mode (Vertical) */
+                height: 100%;
+                /* Fill container */
                 object-fit: cover;
                 border-radius: 16px;
-                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+                /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); removed */
+            }
+
+            .meta {
+                padding: 15px;
+                background: rgba(255, 255, 255, 0.9);
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                text-align: center;
+            }
+
+            #blog-list a img {
+                pointer-events: none;
+            }
+
+            @media (max-width: 768px) {
+                #blog-list a {
+                    flex: 0 0 200px;
+                    height: 300px;
+                    /* Portrait for mobile */
+                }
             }
 
             .meta h3 {
@@ -729,6 +1191,11 @@
             <p>&copy; 2025 NaNa Company. All rights reserved.</p>
         </div>
     </footer>
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function () {
+            document.querySelector('.nav').classList.toggle('active');
+        });
+    </script>
 </body>
 
 </html>
