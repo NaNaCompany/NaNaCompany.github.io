@@ -2,7 +2,7 @@
 
 **AI for Every Business**
 
-이 저장소는 [NaNa Lab 공식 웹사이트📍nanalab.kr](https://nanalab.kr/?utm_source=chatgpt.com) 의 소개 및 정보를 담고 있는 README 입니다.
+이 저장소는 [NaNa Lab 공식 웹사이트📍nanalab.kr](https://nanalab.kr/?utm_source=chatgpt.com) 의 호스팅을 위한 레포지토리입니다.
 
 ---
 
@@ -49,4 +49,5 @@
 ## 📄 라이선스
 
 이 저장소의 수정을 불허합니다.
+
 
