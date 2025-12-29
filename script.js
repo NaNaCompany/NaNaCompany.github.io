@@ -2,63 +2,41 @@
 // 1. RSS Fetching & Rendering
 document.addEventListener("DOMContentLoaded", async () => {
     const container = document.getElementById("blog-list");
-    const rss = "https://bhban.tistory.com/rss";
-    const url = "https://r.jina.ai/" + rss;
+    const url = "http://168.107.56.28/rss";
 
     const fallbackThumb = "https://via.placeholder.com/240x144?text=Blog";
 
     try {
         const raw = await fetch(url).then(r => r.text());
+        const parser = new DOMParser();
+        const xmlDoc = parser.parseFromString(raw, "text/xml");
+        const items = Array.from(xmlDoc.querySelectorAll("item"));
 
-        const chunks = raw.split("===============");
-        const items = [];
+        const validItems = items.map(item => {
+            const title = item.querySelector("title")?.textContent || "";
+            const link = item.querySelector("link")?.textContent || "";
+            const pubDate = item.querySelector("pubDate")?.textContent || "";
+            const description = item.querySelector("description")?.textContent || "";
 
-        for (let i = 2; i < chunks.length; i++) {
-            const prev = chunks[i - 1];
-            const current = chunks[i];
-
-            // Extract Title
-            const prevLines = prev.trim().split(/\r?\n/);
-            const lastLine = prevLines[prevLines.length - 1].trim();
-            const titleParts = lastLine.split(/\s{2,}/);
-            const title = titleParts[titleParts.length - 1].trim();
-
-            // Extract Link
-            const linkMatch = current.trim().match(/^https?:\/\/[^\s]+/);
-            const link = linkMatch ? linkMatch[0] : "";
-
-            // Extract Date
-            const dateMatch = current.match(/[a-zA-Z]{3}, \d{1,2} [a-zA-Z]{3} \d{4} \d{2}:\d{2}:\d{2} \+\d{4}/);
             let isoDate = "";
-            if (dateMatch) {
+            if (pubDate) {
                 try {
-                    isoDate = new Date(dateMatch[0]).toISOString().slice(0, 10);
+                    isoDate = new Date(pubDate).toISOString().slice(0, 10);
                 } catch (e) { /* ignore */ }
             }
 
-            // Extract Image
             let thumb = fallbackThumb;
-            try {
-                const doc = new DOMParser().parseFromString(current, 'text/html');
-                const img = doc.querySelector('img');
-                if (img && img.src) {
-                    thumb = img.src;
-                } else {
-                    const mdImg = current.match(/!\[.*?\]\((.*?)\)/);
-                    if (mdImg) thumb = mdImg[1];
-                }
-            } catch (e) { console.warn("Image parse error", e); }
-
-            if (title && link) {
-                items.push({ title, link, date: isoDate, thumb });
+            // Try to find an image in description
+            const imgMatch = description.match(/<img[^>]+src="([^">]+)"/);
+            if (imgMatch) {
+                thumb = imgMatch[1];
             }
-        }
 
-        if (items.length > 0) items.shift();
-        const validItems = items.slice(0, 10);
+            return { title, link, date: isoDate, thumb };
+        }).slice(0, 15); // Take top 15
 
         container.innerHTML = "";
-        if (validItems.length === 0) console.warn("No items parsed from Jina.ai");
+        if (validItems.length === 0) console.warn("No items parsed from RSS proxy");
 
         validItems.forEach(it => {
             const a = document.createElement("a");
@@ -87,8 +65,6 @@ document.addEventListener("DOMContentLoaded", async () => {
         // Add "More Apps" Card
         const moreAppsLink = document.createElement("a");
         moreAppsLink.href = "https://nanalab.kr/apps";
-        // moreAppsLink.target = "_blank"; // Internal link, maybe same tab? User said "이동" (move/go), usually same tab for navigation. Let's keep same tab or new? External links are _blank. 
-        // User request: "그거 클릭하면 https://nanalab.kr/apps 로 이동" -> Standard navigation.
         moreAppsLink.className = "blog-item blink"; // Add blink class
         moreAppsLink.ondragstart = () => false;
         moreAppsLink.innerHTML = `

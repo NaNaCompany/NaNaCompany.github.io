@@ -1079,6 +1079,10 @@ ul {
     text-align: center;
 }
 
+:root {
+    color-scheme: light only;
+}
+
 .date {
     display: none;
     /* Hide date as requested */
