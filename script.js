@@ -2,7 +2,7 @@
 // 1. RSS Fetching & Rendering
 document.addEventListener("DOMContentLoaded", async () => {
     const container = document.getElementById("blog-list");
-    const url = "http://168.107.56.28/rss";
+    const url = "https://api.nanalab.kr/rss";
 
     const fallbackThumb = "https://via.placeholder.com/240x144?text=Blog";
 
