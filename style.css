@@ -1083,3 +1083,43 @@ ul {
     display: none;
     /* Hide date as requested */
 }
+
+/* More Apps Card */
+.more-apps-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: linear-gradient(135deg, #fce38a 0%, #f38181 100%);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 16px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    position: relative;
+    overflow: hidden;
+}
+
+.more-apps-card .more-text {
+    z-index: 2;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.blink {
+    animation: blink-animation 2s infinite;
+}
+
+@keyframes blink-animation {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

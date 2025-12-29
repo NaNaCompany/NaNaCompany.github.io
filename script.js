@@ -84,6 +84,20 @@ document.addEventListener("DOMContentLoaded", async () => {
             container.appendChild(a);
         });
 
+        // Add "More Apps" Card
+        const moreAppsLink = document.createElement("a");
+        moreAppsLink.href = "https://nanalab.kr/apps";
+        // moreAppsLink.target = "_blank"; // Internal link, maybe same tab? User said "이동" (move/go), usually same tab for navigation. Let's keep same tab or new? External links are _blank. 
+        // User request: "그거 클릭하면 https://nanalab.kr/apps 로 이동" -> Standard navigation.
+        moreAppsLink.className = "blog-item blink"; // Add blink class
+        moreAppsLink.ondragstart = () => false;
+        moreAppsLink.innerHTML = `
+            <div class="card more-apps-card">
+                <span class="more-text">More Apps...</span>
+            </div>
+        `;
+        container.appendChild(moreAppsLink);
+
         initCoverFlow(container);
 
     } catch (e) {
@@ -237,7 +251,7 @@ function initCoverFlow(slider) {
         e.preventDefault();
 
         const x = e.touches[0].pageX;
-        const walk = (x - startX) * SENSITIVITY;
+        const walk = (x - startX) * SENSITIVITY * 0.5; // Reduced speed by half for mobile
 
         // Lock scroll if mostly horizontal
         // Simple approach: always prevent default if moving horizontally? 
