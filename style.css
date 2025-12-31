@@ -898,18 +898,18 @@ ul {
 /* Extracted from index.html */
 #blog-list {
     display: flex;
-    overflow-x: hidden;
+    overflow-x: auto;
     /* Hide scrollbar, handled by JS */
     gap: 0px;
     padding: 60px calc(50% - 180px);
     /* Centering padding for desktop */
-    /* scroll-snap-type removed to prevent conflict with JS physics */
+    scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
 
     perspective: 1000px;
     align-items: center;
-    cursor: grab;
+
 }
 
 #blog-list.active {
@@ -925,8 +925,8 @@ ul {
 
 @media (max-width: 768px) {
     #blog-list {
-        /* Mobile item width is 200px usually. Half 100px */
-        padding: 40px calc(50% - 100px);
+        /* Mobile item width is 240px. Half is 120px */
+        padding: 40px calc(50% - 120px);
         gap: 10px;
         perspective: 800px;
     }
@@ -946,7 +946,8 @@ ul {
     flex: 0 0 360px;
     /* Desktop: 3:2 Ratio */
     height: 240px;
-    /* scroll-snap-align removed */
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
     text-decoration: none;
     color: inherit;
     display: block;

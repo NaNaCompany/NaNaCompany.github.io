@@ -84,184 +84,21 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 // 2. Cover Flow Physics
 function initCoverFlow(slider) {
-    let isDown = false;
-    let startX;
-    let scrollLeft;
-    let isDragging = false;
+    // Initial update
+    updateVisuals(slider);
 
-    let currentScroll = slider.scrollLeft;
-    let targetScroll = slider.scrollLeft;
-    let velocity = 0;
-    let isPhysicsActive = false;
-
-    const SENSITIVITY = 4.2;
-    const FRICTION = 0.96;
-    const LERP_FACTOR = 0.07;
-    const MAX_VELOCITY = 48;
-    const SNAP_THRESHOLD = 3.0;
-
-    let isSnapping = false;
-    let snapTarget = 0;
-    let idleTimer;
-    const swipeHint = document.getElementById('swipe-hint');
-
-    function resetIdle() {
-        if (swipeHint.classList.contains('visible')) {
-            swipeHint.classList.remove('visible');
-        }
-        clearTimeout(idleTimer);
-        idleTimer = setTimeout(() => {
-            if (!isDown && !isPhysicsActive) {
-                swipeHint.classList.add('visible');
-            }
-        }, 3000);
-    }
-
-    resetIdle();
-
-    function render() {
-        if (isPhysicsActive) {
-            if (swipeHint.classList.contains('visible') && Math.abs(velocity) > 0.5) {
-                swipeHint.classList.remove('visible');
-            }
-
-            if (isDown) {
-                isSnapping = false;
-                const diff = targetScroll - currentScroll;
-                velocity = diff * LERP_FACTOR;
-                if (Math.abs(velocity) > MAX_VELOCITY) velocity = (velocity > 0 ? 1 : -1) * MAX_VELOCITY;
-                targetScroll = currentScroll + (velocity / LERP_FACTOR);
-                currentScroll += velocity;
-            } else {
-                if (isSnapping) {
-                    const snapDiff = snapTarget - currentScroll;
-                    velocity = snapDiff * 0.15;
-                    currentScroll += velocity;
-                    if (Math.abs(velocity) < 0.1 && Math.abs(snapDiff) < 0.5) {
-                        isPhysicsActive = false;
-                        velocity = 0;
-                        currentScroll = snapTarget;
-                        resetIdle();
-                    }
-                } else {
-                    currentScroll += velocity;
-                    velocity *= FRICTION;
-                    if (Math.abs(velocity) < SNAP_THRESHOLD) {
-                        isSnapping = true;
-                        const firstCard = slider.querySelector('a');
-                        const stepSize = (firstCard ? firstCard.offsetWidth : 360) + 20;
-                        const rawIndex = currentScroll / stepSize;
-                        let snappedIndex = Math.round(rawIndex);
-                        const maxIndex = slider.querySelectorAll('a').length - 1;
-                        if (snappedIndex < 0) snappedIndex = 0;
-                        if (snappedIndex > maxIndex) snappedIndex = maxIndex;
-                        snapTarget = snappedIndex * stepSize;
-                    }
-                }
-            }
-            slider.scrollLeft = currentScroll;
-        } else {
-            if (Math.abs(slider.scrollLeft - currentScroll) > 1) {
-                currentScroll = slider.scrollLeft;
-                targetScroll = slider.scrollLeft;
-                resetIdle();
-            }
-        }
-        updateVisuals(slider);
-        requestAnimationFrame(render);
-    }
-
-    requestAnimationFrame(render);
-
-    slider.addEventListener('mousedown', (e) => {
-        resetIdle();
-        isDown = true;
-        isDragging = false;
-        slider.classList.add('active');
-        startX = e.pageX;
-        currentScroll = slider.scrollLeft;
-        targetScroll = currentScroll;
-        isPhysicsActive = true;
-    });
-
-    slider.addEventListener('mouseleave', () => {
-        isDown = false;
-        slider.classList.remove('active');
-    });
-
-    slider.addEventListener('mouseup', () => {
-        isDown = false;
-        slider.classList.remove('active');
-    });
-
-    slider.addEventListener('mousemove', (e) => {
-        if (!isDown) return;
-        e.preventDefault();
-        isDragging = true;
-        const x = e.pageX;
-        const walk = (x - startX) * SENSITIVITY;
-        targetScroll = currentScroll - walk;
-    });
-
-    // Touch Events
-    slider.addEventListener('touchstart', (e) => {
-        resetIdle();
-        isDown = true;
-        isDragging = false;
-        slider.classList.add('active');
-        startX = e.touches[0].pageX;
-        currentScroll = slider.scrollLeft;
-        targetScroll = currentScroll;
-        isPhysicsActive = true;
+    // Update visuals on native scroll
+    slider.addEventListener('scroll', () => {
+        requestAnimationFrame(() => updateVisuals(slider));
     }, { passive: true });
 
-    slider.addEventListener('touchend', () => {
-        isDown = false;
-        slider.classList.remove('active');
+    // Update on resize
+    window.addEventListener('resize', () => {
+        requestAnimationFrame(() => updateVisuals(slider));
     });
 
-    slider.addEventListener('touchmove', (e) => {
-        if (!isDown) return;
-        // Prevent page scroll while swiping
-        // Using passive: false to allow this
-        e.preventDefault();
-
-        const x = e.touches[0].pageX;
-        const walk = (x - startX) * SENSITIVITY * 0.5; // Reduced speed by half for mobile
-
-        // Lock scroll if mostly horizontal
-        // Simple approach: always prevent default if moving horizontally? 
-        // For better UX, we'd calculate slope. 
-        // But for this fix, we'll rely on CSS touch-action if possible, or just preventDefault.
-        // Since we are not changing CSS, let's just implement the logic.
-        // Note: 'passive: false' is needed to use preventDefault()
-
-        isDragging = true;
-        targetScroll = currentScroll - walk;
-    }, { passive: false });
-
-    window.addEventListener('resize', () => requestAnimationFrame(() => updateVisuals(slider)));
-
-    const items = slider.querySelectorAll('a');
-    items.forEach(link => {
-        link.addEventListener('click', (e) => {
-            if (isDragging) {
-                e.preventDefault();
-                e.stopPropagation();
-                return;
-            }
-            if (!link.classList.contains('active-card')) {
-                e.preventDefault();
-                const targetCenter = link.offsetLeft + (link.offsetWidth / 2);
-                const containerCenter = slider.offsetWidth / 2;
-                targetScroll = targetCenter - containerCenter;
-                isPhysicsActive = true;
-                resetIdle();
-            }
-        });
-    });
-
-    slider.scrollLeft = 0;
+    // Optional: Center the first card initially or restore position if needed
+    // slider.scrollLeft = 0; 
 }
 
 function updateVisuals(slider) {
