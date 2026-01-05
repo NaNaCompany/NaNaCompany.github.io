@@ -62,7 +62,6 @@ document.addEventListener("DOMContentLoaded", async () => {
             container.appendChild(a);
         });
 
-        // Add "More Apps" Card
         const moreAppsLink = document.createElement("a");
         moreAppsLink.href = "https://nanalab.kr/apps";
         moreAppsLink.className = "blog-item blink"; // Add blink class
@@ -75,12 +74,45 @@ document.addEventListener("DOMContentLoaded", async () => {
         container.appendChild(moreAppsLink);
 
         initCoverFlow(container);
+        initDragScroll(container); // Initialize Drag Scroll
 
     } catch (e) {
         console.error("RSS parsing error:", e);
         container.innerHTML = `<p style="text-align:center; width:100%;">Failed to load apps: ${e.message}</p>`;
     }
 });
+
+// 2. Click-and-Drag Scrolling
+function initDragScroll(slider) {
+    let isDown = false;
+    let startX;
+    let scrollLeft;
+
+    slider.addEventListener('mousedown', (e) => {
+        isDown = true;
+        slider.classList.add('active');
+        startX = e.pageX - slider.offsetLeft;
+        scrollLeft = slider.scrollLeft;
+    });
+
+    slider.addEventListener('mouseleave', () => {
+        isDown = false;
+        slider.classList.remove('active');
+    });
+
+    slider.addEventListener('mouseup', () => {
+        isDown = false;
+        slider.classList.remove('active');
+    });
+
+    slider.addEventListener('mousemove', (e) => {
+        if (!isDown) return;
+        e.preventDefault();
+        const x = e.pageX - slider.offsetLeft;
+        const walk = (x - startX) * 2; // Scroll-fast
+        slider.scrollLeft = scrollLeft - walk;
+    });
+}
 
 // 2. Cover Flow Physics
 function initCoverFlow(slider) {
