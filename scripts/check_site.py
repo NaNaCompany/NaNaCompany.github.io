@@ -6,6 +6,7 @@ from collections import Counter
 import json
 import re
 import runpy
+from datetime import datetime
 import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -83,6 +84,8 @@ def check():
             assert target.exists(), f'Missing resource {name}: {link}'
         if name in {'index.html','apps/index.html'}:
             assert set(page.app_ids) == app_ids and len(page.app_ids) == len(apps), name
+            expected_order = [app['id'] for app in sorted(apps, key=lambda app: datetime.fromisoformat(app['published_at'].replace('Z', '+00:00')), reverse=True)]
+            assert page.app_ids == expected_order, f'Apps not newest first: {name}'
     ET.fromstring(outputs['sitemap.xml'])
     print(json.dumps({'status':'passed', 'checks':['catalog coverage','build freshness','unique IDs','local links and assets','heading structure','RSS removal','sitemap XML'], **counts}, ensure_ascii=False))
 

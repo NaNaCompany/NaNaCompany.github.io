@@ -4,7 +4,7 @@ Usage: python scripts/build_site.py [--check]
 Requires only the Python standard library. No network access during builds.
 """
 from pathlib import Path
-from datetime import date
+from datetime import date, datetime
 from html import escape, unescape
 from html.parser import HTMLParser
 from urllib.parse import urljoin
@@ -134,17 +134,18 @@ def portfolio_section(key, heading, cards, preview=False):
 
 def build():
     apps = json.loads(read('content/apps.json'))
+    apps = sorted(apps, key=lambda app: datetime.fromisoformat(app['published_at'].replace('Z', '+00:00')), reverse=True)
     assert len({a['id'] for a in apps}) == len(apps)
     shell = read('content/home-shell.html')
     sections = {key: imported(key) for key in ['lectures','papers','patents','websites']}
     assert all(sections.values())
     shell = shell.replace('</head>', '<link rel="stylesheet" href="/additions.css">\n</head>')
     shell = shell.replace('src="script.js"', 'src="/script.js?v=archives-20261024"')
-    shell = shell.replace('href="/additions.css"', 'href="/additions.css?v=archives-20261024"')
+    shell = shell.replace('href="/additions.css"', 'href="/additions.css?v=app-list-20261024"')
     shell = shell.replace('<a href="#apps">Recent</a>', '<a href="#apps">Apps</a>')
     shell = shell.replace('<a href="https://nanalab.kr/apps">APPs</a>', '<a href="#lectures">Lectures</a><a href="#research">Research</a>')
     app_section = directory(apps).replace('class="directory-section container"', 'class="app-section catalog-addition container"')
-    app_section = app_section.replace('어떤 일이든, 더 가볍게.', 'NaNa Apps').replace('THE APP COLLECTION', 'APPS')
+    app_section = app_section.replace('어떤 일이든, 더 가볍게.', 'NaNa Apps').replace('THE APP COLLECTION', 'APPS').replace('작업에 꼭 맞는 작은 도구를 찾아보세요.', '최신 앱부터 만나보세요. 작업에 꼭 맞는 도구를 찾아보세요.')
     # Only replace the old RSS section; the existing page sections and order stay intact.
     shell = re.sub(r'<section id="apps".*?</section>', lambda _: app_section, shell, flags=re.S)
     previews = lecture_archive(sections['lectures']) + research_archive(sections)

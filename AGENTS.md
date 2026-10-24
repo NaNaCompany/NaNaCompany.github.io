@@ -15,3 +15,5 @@ Run `python scripts/build_site.py --check`, `python scripts/check_site.py`, `nod
 Imported portfolio snapshots belong in `content/portfolio/`. Use `scripts/sync_portfolio.py` to refresh them from a verified source checkout. Preserve publication/preprint labels and original document links.
 
 Display full Lectures and R&D archives on the homepage, not three-card previews. Match the source site's lecture cross-listing: combine `lectures` with `courses-offline`, deduplicate by record ID, sort by latest date, and retain the institution filters (기업, 공공기관, 교육기관, 연구기관, 컨퍼런스). Do not add an online-courses button or section. R&D contains all papers, patents, and projects, with their respective routes and navigation.
+
+Keep app cards in one column at every viewport width. Order apps newest first by `published_at`: use verified GitHub repository creation timestamps for repository apps, and the first directory registration timestamp for external apps. Set `date_source` accordingly. Do not reorder based on maintenance commits. Require dates for newly added apps so later builds remain deterministic.

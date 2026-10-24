@@ -55,6 +55,8 @@
 
 ## 사이트 유지보수
 
+앱 카드는 모든 화면에서 1컬럼으로 표시합니다. `content/apps.json`의 `published_at`에는 시간대가 포함된 ISO 8601 시각을 기록합니다. 저장소 앱은 GitHub 저장소 생성일(`date_source: github_repository_created_at`), 외부 앱은 최초 디렉터리 등록 시각(`date_source: directory_registration`)을 사용하며 최신순으로 자동 정렬됩니다. 유지보수 커밋은 노출 순서를 바꾸지 않습니다.
+
 원래 디자인과 히어로 영상, Services·About·Customers·Process·Contact 섹션을 유지합니다. RSS 영역만 앱 카드 격자로 교체하고 Lectures·Research 섹션을 추가했습니다. 새로운 스타일은 `additions.css`의 추가 섹션에만 적용합니다.
 
 - 앱 원본: `content/apps.json` — 항목 추가 후 빌드하면 메인과 `/apps/`에 함께 반영됩니다. 이미지가 없으면 `symbol`을 표시합니다. 외부 썸네일은 `image_url`로 지정합니다.

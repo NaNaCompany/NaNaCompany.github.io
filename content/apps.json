@@ -5,7 +5,9 @@
     "category": "생활·업무",
     "description": "일반 계산부터 환율 계산까지. 음성 입력과 계산 기록을 함께 활용하세요.",
     "image": "smart_calculator.png",
-    "symbol": "±"
+    "symbol": "±",
+    "published_at": "2025-12-17T14:23:34Z",
+    "date_source": "github_repository_created_at"
   },
   {
     "id": "qr",
@@ -13,7 +15,9 @@
     "category": "생활·업무",
     "description": "링크를 공유하기 쉬운 나만의 QR 코드로 만들어 보세요.",
     "image": "qr.png",
-    "symbol": "▦"
+    "symbol": "▦",
+    "published_at": "2025-12-26T12:05:00Z",
+    "date_source": "github_repository_created_at"
   },
   {
     "id": "count_words",
@@ -21,7 +25,9 @@
     "category": "문서·텍스트",
     "description": "한글 글자 수와 바이트를 확인하고, 작성한 글의 분량을 살펴보세요.",
     "image": "count_words.png",
-    "symbol": "Aa"
+    "symbol": "Aa",
+    "published_at": "2025-12-29T11:28:36Z",
+    "date_source": "github_repository_created_at"
   },
   {
     "id": "image_resize",
@@ -29,7 +35,9 @@
     "category": "이미지·미디어",
     "description": "이미지의 크기와 비율을 바꾸고 필요한 부분만 잘라내세요.",
     "image": "image_resize.png",
-    "symbol": "↗"
+    "symbol": "↗",
+    "published_at": "2025-12-26T18:05:57Z",
+    "date_source": "github_repository_created_at"
   },
   {
     "id": "merge_pdf",
@@ -37,7 +45,9 @@
     "category": "문서·텍스트",
     "description": "흩어진 PDF 파일을 원하는 순서로 모아 하나의 문서로 만드세요.",
     "image": "merge_pdf.png",
-    "symbol": "▤"
+    "symbol": "▤",
+    "published_at": "2025-12-31T00:36:06Z",
+    "date_source": "github_repository_created_at"
   },
   {
     "id": "doc_compress",
@@ -45,7 +55,9 @@
     "category": "문서·텍스트",
     "description": "PDF와 오피스 문서, 이미지의 용량을 줄이는 도구입니다.",
     "image": "doc_compress.png",
-    "symbol": "↓"
+    "symbol": "↓",
+    "published_at": "2025-12-26T12:20:24Z",
+    "date_source": "github_repository_created_at"
   },
   {
     "id": "doc_stat",
@@ -53,7 +65,9 @@
     "category": "문서·텍스트",
     "description": "PDF와 DOCX의 페이지 수, 단어 수 등 문서 정보를 확인하세요.",
     "image": "doc_stat.png",
-    "symbol": "≡"
+    "symbol": "≡",
+    "published_at": "2025-12-29T11:32:08Z",
+    "date_source": "github_repository_created_at"
   },
   {
     "id": "doc_summarizer",
@@ -61,7 +75,9 @@
     "category": "문서·텍스트",
     "description": "긴 문서를 읽고 핵심 내용을 정리하는 데 도움을 주는 도구입니다.",
     "image": "doc_summary.jpg",
-    "symbol": "¶"
+    "symbol": "¶",
+    "published_at": "2025-12-29T12:25:25Z",
+    "date_source": "github_repository_created_at"
   },
   {
     "id": "lipsum",
@@ -69,7 +85,9 @@
     "category": "문서·텍스트",
     "description": "디자인과 문서 작업에 필요한 예시 텍스트를 만들어 보세요.",
     "image": "lipsum.png",
-    "symbol": "Tt"
+    "symbol": "Tt",
+    "published_at": "2025-12-29T11:58:31Z",
+    "date_source": "github_repository_created_at"
   },
   {
     "id": "gif_studio",
@@ -77,7 +95,9 @@
     "category": "이미지·미디어",
     "description": "GIF의 크기, 자르기, 회전과 용량 최적화를 한곳에서 처리하세요.",
     "image": "gif_studio.png",
-    "symbol": "GIF"
+    "symbol": "GIF",
+    "published_at": "2025-12-27T11:41:24Z",
+    "date_source": "github_repository_created_at"
   },
   {
     "id": "video_2_gif",
@@ -85,14 +105,18 @@
     "category": "이미지·미디어",
     "description": "동영상에서 필요한 순간을 골라 움직이는 GIF로 만드세요.",
     "image": "video_to_gif.png",
-    "symbol": "▶"
+    "symbol": "▶",
+    "published_at": "2025-12-27T04:22:03Z",
+    "date_source": "github_repository_created_at"
   },
   {
     "id": "audio_edit",
     "name": "오디오 편집기",
     "category": "이미지·미디어",
     "description": "오디오를 자르고 음량을 조절하거나 파일 형식을 변환하세요.",
-    "symbol": "♫"
+    "symbol": "♫",
+    "published_at": "2026-01-24T11:07:01Z",
+    "date_source": "github_repository_created_at"
   },
   {
     "id": "afd",
@@ -100,7 +124,9 @@
     "category": "생활·업무",
     "description": "회의나 외출 중일 때, 현재 상태를 화면에 표시해 두세요.",
     "image": "afd.png",
-    "symbol": "◷"
+    "symbol": "◷",
+    "published_at": "2025-12-31T00:52:25Z",
+    "date_source": "github_repository_created_at"
   },
   {
     "id": "bmi",
@@ -108,7 +134,9 @@
     "category": "생활·업무",
     "description": "키와 몸무게로 체질량지수를 간편하게 계산하세요.",
     "image": "bmi.png",
-    "symbol": "㎏"
+    "symbol": "㎏",
+    "published_at": "2025-12-31T01:29:09Z",
+    "date_source": "github_repository_created_at"
   },
   {
     "id": "fortune",
@@ -116,14 +144,18 @@
     "category": "재미·라이프",
     "description": "오늘은 어떤 하루가 될까요? 가볍게 운세를 확인해 보세요.",
     "image": "fortune.png",
-    "symbol": "✦"
+    "symbol": "✦",
+    "published_at": "2025-12-29T11:12:13Z",
+    "date_source": "github_repository_created_at"
   },
   {
     "id": "luck",
     "name": "럭키 캐논",
     "category": "재미·라이프",
     "description": "참가자를 모아 행운의 주인공을 뽑는 랜덤 추첨 도구입니다.",
-    "symbol": "★"
+    "symbol": "★",
+    "published_at": "2025-12-31T02:23:20Z",
+    "date_source": "github_repository_created_at"
   },
   {
     "id": "chatTemplate",
@@ -131,21 +163,27 @@
     "category": "재미·라이프",
     "description": "대화의 양쪽 역할을 직접 맡아 채팅 장면을 만들어 보세요.",
     "image": "solo_chat.png",
-    "symbol": "☏"
+    "symbol": "☏",
+    "published_at": "2026-01-08T02:29:39Z",
+    "date_source": "github_repository_created_at"
   },
   {
     "id": "ppp",
     "name": "Published Prompt Portal",
     "category": "AI·개발",
     "description": "도서로 출간된 프롬프트를 모아 소개하는 프롬프트 포털입니다.",
-    "symbol": "/"
+    "symbol": "/",
+    "published_at": "2026-01-06T05:53:58Z",
+    "date_source": "github_repository_created_at"
   },
   {
     "id": "astra",
     "name": "Astra Playground",
     "category": "AI·개발",
     "description": "AI 에이전트 실습용 사이트와 예제 파일을 한곳에서 만나보세요.",
-    "symbol": "✳"
+    "symbol": "✳",
+    "published_at": "2026-09-09T07:23:08Z",
+    "date_source": "github_repository_created_at"
   },
   {
     "id": "android_webview_template",
@@ -154,7 +192,9 @@
     "description": "설정 파일을 수정해 웹사이트를 안드로이드 앱으로 만드는 개발 템플릿입니다.",
     "symbol": "⌘",
     "url": "https://github.com/NaNaCompany/android_webview_template",
-    "kind": "template"
+    "kind": "template",
+    "published_at": "2026-01-01T02:31:22Z",
+    "date_source": "github_repository_created_at"
   },
   {
     "id": "rebirth_country",
@@ -162,7 +202,9 @@
     "category": "재미·라이프",
     "description": "다음 생에는 어느 나라에서 태어날까? 세계 인구 비례로 만나는 나의 새 나라와 여권.",
     "symbol": "✈",
-    "image_url": "https://nanalab.kr/rebirth_country/og/default.jpg"
+    "image_url": "https://nanalab.kr/rebirth_country/og/default.jpg",
+    "published_at": "2026-10-24T07:02:43Z",
+    "date_source": "github_repository_created_at"
   },
   {
     "id": "ai_knowledge_tree",
@@ -171,6 +213,8 @@
     "description": "대기업의 의뢰로 제작하였으며, 누구든지 AI 산업의 현주소를 한눈에 확인할 수 있도록 정리한 앱입니다.",
     "symbol": "AI",
     "url": "https://mind-map.ai.kr/",
-    "external": true
+    "external": true,
+    "published_at": "2026-10-24T16:45:12+09:00",
+    "date_source": "directory_registration"
   }
 ]
