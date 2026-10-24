@@ -204,7 +204,14 @@
     "symbol": "✈",
     "image_url": "https://nanalab.kr/rebirth_country/og/default.jpg",
     "published_at": "2026-10-24T07:02:43Z",
-    "date_source": "github_repository_created_at"
+    "date_source": "github_repository_created_at",
+    "languages": [
+      "ko",
+      "en",
+      "zh",
+      "es"
+    ],
+    "sitemap_lastmod": "2026-10-25"
   },
   {
     "id": "ai_knowledge_tree",
@@ -228,6 +235,202 @@
     "image_alt": "은행나무 사진이 담긴 민트색 지구 생물등록증.",
     "image_fit": "contain",
     "published_at": "2026-10-24T08:28:43Z",
-    "date_source": "github_repository_created_at"
+    "date_source": "github_repository_created_at",
+    "languages": [
+      "ko",
+      "en",
+      "zh",
+      "es"
+    ],
+    "sitemap_lastmod": "2026-10-25"
+  },
+  {
+    "id": "body-clock",
+    "name": "시계 없이 10초, 정확히 멈출 수 있을까?",
+    "category": "재미·라이프",
+    "description": "숫자를 보지 않고 10초를 세 번 재며 나의 시간 감각을 확인하는 게임입니다.",
+    "symbol": "▶",
+    "url": "https://nanalab.kr/body-clock/",
+    "image_url": "https://nanalab.kr/body-clock/og/default.jpg",
+    "image_alt": "시계 없이 10초, 정확히 멈출 수 있을까? 게임 소개",
+    "image_fit": "contain",
+    "published_at": "2026-10-24T21:18:19Z",
+    "date_source": "github_repository_created_at",
+    "repository_path": "sites/body-clock",
+    "languages": [
+      "ko",
+      "en",
+      "zh",
+      "es"
+    ],
+    "sitemap_lastmod": "2026-10-25"
+  },
+  {
+    "id": "color-drop",
+    "name": "하나만 다른 색, 끝까지 찾아낼 수 있을까?",
+    "category": "재미·라이프",
+    "description": "비슷한 색 타일 사이에서 하나만 다른 색을 찾아보세요.",
+    "symbol": "▶",
+    "url": "https://nanalab.kr/color-drop/",
+    "image_url": "https://nanalab.kr/color-drop/og/default.jpg",
+    "image_alt": "하나만 다른 색, 끝까지 찾아낼 수 있을까? 게임 소개",
+    "image_fit": "contain",
+    "published_at": "2026-10-24T21:18:22Z",
+    "date_source": "github_repository_created_at",
+    "repository_path": "sites/color-drop",
+    "languages": [
+      "ko",
+      "en",
+      "zh",
+      "es"
+    ],
+    "sitemap_lastmod": "2026-10-25"
+  },
+  {
+    "id": "level-frame",
+    "name": "기울어진 액자, 얼마나 정확하게 고칠 수 있을까?",
+    "category": "재미·라이프",
+    "description": "기울어진 액자를 돌려 수평 감각을 확인하는 게임입니다.",
+    "symbol": "▶",
+    "url": "https://nanalab.kr/level-frame/",
+    "image_url": "https://nanalab.kr/level-frame/og/default.jpg",
+    "image_alt": "기울어진 액자, 얼마나 정확하게 고칠 수 있을까? 게임 소개",
+    "image_fit": "contain",
+    "published_at": "2026-10-24T21:18:25Z",
+    "date_source": "github_repository_created_at",
+    "repository_path": "sites/level-frame",
+    "languages": [
+      "ko",
+      "en",
+      "zh",
+      "es"
+    ],
+    "sitemap_lastmod": "2026-10-25"
+  },
+  {
+    "id": "table-memory",
+    "name": "딱 3초 본 식탁, 얼마나 기억할 수 있을까?",
+    "category": "재미·라이프",
+    "description": "3초 동안 본 식탁을 기억해 사물의 배치를 맞혀 보세요.",
+    "symbol": "▶",
+    "url": "https://nanalab.kr/table-memory/",
+    "image_url": "https://nanalab.kr/table-memory/og/default.jpg",
+    "image_alt": "딱 3초 본 식탁, 얼마나 기억할 수 있을까? 게임 소개",
+    "image_fit": "contain",
+    "published_at": "2026-10-24T21:18:28Z",
+    "date_source": "github_repository_created_at",
+    "repository_path": "sites/table-memory",
+    "languages": [
+      "ko",
+      "en",
+      "zh",
+      "es"
+    ],
+    "sitemap_lastmod": "2026-10-25"
+  },
+  {
+    "id": "lunch-math",
+    "name": "계산기 없이 점심값, 얼마나 빨리 맞힐 수 있을까?",
+    "category": "재미·라이프",
+    "description": "계산기 없이 점심값을 계산하며 암산 속도와 정확도를 확인해 보세요.",
+    "symbol": "▶",
+    "url": "https://nanalab.kr/lunch-math/",
+    "image_url": "https://nanalab.kr/lunch-math/og/default.jpg",
+    "image_alt": "계산기 없이 점심값, 얼마나 빨리 맞힐 수 있을까? 게임 소개",
+    "image_fit": "contain",
+    "published_at": "2026-10-24T21:18:31Z",
+    "date_source": "github_repository_created_at",
+    "repository_path": "sites/lunch-math",
+    "languages": [
+      "ko",
+      "en",
+      "zh",
+      "es"
+    ],
+    "sitemap_lastmod": "2026-10-25"
+  },
+  {
+    "id": "rain-rhythm",
+    "name": "방금 본 빗방울, 같은 박자로 칠 수 있을까?",
+    "category": "재미·라이프",
+    "description": "방금 들은 빗방울의 리듬을 기억하고 같은 박자로 따라 쳐 보세요.",
+    "symbol": "▶",
+    "url": "https://nanalab.kr/rain-rhythm/",
+    "image_url": "https://nanalab.kr/rain-rhythm/og/default.jpg",
+    "image_alt": "방금 본 빗방울, 같은 박자로 칠 수 있을까? 게임 소개",
+    "image_fit": "contain",
+    "published_at": "2026-10-24T21:18:34Z",
+    "date_source": "github_repository_created_at",
+    "repository_path": "sites/rain-rhythm",
+    "languages": [
+      "ko",
+      "en",
+      "zh",
+      "es"
+    ],
+    "sitemap_lastmod": "2026-10-25"
+  },
+  {
+    "id": "next-life-stats",
+    "name": "다음 생에 쓸 100점, 어디에 걸어야 잘 풀릴까?",
+    "category": "재미·라이프",
+    "description": "다음 생에 쓸 100점을 나누고 나만의 결과를 확인하는 게임입니다.",
+    "symbol": "▶",
+    "url": "https://nanalab.kr/next-life-stats/",
+    "image_url": "https://nanalab.kr/next-life-stats/og/default.jpg",
+    "image_alt": "다음 생에 쓸 100점, 어디에 걸어야 잘 풀릴까? 게임 소개",
+    "image_fit": "contain",
+    "published_at": "2026-10-24T21:18:36Z",
+    "date_source": "github_repository_created_at",
+    "repository_path": "sites/next-life-stats",
+    "languages": [
+      "ko",
+      "en",
+      "zh",
+      "es"
+    ],
+    "sitemap_lastmod": "2026-10-25"
+  },
+  {
+    "id": "line-copy",
+    "name": "딱 2초 본 선, 똑같이 그릴 수 있을까?",
+    "category": "재미·라이프",
+    "description": "2초 동안 본 선의 길이를 기억하고 똑같이 그려 보세요.",
+    "symbol": "▶",
+    "url": "https://nanalab.kr/line-copy/",
+    "image_url": "https://nanalab.kr/line-copy/og/default.jpg",
+    "image_alt": "딱 2초 본 선, 똑같이 그릴 수 있을까? 게임 소개",
+    "image_fit": "contain",
+    "published_at": "2026-10-24T21:18:39Z",
+    "date_source": "github_repository_created_at",
+    "repository_path": "sites/line-copy",
+    "languages": [
+      "ko",
+      "en",
+      "zh",
+      "es"
+    ],
+    "sitemap_lastmod": "2026-10-25"
+  },
+  {
+    "id": "cat-naps",
+    "name": "까다로운 고양이 6마리, 전부 재울 수 있을까?",
+    "category": "재미·라이프",
+    "description": "여섯 고양이의 조건을 살피며 모두 잠들 수 있는 자리를 찾아보세요.",
+    "symbol": "▶",
+    "url": "https://nanalab.kr/cat-naps/",
+    "image_url": "https://nanalab.kr/cat-naps/og/default.jpg",
+    "image_alt": "까다로운 고양이 6마리, 전부 재울 수 있을까? 게임 소개",
+    "image_fit": "contain",
+    "published_at": "2026-10-24T21:18:42Z",
+    "date_source": "github_repository_created_at",
+    "repository_path": "sites/cat-naps",
+    "languages": [
+      "ko",
+      "en",
+      "zh",
+      "es"
+    ],
+    "sitemap_lastmod": "2026-10-25"
   }
 ]

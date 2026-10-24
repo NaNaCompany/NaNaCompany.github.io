@@ -58,6 +58,13 @@ def check():
     expected = {p.name for p in ROOT.parent.iterdir() if p.is_dir() and not p.name.startswith('.')
                 and (p / '.git').exists() and p.name not in {ROOT.name, 'src_cdn'}}
     local_app_ids = {a['id'] for a in apps if not a.get('external')}
+    # Language-only sibling repositories do not create additional app cards.
+    expected = {name for name in expected if not any(name == base + '_' + language for base in local_app_ids for language in ['ko','en','es','zh','ja','fr','de','pt','ru','ar','it'])}
+    for app in apps:
+        if app.get('repository_path'):
+            repository = (ROOT.parent / app['repository_path']).resolve()
+            assert repository.is_relative_to(ROOT.parent.resolve()) and (repository / '.git').exists(), f'Missing app repository: {app["id"]}'
+            expected.add(app['id'])
     assert local_app_ids == expected, f'Catalog differs from workspace: {local_app_ids ^ expected}'
     for app in apps:
         if app.get('external'):
@@ -86,7 +93,12 @@ def check():
             assert set(page.app_ids) == app_ids and len(page.app_ids) == len(apps), name
             expected_order = [app['id'] for app in sorted(apps, key=lambda app: datetime.fromisoformat(app['published_at'].replace('Z', '+00:00')), reverse=True)]
             assert page.app_ids == expected_order, f'Apps not newest first: {name}'
-    ET.fromstring(outputs['sitemap.xml'])
+    sitemap = ET.fromstring(outputs['sitemap.xml'])
+    sitemap_urls = [entry.text for entry in sitemap.iter('{http://www.sitemaps.org/schemas/sitemap/0.9}loc')]
+    assert len(sitemap_urls) == len(set(sitemap_urls)), 'Duplicate sitemap URLs'
+    for app in apps:
+        for language in app.get('languages', []):
+            assert f'https://nanalab.kr/{app["id"]}/{language}/' in sitemap_urls, 'Missing language URL'
     print(json.dumps({'status':'passed', 'checks':['catalog coverage','build freshness','unique IDs','local links and assets','heading structure','RSS removal','sitemap XML'], **counts}, ensure_ascii=False))
 
 

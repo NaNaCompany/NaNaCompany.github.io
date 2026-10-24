@@ -176,11 +176,20 @@ def build():
         outputs[f'{route}/index.html'] = subpage(intro(label, 'R&D') + '<nav class="research-category-nav container"><a href="/papers/">논문·연구</a><a href="/patents/">특허·실용신안</a><a href="/projects/">개발 프로젝트</a></nav>' + portfolio_section(key,label,sections[key]) + source_note,label,route)
     # Preserve every original sitemap URL and its existing metadata.
     sitemap = read('content/sitemap-base.xml')
-    additions = ['/lectures/','/research/','/papers/','/patents/','/projects/'] + ['/' + a['id'] + '/' for a in json.loads(read('content/apps.json')) if a.get('kind') != 'template' and not a.get('external')]
-    for route in additions:
+    additions = [(route, '2026-10-25') for route in ['/lectures/','/research/','/papers/','/patents/','/projects/']]
+    for app in json.loads(read('content/apps.json')):
+        if app.get('kind') == 'template' or app.get('external'):
+            continue
+        route = '/' + app['id'] + '/'
+        modified = app.get('sitemap_lastmod', '2026-10-24')
+        additions.append((route, modified))
+        for language in app.get('languages', []):
+            assert re.fullmatch(r'[a-z]{2}(?:-[A-Z]{2})?', language), 'Invalid language path'
+            additions.append((route + language + '/', modified))
+    for route, modified in additions:
         url = 'https://nanalab.kr' + route
         if f'<loc>{url}</loc>' not in sitemap:
-            sitemap = sitemap.replace('</urlset>',f'  <url><loc>{url}</loc><lastmod>2026-10-24</lastmod></url>\n</urlset>')
+            sitemap = sitemap.replace('</urlset>',f'  <url><loc>{url}</loc><lastmod>{modified}</lastmod></url>\n</urlset>')
     outputs['sitemap.xml'] = sitemap
     return outputs, {'apps':len(apps), **{k:len(v) for k,v in sections.items()}}
 
