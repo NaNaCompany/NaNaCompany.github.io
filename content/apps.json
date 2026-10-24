@@ -216,5 +216,18 @@
     "external": true,
     "published_at": "2026-10-24T16:45:12+09:00",
     "date_source": "directory_registration"
+  },
+  {
+    "id": "rebirth_biology",
+    "name": "생물등록증",
+    "category": "재미·라이프",
+    "description": "다시 태어나면 어떤 생물일까? 지구 생물량으로 만나는 72개의 다음 생과 나만의 생물등록증.",
+    "symbol": "🌱",
+    "url": "https://nanalab.kr/rebirth_biology/",
+    "image_url": "https://nanalab.kr/rebirth_biology/og/default.jpg",
+    "image_alt": "은행나무 사진이 담긴 민트색 지구 생물등록증.",
+    "image_fit": "contain",
+    "published_at": "2026-10-24T08:28:43Z",
+    "date_source": "github_repository_created_at"
   }
 ]

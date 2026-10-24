@@ -105,7 +105,8 @@ def app_card(app, index):
     symbol = escape(app['symbol'])
     image = f'<img src="/apps/img/{escape(app["image"])}" alt="" loading="lazy" width="480" height="300">' if app.get('image') else ''
     if app.get('image_url'):
-        image = f'<img src="{escape(app["image_url"], quote=True)}" alt="" loading="lazy" width="480" height="300">'
+        fit = ' style="object-fit:contain"' if app.get('image_fit') == 'contain' else ''
+        image = f'<img src="{escape(app["image_url"], quote=True)}" alt="{escape(app.get("image_alt", ""), quote=True)}" loading="lazy" width="480" height="300"{fit}>'
     action = '템플릿 보기' if app.get('kind') == 'template' else '앱 열기'
     return f'''<article class="directory-card" data-category="{category}" data-name="{name}" data-app-id="{app_id}">
       <a class="card-visual tone-{index % 5}" href="{url}" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true"><span class="visual-symbol">{symbol}</span>{image}</a>
