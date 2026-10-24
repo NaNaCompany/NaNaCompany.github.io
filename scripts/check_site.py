@@ -45,7 +45,11 @@ def check():
     assert re.search(hero, original, re.S)[0] == re.search(hero, home, re.S)[0], 'Original hero changed'
     expected = {p.name for p in ROOT.parent.iterdir() if p.is_dir() and not p.name.startswith('.')
                 and (p / '.git').exists() and p.name not in {ROOT.name, 'src_cdn'}}
-    assert app_ids == expected, f'Catalog differs from workspace: {app_ids ^ expected}'
+    local_app_ids = {a['id'] for a in apps if not a.get('external')}
+    assert local_app_ids == expected, f'Catalog differs from workspace: {local_app_ids ^ expected}'
+    for app in apps:
+        if app.get('external'):
+            assert urlsplit(app.get('url', '')).scheme == 'https', f'Invalid external app URL: {app["id"]}'
     for name, expected_text in outputs.items():
         text = (ROOT / name).read_text(encoding='utf-8')
         assert text == expected_text, f'Stale: {name}'

@@ -48,7 +48,7 @@ assert.equal(ids['app-search'].value, '');
 assert.equal(ids['app-search'].focused, true);
 assert.equal(filters[0].attributes['aria-pressed'], 'true');
 filters.find(filter => filter.dataset.filter === 'AI·개발').emit('click');
-assert.equal(cards.filter(card => !card.hidden).length, 3);
+assert.equal(cards.filter(card => !card.hidden).length, 4);
 ids['app-search'].value = 'astra';
 ids['app-search'].emit('input');
 assert.equal(cards.filter(card => !card.hidden).length, 1);

@@ -134,7 +134,7 @@ def build():
     outputs['research/index.html'] = subpage(intro('Research','논문·특허·개발 프로젝트') + ''.join(portfolio_section(k,h,sections[k]) for k,h in [('papers','논문·연구'),('patents','특허·실용신안'),('websites','개발 프로젝트')]) + source_note,'Research','research')
     # Preserve every original sitemap URL and its existing metadata.
     sitemap = read('content/sitemap-base.xml')
-    additions = ['/lectures/','/research/'] + ['/' + a['id'] + '/' for a in apps if a.get('kind') != 'template']
+    additions = ['/lectures/','/research/'] + ['/' + a['id'] + '/' for a in apps if a.get('kind') != 'template' and not a.get('external')]
     for route in additions:
         url = 'https://nanalab.kr' + route
         if f'<loc>{url}</loc>' not in sitemap:
