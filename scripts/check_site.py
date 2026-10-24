@@ -43,6 +43,17 @@ def check():
         assert re.search(pattern, original, re.S)[0] == re.search(pattern, home, re.S)[0], f'Original section changed: {section}'
     hero = r'<section class="hero">.*?</section>'
     assert re.search(hero, original, re.S)[0] == re.search(hero, home, re.S)[0], 'Original hero changed'
+    for key, route in [('lectures','lectures'),('papers','papers'),('patents','patents'),('websites','projects')]:
+        imported_cards = builder['imported'](key)
+        for card in imported_cards:
+            assert card in home, f'Missing {key} card on home'
+            assert card in outputs[f'{route}/index.html'], f'Missing {key} card on {route}'
+            if key != 'lectures':
+                assert card in outputs['research/index.html'], f'Missing {key} card on R&D'
+    for category in ['전체','기업','공공기관','교육기관','연구기관','컨퍼런스']:
+        for page in [home, outputs['lectures/index.html']]:
+            assert f'data-lecture-category="{category}"' in page, f'Missing lecture category {category}'
+    assert len(builder['Cards'](home).cards) == sum(counts[key] for key in ['lectures','papers','patents','websites']), 'Home archive truncated or duplicated'
     expected = {p.name for p in ROOT.parent.iterdir() if p.is_dir() and not p.name.startswith('.')
                 and (p / '.git').exists() and p.name not in {ROOT.name, 'src_cdn'}}
     local_app_ids = {a['id'] for a in apps if not a.get('external')}

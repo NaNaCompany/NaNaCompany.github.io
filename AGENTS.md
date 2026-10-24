@@ -13,3 +13,5 @@ Check the queue only when requested. Do not create recurring monitoring. An expl
 Run `python scripts/build_site.py --check`, `python scripts/check_site.py`, `node --check script.js`, and `node scripts/check_interactions.cjs` after relevant changes. The catalog coverage check expects sibling app repositories in the parent workspace. Never overwrite unrelated local work. Commit and push only within the user's authorized scope.
 
 Imported portfolio snapshots belong in `content/portfolio/`. Use `scripts/sync_portfolio.py` to refresh them from a verified source checkout. Preserve publication/preprint labels and original document links.
+
+Display full Lectures and R&D archives on the homepage, not three-card previews. Match the source site's lecture cross-listing: combine `lectures` with `courses-offline`, deduplicate by record ID, sort by latest date, and retain the institution filters (기업, 공공기관, 교육기관, 연구기관, 컨퍼런스). Do not add an online-courses button or section. R&D contains all papers, patents, and projects, with their respective routes and navigation.

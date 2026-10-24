@@ -58,15 +58,29 @@ document.addEventListener('DOMContentLoaded', () => {
     const archiveSearch = document.getElementById('archive-search');
     if (archiveSearch) {
         const entries = [...document.querySelectorAll('.singleLectureContainer')];
+        const categoryButtons = [...document.querySelectorAll('[data-lecture-category]')];
+        let lectureCategory = '전체';
         const filterArchive = () => {
             const query = archiveSearch.value.trim().normalize('NFKC').toLocaleLowerCase();
             let count = 0;
             entries.forEach(card => {
-                card.hidden = !card.textContent.normalize('NFKC').toLocaleLowerCase().includes(query);
+                card.hidden = (lectureCategory !== '전체' && card.dataset.category !== lectureCategory)
+                    || !card.textContent.normalize('NFKC').toLocaleLowerCase().includes(query);
                 if (!card.hidden) count++;
             });
-            document.getElementById('archive-count').textContent = `${count}건의 강연`;
+            document.getElementById('archive-count').textContent = `${lectureCategory} ${count}건 · 최신 강의순`;
+            categoryButtons.forEach(button => {
+                const active = button.dataset.lectureCategory === lectureCategory;
+                button.classList.toggle('active', active);
+                button.setAttribute('aria-pressed', String(active));
+            });
+            const empty = document.getElementById('lecture-empty');
+            if (empty) empty.hidden = count !== 0;
         };
+        categoryButtons.forEach(button => button.addEventListener('click', () => {
+            lectureCategory = button.dataset.lectureCategory;
+            filterArchive();
+        }));
         archiveSearch.addEventListener('input', filterArchive);
         filterArchive();
     }

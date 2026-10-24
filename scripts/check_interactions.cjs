@@ -20,7 +20,8 @@ function element(data = {}, text = '') {
 function setup(archive = false) {
     const cards = archive ? [] : apps.map(app => element({category:app.category}, `${app.name} ${app.description}`));
     const filters = archive ? [] : ['all', ...new Set(apps.map(app => app.category))].map(category => element({filter:category}));
-    const entries = archive ? [element({}, '홍익대학교 2026 AI Agent'), element({}, 'LG인화원 업무 자동화')] : [];
+    const entries = archive ? [element({category:'교육기관'}, '홍익대학교 2026 AI Agent'), element({category:'기업'}, 'LG인화원 업무 자동화')] : [];
+    const lectureFilters = archive ? ['전체','기업','교육기관','공공기관'].map(category => element({lectureCategory:category})) : [];
     const ids = archive
         ? {'archive-search':element(), 'archive-count':element()}
         : {'app-search':element(), 'result-count':element(), 'empty-results':element(), 'reset-filters':element()};
@@ -28,12 +29,12 @@ function setup(archive = false) {
     const document = {
         getElementById: id => ids[id] || null,
         querySelector: () => null,
-        querySelectorAll: selector => ({'.directory-card':cards, '[data-filter]':filters, '.singleLectureContainer':entries}[selector] || []),
+        querySelectorAll: selector => ({'.directory-card':cards, '[data-filter]':filters, '.singleLectureContainer':entries, '[data-lecture-category]':lectureFilters}[selector] || []),
         addEventListener(name, callback) { if (name === 'DOMContentLoaded') domReady.push(callback); }
     };
     vm.runInNewContext(fs.readFileSync(path.join(root, 'script.js'), 'utf8'), {document, setTimeout, console});
     domReady.forEach(callback => callback());
-    return {cards, filters, entries, ids};
+    return {cards, filters, entries, ids, lectureFilters};
 }
 const {cards, filters, ids} = setup();
 ids['app-search'].value = 'PDF';
@@ -56,5 +57,12 @@ const archive = setup(true);
 archive.ids['archive-search'].value = '홍익';
 archive.ids['archive-search'].emit('input');
 assert.equal(archive.entries.filter(card => !card.hidden).length, 1);
-assert.equal(archive.ids['archive-count'].textContent, '1건의 강연');
+assert.equal(archive.ids['archive-count'].textContent, '전체 1건 · 최신 강의순');
+archive.lectureFilters.find(button => button.dataset.lectureCategory === '기업').emit('click');
+assert.equal(archive.entries.filter(card => !card.hidden).length, 0);
+archive.ids['archive-search'].value = '';
+archive.ids['archive-search'].emit('input');
+assert.equal(archive.entries.filter(card => !card.hidden).length, 1);
+assert.equal(archive.ids['archive-count'].textContent, '기업 1건 · 최신 강의순');
+assert.equal(archive.lectureFilters.find(button => button.dataset.lectureCategory === '기업').attributes['aria-pressed'], 'true');
 console.log('PASS: search, combined category filter, empty state, reset, accessible filter state, archive search');

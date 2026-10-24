@@ -4,6 +4,7 @@ Usage: python scripts/build_site.py [--check]
 Requires only the Python standard library. No network access during builds.
 """
 from pathlib import Path
+from datetime import date
 from html import escape, unescape
 from html.parser import HTMLParser
 from urllib.parse import urljoin
@@ -49,11 +50,52 @@ def read(path):
 
 def imported(key):
     source = read(f'content/portfolio/{key}.html')
+    if key == 'lectures':
+        # Match the source site's cross-listing of all offline courses into Lectures.
+        source += '\n' + read('content/portfolio/courses-offline.html')
     # Relative resources belong to the source portfolio, not this domain.
     source = re.sub(r'\b(href|src)="([^"]+)"', lambda m: f'{m[1]}="{escape(urljoin("https://bhban.kr/", unescape(m[2])), quote=True)}"', source)
     source = re.sub(r'<a\b([^>]*)>(\s*<i\b[^>]*class="([^"]*)"[^>]*></i>\s*)</a>',
                     lambda m: '<a' + m[1] + '>' + ('PDF' if 'pdf' in m[3] else '링크 열기') + '</a>', source)
-    return Cards(source).cards
+    cards = Cards(source).cards
+    if key == 'lectures':
+        unique = {}
+        for card in cards:
+            identity = re.search(r'data-record-id="([^"]+)"', card)
+            assert identity, 'Lecture record needs an identity'
+            unique.setdefault(identity[1], card)
+        cards = sorted(unique.values(), key=lecture_latest_date, reverse=True)
+    return cards
+
+
+def lecture_latest_date(card):
+    match = re.search(r'class="firstCommitDate"[^>]*>(.*?)</', card, re.S)
+    text = match[1].strip() if match else ''
+    if re.fullmatch(r'\d{4}년?', text):
+        return int(re.search(r'\d{4}', text)[0]) * 10000
+    year, latest = 0, 0
+    for explicit, month, day in re.findall(r'(?:(\d{4})\s*\.\s*)?(\d{1,2})\s*\.\s*(\d{1,2})\.?', text):
+        year = int(explicit) if explicit else year
+        if year:
+            try:
+                latest = max(latest, int(date(year, int(month), int(day)).strftime('%Y%m%d')))
+            except ValueError:
+                continue
+    return latest
+
+
+def lecture_archive(cards):
+    categories = ['전체', '기업', '공공기관', '교육기관', '연구기관', '컨퍼런스']
+    buttons = []
+    for category in categories:
+        count = len(cards) if category == '전체' else sum(f'data-category="{category}"' in card for card in cards)
+        buttons.append(f'<button type="button" class="lecture-filter{ " active" if category == "전체" else ""}" data-lecture-category="{category}" aria-pressed="{str(category == "전체").lower()}" aria-controls="lecture-list">{category} <span>{count}</span></button>')
+    return '<section id="lectures" class="knowledge-addition"><div class="container"><h2 class="section-title">Lectures</h2><p class="section-description">강의·출강 이력 전체 · 최신 강의순</p><div class="archive-controls"><label for="archive-search">강연 제목·기관·연도 검색</label><input type="search" id="archive-search" placeholder="기관명 또는 주제 검색"></div><nav class="lecture-category-nav" aria-label="강의 기관 분류">' + ''.join(buttons) + f'</nav><p id="archive-count" role="status" aria-live="polite">전체 {len(cards)}건 · 최신 강의순</p><div id="lecture-list" class="portfolio-grid">' + ''.join(cards) + '</div><p id="lecture-empty" hidden>일치하는 강연이 없습니다. 검색어나 기관 분류를 바꿔 보세요.</p></div></section>'
+
+
+def research_archive(sections):
+    navigation = '<nav class="research-category-nav container" aria-label="R&D 분류">' + ''.join(f'<a href="#{key}">{label} <span>{len(sections[key])}</span></a>' for key, label in [('papers','논문·연구'),('patents','특허·실용신안'),('websites','개발 프로젝트')]) + '</nav>'
+    return '<section id="research" class="knowledge-addition"><div class="container"><h2 class="section-title">R&amp;D</h2><p class="section-description">논문·특허·개발 프로젝트 전체</p></div>' + navigation + ''.join(portfolio_section(k,h,sections[k]) for k,h in [('papers','논문·연구'),('patents','특허·실용신안'),('websites','개발 프로젝트')]) + '</section>'
 
 
 def app_card(app, index):
@@ -97,19 +139,15 @@ def build():
     sections = {key: imported(key) for key in ['lectures','papers','patents','websites']}
     assert all(sections.values())
     shell = shell.replace('</head>', '<link rel="stylesheet" href="/additions.css">\n</head>')
-    shell = shell.replace('src="script.js"', 'src="/script.js?v=sections-20261024"')
+    shell = shell.replace('src="script.js"', 'src="/script.js?v=archives-20261024"')
+    shell = shell.replace('href="/additions.css"', 'href="/additions.css?v=archives-20261024"')
     shell = shell.replace('<a href="#apps">Recent</a>', '<a href="#apps">Apps</a>')
     shell = shell.replace('<a href="https://nanalab.kr/apps">APPs</a>', '<a href="#lectures">Lectures</a><a href="#research">Research</a>')
     app_section = directory(apps).replace('class="directory-section container"', 'class="app-section catalog-addition container"')
     app_section = app_section.replace('어떤 일이든, 더 가볍게.', 'NaNa Apps').replace('THE APP COLLECTION', 'APPS')
     # Only replace the old RSS section; the existing page sections and order stay intact.
     shell = re.sub(r'<section id="apps".*?</section>', lambda _: app_section, shell, flags=re.S)
-    previews = '<section id="lectures" class="knowledge-addition"><div class="container"><h2 class="section-title">Lectures</h2><p class="section-description">기업·공공기관·교육 현장에서 나눈 AI와 업무 자동화 이야기</p></div>'
-    previews += portfolio_section('lectures', '최근 강연', sections['lectures'][:3]).replace('id="lectures"', 'id="lecture-preview"')
-    previews += f'<p class="archive-more"><a class="btn btn-primary" href="/lectures/">전체 강연 {len(sections["lectures"])}건 보기</a></p></section>'
-    previews += '<section id="research" class="knowledge-addition"><div class="container"><h2 class="section-title">Research</h2><p class="section-description">논문·특허·개발 프로젝트로 만나는 연구 활동</p></div>'
-    previews += portfolio_section('papers', '논문·연구', sections['papers'][:3])
-    previews += '<p class="archive-more"><a class="btn btn-primary" href="/research/">논문·특허·프로젝트 전체 보기</a></p></section>'
+    previews = lecture_archive(sections['lectures']) + research_archive(sections)
     shell = shell.replace('<section id="contact"', previews + '\n<section id="contact"', 1)
     shell = shell.replace('저서 31건','저서 36건').replace('특허출원 34건','특허·실용신안 출원 34건').replace('논문 15건 (SCI 포함)',f'논문·연구 {len(sections["papers"])}건 (프리프린트 포함)')
     head, rest = shell.split('</head>',1)
@@ -130,11 +168,13 @@ def build():
     controls = '<div class="container archive-controls"><label for="archive-search">강연 제목·기관·연도 검색</label><input type="search" id="archive-search" placeholder="기관명 또는 주제 검색"><p id="archive-count" role="status" aria-live="polite"></p></div>'
     outputs = {'index.html':shell}
     outputs['apps/index.html'] = subpage(intro('NaNa Apps','필요한 웹앱과 도구를 한곳에서 만나보세요.') + app_section,'Apps','apps')
-    outputs['lectures/index.html'] = subpage(intro('Lectures','강의·출강 이력') + controls + portfolio_section('lectures','강연과 교육',sections['lectures']) + source_note,'Lectures','lectures')
-    outputs['research/index.html'] = subpage(intro('Research','논문·특허·개발 프로젝트') + ''.join(portfolio_section(k,h,sections[k]) for k,h in [('papers','논문·연구'),('patents','특허·실용신안'),('websites','개발 프로젝트')]) + source_note,'Research','research')
+    outputs['lectures/index.html'] = subpage(intro('Lectures','강의·출강 이력') + lecture_archive(sections['lectures']) + source_note,'Lectures','lectures')
+    outputs['research/index.html'] = subpage(intro('R&D','논문·특허·개발 프로젝트') + research_archive(sections) + source_note,'Research','research')
+    for route, key, label in [('papers','papers','논문·연구'), ('patents','patents','특허·실용신안'), ('projects','websites','개발 프로젝트')]:
+        outputs[f'{route}/index.html'] = subpage(intro(label, 'R&D') + '<nav class="research-category-nav container"><a href="/papers/">논문·연구</a><a href="/patents/">특허·실용신안</a><a href="/projects/">개발 프로젝트</a></nav>' + portfolio_section(key,label,sections[key]) + source_note,label,route)
     # Preserve every original sitemap URL and its existing metadata.
     sitemap = read('content/sitemap-base.xml')
-    additions = ['/lectures/','/research/'] + ['/' + a['id'] + '/' for a in apps if a.get('kind') != 'template' and not a.get('external')]
+    additions = ['/lectures/','/research/','/papers/','/patents/','/projects/'] + ['/' + a['id'] + '/' for a in apps if a.get('kind') != 'template' and not a.get('external')]
     for route in additions:
         url = 'https://nanalab.kr' + route
         if f'<loc>{url}</loc>' not in sitemap:

@@ -6,7 +6,7 @@ from pathlib import Path
 import subprocess
 
 ROOT = Path(__file__).resolve().parents[1]
-SECTIONS = ['lectures', 'papers', 'patents', 'websites', 'about']
+SECTIONS = ['lectures', 'courses-offline', 'papers', 'patents', 'websites', 'about']
 
 
 if __name__ == '__main__':

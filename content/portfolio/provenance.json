@@ -4,6 +4,13 @@
   "commit": "722c1424c059ed757da47f23880e1b54692909d3",
   "imported_on": "2026-10-24",
   "source_directory": "content/sections",
-  "sections": ["lectures", "papers", "patents", "websites", "about"],
+  "sections": [
+    "lectures",
+    "courses-offline",
+    "papers",
+    "patents",
+    "websites",
+    "about"
+  ],
   "notes": "Static source snapshots. Relative image and document URLs are resolved against https://bhban.kr/ at build time. Publication and preprint labels are preserved. The about section's paper count is calculated from imported records, including preprints."
 }
