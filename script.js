@@ -1,76 +1,186 @@
-// App directory: server-rendered cards remain available without JavaScript.
-document.addEventListener('DOMContentLoaded', () => {
-    const search = document.getElementById('app-search');
-    const cards = [...document.querySelectorAll('.directory-card')];
-    const filters = [...document.querySelectorAll('[data-filter]')];
-    let selected = 'all';
-    function update() {
-        const query = search.value.trim().normalize('NFKC').toLocaleLowerCase();
-        let count = 0;
-        cards.forEach(card => {
-            const matches = (selected === 'all' || card.dataset.category === selected)
-                && `${card.textContent} ${card.dataset.appId || ''}`.normalize('NFKC').toLocaleLowerCase().includes(query);
-            card.hidden = !matches;
-            if (matches) count++;
-        });
-        document.getElementById('result-count').textContent = `${selected === 'all' ? '전체' : selected} ${count}개`;
-        document.getElementById('empty-results').hidden = count !== 0;
-        filters.forEach(button => {
-            const active = button.dataset.filter === selected;
-            button.classList.toggle('active', active);
-            button.setAttribute('aria-pressed', String(active));
-        });
-    }
-    if (search) {
-        search.addEventListener('input', update);
-        filters.forEach(button => button.addEventListener('click', () => {
-            selected = button.dataset.filter;
-            update();
-        }));
-        document.getElementById('reset-filters').addEventListener('click', () => {
-            selected = 'all';
-            search.value = '';
-            update();
-            search.focus();
-        });
-        document.addEventListener('keydown', event => {
-            if (event.key === '/' && !event.ctrlKey && !event.metaKey && !event.altKey
-                && !event.target.closest('input,textarea,select,[contenteditable]')) {
-                event.preventDefault();
-                search.focus();
+
+// 1. RSS Fetching & Rendering
+document.addEventListener("DOMContentLoaded", async () => {
+    const container = document.getElementById("blog-list");
+    const url = "https://api.nanalab.kr/rss";
+
+    const fallbackThumb = "https://via.placeholder.com/240x144?text=Blog";
+
+    try {
+        const raw = await fetch(url).then(r => r.text());
+        const parser = new DOMParser();
+        const xmlDoc = parser.parseFromString(raw, "text/xml");
+        const items = Array.from(xmlDoc.querySelectorAll("item"));
+
+        const validItems = items.map(item => {
+            const title = item.querySelector("title")?.textContent || "";
+            const link = item.querySelector("link")?.textContent || "";
+            const pubDate = item.querySelector("pubDate")?.textContent || "";
+            const description = item.querySelector("description")?.textContent || "";
+
+            let isoDate = "";
+            if (pubDate) {
+                try {
+                    isoDate = new Date(pubDate).toISOString().slice(0, 10);
+                } catch (e) { /* ignore */ }
             }
+
+            let thumb = fallbackThumb;
+            // Try to find an image in description
+            const imgMatch = description.match(/<img[^>]+src="([^">]+)"/);
+            if (imgMatch) {
+                thumb = imgMatch[1];
+            }
+
+            return { title, link, date: isoDate, thumb };
+        }).slice(0, 15); // Take top 15
+
+        container.innerHTML = "";
+        if (validItems.length === 0) console.warn("No items parsed from RSS proxy");
+
+        validItems.forEach(it => {
+            const a = document.createElement("a");
+            a.href = it.link;
+            a.target = "_blank";
+            a.rel = "noopener noreferrer";
+            a.className = "blog-item";
+            a.ondragstart = () => false;
+
+            a.innerHTML = `
+                <div class="card">
+                    <img class="thumb" src="${it.thumb}" alt="">
+                    <div class="meta">
+                        <h3>${it.title}</h3>
+                        <p class="date">${it.date}</p>
+                    </div>
+                </div>
+            `;
+            const img = a.querySelector("img");
+            if (img) {
+                img.addEventListener("error", e => e.currentTarget.src = fallbackThumb);
+            }
+            container.appendChild(a);
         });
-    }
-    const menu = document.querySelector('.directory-menu');
-    const nav = document.getElementById('main-nav');
-    if (menu && nav) {
-        const close = () => { nav.classList.remove('open'); menu.setAttribute('aria-expanded', 'false'); };
-        menu.addEventListener('click', () => {
-            const open = nav.classList.toggle('open');
-            menu.setAttribute('aria-expanded', String(open));
-        });
-        nav.addEventListener('click', event => { if (event.target.closest('a')) close(); });
-        document.addEventListener('keydown', event => { if (event.key === 'Escape') close(); });
-    }
-    document.querySelectorAll('.card-visual img').forEach(img => {
-        img.addEventListener('error', () => { img.hidden = true; });
-    });
-    const archiveSearch = document.getElementById('archive-search');
-    if (archiveSearch) {
-        const entries = [...document.querySelectorAll('.singleLectureContainer')];
-        const filterArchive = () => {
-            const query = archiveSearch.value.trim().normalize('NFKC').toLocaleLowerCase();
-            let count = 0;
-            entries.forEach(card => {
-                card.hidden = !card.textContent.normalize('NFKC').toLocaleLowerCase().includes(query);
-                if (!card.hidden) count++;
-            });
-            document.getElementById('archive-count').textContent = `${count}건의 강연`;
-        };
-        archiveSearch.addEventListener('input', filterArchive);
-        filterArchive();
+
+        const moreAppsLink = document.createElement("a");
+        moreAppsLink.href = "https://nanalab.kr/apps";
+        moreAppsLink.className = "blog-item blink"; // Add blink class
+        moreAppsLink.ondragstart = () => false;
+        moreAppsLink.innerHTML = `
+            <div class="card more-apps-card">
+                <span class="more-text">More Apps...</span>
+            </div>
+        `;
+        container.appendChild(moreAppsLink);
+
+        initCoverFlow(container);
+        initDragScroll(container); // Initialize Drag Scroll
+
+    } catch (e) {
+        console.error("RSS parsing error:", e);
+        container.innerHTML = `<p style="text-align:center; width:100%;">Failed to load apps: ${e.message}</p>`;
     }
 });
+
+// 2. Click-and-Drag Scrolling
+function initDragScroll(slider) {
+    let isDown = false;
+    let startX;
+    let scrollLeft;
+
+    slider.addEventListener('mousedown', (e) => {
+        isDown = true;
+        slider.classList.add('active');
+        startX = e.pageX - slider.offsetLeft;
+        scrollLeft = slider.scrollLeft;
+    });
+
+    slider.addEventListener('mouseleave', () => {
+        isDown = false;
+        slider.classList.remove('active');
+    });
+
+    slider.addEventListener('mouseup', () => {
+        isDown = false;
+        slider.classList.remove('active');
+    });
+
+    slider.addEventListener('mousemove', (e) => {
+        if (!isDown) return;
+        e.preventDefault();
+        const x = e.pageX - slider.offsetLeft;
+        const walk = (x - startX) * 2; // Scroll-fast
+        slider.scrollLeft = scrollLeft - walk;
+    });
+}
+
+// 2. Cover Flow Physics
+function initCoverFlow(slider) {
+    // Initial update
+    updateVisuals(slider);
+
+    // Update visuals on native scroll
+    slider.addEventListener('scroll', () => {
+        requestAnimationFrame(() => updateVisuals(slider));
+    }, { passive: true });
+
+    // Update on resize
+    window.addEventListener('resize', () => {
+        requestAnimationFrame(() => updateVisuals(slider));
+    });
+
+    // Optional: Center the first card initially or restore position if needed
+    // slider.scrollLeft = 0; 
+}
+
+function updateVisuals(slider) {
+    const center = slider.scrollLeft + (slider.offsetWidth / 2);
+    const items = slider.querySelectorAll('a');
+
+    items.forEach(item => {
+        const itemCenter = item.offsetLeft + (item.offsetWidth / 2);
+        const distance = (center - itemCenter);
+        const absDist = Math.abs(distance);
+        const maxDist = slider.offsetWidth / 2;
+
+        let scale = 1, rotate = 0, zIndex = 0, opacity = 1, translateX = 0;
+
+        if (absDist < maxDist) {
+            const effect = 1 - (absDist / maxDist);
+            scale = 0.8 + (effect * 0.2);
+            opacity = 0.5 + (effect * 0.5);
+            zIndex = Math.floor(effect * 100);
+            const overlap = 190 * (1 - effect);
+
+            if (distance > 0) {
+                rotate = 45 * (1 - effect);
+                translateX = overlap;
+            } else {
+                rotate = -45 * (1 - effect);
+                translateX = -overlap;
+            }
+        } else {
+            scale = 0.8; opacity = 0.5; zIndex = 0;
+            const overlap = 190;
+            if (distance > 0) {
+                rotate = 45; translateX = overlap;
+            } else {
+                rotate = -45; translateX = -overlap;
+            }
+        }
+
+        if (absDist < 40) {
+            item.classList.add('active-card');
+            rotate = 0; translateX = 0; opacity = 1; scale = 1.05; zIndex = 200;
+        } else {
+            item.classList.remove('active-card');
+        }
+
+        item.style.transform = `translateX(${translateX}px) scale(${scale}) rotateY(${rotate}deg)`;
+        item.style.opacity = opacity;
+        item.style.zIndex = zIndex;
+    });
+}
 
 // 3. Form Handling (IIFE)
 (function () {
