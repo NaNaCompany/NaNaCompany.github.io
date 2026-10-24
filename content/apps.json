@@ -1,0 +1,22 @@
+[
+  {"id":"smart_calculator","name":"스마트 계산기","category":"생활·업무","description":"일반 계산부터 환율 계산까지. 음성 입력과 계산 기록을 함께 활용하세요.","image":"smart_calculator.png","symbol":"±"},
+  {"id":"qr","name":"QR 코드 생성기","category":"생활·업무","description":"링크를 공유하기 쉬운 나만의 QR 코드로 만들어 보세요.","image":"qr.png","symbol":"▦"},
+  {"id":"count_words","name":"글자 수 세기","category":"문서·텍스트","description":"한글 글자 수와 바이트를 확인하고, 작성한 글의 분량을 살펴보세요.","image":"count_words.png","symbol":"Aa"},
+  {"id":"image_resize","name":"이미지 리사이저","category":"이미지·미디어","description":"이미지의 크기와 비율을 바꾸고 필요한 부분만 잘라내세요.","image":"image_resize.png","symbol":"↗"},
+  {"id":"merge_pdf","name":"PDF 합치기","category":"문서·텍스트","description":"흩어진 PDF 파일을 원하는 순서로 모아 하나의 문서로 만드세요.","image":"merge_pdf.png","symbol":"▤"},
+  {"id":"doc_compress","name":"문서 압축","category":"문서·텍스트","description":"PDF와 오피스 문서, 이미지의 용량을 줄이는 도구입니다.","image":"doc_compress.png","symbol":"↓"},
+  {"id":"doc_stat","name":"문서 분석기","category":"문서·텍스트","description":"PDF와 DOCX의 페이지 수, 단어 수 등 문서 정보를 확인하세요.","image":"doc_stat.png","symbol":"≡"},
+  {"id":"doc_summarizer","name":"문서 요약기","category":"문서·텍스트","description":"긴 문서를 읽고 핵심 내용을 정리하는 데 도움을 주는 도구입니다.","image":"doc_summary.jpg","symbol":"¶"},
+  {"id":"lipsum","name":"더미 텍스트 생성기","category":"문서·텍스트","description":"디자인과 문서 작업에 필요한 예시 텍스트를 만들어 보세요.","image":"lipsum.png","symbol":"Tt"},
+  {"id":"gif_studio","name":"GIF 스튜디오","category":"이미지·미디어","description":"GIF의 크기, 자르기, 회전과 용량 최적화를 한곳에서 처리하세요.","image":"gif_studio.png","symbol":"GIF"},
+  {"id":"video_2_gif","name":"동영상을 GIF로","category":"이미지·미디어","description":"동영상에서 필요한 순간을 골라 움직이는 GIF로 만드세요.","image":"video_to_gif.png","symbol":"▶"},
+  {"id":"audio_edit","name":"오디오 편집기","category":"이미지·미디어","description":"오디오를 자르고 음량을 조절하거나 파일 형식을 변환하세요.","symbol":"♫"},
+  {"id":"afd","name":"자리 비움 화면","category":"생활·업무","description":"회의나 외출 중일 때, 현재 상태를 화면에 표시해 두세요.","image":"afd.png","symbol":"◷"},
+  {"id":"bmi","name":"BMI 계산기","category":"생활·업무","description":"키와 몸무게로 체질량지수를 간편하게 계산하세요.","image":"bmi.png","symbol":"㎏"},
+  {"id":"fortune","name":"오늘의 운세","category":"재미·라이프","description":"오늘은 어떤 하루가 될까요? 가볍게 운세를 확인해 보세요.","image":"fortune.png","symbol":"✦"},
+  {"id":"luck","name":"럭키 캐논","category":"재미·라이프","description":"참가자를 모아 행운의 주인공을 뽑는 랜덤 추첨 도구입니다.","symbol":"★"},
+  {"id":"chatTemplate","name":"솔로 채팅","category":"재미·라이프","description":"대화의 양쪽 역할을 직접 맡아 채팅 장면을 만들어 보세요.","image":"solo_chat.png","symbol":"☏"},
+  {"id":"ppp","name":"Published Prompt Portal","category":"AI·개발","description":"도서로 출간된 프롬프트를 모아 소개하는 프롬프트 포털입니다.","symbol":"/"},
+  {"id":"astra","name":"Astra Playground","category":"AI·개발","description":"AI 에이전트 실습용 사이트와 예제 파일을 한곳에서 만나보세요.","symbol":"✳"},
+  {"id":"android_webview_template","name":"Android WebView 템플릿","category":"AI·개발","description":"설정 파일을 수정해 웹사이트를 안드로이드 앱으로 만드는 개발 템플릿입니다.","symbol":"⌘","url":"https://github.com/NaNaCompany/android_webview_template","kind":"template"}
+]
