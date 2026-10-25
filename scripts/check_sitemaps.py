@@ -1,10 +1,11 @@
-"""Validate the root sitemap index and all leaf maps; --live checks deployment."""
+"""Validate direct root page URLs and robots-advertised app sitemaps."""
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 from urllib.parse import urlsplit
 from urllib.request import Request, urlopen
 import argparse
 import json
+import time
 import xml.etree.ElementTree as ET
 
 from build_site import build
@@ -27,7 +28,7 @@ def leaf(raw, location):
 
 
 def fetch(location):
-    request = Request(location + '?verify=sitemap-index', headers={'User-Agent': 'Mozilla/5.0'})
+    request = Request(location + '?verify=' + str(time.time_ns()), headers={'User-Agent': 'Mozilla/5.0'})
     with urlopen(request, timeout=40) as response:
         assert response.status == 200, location
         return response.read()
@@ -36,20 +37,22 @@ def fetch(location):
 def check(live=False):
     outputs, _ = build()
     manifest = json.loads((ROOT / 'content/sitemap-sources.json').read_text(encoding='utf-8'))
-    expected = {SITE + 'sitemap-main.xml'} | {row['url'] for row in manifest['sources']}
+    expected = {SITE + 'sitemap.xml'} | {row['url'] for row in manifest['sources']}
     extras = {url for row in manifest.get('supplemental', []) for url in row['urls']}
     if extras:
         expected.add(SITE + 'sitemap-details.xml')
     raw = fetch(SITE + 'sitemap.xml') if live else outputs['sitemap.xml'].encode()
-    assert raw.decode() == outputs['sitemap.xml'], 'Published index is stale'
-    index = ET.fromstring(raw)
-    assert index.tag == NS + 'sitemapindex'
-    locations = [node.text for node in index.findall(NS + 'sitemap/' + NS + 'loc')]
-    assert len(locations) == len(set(locations)) <= 50000 and set(locations) == expected
+    assert raw.decode() == outputs['sitemap.xml'], 'Published root sitemap is stale'
+    leaf(raw, SITE + 'sitemap.xml')
+    robots = fetch(SITE + 'robots.txt').decode() if live else outputs['robots.txt']
+    assert robots == outputs['robots.txt'], 'Published robots.txt is stale'
+    assert 'User-agent: *' in robots and 'Allow: /' in robots
+    locations = [line.split(':', 1)[1].strip() for line in robots.splitlines() if line.startswith('Sitemap:')]
+    assert len(locations) == len(set(locations)) and set(locations) == expected
     apps = json.loads((ROOT / 'content/apps.json').read_text(encoding='utf-8'))
     app_ids = {row['id'] for row in apps}
     assert {row['app_id'] for row in manifest['sources']} <= app_ids
-    # A newly added app must not silently lose its detailed map from the index.
+    # A newly added app must not silently lose discovery of its detailed map.
     registered = {row['app_id'] for row in manifest['sources']}
     for app in apps:
         if app.get('external') or app.get('kind') == 'template':
@@ -60,7 +63,7 @@ def check(live=False):
     source_by_url = {row['url']: row for row in manifest['sources']}
 
     def read(location):
-        assert location.startswith(SITE) and location != SITE + 'sitemap.xml', location
+        assert location.startswith(SITE), location
         name = location.removeprefix(SITE)
         if live:
             body = fetch(location)
@@ -78,12 +81,12 @@ def check(live=False):
             maps = dict(pool.map(read, locations))
     else:
         maps = dict(map(read, locations))
-    assert maps[SITE + 'sitemap-main.xml'] == leaf(outputs['sitemap-main.xml'].encode(), 'generated main')
+    assert maps[SITE + 'sitemap.xml'] == leaf(outputs['sitemap.xml'].encode(), 'generated main')
     if extras:
         assert maps[SITE + 'sitemap-details.xml'] == extras
-    # Existing URL metadata belongs in the page sitemap, never in the index.
+    # Preserve every existing page URL and its metadata.
     baseline = ET.parse(ROOT / 'content/sitemap-base.xml').getroot()
-    current = ET.fromstring(outputs['sitemap-main.xml'])
+    current = ET.fromstring(outputs['sitemap.xml'])
     def metadata(node):
         # Ignore indentation after </url>, which changes when another URL is appended.
         return ET.tostring(ET.fromstring(ET.tostring(node)))
@@ -92,9 +95,9 @@ def check(live=False):
         assert metadata(node) == entries[node.findtext(NS + 'loc')], 'Original metadata changed'
     all_urls = set().union(*maps.values())
     result = {'status': 'passed', 'mode': 'live' if live else 'local', 'sitemaps': len(maps),
-              'app_sitemaps': len(manifest['sources']), 'main_urls': len(maps[SITE + 'sitemap-main.xml']),
+              'app_sitemaps': len(manifest['sources']), 'main_urls': len(maps[SITE + 'sitemap.xml']),
               'supplemental_urls': len(extras), 'unique_page_urls': len(all_urls),
-              'additional_detail_urls': len(all_urls - maps[SITE + 'sitemap-main.xml'])}
+              'additional_detail_urls': len(all_urls - maps[SITE + 'sitemap.xml'])}
     print(json.dumps(result))
     return result
 

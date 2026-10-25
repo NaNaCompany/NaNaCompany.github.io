@@ -8,7 +8,7 @@ from datetime import date, datetime
 from hashlib import sha256
 from html import escape, unescape
 from html.parser import HTMLParser
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlsplit, urlunsplit
 import argparse
 import json
 import re
@@ -17,6 +17,30 @@ from syndication import anchor_cards, build_syndication, documentation
 
 ROOT = Path(__file__).resolve().parents[1]
 VOID = set('area base br col embed hr img input link meta param source track wbr'.split())
+
+
+def homepage_sitemap_urls(source):
+    """Collect host-local navigation targets, using canonical directory URLs."""
+    class Links(HTMLParser):
+        def __init__(self):
+            super().__init__()
+            self.urls = set()
+
+        def handle_starttag(self, tag, attrs):
+            href = dict(attrs).get('href') if tag == 'a' else None
+            if not href:
+                return
+            parts = urlsplit(urljoin('https://nanalab.kr/', href))
+            if parts.scheme != 'https' or parts.netloc != 'nanalab.kr':
+                return
+            path = parts.path or '/'
+            if not path.endswith('/') and '.' not in path.rsplit('/', 1)[-1]:
+                path += '/'
+            self.urls.add(urlunsplit((parts.scheme, parts.netloc, path, parts.query, '')))
+
+    links = Links()
+    links.feed(source)
+    return links.urls
 
 
 class Cards(HTMLParser):
@@ -210,11 +234,21 @@ def build():
         url = 'https://nanalab.kr' + route
         if f'<loc>{url}</loc>' not in sitemap:
             sitemap = sitemap.replace('</urlset>',f'  <url><loc>{url}</loc><lastmod>{modified}</lastmod></url>\n</urlset>')
-    outputs['sitemap-main.xml'] = sitemap
-    # Keep the already submitted root URL as the single entry point for all apps.
+    # Include every local homepage link and app launch URL, independently of
+    # whether that app publishes its own leaf sitemap. External hosts belong
+    # in their own sitemaps; fragments do not identify separate pages.
+    known_urls = {node.text for node in ET.fromstring(sitemap).iter('{http://www.sitemaps.org/schemas/sitemap/0.9}loc')}
+    linked_urls = homepage_sitemap_urls(shell)
+    for app in apps:
+        target = app.get('url') or 'https://nanalab.kr/' + app['id'] + '/'
+        linked_urls.update(homepage_sitemap_urls(f'<a href="{escape(target, quote=True)}"></a>'))
+    for url in sorted(linked_urls - known_urls):
+        sitemap = sitemap.replace('</urlset>', f'  <url><loc>{escape(url)}</loc></url>\n</urlset>')
+    # The submitted root file directly lists main-site and app landing pages.
+    outputs['sitemap.xml'] = sitemap
     manifest = json.loads(read('content/sitemap-sources.json'))
     sources = manifest['sources']
-    locations = ['https://nanalab.kr/sitemap-main.xml'] + [source['url'] for source in sources]
+    locations = [source['url'] for source in sources]
     supplemental = sorted({url for group in manifest.get('supplemental', []) for url in group['urls']})
     if supplemental:
         details = ET.Element('urlset', xmlns='http://www.sitemaps.org/schemas/sitemap/0.9')
@@ -223,14 +257,10 @@ def build():
             ET.SubElement(ET.SubElement(details, 'url'), 'loc').text = url
         ET.indent(details, space='  ')
         outputs['sitemap-details.xml'] = '<?xml version="1.0" encoding="UTF-8"?>\n' + ET.tostring(details, encoding='unicode') + '\n'
-        locations.insert(1, 'https://nanalab.kr/sitemap-details.xml')
+        locations.insert(0, 'https://nanalab.kr/sitemap-details.xml')
     assert len(locations) == len(set(locations)) <= 50000, 'Duplicate sitemap source'
-    index = ET.Element('sitemapindex', xmlns='http://www.sitemaps.org/schemas/sitemap/0.9')
     for location in locations:
         assert location.startswith('https://nanalab.kr/') and location.endswith('.xml'), 'Invalid sitemap source'
-        ET.SubElement(ET.SubElement(index, 'sitemap'), 'loc').text = location
-    ET.indent(index, space='  ')
-    outputs['sitemap.xml'] = '<?xml version="1.0" encoding="UTF-8"?>\n' + ET.tostring(index, encoding='unicode') + '\n'
     # The host-root policy governs every app path. Advertise all leaf maps too.
     robots = read('content/robots-base.txt').rstrip() + '\n'
     for location in ['https://nanalab.kr/sitemap.xml', *locations]:

@@ -18,7 +18,7 @@ def discover():
     previous = json.loads(MANIFEST.read_text(encoding='utf-8')) if MANIFEST.exists() else {}
     sources = {row['app_id']: row for row in previous.get('sources', [])}
     supplemental = {row['app_id']: row for row in previous.get('supplemental', [])}
-    primary_path = ROOT / 'sitemap-main.xml'
+    primary_path = ROOT / 'sitemap.xml'
     primary = {node.text for node in ET.parse(primary_path).iter(NS + 'loc')} if primary_path.exists() else set()
     apps = json.loads((ROOT / 'content/apps.json').read_text(encoding='utf-8'))
     scanned = 0
