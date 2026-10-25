@@ -12,6 +12,18 @@ import xml.etree.ElementTree as ET
 ROOT = Path(__file__).resolve().parents[1]
 
 
+def has_initial_commit(repository):
+    """An unborn repository is still a draft, even if its origin is configured."""
+    directory = repository / '.git'
+    head = (directory / 'HEAD').read_text(encoding='utf-8').strip()
+    if not head.startswith('ref: '):
+        return bool(re.fullmatch(r'[0-9a-f]{40,64}', head))
+    reference = head.removeprefix('ref: ')
+    packed = directory / 'packed-refs'
+    return (directory / reference).is_file() or (packed.is_file() and
+        any(line.endswith(' ' + reference) for line in packed.read_text(encoding='utf-8').splitlines()))
+
+
 class Page(HTMLParser):
     def __init__(self, text):
         super().__init__()
@@ -66,6 +78,7 @@ def check():
                 # Another task may be creating/cloning a repository concurrently.
                 # A .git-only placeholder has no app checkout to register yet.
                 and any(child.name != '.git' for child in p.iterdir())
+                and has_initial_commit(p)
                 and re.search(r'url\s*=\s*(?:https://github\.com/|git@github\.com:)NaNaCompany/',
                               (p / '.git/config').read_text(encoding='utf-8'), re.I)}
     local_app_ids = {a['id'] for a in apps if not a.get('external')}
