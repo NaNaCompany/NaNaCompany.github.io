@@ -55,8 +55,12 @@ def check():
         for page in [home, outputs['lectures/index.html']]:
             assert f'data-lecture-category="{category}"' in page, f'Missing lecture category {category}'
     assert len(builder['Cards'](home).cards) == sum(counts[key] for key in ['lectures','papers','patents','websites']), 'Home archive truncated or duplicated'
+    # Only published NaNaCompany source repositories belong to this directory.
+    # Local drafts without an origin may share the workspace while being built.
     expected = {p.name for p in ROOT.parent.iterdir() if p.is_dir() and not p.name.startswith('.')
-                and (p / '.git').exists() and p.name not in {ROOT.name, 'src_cdn'}}
+                and (p / '.git/config').is_file() and p.name not in {ROOT.name, 'src_cdn'}
+                and re.search(r'url\s*=\s*(?:https://github\.com/|git@github\.com:)NaNaCompany/',
+                              (p / '.git/config').read_text(encoding='utf-8'), re.I)}
     local_app_ids = {a['id'] for a in apps if not a.get('external')}
     # Language-only sibling repositories do not create additional app cards.
     expected = {name for name in expected if not any(name == base + '_' + language for base in local_app_ids for language in ['ko','en','es','zh','ja','fr','de','pt','ru','ar','it'])}
@@ -98,7 +102,8 @@ def check():
     assert len(sitemap_urls) == len(set(sitemap_urls)), 'Duplicate sitemap URLs'
     for app in apps:
         for language in app.get('languages', []):
-            assert f'https://nanalab.kr/{app["id"]}/{language}/' in sitemap_urls, 'Missing language URL'
+            language_path = app.get('language_paths', {}).get(language, language + '/')
+            assert f'https://nanalab.kr/{app["id"]}/{language_path}' in sitemap_urls, 'Missing language URL'
     print(json.dumps({'status':'passed', 'checks':['catalog coverage','build freshness','unique IDs','local links and assets','heading structure','RSS removal','sitemap XML'], **counts}, ensure_ascii=False))
 
 

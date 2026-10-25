@@ -185,7 +185,9 @@ def build():
         additions.append((route, modified))
         for language in app.get('languages', []):
             assert re.fullmatch(r'[a-z]{2}(?:-[A-Z]{2})?', language), 'Invalid language path'
-            additions.append((route + language + '/', modified))
+            language_path = app.get('language_paths', {}).get(language, language + '/')
+            assert language_path in {'', language + '/'}, 'Invalid language URL override'
+            additions.append((route + language_path, modified))
     for route, modified in additions:
         url = 'https://nanalab.kr' + route
         if f'<loc>{url}</loc>' not in sitemap:

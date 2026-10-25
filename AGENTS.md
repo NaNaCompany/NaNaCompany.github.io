@@ -19,3 +19,5 @@ Display full Lectures and R&D archives on the homepage, not three-card previews.
 Keep app cards in one column at every viewport width. Order apps newest first by `published_at`: use verified GitHub repository creation timestamps for repository apps, and the first directory registration timestamp for external apps. Set `date_source` accordingly. Do not reorder based on maintenance commits. Require dates for newly added apps so later builds remain deterministic.
 
 For language variants of one app, publish only one Korean app card. Include each verified language URL in the sitemap using the app's `languages` list; do not create duplicate `_en`, `_es`, or other language-only cards. Apps kept under the workspace's `sites/` directory may declare their workspace-relative `repository_path` for coverage checks.
+
+When Korean is served at the app root instead of `/ko/`, set `language_paths` to `{"ko":""}`. Keep every language in `languages` and preserve verified alternate-language sitemap links. Workspace coverage applies to repositories with a NaNaCompany GitHub origin; unpublished local drafts do not create speculative app entries.
