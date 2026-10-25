@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "groups": [
+    {
+      "app_id": "world-law-portal",
+      "repositories": [
+        {
+          "id": "world-law-kr-acts",
+          "status": "published",
+          "url": "https://nanalab.kr/world-law-kr-acts/",
+          "languages": ["ko", "en", "zh", "es"],
+          "language_paths": {"ko": ""},
+          "verified_commit": "f7a110c659c71ea689a0557d125c905c6fe1eb14",
+          "verified_on": "2026-10-25"
+        },
+        {
+          "id": "world-law-kr-orders",
+          "status": "published",
+          "url": "https://nanalab.kr/world-law-kr-orders/",
+          "languages": ["ko", "en", "zh", "es"],
+          "language_paths": {"ko": ""},
+          "verified_commit": "cb2287a629776739101face4ae6ad0edaba913ba",
+          "verified_on": "2026-10-25"
+        },
+        {
+          "id": "world-law-de",
+          "status": "preparing"
+        }
+      ]
+    }
+  ]
+}

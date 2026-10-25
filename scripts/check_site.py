@@ -8,6 +8,7 @@ import re
 import runpy
 from datetime import datetime
 import xml.etree.ElementTree as ET
+from repository_groups import grouped_repositories
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -82,6 +83,10 @@ def check():
                 and re.search(r'url\s*=\s*(?:https://github\.com/|git@github\.com:)NaNaCompany/',
                               (p / '.git/config').read_text(encoding='utf-8'), re.I)}
     local_app_ids = {a['id'] for a in apps if not a.get('external')}
+    # A verified split belongs to its existing card; preparing children expose no URLs.
+    grouped_ids = {row['id'] for row in grouped_repositories(apps)}
+    assert grouped_ids <= expected, f'Grouped repository checkout unavailable: {grouped_ids - expected}'
+    expected -= grouped_ids
     # Language-only sibling repositories do not create additional app cards.
     expected = {name for name in expected if not any(name == base + '_' + language for base in local_app_ids for language in ['ko','en','es','zh','ja','fr','de','pt','ru','ar','it'])}
     for app in apps:

@@ -8,6 +8,7 @@ from urllib.parse import urlsplit
 import json
 import re
 import xml.etree.ElementTree as ET
+from repository_groups import grouped_repositories, sitemap_repositories
 
 ROOT = Path(__file__).resolve().parents[1]
 NS = '{http://www.sitemaps.org/schemas/sitemap/0.9}'
@@ -27,8 +28,11 @@ def discover():
         assert primary_tree.tag == NS + 'urlset', 'Build sitemap-main.xml before syncing a sitemap index'
         primary = {node.text for node in primary_tree.findall(NS + 'url/' + NS + 'loc')}
     apps = json.loads((ROOT / 'content/apps.json').read_text(encoding='utf-8'))
+    for child in grouped_repositories(apps):
+        if child['status'] == 'preparing':
+            assert child['id'] not in sources, 'Unpublished child already registered: ' + child['id']
     scanned = 0
-    for app in apps:
+    for app in sitemap_repositories(apps):
         if app.get('external') or app.get('kind') == 'template':
             continue
         base = app.get('url', 'https://nanalab.kr/' + app['id'] + '/')
@@ -39,6 +43,9 @@ def discover():
         source = next((path for path in [repository / 'docs/sitemap.xml', repository / 'sitemap.xml']
                        if path.is_file()), None)
         if source is None:
+            if app.get('directory_app_id'):
+                assert app['id'] in sources, 'Verified child sitemap unavailable: ' + app['id']
+                continue
             if not (repository / 'index.html').is_file():
                 continue
             pages = []
@@ -63,6 +70,8 @@ def discover():
         assert urls and len(urls) == len(set(urls)) <= 50000, app['id']
         assert all(url and url.startswith(base) for url in urls), app['id']
         sources[app['id']] = {'app_id': app['id'], 'url': base.rstrip('/') + '/sitemap.xml'}
+        if app.get('directory_app_id'):
+            sources[app['id']]['directory_app_id'] = app['directory_app_id']
         supplemental.pop(app['id'], None)
         scanned += 1
     rows = sorted(sources.values(), key=lambda row: row['url'])

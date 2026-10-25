@@ -177,4 +177,6 @@ Sitemap: https://nanalab.kr/rain-rhythm/sitemap.xml
 Sitemap: https://nanalab.kr/rebirth_biology/sitemap.xml
 Sitemap: https://nanalab.kr/rebirth_country/sitemap.xml
 Sitemap: https://nanalab.kr/table-memory/sitemap.xml
+Sitemap: https://nanalab.kr/world-law-kr-acts/sitemap.xml
+Sitemap: https://nanalab.kr/world-law-kr-orders/sitemap.xml
 Sitemap: https://nanalab.kr/world-law-portal/sitemap.xml

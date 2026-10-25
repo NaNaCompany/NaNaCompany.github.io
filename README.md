@@ -82,6 +82,8 @@ node scripts/check_interactions.cjs
 
 앱을 추가·갱신할 때 `python scripts/sync_sitemaps.py`로 각 저장소의 공개용 `sitemap.xml`을 찾아 연결 원본을 갱신한 뒤 빌드합니다. 외부 사이트와 개발 템플릿은 제외합니다. 이미 연결한 저장소가 로컬에 없더라도 연결은 보존합니다. 일반 빌드는 저장된 원본만 읽으므로 네트워크 없이 재현할 수 있습니다. 앱의 세부 페이지가 늘어나면 앱 자체 사이트맵을 갱신합니다. 루트 `robots.txt`는 `content/robots-base.txt`의 정책·소유권 확인 정보를 보존하고 색인과 메인·앱 사이트맵 주소를 자동 추가합니다. 출처 파일의 실제 수정일을 알 수 없는 URL에는 가짜 `lastmod`를 넣지 않습니다.
 
+한 서비스가 여러 저장소로 분리된 경우 `content/repository-groups.json`에서 대표 앱과 하위 저장소를 연결합니다. 앱 카드는 대표 1개를 유지합니다. 실제 Pages 배포 커밋·공개 언어 페이지·사이트맵을 확인한 하위 저장소만 `published`로 기록하고, 메인 페이지 목록과 루트 sitemapindex·robots에 연결합니다. 준비 중인 `preparing` 저장소에는 주소를 등록하지 않습니다. 세계 법령 자료실의 한국 법률(`world-law-kr-acts`)과 명령·규칙(`world-law-kr-orders`)은 공개 지도에 연결하며, 독일 저장소(`world-law-de`)는 준비 상태입니다. `python scripts/check_repository_groups.py`가 중복 카드·잘못된 연결·미공개 주소 등록을 검사합니다.
+
 개별 사이트맵이 없는 앱은 공개 HTML 페이지를 확인해 `/sitemap-details.xml`에 보완하고 루트 색인과 `robots.txt`에서 알립니다. 메인 목록에 이미 있는 URL, 개발 소스·테스트·템플릿과 `noindex` 페이지는 보완 목록에서 제외합니다. 전용 사이트맵이 있는 앱은 해당 파일을 직접 연결합니다. Astra는 `/astra/sitemap.xml`에서 공개 페이지 전체를 관리합니다.
 
 배포 후 `python scripts/check_sitemaps.py --live`는 루트 색인·메인 목록·robots.txt의 배포 최신 상태와 모든 앱 XML의 HTTP 응답·구조·중복·동일 도메인·기존 URL·메타데이터 보존·발견 경로를 확인하고, 중복을 제외한 전체 URL 수를 출력합니다. Search Console 제출 주소는 `https://nanalab.kr/sitemap.xml`이며, 이 색인 하나에서 메인 목록과 모든 앱의 하위 사이트맵으로 연결됩니다. 색인과 하위 사이트맵을 읽는 시점은 다를 수 있으며, 발견된 페이지 수는 실제 검색 색인 완료 수와 다릅니다. 하위 경로의 robots.txt와 별개로 같은 호스트 전체에 실제 적용되는 정책은 루트 `/robots.txt`입니다. 구성 기준은 [Google의 사이트맵 색인 안내](https://developers.google.com/search/docs/crawling-indexing/sitemaps/large-sitemaps)를 따릅니다.

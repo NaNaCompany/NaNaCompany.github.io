@@ -10,6 +10,7 @@ import xml.etree.ElementTree as ET
 
 from build_site import build
 from site_urls import canonical_url
+from repository_groups import grouped_landing_urls, grouped_repositories, sitemap_repositories
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = 'https://nanalab.kr/'
@@ -64,12 +65,20 @@ def check(live=False):
     assert len(advertised) == len(set(advertised)), 'Duplicate robots sitemap directive'
     assert set(advertised) == expected | {index_url}, 'Robots must advertise index and every leaf map'
     apps = json.loads((ROOT / 'content/apps.json').read_text(encoding='utf-8'))
-    app_ids = {row['id'] for row in apps}
-    assert {row['app_id'] for row in manifest['sources']} <= app_ids
+    repositories = sitemap_repositories(apps)
+    repository_ids = {row['id'] for row in repositories}
+    assert {row['app_id'] for row in manifest['sources']} <= repository_ids
+    children = {row['id']: row for row in grouped_repositories(apps)}
+    for source in manifest['sources']:
+        if source['app_id'] in children:
+            child = children[source['app_id']]
+            assert child['status'] == 'published'
+            assert source.get('directory_app_id') == child['directory_app_id'], 'Child sitemap lost parent association'
+            assert source['url'] == child['url'] + 'sitemap.xml', 'Wrong child sitemap location'
     # A newly added app must not silently lose discovery of its detailed map.
     registered = {row['app_id'] for row in manifest['sources']}
     assert len(registered) == len(manifest['sources']), 'Duplicate app sitemap registration'
-    for app in apps:
+    for app in repositories:
         if app.get('external') or app.get('kind') == 'template':
             continue
         repository = ROOT.parent / app['id']
@@ -99,6 +108,11 @@ def check(live=False):
     else:
         maps = dict(map(read, locations))
     assert maps[main_url] == leaf(outputs['sitemap-main.xml'].encode(), 'generated main')
+    assert grouped_landing_urls(apps) <= maps[main_url], 'Published child language landings missing'
+    for child in children.values():
+        if child['status'] == 'published':
+            required = {child['url']} | {child['url'] + child.get('language_paths', {}).get(language, language + '/') for language in child['languages']}
+            assert required <= maps[child['url'] + 'sitemap.xml'], 'Child sitemap misses language landings: ' + child['id']
     if extras:
         assert maps[SITE + 'sitemap-details.xml'] == extras
     # Preserve every existing page URL and its metadata.

@@ -694,6 +694,16 @@
       "url": "https://nanalab.kr/table-memory/sitemap.xml"
     },
     {
+      "app_id": "world-law-kr-acts",
+      "url": "https://nanalab.kr/world-law-kr-acts/sitemap.xml",
+      "directory_app_id": "world-law-portal"
+    },
+    {
+      "app_id": "world-law-kr-orders",
+      "url": "https://nanalab.kr/world-law-kr-orders/sitemap.xml",
+      "directory_app_id": "world-law-portal"
+    },
+    {
       "app_id": "world-law-portal",
       "url": "https://nanalab.kr/world-law-portal/sitemap.xml"
     }

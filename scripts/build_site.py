@@ -16,6 +16,7 @@ import xml.etree.ElementTree as ET
 from syndication import anchor_cards, build_syndication, documentation
 from site_urls import canonical_url, canonical_links
 from localization import build_localized_pages
+from repository_groups import grouped_landing_urls
 
 ROOT = Path(__file__).resolve().parents[1]
 VOID = set('area base br col embed hr img input link meta param source track wbr'.split())
@@ -241,7 +242,7 @@ def build():
     # whether that app publishes its own leaf sitemap. External hosts belong
     # in their own sitemaps; fragments do not identify separate pages.
     known_urls = {node.text for node in ET.fromstring(sitemap).iter('{http://www.sitemaps.org/schemas/sitemap/0.9}loc')}
-    linked_urls = homepage_sitemap_urls(shell) | set(localized_urls)
+    linked_urls = homepage_sitemap_urls(shell) | set(localized_urls) | grouped_landing_urls(apps)
     for app in apps:
         target = app.get('url') or 'https://nanalab.kr/' + app['id'] + '/'
         linked_urls.update(homepage_sitemap_urls(f'<a href="{escape(target, quote=True)}"></a>'))
