@@ -31,15 +31,18 @@ function setup(archive = false, localized = false) {
         ids[archive ? 'archive-count' : 'result-count'].dataset.template = archive ? '{label}: {count} · newest first' : '{label}: {count}';
     }
     const domReady = [];
+    const languageMenu = localized ? element() : null;
+    const languageLinks = localized ? [element(),element()] : [];
+    const window = {location:{hash:'#app-search'}};
     const document = {
         getElementById: id => ids[id] || null,
-        querySelector: () => null,
-        querySelectorAll: selector => ({'.directory-card':cards, '[data-filter]':filters, '.singleLectureContainer':entries, '[data-lecture-category]':lectureFilters}[selector] || []),
+        querySelector: selector => selector === '.language-menu' ? languageMenu : null,
+        querySelectorAll: selector => ({'.directory-card':cards, '[data-filter]':filters, '.singleLectureContainer':entries, '[data-lecture-category]':lectureFilters, '.language-menu a':languageLinks}[selector] || []),
         addEventListener(name, callback) { if (name === 'DOMContentLoaded') domReady.push(callback); }
     };
-    vm.runInNewContext(fs.readFileSync(path.join(root, 'script.js'), 'utf8'), {document, setTimeout, console});
+    vm.runInNewContext(fs.readFileSync(path.join(root, 'script.js'), 'utf8'), {document, window, setTimeout, console});
     domReady.forEach(callback => callback());
-    return {cards, filters, entries, ids, lectureFilters};
+    return {cards, filters, entries, ids, lectureFilters, languageLinks, languageMenu, window};
 }
 const {cards, filters, ids} = setup();
 ids['app-search'].value = 'PDF';
@@ -74,6 +77,13 @@ const english = setup(false, true);
 english.ids['app-search'].value = 'astra';
 english.ids['app-search'].emit('input');
 assert.equal(english.ids['result-count'].textContent, 'All: 1');
+assert.equal(english.languageLinks[0].hash, '#app-search');
+english.window.location.hash = '#result-count';
+english.languageMenu.emit('toggle');
+assert.equal(english.languageLinks[0].hash, '#result-count');
+english.window.location.hash = '#google_vignette';
+english.languageMenu.emit('toggle');
+assert.equal(english.languageLinks[0].hash, '');
 const englishArchive = setup(true, true);
 englishArchive.lectureFilters.find(button => button.dataset.lectureCategory === '기업').emit('click');
 assert.equal(englishArchive.ids['archive-count'].textContent, 'Companies: 1 · newest first');

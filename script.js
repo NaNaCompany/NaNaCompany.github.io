@@ -1,10 +1,16 @@
 // App directory: server-rendered cards remain available without JavaScript.
 document.addEventListener('DOMContentLoaded', () => {
     // Matching archives share their anchors across all language routes.
-    document.querySelectorAll('.language-menu a').forEach(link => {
-        const fragment = window.location.hash;
-        if (fragment && document.getElementById(fragment.slice(1))) link.hash = fragment;
-    });
+    const languageMenu = document.querySelector('.language-menu');
+    if (languageMenu) {
+        const syncLanguageSection = () => {
+            const fragment = window.location.hash;
+            const valid = fragment && document.getElementById(fragment.slice(1));
+            document.querySelectorAll('.language-menu a').forEach(link => { link.hash = valid ? fragment : ''; });
+        };
+        syncLanguageSection();
+        languageMenu.addEventListener('toggle', syncLanguageSection);
+    }
     const search = document.getElementById('app-search');
     const cards = [...document.querySelectorAll('.directory-card')];
     const filters = [...document.querySelectorAll('[data-filter]')];
