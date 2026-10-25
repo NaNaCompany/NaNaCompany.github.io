@@ -5,12 +5,14 @@ Requires only the Python standard library. No network access during builds.
 """
 from pathlib import Path
 from datetime import date, datetime
+from hashlib import sha256
 from html import escape, unescape
 from html.parser import HTMLParser
 from urllib.parse import urljoin
 import argparse
 import json
 import re
+from syndication import anchor_cards, build_syndication, documentation
 
 ROOT = Path(__file__).resolve().parents[1]
 VOID = set('area base br col embed hr img input link meta param source track wbr'.split())
@@ -20,6 +22,7 @@ class Cards(HTMLParser):
     def __init__(self, source):
         super().__init__(convert_charrefs=False)
         self.source, self.stack, self.cards = source, [], []
+        self.comment, self.card_comments = '', {}
         self.lines = [0] + [m.end() for m in re.finditer('\n', source)]
         self.feed(source)
 
@@ -32,7 +35,12 @@ class Cards(HTMLParser):
             return
         classes = dict(attrs).get('class', '').split()
         is_card = bool(set(classes) & {'singleLectureContainer', 'singleProjectContainer', 'singleCodeContainer'})
+        if is_card:
+            self.card_comments[self.source_offset()] = self.comment
         self.stack.append((tag, self.source_offset(), is_card))
+
+    def handle_comment(self, text):
+        self.comment = ' '.join(text.split())
 
     def handle_endtag(self, tag):
         for i in range(len(self.stack) - 1, -1, -1):
@@ -40,7 +48,14 @@ class Cards(HTMLParser):
                 matched, self.stack = self.stack[i:], self.stack[:i]
                 for _, start, card in matched:
                     if card:
-                        self.cards.append(self.source[start:self.source.index('>', self.source_offset()) + 1])
+                        markup = self.source[start:self.source.index('>', self.source_offset()) + 1]
+                        # Legacy records have semantic source comments but no explicit IDs.
+                        # Keep versions sharing one URL separate without using list position.
+                        comment = self.card_comments.get(start)
+                        if comment and 'data-record-id=' not in markup.split('>', 1)[0]:
+                            identity = 'source-' + sha256(comment.encode()).hexdigest()[:20]
+                            markup = re.sub(r'^(<\w+)', lambda m: m[0] + f' data-record-id="{identity}"', markup, count=1)
+                        self.cards.append(markup)
                 break
 
 
@@ -65,7 +80,7 @@ def imported(key):
             assert identity, 'Lecture record needs an identity'
             unique.setdefault(identity[1], card)
         cards = sorted(unique.values(), key=lecture_latest_date, reverse=True)
-    return cards
+    return anchor_cards(key, cards)
 
 
 def lecture_latest_date(card):
@@ -142,7 +157,7 @@ def build():
     assert all(sections.values())
     shell = shell.replace('</head>', '<link rel="stylesheet" href="/additions.css">\n</head>')
     shell = shell.replace('src="script.js"', 'src="/script.js?v=archives-20261024"')
-    shell = shell.replace('href="/additions.css"', 'href="/additions.css?v=app-list-20261024"')
+    shell = shell.replace('href="/additions.css"', 'href="/additions.css?v=syndication-20261025"')
     shell = shell.replace('<a href="#apps">Recent</a>', '<a href="#apps">Apps</a>')
     shell = shell.replace('<a href="https://nanalab.kr/apps">APPs</a>', '<a href="#lectures">Lectures</a><a href="#research">Research</a>')
     app_section = directory(apps).replace('class="directory-section container"', 'class="app-section catalog-addition container"')
@@ -174,9 +189,11 @@ def build():
     outputs['research/index.html'] = subpage(intro('R&D','논문·특허·개발 프로젝트') + research_archive(sections) + source_note,'Research','research')
     for route, key, label in [('papers','papers','논문·연구'), ('patents','patents','특허·실용신안'), ('projects','websites','개발 프로젝트')]:
         outputs[f'{route}/index.html'] = subpage(intro(label, 'R&D') + '<nav class="research-category-nav container"><a href="/papers/">논문·연구</a><a href="/patents/">특허·실용신안</a><a href="/projects/">개발 프로젝트</a></nav>' + portfolio_section(key,label,sections[key]) + source_note,label,route)
+    outputs['feeds/index.html'] = subpage(intro('구독·데이터', 'RSS · JSON Feed · 공개 JSON') + documentation(), '구독·데이터', 'feeds')
+    outputs.update(build_syndication(apps, sections, json.loads(read('content/portfolio/provenance.json'))))
     # Preserve every original sitemap URL and its existing metadata.
     sitemap = read('content/sitemap-base.xml')
-    additions = [(route, '2026-10-25') for route in ['/lectures/','/research/','/papers/','/patents/','/projects/']]
+    additions = [(route, '2026-10-25') for route in ['/lectures/','/research/','/papers/','/patents/','/projects/','/feeds/']]
     for app in json.loads(read('content/apps.json')):
         if app.get('kind') == 'template' or app.get('external'):
             continue

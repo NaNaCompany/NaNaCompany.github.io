@@ -1,0 +1,514 @@
+{
+  "schema_version": "1.0",
+  "type": "projects",
+  "count": 34,
+  "items": [
+    {
+      "id": "websites-c1e869b7b56e0c81a614",
+      "section": "projects",
+      "title": "https://aieng.kr",
+      "url": "https://nanalab.kr/projects/#record-projects-websites-c1e869b7b56e0c81a614",
+      "summary": "Official website of AI.Eng. This website was built with React.js and @material-ui.",
+      "source_url": "https://bhban.kr/",
+      "image": "https://bhban.kr/src/images/websites/aieng.webp",
+      "links": [
+        "https://aieng.kr",
+        "https://github.com/needleworm/aieng"
+      ],
+      "external_url": "https://aieng.kr",
+      "date_precision": "unknown"
+    },
+    {
+      "id": "websites-a84770d79e442e1c2167",
+      "section": "projects",
+      "title": "https://needleworm.github.io",
+      "url": "https://nanalab.kr/projects/#record-projects-websites-a84770d79e442e1c2167",
+      "summary": "My own webpage built with React. This static website is hosted on Github Pages. It was inspired by Thomas Zuhlke's jekyll theme . The original theme runs with jQuery for github API calling, and SCSS for styling. And its jQuery function supported only one content wrapper element. I built a React app looks similar to Thomas' work. As you can see, this page supports multiple content wrapper elements. If you are interested in using this site theme to build your own page, please visit my repository to get the source code.",
+      "source_url": "https://bhban.kr/",
+      "image": "https://bhban.kr/src/images/websites/blog.webp",
+      "links": [
+        "https://needleworm.github.io",
+        "https://github.com/tzuehlke/jekyll-uno-timeline/",
+        "https://github.com/needleworm/needleworm.github.io"
+      ],
+      "external_url": "https://needleworm.github.io",
+      "date_precision": "unknown"
+    },
+    {
+      "id": "websites-4cb446e195311585449f",
+      "section": "projects",
+      "title": "https://needleworm.github.io/ai_voca",
+      "url": "https://nanalab.kr/projects/#record-projects-websites-4cb446e195311585449f",
+      "summary": "AI족집게 수능영단어(2023, 생능북스)의 부록으로 제공되는 학습용 앱입니다. 매일매일 퀴즈 풀기 기능과, 교사를 위한 PDF 단어 시험지 제작 기능이 제공됩니다.",
+      "source_url": "https://bhban.kr/",
+      "image": "https://bhban.kr/src/images/websites/ai_voca.webp",
+      "links": [
+        "https://needleworm.github.io/ai_voca",
+        "https://github.com/needleworm/ai_voca"
+      ],
+      "external_url": "https://needleworm.github.io/ai_voca",
+      "date_precision": "unknown"
+    },
+    {
+      "id": "websites-f35466df2464a7b9adf4",
+      "section": "projects",
+      "title": "https://needleworm.github.io/dev",
+      "url": "https://nanalab.kr/projects/#record-projects-websites-f35466df2464a7b9adf4",
+      "summary": "This page provides example codes for my book, \"비전공이지만 개발자로 먹고삽니다 (생능북스, 2022)\". It was built with Jekyll and Agency theme by Ravi Riley .",
+      "source_url": "https://bhban.kr/",
+      "image": "https://bhban.kr/src/images/websites/dev.webp",
+      "links": [
+        "https://needleworm.github.io/dev",
+        "https://github.com/raviriley/agency-jekyll-theme/",
+        "https://github.com/needleworm/dev"
+      ],
+      "external_url": "https://needleworm.github.io/dev",
+      "date_precision": "unknown"
+    },
+    {
+      "id": "source-6558038e726e98cc4604",
+      "section": "projects",
+      "title": "https://needleworm.github.io/psd",
+      "url": "https://nanalab.kr/projects/#record-projects-source-6558038e726e98cc4604",
+      "summary": "This page provides example codes for my book, \"포토샵 마스터 클래스 (생능북스, 2023)\". It was built with Jekyll and Agency theme by Ravi Riley .",
+      "source_url": "https://bhban.kr/",
+      "image": "https://bhban.kr/src/images/websites/psd.webp",
+      "links": [
+        "https://needleworm.github.io/psd",
+        "https://github.com/raviriley/agency-jekyll-theme/",
+        "https://github.com/needleworm/psd"
+      ],
+      "external_url": "https://needleworm.github.io/psd",
+      "date_precision": "unknown"
+    },
+    {
+      "id": "source-93c91c851e7acc17d881",
+      "section": "projects",
+      "title": "https://www.sangsang.farm/price",
+      "url": "https://nanalab.kr/projects/#record-projects-source-93c91c851e7acc17d881",
+      "summary": "This webpage provides automated counceling on smart farm and plant factory facilities. As there is no standard format of smart farm facilities in Korean market, each consulting requires so much time and effort from both customers and us. So I built this automated and interactive web app to provide information and suggest appropriate options for our customers. This system also provides formed quote documents for administrative works of companies. This static website was built with React and hosted on Azure.",
+      "source_url": "https://bhban.kr/",
+      "image": "https://bhban.kr/src/images/websites/price.webp",
+      "links": [
+        "https://www.sangsang.farm/price"
+      ],
+      "external_url": "https://www.sangsang.farm/price",
+      "date_precision": "unknown"
+    },
+    {
+      "id": "source-76f68a75f01ed76f5a02",
+      "section": "projects",
+      "title": "https://www.sangsang.farm/business",
+      "url": "https://nanalab.kr/projects/#record-projects-source-76f68a75f01ed76f5a02",
+      "summary": "Business proposal page of Imagination Garden Inc. This website provides embedded slide show for presentation. This static website was built with Jekyll and hosted on Azure. It also utilized Agency theme by Ravi Riley .",
+      "source_url": "https://bhban.kr/",
+      "image": "https://bhban.kr/src/images/websites/business.webp",
+      "links": [
+        "https://www.sangsang.farm/business",
+        "https://github.com/raviriley/agency-jekyll-theme/"
+      ],
+      "external_url": "https://www.sangsang.farm/business",
+      "date_precision": "unknown"
+    },
+    {
+      "id": "source-d4068f2689bea06e706c",
+      "section": "projects",
+      "title": "https://needleworm.github.io/financebook",
+      "url": "https://nanalab.kr/projects/#record-projects-source-d4068f2689bea06e706c",
+      "summary": "This page provides example codes for my book, \"내 자산 자동으로 관리하기 (생능출판사, 2021.07.09)\". It was built with Jekyll and Agency theme by Ravi Riley .",
+      "source_url": "https://bhban.kr/",
+      "image": "https://bhban.kr/src/images/websites/financebook.webp",
+      "links": [
+        "https://needleworm.github.io/financebook",
+        "https://github.com/raviriley/agency-jekyll-theme/",
+        "https://github.com/needleworm/financebook"
+      ],
+      "external_url": "https://needleworm.github.io/financebook",
+      "date_precision": "unknown"
+    },
+    {
+      "id": "source-4411e525721e7dd80175",
+      "section": "projects",
+      "title": "https://needleworm.github.io/dataset",
+      "url": "https://nanalab.kr/projects/#record-projects-source-4411e525721e7dd80175",
+      "summary": "This page provides example codes for my book, \"AI, 빅데이터 활용이 쉬워지는 142가지 데이터셋 (생능북스, 2022.02.22.)\". It was built with Jekyll and Agency theme by Ravi Riley .",
+      "source_url": "https://bhban.kr/",
+      "image": "https://bhban.kr/src/images/websites/dataset.webp",
+      "links": [
+        "https://needleworm.github.io/dataset",
+        "https://github.com/raviriley/agency-jekyll-theme/",
+        "https://github.com/needleworm/dataset"
+      ],
+      "external_url": "https://needleworm.github.io/dataset",
+      "date_precision": "unknown"
+    },
+    {
+      "id": "source-16dc368a89b428b24854",
+      "section": "projects",
+      "title": "https://needleworm.github.io/101",
+      "url": "https://nanalab.kr/projects/#record-projects-source-16dc368a89b428b24854",
+      "summary": "This page provides example codes for my book, \"비전공자가 업무에서 자주 물어보는 101가지 컴퓨터 활용팁 (생능출판사, 2021.07.15.)\". It was built with Jekyll and Agency theme by Ravi Riley .",
+      "source_url": "https://bhban.kr/",
+      "image": "https://bhban.kr/src/images/websites/101.webp",
+      "links": [
+        "https://needleworm.github.io/101",
+        "https://github.com/raviriley/agency-jekyll-theme/",
+        "https://github.com/needleworm/101"
+      ],
+      "external_url": "https://needleworm.github.io/101",
+      "date_precision": "unknown"
+    },
+    {
+      "id": "source-af48bcf0b9511b39b91b",
+      "section": "projects",
+      "title": "https://needleworm.github.io/frontend",
+      "url": "https://nanalab.kr/projects/#record-projects-source-af48bcf0b9511b39b91b",
+      "summary": "This page provides example codes for my book, \"코딩만 따라 해도 웹페이지가 만들어지는 HTML + CSS + 자바스크립트 (생능북스, 2022.02.15.)\". It was built with Jekyll and Agency theme by Ravi Riley .",
+      "source_url": "https://bhban.kr/",
+      "image": "https://bhban.kr/src/images/websites/frontend.webp",
+      "links": [
+        "https://needleworm.github.io/frontend",
+        "https://github.com/raviriley/agency-jekyll-theme/",
+        "https://github.com/needleworm/frontend"
+      ],
+      "external_url": "https://needleworm.github.io/frontend",
+      "date_precision": "unknown"
+    },
+    {
+      "id": "source-11fb682be0a0233d5fb8",
+      "section": "projects",
+      "title": "https://needleworm.github.io/bhban_ai",
+      "url": "https://nanalab.kr/projects/#record-projects-source-11fb682be0a0233d5fb8",
+      "summary": "This page provides example codes for my book, \"수학, 통계를 몰라도 이해되는 쉬운 딥러닝 (생능출판사, 2021)\". It was built with Jekyll and Agency theme by Ravi Riley .",
+      "source_url": "https://bhban.kr/",
+      "image": "https://bhban.kr/src/images/websites/ai.webp",
+      "links": [
+        "https://needleworm.github.io/bhban_ai",
+        "https://github.com/raviriley/agency-jekyll-theme/",
+        "https://github.com/needleworm/bhban_ai/tree/web"
+      ],
+      "external_url": "https://needleworm.github.io/bhban_ai",
+      "date_precision": "unknown"
+    },
+    {
+      "id": "source-8de41b07e8d593ee5978",
+      "section": "projects",
+      "title": "https://needleworm.github.io/bhban_rpa",
+      "url": "https://nanalab.kr/projects/#record-projects-source-8de41b07e8d593ee5978",
+      "summary": "This page provides example codes for my book, \"6개월 치 업무를 하루 만에 끝내는 업무 자동화 (생능출판사, 2020)\". It was built with Jekyll and Agency theme by Ravi Riley .",
+      "source_url": "https://bhban.kr/",
+      "image": "https://bhban.kr/src/images/websites/rpa.webp",
+      "links": [
+        "https://needleworm.github.io/bhban_rpa",
+        "https://github.com/raviriley/agency-jekyll-theme/",
+        "https://github.com/needleworm/bhban_rpa/tree/web"
+      ],
+      "external_url": "https://needleworm.github.io/bhban_rpa",
+      "date_precision": "unknown"
+    },
+    {
+      "id": "source-ffa507a8ccef42c14eb5",
+      "section": "projects",
+      "title": "https://needleworm.github.io/moneyauto",
+      "url": "https://nanalab.kr/projects/#record-projects-source-ffa507a8ccef42c14eb5",
+      "summary": "A Landing page for Money AUTO project. Money AUTO is a non-commercial project to provide automated solutionis for individual investors. It now provides Coin AUTO, an automated cryptocurrency trading system. Money AUTO will provide automated stock trading system, real-time asset management system, and investment portfolio design services. All services of moneyauto will be provided for free. This static website was built with Jekyll and Agency theme by Ravi Riley .",
+      "source_url": "https://bhban.kr/",
+      "image": "https://bhban.kr/src/images/websites/moneyauto.webp",
+      "links": [
+        "https://needleworm.github.io/moneyauto",
+        "https://github.com/raviriley/agency-jekyll-theme/",
+        "https://github.com/needleworm/moneyauto"
+      ],
+      "external_url": "https://needleworm.github.io/moneyauto",
+      "date_precision": "unknown"
+    },
+    {
+      "id": "source-95d23d673252be098208",
+      "section": "projects",
+      "title": "https://needleworm.github.io/tech3",
+      "url": "https://nanalab.kr/projects/#record-projects-source-95d23d673252be098208",
+      "summary": "This page provides example codes for my book, \"돈이 복사되는 가상자산 수업 (생능북스, 2022)\". It was built with Jekyll and Agency theme by Ravi Riley .",
+      "source_url": "https://bhban.kr/",
+      "image": "https://bhban.kr/src/images/websites/tech3.webp",
+      "links": [
+        "https://needleworm.github.io/tech3",
+        "https://github.com/raviriley/agency-jekyll-theme/",
+        "https://github.com/needleworm/tech3"
+      ],
+      "external_url": "https://needleworm.github.io/tech3",
+      "date_precision": "unknown"
+    },
+    {
+      "id": "source-cce829aeff7a72b905e9",
+      "section": "projects",
+      "title": "https://www.sangsang.farm",
+      "url": "https://nanalab.kr/projects/#record-projects-source-cce829aeff7a72b905e9",
+      "summary": "Official website of Imagination Garden Inc. for 2022 4Q. It uses a backend MySQL server for data management, while previous website was a static website. This website was built with Docker, MySQL, and Wordpress hosted on Azure.",
+      "source_url": "https://bhban.kr/",
+      "image": "https://bhban.kr/src/images/websites/sstb2.webp",
+      "links": [
+        "https://www.sangsang.farm"
+      ],
+      "external_url": "https://www.sangsang.farm",
+      "date_precision": "unknown"
+    },
+    {
+      "id": "source-2bbda680b4589a35f608",
+      "section": "projects",
+      "title": "https://www.sangsang.farm",
+      "url": "https://nanalab.kr/projects/#record-projects-source-2bbda680b4589a35f608",
+      "summary": "Official webpage of Imagination Garden Inc. This static website was built with Jekyll and hosted on Azure. It also utilized Agency theme by Ravi Riley .",
+      "source_url": "https://bhban.kr/",
+      "image": "https://bhban.kr/src/images/websites/sangsangfarm.webp",
+      "links": [
+        "https://www.sangsang.farm",
+        "https://github.com/raviriley/agency-jekyll-theme/"
+      ],
+      "external_url": "https://www.sangsang.farm",
+      "date_precision": "unknown"
+    },
+    {
+      "id": "source-b75e4412157c65759bb0",
+      "section": "projects",
+      "title": "NaNa Investment",
+      "url": "https://nanalab.kr/projects/#record-projects-source-b75e4412157c65759bb0",
+      "summary": "A comprehensive investment analysis platform designed for portfolio exploration and simulation. It provides real-time access to major market indices such as KOSPI, KOSDAQ, NASDAQ, and the S&P 500, and allows users to search individual stocks to view recent price data. The platform introduces well-known asset allocation strategies and explains how to implement them using ETFs. Users can copy selected portfolio recipes into their personal inventory and run backtests, such as simulating how a $10,000 investment made ten years ago might have performed. In addition to sample portfolios, users can customize portfolios using their own selected assets. When signed in with a Google account, portfolio recipes are securely saved to the user's Google Drive. NaNa Lab does not collect or store personal investment data; all information remains within the user's own account.",
+      "source_url": "https://bhban.kr/",
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/apps/invest.webp",
+      "links": [
+        "https://nanalab.kr/invest"
+      ],
+      "external_url": "https://nanalab.kr/invest",
+      "date_precision": "unknown"
+    },
+    {
+      "id": "source-346aab89640f01cb0a79",
+      "section": "projects",
+      "title": "QR Code Generator",
+      "url": "https://nanalab.kr/projects/#record-projects-source-346aab89640f01cb0a79",
+      "summary": "Instantly convert URLs into QR codes directly in your browser. Since the QR codes are generated locally without passing through external servers, this tool operates significantly faster than most alternatives. It even works reliably when your internet connection is unavailable. The service is 100% free, and you can download clean, well-designed QR codes with a single click.",
+      "source_url": "https://bhban.kr/",
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/apps/qr.webp",
+      "links": [
+        "https://nanalab.kr/qr"
+      ],
+      "external_url": "https://nanalab.kr/qr",
+      "date_precision": "unknown"
+    },
+    {
+      "id": "source-953f32f2062ba6547d2b",
+      "section": "projects",
+      "title": "Smart Calculator",
+      "url": "https://nanalab.kr/projects/#record-projects-source-953f32f2062ba6547d2b",
+      "summary": "A lightweight yet powerful smart calculator designed for everyday and office use. With built-in speech recognition, it offers improved accessibility in situations where typing is inconvenient. The calculator displays calculation history on screen, helping users keep track of multiple consecutive operations. It also includes currency conversion features, making it especially useful for accounting and financial tasks.",
+      "source_url": "https://bhban.kr/",
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/apps/smart_calculator.webp",
+      "links": [
+        "https://nanalab.kr/smart_calculator"
+      ],
+      "external_url": "https://nanalab.kr/smart_calculator",
+      "date_precision": "unknown"
+    },
+    {
+      "id": "source-9375ae8018267adee71b",
+      "section": "projects",
+      "title": "Fortune Teller",
+      "url": "https://nanalab.kr/projects/#record-projects-source-9375ae8018267adee71b",
+      "summary": "Start your day with a glimpse into your destiny. This application provides daily fortune readings based on your zodiac sign and date of birth. Whether you are looking for advice on love, career, or health, our Fortune Teller offers insights to help you navigate your day with confidence. It is a fun and mystical way to take a moment for yourself amidst a busy schedule.",
+      "source_url": "https://bhban.kr/",
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/apps/fortune.webp",
+      "links": [
+        "https://nanalab.kr/fortune"
+      ],
+      "external_url": "https://nanalab.kr/fortune",
+      "date_precision": "unknown"
+    },
+    {
+      "id": "source-15aedfcd0dba76bf700c",
+      "section": "projects",
+      "title": "Away Screen",
+      "url": "https://nanalab.kr/projects/#record-projects-source-15aedfcd0dba76bf700c",
+      "summary": "Maintain professional etiquette even when you're away from your desk. This convenient tool transforms your monitor into a clear status display, greatly helping communication with colleagues in the office. It also features an automatic full-screen mode for a seamless status display experience.",
+      "source_url": "https://bhban.kr/",
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/apps/afd.webp",
+      "links": [
+        "https://nanalab.kr/afd"
+      ],
+      "external_url": "https://nanalab.kr/afd",
+      "date_precision": "unknown"
+    },
+    {
+      "id": "source-093ae253a5db358d9b79",
+      "section": "projects",
+      "title": "BMI Calculator",
+      "url": "https://nanalab.kr/projects/#record-projects-source-093ae253a5db358d9b79",
+      "summary": "Take control of your health journey with this comprehensive Body Mass Index calculator. It goes beyond simple calculation by analyzing your current weight category and providing actionable insights. The tool calculates exactly how much weight you need to lose or gain to reach specific BMI milestones (like 90, 100, or 110), helping you set and track realistic fitness targets.",
+      "source_url": "https://bhban.kr/",
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/apps/bmi.webp",
+      "links": [
+        "https://nanalab.kr/bmi"
+      ],
+      "external_url": "https://nanalab.kr/bmi",
+      "date_precision": "unknown"
+    },
+    {
+      "id": "source-d91298d32abc04d49519",
+      "section": "projects",
+      "title": "Lucky Cannon",
+      "url": "https://nanalab.kr/projects/#record-projects-source-d91298d32abc04d49519",
+      "summary": "A delightful and interactive tool designed to randomly select one lucky person from a group. Whether you are organizing a team event, hosting a prize draw, or simply deciding who goes first, this app transforms the process into an exciting game. Featuring fun animations and a playful interface, it builds anticipation and adds a spark of joy to the moment of selection. Say goodbye to boring methods and let the Lucky Cannon decide the winner with a blast of fun!",
+      "source_url": "https://bhban.kr/",
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/apps/lucky_cannon.webp",
+      "links": [
+        "https://nanalab.kr/luck"
+      ],
+      "external_url": "https://nanalab.kr/luck",
+      "date_precision": "unknown"
+    },
+    {
+      "id": "source-65e4cc2debf38ec4447d",
+      "section": "projects",
+      "title": "Lorem Ipsum Generator",
+      "url": "https://nanalab.kr/projects/#record-projects-source-65e4cc2debf38ec4447d",
+      "summary": "A simple efficient tool for generating placeholder text (\"Lorem Ipsum\") for your design and typesetting projects. Whether you need a few paragraphs for a website mockup or extensive dummy text for a print layout, this tool provides standardized Latin text quickly. It helps designers focus on visual elements without being distracted by meaningful content. Customize the amount of text generated to perfectly fit your design constraints.",
+      "source_url": "https://bhban.kr/",
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/apps/lipsum.webp",
+      "links": [
+        "https://nanalab.kr/lipsum/"
+      ],
+      "external_url": "https://nanalab.kr/lipsum/",
+      "date_precision": "unknown"
+    },
+    {
+      "id": "source-0e165c8d8f7d0b3ff6e8",
+      "section": "projects",
+      "title": "Smart GIF Studio",
+      "url": "https://nanalab.kr/projects/#record-projects-source-0e165c8d8f7d0b3ff6e8",
+      "summary": "Smart GIF Studio is a free, browser-based GIF editor that lets you resize animations, crop or add padding, reduce file size with multiple optimization options, rotate/flip, reverse playback, adjust speed, and cut or trim frames. It also supports converting GIFs to MP4, WEBM, and JPG, and keeps a simple edit history for faster repetitive work. All processing runs locally in your browser, so files are not uploaded to external servers, making it suitable for handling sensitive media with confidence.",
+      "source_url": "https://bhban.kr/",
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/apps/gif_studio.webp",
+      "links": [
+        "https://nanalab.kr/gif_studio"
+      ],
+      "external_url": "https://nanalab.kr/gif_studio",
+      "date_precision": "unknown"
+    },
+    {
+      "id": "source-4abd5ab74c35be5db6e8",
+      "section": "projects",
+      "title": "Video to GIF",
+      "url": "https://nanalab.kr/projects/#record-projects-source-4abd5ab74c35be5db6e8",
+      "summary": "Marketers, designers, webmasters, and other media professionals often need to convert videos into GIF files for presentations, documentation, or social media content. This lightweight GIF converter offers a much faster and more convenient alternative to launching heavy desktop software such as professional video editors. Built on a serverless architecture, all processing is performed locally on the user's computer, so video data is never uploaded or transmitted externally. This makes the tool suitable for converting sensitive or confidential video materials while maintaining both efficiency and data privacy.",
+      "source_url": "https://bhban.kr/",
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/apps/video_to_gif.webp",
+      "links": [
+        "https://nanalab.kr/video_2_gif/"
+      ],
+      "external_url": "https://nanalab.kr/video_2_gif/",
+      "date_precision": "unknown"
+    },
+    {
+      "id": "source-b99f8fb4721f960d57d9",
+      "section": "projects",
+      "title": "Image Resizer",
+      "url": "https://nanalab.kr/projects/#record-projects-source-b99f8fb4721f960d57d9",
+      "summary": "Marketers, designers, and planners often need to process large numbers of images at once. From simple resizing and aspect ratio adjustments to cropping images for social media uploads, NaNa Lab's Image Resizer allows you to complete these tasks instantly with a single click. All image processing is performed locally in your browser without using external servers, which means your files are never uploaded and data privacy is fully preserved. Because images are not transferred over the network, the tool operates faster than many conventional online services, helping you save time by avoiding unnecessary uploads and downloads.",
+      "source_url": "https://bhban.kr/",
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/apps/image_resize.webp",
+      "links": [
+        "https://nanalab.kr/image_resize/"
+      ],
+      "external_url": "https://nanalab.kr/image_resize/",
+      "date_precision": "unknown"
+    },
+    {
+      "id": "source-0d4e1d4c43812433dc96",
+      "section": "projects",
+      "title": "Smart Doc Compressor",
+      "url": "https://nanalab.kr/projects/#record-projects-source-0d4e1d4c43812433dc96",
+      "summary": "Compress PDF, PPT, Word, and image files quickly and efficiently. Unlike many online tools that upload your documents to external servers, NaNa Lab processes all files locally within your browser, ensuring that no data is transmitted or stored elsewhere. This makes Smart Doc Compressor suitable for handling confidential documents and files containing personal information, while improving efficiency, productivity, and security at the same time.",
+      "source_url": "https://bhban.kr/",
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/apps/doc_compress.webp",
+      "links": [
+        "https://nanalab.kr/doc_compress/"
+      ],
+      "external_url": "https://nanalab.kr/doc_compress/",
+      "date_precision": "unknown"
+    },
+    {
+      "id": "source-c9817fa5d67f588e8f99",
+      "section": "projects",
+      "title": "Count Words",
+      "url": "https://nanalab.kr/projects/#record-projects-source-c9817fa5d67f588e8f99",
+      "summary": "A robust and precise character counting tool designed for writers, editors, and students. Beyond simple word counts, it provides detailed statistics including character counts with and without spaces, paragraph counts, and reading time estimates. It supports various languages and is optimized for checking limits on social media posts, essays, and reports. All text processing happens instantly in your browser, ensuring your content remains private.",
+      "source_url": "https://bhban.kr/",
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/apps/count_words.webp",
+      "links": [
+        "https://nanalab.kr/count_words"
+      ],
+      "external_url": "https://nanalab.kr/count_words",
+      "date_precision": "unknown"
+    },
+    {
+      "id": "source-af6b913e1901a4a87b8f",
+      "section": "projects",
+      "title": "Document Analyzer",
+      "url": "https://nanalab.kr/projects/#record-projects-source-af6b913e1901a4a87b8f",
+      "summary": "Gain deep insights into your documents with this powerful analysis tool. It supports both PDF and DOCX formats, extracting key metrics such as word count, page count, and keyword frequency. Perfect for reviewing legal contracts, academic papers, or business reports, it helps you understand the structure and content of your files at a glance. Like our other tools, it runs entirely client-side, guaranteeing that your sensitive documents never leave your device.",
+      "source_url": "https://bhban.kr/",
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/apps/doc_stat.webp",
+      "links": [
+        "https://nanalab.kr/doc_stat"
+      ],
+      "external_url": "https://nanalab.kr/doc_stat",
+      "date_precision": "unknown"
+    },
+    {
+      "id": "source-7e0b7e5ff797ef8b55c9",
+      "section": "projects",
+      "title": "PDF Merger",
+      "url": "https://nanalab.kr/projects/#record-projects-source-7e0b7e5ff797ef8b55c9",
+      "summary": "Efficiently combine multiple PDF documents into a single, organized file. Whether you're merging scattered reports, receipts, or study materials, this tool handles it all locally in your browser. Since no files are uploaded to external servers, you can process sensitive content with complete peace of mind, ensuring your data remains private and secure.",
+      "source_url": "https://bhban.kr/",
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/apps/merge_pdf.webp",
+      "links": [
+        "https://nanalab.kr/merge_pdf"
+      ],
+      "external_url": "https://nanalab.kr/merge_pdf",
+      "date_precision": "unknown"
+    },
+    {
+      "id": "source-486297a2f3b1c0cd4a5d",
+      "section": "projects",
+      "title": "Chatbot V5",
+      "url": "https://nanalab.kr/projects/#record-projects-source-486297a2f3b1c0cd4a5d",
+      "summary": "An advanced multi-modal chatbot prototype designed to support professional workflows. It features speech recognition for voice-based interaction and allows users to upload PDF files to generate conversations grounded in the document content, such as discussing legal topics using uploaded law texts. Conversation results can be summarized into one or two A4 pages and exported for printing or saving as PDF files, making it useful for report preparation and document review. Users can also organize their work documents and consult the AI for structured assistance. Optional Google Search integration enables the chatbot to actively search the web when answering questions. Powered by Gemini 3.0. As a prototype, usage is limited to 20 conversations per day. For internal or enterprise adoption, the service can be switched to a pay-as-you-go pricing model.",
+      "source_url": "https://bhban.kr/",
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/apps/chatbot_v5.webp",
+      "links": [
+        "https://nanalab.kr/chatbot_v5"
+      ],
+      "external_url": "https://nanalab.kr/chatbot_v5",
+      "date_precision": "unknown"
+    },
+    {
+      "id": "source-5f335f02fd93d35e110a",
+      "section": "projects",
+      "title": "Solo Chat Template",
+      "url": "https://nanalab.kr/projects/#record-projects-source-5f335f02fd93d35e110a",
+      "summary": "A sleek and modern AI chat interface template designed for seamless user interactions. It serves as a responsive front-end foundation for building custom AI chatbot applications. Features include theme toggling, model selection placeholders, and a clean messaging UI.",
+      "source_url": "https://bhban.kr/",
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/apps/solo_chat.webp",
+      "links": [
+        "https://nanalab.kr/chatTemplate"
+      ],
+      "external_url": "https://nanalab.kr/chatTemplate",
+      "date_precision": "unknown"
+    }
+  ],
+  "source": {
+    "url": "https://bhban.kr/",
+    "repository": "https://github.com/needleworm/needleworm.github.io",
+    "commit": "722c1424c059ed757da47f23880e1b54692909d3"
+  }
+}

@@ -1,0 +1,624 @@
+{
+  "schema_version": "1.0",
+  "type": "patents",
+  "count": 34,
+  "items": [
+    {
+      "id": "source-2845e4dedceb85bc9b61",
+      "section": "patents",
+      "title": "층류 형성을 유도하는 인공지능 기반 사물인터넷 시스템과 이를 활용한 수경재배 삽목 및 육묘 장치",
+      "url": "https://nanalab.kr/patents/#record-patents-source-2845e4dedceb85bc9b61",
+      "summary": "출원일 2023.12.19 출원번호 10-2023-0185372 발명자 반병현 출원인 상상텃밭(주)",
+      "source_url": "https://bhban.kr/",
+      "citation": "Byunghyun Ban, et al. IoT assisted laminar flow generator for hydroponic cultivation. KR Applied Patent 10-2023-0185372 (2023)",
+      "image": "https://bhban.kr/src/images/patents/31.webp",
+      "links": [
+        "https://bhban.kr/src/patentPdf/10-2023-0185372.pdf",
+        "https://doi.org/10.8080/1020230185372"
+      ],
+      "external_url": "https://doi.org/10.8080/1020230185372",
+      "date_kind": "application_date",
+      "date_precision": "day",
+      "date_text": "2023.12.19",
+      "date_published": "2023-12-19T00:00:00+09:00"
+    },
+    {
+      "id": "source-0501429a34fe90fd714b",
+      "section": "patents",
+      "title": "3차원 영상 재건 알고리즘을 활용한 식물공장 디지털 트윈 인터페이스 제공 장치 및 방법",
+      "url": "https://nanalab.kr/patents/#record-patents-source-0501429a34fe90fd714b",
+      "summary": "등록번호 10-2538747 출원일 2022.11.28 등록일 2023.05.26. 발명자 반병현 출원인 상상텃밭(주)",
+      "source_url": "https://bhban.kr/",
+      "citation": "Byunghyun Ban, et al. Apparatus and method for providing plant factory digital twin interface using 3D image reconstruction algorithm. KR Patent 10-2538747 (2023)",
+      "image": "https://bhban.kr/src/images/patents/30.webp",
+      "links": [
+        "https://bhban.kr/src/patentPdf/30.pdf",
+        "https://doi.org/10.8080/1020220161821"
+      ],
+      "external_url": "https://doi.org/10.8080/1020220161821",
+      "date_kind": "application_date",
+      "date_precision": "day",
+      "date_text": "2022.11.28",
+      "date_published": "2022-11-28T00:00:00+09:00"
+    },
+    {
+      "id": "source-4302b4c1f04bf0ac2941",
+      "section": "patents",
+      "title": "의료용 대마 삽수의 자동 배양 관리장치 및 방법",
+      "url": "https://nanalab.kr/patents/#record-patents-source-4302b4c1f04bf0ac2941",
+      "summary": "등록번호 10-2508469 출원일 2022.11.22 등록일 2023.03.06. 발명자 반병현, 김준산, 이민우 출원인 상상텃밭(주)",
+      "source_url": "https://bhban.kr/",
+      "citation": "Byunghyun Ban, et al. Apparatus and method for automatically managing cultivation of medical cannabis cuttings. KR Patent 10-2508469 (2023)",
+      "image": "https://bhban.kr/src/images/patents/29.webp",
+      "links": [
+        "https://bhban.kr/src/patentPdf/29.pdf",
+        "https://doi.org/10.8080/1020220157476"
+      ],
+      "external_url": "https://doi.org/10.8080/1020220157476",
+      "date_kind": "application_date",
+      "date_precision": "day",
+      "date_text": "2022.11.22",
+      "date_published": "2022-11-22T00:00:00+09:00"
+    },
+    {
+      "id": "source-85bb4739dec866bd6eb4",
+      "section": "patents",
+      "title": "비전인식을 활용한 의료용 헴프의 삽목 자동화 장치 및 방법",
+      "url": "https://nanalab.kr/patents/#record-patents-source-85bb4739dec866bd6eb4",
+      "summary": "등록번호 10-2500388 출원일 2022.09.08 등록일 2023.02.13. 발명자 반병현 출원인 상상텃밭(주)",
+      "source_url": "https://bhban.kr/",
+      "citation": "Byunghyun Ban. Automating device and method for cutting medical hemp using vision recognition. KR Patent 10-2500388 (2023)",
+      "image": "https://bhban.kr/src/images/patents/28.webp",
+      "links": [
+        "https://bhban.kr/src/patentPdf/28.pdf",
+        "https://doi.org/10.8080/1020220114177"
+      ],
+      "external_url": "https://doi.org/10.8080/1020220114177",
+      "date_kind": "application_date",
+      "date_precision": "day",
+      "date_text": "2022.09.08",
+      "date_published": "2022-09-08T00:00:00+09:00"
+    },
+    {
+      "id": "source-a187a56b8801a184f67f",
+      "section": "patents",
+      "title": "인공지능 능동보조 서버가 탑재된 지능형 의료용 헴프 식물공장 시스템",
+      "url": "https://nanalab.kr/patents/#record-patents-source-a187a56b8801a184f67f",
+      "summary": "등록번호 10-2434102 출원일 2022.01.27 등록일 2022.08.16. 발명자 반병현 외 10인 출원인 상상텃밭(주)",
+      "source_url": "https://bhban.kr/",
+      "citation": "Byunghyun Ban, et al. Intelligent Plant factory system for medical and industrial hemp and AI assistance server. KR Patent 10-2434102 (2022)",
+      "image": "https://bhban.kr/src/images/patents/27.webp",
+      "links": [
+        "https://bhban.kr/src/patentPdf/27.pdf",
+        "https://doi.org/10.8080/1020220012112"
+      ],
+      "external_url": "https://doi.org/10.8080/1020220012112",
+      "date_kind": "application_date",
+      "date_precision": "day",
+      "date_text": "2022.01.27",
+      "date_published": "2022-01-27T00:00:00+09:00"
+    },
+    {
+      "id": "source-005e18d0790a37841910",
+      "section": "patents",
+      "title": "인공지능 모델을 활용한 작물 재배 작업 자문 장치 및 방법",
+      "url": "https://nanalab.kr/patents/#record-patents-source-005e18d0790a37841910",
+      "summary": "출원번호 10-2022-0012245 출원일 2022.01.27 공개일 2022.02.15. 발명자 반병현 출원인 상상텃밭(주)",
+      "source_url": "https://bhban.kr/",
+      "citation": "Byunghyun Ban. Advising device and method for crop cultivation work using artificial intelligence model. KR Applied Patent 10-2022-0012245 (2022)",
+      "image": "https://bhban.kr/src/images/patents/26.webp",
+      "links": [
+        "https://bhban.kr/src/patentPdf/26.pdf",
+        "https://doi.org/10.8080/1020220012245"
+      ],
+      "external_url": "https://doi.org/10.8080/1020220012245",
+      "date_kind": "application_date",
+      "date_precision": "day",
+      "date_text": "2022.01.27",
+      "date_published": "2022-01-27T00:00:00+09:00"
+    },
+    {
+      "id": "source-3f4388405cfec22a4b22",
+      "section": "patents",
+      "title": "강화학습 AI를 활용한 식물공장 양액제어 시스템 최적화 방법",
+      "url": "https://nanalab.kr/patents/#record-patents-source-3f4388405cfec22a4b22",
+      "summary": "등록번호 10-2423998 출원일 2021.12.23 등록일 2022.07.19. 발명자 반병현 출원인 상상텃밭(주)",
+      "source_url": "https://bhban.kr/",
+      "citation": "Byunghyun Ban. Method of optimize plant factory nutrient solution control system using reinforcement learning AI. KR Patent 10-2423998  (2022)",
+      "image": "https://bhban.kr/src/images/patents/25.webp",
+      "links": [
+        "https://bhban.kr/src/patentPdf/25.pdf",
+        "https://doi.org/10.8080/1020210185604"
+      ],
+      "external_url": "https://doi.org/10.8080/1020210185604",
+      "date_kind": "application_date",
+      "date_precision": "day",
+      "date_text": "2021.12.23",
+      "date_published": "2021-12-23T00:00:00+09:00"
+    },
+    {
+      "id": "source-d1333f0b902c8e16c5a9",
+      "section": "patents",
+      "title": "머신러닝을 이용한 센서의 수명 분석 장치 및 방법",
+      "url": "https://nanalab.kr/patents/#record-patents-source-d1333f0b902c8e16c5a9",
+      "summary": "출원번호 10-2021-0123641 출원일 2021.09.16 공개일 2021.10.07. 발명자 반병현 출원인 상상텃밭(주)",
+      "source_url": "https://bhban.kr/",
+      "citation": "Byunghyun Ban. Device and method of sensor lifetime analysis using machine learning. KR Applied Patent 10-2021-0123641 (2021)",
+      "image": "https://bhban.kr/src/images/patents/15.webp",
+      "links": [
+        "https://bhban.kr/src/patentPdf/15.pdf",
+        "https://doi.org/10.8080/1020210123641"
+      ],
+      "external_url": "https://doi.org/10.8080/1020210123641",
+      "date_kind": "application_date",
+      "date_precision": "day",
+      "date_text": "2021.09.16",
+      "date_published": "2021-09-16T00:00:00+09:00"
+    },
+    {
+      "id": "source-45a6e8a95c333bfc0a4a",
+      "section": "patents",
+      "title": "ISE 센서 및 머신러닝을 활용한 양액 주요 영양소 공급장치 및 이를 이용한 양액 주요 영양소 공급 방법",
+      "url": "https://nanalab.kr/patents/#record-patents-source-45a6e8a95c333bfc0a4a",
+      "summary": "출원번호 10-2021-0123213 출원일 2021.09.15 공개일 2021.10.06. 발명자 반병현 출원인 상상텃밭(주)",
+      "source_url": "https://bhban.kr/",
+      "citation": "Byunghyun Ban. An automatic controller of nutrient solution using the ISE sensor and machine learning and a method using thereof. KR Applied Patent 10-2021-0123213 (2021)",
+      "image": "https://bhban.kr/src/images/patents/14.webp",
+      "links": [
+        "https://bhban.kr/src/patentPdf/14.pdf",
+        "https://doi.org/10.8080/1020210123213"
+      ],
+      "external_url": "https://doi.org/10.8080/1020210123213",
+      "date_kind": "application_date",
+      "date_precision": "day",
+      "date_text": "2021.09.15",
+      "date_published": "2021-09-15T00:00:00+09:00"
+    },
+    {
+      "id": "source-af93082537dc6fe5561b",
+      "section": "patents",
+      "title": "고형 원료 디스펜싱 방식의 양액 공급장치",
+      "url": "https://nanalab.kr/patents/#record-patents-source-af93082537dc6fe5561b",
+      "summary": "출원번호 10-2021-0120087 출원일 2021.09.09 공개일 2021.09.29. 발명자 반병현, 이민우, 장승엽 출원인 상상텃밭(주)",
+      "source_url": "https://bhban.kr/",
+      "citation": "Byunghyun Ban. et al. Nutrient solution supply device of solid raw material dispensing method. KR Applied Patent 10-2021-0120087 (2021)",
+      "image": "https://bhban.kr/src/images/patents/13.webp",
+      "links": [
+        "https://bhban.kr/src/patentPdf/13.pdf",
+        "https://doi.org/10.8080/1020210120087"
+      ],
+      "external_url": "https://doi.org/10.8080/1020210120087",
+      "date_kind": "application_date",
+      "date_precision": "day",
+      "date_text": "2021.09.09",
+      "date_published": "2021-09-09T00:00:00+09:00"
+    },
+    {
+      "id": "source-5930972b186433cd64cd",
+      "section": "patents",
+      "title": "불리언 방정식으로 모델링된 네트워크 모델을 이용한 수경재배 양액 분석 장치 및 방법",
+      "url": "https://nanalab.kr/patents/#record-patents-source-5930972b186433cd64cd",
+      "summary": "출원번호 10-2021-0118950 출원일 2021.09.07 공개일 2021.09.29. 발명자 반병현 출원인 상상텃밭(주)",
+      "source_url": "https://bhban.kr/",
+      "citation": "Byunghyun Ban. Device and method for agricultural nutrient solution analysis using network model modeled by boolean equation. KR Applied Patent 10-2021-0118950 (2021)",
+      "image": "https://bhban.kr/src/images/patents/12.webp",
+      "links": [
+        "https://bhban.kr/src/patentPdf/12.pdf",
+        "https://doi.org/10.8080/1020210118950"
+      ],
+      "external_url": "https://doi.org/10.8080/1020210118950",
+      "date_kind": "application_date",
+      "date_precision": "day",
+      "date_text": "2021.09.07",
+      "date_published": "2021-09-07T00:00:00+09:00"
+    },
+    {
+      "id": "source-ca42411fda20a1480595",
+      "section": "patents",
+      "title": "순환식 양액제어 장치 또는 고형 이물질 제거장치",
+      "url": "https://nanalab.kr/patents/#record-patents-source-ca42411fda20a1480595",
+      "summary": "구분 특허 공개출원 출원번호 10-2021-0058966 공개번호 10-2022-0151772 출원일 2021.05.07. 공개일 2022.11.15. 발명자 반병현, 이민우 출원인 농업회사법인 상상텃밭 주식회사",
+      "source_url": "https://bhban.kr/",
+      "citation": "반병현, 이민우. 순환식 양액제어 장치 또는 고형 이물질 제거장치. 대한민국 특허 공개출원 10-2022-0151772 (2022).",
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@8dfe2893c99f3c2b75cfced232f2042e8359ecba/src/images/patents/application-10-2021-0058966-a2a60b032317.webp",
+      "links": [
+        "https://bhban.kr/src/patentPdf/10-2021-0058966.pdf",
+        "https://doi.org/10.8080/1020210058966"
+      ],
+      "external_url": "https://doi.org/10.8080/1020210058966",
+      "date_kind": "application_date",
+      "date_precision": "day",
+      "date_text": "2021.05.07",
+      "date_published": "2021-05-07T00:00:00+09:00"
+    },
+    {
+      "id": "source-b3302ef1a639979cf5da",
+      "section": "patents",
+      "title": "용존산소 농도 및 용존이산화탄소 농도 분석을 통한 수경재배 양액 내 조류 농도 추론 장치 및 방법",
+      "url": "https://nanalab.kr/patents/#record-patents-source-b3302ef1a639979cf5da",
+      "summary": "등록번호 10-2289069 출원일 2021.04.27 등록일 2021.08.06. 발명자 반병현, 이민우 출원인 상상텃밭(주)",
+      "source_url": "https://bhban.kr/",
+      "citation": "Byunghyun Ban et al. Apparatus and method for inferring algae concentration in hydroponic nutrient solution through dissolved oxygen concentration and dissolved carbon dioxide concentration analysis. KR Patent 10-2289069 (2021)",
+      "image": "https://bhban.kr/src/images/patents/10.webp",
+      "links": [
+        "https://bhban.kr/src/patentPdf/10.pdf",
+        "https://doi.org/10.8080/1020210054324"
+      ],
+      "external_url": "https://doi.org/10.8080/1020210054324",
+      "date_kind": "application_date",
+      "date_precision": "day",
+      "date_text": "2021.04.27",
+      "date_published": "2021-04-27T00:00:00+09:00"
+    },
+    {
+      "id": "source-d492b8ae2142f6b78ab2",
+      "section": "patents",
+      "title": "수경재배 베드 및 뿌리 생장 정보를 이용한 수경재배 방법",
+      "url": "https://nanalab.kr/patents/#record-patents-source-d492b8ae2142f6b78ab2",
+      "summary": "등록번호 10-2308623 출원일 2021.03.31 등록일 2021.09.28. 발명자 반병현 외 4인 출원인 상상텃밭(주)",
+      "source_url": "https://bhban.kr/",
+      "citation": "Byunghyun Ban et al. Hydroponic cultivation bed and method of hydroponic cultivation using root growth information. KR Patent 10-2308623 (2021)",
+      "image": "https://bhban.kr/src/images/patents/11.webp",
+      "links": [
+        "https://bhban.kr/src/patentPdf/11.pdf",
+        "https://doi.org/10.8080/1020210041526"
+      ],
+      "external_url": "https://doi.org/10.8080/1020210041526",
+      "date_kind": "application_date",
+      "date_precision": "day",
+      "date_text": "2021.03.31",
+      "date_published": "2021-03-31T00:00:00+09:00"
+    },
+    {
+      "id": "source-85c66868e4e74d4cfdde",
+      "section": "patents",
+      "title": "센서의 자동 캘리브레이션이 가능한 양액 제어 장치 및 방법",
+      "url": "https://nanalab.kr/patents/#record-patents-source-85c66868e4e74d4cfdde",
+      "summary": "등록번호 10-2162817 출원일 2020.06.15. 등록일 2020.10.07. 발명자 반병현 외 5인 출원인 상상텃밭(주)",
+      "source_url": "https://bhban.kr/",
+      "citation": "Byunghyun Ban et al. Nutrient control device and method capable of automatic calibration of sensor. KR Patent 10-2162817 (2020)",
+      "image": "https://bhban.kr/src/images/patents/1.webp",
+      "links": [
+        "https://ieeexplore.ieee.org/abstract/document/9289192/",
+        "https://bhban.kr/src/patentPdf/1.pdf",
+        "https://doi.org/10.8080/1020200072009"
+      ],
+      "external_url": "https://ieeexplore.ieee.org/abstract/document/9289192/",
+      "date_kind": "application_date",
+      "date_precision": "day",
+      "date_text": "2020.06.15",
+      "date_published": "2020-06-15T00:00:00+09:00"
+    },
+    {
+      "id": "source-d3a537c36b62e0d539b6",
+      "section": "patents",
+      "title": "데이터 처리 서버 및 방법",
+      "url": "https://nanalab.kr/patents/#record-patents-source-d3a537c36b62e0d539b6",
+      "summary": "등록번호 10-2139928 출원일 2020.05.26. 등록일 2020.07.27. 발명자 반병현, 이장훈 출원인 상상텃밭(주)",
+      "source_url": "https://bhban.kr/",
+      "citation": "Janghun Lee and Byunghyun Ban. Data processing server and method. KR Patent 10-2139928 (2020)",
+      "image": "https://bhban.kr/src/images/patents/2.webp",
+      "links": [
+        "https://bhban.kr/src/patentPdf/2.pdf",
+        "https://doi.org/10.8080/1020200063129"
+      ],
+      "external_url": "https://doi.org/10.8080/1020200063129",
+      "date_kind": "application_date",
+      "date_precision": "day",
+      "date_text": "2020.05.26",
+      "date_published": "2020-05-26T00:00:00+09:00"
+    },
+    {
+      "id": "source-da4354ebab48fa1827bf",
+      "section": "patents",
+      "title": "용존산소량 및 양액 농도 조절이 가능한 양액 재배 장치 및 방법",
+      "url": "https://nanalab.kr/patents/#record-patents-source-da4354ebab48fa1827bf",
+      "summary": "등록번호 10-2134655 출원일 2020.04.23. 등록일 2020.07.10. 발명자 반병현 출원인 상상텃밭(주)",
+      "source_url": "https://bhban.kr/",
+      "citation": "Byunghyun Ban. Apparatus and method for cultivating nutrient solution capable of adjusting dissolved oxygen and nutrient solution concentration. KR Patent 10-2134655 (2020)",
+      "image": "https://bhban.kr/src/images/patents/3.webp",
+      "links": [
+        "https://bhban.kr/src/patentPdf/3.pdf",
+        "https://doi.org/10.8080/1020200049113"
+      ],
+      "external_url": "https://doi.org/10.8080/1020200049113",
+      "date_kind": "application_date",
+      "date_precision": "day",
+      "date_text": "2020.04.23",
+      "date_published": "2020-04-23T00:00:00+09:00"
+    },
+    {
+      "id": "source-4989c3ef31a57a59029e",
+      "section": "patents",
+      "title": "식물 뿌리의 이온 흡수율 분석 장치 및 방법",
+      "url": "https://nanalab.kr/patents/#record-patents-source-4989c3ef31a57a59029e",
+      "summary": "등록번호 10-2118957 출원일 2020.02.06. 등록일 2020.05.29. 발명자 반병현 출원인 상상텃밭(주)",
+      "source_url": "https://bhban.kr/",
+      "citation": "Byunghyun Ban. Apparatus and method for analyzing the ion absorption rate of plant roots. KR Patent 10-2118957 (2020)",
+      "image": "https://bhban.kr/src/images/patents/4.webp",
+      "links": [
+        "https://github.com/needleworm/nutrient_solution",
+        "https://ieeexplore.ieee.org/document/9289083/",
+        "https://bhban.kr/src/patentPdf/4.pdf",
+        "https://doi.org/10.8080/1020200014379"
+      ],
+      "external_url": "https://github.com/needleworm/nutrient_solution",
+      "date_kind": "application_date",
+      "date_precision": "day",
+      "date_text": "2020.02.06",
+      "date_published": "2020-02-06T00:00:00+09:00"
+    },
+    {
+      "id": "source-417a90df0b0c4ab4d566",
+      "section": "patents",
+      "title": "머신러닝을 활용한 양액에서 이온 간섭 효과 제거 장치 및 방법",
+      "url": "https://nanalab.kr/patents/#record-patents-source-417a90df0b0c4ab4d566",
+      "summary": "등록번호 10-2069202 출원일 2019.09.24. 등록일 2020.01.16. 발명자 반병현 외 2인 출원인 상상텃밭(주)",
+      "source_url": "https://bhban.kr/",
+      "citation": "Byunghyun Ban et al. Device and method for removing ion interference effect from nutrient solution using machine learning. KR Patent 10-2069202 (2020)",
+      "image": "https://bhban.kr/src/images/patents/5.webp",
+      "links": [
+        "https://github.com/needleworm/ion_interference",
+        "https://ieeexplore.ieee.org/document/8939812/",
+        "https://bhban.kr/src/patentPdf/5.pdf",
+        "https://doi.org/10.8080/1020190117156"
+      ],
+      "external_url": "https://github.com/needleworm/ion_interference",
+      "date_kind": "application_date",
+      "date_precision": "day",
+      "date_text": "2019.09.24",
+      "date_published": "2019-09-24T00:00:00+09:00"
+    },
+    {
+      "id": "source-8a150c966f32df37a4be",
+      "section": "patents",
+      "title": "상미분방적식으로 모델링된 네트워크 모델을 이용한 수경재배 양액 분석 장치 및 방법",
+      "url": "https://nanalab.kr/patents/#record-patents-source-8a150c966f32df37a4be",
+      "summary": "등록번호 10-2053738 출원일 2019.09.20. 등록일 2019.12.03. 발명자 반병현 외 2인 출원인 상상텃밭(주)",
+      "source_url": "https://bhban.kr/",
+      "citation": "Byunghyun Ban et al. Device and method for agricultural nutrient solution analysis using network model modeled by ordinary differential equation KR Patent 10-2053738 (2019)",
+      "image": "https://bhban.kr/src/images/patents/6.webp",
+      "links": [
+        "https://github.com/needleworm/nutrient_solution",
+        "https://ieeexplore.ieee.org/document/8939946/",
+        "https://bhban.kr/src/patentPdf/6.pdf",
+        "https://doi.org/10.8080/1020190115737"
+      ],
+      "external_url": "https://github.com/needleworm/nutrient_solution",
+      "date_kind": "application_date",
+      "date_precision": "day",
+      "date_text": "2019.09.20",
+      "date_published": "2019-09-20T00:00:00+09:00"
+    },
+    {
+      "id": "source-0e59696463a8ce43794d",
+      "section": "patents",
+      "title": "수경재배용 양액 관리 자동화 시스템 및 그 방법",
+      "url": "https://nanalab.kr/patents/#record-patents-source-0e59696463a8ce43794d",
+      "summary": "출원일 2018.08.10. 출원번호 10-2018-0094076 발명자 반병현 외 7인 출원인 한국과학기술원",
+      "source_url": "https://bhban.kr/",
+      "image": "https://bhban.kr/src/images/patents/8.webp",
+      "links": [
+        "https://bhban.kr/src/patentPdf/8.pdf",
+        "https://doi.org/10.8080/1020180094076"
+      ],
+      "external_url": "https://doi.org/10.8080/1020180094076",
+      "date_kind": "application_date",
+      "date_precision": "day",
+      "date_text": "2018.08.10",
+      "date_published": "2018-08-10T00:00:00+09:00"
+    },
+    {
+      "id": "source-cb87b7b4281880f2c477",
+      "section": "patents",
+      "title": "온실 시스템의 제어 모델 생성 방법",
+      "url": "https://nanalab.kr/patents/#record-patents-source-cb87b7b4281880f2c477",
+      "summary": "등록번호 10-2100350 출원일 2018.01.31. 등록일 2020.04.07. 발명자 반병현, 김수빈 출원인 상상텃밭(주)",
+      "source_url": "https://bhban.kr/",
+      "citation": "Byunghyun Ban et al. METHOD FOR GENERATING CONTROL MODEL OF GREENHOUSE SYSTEM. KR Patent 10-2100350 (2020)",
+      "image": "https://bhban.kr/src/images/patents/7.webp",
+      "links": [
+        "https://github.com/needleworm/greenhouse_ai",
+        "https://ieeexplore.ieee.org/document/8190813/",
+        "https://bhban.kr/src/patentPdf/7.pdf",
+        "https://doi.org/10.8080/1020180011904"
+      ],
+      "external_url": "https://github.com/needleworm/greenhouse_ai",
+      "date_kind": "application_date",
+      "date_precision": "day",
+      "date_text": "2018.01.31",
+      "date_published": "2018-01-31T00:00:00+09:00"
+    },
+    {
+      "id": "source-e82e58a1827936d8fde7",
+      "section": "patents",
+      "title": "신경망을 이용한 음악 검색 방법",
+      "url": "https://nanalab.kr/patents/#record-patents-source-e82e58a1827936d8fde7",
+      "summary": "출원번호 10-2017-0025908 출원일 2017.02.28 공개일 2017.11.22. 발명자 반병현 출원인 반병현",
+      "source_url": "https://bhban.kr/",
+      "citation": "Byunghyun Ban. Method for searching music using neural network. KR Applied Patent 10-2017-0025908 (2017)",
+      "image": "https://bhban.kr/src/images/patents/16.webp",
+      "date_kind": "application_date",
+      "date_precision": "day",
+      "date_text": "2017.02.28",
+      "date_published": "2017-02-28T00:00:00+09:00"
+    },
+    {
+      "id": "source-aa0c8aeaa194bee4636f",
+      "section": "patents",
+      "title": "프리 오더 마르코프 체인과 베이즈 추론을 이용한 음악 작곡 방법",
+      "url": "https://nanalab.kr/patents/#record-patents-source-aa0c8aeaa194bee4636f",
+      "summary": "출원일 2017.02.23. 출원번호 10-2017-0024220 발명자 반병현 외 2인 출원인 반병현 외 2인",
+      "source_url": "https://bhban.kr/",
+      "image": "https://bhban.kr/src/images/patents/9.webp",
+      "links": [
+        "https://bhban.kr/src/patentPdf/9.pdf",
+        "https://doi.org/10.8080/1020170024220"
+      ],
+      "external_url": "https://doi.org/10.8080/1020170024220",
+      "date_kind": "application_date",
+      "date_precision": "day",
+      "date_text": "2017.02.23",
+      "date_published": "2017-02-23T00:00:00+09:00"
+    },
+    {
+      "id": "source-8bdbe4ad37d7eb522e17",
+      "section": "patents",
+      "title": "심층 강화 학습을 이용한 음악 작곡 방법",
+      "url": "https://nanalab.kr/patents/#record-patents-source-8bdbe4ad37d7eb522e17",
+      "summary": "출원일 2017.02.23 출원번호 10-2017-0024223 발명자 반병현 출원인 반병현",
+      "source_url": "https://bhban.kr/",
+      "citation": "Byunghyun Ban. MUSIC COMPOSITION METHOD BASED ON DEEP REINFORCEMENT LEARNING. KR Applied Patent 10-2017-0024223 (2017)",
+      "image": "https://bhban.kr/src/images/patents/17.webp",
+      "date_kind": "application_date",
+      "date_precision": "day",
+      "date_text": "2017.02.23",
+      "date_published": "2017-02-23T00:00:00+09:00"
+    },
+    {
+      "id": "source-f5e64b9b8b72e90f2ceb",
+      "section": "patents",
+      "title": "순환형 신경망에 기반한 작곡 방법",
+      "url": "https://nanalab.kr/patents/#record-patents-source-f5e64b9b8b72e90f2ceb",
+      "summary": "출원번호 10-2017-0022493 출원일 2017.02.20 공개일 2017.11.22 발명자 반병현, 박주희, 정윤의 출원인 반병현",
+      "source_url": "https://bhban.kr/",
+      "citation": "Byunghyun Ban, et al. CHORD COMPOSITION METHOD BASED ON RECURRENT NEURAL NETWORK. KR Applied Patent 10-2017-0022493 (2017)",
+      "image": "https://bhban.kr/src/images/patents/20.webp",
+      "date_kind": "application_date",
+      "date_precision": "day",
+      "date_text": "2017.02.20",
+      "date_published": "2017-02-20T00:00:00+09:00"
+    },
+    {
+      "id": "source-8903f504d8bf79d965f5",
+      "section": "patents",
+      "title": "재생되는 음악을 분석하여 멜로디를 추출하는 방법",
+      "url": "https://nanalab.kr/patents/#record-patents-source-8903f504d8bf79d965f5",
+      "summary": "출원번호 10-2016-0169802 출원일 2016.12.13 출원일 2017.11.22. 발명자 반병현 출원인 반병현",
+      "source_url": "https://bhban.kr/",
+      "citation": "Byunghyun Ban. MELODY EXTRACTION METHOD FROM MUSIC SIGNAL. KR Applied Patent 10-2016-0169802 (2016)",
+      "image": "https://bhban.kr/src/images/patents/19.webp",
+      "date_kind": "application_date",
+      "date_precision": "day",
+      "date_text": "2016.12.13",
+      "date_published": "2016-12-13T00:00:00+09:00"
+    },
+    {
+      "id": "source-6b4a99be7ecbcba612d7",
+      "section": "patents",
+      "title": "기계 학습을 이용한 음악 신호의 처리 방법",
+      "url": "https://nanalab.kr/patents/#record-patents-source-6b4a99be7ecbcba612d7",
+      "summary": "출원번호 10-2016-0167317 출원일 2016.12.09 공개일 2018.06.19 발명자 반병현 출원인 반병현",
+      "source_url": "https://bhban.kr/",
+      "citation": "Byunghyun Ban. Method for processing audio signal using machine learning. KR Applied Patent 10-2016-0167317 (2016)",
+      "image": "https://bhban.kr/src/images/patents/18.webp",
+      "date_kind": "application_date",
+      "date_precision": "day",
+      "date_text": "2016.12.09",
+      "date_published": "2016-12-09T00:00:00+09:00"
+    },
+    {
+      "id": "source-3b8bcd99f68f11743497",
+      "section": "patents",
+      "title": "투척식 소화기",
+      "url": "https://nanalab.kr/patents/#record-patents-source-3b8bcd99f68f11743497",
+      "summary": "출원번호 10-2014-0008341 출원일 2014.01.23 공개일 2014.03.05. 발명자 반병현, 반병우 출원인 한국과학기술원",
+      "source_url": "https://bhban.kr/",
+      "citation": "Byunghyun Ban, et al. THROWING TYPE FIRE EXTINGUISHER. KR Applied Patent 10-2014-0008341 (2014)",
+      "image": "https://bhban.kr/src/images/patents/21.webp",
+      "date_kind": "application_date",
+      "date_precision": "day",
+      "date_text": "2014.01.23",
+      "date_published": "2014-01-23T00:00:00+09:00"
+    },
+    {
+      "id": "source-79ee41b625a8b4dd702b",
+      "section": "patents",
+      "title": "개방형 와이파이를 탐지해 점멸하는 스마트 단말기 케이스",
+      "url": "https://nanalab.kr/patents/#record-patents-source-79ee41b625a8b4dd702b",
+      "summary": "출원번호 10-2013-0144524 출원일 2013.11.26. 공개일 2015.06.03. 발명자 반병현, 반병우 출원인 한국과학기술원",
+      "source_url": "https://bhban.kr/",
+      "citation": "Byunghyun Ban, et al. THE FLASHING SMART DEVICE CASE TO DETECT THE OPENED WIFI ENVIRONMENT. KR Applied Patent 10-2013-0144524 (2014)",
+      "image": "https://bhban.kr/src/images/patents/22.webp",
+      "date_kind": "application_date",
+      "date_precision": "day",
+      "date_text": "2013.11.26",
+      "date_published": "2013-11-26T00:00:00+09:00"
+    },
+    {
+      "id": "source-cf12954e47c6996dc998",
+      "section": "patents",
+      "title": "세탁기용 세제 디스펜서",
+      "url": "https://nanalab.kr/patents/#record-patents-source-cf12954e47c6996dc998",
+      "summary": "구분 실용신안 공개출원 출원번호 20-2013-0005982 공개번호 20-2013-0006435 출원일 2013.07.18. 공개일 2013.11.06. 고안자 반병우, 반병현 출원인 반병현",
+      "source_url": "https://bhban.kr/",
+      "citation": "반병우, 반병현. 세탁기용 세제 디스펜서. 대한민국 실용신안 공개출원 20-2013-0006435 (2013).",
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@8dfe2893c99f3c2b75cfced232f2042e8359ecba/src/images/patents/application-20-2013-0005982-1bb200ea93aa.webp",
+      "links": [
+        "https://bhban.kr/src/patentPdf/20-2013-0005982.pdf",
+        "https://doi.org/10.8080/2020130005982"
+      ],
+      "external_url": "https://doi.org/10.8080/2020130005982",
+      "date_kind": "application_date",
+      "date_precision": "day",
+      "date_text": "2013.07.18",
+      "date_published": "2013-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "source-23d6066f7e1877f14df3",
+      "section": "patents",
+      "title": "고형물 보관용기",
+      "url": "https://nanalab.kr/patents/#record-patents-source-23d6066f7e1877f14df3",
+      "summary": "출원번호 10-2013-0053562 출원일 2013.05.13 등록일 2014.11.20. 발명자 반병현, 반병우 출원인 한국과학기술원",
+      "source_url": "https://bhban.kr/",
+      "citation": "Byunghyun Ban, et al. Storage Container For Solid State Sample. KR Patent 10-1465439 (2013)",
+      "image": "https://bhban.kr/src/images/patents/23.webp",
+      "date_kind": "application_date",
+      "date_precision": "day",
+      "date_text": "2013.05.13",
+      "date_published": "2013-05-13T00:00:00+09:00"
+    },
+    {
+      "id": "source-8c668cc6f99bb3ceeef0",
+      "section": "patents",
+      "title": "대뇌 발달 균형 측정 방법 및 대뇌 발달 유형 분류 방법",
+      "url": "https://nanalab.kr/patents/#record-patents-source-8c668cc6f99bb3ceeef0",
+      "summary": "출원번호 10-2012-0141120 출원일 2012.12.06 공개일 2013.12.11. 발명자 반병현 출원인 반병현",
+      "source_url": "https://bhban.kr/",
+      "citation": "Byunghyun Ban. METHOD OF MEASUREMENT OF CEREBRAL DEVELOPMENT BALANCE AND CEREBRAL DEVELOPMENT TYPE CLASSIFICATION METHOD. KR Applied Patent 10-2012-0141120  (2012)",
+      "image": "https://bhban.kr/src/images/patents/24.webp",
+      "links": [
+        "https://bhban.kr/src/patentPdf/24.pdf"
+      ],
+      "external_url": "https://bhban.kr/src/patentPdf/24.pdf",
+      "date_kind": "application_date",
+      "date_precision": "day",
+      "date_text": "2012.12.06",
+      "date_published": "2012-12-06T00:00:00+09:00"
+    },
+    {
+      "id": "source-de9a2ce70f518bd25dd2",
+      "section": "patents",
+      "title": "맞춤형 학습법을 제공하는 방법 및 맞춤형 학습법 제공 시스템",
+      "url": "https://nanalab.kr/patents/#record-patents-source-de9a2ce70f518bd25dd2",
+      "summary": "구분 특허 공개출원 출원번호 10-2012-0100416 공개번호 10-2014-0033902 출원일 2012.09.11. 공개일 2014.03.19. 발명자 최병혁, 반병현 출원인 최병혁",
+      "source_url": "https://bhban.kr/",
+      "citation": "최병혁, 반병현. 맞춤형 학습법을 제공하는 방법 및 맞춤형 학습법 제공 시스템. 대한민국 특허 공개출원 10-2014-0033902 (2014).",
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@8dfe2893c99f3c2b75cfced232f2042e8359ecba/src/images/patents/application-10-2012-0100416-9da259bbb6cd.webp",
+      "links": [
+        "https://bhban.kr/src/patentPdf/10-2012-0100416.pdf",
+        "https://doi.org/10.8080/1020120100416"
+      ],
+      "external_url": "https://doi.org/10.8080/1020120100416",
+      "date_kind": "application_date",
+      "date_precision": "day",
+      "date_text": "2012.09.11",
+      "date_published": "2012-09-11T00:00:00+09:00"
+    }
+  ],
+  "source": {
+    "url": "https://bhban.kr/",
+    "repository": "https://github.com/needleworm/needleworm.github.io",
+    "commit": "722c1424c059ed757da47f23880e1b54692909d3"
+  }
+}

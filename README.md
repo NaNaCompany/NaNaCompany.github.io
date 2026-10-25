@@ -77,4 +77,31 @@ node scripts/check_interactions.cjs
 
 원본 강연·연구 자료를 갱신하려면 `python scripts/sync_portfolio.py <원본-저장소-경로>` 후 다시 빌드합니다. 논문·프리프린트 표기와 원문 링크를 유지합니다.
 
+## 구독 피드와 공개 JSON
+
+사이트 빌드에서 RSS 2.0, JSON Feed 1.1, 조회용 JSON을 함께 생성합니다. 별도 백엔드·인증 키·번역 API가 필요하지 않습니다. 사용 안내는 [구독·데이터](https://nanalab.kr/feeds/)에서 확인할 수 있습니다.
+
+| 용도 | RSS | JSON Feed |
+|---|---|---|
+| 앱·강의·연구 통합, 최근 200건 | `/feed.xml` | `/feed.json` |
+| 앱, 최근 100건 | `/feeds/apps.xml` | `/feeds/apps.json` |
+| 강의, 최근 100건 | `/feeds/lectures.xml` | `/feeds/lectures.json` |
+| 논문·특허·프로젝트, 최근 100건 | `/feeds/research.xml` | `/feeds/research.json` |
+
+전체 목록은 `/api/apps.json`, `/api/lectures.json`, `/api/papers.json`, `/api/patents.json`, `/api/projects.json`에서 제공합니다. `/api/research.json`은 논문·특허·프로젝트 통합 목록이며, `/api/index.json`은 엔드포인트·개수·스키마 버전을 안내합니다. 모든 주소는 `https://nanalab.kr` 기준입니다. 응답은 `schema_version`, `type`, `count`, `items`, `source`로 구성됩니다. `items`에 안정적인 `id`, 제목, 요약, 이동 주소, 원본 출처, 확인 가능한 날짜·분류·기관·논문 유형·인용·원문 링크를 담습니다. 로컬 경로는 공개하지 않습니다.
+
+통합 피드는 날짜 기준 최신순이며, 전체 목록은 API에서 조회합니다. 앱은 `published_at`을 사용합니다. 강의 일정·특허 출원일처럼 일자만 확인되면 한국 시간 00:00으로 표현하고 `date_precision: day`로 표시합니다. 연도만 확인되는 자료에는 `year`만 제공하고 정확한 게시 시각을 만들지 않습니다. 날짜가 없는 프로젝트는 뒤로 정렬합니다. 기존 원본 ID를 우선 사용하며, ID가 없는 과거 기록은 원본의 식별용 주석을 사용하므로 목록 순서를 바꿔도 ID가 유지됩니다. 수정 시각을 빌드 시각으로 덮어쓰지 않습니다.
+
+강의·연구 API의 `source`에는 bhban.kr과 가져온 원본 저장소·커밋을 기록합니다. 공개 목록 제공은 원문 논문·이미지·문서의 이용 조건을 변경하지 않습니다. 저서·언론보도는 현재 원본 목록에 없어 제공하지 않습니다.
+
+피드 자동 발견용 `<link rel="alternate">`와 작은 하단 구독 링크를 생성합니다. GitHub Pages가 JSON Feed에 `application/json`을 사용해도 JSON Feed 1.1에서 허용하는 응답입니다. 파일 변경과 HTTP 캐시는 호스팅 서버가 관리합니다.
+
+```javascript
+const response = await fetch('https://nanalab.kr/api/lectures.json');
+const { items } = await response.json();
+const corporateLectures = items.filter(item => item.category === '기업');
+```
+
+`python scripts/build_site.py` 후 `python scripts/check_syndication.py`를 실행하면 생성 최신성, RSS/JSON Feed 일치, XML 이스케이프, 안정적인 ID, 날짜 정밀도, 출처, 실제 항목 앵커를 검사합니다. 규격 참고: [RSS 2.0](https://www.rssboard.org/rss-specification), [JSON Feed 1.1](https://www.jsonfeed.org/version/1.1/).
+
 강연·R&D는 메인에서도 전체 자료를 표시합니다. 강연은 원본 사이트와 같이 `lectures`와 `courses-offline`을 합쳐 ID 중복을 제거하고 최신 강의순으로 정렬합니다. 기업·공공기관·교육기관·연구기관·컨퍼런스 분류와 검색을 함께 사용할 수 있습니다. 온라인 강좌 버튼은 추가하지 않습니다. R&D의 전체 논문·특허·개발 프로젝트는 `/research/`와 각각 `/papers/`, `/patents/`, `/projects/`에서도 제공합니다.

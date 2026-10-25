@@ -1,0 +1,1093 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "NaNa Lab 연구",
+  "home_page_url": "https://nanalab.kr/research/",
+  "feed_url": "https://nanalab.kr/feeds/research.json",
+  "description": "NaNa Lab의 앱·강의·논문·특허·개발 프로젝트 소식. 원본 날짜 기준 최신순.",
+  "language": "ko",
+  "favicon": "https://nanalab.kr/favicon.ico/android-icon-192x192.png",
+  "items": [
+    {
+      "id": "urn:nanalab:papers:paper-2026-p01",
+      "url": "https://nanalab.kr/papers/#record-papers-paper-2026-p01",
+      "title": "[논문·연구] A Historical Review of AI-Based Music Composition: From Local Pattern Prediction to Holistic Audio Generation",
+      "content_text": "AI-based music composition has evolved from explicit rule encoding and local symbolic prediction to end-to-end generation of integrated musical audio. This historical review examines representative systems that either introduced a distinct generative paradigm or achieved practical deployment. It traces the progression from rule-based and stochastic models…\n\n인용: Byunghyun Ban. (2026). \"A Historical Review of AI-Based Music Composition: From Local Pattern Prediction to Holistic Audio Generation.\" 인공지능연구 논문지 7(3), 37–66. https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003395169\n\n자료 유형: published\n\n출처: https://bhban.kr/",
+      "tags": [
+        "논문·연구"
+      ],
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@a19701f96fce64e799568b4073edfcdf60015f64/src/images/papers/2026-p01-first-page-69c1ba32ca72.webp",
+      "external_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003395169"
+    },
+    {
+      "id": "urn:nanalab:papers:paper-2026-p02",
+      "url": "https://nanalab.kr/papers/#record-papers-paper-2026-p02",
+      "title": "[논문·연구 / 프리프린트] An ODE-Network-Based Chemical Complex System Simulator for Multi-Environment Fermentation",
+      "content_text": "Fermentation is a slow chemical-biological process in which substrates, enzymes, yeast biomass, oxygen, pH, temperature, and metabolic products co-evolve. This paper presents an ODE-network-based chemical complex system simulator for multi-environment fermentation. A shared state-space was instantiated for bread dough, rice wine, beer wort, and malt mash/…\n\n인용: Byunghyun Ban. (2026). \"An ODE-Network-Based Chemical Complex System Simulator for Multi-Environment Fermentation.\" ResearchGate · Preprint (not peer-reviewed). https://doi.org/10.13140/RG.2.2.31603.28968\n\n자료 유형: preprint\n\n출처: https://bhban.kr/",
+      "tags": [
+        "논문·연구 / 프리프린트"
+      ],
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@a19701f96fce64e799568b4073edfcdf60015f64/src/images/papers/2026-p02-first-page-8422f8f3b993.webp",
+      "external_url": "https://doi.org/10.13140/RG.2.2.31603.28968"
+    },
+    {
+      "id": "urn:nanalab:papers:paper-2026-p03",
+      "url": "https://nanalab.kr/papers/#record-papers-paper-2026-p03",
+      "title": "[논문·연구 / 프리프린트] Artificial Intelligence Technologies in Plant Factories over the Last Decade: Machine Vision, Nutrient Intelligence, Control, and Digital Twins",
+      "content_text": "Plant factories have evolved from automated cultivation facilities into data-driven crop production systems. Over the last decade, artificial intelligence has been applied to non-destructive crop monitoring, sensor correction, nutrient-solution diagnosis, growth prediction, environmental control, digital twins, and product-level inspection. This review su…\n\n인용: Byunghyun Ban. (2026). \"Artificial Intelligence Technologies in Plant Factories over the Last Decade: Machine Vision, Nutrient Intelligence, Control, and Digital Twins.\" Preprints.org · Preprint (not peer-reviewed). https://doi.org/10.20944/preprints202605.0438.v1\n\n자료 유형: preprint\n\n출처: https://bhban.kr/",
+      "tags": [
+        "논문·연구 / 프리프린트"
+      ],
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@a19701f96fce64e799568b4073edfcdf60015f64/src/images/papers/2026-p03-first-page-bac33b970068.webp",
+      "external_url": "https://doi.org/10.20944/preprints202605.0438.v1"
+    },
+    {
+      "id": "urn:nanalab:papers:paper-2026-p04",
+      "url": "https://nanalab.kr/papers/#record-papers-paper-2026-p04",
+      "title": "[논문·연구 / 프리프린트] Recent Applications of Artificial Intelligence in Logistics: An Evidence-Oriented Operational Review of Studies Published Since 2024",
+      "content_text": "Artificial intelligence (AI) research in logistics has rapidly shifted since 2024 toward operationally specific systems for forecasting, routing, warehouse optimization, supply-chain visibility, port scheduling, and smart-port maintenance. This paper presents an evidence-oriented operational review of studies published since 2024 on AI applications in log…\n\n인용: Byunghyun Ban. (2026). \"Recent Applications of Artificial Intelligence in Logistics: An Evidence-Oriented Operational Review of Studies Published Since 2024.\" Preprints.org · Preprint (not peer-reviewed). https://doi.org/10.20944/preprints202605.0444.v1\n\n자료 유형: preprint\n\n출처: https://bhban.kr/",
+      "tags": [
+        "논문·연구 / 프리프린트"
+      ],
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@a19701f96fce64e799568b4073edfcdf60015f64/src/images/papers/2026-p04-first-page-2bf00b423366.webp",
+      "external_url": "https://doi.org/10.20944/preprints202605.0444.v1"
+    },
+    {
+      "id": "urn:nanalab:papers:paper-2026-p05",
+      "url": "https://nanalab.kr/papers/#record-papers-paper-2026-p05",
+      "title": "[논문·연구 / 프리프린트] MCP Design Strategy for Plant-Factory Operation AI Agents",
+      "content_text": "Plant factories are increasingly equipped with sensors, cameras, automatic controllers, digital twins, and artificial intelligence models. However, integrating these components into a practical operation AI agent requires a safe interface between AI reasoning and facility-level control. This paper proposes an MCP design strategy for plant-factory operatio…\n\n인용: Byunghyun Ban. (2026). \"MCP Design Strategy for Plant-Factory Operation AI Agents.\" ResearchGate · Preprint (not peer-reviewed). https://doi.org/10.13140/RG.2.2.29671.61608\n\n자료 유형: preprint\n\n출처: https://bhban.kr/",
+      "tags": [
+        "논문·연구 / 프리프린트"
+      ],
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@a19701f96fce64e799568b4073edfcdf60015f64/src/images/papers/2026-p05-first-page-e3803db7a1e7.webp",
+      "external_url": "https://doi.org/10.13140/RG.2.2.29671.61608"
+    },
+    {
+      "id": "urn:nanalab:papers:paper-2026-p06",
+      "url": "https://nanalab.kr/papers/#record-papers-paper-2026-p06",
+      "title": "[논문·연구 / 프리프린트] MCP Design Strategies for AI Agents in the Chemical Engineering Industry",
+      "content_text": "Large language model (LLM) agents are increasingly being applied to chemistry and chemical engineering tasks, including synthesis planning, autonomous experimentation, process simulation, process design, optimization, and carbon accounting. Existing studies demonstrate that agents become powerful when connected to external tools, simulators, databases, an…\n\n인용: Byunghyun Ban. (2026). \"MCP Design Strategies for AI Agents in the Chemical Engineering Industry.\" ResearchGate · Preprint (not peer-reviewed). https://doi.org/10.13140/RG.2.2.14152.69125\n\n자료 유형: preprint\n\n출처: https://bhban.kr/",
+      "tags": [
+        "논문·연구 / 프리프린트"
+      ],
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@a19701f96fce64e799568b4073edfcdf60015f64/src/images/papers/2026-p06-first-page-9dd55d2f8c19.webp",
+      "external_url": "https://doi.org/10.13140/RG.2.2.14152.69125"
+    },
+    {
+      "id": "urn:nanalab:papers:paper-2026-p07",
+      "url": "https://nanalab.kr/papers/#record-papers-paper-2026-p07",
+      "title": "[논문·연구 / 프리프린트] Agricultural AI Agents Can Learn from Chemical Complex System Models",
+      "content_text": "Smart farms and plant factories increasingly use sensors, automatic controllers, digital twins, and artificial intelligence models. However, nutrient management remains difficult because nutrient solutions are nonlinear chemical systems coupled with plant uptake dynamics. This paper proposes a simulation-first strategy for smart-farm nutrient management a…\n\n인용: Byunghyun Ban. (2026). \"Agricultural AI Agents Can Learn from Chemical Complex System Models.\" ResearchGate · Preprint (not peer-reviewed). https://doi.org/10.13140/RG.2.2.10797.24808\n\n자료 유형: preprint\n\n출처: https://bhban.kr/",
+      "tags": [
+        "논문·연구 / 프리프린트"
+      ],
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@a19701f96fce64e799568b4073edfcdf60015f64/src/images/papers/2026-p07-first-page-1197a8d4ca91.webp",
+      "external_url": "https://doi.org/10.13140/RG.2.2.10797.24808"
+    },
+    {
+      "id": "urn:nanalab:papers:paper-2026-p08",
+      "url": "https://nanalab.kr/papers/#record-papers-paper-2026-p08",
+      "title": "[논문·연구 / 프리프린트] TechNews: A Technical Report on Agentic Workflow Automation for Science News Publishing",
+      "content_text": "This technical report presents TechNews, a registered automated science news portal that transforms newly released scientific papers into publishable science news articles through an agentic production workflow. (https://technews.ai.kr) Rather than treating automated journalism as a single text-generation task, TechNews decomposes human content-production…\n\n인용: Byunghyun Ban. (2026). \"TechNews: A Technical Report on Agentic Workflow Automation for Science News Publishing.\" ResearchGate · Preprint (not peer-reviewed). https://doi.org/10.13140/RG.2.2.35963.07201\n\n자료 유형: preprint\n\n출처: https://bhban.kr/",
+      "tags": [
+        "논문·연구 / 프리프린트"
+      ],
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@a19701f96fce64e799568b4073edfcdf60015f64/src/images/papers/2026-p08-first-page-80511ece05f6.webp",
+      "external_url": "https://doi.org/10.13140/RG.2.2.35963.07201"
+    },
+    {
+      "id": "urn:nanalab:papers:paper-2026-p09",
+      "url": "https://nanalab.kr/papers/#record-papers-paper-2026-p09",
+      "title": "[논문·연구 / 프리프린트] Responding to Suspected LLM-Written Hallucinated Peer Reviews A Claim-Level Audit Protocol",
+      "content_text": "Authors are often advised to respond to peer-review comments politely and point by point. However, this advice is insufficient when a formal review appears to be LLM-written or hallucinated: fluent, plausible, professionally formatted, but contradicted by the manuscript. This paper proposes a claim-level audit protocol for responding to suspected LLM-writ…\n\n인용: Byunghyun Ban. (2026). \"Responding to Suspected LLM-Written Hallucinated Peer Reviews A Claim-Level Audit Protocol.\" ResearchGate · Preprint (not peer-reviewed). https://doi.org/10.13140/RG.2.2.32483.11040\n\n자료 유형: preprint\n\n출처: https://bhban.kr/",
+      "tags": [
+        "논문·연구 / 프리프린트"
+      ],
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@a19701f96fce64e799568b4073edfcdf60015f64/src/images/papers/2026-p09-first-page-eb484c6605a5.webp",
+      "external_url": "https://doi.org/10.13140/RG.2.2.32483.11040"
+    },
+    {
+      "id": "urn:nanalab:papers:paper-2026-p10",
+      "url": "https://nanalab.kr/papers/#record-papers-paper-2026-p10",
+      "title": "[논문·연구 / 프리프린트] When Post-Publication Modification Is Not Enough - A Case Study of Multi-Layer Scholarly Overlap and Delayed Retraction",
+      "content_text": "Post-publication integrity concerns are often treated as problems of textual similarity, missing citation, or minor correctable error. However, some cases involve deeper forms of scholarly overlap that cannot be remedied through limited post-publication modification. This paper presents a case study of a post-publication complaint involving a 2022 preprin…\n\n인용: Byunghyun Ban. (2026). \"When Post-Publication Modification Is Not Enough - A Case Study of Multi-Layer Scholarly Overlap and Delayed Retraction.\" ResearchGate · Preprint (not peer-reviewed). https://doi.org/10.13140/RG.2.2.33321.97125\n\n자료 유형: preprint\n\n출처: https://bhban.kr/",
+      "tags": [
+        "논문·연구 / 프리프린트"
+      ],
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@a19701f96fce64e799568b4073edfcdf60015f64/src/images/papers/2026-p10-first-page-00a727859b66.webp",
+      "external_url": "https://doi.org/10.13140/RG.2.2.33321.97125"
+    },
+    {
+      "id": "urn:nanalab:papers:paper-2026-p11",
+      "url": "https://nanalab.kr/papers/#record-papers-paper-2026-p11",
+      "title": "[논문·연구 / 프리프린트] Can LLMs Review Scientific Papers? A Case of Hallucination and Grounding Failure in Journal Peer Review",
+      "content_text": "Maybe not. Large language models (LLMs) can produce fluent and plausible peer-review reports, but fluency is not scholarly judgment. This paper presents a case study of three formal peer-review reports received during an actual submission to a Korea Citation Index (KCI) candidate journal. One review claimed that key methodological and experimental details…\n\n인용: Byunghyun Ban. (2026). \"Can LLMs Review Scientific Papers? A Case of Hallucination and Grounding Failure in Journal Peer Review.\" ResearchGate · Preprint (not peer-reviewed). https://doi.org/10.13140/RG.2.2.34160.83209\n\n자료 유형: preprint\n\n출처: https://bhban.kr/",
+      "tags": [
+        "논문·연구 / 프리프린트"
+      ],
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@a19701f96fce64e799568b4073edfcdf60015f64/src/images/papers/2026-p11-first-page-0feac38b4311.webp",
+      "external_url": "https://doi.org/10.13140/RG.2.2.34160.83209"
+    },
+    {
+      "id": "urn:nanalab:papers:paper-2026-p12",
+      "url": "https://nanalab.kr/papers/#record-papers-paper-2026-p12",
+      "title": "[논문·연구 / 프리프린트] A Systematic Review of AI-Based Music Composition: Limitations and Breakthroughs",
+      "content_text": "AI-based music composition has evolved rapidly, with research paradigms shifting from modeling local patterns to capturing global musical coherence. This paper examines how compositional AI has progressed from modeling local patterns to forming global musical ideas. Early machine learning models, based on state transition probabilities, were able to captu…\n\n인용: Byunghyun Ban. (2026). \"A Systematic Review of AI-Based Music Composition: Limitations and Breakthroughs.\" ResearchGate · Preprint (not peer-reviewed). https://doi.org/10.13140/RG.2.2.14616.35848\n\n자료 유형: preprint\n\n출처: https://bhban.kr/",
+      "tags": [
+        "논문·연구 / 프리프린트"
+      ],
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@a19701f96fce64e799568b4073edfcdf60015f64/src/images/papers/2026-p12-first-page-9fe68307097b.webp",
+      "external_url": "https://doi.org/10.13140/RG.2.2.14616.35848"
+    },
+    {
+      "id": "urn:nanalab:papers:paper-2026-p13",
+      "url": "https://nanalab.kr/papers/#record-papers-paper-2026-p13",
+      "title": "[논문·연구 / 프리프린트] Era of RAG-as-a-Service for Pretrained AI Applications",
+      "content_text": "Large language models are now used in many knowledge-intensive applications, but their outputs still need to be grounded in reliable, recent, and domain-specific information. Although many datasets and fine-tuning resources have been introduced for LLM development, many practical applications do not need to modify model weights; they need a convenient way…\n\n인용: Byunghyun Ban. (2026). \"Era of RAG-as-a-Service for Pretrained AI Applications.\" ResearchGate · Preprint (not peer-reviewed). https://doi.org/10.13140/RG.2.2.25757.47847\n\n자료 유형: preprint\n\n출처: https://bhban.kr/",
+      "tags": [
+        "논문·연구 / 프리프린트"
+      ],
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@a19701f96fce64e799568b4073edfcdf60015f64/src/images/papers/2026-p13-first-page-3a7c33120e5c.webp",
+      "external_url": "https://doi.org/10.13140/RG.2.2.25757.47847"
+    },
+    {
+      "id": "urn:nanalab:papers:paper-14",
+      "url": "https://nanalab.kr/papers/#record-papers-paper-14",
+      "title": "[논문·연구] FAKER: Full-body Anonymization with Human Keypoint Extraction and Regression for Real-time Video Deidentification",
+      "content_text": "In the contemporary digital era, protection of personal information has become a paramount issue. The exponential growth of the media industry has heightened concerns regarding the anonymization of individuals captured in video footage. Traditional methods, such as blurring or pixelation, are commonly employed, while recent advancements have introduced ge…\n\n인용: Ban, Byunghyun, and Hyoseok Lee. (2024). \"FAKER: Full-body Anonymization with Human Keypoint Extraction and Regression for Real-time Video Deidentification.\" Journal of The Korean Association of Artificial Intelligence Education, 5(2), 57-72. https://doi.org/10.52618/aied.2024.5.2.6\n\n자료 유형: published\n\n출처: https://bhban.kr/",
+      "tags": [
+        "논문·연구"
+      ],
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@a19701f96fce64e799568b4073edfcdf60015f64/src/images/papers/faker-journal-2024-first-page-33adf0d683b3.webp",
+      "external_url": "https://doi.org/10.52618/aied.2024.5.2.6"
+    },
+    {
+      "id": "urn:nanalab:patents:source-2845e4dedceb85bc9b61",
+      "url": "https://nanalab.kr/patents/#record-patents-source-2845e4dedceb85bc9b61",
+      "title": "[특허·실용신안] 층류 형성을 유도하는 인공지능 기반 사물인터넷 시스템과 이를 활용한 수경재배 삽목 및 육묘 장치",
+      "content_text": "출원일 2023.12.19 출원번호 10-2023-0185372 발명자 반병현 출원인 상상텃밭(주)\n\n원본 날짜: 2023.12.19\n\n인용: Byunghyun Ban, et al. IoT assisted laminar flow generator for hydroponic cultivation. KR Applied Patent 10-2023-0185372 (2023)\n\n출처: https://bhban.kr/",
+      "tags": [
+        "특허·실용신안"
+      ],
+      "date_published": "2023-12-19T00:00:00+09:00",
+      "image": "https://bhban.kr/src/images/patents/31.webp",
+      "external_url": "https://doi.org/10.8080/1020230185372"
+    },
+    {
+      "id": "urn:nanalab:papers:paper-13",
+      "url": "https://nanalab.kr/papers/#record-papers-paper-13",
+      "title": "[논문·연구] CongNaMul: A Dataset for Advanced Image Processing of Soybean Sprouts",
+      "content_text": "We present 'CongNaMul', a comprehensive dataset designed for various tasks in soybean sprouts image analysis. The CongNaMul dataset is curated to facilitate tasks such as image classification, semantic segmentation, decomposition, and measurement of length and weight. The classification task provides four classes to determine the quality of soybean sprout…\n\n인용: Ban, Byunghyun, Donghun Ryu, and Su-won Hwang. (2023). \"CongNaMul: A Dataset for Advanced Image Processing of Soybean Sprouts.\" 2023 14th International Conference on Information and Communication Technology Convergence (ICTC), 1892-1897. https://doi.org/10.1109/ICTC58733.2023.10393217\n\n자료 유형: published\n\n출처: https://bhban.kr/",
+      "tags": [
+        "논문·연구"
+      ],
+      "image": "https://bhban.kr/src/images/papers/13.webp",
+      "external_url": "https://doi.org/10.1109/ICTC58733.2023.10393217"
+    },
+    {
+      "id": "urn:nanalab:papers:paper-11",
+      "url": "https://nanalab.kr/papers/#record-papers-paper-11",
+      "title": "[논문·연구] AI Knows Which Words Will Appear in Next Year's Korean CSAT",
+      "content_text": "A text-mining-based word class categorization method and LSTM-based vocabulary pattern prediction method are introduced in this paper. A preprocessing method based on simple text appearance frequency analysis is first described. This method was developed as a data screening tool but showed 4.35 times higher prediction accuracy compared to Word Master book…\n\n인용: Ban, Byunghyun, et al. 'AI Knows Which Words Will Appear in Next Year's Korean CSAT.' 2023 14th International Conference on Information and Communication Technology Convergence (ICTC), 2023.\n\n자료 유형: published\n\n출처: https://bhban.kr/",
+      "tags": [
+        "논문·연구"
+      ],
+      "image": "https://bhban.kr/src/images/papers/11.webp",
+      "external_url": "https://arxiv.org/abs/2211.15426"
+    },
+    {
+      "id": "urn:nanalab:patents:source-0501429a34fe90fd714b",
+      "url": "https://nanalab.kr/patents/#record-patents-source-0501429a34fe90fd714b",
+      "title": "[특허·실용신안] 3차원 영상 재건 알고리즘을 활용한 식물공장 디지털 트윈 인터페이스 제공 장치 및 방법",
+      "content_text": "등록번호 10-2538747 출원일 2022.11.28 등록일 2023.05.26. 발명자 반병현 출원인 상상텃밭(주)\n\n원본 날짜: 2022.11.28\n\n인용: Byunghyun Ban, et al. Apparatus and method for providing plant factory digital twin interface using 3D image reconstruction algorithm. KR Patent 10-2538747 (2023)\n\n출처: https://bhban.kr/",
+      "tags": [
+        "특허·실용신안"
+      ],
+      "date_published": "2022-11-28T00:00:00+09:00",
+      "image": "https://bhban.kr/src/images/patents/30.webp",
+      "external_url": "https://doi.org/10.8080/1020220161821"
+    },
+    {
+      "id": "urn:nanalab:patents:source-4302b4c1f04bf0ac2941",
+      "url": "https://nanalab.kr/patents/#record-patents-source-4302b4c1f04bf0ac2941",
+      "title": "[특허·실용신안] 의료용 대마 삽수의 자동 배양 관리장치 및 방법",
+      "content_text": "등록번호 10-2508469 출원일 2022.11.22 등록일 2023.03.06. 발명자 반병현, 김준산, 이민우 출원인 상상텃밭(주)\n\n원본 날짜: 2022.11.22\n\n인용: Byunghyun Ban, et al. Apparatus and method for automatically managing cultivation of medical cannabis cuttings. KR Patent 10-2508469 (2023)\n\n출처: https://bhban.kr/",
+      "tags": [
+        "특허·실용신안"
+      ],
+      "date_published": "2022-11-22T00:00:00+09:00",
+      "image": "https://bhban.kr/src/images/patents/29.webp",
+      "external_url": "https://doi.org/10.8080/1020220157476"
+    },
+    {
+      "id": "urn:nanalab:patents:source-85bb4739dec866bd6eb4",
+      "url": "https://nanalab.kr/patents/#record-patents-source-85bb4739dec866bd6eb4",
+      "title": "[특허·실용신안] 비전인식을 활용한 의료용 헴프의 삽목 자동화 장치 및 방법",
+      "content_text": "등록번호 10-2500388 출원일 2022.09.08 등록일 2023.02.13. 발명자 반병현 출원인 상상텃밭(주)\n\n원본 날짜: 2022.09.08\n\n인용: Byunghyun Ban. Automating device and method for cutting medical hemp using vision recognition. KR Patent 10-2500388 (2023)\n\n출처: https://bhban.kr/",
+      "tags": [
+        "특허·실용신안"
+      ],
+      "date_published": "2022-09-08T00:00:00+09:00",
+      "image": "https://bhban.kr/src/images/patents/28.webp",
+      "external_url": "https://doi.org/10.8080/1020220114177"
+    },
+    {
+      "id": "urn:nanalab:patents:source-a187a56b8801a184f67f",
+      "url": "https://nanalab.kr/patents/#record-patents-source-a187a56b8801a184f67f",
+      "title": "[특허·실용신안] 인공지능 능동보조 서버가 탑재된 지능형 의료용 헴프 식물공장 시스템",
+      "content_text": "등록번호 10-2434102 출원일 2022.01.27 등록일 2022.08.16. 발명자 반병현 외 10인 출원인 상상텃밭(주)\n\n원본 날짜: 2022.01.27\n\n인용: Byunghyun Ban, et al. Intelligent Plant factory system for medical and industrial hemp and AI assistance server. KR Patent 10-2434102 (2022)\n\n출처: https://bhban.kr/",
+      "tags": [
+        "특허·실용신안"
+      ],
+      "date_published": "2022-01-27T00:00:00+09:00",
+      "image": "https://bhban.kr/src/images/patents/27.webp",
+      "external_url": "https://doi.org/10.8080/1020220012112"
+    },
+    {
+      "id": "urn:nanalab:patents:source-005e18d0790a37841910",
+      "url": "https://nanalab.kr/patents/#record-patents-source-005e18d0790a37841910",
+      "title": "[특허·실용신안] 인공지능 모델을 활용한 작물 재배 작업 자문 장치 및 방법",
+      "content_text": "출원번호 10-2022-0012245 출원일 2022.01.27 공개일 2022.02.15. 발명자 반병현 출원인 상상텃밭(주)\n\n원본 날짜: 2022.01.27\n\n인용: Byunghyun Ban. Advising device and method for crop cultivation work using artificial intelligence model. KR Applied Patent 10-2022-0012245 (2022)\n\n출처: https://bhban.kr/",
+      "tags": [
+        "특허·실용신안"
+      ],
+      "date_published": "2022-01-27T00:00:00+09:00",
+      "image": "https://bhban.kr/src/images/patents/26.webp",
+      "external_url": "https://doi.org/10.8080/1020220012245"
+    },
+    {
+      "id": "urn:nanalab:papers:paper-12",
+      "url": "https://nanalab.kr/papers/#record-papers-paper-12",
+      "title": "[논문·연구] 수능 영어시험의 어휘 등장 패턴 분석",
+      "content_text": "A text-mining-based word class categorization method and LSTM-based vocabulary pattern prediction method are introduced in this paper. A preprocessing method based on simple text appearance frequency analysis is first described. This method was developed as a data screening tool but showed 4.35 times higher prediction accuracy compared to Word Master book…\n\n인용: Ban, Byunghyun, et al. (2022). \"Analysis on English Vocabulary Appearance Pattern in Korean CSAT.\" Journal of The Korean Association of Artificial Intelligence Education, 3(3), 15-23\n\n자료 유형: published\n\n출처: https://bhban.kr/",
+      "tags": [
+        "논문·연구"
+      ],
+      "image": "https://bhban.kr/src/images/papers/12.webp",
+      "external_url": "http://aied.or.kr/sub_html/sub02_08.html?pageNm=article&journal=1&code=425485&issue=32270"
+    },
+    {
+      "id": "urn:nanalab:papers:paper-10",
+      "url": "https://nanalab.kr/papers/#record-papers-paper-10",
+      "title": "[논문·연구 / 프리프린트] Mixed Reality Interface for Digital Twin of Plant Factory",
+      "content_text": "An easier and intuitive interface architecture is necessary for digital twin of plant factory. I suggest an immersive and interactive mixed reality interface for digital twin models of smart farming, for remote work rather than simulation of components. The environment is constructed with UI display and a streaming background scene, which is a real time s…\n\n인용: Ban, Byunghyun. \"Mixed Reality Interface for Digital Twin of Plant Factory.\" arXiv preprint arXiv:2211.00597 (2022).\n\n자료 유형: preprint\n\n출처: https://bhban.kr/",
+      "tags": [
+        "논문·연구 / 프리프린트"
+      ],
+      "image": "https://bhban.kr/src/images/papers/10.webp",
+      "external_url": "https://arxiv.org/abs/2211.00597"
+    },
+    {
+      "id": "urn:nanalab:papers:paper-9",
+      "url": "https://nanalab.kr/papers/#record-papers-paper-9",
+      "title": "[논문·연구] A Survey on Awesome Korean NLP Datasets",
+      "content_text": "English based datasets are commonly available from Kaggle, GitHub, or recently published papers. Although benchmark tests with English datasets are sufficient to show off the performances of new models and methods, still a researcher need to train and validate the models on Korean based datasets to produce a technology or product, suitable for Korean proc…\n\n인용: B. Ban, \"A Survey on Awesome Korean NLP Datasets,\" 2022 13th International Conference on Information and Communication Technology Convergence (ICTC), 2022, pp. 1615-1620, doi: 10.1109/ICTC55196.2022.9952930.\n\n자료 유형: published\n\n출처: https://bhban.kr/",
+      "tags": [
+        "논문·연구"
+      ],
+      "image": "https://bhban.kr/src/images/papers/9.webp",
+      "external_url": "https://ieeexplore.ieee.org/document/9952930"
+    },
+    {
+      "id": "urn:nanalab:patents:source-3f4388405cfec22a4b22",
+      "url": "https://nanalab.kr/patents/#record-patents-source-3f4388405cfec22a4b22",
+      "title": "[특허·실용신안] 강화학습 AI를 활용한 식물공장 양액제어 시스템 최적화 방법",
+      "content_text": "등록번호 10-2423998 출원일 2021.12.23 등록일 2022.07.19. 발명자 반병현 출원인 상상텃밭(주)\n\n원본 날짜: 2021.12.23\n\n인용: Byunghyun Ban. Method of optimize plant factory nutrient solution control system using reinforcement learning AI. KR Patent 10-2423998  (2022)\n\n출처: https://bhban.kr/",
+      "tags": [
+        "특허·실용신안"
+      ],
+      "date_published": "2021-12-23T00:00:00+09:00",
+      "image": "https://bhban.kr/src/images/patents/25.webp",
+      "external_url": "https://doi.org/10.8080/1020210185604"
+    },
+    {
+      "id": "urn:nanalab:patents:source-d1333f0b902c8e16c5a9",
+      "url": "https://nanalab.kr/patents/#record-patents-source-d1333f0b902c8e16c5a9",
+      "title": "[특허·실용신안] 머신러닝을 이용한 센서의 수명 분석 장치 및 방법",
+      "content_text": "출원번호 10-2021-0123641 출원일 2021.09.16 공개일 2021.10.07. 발명자 반병현 출원인 상상텃밭(주)\n\n원본 날짜: 2021.09.16\n\n인용: Byunghyun Ban. Device and method of sensor lifetime analysis using machine learning. KR Applied Patent 10-2021-0123641 (2021)\n\n출처: https://bhban.kr/",
+      "tags": [
+        "특허·실용신안"
+      ],
+      "date_published": "2021-09-16T00:00:00+09:00",
+      "image": "https://bhban.kr/src/images/patents/15.webp",
+      "external_url": "https://doi.org/10.8080/1020210123641"
+    },
+    {
+      "id": "urn:nanalab:patents:source-45a6e8a95c333bfc0a4a",
+      "url": "https://nanalab.kr/patents/#record-patents-source-45a6e8a95c333bfc0a4a",
+      "title": "[특허·실용신안] ISE 센서 및 머신러닝을 활용한 양액 주요 영양소 공급장치 및 이를 이용한 양액 주요 영양소 공급 방법",
+      "content_text": "출원번호 10-2021-0123213 출원일 2021.09.15 공개일 2021.10.06. 발명자 반병현 출원인 상상텃밭(주)\n\n원본 날짜: 2021.09.15\n\n인용: Byunghyun Ban. An automatic controller of nutrient solution using the ISE sensor and machine learning and a method using thereof. KR Applied Patent 10-2021-0123213 (2021)\n\n출처: https://bhban.kr/",
+      "tags": [
+        "특허·실용신안"
+      ],
+      "date_published": "2021-09-15T00:00:00+09:00",
+      "image": "https://bhban.kr/src/images/patents/14.webp",
+      "external_url": "https://doi.org/10.8080/1020210123213"
+    },
+    {
+      "id": "urn:nanalab:patents:source-af93082537dc6fe5561b",
+      "url": "https://nanalab.kr/patents/#record-patents-source-af93082537dc6fe5561b",
+      "title": "[특허·실용신안] 고형 원료 디스펜싱 방식의 양액 공급장치",
+      "content_text": "출원번호 10-2021-0120087 출원일 2021.09.09 공개일 2021.09.29. 발명자 반병현, 이민우, 장승엽 출원인 상상텃밭(주)\n\n원본 날짜: 2021.09.09\n\n인용: Byunghyun Ban. et al. Nutrient solution supply device of solid raw material dispensing method. KR Applied Patent 10-2021-0120087 (2021)\n\n출처: https://bhban.kr/",
+      "tags": [
+        "특허·실용신안"
+      ],
+      "date_published": "2021-09-09T00:00:00+09:00",
+      "image": "https://bhban.kr/src/images/patents/13.webp",
+      "external_url": "https://doi.org/10.8080/1020210120087"
+    },
+    {
+      "id": "urn:nanalab:patents:source-5930972b186433cd64cd",
+      "url": "https://nanalab.kr/patents/#record-patents-source-5930972b186433cd64cd",
+      "title": "[특허·실용신안] 불리언 방정식으로 모델링된 네트워크 모델을 이용한 수경재배 양액 분석 장치 및 방법",
+      "content_text": "출원번호 10-2021-0118950 출원일 2021.09.07 공개일 2021.09.29. 발명자 반병현 출원인 상상텃밭(주)\n\n원본 날짜: 2021.09.07\n\n인용: Byunghyun Ban. Device and method for agricultural nutrient solution analysis using network model modeled by boolean equation. KR Applied Patent 10-2021-0118950 (2021)\n\n출처: https://bhban.kr/",
+      "tags": [
+        "특허·실용신안"
+      ],
+      "date_published": "2021-09-07T00:00:00+09:00",
+      "image": "https://bhban.kr/src/images/patents/12.webp",
+      "external_url": "https://doi.org/10.8080/1020210118950"
+    },
+    {
+      "id": "urn:nanalab:patents:source-ca42411fda20a1480595",
+      "url": "https://nanalab.kr/patents/#record-patents-source-ca42411fda20a1480595",
+      "title": "[특허·실용신안] 순환식 양액제어 장치 또는 고형 이물질 제거장치",
+      "content_text": "구분 특허 공개출원 출원번호 10-2021-0058966 공개번호 10-2022-0151772 출원일 2021.05.07. 공개일 2022.11.15. 발명자 반병현, 이민우 출원인 농업회사법인 상상텃밭 주식회사\n\n원본 날짜: 2021.05.07\n\n인용: 반병현, 이민우. 순환식 양액제어 장치 또는 고형 이물질 제거장치. 대한민국 특허 공개출원 10-2022-0151772 (2022).\n\n출처: https://bhban.kr/",
+      "tags": [
+        "특허·실용신안"
+      ],
+      "date_published": "2021-05-07T00:00:00+09:00",
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@8dfe2893c99f3c2b75cfced232f2042e8359ecba/src/images/patents/application-10-2021-0058966-a2a60b032317.webp",
+      "external_url": "https://doi.org/10.8080/1020210058966"
+    },
+    {
+      "id": "urn:nanalab:patents:source-b3302ef1a639979cf5da",
+      "url": "https://nanalab.kr/patents/#record-patents-source-b3302ef1a639979cf5da",
+      "title": "[특허·실용신안] 용존산소 농도 및 용존이산화탄소 농도 분석을 통한 수경재배 양액 내 조류 농도 추론 장치 및 방법",
+      "content_text": "등록번호 10-2289069 출원일 2021.04.27 등록일 2021.08.06. 발명자 반병현, 이민우 출원인 상상텃밭(주)\n\n원본 날짜: 2021.04.27\n\n인용: Byunghyun Ban et al. Apparatus and method for inferring algae concentration in hydroponic nutrient solution through dissolved oxygen concentration and dissolved carbon dioxide concentration analysis. KR Patent 10-2289069 (2021)\n\n출처: https://bhban.kr/",
+      "tags": [
+        "특허·실용신안"
+      ],
+      "date_published": "2021-04-27T00:00:00+09:00",
+      "image": "https://bhban.kr/src/images/patents/10.webp",
+      "external_url": "https://doi.org/10.8080/1020210054324"
+    },
+    {
+      "id": "urn:nanalab:patents:source-d492b8ae2142f6b78ab2",
+      "url": "https://nanalab.kr/patents/#record-patents-source-d492b8ae2142f6b78ab2",
+      "title": "[특허·실용신안] 수경재배 베드 및 뿌리 생장 정보를 이용한 수경재배 방법",
+      "content_text": "등록번호 10-2308623 출원일 2021.03.31 등록일 2021.09.28. 발명자 반병현 외 4인 출원인 상상텃밭(주)\n\n원본 날짜: 2021.03.31\n\n인용: Byunghyun Ban et al. Hydroponic cultivation bed and method of hydroponic cultivation using root growth information. KR Patent 10-2308623 (2021)\n\n출처: https://bhban.kr/",
+      "tags": [
+        "특허·실용신안"
+      ],
+      "date_published": "2021-03-31T00:00:00+09:00",
+      "image": "https://bhban.kr/src/images/patents/11.webp",
+      "external_url": "https://doi.org/10.8080/1020210041526"
+    },
+    {
+      "id": "urn:nanalab:patents:source-85c66868e4e74d4cfdde",
+      "url": "https://nanalab.kr/patents/#record-patents-source-85c66868e4e74d4cfdde",
+      "title": "[특허·실용신안] 센서의 자동 캘리브레이션이 가능한 양액 제어 장치 및 방법",
+      "content_text": "등록번호 10-2162817 출원일 2020.06.15. 등록일 2020.10.07. 발명자 반병현 외 5인 출원인 상상텃밭(주)\n\n원본 날짜: 2020.06.15\n\n인용: Byunghyun Ban et al. Nutrient control device and method capable of automatic calibration of sensor. KR Patent 10-2162817 (2020)\n\n출처: https://bhban.kr/",
+      "tags": [
+        "특허·실용신안"
+      ],
+      "date_published": "2020-06-15T00:00:00+09:00",
+      "image": "https://bhban.kr/src/images/patents/1.webp",
+      "external_url": "https://ieeexplore.ieee.org/abstract/document/9289192/"
+    },
+    {
+      "id": "urn:nanalab:patents:source-d3a537c36b62e0d539b6",
+      "url": "https://nanalab.kr/patents/#record-patents-source-d3a537c36b62e0d539b6",
+      "title": "[특허·실용신안] 데이터 처리 서버 및 방법",
+      "content_text": "등록번호 10-2139928 출원일 2020.05.26. 등록일 2020.07.27. 발명자 반병현, 이장훈 출원인 상상텃밭(주)\n\n원본 날짜: 2020.05.26\n\n인용: Janghun Lee and Byunghyun Ban. Data processing server and method. KR Patent 10-2139928 (2020)\n\n출처: https://bhban.kr/",
+      "tags": [
+        "특허·실용신안"
+      ],
+      "date_published": "2020-05-26T00:00:00+09:00",
+      "image": "https://bhban.kr/src/images/patents/2.webp",
+      "external_url": "https://doi.org/10.8080/1020200063129"
+    },
+    {
+      "id": "urn:nanalab:patents:source-da4354ebab48fa1827bf",
+      "url": "https://nanalab.kr/patents/#record-patents-source-da4354ebab48fa1827bf",
+      "title": "[특허·실용신안] 용존산소량 및 양액 농도 조절이 가능한 양액 재배 장치 및 방법",
+      "content_text": "등록번호 10-2134655 출원일 2020.04.23. 등록일 2020.07.10. 발명자 반병현 출원인 상상텃밭(주)\n\n원본 날짜: 2020.04.23\n\n인용: Byunghyun Ban. Apparatus and method for cultivating nutrient solution capable of adjusting dissolved oxygen and nutrient solution concentration. KR Patent 10-2134655 (2020)\n\n출처: https://bhban.kr/",
+      "tags": [
+        "특허·실용신안"
+      ],
+      "date_published": "2020-04-23T00:00:00+09:00",
+      "image": "https://bhban.kr/src/images/patents/3.webp",
+      "external_url": "https://doi.org/10.8080/1020200049113"
+    },
+    {
+      "id": "urn:nanalab:patents:source-4989c3ef31a57a59029e",
+      "url": "https://nanalab.kr/patents/#record-patents-source-4989c3ef31a57a59029e",
+      "title": "[특허·실용신안] 식물 뿌리의 이온 흡수율 분석 장치 및 방법",
+      "content_text": "등록번호 10-2118957 출원일 2020.02.06. 등록일 2020.05.29. 발명자 반병현 출원인 상상텃밭(주)\n\n원본 날짜: 2020.02.06\n\n인용: Byunghyun Ban. Apparatus and method for analyzing the ion absorption rate of plant roots. KR Patent 10-2118957 (2020)\n\n출처: https://bhban.kr/",
+      "tags": [
+        "특허·실용신안"
+      ],
+      "date_published": "2020-02-06T00:00:00+09:00",
+      "image": "https://bhban.kr/src/images/patents/4.webp",
+      "external_url": "https://github.com/needleworm/nutrient_solution"
+    },
+    {
+      "id": "urn:nanalab:papers:paper-6",
+      "url": "https://nanalab.kr/papers/#record-papers-paper-6",
+      "title": "[논문·연구] Mathematical Model and Simulation for Nutrient-Plant Interaction Analysis",
+      "content_text": "Differential equation models to understand interaction between plant and nutrient solution are presented. The root cells selectively emit H+ ions with active transport consuming ATPs to establish electrical gradient along the cell membrane. It establishes electrical field with Nernst potential to make positively charged ions outside the cell membrane flow…\n\n인용: B. Ban, \"Mathematical Model and Simulation for Nutrient-Plant Interaction Analysis,\" 2020 International Conference on Information and Communication Technology Convergence (ICTC), Jeju, Korea (South), 2020, pp. 1531-1536, doi: 10.1109/ICTC49870.2020.9289083.\n\n자료 유형: published\n\n출처: https://bhban.kr/",
+      "tags": [
+        "논문·연구"
+      ],
+      "image": "https://bhban.kr/src/images/papers/6.webp",
+      "external_url": "https://github.com/needleworm/bh_coefficient"
+    },
+    {
+      "id": "urn:nanalab:papers:paper-5",
+      "url": "https://nanalab.kr/papers/#record-papers-paper-5",
+      "title": "[논문·연구] Deep learning method to remove chemical, kinetic and electric artifacts on ISEs",
+      "content_text": "I suggest a deep learning based sensor signal processing method to remove chemical, kinetic and electrical artifacts from ion selective electrodes’ measured values. An ISE is used to investigate the concentration of a specific ion from aqueous solution, by measuring the Nernst potential along the glass membrane. However, application of ISE on a mixture of…\n\n인용: B. Ban, \"Deep learning method to remove chemical, kinetic and electric artifacts on ISEs,\" 2020 International Conference on Information and Communication Technology Convergence (ICTC), Jeju, Korea (South), 2020, pp. 1242-1246, doi: 10.1109/ICTC49870.2020.9289389.\n\n자료 유형: published\n\n출처: https://bhban.kr/",
+      "tags": [
+        "논문·연구"
+      ],
+      "image": "https://bhban.kr/src/images/papers/5.webp",
+      "external_url": "https://github.com/needleworm/ion_interference"
+    },
+    {
+      "id": "urn:nanalab:papers:paper-4",
+      "url": "https://nanalab.kr/papers/#record-papers-paper-4",
+      "title": "[논문·연구] Nutrient Solution Management System for Smart Farms and Plant Factory",
+      "content_text": "We present an automated system for nutrient solution management. Prior arts usually measure only pH and EC of the nutrient solutions for maintenance. When EC drops, they just simply add concentrated nutrient to the horticulture bed. Such approach can maintain the density of nutrient solution but cannot maintain the rates of individual ion particles. To pr…\n\n인용: B. Ban, J. Lee, D. Ryu, M. Lee and T. D. Eom, \"Nutrient Solution Management System for Smart Farms and Plant Factory,\" 2020 International Conference on Information and Communication Technology Convergence (ICTC), Jeju, Korea (South), 2020, pp. 1537-1542, doi: 10.1109/ICTC49870.2020.9289192.\n\n자료 유형: published\n\n출처: https://bhban.kr/",
+      "tags": [
+        "논문·연구"
+      ],
+      "image": "https://bhban.kr/src/images/papers/4.webp",
+      "external_url": "https://doi.org/10.1109/ICTC49870.2020.9289192"
+    },
+    {
+      "id": "urn:nanalab:patents:source-417a90df0b0c4ab4d566",
+      "url": "https://nanalab.kr/patents/#record-patents-source-417a90df0b0c4ab4d566",
+      "title": "[특허·실용신안] 머신러닝을 활용한 양액에서 이온 간섭 효과 제거 장치 및 방법",
+      "content_text": "등록번호 10-2069202 출원일 2019.09.24. 등록일 2020.01.16. 발명자 반병현 외 2인 출원인 상상텃밭(주)\n\n원본 날짜: 2019.09.24\n\n인용: Byunghyun Ban et al. Device and method for removing ion interference effect from nutrient solution using machine learning. KR Patent 10-2069202 (2020)\n\n출처: https://bhban.kr/",
+      "tags": [
+        "특허·실용신안"
+      ],
+      "date_published": "2019-09-24T00:00:00+09:00",
+      "image": "https://bhban.kr/src/images/patents/5.webp",
+      "external_url": "https://github.com/needleworm/ion_interference"
+    },
+    {
+      "id": "urn:nanalab:patents:source-8a150c966f32df37a4be",
+      "url": "https://nanalab.kr/patents/#record-patents-source-8a150c966f32df37a4be",
+      "title": "[특허·실용신안] 상미분방적식으로 모델링된 네트워크 모델을 이용한 수경재배 양액 분석 장치 및 방법",
+      "content_text": "등록번호 10-2053738 출원일 2019.09.20. 등록일 2019.12.03. 발명자 반병현 외 2인 출원인 상상텃밭(주)\n\n원본 날짜: 2019.09.20\n\n인용: Byunghyun Ban et al. Device and method for agricultural nutrient solution analysis using network model modeled by ordinary differential equation KR Patent 10-2053738 (2019)\n\n출처: https://bhban.kr/",
+      "tags": [
+        "특허·실용신안"
+      ],
+      "date_published": "2019-09-20T00:00:00+09:00",
+      "image": "https://bhban.kr/src/images/patents/6.webp",
+      "external_url": "https://github.com/needleworm/nutrient_solution"
+    },
+    {
+      "id": "urn:nanalab:papers:paper-3",
+      "url": "https://nanalab.kr/papers/#record-papers-paper-3",
+      "title": "[논문·연구] Machine Learning Approach to Remove Ion Interference Effect in Agricultural Nutrient Solutions",
+      "content_text": "High concentration agricultural facilities such as vertical farms or plant factories consider hydroponic techniques as optimal solutions. Although closed-system dramatically reduces water consumption and pollution issues, it has ion-ratio related problem. As the root absorbs individual ions with different rate, ion rate in a nutrient solution should be ad…\n\n인용: B. Ban, D. Ryu and M. Lee, \"Machine Learning Approach to Remove Ion Interference Effect in Agricultural Nutrient Solutions,\" 2019 International Conference on Information and Communication Technology Convergence (ICTC), Jeju, Korea (South), 2019, pp. 1156-1161, doi: 10.1109/ICTC46691.2019.8939812.\n\n자료 유형: published\n\n출처: https://bhban.kr/",
+      "tags": [
+        "논문·연구"
+      ],
+      "image": "https://bhban.kr/src/images/papers/3.webp",
+      "external_url": "https://github.com/needleworm/ion_interference"
+    },
+    {
+      "id": "urn:nanalab:papers:paper-2",
+      "url": "https://nanalab.kr/papers/#record-papers-paper-2",
+      "title": "[논문·연구] ODE Network Model for Nonlinear and Complex Agricultural Nutrient Solution System",
+      "content_text": "In closed hydroponic systems, periodic readjustment of nutrient solution is necessary to continuously provide stable environment to plant roots because the interaction between plant and nutrient solution changes the rate of ions in it. The traditional method is to repeat supplying small amount of premade concentrated nutrient solution, measuring total ele…\n\n인용: B. Ban, M. Lee and D. Ryu, \"ODE Network Model for Nonlinear and Complex Agricultural Nutrient Solution System,\" 2019 International Conference on Information and Communication Technology Convergence (ICTC), Jeju, Korea (South), 2019, pp. 996-1001, doi: 10.1109/ICTC46691.2019.8939946.\n\n자료 유형: published\n\n출처: https://bhban.kr/",
+      "tags": [
+        "논문·연구"
+      ],
+      "image": "https://bhban.kr/src/images/papers/2.webp",
+      "external_url": "https://github.com/needleworm/nutrient_solution"
+    },
+    {
+      "id": "urn:nanalab:patents:source-0e59696463a8ce43794d",
+      "url": "https://nanalab.kr/patents/#record-patents-source-0e59696463a8ce43794d",
+      "title": "[특허·실용신안] 수경재배용 양액 관리 자동화 시스템 및 그 방법",
+      "content_text": "출원일 2018.08.10. 출원번호 10-2018-0094076 발명자 반병현 외 7인 출원인 한국과학기술원\n\n원본 날짜: 2018.08.10\n\n출처: https://bhban.kr/",
+      "tags": [
+        "특허·실용신안"
+      ],
+      "date_published": "2018-08-10T00:00:00+09:00",
+      "image": "https://bhban.kr/src/images/patents/8.webp",
+      "external_url": "https://doi.org/10.8080/1020180094076"
+    },
+    {
+      "id": "urn:nanalab:patents:source-cb87b7b4281880f2c477",
+      "url": "https://nanalab.kr/patents/#record-patents-source-cb87b7b4281880f2c477",
+      "title": "[특허·실용신안] 온실 시스템의 제어 모델 생성 방법",
+      "content_text": "등록번호 10-2100350 출원일 2018.01.31. 등록일 2020.04.07. 발명자 반병현, 김수빈 출원인 상상텃밭(주)\n\n원본 날짜: 2018.01.31\n\n인용: Byunghyun Ban et al. METHOD FOR GENERATING CONTROL MODEL OF GREENHOUSE SYSTEM. KR Patent 10-2100350 (2020)\n\n출처: https://bhban.kr/",
+      "tags": [
+        "특허·실용신안"
+      ],
+      "date_published": "2018-01-31T00:00:00+09:00",
+      "image": "https://bhban.kr/src/images/patents/7.webp",
+      "external_url": "https://github.com/needleworm/greenhouse_ai"
+    },
+    {
+      "id": "urn:nanalab:papers:paper-8",
+      "url": "https://nanalab.kr/papers/#record-papers-paper-8",
+      "title": "[논문·연구] The phenotype control kernel of a biomolecular regulatory network",
+      "content_text": "Background: Controlling complex molecular regulatory networks is getting a growing attention as it can provide a systematic way of driving any cellular state to a desired cell phenotypic state. A number of recent studies suggested various control methods, but there is still deficiency in finding out practically useful control targets that ensure convergen…\n\n인용: Choo, SM., Ban, B., Joo, J.I. et al. The phenotype control kernel of a biomolecular regulatory network. BMC Syst Biol 12, 49 (2018). https://doi.org/10.1186/s12918-018-0576-8\n\n자료 유형: published\n\n출처: https://bhban.kr/",
+      "tags": [
+        "논문·연구"
+      ],
+      "image": "https://bhban.kr/src/images/papers/8.webp",
+      "external_url": "https://github.com/needleworm/nc2"
+    },
+    {
+      "id": "urn:nanalab:papers:paper-0",
+      "url": "https://nanalab.kr/papers/#record-papers-paper-0",
+      "title": "[논문·연구] 대립 신경망을 이용한 심혈관 단층촬영 영상 표지 방법",
+      "content_text": "Bio-medical image segmentation, which is an emerging technique for an assistive way for quick and deliberate diagnosis, is to separate a biological or medical image into different semantic parts. Contemporary machine learning based segmentation techniques depend on statistical approach to minimize the objective functions which ensure statistically to dist…\n\n인용: Byung-Hyun Ban. \"Cardiac CT image segmentation with adversarial networks.\" Master's Thesis, Korea Advanced Institute of Science and Technology, 2018.\n\n자료 유형: published\n\n출처: https://bhban.kr/",
+      "tags": [
+        "논문·연구"
+      ],
+      "image": "https://bhban.kr/src/images/papers/0.webp",
+      "external_url": "https://koasas.kaist.ac.kr/handle/10203/295283"
+    },
+    {
+      "id": "urn:nanalab:patents:source-e82e58a1827936d8fde7",
+      "url": "https://nanalab.kr/patents/#record-patents-source-e82e58a1827936d8fde7",
+      "title": "[특허·실용신안] 신경망을 이용한 음악 검색 방법",
+      "content_text": "출원번호 10-2017-0025908 출원일 2017.02.28 공개일 2017.11.22. 발명자 반병현 출원인 반병현\n\n원본 날짜: 2017.02.28\n\n인용: Byunghyun Ban. Method for searching music using neural network. KR Applied Patent 10-2017-0025908 (2017)\n\n출처: https://bhban.kr/",
+      "tags": [
+        "특허·실용신안"
+      ],
+      "date_published": "2017-02-28T00:00:00+09:00",
+      "image": "https://bhban.kr/src/images/patents/16.webp"
+    },
+    {
+      "id": "urn:nanalab:patents:source-aa0c8aeaa194bee4636f",
+      "url": "https://nanalab.kr/patents/#record-patents-source-aa0c8aeaa194bee4636f",
+      "title": "[특허·실용신안] 프리 오더 마르코프 체인과 베이즈 추론을 이용한 음악 작곡 방법",
+      "content_text": "출원일 2017.02.23. 출원번호 10-2017-0024220 발명자 반병현 외 2인 출원인 반병현 외 2인\n\n원본 날짜: 2017.02.23\n\n출처: https://bhban.kr/",
+      "tags": [
+        "특허·실용신안"
+      ],
+      "date_published": "2017-02-23T00:00:00+09:00",
+      "image": "https://bhban.kr/src/images/patents/9.webp",
+      "external_url": "https://doi.org/10.8080/1020170024220"
+    },
+    {
+      "id": "urn:nanalab:patents:source-8bdbe4ad37d7eb522e17",
+      "url": "https://nanalab.kr/patents/#record-patents-source-8bdbe4ad37d7eb522e17",
+      "title": "[특허·실용신안] 심층 강화 학습을 이용한 음악 작곡 방법",
+      "content_text": "출원일 2017.02.23 출원번호 10-2017-0024223 발명자 반병현 출원인 반병현\n\n원본 날짜: 2017.02.23\n\n인용: Byunghyun Ban. MUSIC COMPOSITION METHOD BASED ON DEEP REINFORCEMENT LEARNING. KR Applied Patent 10-2017-0024223 (2017)\n\n출처: https://bhban.kr/",
+      "tags": [
+        "특허·실용신안"
+      ],
+      "date_published": "2017-02-23T00:00:00+09:00",
+      "image": "https://bhban.kr/src/images/patents/17.webp"
+    },
+    {
+      "id": "urn:nanalab:patents:source-f5e64b9b8b72e90f2ceb",
+      "url": "https://nanalab.kr/patents/#record-patents-source-f5e64b9b8b72e90f2ceb",
+      "title": "[특허·실용신안] 순환형 신경망에 기반한 작곡 방법",
+      "content_text": "출원번호 10-2017-0022493 출원일 2017.02.20 공개일 2017.11.22 발명자 반병현, 박주희, 정윤의 출원인 반병현\n\n원본 날짜: 2017.02.20\n\n인용: Byunghyun Ban, et al. CHORD COMPOSITION METHOD BASED ON RECURRENT NEURAL NETWORK. KR Applied Patent 10-2017-0022493 (2017)\n\n출처: https://bhban.kr/",
+      "tags": [
+        "특허·실용신안"
+      ],
+      "date_published": "2017-02-20T00:00:00+09:00",
+      "image": "https://bhban.kr/src/images/patents/20.webp"
+    },
+    {
+      "id": "urn:nanalab:papers:paper-1",
+      "url": "https://nanalab.kr/papers/#record-papers-paper-1",
+      "title": "[논문·연구] Control of nonlinear, complex and black-boxed greenhouse system with reinforcement learning",
+      "content_text": "Modern control theories such as systems engineering approaches try to solve nonlinear system problems by revelation of causal relationship or co-relationship among the components; most of those approaches focus on control of sophisticatedly modeled white-boxed systems. We suggest an application of actor-critic reinforcement learning approach to control a…\n\n인용: B. Ban and S. Kim, \"Control of nonlinear, complex and black-boxed greenhouse system with reinforcement learning,\" 2017 International Conference on Information and Communication Technology Convergence (ICTC), Jeju, Korea (South), 2017, pp. 913-918, doi: 10.1109/ICTC.2017.8190813.\n\n자료 유형: published\n\n출처: https://bhban.kr/",
+      "tags": [
+        "논문·연구"
+      ],
+      "image": "https://bhban.kr/src/images/papers/1.webp",
+      "external_url": "https://github.com/needleworm/greenhouse_ai"
+    },
+    {
+      "id": "urn:nanalab:papers:paper-7",
+      "url": "https://nanalab.kr/papers/#record-papers-paper-7",
+      "title": "[논문·연구] GAN-D: Generative adversarial networks for image deconvolution",
+      "content_text": "We propose new generative adversarial networks for generalized image deconvolution, GAN-D. Most of the previous researches concentrate to specific sub-topic of image deconvolution or generative image deconvolution models with a strong assumption. However, our network restores visual data from distorted images applied multiple dominant degradation problems…\n\n인용: HY Lee, JM Kwak, B Ban, SJ Na, SR Lee, and HK Lee. \"GAN-D: Generative adversarial networks for image deconvolution.\" 2017 International Conference on Information and Communication Technology Convergence (ICTC). IEEE, 2017.\n\n자료 유형: published\n\n출처: https://bhban.kr/",
+      "tags": [
+        "논문·연구"
+      ],
+      "image": "https://bhban.kr/src/images/papers/7.webp",
+      "external_url": "https://github.com/needleworm/mlproject"
+    },
+    {
+      "id": "urn:nanalab:patents:source-8903f504d8bf79d965f5",
+      "url": "https://nanalab.kr/patents/#record-patents-source-8903f504d8bf79d965f5",
+      "title": "[특허·실용신안] 재생되는 음악을 분석하여 멜로디를 추출하는 방법",
+      "content_text": "출원번호 10-2016-0169802 출원일 2016.12.13 출원일 2017.11.22. 발명자 반병현 출원인 반병현\n\n원본 날짜: 2016.12.13\n\n인용: Byunghyun Ban. MELODY EXTRACTION METHOD FROM MUSIC SIGNAL. KR Applied Patent 10-2016-0169802 (2016)\n\n출처: https://bhban.kr/",
+      "tags": [
+        "특허·실용신안"
+      ],
+      "date_published": "2016-12-13T00:00:00+09:00",
+      "image": "https://bhban.kr/src/images/patents/19.webp"
+    },
+    {
+      "id": "urn:nanalab:patents:source-6b4a99be7ecbcba612d7",
+      "url": "https://nanalab.kr/patents/#record-patents-source-6b4a99be7ecbcba612d7",
+      "title": "[특허·실용신안] 기계 학습을 이용한 음악 신호의 처리 방법",
+      "content_text": "출원번호 10-2016-0167317 출원일 2016.12.09 공개일 2018.06.19 발명자 반병현 출원인 반병현\n\n원본 날짜: 2016.12.09\n\n인용: Byunghyun Ban. Method for processing audio signal using machine learning. KR Applied Patent 10-2016-0167317 (2016)\n\n출처: https://bhban.kr/",
+      "tags": [
+        "특허·실용신안"
+      ],
+      "date_published": "2016-12-09T00:00:00+09:00",
+      "image": "https://bhban.kr/src/images/patents/18.webp"
+    },
+    {
+      "id": "urn:nanalab:patents:source-3b8bcd99f68f11743497",
+      "url": "https://nanalab.kr/patents/#record-patents-source-3b8bcd99f68f11743497",
+      "title": "[특허·실용신안] 투척식 소화기",
+      "content_text": "출원번호 10-2014-0008341 출원일 2014.01.23 공개일 2014.03.05. 발명자 반병현, 반병우 출원인 한국과학기술원\n\n원본 날짜: 2014.01.23\n\n인용: Byunghyun Ban, et al. THROWING TYPE FIRE EXTINGUISHER. KR Applied Patent 10-2014-0008341 (2014)\n\n출처: https://bhban.kr/",
+      "tags": [
+        "특허·실용신안"
+      ],
+      "date_published": "2014-01-23T00:00:00+09:00",
+      "image": "https://bhban.kr/src/images/patents/21.webp"
+    },
+    {
+      "id": "urn:nanalab:patents:source-79ee41b625a8b4dd702b",
+      "url": "https://nanalab.kr/patents/#record-patents-source-79ee41b625a8b4dd702b",
+      "title": "[특허·실용신안] 개방형 와이파이를 탐지해 점멸하는 스마트 단말기 케이스",
+      "content_text": "출원번호 10-2013-0144524 출원일 2013.11.26. 공개일 2015.06.03. 발명자 반병현, 반병우 출원인 한국과학기술원\n\n원본 날짜: 2013.11.26\n\n인용: Byunghyun Ban, et al. THE FLASHING SMART DEVICE CASE TO DETECT THE OPENED WIFI ENVIRONMENT. KR Applied Patent 10-2013-0144524 (2014)\n\n출처: https://bhban.kr/",
+      "tags": [
+        "특허·실용신안"
+      ],
+      "date_published": "2013-11-26T00:00:00+09:00",
+      "image": "https://bhban.kr/src/images/patents/22.webp"
+    },
+    {
+      "id": "urn:nanalab:patents:source-cf12954e47c6996dc998",
+      "url": "https://nanalab.kr/patents/#record-patents-source-cf12954e47c6996dc998",
+      "title": "[특허·실용신안] 세탁기용 세제 디스펜서",
+      "content_text": "구분 실용신안 공개출원 출원번호 20-2013-0005982 공개번호 20-2013-0006435 출원일 2013.07.18. 공개일 2013.11.06. 고안자 반병우, 반병현 출원인 반병현\n\n원본 날짜: 2013.07.18\n\n인용: 반병우, 반병현. 세탁기용 세제 디스펜서. 대한민국 실용신안 공개출원 20-2013-0006435 (2013).\n\n출처: https://bhban.kr/",
+      "tags": [
+        "특허·실용신안"
+      ],
+      "date_published": "2013-07-18T00:00:00+09:00",
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@8dfe2893c99f3c2b75cfced232f2042e8359ecba/src/images/patents/application-20-2013-0005982-1bb200ea93aa.webp",
+      "external_url": "https://doi.org/10.8080/2020130005982"
+    },
+    {
+      "id": "urn:nanalab:patents:source-23d6066f7e1877f14df3",
+      "url": "https://nanalab.kr/patents/#record-patents-source-23d6066f7e1877f14df3",
+      "title": "[특허·실용신안] 고형물 보관용기",
+      "content_text": "출원번호 10-2013-0053562 출원일 2013.05.13 등록일 2014.11.20. 발명자 반병현, 반병우 출원인 한국과학기술원\n\n원본 날짜: 2013.05.13\n\n인용: Byunghyun Ban, et al. Storage Container For Solid State Sample. KR Patent 10-1465439 (2013)\n\n출처: https://bhban.kr/",
+      "tags": [
+        "특허·실용신안"
+      ],
+      "date_published": "2013-05-13T00:00:00+09:00",
+      "image": "https://bhban.kr/src/images/patents/23.webp"
+    },
+    {
+      "id": "urn:nanalab:patents:source-8c668cc6f99bb3ceeef0",
+      "url": "https://nanalab.kr/patents/#record-patents-source-8c668cc6f99bb3ceeef0",
+      "title": "[특허·실용신안] 대뇌 발달 균형 측정 방법 및 대뇌 발달 유형 분류 방법",
+      "content_text": "출원번호 10-2012-0141120 출원일 2012.12.06 공개일 2013.12.11. 발명자 반병현 출원인 반병현\n\n원본 날짜: 2012.12.06\n\n인용: Byunghyun Ban. METHOD OF MEASUREMENT OF CEREBRAL DEVELOPMENT BALANCE AND CEREBRAL DEVELOPMENT TYPE CLASSIFICATION METHOD. KR Applied Patent 10-2012-0141120  (2012)\n\n출처: https://bhban.kr/",
+      "tags": [
+        "특허·실용신안"
+      ],
+      "date_published": "2012-12-06T00:00:00+09:00",
+      "image": "https://bhban.kr/src/images/patents/24.webp",
+      "external_url": "https://bhban.kr/src/patentPdf/24.pdf"
+    },
+    {
+      "id": "urn:nanalab:patents:source-de9a2ce70f518bd25dd2",
+      "url": "https://nanalab.kr/patents/#record-patents-source-de9a2ce70f518bd25dd2",
+      "title": "[특허·실용신안] 맞춤형 학습법을 제공하는 방법 및 맞춤형 학습법 제공 시스템",
+      "content_text": "구분 특허 공개출원 출원번호 10-2012-0100416 공개번호 10-2014-0033902 출원일 2012.09.11. 공개일 2014.03.19. 발명자 최병혁, 반병현 출원인 최병혁\n\n원본 날짜: 2012.09.11\n\n인용: 최병혁, 반병현. 맞춤형 학습법을 제공하는 방법 및 맞춤형 학습법 제공 시스템. 대한민국 특허 공개출원 10-2014-0033902 (2014).\n\n출처: https://bhban.kr/",
+      "tags": [
+        "특허·실용신안"
+      ],
+      "date_published": "2012-09-11T00:00:00+09:00",
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@8dfe2893c99f3c2b75cfced232f2042e8359ecba/src/images/patents/application-10-2012-0100416-9da259bbb6cd.webp",
+      "external_url": "https://doi.org/10.8080/1020120100416"
+    },
+    {
+      "id": "urn:nanalab:projects:websites-c1e869b7b56e0c81a614",
+      "url": "https://nanalab.kr/projects/#record-projects-websites-c1e869b7b56e0c81a614",
+      "title": "[개발 프로젝트] https://aieng.kr",
+      "content_text": "Official website of AI.Eng. This website was built with React.js and @material-ui.\n\n출처: https://bhban.kr/",
+      "tags": [
+        "개발 프로젝트"
+      ],
+      "image": "https://bhban.kr/src/images/websites/aieng.webp",
+      "external_url": "https://aieng.kr"
+    },
+    {
+      "id": "urn:nanalab:projects:websites-a84770d79e442e1c2167",
+      "url": "https://nanalab.kr/projects/#record-projects-websites-a84770d79e442e1c2167",
+      "title": "[개발 프로젝트] https://needleworm.github.io",
+      "content_text": "My own webpage built with React. This static website is hosted on Github Pages. It was inspired by Thomas Zuhlke's jekyll theme . The original theme runs with jQuery for github API calling, and SCSS for styling. And its jQuery function supported only one content wrapper element. I built a React app looks similar to Thomas' work. As you can see, this page…\n\n출처: https://bhban.kr/",
+      "tags": [
+        "개발 프로젝트"
+      ],
+      "image": "https://bhban.kr/src/images/websites/blog.webp",
+      "external_url": "https://needleworm.github.io"
+    },
+    {
+      "id": "urn:nanalab:projects:websites-4cb446e195311585449f",
+      "url": "https://nanalab.kr/projects/#record-projects-websites-4cb446e195311585449f",
+      "title": "[개발 프로젝트] https://needleworm.github.io/ai_voca",
+      "content_text": "AI족집게 수능영단어(2023, 생능북스)의 부록으로 제공되는 학습용 앱입니다. 매일매일 퀴즈 풀기 기능과, 교사를 위한 PDF 단어 시험지 제작 기능이 제공됩니다.\n\n출처: https://bhban.kr/",
+      "tags": [
+        "개발 프로젝트"
+      ],
+      "image": "https://bhban.kr/src/images/websites/ai_voca.webp",
+      "external_url": "https://needleworm.github.io/ai_voca"
+    },
+    {
+      "id": "urn:nanalab:projects:websites-f35466df2464a7b9adf4",
+      "url": "https://nanalab.kr/projects/#record-projects-websites-f35466df2464a7b9adf4",
+      "title": "[개발 프로젝트] https://needleworm.github.io/dev",
+      "content_text": "This page provides example codes for my book, \"비전공이지만 개발자로 먹고삽니다 (생능북스, 2022)\". It was built with Jekyll and Agency theme by Ravi Riley .\n\n출처: https://bhban.kr/",
+      "tags": [
+        "개발 프로젝트"
+      ],
+      "image": "https://bhban.kr/src/images/websites/dev.webp",
+      "external_url": "https://needleworm.github.io/dev"
+    },
+    {
+      "id": "urn:nanalab:projects:source-6558038e726e98cc4604",
+      "url": "https://nanalab.kr/projects/#record-projects-source-6558038e726e98cc4604",
+      "title": "[개발 프로젝트] https://needleworm.github.io/psd",
+      "content_text": "This page provides example codes for my book, \"포토샵 마스터 클래스 (생능북스, 2023)\". It was built with Jekyll and Agency theme by Ravi Riley .\n\n출처: https://bhban.kr/",
+      "tags": [
+        "개발 프로젝트"
+      ],
+      "image": "https://bhban.kr/src/images/websites/psd.webp",
+      "external_url": "https://needleworm.github.io/psd"
+    },
+    {
+      "id": "urn:nanalab:projects:source-93c91c851e7acc17d881",
+      "url": "https://nanalab.kr/projects/#record-projects-source-93c91c851e7acc17d881",
+      "title": "[개발 프로젝트] https://www.sangsang.farm/price",
+      "content_text": "This webpage provides automated counceling on smart farm and plant factory facilities. As there is no standard format of smart farm facilities in Korean market, each consulting requires so much time and effort from both customers and us. So I built this automated and interactive web app to provide information and suggest appropriate options for our custom…\n\n출처: https://bhban.kr/",
+      "tags": [
+        "개발 프로젝트"
+      ],
+      "image": "https://bhban.kr/src/images/websites/price.webp",
+      "external_url": "https://www.sangsang.farm/price"
+    },
+    {
+      "id": "urn:nanalab:projects:source-76f68a75f01ed76f5a02",
+      "url": "https://nanalab.kr/projects/#record-projects-source-76f68a75f01ed76f5a02",
+      "title": "[개발 프로젝트] https://www.sangsang.farm/business",
+      "content_text": "Business proposal page of Imagination Garden Inc. This website provides embedded slide show for presentation. This static website was built with Jekyll and hosted on Azure. It also utilized Agency theme by Ravi Riley .\n\n출처: https://bhban.kr/",
+      "tags": [
+        "개발 프로젝트"
+      ],
+      "image": "https://bhban.kr/src/images/websites/business.webp",
+      "external_url": "https://www.sangsang.farm/business"
+    },
+    {
+      "id": "urn:nanalab:projects:source-d4068f2689bea06e706c",
+      "url": "https://nanalab.kr/projects/#record-projects-source-d4068f2689bea06e706c",
+      "title": "[개발 프로젝트] https://needleworm.github.io/financebook",
+      "content_text": "This page provides example codes for my book, \"내 자산 자동으로 관리하기 (생능출판사, 2021.07.09)\". It was built with Jekyll and Agency theme by Ravi Riley .\n\n출처: https://bhban.kr/",
+      "tags": [
+        "개발 프로젝트"
+      ],
+      "image": "https://bhban.kr/src/images/websites/financebook.webp",
+      "external_url": "https://needleworm.github.io/financebook"
+    },
+    {
+      "id": "urn:nanalab:projects:source-4411e525721e7dd80175",
+      "url": "https://nanalab.kr/projects/#record-projects-source-4411e525721e7dd80175",
+      "title": "[개발 프로젝트] https://needleworm.github.io/dataset",
+      "content_text": "This page provides example codes for my book, \"AI, 빅데이터 활용이 쉬워지는 142가지 데이터셋 (생능북스, 2022.02.22.)\". It was built with Jekyll and Agency theme by Ravi Riley .\n\n출처: https://bhban.kr/",
+      "tags": [
+        "개발 프로젝트"
+      ],
+      "image": "https://bhban.kr/src/images/websites/dataset.webp",
+      "external_url": "https://needleworm.github.io/dataset"
+    },
+    {
+      "id": "urn:nanalab:projects:source-16dc368a89b428b24854",
+      "url": "https://nanalab.kr/projects/#record-projects-source-16dc368a89b428b24854",
+      "title": "[개발 프로젝트] https://needleworm.github.io/101",
+      "content_text": "This page provides example codes for my book, \"비전공자가 업무에서 자주 물어보는 101가지 컴퓨터 활용팁 (생능출판사, 2021.07.15.)\". It was built with Jekyll and Agency theme by Ravi Riley .\n\n출처: https://bhban.kr/",
+      "tags": [
+        "개발 프로젝트"
+      ],
+      "image": "https://bhban.kr/src/images/websites/101.webp",
+      "external_url": "https://needleworm.github.io/101"
+    },
+    {
+      "id": "urn:nanalab:projects:source-af48bcf0b9511b39b91b",
+      "url": "https://nanalab.kr/projects/#record-projects-source-af48bcf0b9511b39b91b",
+      "title": "[개발 프로젝트] https://needleworm.github.io/frontend",
+      "content_text": "This page provides example codes for my book, \"코딩만 따라 해도 웹페이지가 만들어지는 HTML + CSS + 자바스크립트 (생능북스, 2022.02.15.)\". It was built with Jekyll and Agency theme by Ravi Riley .\n\n출처: https://bhban.kr/",
+      "tags": [
+        "개발 프로젝트"
+      ],
+      "image": "https://bhban.kr/src/images/websites/frontend.webp",
+      "external_url": "https://needleworm.github.io/frontend"
+    },
+    {
+      "id": "urn:nanalab:projects:source-11fb682be0a0233d5fb8",
+      "url": "https://nanalab.kr/projects/#record-projects-source-11fb682be0a0233d5fb8",
+      "title": "[개발 프로젝트] https://needleworm.github.io/bhban_ai",
+      "content_text": "This page provides example codes for my book, \"수학, 통계를 몰라도 이해되는 쉬운 딥러닝 (생능출판사, 2021)\". It was built with Jekyll and Agency theme by Ravi Riley .\n\n출처: https://bhban.kr/",
+      "tags": [
+        "개발 프로젝트"
+      ],
+      "image": "https://bhban.kr/src/images/websites/ai.webp",
+      "external_url": "https://needleworm.github.io/bhban_ai"
+    },
+    {
+      "id": "urn:nanalab:projects:source-8de41b07e8d593ee5978",
+      "url": "https://nanalab.kr/projects/#record-projects-source-8de41b07e8d593ee5978",
+      "title": "[개발 프로젝트] https://needleworm.github.io/bhban_rpa",
+      "content_text": "This page provides example codes for my book, \"6개월 치 업무를 하루 만에 끝내는 업무 자동화 (생능출판사, 2020)\". It was built with Jekyll and Agency theme by Ravi Riley .\n\n출처: https://bhban.kr/",
+      "tags": [
+        "개발 프로젝트"
+      ],
+      "image": "https://bhban.kr/src/images/websites/rpa.webp",
+      "external_url": "https://needleworm.github.io/bhban_rpa"
+    },
+    {
+      "id": "urn:nanalab:projects:source-ffa507a8ccef42c14eb5",
+      "url": "https://nanalab.kr/projects/#record-projects-source-ffa507a8ccef42c14eb5",
+      "title": "[개발 프로젝트] https://needleworm.github.io/moneyauto",
+      "content_text": "A Landing page for Money AUTO project. Money AUTO is a non-commercial project to provide automated solutionis for individual investors. It now provides Coin AUTO, an automated cryptocurrency trading system. Money AUTO will provide automated stock trading system, real-time asset management system, and investment portfolio design services. All services of m…\n\n출처: https://bhban.kr/",
+      "tags": [
+        "개발 프로젝트"
+      ],
+      "image": "https://bhban.kr/src/images/websites/moneyauto.webp",
+      "external_url": "https://needleworm.github.io/moneyauto"
+    },
+    {
+      "id": "urn:nanalab:projects:source-95d23d673252be098208",
+      "url": "https://nanalab.kr/projects/#record-projects-source-95d23d673252be098208",
+      "title": "[개발 프로젝트] https://needleworm.github.io/tech3",
+      "content_text": "This page provides example codes for my book, \"돈이 복사되는 가상자산 수업 (생능북스, 2022)\". It was built with Jekyll and Agency theme by Ravi Riley .\n\n출처: https://bhban.kr/",
+      "tags": [
+        "개발 프로젝트"
+      ],
+      "image": "https://bhban.kr/src/images/websites/tech3.webp",
+      "external_url": "https://needleworm.github.io/tech3"
+    },
+    {
+      "id": "urn:nanalab:projects:source-cce829aeff7a72b905e9",
+      "url": "https://nanalab.kr/projects/#record-projects-source-cce829aeff7a72b905e9",
+      "title": "[개발 프로젝트] https://www.sangsang.farm",
+      "content_text": "Official website of Imagination Garden Inc. for 2022 4Q. It uses a backend MySQL server for data management, while previous website was a static website. This website was built with Docker, MySQL, and Wordpress hosted on Azure.\n\n출처: https://bhban.kr/",
+      "tags": [
+        "개발 프로젝트"
+      ],
+      "image": "https://bhban.kr/src/images/websites/sstb2.webp",
+      "external_url": "https://www.sangsang.farm"
+    },
+    {
+      "id": "urn:nanalab:projects:source-2bbda680b4589a35f608",
+      "url": "https://nanalab.kr/projects/#record-projects-source-2bbda680b4589a35f608",
+      "title": "[개발 프로젝트] https://www.sangsang.farm",
+      "content_text": "Official webpage of Imagination Garden Inc. This static website was built with Jekyll and hosted on Azure. It also utilized Agency theme by Ravi Riley .\n\n출처: https://bhban.kr/",
+      "tags": [
+        "개발 프로젝트"
+      ],
+      "image": "https://bhban.kr/src/images/websites/sangsangfarm.webp",
+      "external_url": "https://www.sangsang.farm"
+    },
+    {
+      "id": "urn:nanalab:projects:source-b75e4412157c65759bb0",
+      "url": "https://nanalab.kr/projects/#record-projects-source-b75e4412157c65759bb0",
+      "title": "[개발 프로젝트] NaNa Investment",
+      "content_text": "A comprehensive investment analysis platform designed for portfolio exploration and simulation. It provides real-time access to major market indices such as KOSPI, KOSDAQ, NASDAQ, and the S&P 500, and allows users to search individual stocks to view recent price data. The platform introduces well-known asset allocation strategies and explains how to imple…\n\n출처: https://bhban.kr/",
+      "tags": [
+        "개발 프로젝트"
+      ],
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/apps/invest.webp",
+      "external_url": "https://nanalab.kr/invest"
+    },
+    {
+      "id": "urn:nanalab:projects:source-346aab89640f01cb0a79",
+      "url": "https://nanalab.kr/projects/#record-projects-source-346aab89640f01cb0a79",
+      "title": "[개발 프로젝트] QR Code Generator",
+      "content_text": "Instantly convert URLs into QR codes directly in your browser. Since the QR codes are generated locally without passing through external servers, this tool operates significantly faster than most alternatives. It even works reliably when your internet connection is unavailable. The service is 100% free, and you can download clean, well-designed QR codes w…\n\n출처: https://bhban.kr/",
+      "tags": [
+        "개발 프로젝트"
+      ],
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/apps/qr.webp",
+      "external_url": "https://nanalab.kr/qr"
+    },
+    {
+      "id": "urn:nanalab:projects:source-953f32f2062ba6547d2b",
+      "url": "https://nanalab.kr/projects/#record-projects-source-953f32f2062ba6547d2b",
+      "title": "[개발 프로젝트] Smart Calculator",
+      "content_text": "A lightweight yet powerful smart calculator designed for everyday and office use. With built-in speech recognition, it offers improved accessibility in situations where typing is inconvenient. The calculator displays calculation history on screen, helping users keep track of multiple consecutive operations. It also includes currency conversion features, m…\n\n출처: https://bhban.kr/",
+      "tags": [
+        "개발 프로젝트"
+      ],
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/apps/smart_calculator.webp",
+      "external_url": "https://nanalab.kr/smart_calculator"
+    },
+    {
+      "id": "urn:nanalab:projects:source-9375ae8018267adee71b",
+      "url": "https://nanalab.kr/projects/#record-projects-source-9375ae8018267adee71b",
+      "title": "[개발 프로젝트] Fortune Teller",
+      "content_text": "Start your day with a glimpse into your destiny. This application provides daily fortune readings based on your zodiac sign and date of birth. Whether you are looking for advice on love, career, or health, our Fortune Teller offers insights to help you navigate your day with confidence. It is a fun and mystical way to take a moment for yourself amidst a b…\n\n출처: https://bhban.kr/",
+      "tags": [
+        "개발 프로젝트"
+      ],
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/apps/fortune.webp",
+      "external_url": "https://nanalab.kr/fortune"
+    },
+    {
+      "id": "urn:nanalab:projects:source-15aedfcd0dba76bf700c",
+      "url": "https://nanalab.kr/projects/#record-projects-source-15aedfcd0dba76bf700c",
+      "title": "[개발 프로젝트] Away Screen",
+      "content_text": "Maintain professional etiquette even when you're away from your desk. This convenient tool transforms your monitor into a clear status display, greatly helping communication with colleagues in the office. It also features an automatic full-screen mode for a seamless status display experience.\n\n출처: https://bhban.kr/",
+      "tags": [
+        "개발 프로젝트"
+      ],
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/apps/afd.webp",
+      "external_url": "https://nanalab.kr/afd"
+    },
+    {
+      "id": "urn:nanalab:projects:source-093ae253a5db358d9b79",
+      "url": "https://nanalab.kr/projects/#record-projects-source-093ae253a5db358d9b79",
+      "title": "[개발 프로젝트] BMI Calculator",
+      "content_text": "Take control of your health journey with this comprehensive Body Mass Index calculator. It goes beyond simple calculation by analyzing your current weight category and providing actionable insights. The tool calculates exactly how much weight you need to lose or gain to reach specific BMI milestones (like 90, 100, or 110), helping you set and track realis…\n\n출처: https://bhban.kr/",
+      "tags": [
+        "개발 프로젝트"
+      ],
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/apps/bmi.webp",
+      "external_url": "https://nanalab.kr/bmi"
+    },
+    {
+      "id": "urn:nanalab:projects:source-d91298d32abc04d49519",
+      "url": "https://nanalab.kr/projects/#record-projects-source-d91298d32abc04d49519",
+      "title": "[개발 프로젝트] Lucky Cannon",
+      "content_text": "A delightful and interactive tool designed to randomly select one lucky person from a group. Whether you are organizing a team event, hosting a prize draw, or simply deciding who goes first, this app transforms the process into an exciting game. Featuring fun animations and a playful interface, it builds anticipation and adds a spark of joy to the moment…\n\n출처: https://bhban.kr/",
+      "tags": [
+        "개발 프로젝트"
+      ],
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/apps/lucky_cannon.webp",
+      "external_url": "https://nanalab.kr/luck"
+    },
+    {
+      "id": "urn:nanalab:projects:source-65e4cc2debf38ec4447d",
+      "url": "https://nanalab.kr/projects/#record-projects-source-65e4cc2debf38ec4447d",
+      "title": "[개발 프로젝트] Lorem Ipsum Generator",
+      "content_text": "A simple efficient tool for generating placeholder text (\"Lorem Ipsum\") for your design and typesetting projects. Whether you need a few paragraphs for a website mockup or extensive dummy text for a print layout, this tool provides standardized Latin text quickly. It helps designers focus on visual elements without being distracted by meaningful content.…\n\n출처: https://bhban.kr/",
+      "tags": [
+        "개발 프로젝트"
+      ],
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/apps/lipsum.webp",
+      "external_url": "https://nanalab.kr/lipsum/"
+    },
+    {
+      "id": "urn:nanalab:projects:source-0e165c8d8f7d0b3ff6e8",
+      "url": "https://nanalab.kr/projects/#record-projects-source-0e165c8d8f7d0b3ff6e8",
+      "title": "[개발 프로젝트] Smart GIF Studio",
+      "content_text": "Smart GIF Studio is a free, browser-based GIF editor that lets you resize animations, crop or add padding, reduce file size with multiple optimization options, rotate/flip, reverse playback, adjust speed, and cut or trim frames. It also supports converting GIFs to MP4, WEBM, and JPG, and keeps a simple edit history for faster repetitive work. All processi…\n\n출처: https://bhban.kr/",
+      "tags": [
+        "개발 프로젝트"
+      ],
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/apps/gif_studio.webp",
+      "external_url": "https://nanalab.kr/gif_studio"
+    },
+    {
+      "id": "urn:nanalab:projects:source-4abd5ab74c35be5db6e8",
+      "url": "https://nanalab.kr/projects/#record-projects-source-4abd5ab74c35be5db6e8",
+      "title": "[개발 프로젝트] Video to GIF",
+      "content_text": "Marketers, designers, webmasters, and other media professionals often need to convert videos into GIF files for presentations, documentation, or social media content. This lightweight GIF converter offers a much faster and more convenient alternative to launching heavy desktop software such as professional video editors. Built on a serverless architecture…\n\n출처: https://bhban.kr/",
+      "tags": [
+        "개발 프로젝트"
+      ],
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/apps/video_to_gif.webp",
+      "external_url": "https://nanalab.kr/video_2_gif/"
+    },
+    {
+      "id": "urn:nanalab:projects:source-b99f8fb4721f960d57d9",
+      "url": "https://nanalab.kr/projects/#record-projects-source-b99f8fb4721f960d57d9",
+      "title": "[개발 프로젝트] Image Resizer",
+      "content_text": "Marketers, designers, and planners often need to process large numbers of images at once. From simple resizing and aspect ratio adjustments to cropping images for social media uploads, NaNa Lab's Image Resizer allows you to complete these tasks instantly with a single click. All image processing is performed locally in your browser without using external…\n\n출처: https://bhban.kr/",
+      "tags": [
+        "개발 프로젝트"
+      ],
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/apps/image_resize.webp",
+      "external_url": "https://nanalab.kr/image_resize/"
+    },
+    {
+      "id": "urn:nanalab:projects:source-0d4e1d4c43812433dc96",
+      "url": "https://nanalab.kr/projects/#record-projects-source-0d4e1d4c43812433dc96",
+      "title": "[개발 프로젝트] Smart Doc Compressor",
+      "content_text": "Compress PDF, PPT, Word, and image files quickly and efficiently. Unlike many online tools that upload your documents to external servers, NaNa Lab processes all files locally within your browser, ensuring that no data is transmitted or stored elsewhere. This makes Smart Doc Compressor suitable for handling confidential documents and files containing pers…\n\n출처: https://bhban.kr/",
+      "tags": [
+        "개발 프로젝트"
+      ],
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/apps/doc_compress.webp",
+      "external_url": "https://nanalab.kr/doc_compress/"
+    },
+    {
+      "id": "urn:nanalab:projects:source-c9817fa5d67f588e8f99",
+      "url": "https://nanalab.kr/projects/#record-projects-source-c9817fa5d67f588e8f99",
+      "title": "[개발 프로젝트] Count Words",
+      "content_text": "A robust and precise character counting tool designed for writers, editors, and students. Beyond simple word counts, it provides detailed statistics including character counts with and without spaces, paragraph counts, and reading time estimates. It supports various languages and is optimized for checking limits on social media posts, essays, and reports.…\n\n출처: https://bhban.kr/",
+      "tags": [
+        "개발 프로젝트"
+      ],
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/apps/count_words.webp",
+      "external_url": "https://nanalab.kr/count_words"
+    },
+    {
+      "id": "urn:nanalab:projects:source-af6b913e1901a4a87b8f",
+      "url": "https://nanalab.kr/projects/#record-projects-source-af6b913e1901a4a87b8f",
+      "title": "[개발 프로젝트] Document Analyzer",
+      "content_text": "Gain deep insights into your documents with this powerful analysis tool. It supports both PDF and DOCX formats, extracting key metrics such as word count, page count, and keyword frequency. Perfect for reviewing legal contracts, academic papers, or business reports, it helps you understand the structure and content of your files at a glance. Like our othe…\n\n출처: https://bhban.kr/",
+      "tags": [
+        "개발 프로젝트"
+      ],
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/apps/doc_stat.webp",
+      "external_url": "https://nanalab.kr/doc_stat"
+    },
+    {
+      "id": "urn:nanalab:projects:source-7e0b7e5ff797ef8b55c9",
+      "url": "https://nanalab.kr/projects/#record-projects-source-7e0b7e5ff797ef8b55c9",
+      "title": "[개발 프로젝트] PDF Merger",
+      "content_text": "Efficiently combine multiple PDF documents into a single, organized file. Whether you're merging scattered reports, receipts, or study materials, this tool handles it all locally in your browser. Since no files are uploaded to external servers, you can process sensitive content with complete peace of mind, ensuring your data remains private and secure.\n\n출처: https://bhban.kr/",
+      "tags": [
+        "개발 프로젝트"
+      ],
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/apps/merge_pdf.webp",
+      "external_url": "https://nanalab.kr/merge_pdf"
+    },
+    {
+      "id": "urn:nanalab:projects:source-486297a2f3b1c0cd4a5d",
+      "url": "https://nanalab.kr/projects/#record-projects-source-486297a2f3b1c0cd4a5d",
+      "title": "[개발 프로젝트] Chatbot V5",
+      "content_text": "An advanced multi-modal chatbot prototype designed to support professional workflows. It features speech recognition for voice-based interaction and allows users to upload PDF files to generate conversations grounded in the document content, such as discussing legal topics using uploaded law texts. Conversation results can be summarized into one or two A4…\n\n출처: https://bhban.kr/",
+      "tags": [
+        "개발 프로젝트"
+      ],
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/apps/chatbot_v5.webp",
+      "external_url": "https://nanalab.kr/chatbot_v5"
+    },
+    {
+      "id": "urn:nanalab:projects:source-5f335f02fd93d35e110a",
+      "url": "https://nanalab.kr/projects/#record-projects-source-5f335f02fd93d35e110a",
+      "title": "[개발 프로젝트] Solo Chat Template",
+      "content_text": "A sleek and modern AI chat interface template designed for seamless user interactions. It serves as a responsive front-end foundation for building custom AI chatbot applications. Features include theme toggling, model selection placeholders, and a clean messaging UI.\n\n출처: https://bhban.kr/",
+      "tags": [
+        "개발 프로젝트"
+      ],
+      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/apps/solo_chat.webp",
+      "external_url": "https://nanalab.kr/chatTemplate"
+    }
+  ]
+}

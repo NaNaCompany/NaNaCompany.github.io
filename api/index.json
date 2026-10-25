@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "title": "NaNa Lab 공개 데이터",
+  "home_page_url": "https://nanalab.kr",
+  "documentation_url": "https://nanalab.kr/feeds/",
+  "total_count": 409,
+  "catalogs": {
+    "apps": {
+      "url": "https://nanalab.kr/api/apps.json",
+      "count": 82
+    },
+    "lectures": {
+      "url": "https://nanalab.kr/api/lectures.json",
+      "count": 231
+    },
+    "papers": {
+      "url": "https://nanalab.kr/api/papers.json",
+      "count": 28
+    },
+    "patents": {
+      "url": "https://nanalab.kr/api/patents.json",
+      "count": 34
+    },
+    "projects": {
+      "url": "https://nanalab.kr/api/projects.json",
+      "count": 34
+    },
+    "research": {
+      "url": "https://nanalab.kr/api/research.json",
+      "count": 96
+    }
+  },
+  "feeds": {
+    "all": {
+      "rss": "https://nanalab.kr/feed.xml",
+      "json_feed": "https://nanalab.kr/feed.json"
+    },
+    "apps": {
+      "rss": "https://nanalab.kr/feeds/apps.xml",
+      "json_feed": "https://nanalab.kr/feeds/apps.json"
+    },
+    "lectures": {
+      "rss": "https://nanalab.kr/feeds/lectures.xml",
+      "json_feed": "https://nanalab.kr/feeds/lectures.json"
+    },
+    "research": {
+      "rss": "https://nanalab.kr/feeds/research.xml",
+      "json_feed": "https://nanalab.kr/feeds/research.json"
+    }
+  }
+}
