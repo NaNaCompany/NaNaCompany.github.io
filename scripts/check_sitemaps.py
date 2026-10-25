@@ -1,4 +1,4 @@
-"""Validate direct root page URLs and robots-advertised app sitemaps."""
+"""Validate the root sitemap index, every leaf map, and robots discovery."""
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 from urllib.parse import urlsplit
@@ -37,23 +37,36 @@ def fetch(location):
 def check(live=False):
     outputs, _ = build()
     manifest = json.loads((ROOT / 'content/sitemap-sources.json').read_text(encoding='utf-8'))
-    expected = {SITE + 'sitemap.xml'} | {row['url'] for row in manifest['sources']}
+    index_url, main_url = SITE + 'sitemap.xml', SITE + 'sitemap-main.xml'
+    source_urls = [row['url'] for row in manifest['sources']]
+    assert len(source_urls) == len(set(source_urls)), 'Duplicate sitemap source'
+    assert not set(source_urls) & {index_url, main_url, SITE + 'sitemap-details.xml'}, 'App source uses a reserved sitemap URL'
+    expected = {main_url} | set(source_urls)
     extras = {url for row in manifest.get('supplemental', []) for url in row['urls']}
     if extras:
         expected.add(SITE + 'sitemap-details.xml')
-    raw = fetch(SITE + 'sitemap.xml') if live else outputs['sitemap.xml'].encode()
+    raw = fetch(index_url) if live else (ROOT / 'sitemap.xml').read_bytes()
     assert raw.decode() == outputs['sitemap.xml'], 'Published root sitemap is stale'
-    leaf(raw, SITE + 'sitemap.xml')
-    robots = fetch(SITE + 'robots.txt').decode() if live else outputs['robots.txt']
+    assert len(raw) <= 50 * 1024 * 1024, 'Sitemap index exceeds 50 MiB'
+    index = ET.fromstring(raw)
+    assert index.tag == NS + 'sitemapindex', 'Expected sitemap index at root'
+    assert all(node.tag == NS + 'sitemap' for node in index), 'Page entries in sitemap index'
+    locations = [node.findtext(NS + 'loc') for node in index]
+    assert locations and len(locations) == len(set(locations)) <= 50000, 'Invalid index locations'
+    assert index_url not in locations, 'Sitemap index references itself'
+    assert set(locations) == expected, 'Sitemap index differs from registered leaf maps'
+    robots = fetch(SITE + 'robots.txt').decode() if live else (ROOT / 'robots.txt').read_text(encoding='utf-8')
     assert robots == outputs['robots.txt'], 'Published robots.txt is stale'
     assert 'User-agent: *' in robots and 'Allow: /' in robots
-    locations = [line.split(':', 1)[1].strip() for line in robots.splitlines() if line.startswith('Sitemap:')]
-    assert len(locations) == len(set(locations)) and set(locations) == expected
+    advertised = [line.split(':', 1)[1].strip() for line in robots.splitlines() if line.startswith('Sitemap:')]
+    assert len(advertised) == len(set(advertised)), 'Duplicate robots sitemap directive'
+    assert set(advertised) == expected | {index_url}, 'Robots must advertise index and every leaf map'
     apps = json.loads((ROOT / 'content/apps.json').read_text(encoding='utf-8'))
     app_ids = {row['id'] for row in apps}
     assert {row['app_id'] for row in manifest['sources']} <= app_ids
     # A newly added app must not silently lose discovery of its detailed map.
     registered = {row['app_id'] for row in manifest['sources']}
+    assert len(registered) == len(manifest['sources']), 'Duplicate app sitemap registration'
     for app in apps:
         if app.get('external') or app.get('kind') == 'template':
             continue
@@ -68,12 +81,14 @@ def check(live=False):
         if live:
             body = fetch(location)
         elif name in outputs:
-            body = outputs[name].encode()
+            body = (ROOT / name).read_bytes()
         else:
             source = ROOT.parent / source_by_url[location]['app_id']
             path = next((p for p in [source / 'docs/sitemap.xml', source / 'sitemap.xml'] if p.is_file()), None)
             assert path, 'Source checkout unavailable: ' + location
             body = path.read_bytes()
+        if name in outputs:
+            assert body.decode() == outputs[name], 'Generated sitemap is stale: ' + location
         return location, leaf(body, location)
 
     if live:
@@ -81,12 +96,12 @@ def check(live=False):
             maps = dict(pool.map(read, locations))
     else:
         maps = dict(map(read, locations))
-    assert maps[SITE + 'sitemap.xml'] == leaf(outputs['sitemap.xml'].encode(), 'generated main')
+    assert maps[main_url] == leaf(outputs['sitemap-main.xml'].encode(), 'generated main')
     if extras:
         assert maps[SITE + 'sitemap-details.xml'] == extras
     # Preserve every existing page URL and its metadata.
     baseline = ET.parse(ROOT / 'content/sitemap-base.xml').getroot()
-    current = ET.fromstring(outputs['sitemap.xml'])
+    current = ET.fromstring(outputs['sitemap-main.xml'])
     def metadata(node):
         # Ignore indentation after </url>, which changes when another URL is appended.
         return ET.tostring(ET.fromstring(ET.tostring(node)))
@@ -95,9 +110,9 @@ def check(live=False):
         assert metadata(node) == entries[node.findtext(NS + 'loc')], 'Original metadata changed'
     all_urls = set().union(*maps.values())
     result = {'status': 'passed', 'mode': 'live' if live else 'local', 'sitemaps': len(maps),
-              'app_sitemaps': len(manifest['sources']), 'main_urls': len(maps[SITE + 'sitemap.xml']),
+              'index_entries': len(locations), 'app_sitemaps': len(manifest['sources']), 'main_urls': len(maps[main_url]),
               'supplemental_urls': len(extras), 'unique_page_urls': len(all_urls),
-              'additional_detail_urls': len(all_urls - maps[SITE + 'sitemap.xml'])}
+              'additional_detail_urls': len(all_urls - maps[main_url])}
     print(json.dumps(result))
     return result
 

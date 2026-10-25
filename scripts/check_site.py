@@ -97,12 +97,26 @@ def check():
             assert set(page.app_ids) == app_ids and len(page.app_ids) == len(apps), name
             expected_order = [app['id'] for app in sorted(apps, key=lambda app: datetime.fromisoformat(app['published_at'].replace('Z', '+00:00')), reverse=True)]
             assert page.app_ids == expected_order, f'Apps not newest first: {name}'
-    sitemap = ET.fromstring(outputs['sitemap.xml'])
-    assert sitemap.tag == '{http://www.sitemaps.org/schemas/sitemap/0.9}urlset', 'Expected direct page URLs at root'
-    sitemap_urls = [entry.text for entry in sitemap.iter('{http://www.sitemaps.org/schemas/sitemap/0.9}loc')]
+    namespace = '{http://www.sitemaps.org/schemas/sitemap/0.9}'
+    index = ET.fromstring(outputs['sitemap.xml'])
+    assert index.tag == namespace + 'sitemapindex', 'Expected sitemap index at root'
+    assert all(entry.tag == namespace + 'sitemap' for entry in index), 'Page entries in sitemap index'
+    index_urls = [entry.findtext(namespace + 'loc') for entry in index]
+    assert len(index_urls) == len(set(index_urls)), 'Duplicate sitemap references'
+    assert 'https://nanalab.kr/sitemap.xml' not in index_urls, 'Self-referencing sitemap index'
+    manifest = json.loads((ROOT / 'content/sitemap-sources.json').read_text(encoding='utf-8'))
+    expected_maps = {'https://nanalab.kr/sitemap-main.xml'} | {row['url'] for row in manifest['sources']}
+    if any(row['urls'] for row in manifest.get('supplemental', [])):
+        expected_maps.add('https://nanalab.kr/sitemap-details.xml')
+    assert set(index_urls) == expected_maps, 'Sitemap index missing or adding unregistered maps'
+    sitemap = ET.fromstring(outputs['sitemap-main.xml'])
+    assert sitemap.tag == namespace + 'urlset', 'Expected page URLs in sitemap-main.xml'
+    sitemap_urls = [entry.text for entry in sitemap.iter(namespace + 'loc')]
     assert len(sitemap_urls) == len(set(sitemap_urls)), 'Duplicate sitemap URLs'
     assert builder['homepage_sitemap_urls'](home) <= set(sitemap_urls), 'Homepage links missing from main sitemap'
     for app in apps:
+        launch_url = app.get('url') or f'https://nanalab.kr/{app["id"]}/'
+        assert builder['homepage_sitemap_urls'](f'<a href="{launch_url}"></a>') <= set(sitemap_urls), 'App landing URL missing from main sitemap'
         for language in app.get('languages', []):
             language_path = app.get('language_paths', {}).get(language, language + '/')
             assert f'https://nanalab.kr/{app["id"]}/{language_path}' in sitemap_urls, 'Missing language URL'

@@ -18,8 +18,14 @@ def discover():
     previous = json.loads(MANIFEST.read_text(encoding='utf-8')) if MANIFEST.exists() else {}
     sources = {row['app_id']: row for row in previous.get('sources', [])}
     supplemental = {row['app_id']: row for row in previous.get('supplemental', [])}
-    primary_path = ROOT / 'sitemap.xml'
-    primary = {node.text for node in ET.parse(primary_path).iter(NS + 'loc')} if primary_path.exists() else set()
+    # Prefer the page list; accept the former direct root sitemap during migration.
+    primary_path = next((path for path in [ROOT / 'sitemap-main.xml', ROOT / 'sitemap.xml']
+                         if path.is_file()), None)
+    primary = set()
+    if primary_path:
+        primary_tree = ET.parse(primary_path).getroot()
+        assert primary_tree.tag == NS + 'urlset', 'Build sitemap-main.xml before syncing a sitemap index'
+        primary = {node.text for node in primary_tree.findall(NS + 'url/' + NS + 'loc')}
     apps = json.loads((ROOT / 'content/apps.json').read_text(encoding='utf-8'))
     scanned = 0
     for app in apps:
