@@ -184,7 +184,7 @@ def build():
     assert all(sections.values())
     shell = shell.replace('</head>', '<link rel="stylesheet" href="/additions.css">\n</head>')
     shell = shell.replace('src="script.js"', 'src="/script.js?v=languages-20261025c"')
-    shell = shell.replace('href="/additions.css"', 'href="/additions.css?v=languages-20261025"')
+    shell = shell.replace('href="/additions.css"', 'href="/additions.css?v=languages-20261025b"')
     shell = shell.replace('<a href="#apps">Recent</a>', '<a href="#apps">Apps</a>')
     shell = shell.replace('<a href="https://nanalab.kr/apps">APPs</a>', '<a href="#lectures">Lectures</a><a href="#research">Research</a>')
     app_section = directory(apps).replace('class="directory-section container"', 'class="app-section catalog-addition container"')
