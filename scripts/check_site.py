@@ -16,6 +16,7 @@ class Page(HTMLParser):
     def __init__(self, text):
         super().__init__()
         self.ids, self.links, self.images, self.app_ids, self.headings = [], [], [], [], 0
+        self.canonicals = []
         self.feed(text)
 
     def handle_starttag(self, tag, attrs):
@@ -26,6 +27,8 @@ class Page(HTMLParser):
             self.links.append(attrs.get('href', ''))
         if tag == 'img':
             self.images.append(attrs.get('src', ''))
+        if tag == 'link' and 'canonical' in attrs.get('rel', '').split():
+            self.canonicals.append(attrs.get('href'))
         if attrs.get('data-app-id'):
             self.app_ids.append(attrs['data-app-id'])
         if tag == 'h1':
@@ -41,12 +44,13 @@ def check():
     home = outputs['index.html']
     for section in ['services', 'partners', 'process', 'contact']:
         pattern = rf'<section id="{section}".*?</section>'
-        assert re.search(pattern, original, re.S)[0] == re.search(pattern, home, re.S)[0], f'Original section changed: {section}'
+        assert builder['canonical_links'](re.search(pattern, original, re.S)[0]) == re.search(pattern, home, re.S)[0], f'Original section changed: {section}'
     hero = r'<section class="hero">.*?</section>'
-    assert re.search(hero, original, re.S)[0] == re.search(hero, home, re.S)[0], 'Original hero changed'
+    assert builder['canonical_links'](re.search(hero, original, re.S)[0]) == re.search(hero, home, re.S)[0], 'Original hero changed'
     for key, route in [('lectures','lectures'),('papers','papers'),('patents','patents'),('websites','projects')]:
         imported_cards = builder['imported'](key)
         for card in imported_cards:
+            card = builder['canonical_links'](card)
             assert card in home, f'Missing {key} card on home'
             assert card in outputs[f'{route}/index.html'], f'Missing {key} card on {route}'
             if key != 'lectures':
@@ -79,12 +83,16 @@ def check():
         if not name.endswith('.html'):
             continue
         page = Page(text)
+        route = name.removesuffix('index.html')
+        assert page.canonicals == ['https://nanalab.kr/' + route], f'Invalid canonical in {name}'
         duplicates = [key for key, n in Counter(page.ids).items() if n > 1]
         assert not duplicates, f'Duplicate IDs in {name}: {duplicates}'
         assert page.headings == 1, f'Expected one h1 in {name}'
         assert 'api.nanalab.kr/rss' not in text and 'blog-list' not in text, name
         for link in page.links + page.images:
             parts = urlsplit(link)
+            if link in page.links:
+                assert link == builder['canonical_url'](link), f'Noncanonical local link {name}: {link}'
             if parts.scheme or parts.netloc:
                 assert parts.scheme in {'https','http','mailto','tel'}, link
                 continue
@@ -113,6 +121,7 @@ def check():
     assert sitemap.tag == namespace + 'urlset', 'Expected page URLs in sitemap-main.xml'
     sitemap_urls = [entry.text for entry in sitemap.iter(namespace + 'loc')]
     assert len(sitemap_urls) == len(set(sitemap_urls)), 'Duplicate sitemap URLs'
+    assert all(url == builder['canonical_url'](url) for url in sitemap_urls), 'Noncanonical sitemap URL'
     assert builder['homepage_sitemap_urls'](home) <= set(sitemap_urls), 'Homepage links missing from main sitemap'
     for app in apps:
         launch_url = app.get('url') or f'https://nanalab.kr/{app["id"]}/'

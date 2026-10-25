@@ -9,6 +9,7 @@ import time
 import xml.etree.ElementTree as ET
 
 from build_site import build
+from site_urls import canonical_url
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = 'https://nanalab.kr/'
@@ -24,6 +25,7 @@ def leaf(raw, location):
     for url in urls:
         parts = urlsplit(url)
         assert parts.scheme == 'https' and parts.netloc == 'nanalab.kr' and not parts.fragment, url
+        assert url == canonical_url(url), 'Noncanonical sitemap URL: ' + url
     return set(urls)
 
 

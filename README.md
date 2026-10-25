@@ -64,6 +64,7 @@
 - 강연·연구: `content/portfolio/` — bhban.kr의 원본 섹션 스냅샷과 출처 커밋을 저장합니다. `/lectures/`와 `/research/`에 전체 자료를 생성합니다.
 - 업데이트 큐: 사용자 요청이 있을 때 상위 작업 폴더의 `updateque.md`를 읽습니다. 자동 감시하지 않습니다. 실제 저장소와 실행 주소를 확인하고 중복 없이 추가합니다. 큐 원문은 보존합니다.
 - 사이트맵: 제출 주소 `/sitemap.xml`은 `/sitemap-main.xml`과 각 앱의 세부 사이트맵을 연결하는 `sitemapindex`입니다. `/sitemap-main.xml`에는 메인에서 클릭 가능한 같은 도메인의 URL과 모든 내부 앱 대표 URL을 담고, 기존 URL과 메타데이터를 보존합니다. 각 하위 파일은 페이지 목록인 `urlset`이며, 색인끼리 중첩하지 않습니다. 루트 `/robots.txt`의 `Sitemap:` 항목에도 색인과 모든 하위 사이트맵을 알립니다. `content/sitemap-base.xml`은 메인 URL 목록의 원본, `content/sitemap-sources.json`은 앱별 사이트맵 연결 원본입니다.
+- 대표 주소: 디렉터리 페이지는 `https://nanalab.kr/경로/`로 통일합니다. `scripts/site_urls.py`는 렌더링된 내부 링크와 공개 데이터의 링크에 같은 규칙을 적용하며, 기존 강의·연구 레코드 ID와 구독 피드 ID는 유지합니다. 사이트맵의 슬래시 중복은 최신 확인된 수정일과 메타데이터를 합쳐 한 건만 남깁니다. 2026-10-25 실응답 확인에서 404였던 루트 `/service`, `/privacy`는 제거했으며, 실제 페이지 `/invest/service/`, `/invest/privacy/`는 유지합니다.
 
 ```text
 python scripts/build_site.py

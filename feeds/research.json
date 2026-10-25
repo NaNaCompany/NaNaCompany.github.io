@@ -911,7 +911,7 @@
         "개발 프로젝트"
       ],
       "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/apps/invest.webp",
-      "external_url": "https://nanalab.kr/invest"
+      "external_url": "https://nanalab.kr/invest/"
     },
     {
       "id": "urn:nanalab:projects:source-346aab89640f01cb0a79",
@@ -922,7 +922,7 @@
         "개발 프로젝트"
       ],
       "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/apps/qr.webp",
-      "external_url": "https://nanalab.kr/qr"
+      "external_url": "https://nanalab.kr/qr/"
     },
     {
       "id": "urn:nanalab:projects:source-953f32f2062ba6547d2b",
@@ -933,7 +933,7 @@
         "개발 프로젝트"
       ],
       "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/apps/smart_calculator.webp",
-      "external_url": "https://nanalab.kr/smart_calculator"
+      "external_url": "https://nanalab.kr/smart_calculator/"
     },
     {
       "id": "urn:nanalab:projects:source-9375ae8018267adee71b",
@@ -944,7 +944,7 @@
         "개발 프로젝트"
       ],
       "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/apps/fortune.webp",
-      "external_url": "https://nanalab.kr/fortune"
+      "external_url": "https://nanalab.kr/fortune/"
     },
     {
       "id": "urn:nanalab:projects:source-15aedfcd0dba76bf700c",
@@ -955,7 +955,7 @@
         "개발 프로젝트"
       ],
       "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/apps/afd.webp",
-      "external_url": "https://nanalab.kr/afd"
+      "external_url": "https://nanalab.kr/afd/"
     },
     {
       "id": "urn:nanalab:projects:source-093ae253a5db358d9b79",
@@ -966,7 +966,7 @@
         "개발 프로젝트"
       ],
       "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/apps/bmi.webp",
-      "external_url": "https://nanalab.kr/bmi"
+      "external_url": "https://nanalab.kr/bmi/"
     },
     {
       "id": "urn:nanalab:projects:source-d91298d32abc04d49519",
@@ -977,7 +977,7 @@
         "개발 프로젝트"
       ],
       "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/apps/lucky_cannon.webp",
-      "external_url": "https://nanalab.kr/luck"
+      "external_url": "https://nanalab.kr/luck/"
     },
     {
       "id": "urn:nanalab:projects:source-65e4cc2debf38ec4447d",
@@ -999,7 +999,7 @@
         "개발 프로젝트"
       ],
       "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/apps/gif_studio.webp",
-      "external_url": "https://nanalab.kr/gif_studio"
+      "external_url": "https://nanalab.kr/gif_studio/"
     },
     {
       "id": "urn:nanalab:projects:source-4abd5ab74c35be5db6e8",
@@ -1043,7 +1043,7 @@
         "개발 프로젝트"
       ],
       "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/apps/count_words.webp",
-      "external_url": "https://nanalab.kr/count_words"
+      "external_url": "https://nanalab.kr/count_words/"
     },
     {
       "id": "urn:nanalab:projects:source-af6b913e1901a4a87b8f",
@@ -1054,7 +1054,7 @@
         "개발 프로젝트"
       ],
       "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/apps/doc_stat.webp",
-      "external_url": "https://nanalab.kr/doc_stat"
+      "external_url": "https://nanalab.kr/doc_stat/"
     },
     {
       "id": "urn:nanalab:projects:source-7e0b7e5ff797ef8b55c9",
@@ -1065,7 +1065,7 @@
         "개발 프로젝트"
       ],
       "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/apps/merge_pdf.webp",
-      "external_url": "https://nanalab.kr/merge_pdf"
+      "external_url": "https://nanalab.kr/merge_pdf/"
     },
     {
       "id": "urn:nanalab:projects:source-486297a2f3b1c0cd4a5d",
@@ -1076,7 +1076,7 @@
         "개발 프로젝트"
       ],
       "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/apps/chatbot_v5.webp",
-      "external_url": "https://nanalab.kr/chatbot_v5"
+      "external_url": "https://nanalab.kr/chatbot_v5/"
     },
     {
       "id": "urn:nanalab:projects:source-5f335f02fd93d35e110a",
@@ -1087,7 +1087,7 @@
         "개발 프로젝트"
       ],
       "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/apps/solo_chat.webp",
-      "external_url": "https://nanalab.kr/chatTemplate"
+      "external_url": "https://nanalab.kr/chatTemplate/"
     }
   ]
 }

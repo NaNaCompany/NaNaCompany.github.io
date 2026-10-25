@@ -3,7 +3,7 @@
 
   <url>
     <loc>https://nanalab.kr/</loc>
-    <lastmod>2026-01-08</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -23,120 +23,106 @@
   </url>
 
   <url>
-    <loc>https://nanalab.kr/service</loc>
-    <lastmod>2026-01-08</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://nanalab.kr/privacy</loc>
-    <lastmod>2026-01-08</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://nanalab.kr/copy_website</loc>
+    <loc>https://nanalab.kr/copy_website/</loc>
     <lastmod>2026-01-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://nanalab.kr/edit_web</loc>
+    <loc>https://nanalab.kr/edit_web/</loc>
     <lastmod>2026-01-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://nanalab.kr/smart_calculator</loc>
-    <lastmod>2026-01-08</lastmod>
+    <loc>https://nanalab.kr/smart_calculator/</loc>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://nanalab.kr/invest</loc>
+    <loc>https://nanalab.kr/invest/</loc>
     <lastmod>2026-01-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://nanalab.kr/invest/service</loc>
+    <loc>https://nanalab.kr/invest/service/</loc>
     <lastmod>2026-01-08</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://nanalab.kr/invest/privacy</loc>
+    <loc>https://nanalab.kr/invest/privacy/</loc>
     <lastmod>2026-01-08</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://nanalab.kr/qr</loc>
-    <lastmod>2026-01-08</lastmod>
+    <loc>https://nanalab.kr/qr/</loc>
+    <lastmod>2026-10-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://nanalab.kr/doc_compress</loc>
-    <lastmod>2026-01-08</lastmod>
+    <loc>https://nanalab.kr/doc_compress/</loc>
+    <lastmod>2026-10-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://nanalab.kr/image_resize</loc>
-    <lastmod>2026-01-08</lastmod>
+    <loc>https://nanalab.kr/image_resize/</loc>
+    <lastmod>2026-10-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://nanalab.kr/video_2_gif</loc>
-    <lastmod>2026-01-08</lastmod>
+    <loc>https://nanalab.kr/video_2_gif/</loc>
+    <lastmod>2026-10-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://nanalab.kr/gif_studio</loc>
-    <lastmod>2026-01-08</lastmod>
+    <loc>https://nanalab.kr/gif_studio/</loc>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://nanalab.kr/count_words</loc>
-    <lastmod>2026-01-08</lastmod>
+    <loc>https://nanalab.kr/count_words/</loc>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://nanalab.kr/fortune</loc>
-    <lastmod>2026-01-08</lastmod>
+    <loc>https://nanalab.kr/fortune/</loc>
+    <lastmod>2026-10-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://nanalab.kr/doc_stat</loc>
-    <lastmod>2026-01-08</lastmod>
+    <loc>https://nanalab.kr/doc_stat/</loc>
+    <lastmod>2026-10-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://nanalab.kr/lipsum</loc>
-    <lastmod>2026-01-08</lastmod>
+    <loc>https://nanalab.kr/lipsum/</loc>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -146,22 +132,12 @@
   <url><loc>https://nanalab.kr/papers/</loc><lastmod>2026-10-24</lastmod></url>
   <url><loc>https://nanalab.kr/patents/</loc><lastmod>2026-10-24</lastmod></url>
   <url><loc>https://nanalab.kr/projects/</loc><lastmod>2026-10-24</lastmod></url>
-  <url><loc>https://nanalab.kr/smart_calculator/</loc><lastmod>2026-10-24</lastmod></url>
-  <url><loc>https://nanalab.kr/qr/</loc><lastmod>2026-10-24</lastmod></url>
-  <url><loc>https://nanalab.kr/count_words/</loc><lastmod>2026-10-24</lastmod></url>
-  <url><loc>https://nanalab.kr/image_resize/</loc><lastmod>2026-10-24</lastmod></url>
   <url><loc>https://nanalab.kr/merge_pdf/</loc><lastmod>2026-10-24</lastmod></url>
-  <url><loc>https://nanalab.kr/doc_compress/</loc><lastmod>2026-10-24</lastmod></url>
-  <url><loc>https://nanalab.kr/doc_stat/</loc><lastmod>2026-10-24</lastmod></url>
   <url><loc>https://nanalab.kr/doc_summarizer/</loc><lastmod>2026-10-24</lastmod></url>
-  <url><loc>https://nanalab.kr/lipsum/</loc><lastmod>2026-10-24</lastmod></url>
-  <url><loc>https://nanalab.kr/gif_studio/</loc><lastmod>2026-10-24</lastmod></url>
-  <url><loc>https://nanalab.kr/video_2_gif/</loc><lastmod>2026-10-24</lastmod></url>
   <url><loc>https://nanalab.kr/audio_edit/</loc><lastmod>2026-10-24</lastmod></url>
-  <url><loc>https://nanalab.kr/afd/</loc><lastmod>2026-10-24</lastmod></url>
-  <url><loc>https://nanalab.kr/bmi/</loc><lastmod>2026-10-24</lastmod></url>
-  <url><loc>https://nanalab.kr/fortune/</loc><lastmod>2026-10-24</lastmod></url>
-  <url><loc>https://nanalab.kr/luck/</loc><lastmod>2026-10-24</lastmod></url>
+  <url><loc>https://nanalab.kr/afd/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://nanalab.kr/bmi/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://nanalab.kr/luck/</loc><lastmod>2026-10-25</lastmod></url>
   <url><loc>https://nanalab.kr/chatTemplate/</loc><lastmod>2026-10-24</lastmod></url>
   <url><loc>https://nanalab.kr/astra/</loc><lastmod>2026-10-24</lastmod></url>
   <url><loc>https://nanalab.kr/rebirth_country/</loc><lastmod>2026-10-24</lastmod></url>

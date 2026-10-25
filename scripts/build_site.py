@@ -14,6 +14,7 @@ import json
 import re
 import xml.etree.ElementTree as ET
 from syndication import anchor_cards, build_syndication, documentation
+from site_urls import canonical_url, canonical_links
 
 ROOT = Path(__file__).resolve().parents[1]
 VOID = set('area base br col embed hr img input link meta param source track wbr'.split())
@@ -30,7 +31,7 @@ def homepage_sitemap_urls(source):
             href = dict(attrs).get('href') if tag == 'a' else None
             if not href:
                 return
-            parts = urlsplit(urljoin('https://nanalab.kr/', href))
+            parts = urlsplit(canonical_url(urljoin('https://nanalab.kr/', href)))
             if parts.scheme != 'https' or parts.netloc != 'nanalab.kr':
                 return
             path = parts.path or '/'
@@ -208,7 +209,7 @@ def build():
         return f'<section class="page-hero"><div class="container"><h1 class="page-title">{title}</h1><p class="page-subtitle">{text}</p></div></section>'
     source_note = '<p class="container source-note">출처: <a href="https://bhban.kr" target="_blank" rel="noopener noreferrer">반병현 공식 홈페이지 bhban.kr</a> · 원본 섹션의 정적 스냅샷이며, 원문 자료는 출처 사이트로 연결됩니다.</p>'
     controls = '<div class="container archive-controls"><label for="archive-search">강연 제목·기관·연도 검색</label><input type="search" id="archive-search" placeholder="기관명 또는 주제 검색"><p id="archive-count" role="status" aria-live="polite"></p></div>'
-    outputs = {'index.html':shell}
+    outputs = {'index.html':shell.replace('</head>', '<link rel="canonical" href="https://nanalab.kr/">\n</head>', 1)}
     outputs['apps/index.html'] = subpage(intro('NaNa Apps','필요한 웹앱과 도구를 한곳에서 만나보세요.') + app_section,'Apps','apps')
     outputs['lectures/index.html'] = subpage(intro('Lectures','강의·출강 이력') + lecture_archive(sections['lectures']) + source_note,'Lectures','lectures')
     outputs['research/index.html'] = subpage(intro('R&D','논문·특허·개발 프로젝트') + research_archive(sections) + source_note,'Research','research')
@@ -216,7 +217,7 @@ def build():
         outputs[f'{route}/index.html'] = subpage(intro(label, 'R&D') + '<nav class="research-category-nav container"><a href="/papers/">논문·연구</a><a href="/patents/">특허·실용신안</a><a href="/projects/">개발 프로젝트</a></nav>' + portfolio_section(key,label,sections[key]) + source_note,label,route)
     outputs['feeds/index.html'] = subpage(intro('구독·데이터', 'RSS · JSON Feed · 공개 JSON') + documentation(), '구독·데이터', 'feeds')
     outputs.update(build_syndication(apps, sections, json.loads(read('content/portfolio/provenance.json'))))
-    # Preserve every original sitemap URL and its existing metadata.
+    # The base retains one canonical URL per page and its verified metadata.
     sitemap = read('content/sitemap-base.xml')
     additions = [(route, '2026-10-25') for route in ['/lectures/','/research/','/papers/','/patents/','/projects/','/feeds/']]
     for app in json.loads(read('content/apps.json')):
@@ -274,6 +275,10 @@ def build():
         if directive not in robots.splitlines():
             robots += directive + '\n'
     outputs['robots.txt'] = robots
+    # Normalize rendered links after assigning stable archive/feed identities.
+    for name in outputs:
+        if name.endswith('.html'):
+            outputs[name] = canonical_links(outputs[name])
     return outputs, {'apps':len(apps), **{k:len(v) for k,v in sections.items()}}
 
 

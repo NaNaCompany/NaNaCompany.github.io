@@ -7,6 +7,7 @@ from urllib.parse import urlsplit
 import json
 import re
 import xml.etree.ElementTree as ET
+from site_urls import canonical_url
 
 SITE = 'https://nanalab.kr'
 SOURCE = 'https://bhban.kr/'
@@ -131,7 +132,7 @@ def archive_record(key, card):
     if parsed.images:
         row['image'] = parsed.images[0]
     if parsed.links:
-        row['links'] = list(dict.fromkeys(parsed.links))
+        row['links'] = list(dict.fromkeys(canonical_url(url) for url in parsed.links))
         row['external_url'] = next((u for u in row['links'] if not urlsplit(u).path.lower().endswith('.pdf')), row['links'][0])
     date_text = parsed.fields.get('firstCommitDate', '')
     if key == 'patents':
@@ -149,7 +150,7 @@ def archive_record(key, card):
 
 def app_record(app):
     row = {'id': app['id'], 'section': 'apps', 'title': app['name'],
-           'url': app.get('url', SITE + '/' + app['id'] + '/'), 'summary': app['description'],
+           'url': canonical_url(app.get('url', SITE + '/' + app['id'] + '/')), 'summary': app['description'],
            'category': app['category'], 'date_published': app['published_at'],
            'date_precision': 'second', 'date_kind': app['date_source'], 'source_url': SITE + '/apps/'}
     image = app.get('image_url') or (SITE + '/apps/img/' + app['image'] if app.get('image') else None)
