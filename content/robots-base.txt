@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nanalab.kr/sitemap.xml
+Sitemap: https://nanalab.kr/ppp/sitemap.xml
+#DaumWebMasterTool:1d158842cf25c8c4204af2c253c4ad5d1943724acb030c089aae0c8d467cf70c:V42Og7k65OZ1q2Z0H3DLqg==

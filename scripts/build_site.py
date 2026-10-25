@@ -231,6 +231,13 @@ def build():
         ET.SubElement(ET.SubElement(index, 'sitemap'), 'loc').text = location
     ET.indent(index, space='  ')
     outputs['sitemap.xml'] = '<?xml version="1.0" encoding="UTF-8"?>\n' + ET.tostring(index, encoding='unicode') + '\n'
+    # The host-root policy governs every app path. Advertise all leaf maps too.
+    robots = read('content/robots-base.txt').rstrip() + '\n'
+    for location in ['https://nanalab.kr/sitemap.xml', *locations]:
+        directive = 'Sitemap: ' + location
+        if directive not in robots.splitlines():
+            robots += directive + '\n'
+    outputs['robots.txt'] = robots
     return outputs, {'apps':len(apps), **{k:len(v) for k,v in sections.items()}}
 
 
