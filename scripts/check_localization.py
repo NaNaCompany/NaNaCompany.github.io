@@ -18,10 +18,21 @@ class Page(HTMLParser):
         self.links, self.assets, self.apps, self.record_ids = [], [], [], []
         self.language_links, self.filters, self.lecture_filters = [], {}, {}
         self.in_language_nav = False
+        self.in_footer = False
+        self.footer_menus = 0
+        self.preference_scripts = []
         self.feed(source)
 
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
+        if tag == 'footer':
+            self.in_footer = True
+        if tag == 'details' and 'language-menu' in a.get('class', '').split():
+            assert self.in_footer, 'Language menu must be in the footer'
+            self.footer_menus += 1
+        if tag == 'script' and urlsplit(a.get('src', '')).path == '/language-preference.js':
+            assert 'defer' in a, 'Language detection must not block HTML parsing'
+            self.preference_scripts.append(a['src'])
         if tag == 'html':
             self.lang = a.get('lang')
         if tag == 'link' and a.get('rel') == 'canonical':
@@ -49,6 +60,8 @@ class Page(HTMLParser):
             self.lecture_filters[a['data-lecture-category']] = a.get('data-label')
 
     def handle_endtag(self, tag):
+        if tag == 'footer':
+            self.in_footer = False
         if tag == 'nav':
             self.in_language_nav = False
 
@@ -71,6 +84,8 @@ def check():
             source = (ROOT / path.strip('/') / 'index.html').read_text(encoding='utf8')
             page = Page(source)
             assert page.lang == language, path
+            assert page.footer_menus == 1, f'Missing or repeated footer menu: {path}'
+            assert len(page.preference_scripts) == 1, f'Missing or repeated language detection: {path}'
             assert page.canonical == [SITE + path], path
             expected = {code: SITE + path_for(code, route) for code in LANGUAGES}
             expected['x-default'] = SITE + path_for('ko', route)
@@ -102,7 +117,7 @@ def check():
                     assert not (not parts.scheme and parts.path.strip('/') in ROUTES and parts.path.startswith('/')), f'Language navigation escaped to Korean: {path}: {href}'
     print(json.dumps({'status':'passed','languages':len(LANGUAGES),'localized_pages':len(ROUTES)*(len(LANGUAGES)-1),
                       'checks':['Korean default','translated app catalog','reciprocal hreflang','self canonicals',
-                                'equivalent-route switcher','archive identity','localized filters','assets','sitemap coverage']}))
+                                'equivalent-route footer switcher','language detection script','archive identity','localized filters','assets','sitemap coverage']}))
 
 
 if __name__ == '__main__':

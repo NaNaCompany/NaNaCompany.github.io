@@ -186,7 +186,8 @@ def build_localized_pages(outputs, apps, card_renderer):
             locales += '\n'.join(f'<meta property="og:locale:alternate" content="{value}">'
                                   for code, value in OG_LOCALES.items() if code != language)
             page = page.replace('</head>', alternates + '\n' + locales + '\n</head>', 1)
-            page = page.replace('<button class="menu-toggle"', language_navigation(language, route) + '\n<button class="menu-toggle"', 1)
+            assert page.count('<!-- directory-language-menu -->') == 1
+            page = page.replace('<!-- directory-language-menu -->', language_navigation(language, route), 1)
             target = (language + '/' if language != 'ko' else '') + name
             outputs[target] = page
     return [SITE + path_for(language, route) for language in LANGUAGES for route in ROUTES]

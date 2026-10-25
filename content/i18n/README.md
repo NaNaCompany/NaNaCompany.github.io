@@ -4,7 +4,9 @@ Korean remains the default at `/`. The eight additional languages are English
 (`/en/`), Japanese (`/ja/`), Simplified Chinese (`/zh/`), Spanish (`/es/`), German
 (`/de/`), French (`/fr/`), Portuguese (`/pt/`) and Russian (`/ru/`). Each language
 has a homepage and apps, lectures, research, papers, patents, projects and feeds
-pages. No visitor is automatically redirected away from Korean.
+pages. On a default Korean route, visitors are directed to the equivalent route
+using their saved manual choice, then IP country, browser language and finally
+English. Explicit secondary-language URLs are never automatically changed.
 
 Each language JSON contains translated interface text, page metadata, count
 formats and app names/descriptions keyed by the stable app ID. Add translated
@@ -12,7 +14,8 @@ app copy in all eight catalogs whenever `content/apps.json` changes. The build
 fails if an app translation is absent. Do not copy generated HTML into these
 sources. Builds do not require a network, a translation service or sibling apps.
 
-The language menu links to the same route in each language. JavaScript preserves
+The language menu sits at the bottom of the footer and opens upward. It links
+to the same route in each language. JavaScript preserves query parameters and
 the current section/record fragment when switching. Ordinary HTML links work
 without JavaScript. Every page has its own canonical and a reciprocal nine-language
 `hreflang` set; `x-default` points to the corresponding Korean page. All 72 page
@@ -23,6 +26,20 @@ language change with an interstitial, following [Google AdSense's official
 per-link guidance](https://support.google.com/adsense/answer/17016693?hl=en).
 This does not change the site's other advertising settings. Only fragments
 that match a real document ID are preserved; advertising fragments are not.
+
+`language-preference.js` reads the country code from the same-origin Cloudflare
+[`/cdn-cgi/trace` endpoint](https://developers.cloudflare.com/fundamentals/reference/cdn-cgi-endpoint/).
+It uses a 2.2-second timeout and a one-hour session cache of only country code and
+timestamp. IP addresses and trace bodies are not stored or sent to external
+geolocation services. Country mappings choose among the site's nine languages;
+multilingual countries use browser preferences among their supported languages.
+Unavailable or unsupported country information falls back to browser language,
+then English. VPN users may receive the VPN country's language.
+
+Manual menu choices persist in local/session storage and override IP detection
+on default routes. Korean links also carry `?lang=ko`, removed on arrival, so
+Korean stays accessible when storage is blocked or a link opens in a new tab.
+Without JavaScript, all static language links and Korean defaults remain usable.
 
 Business copy, directory copy, app names/descriptions, navigation, filters,
 search states, contact labels and feed documentation are translated. Original
@@ -69,6 +86,8 @@ SOFTWARE.
 ## Verification
 
 Run the existing site, sitemap, syndication and interaction checks, plus
-`python scripts/check_localization.py`. This verifies translated app coverage,
+`python scripts/check_localization.py` and `node scripts/check_language_preference.cjs`.
+These verify country selection, manual priority, timeouts, storage failures,
+route/query/anchor preservation, same-origin lookup, translated app coverage,
 language routes, reciprocal alternates, canonical URLs, matching archive identities,
 local assets, category controls, language navigation and sitemap coverage.
