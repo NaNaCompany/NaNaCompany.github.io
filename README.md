@@ -63,12 +63,14 @@
 - 메인 원본: `content/home-shell.html` — 원래 홈페이지를 보존한 템플릿입니다.
 - 강연·연구: `content/portfolio/` — bhban.kr의 원본 섹션 스냅샷과 출처 커밋을 저장합니다. `/lectures/`와 `/research/`에 전체 자료를 생성합니다.
 - 업데이트 큐: 사용자 요청이 있을 때 상위 작업 폴더의 `updateque.md`를 읽습니다. 자동 감시하지 않습니다. 실제 저장소와 실행 주소를 확인하고 중복 없이 추가합니다. 큐 원문은 보존합니다.
-- 사이트맵: `content/sitemap-base.xml`의 기존 URL과 메타데이터를 유지하고 추가 경로만 넣습니다.
+- 사이트맵: 제출 주소 `/sitemap.xml`은 전체 사이트맵 인덱스입니다. 기존 페이지 URL과 메타데이터는 `/sitemap-main.xml`에 유지하고, 각 앱의 세부 사이트맵은 인덱스에서 직접 연결합니다. `content/sitemap-base.xml`은 메인 URL 목록의 원본, `content/sitemap-sources.json`은 앱별 사이트맵 연결 원본입니다.
 
 ```text
 python scripts/build_site.py
 python scripts/build_site.py --check
 python scripts/check_site.py
+python scripts/check_sitemaps.py
+python scripts/check_syndication.py
 node --check script.js
 node scripts/check_interactions.cjs
 ```
@@ -76,6 +78,12 @@ node scripts/check_interactions.cjs
 `check_site.py`는 원본 히어로·서비스·고객사·협업 과정·문의 폼의 보존, 카드 목록과 작업 폴더의 일치, 내부 링크와 이미지, 생성 결과, RSS 제거, XML을 검사합니다. 목록 검사에는 상위 작업 폴더의 앱 저장소들이 필요합니다. 이벤트 검사는 DOM 모형을 사용하므로 실제 화면 확인과 구별합니다.
 
 원본 강연·연구 자료를 갱신하려면 `python scripts/sync_portfolio.py <원본-저장소-경로>` 후 다시 빌드합니다. 논문·프리프린트 표기와 원문 링크를 유지합니다.
+
+앱을 추가·갱신할 때 `python scripts/sync_sitemaps.py`로 각 저장소의 공개용 `sitemap.xml`을 찾아 연결 원본을 갱신한 뒤 빌드합니다. 외부 사이트와 개발 템플릿은 제외합니다. 이미 연결한 저장소가 로컬에 없더라도 연결은 보존합니다. 일반 빌드는 저장된 원본만 읽으므로 네트워크 없이 재현할 수 있습니다. 앱의 세부 페이지가 늘어나도 연결된 앱 자체 사이트맵이 갱신되면 루트 인덱스를 통해 조회할 수 있습니다. 출처 파일의 실제 수정일을 알 수 없는 경우 인덱스에 가짜 `lastmod`를 넣지 않습니다.
+
+개별 사이트맵이 없는 앱은 공개 HTML 페이지를 확인해 `/sitemap-details.xml`에 보완하고 같은 인덱스에서 연결합니다. 메인 목록에 이미 있는 URL, 개발 소스·테스트·템플릿과 `noindex` 페이지는 보완 목록에서 제외합니다. 현재 Astra의 상세 페이지가 이 방식으로 연결됩니다.
+
+배포 후 `python scripts/check_sitemaps.py --live`는 루트 인덱스와 모든 하위 XML의 HTTP 응답·구조·중복·동일 도메인·기존 URL 보존·세부 페이지 연결을 확인하고, 중복을 제외한 전체 URL 수를 출력합니다. 검색엔진에는 기존과 같은 `https://nanalab.kr/sitemap.xml` 하나를 제출하면 됩니다. 구성 기준은 [Google의 사이트맵 인덱스 안내](https://developers.google.com/search/docs/crawling-indexing/sitemaps/large-sitemaps)를 따릅니다.
 
 ## 구독 피드와 공개 JSON
 

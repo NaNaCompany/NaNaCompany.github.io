@@ -12,6 +12,7 @@ from urllib.parse import urljoin
 import argparse
 import json
 import re
+import xml.etree.ElementTree as ET
 from syndication import anchor_cards, build_syndication, documentation
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -209,7 +210,27 @@ def build():
         url = 'https://nanalab.kr' + route
         if f'<loc>{url}</loc>' not in sitemap:
             sitemap = sitemap.replace('</urlset>',f'  <url><loc>{url}</loc><lastmod>{modified}</lastmod></url>\n</urlset>')
-    outputs['sitemap.xml'] = sitemap
+    outputs['sitemap-main.xml'] = sitemap
+    # Keep the already submitted root URL as the single entry point for all apps.
+    manifest = json.loads(read('content/sitemap-sources.json'))
+    sources = manifest['sources']
+    locations = ['https://nanalab.kr/sitemap-main.xml'] + [source['url'] for source in sources]
+    supplemental = sorted({url for group in manifest.get('supplemental', []) for url in group['urls']})
+    if supplemental:
+        details = ET.Element('urlset', xmlns='http://www.sitemaps.org/schemas/sitemap/0.9')
+        for url in supplemental:
+            assert url.startswith('https://nanalab.kr/'), 'Invalid supplemental page'
+            ET.SubElement(ET.SubElement(details, 'url'), 'loc').text = url
+        ET.indent(details, space='  ')
+        outputs['sitemap-details.xml'] = '<?xml version="1.0" encoding="UTF-8"?>\n' + ET.tostring(details, encoding='unicode') + '\n'
+        locations.insert(1, 'https://nanalab.kr/sitemap-details.xml')
+    assert len(locations) == len(set(locations)) <= 50000, 'Duplicate sitemap source'
+    index = ET.Element('sitemapindex', xmlns='http://www.sitemaps.org/schemas/sitemap/0.9')
+    for location in locations:
+        assert location.startswith('https://nanalab.kr/') and location.endswith('.xml'), 'Invalid sitemap source'
+        ET.SubElement(ET.SubElement(index, 'sitemap'), 'loc').text = location
+    ET.indent(index, space='  ')
+    outputs['sitemap.xml'] = '<?xml version="1.0" encoding="UTF-8"?>\n' + ET.tostring(index, encoding='unicode') + '\n'
     return outputs, {'apps':len(apps), **{k:len(v) for k,v in sections.items()}}
 
 

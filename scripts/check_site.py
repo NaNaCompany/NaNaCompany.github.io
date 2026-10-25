@@ -97,7 +97,11 @@ def check():
             assert set(page.app_ids) == app_ids and len(page.app_ids) == len(apps), name
             expected_order = [app['id'] for app in sorted(apps, key=lambda app: datetime.fromisoformat(app['published_at'].replace('Z', '+00:00')), reverse=True)]
             assert page.app_ids == expected_order, f'Apps not newest first: {name}'
-    sitemap = ET.fromstring(outputs['sitemap.xml'])
+    index = ET.fromstring(outputs['sitemap.xml'])
+    assert index.tag == '{http://www.sitemaps.org/schemas/sitemap/0.9}sitemapindex', 'Expected root sitemap index'
+    index_urls = [entry.text for entry in index.iter('{http://www.sitemaps.org/schemas/sitemap/0.9}loc')]
+    assert 'https://nanalab.kr/sitemap-main.xml' in index_urls and len(index_urls) == len(set(index_urls))
+    sitemap = ET.fromstring(outputs['sitemap-main.xml'])
     sitemap_urls = [entry.text for entry in sitemap.iter('{http://www.sitemaps.org/schemas/sitemap/0.9}loc')]
     assert len(sitemap_urls) == len(set(sitemap_urls)), 'Duplicate sitemap URLs'
     for app in apps:

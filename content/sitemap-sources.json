@@ -1,0 +1,287 @@
+{
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "app_id": "body-clock",
+      "url": "https://nanalab.kr/body-clock/sitemap.xml"
+    },
+    {
+      "app_id": "cat-naps",
+      "url": "https://nanalab.kr/cat-naps/sitemap.xml"
+    },
+    {
+      "app_id": "color-drop",
+      "url": "https://nanalab.kr/color-drop/sitemap.xml"
+    },
+    {
+      "app_id": "eng-aperture-resolution",
+      "url": "https://nanalab.kr/eng-aperture-resolution/sitemap.xml"
+    },
+    {
+      "app_id": "eng-arrhenius-rate",
+      "url": "https://nanalab.kr/eng-arrhenius-rate/sitemap.xml"
+    },
+    {
+      "app_id": "eng-axial-extension",
+      "url": "https://nanalab.kr/eng-axial-extension/sitemap.xml"
+    },
+    {
+      "app_id": "eng-axial-stress",
+      "url": "https://nanalab.kr/eng-axial-stress/sitemap.xml"
+    },
+    {
+      "app_id": "eng-bending-stress",
+      "url": "https://nanalab.kr/eng-bending-stress/sitemap.xml"
+    },
+    {
+      "app_id": "eng-capacitive-reactance",
+      "url": "https://nanalab.kr/eng-capacitive-reactance/sitemap.xml"
+    },
+    {
+      "app_id": "eng-carnot-cop",
+      "url": "https://nanalab.kr/eng-carnot-cop/sitemap.xml"
+    },
+    {
+      "app_id": "eng-carnot-efficiency",
+      "url": "https://nanalab.kr/eng-carnot-efficiency/sitemap.xml"
+    },
+    {
+      "app_id": "eng-centripetal-acceleration",
+      "url": "https://nanalab.kr/eng-centripetal-acceleration/sitemap.xml"
+    },
+    {
+      "app_id": "eng-convection-heat",
+      "url": "https://nanalab.kr/eng-convection-heat/sitemap.xml"
+    },
+    {
+      "app_id": "eng-drag-force",
+      "url": "https://nanalab.kr/eng-drag-force/sitemap.xml"
+    },
+    {
+      "app_id": "eng-dynamic-pressure",
+      "url": "https://nanalab.kr/eng-dynamic-pressure/sitemap.xml"
+    },
+    {
+      "app_id": "eng-euler-buckling",
+      "url": "https://nanalab.kr/eng-euler-buckling/sitemap.xml"
+    },
+    {
+      "app_id": "eng-fiber-numerical-aperture",
+      "url": "https://nanalab.kr/eng-fiber-numerical-aperture/sitemap.xml"
+    },
+    {
+      "app_id": "eng-first-order-half-life",
+      "url": "https://nanalab.kr/eng-first-order-half-life/sitemap.xml"
+    },
+    {
+      "app_id": "eng-first-order-settling",
+      "url": "https://nanalab.kr/eng-first-order-settling/sitemap.xml"
+    },
+    {
+      "app_id": "eng-hydraulic-power",
+      "url": "https://nanalab.kr/eng-hydraulic-power/sitemap.xml"
+    },
+    {
+      "app_id": "eng-hydrostatic-pressure",
+      "url": "https://nanalab.kr/eng-hydrostatic-pressure/sitemap.xml"
+    },
+    {
+      "app_id": "eng-ideal-gas-density",
+      "url": "https://nanalab.kr/eng-ideal-gas-density/sitemap.xml"
+    },
+    {
+      "app_id": "eng-inductive-reactance",
+      "url": "https://nanalab.kr/eng-inductive-reactance/sitemap.xml"
+    },
+    {
+      "app_id": "eng-kinematic-viscosity",
+      "url": "https://nanalab.kr/eng-kinematic-viscosity/sitemap.xml"
+    },
+    {
+      "app_id": "eng-laminar-pipe-drop",
+      "url": "https://nanalab.kr/eng-laminar-pipe-drop/sitemap.xml"
+    },
+    {
+      "app_id": "eng-lc-resonance",
+      "url": "https://nanalab.kr/eng-lc-resonance/sitemap.xml"
+    },
+    {
+      "app_id": "eng-mach",
+      "url": "https://nanalab.kr/eng-mach/sitemap.xml"
+    },
+    {
+      "app_id": "eng-mass-flow",
+      "url": "https://nanalab.kr/eng-mass-flow/sitemap.xml"
+    },
+    {
+      "app_id": "eng-mean-free-path",
+      "url": "https://nanalab.kr/eng-mean-free-path/sitemap.xml"
+    },
+    {
+      "app_id": "eng-osmotic-pressure",
+      "url": "https://nanalab.kr/eng-osmotic-pressure/sitemap.xml"
+    },
+    {
+      "app_id": "eng-pendulum-period",
+      "url": "https://nanalab.kr/eng-pendulum-period/sitemap.xml"
+    },
+    {
+      "app_id": "eng-photon-energy",
+      "url": "https://nanalab.kr/eng-photon-energy/sitemap.xml"
+    },
+    {
+      "app_id": "eng-plate-capacitance",
+      "url": "https://nanalab.kr/eng-plate-capacitance/sitemap.xml"
+    },
+    {
+      "app_id": "eng-power-db",
+      "url": "https://nanalab.kr/eng-power-db/sitemap.xml"
+    },
+    {
+      "app_id": "eng-radiation-heat",
+      "url": "https://nanalab.kr/eng-radiation-heat/sitemap.xml"
+    },
+    {
+      "app_id": "eng-rc-time",
+      "url": "https://nanalab.kr/eng-rc-time/sitemap.xml"
+    },
+    {
+      "app_id": "eng-restrained-thermal-stress",
+      "url": "https://nanalab.kr/eng-restrained-thermal-stress/sitemap.xml"
+    },
+    {
+      "app_id": "eng-reynolds",
+      "url": "https://nanalab.kr/eng-reynolds/sitemap.xml"
+    },
+    {
+      "app_id": "eng-rl-time",
+      "url": "https://nanalab.kr/eng-rl-time/sitemap.xml"
+    },
+    {
+      "app_id": "eng-rotation-energy",
+      "url": "https://nanalab.kr/eng-rotation-energy/sitemap.xml"
+    },
+    {
+      "app_id": "eng-shaft-power",
+      "url": "https://nanalab.kr/eng-shaft-power/sitemap.xml"
+    },
+    {
+      "app_id": "eng-shaft-shear",
+      "url": "https://nanalab.kr/eng-shaft-shear/sitemap.xml"
+    },
+    {
+      "app_id": "eng-shaft-twist",
+      "url": "https://nanalab.kr/eng-shaft-twist/sitemap.xml"
+    },
+    {
+      "app_id": "eng-snell-refraction",
+      "url": "https://nanalab.kr/eng-snell-refraction/sitemap.xml"
+    },
+    {
+      "app_id": "eng-solenoid-inductance",
+      "url": "https://nanalab.kr/eng-solenoid-inductance/sitemap.xml"
+    },
+    {
+      "app_id": "eng-spring-damping-ratio",
+      "url": "https://nanalab.kr/eng-spring-damping-ratio/sitemap.xml"
+    },
+    {
+      "app_id": "eng-spring-frequency",
+      "url": "https://nanalab.kr/eng-spring-frequency/sitemap.xml"
+    },
+    {
+      "app_id": "eng-thermal-expansion",
+      "url": "https://nanalab.kr/eng-thermal-expansion/sitemap.xml"
+    },
+    {
+      "app_id": "eng-thin-lens-image",
+      "url": "https://nanalab.kr/eng-thin-lens-image/sitemap.xml"
+    },
+    {
+      "app_id": "eng-voltage-divider",
+      "url": "https://nanalab.kr/eng-voltage-divider/sitemap.xml"
+    },
+    {
+      "app_id": "eng-volume-flow",
+      "url": "https://nanalab.kr/eng-volume-flow/sitemap.xml"
+    },
+    {
+      "app_id": "eng-wall-conduction",
+      "url": "https://nanalab.kr/eng-wall-conduction/sitemap.xml"
+    },
+    {
+      "app_id": "eng-wire-resistance",
+      "url": "https://nanalab.kr/eng-wire-resistance/sitemap.xml"
+    },
+    {
+      "app_id": "level-frame",
+      "url": "https://nanalab.kr/level-frame/sitemap.xml"
+    },
+    {
+      "app_id": "line-copy",
+      "url": "https://nanalab.kr/line-copy/sitemap.xml"
+    },
+    {
+      "app_id": "lunch-math",
+      "url": "https://nanalab.kr/lunch-math/sitemap.xml"
+    },
+    {
+      "app_id": "next-life-stats",
+      "url": "https://nanalab.kr/next-life-stats/sitemap.xml"
+    },
+    {
+      "app_id": "ppp",
+      "url": "https://nanalab.kr/ppp/sitemap.xml"
+    },
+    {
+      "app_id": "rain-rhythm",
+      "url": "https://nanalab.kr/rain-rhythm/sitemap.xml"
+    },
+    {
+      "app_id": "rebirth_biology",
+      "url": "https://nanalab.kr/rebirth_biology/sitemap.xml"
+    },
+    {
+      "app_id": "rebirth_country",
+      "url": "https://nanalab.kr/rebirth_country/sitemap.xml"
+    },
+    {
+      "app_id": "table-memory",
+      "url": "https://nanalab.kr/table-memory/sitemap.xml"
+    }
+  ],
+  "supplemental": [
+    {
+      "app_id": "astra",
+      "urls": [
+        "https://nanalab.kr/astra/dashboard/",
+        "https://nanalab.kr/astra/portal/",
+        "https://nanalab.kr/astra/recipe/04/",
+        "https://nanalab.kr/astra/recipe/05/",
+        "https://nanalab.kr/astra/recipe/13/",
+        "https://nanalab.kr/astra/recipe/18/",
+        "https://nanalab.kr/astra/recipe/19/",
+        "https://nanalab.kr/astra/recipe/28/",
+        "https://nanalab.kr/astra/recipe/31/",
+        "https://nanalab.kr/astra/recipe/32/",
+        "https://nanalab.kr/astra/recipe/33/",
+        "https://nanalab.kr/astra/recipe/36/",
+        "https://nanalab.kr/astra/recipe/41/",
+        "https://nanalab.kr/astra/recipe/42/",
+        "https://nanalab.kr/astra/recipe/47/",
+        "https://nanalab.kr/astra/recipe/",
+        "https://nanalab.kr/astra/seller/",
+        "https://nanalab.kr/astra/shop/apply/",
+        "https://nanalab.kr/astra/shop/deskerb/",
+        "https://nanalab.kr/astra/shop/",
+        "https://nanalab.kr/astra/shop/planoffice/",
+        "https://nanalab.kr/astra/shop/woodmaru/",
+        "https://nanalab.kr/astra/sns/",
+        "https://nanalab.kr/astra/vuln/admin/",
+        "https://nanalab.kr/astra/vuln/board/",
+        "https://nanalab.kr/astra/vuln/",
+        "https://nanalab.kr/astra/vuln/mypage/"
+      ]
+    }
+  ]
+}
