@@ -81,7 +81,7 @@ node scripts/check_interactions.cjs
 
 앱을 추가·갱신할 때 `python scripts/sync_sitemaps.py`로 각 저장소의 공개용 `sitemap.xml`을 찾아 연결 원본을 갱신한 뒤 빌드합니다. 외부 사이트와 개발 템플릿은 제외합니다. 이미 연결한 저장소가 로컬에 없더라도 연결은 보존합니다. 일반 빌드는 저장된 원본만 읽으므로 네트워크 없이 재현할 수 있습니다. 앱의 세부 페이지가 늘어나도 연결된 앱 자체 사이트맵이 갱신되면 루트 인덱스를 통해 조회할 수 있습니다. 출처 파일의 실제 수정일을 알 수 없는 경우 인덱스에 가짜 `lastmod`를 넣지 않습니다.
 
-개별 사이트맵이 없는 앱은 공개 HTML 페이지를 확인해 `/sitemap-details.xml`에 보완하고 같은 인덱스에서 연결합니다. 메인 목록에 이미 있는 URL, 개발 소스·테스트·템플릿과 `noindex` 페이지는 보완 목록에서 제외합니다. 현재 Astra의 상세 페이지가 이 방식으로 연결됩니다.
+개별 사이트맵이 없는 앱은 공개 HTML 페이지를 확인해 `/sitemap-details.xml`에 보완하고 같은 인덱스에서 연결합니다. 메인 목록에 이미 있는 URL, 개발 소스·테스트·템플릿과 `noindex` 페이지는 보완 목록에서 제외합니다. 전용 사이트맵이 있는 앱은 해당 파일을 직접 연결합니다. Astra는 `/astra/sitemap.xml`에서 공개 페이지 전체를 관리합니다.
 
 배포 후 `python scripts/check_sitemaps.py --live`는 루트 인덱스와 모든 하위 XML의 HTTP 응답·구조·중복·동일 도메인·기존 URL 보존·세부 페이지 연결을 확인하고, 중복을 제외한 전체 URL 수를 출력합니다. 검색엔진에는 기존과 같은 `https://nanalab.kr/sitemap.xml` 하나를 제출하면 됩니다. 구성 기준은 [Google의 사이트맵 인덱스 안내](https://developers.google.com/search/docs/crawling-indexing/sitemaps/large-sitemaps)를 따릅니다.
 

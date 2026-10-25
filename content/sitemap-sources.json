@@ -2,6 +2,10 @@
   "schema_version": "1.0",
   "sources": [
     {
+      "app_id": "astra",
+      "url": "https://nanalab.kr/astra/sitemap.xml"
+    },
+    {
       "app_id": "body-clock",
       "url": "https://nanalab.kr/body-clock/sitemap.xml"
     },
@@ -250,38 +254,5 @@
       "url": "https://nanalab.kr/table-memory/sitemap.xml"
     }
   ],
-  "supplemental": [
-    {
-      "app_id": "astra",
-      "urls": [
-        "https://nanalab.kr/astra/dashboard/",
-        "https://nanalab.kr/astra/portal/",
-        "https://nanalab.kr/astra/recipe/04/",
-        "https://nanalab.kr/astra/recipe/05/",
-        "https://nanalab.kr/astra/recipe/13/",
-        "https://nanalab.kr/astra/recipe/18/",
-        "https://nanalab.kr/astra/recipe/19/",
-        "https://nanalab.kr/astra/recipe/28/",
-        "https://nanalab.kr/astra/recipe/31/",
-        "https://nanalab.kr/astra/recipe/32/",
-        "https://nanalab.kr/astra/recipe/33/",
-        "https://nanalab.kr/astra/recipe/36/",
-        "https://nanalab.kr/astra/recipe/41/",
-        "https://nanalab.kr/astra/recipe/42/",
-        "https://nanalab.kr/astra/recipe/47/",
-        "https://nanalab.kr/astra/recipe/",
-        "https://nanalab.kr/astra/seller/",
-        "https://nanalab.kr/astra/shop/apply/",
-        "https://nanalab.kr/astra/shop/deskerb/",
-        "https://nanalab.kr/astra/shop/",
-        "https://nanalab.kr/astra/shop/planoffice/",
-        "https://nanalab.kr/astra/shop/woodmaru/",
-        "https://nanalab.kr/astra/sns/",
-        "https://nanalab.kr/astra/vuln/admin/",
-        "https://nanalab.kr/astra/vuln/board/",
-        "https://nanalab.kr/astra/vuln/",
-        "https://nanalab.kr/astra/vuln/mypage/"
-      ]
-    }
-  ]
+  "supplemental": []
 }
