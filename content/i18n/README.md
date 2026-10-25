@@ -18,6 +18,12 @@ without JavaScript. Every page has its own canonical and a reciprocal nine-langu
 `hreflang` set; `x-default` points to the corresponding Korean page. All 72 page
 URLs belong to `sitemap-main.xml`, referenced by the unchanged root sitemap index.
 
+Language links carry `data-google-vignette="false"` to avoid interrupting a
+language change with an interstitial, following [Google AdSense's official
+per-link guidance](https://support.google.com/adsense/answer/17016693?hl=en).
+This does not change the site's other advertising settings. Only fragments
+that match a real document ID are preserved; advertising fragments are not.
+
 Business copy, directory copy, app names/descriptions, navigation, filters,
 search states, contact labels and feed documentation are translated. Original
 lecture and research titles, institution names, dates, publication/preprint

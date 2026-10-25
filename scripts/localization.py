@@ -26,7 +26,7 @@ def path_for(language, route=''):
 
 
 def language_navigation(language, route):
-    links = ''.join(f'<a href="{path_for(code, route)}" lang="{code}" hreflang="{code}"'
+    links = ''.join(f'<a href="{path_for(code, route)}" lang="{code}" hreflang="{code}" data-google-vignette="false"'
                     + (' aria-current="page"' if code == language else '')
                     + f'>{label}</a>' for code, label in LANGUAGES.items())
     return (f'<details class="language-menu"><summary aria-label="Language">'

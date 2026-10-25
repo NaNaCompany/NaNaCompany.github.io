@@ -2,7 +2,8 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Matching archives share their anchors across all language routes.
     document.querySelectorAll('.language-menu a').forEach(link => {
-        if (window.location.hash) link.hash = window.location.hash;
+        const fragment = window.location.hash;
+        if (fragment && document.getElementById(fragment.slice(1))) link.hash = fragment;
     });
     const search = document.getElementById('app-search');
     const cards = [...document.querySelectorAll('.directory-card')];

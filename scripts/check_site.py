@@ -63,6 +63,9 @@ def check():
     # Local drafts without an origin may share the workspace while being built.
     expected = {p.name for p in ROOT.parent.iterdir() if p.is_dir() and not p.name.startswith('.')
                 and (p / '.git/config').is_file() and p.name not in {ROOT.name, 'src_cdn'}
+                # Another task may be creating/cloning a repository concurrently.
+                # A .git-only placeholder has no app checkout to register yet.
+                and any(child.name != '.git' for child in p.iterdir())
                 and re.search(r'url\s*=\s*(?:https://github\.com/|git@github\.com:)NaNaCompany/',
                               (p / '.git/config').read_text(encoding='utf-8'), re.I)}
     local_app_ids = {a['id'] for a in apps if not a.get('external')}

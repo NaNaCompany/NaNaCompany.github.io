@@ -76,6 +76,7 @@ def check():
             expected['x-default'] = SITE + path_for('ko', route)
             assert page.alternates == expected, f'Nonreciprocal hreflang: {path}'
             assert page.language_links == [path_for(code, route) for code in LANGUAGES], f'Language route lost: {path}'
+            assert source.count('data-google-vignette="false"') == len(LANGUAGES), f'Language switch may trigger interstitial: {path}'
             assert SITE + path in main_urls, f'Missing localized sitemap URL: {path}'
             for asset in page.assets:
                 if language != 'ko':
