@@ -796,6 +796,311 @@
       "name": "対数減衰率計算機",
       "description": "自由減衰振動の同じ向きのピークから対数減衰率を計算します。",
       "image_alt": "対数減衰率計算機"
+    },
+    "world-law-portal": {
+      "name": "世界法令資料室",
+      "description": "各国の法令原文をHTMLで閲覧できる資料室。公式出典・版情報・再利用条件を確認し、原文の言語で文書を探せます。",
+      "image_alt": "世界法令資料室"
+    },
+    "eng-rocket-delta-v": {
+      "name": "ツィオルコフスキーのロケット速度増分計算機",
+      "description": "燃焼前後の全質量と有効排気速度から、1 回のロケット燃焼による理想的な速度増分を計算します。",
+      "image_alt": "ツィオルコフスキーのロケット速度増分計算機"
+    },
+    "eng-rocket-nozzle-thrust": {
+      "name": "ロケットノズル推力計算機",
+      "description": "排気の運動量と出口・周囲の圧力差から、ロケットノズルの軸方向推力を計算します。",
+      "image_alt": "ロケットノズル推力計算機"
+    },
+    "eng-tidal-acceleration": {
+      "name": "潮汐による重力加速度差計算機",
+      "description": "同じ動径方向に並ぶ 2 点のニュートン重力加速度の大きさの差を計算します。",
+      "image_alt": "潮汐による重力加速度差計算機"
+    },
+    "eng-hill-radius": {
+      "name": "ヒル球半径計算機",
+      "description": "主天体のまわりを円軌道で回る軽い天体のヒル半径を近似計算します。",
+      "image_alt": "ヒル球半径計算機"
+    },
+    "eng-fluid-roche-limit": {
+      "name": "流体衛星のロッシュ限界計算機",
+      "description": "引張強度を持たない流体衛星が潮汐で分裂する古典的な距離を近似計算します。",
+      "image_alt": "流体衛星のロッシュ限界計算機"
+    },
+    "eng-einstein-ring": {
+      "name": "アインシュタインリング角半径計算機",
+      "description": "局所的なユークリッド幾何で一直線に並んだ点質量レンズのアインシュタインリング角半径を計算します。",
+      "image_alt": "アインシュタインリング角半径計算機"
+    },
+    "eng-eddington-luminosity": {
+      "name": "エディントン光度計算機",
+      "description": "放射と重力による加速度が釣り合う、球対称なエディントン光度を計算します。",
+      "image_alt": "エディントン光度計算機"
+    },
+    "eng-jeans-mass": {
+      "name": "ジーンズ質量計算機",
+      "description": "線形ジーンズ不安定性モデルで、臨界波長を直径とする球の質量を計算します。",
+      "image_alt": "ジーンズ質量計算機"
+    },
+    "eng-gravitational-redshift": {
+      "name": "重力赤方偏移計算機",
+      "description": "外部シュヴァルツシルト時空の静止した 2 人の観測者の間で、重力による波長の変化を計算します。",
+      "image_alt": "重力赤方偏移計算機"
+    },
+    "eng-transit-depth": {
+      "name": "系外惑星トランジット深さ計算機",
+      "description": "不透明な惑星の円盤全体が恒星円盤内にあるとき、遮られる恒星光の理想的な割合を計算します。",
+      "image_alt": "系外惑星トランジット深さ計算機"
+    },
+    "eng-quantum-box-energy": {
+      "name": "無限量子井戸のエネルギー計算機",
+      "description": "1 次元無限深井戸に閉じ込められた粒子のエネルギー準位を計算します。",
+      "image_alt": "無限量子井戸のエネルギー計算機"
+    },
+    "eng-barrier-tunneling": {
+      "name": "矩形障壁の透過確率計算機",
+      "description": "エネルギーが矩形障壁より低い場合、等しい場合、高い場合の透過確率を計算します。",
+      "image_alt": "矩形障壁の透過確率計算機"
+    },
+    "eng-hydrogen-transition": {
+      "name": "水素遷移の波長計算機",
+      "description": "リュードベリモデルで、2 つの主量子数間の水素の発光波長を近似計算します。",
+      "image_alt": "水素遷移の波長計算機"
+    },
+    "eng-quantum-oscillator": {
+      "name": "量子調和振動子のエネルギー計算機",
+      "description": "零点エネルギーを含む 1 次元量子調和振動子のエネルギー準位を計算します。",
+      "image_alt": "量子調和振動子のエネルギー計算機"
+    },
+    "eng-compton-shift": {
+      "name": "コンプトン散乱の波長変化計算機",
+      "description": "初め静止している自由な標的粒子で散乱した光子の波長増加を計算します。",
+      "image_alt": "コンプトン散乱の波長変化計算機"
+    },
+    "eng-photoelectric-stop": {
+      "name": "光電効果の阻止電圧計算機",
+      "description": "単一光子モデルで、最も速い光電子を止めるための逆電圧の大きさを計算します。",
+      "image_alt": "光電効果の阻止電圧計算機"
+    },
+    "eng-nuclear-q-value": {
+      "name": "核反応 Q 値計算機",
+      "description": "反応前後の全静止質量の差から、1 反応あたりの放出または吸収エネルギーを計算します。",
+      "image_alt": "核反応 Q 値計算機"
+    },
+    "eng-gaussian-beam": {
+      "name": "ガウシアンビーム半径計算機",
+      "description": "ビームウエストから指定した距離における理想ガウシアンビームの半径を計算します。",
+      "image_alt": "ガウシアンビーム半径計算機"
+    },
+    "eng-malus-intensity": {
+      "name": "マリュスの法則による透過強度計算機",
+      "description": "直線偏光が理想的な検光子を通過した後の強度を計算します。",
+      "image_alt": "マリュスの法則による透過強度計算機"
+    },
+    "eng-faraday-rotation": {
+      "name": "ファラデー偏光回転計算機",
+      "description": "進行方向に一様な磁場がある場合のファラデー偏光回転を計算します。",
+      "image_alt": "ファラデー偏光回転計算機"
+    },
+    "eng-collision-restitution": {
+      "name": "反発係数を用いた衝突後速度計算機",
+      "description": "運動量保存と反発係数から、第 1 物体の衝突後速度を求めます。",
+      "image_alt": "反発係数を用いた衝突後速度計算機"
+    },
+    "eng-rolling-incline": {
+      "name": "斜面を転がる物体の加速度計算機",
+      "description": "並進と回転の両方を考慮し、斜面を下る加速度を計算します。",
+      "image_alt": "斜面を転がる物体の加速度計算機"
+    },
+    "eng-gyroscope-precession": {
+      "name": "ジャイロスコープ歳差運動計算機",
+      "description": "高速回転する対称なジャイロスコープの、重力による遅い定常歳差運動を近似計算します。",
+      "image_alt": "ジャイロスコープ歳差運動計算機"
+    },
+    "eng-coriolis-horizontal": {
+      "name": "水平コリオリ加速度計算機",
+      "description": "指定した緯度で、水平運動に垂直なコリオリ加速度の水平成分を計算します。",
+      "image_alt": "水平コリオリ加速度計算機"
+    },
+    "eng-capstan-tension": {
+      "name": "キャプスタン限界ロープ張力計算機",
+      "description": "円筒ドラムに巻き付いたロープが滑り始める直前の、高張力側の張力を求めます。",
+      "image_alt": "キャプスタン限界ロープ張力計算機"
+    },
+    "eng-inertial-atwood": {
+      "name": "プーリー慣性を含むアトウッド加速度計算機",
+      "description": "回転慣性を持つプーリーを介してつながった、2 つのつり下げ質量の加速度を計算します。",
+      "image_alt": "プーリー慣性を含むアトウッド加速度計算機"
+    },
+    "eng-open-belt-length": {
+      "name": "オープンベルトの厳密幾何長さ計算機",
+      "description": "接線と円弧の幾何から、交差しないベルトのピッチ線長さを計算します。",
+      "image_alt": "オープンベルトの厳密幾何長さ計算機"
+    },
+    "eng-point-mass-inertia": {
+      "name": "質点の慣性モーメント計算機",
+      "description": "指定した 1 本の軸への垂直距離を用い、質点リストの慣性モーメントを合計します。",
+      "image_alt": "質点の慣性モーメント計算機"
+    },
+    "eng-miner-fatigue": {
+      "name": "マイナー則による累積疲労損傷計算機",
+      "description": "編集可能な荷重区間リストで、実際の繰返し数と許容寿命の比を合計します。",
+      "image_alt": "マイナー則による累積疲労損傷計算機"
+    },
+    "eng-forced-vibration": {
+      "name": "強制振動の定常振幅計算機",
+      "description": "1 自由度の質量・ばね・ダンパー系の調和定常変位振幅を計算します。",
+      "image_alt": "強制振動の定常振幅計算機"
+    },
+    "eng-froude-number": {
+      "name": "フルード数計算機",
+      "description": "開水路の断面平均流速と、流水断面積を水面幅で割った水力水深からフルード数を計算します。",
+      "image_alt": "フルード数計算機"
+    },
+    "eng-weber-number": {
+      "name": "ウェーバー数計算機",
+      "description": "指定した代表長さと相対速度から、慣性と界面張力の効果の比を計算します。",
+      "image_alt": "ウェーバー数計算機"
+    },
+    "eng-bond-number": {
+      "name": "ボンド数計算機",
+      "description": "2 流体の密度差による重力と界面張力の効果の大きさの比を計算します。",
+      "image_alt": "ボンド数計算機"
+    },
+    "eng-cavitation-number": {
+      "name": "キャビテーション数計算機",
+      "description": "基準絶対圧力と飽和蒸気圧の差を動圧で割り、キャビテーション指標を計算します。",
+      "image_alt": "キャビテーション数計算機"
+    },
+    "eng-hydraulic-jump": {
+      "name": "跳水の共役水深計算機",
+      "description": "水平な長方形水路で、運動量保存から上流の射流に対応する下流側の共役水深を計算します。",
+      "image_alt": "跳水の共役水深計算機"
+    },
+    "eng-water-hammer": {
+      "name": "ジュコフスキー水撃圧力変化計算機",
+      "description": "液体の流速が急変したとき、下流の擾乱位置で発生し上流へ進む初期圧力波を近似計算します。",
+      "image_alt": "ジュコフスキー水撃圧力変化計算機"
+    },
+    "eng-couette-force": {
+      "name": "平面クエット流れの抗力計算機",
+      "description": "平行平板間の線形速度分布から、動く平板の片面に働く粘性抗力の大きさを計算します。",
+      "image_alt": "平面クエット流れの抗力計算機"
+    },
+    "eng-rotating-free-surface": {
+      "name": "回転液体の自由表面高低差計算機",
+      "description": "液体が容器と一体で剛体回転するとき、2 つの半径位置間の符号付き自由表面高低差を計算します。",
+      "image_alt": "回転液体の自由表面高低差計算機"
+    },
+    "eng-circulation-lift": {
+      "name": "循環による単位翼幅あたり揚力計算機",
+      "description": "定常 2 次元循環流れについて、クッタ・ジュコフスキーの関係から符号付きの単位翼幅あたり揚力を計算します。",
+      "image_alt": "循環による単位翼幅あたり揚力計算機"
+    },
+    "eng-water-wave-length": {
+      "name": "有限水深の重力波波長計算機",
+      "description": "有限水深の線形重力波分散式を正の波数について解き、浅水から深水まで連続した波長を求めます。",
+      "image_alt": "有限水深の重力波波長計算機"
+    },
+    "eng-resistor-thermal-noise": {
+      "name": "抵抗の熱雑音計算機",
+      "description": "抵抗の温度と等価雑音帯域幅から、開放端熱雑音電圧の実効値を近似計算します。",
+      "image_alt": "抵抗の熱雑音計算機"
+    },
+    "eng-adc-quantization-noise": {
+      "name": "ADC 量子化雑音計算機",
+      "description": "全入力電圧幅に対する、理想的な一様 N ビット量子化器の量子化誤差の実効値を計算します。",
+      "image_alt": "ADC 量子化雑音計算機"
+    },
+    "eng-sampling-jitter-snr": {
+      "name": "サンプリングジッター SNR 計算機",
+      "description": "正弦波のサンプリングで、時間ジッターだけによって制限される信号対雑音比を近似計算します。",
+      "image_alt": "サンプリングジッター SNR 計算機"
+    },
+    "eng-alias-frequency": {
+      "name": "サンプリング折り返し周波数計算機",
+      "description": "等間隔でサンプリングした実正弦波を、0 からサンプリング周波数の半分までの範囲に折り返します。",
+      "image_alt": "サンプリング折り返し周波数計算機"
+    },
+    "eng-shannon-capacity": {
+      "name": "シャノン通信路容量計算機",
+      "description": "帯域幅と受信 SNR から、帯域制限 AWGN 通信路のシャノン容量を計算します。",
+      "image_alt": "シャノン通信路容量計算機"
+    },
+    "eng-cascade-noise-figure": {
+      "name": "多段回路の合成雑音指数計算機",
+      "description": "入力順に並べた各段の電力利得と雑音指数を、フリスの多段接続式で合成します。",
+      "image_alt": "多段回路の合成雑音指数計算機"
+    },
+    "eng-free-space-path-loss": {
+      "name": "自由空間伝搬損失計算機",
+      "description": "遠方界の自由空間伝搬における幾何学的拡散から、等方性アンテナを基準にした損失を計算します。",
+      "image_alt": "自由空間伝搬損失計算機"
+    },
+    "eng-coax-impedance": {
+      "name": "同軸線路の特性インピーダンス計算機",
+      "description": "同心同軸線路の導体半径と一様な誘電体の物性から、無損失 TEM 特性インピーダンスを計算します。",
+      "image_alt": "同軸線路の特性インピーダンス計算機"
+    },
+    "eng-load-vswr": {
+      "name": "複素負荷の電圧定在波比計算機",
+      "description": "実数の基準インピーダンスと有限な複素負荷インピーダンスから、電圧定在波比を計算します。",
+      "image_alt": "複素負荷の電圧定在波比計算機"
+    },
+    "eng-hall-voltage": {
+      "name": "ホール電圧計算機",
+      "description": "単一種類のキャリアを持つ平板試料の符号付きホール電圧を計算します。",
+      "image_alt": "ホール電圧計算機"
+    },
+    "eng-counterflow-ntu": {
+      "name": "向流熱交換器計算機",
+      "description": "UA、流体の熱容量流量、入口温度から、単一パス向流熱交換器の定常熱移動率を計算します。",
+      "image_alt": "向流熱交換器計算機"
+    },
+    "eng-fin-efficiency": {
+      "name": "断熱先端フィン効率計算機",
+      "description": "一様断面の直線フィンの伝熱量を、全表面が根元温度にある場合の理想伝熱量と比較します。",
+      "image_alt": "断熱先端フィン効率計算機"
+    },
+    "eng-heated-slab-center": {
+      "name": "内部発熱平板の中心温度計算機",
+      "description": "両表面を同じ指定温度に保つ一様発熱平板の、定常最大中心温度を計算します。",
+      "image_alt": "内部発熱平板の中心温度計算機"
+    },
+    "eng-ideal-mixing-entropy": {
+      "name": "理想気体の混合エントロピー計算機",
+      "description": "同じ温度と圧力で分離されていた異なる理想気体を混合したときの、エントロピー増加を求めます。",
+      "image_alt": "理想気体の混合エントロピー計算機"
+    },
+    "eng-reaction-equilibrium": {
+      "name": "反応平衡定数計算機",
+      "description": "指定した反応と標準状態に対する標準反応ギブズエネルギーから、無次元の熱力学的平衡定数を計算します。",
+      "image_alt": "反応平衡定数計算機"
+    },
+    "eng-raoult-bubble-pressure": {
+      "name": "理想混合液の泡点圧力計算機",
+      "description": "液相組成と共通温度での純成分蒸気圧から、理想溶液が沸騰し始める全圧を計算します。",
+      "image_alt": "理想混合液の泡点圧力計算機"
+    },
+    "eng-electroplating-mass": {
+      "name": "電気めっき析出質量計算機",
+      "description": "ファラデーの法則と入力した電流効率から、目的の電極反応による析出質量を計算します。",
+      "image_alt": "電気めっき析出質量計算機"
+    },
+    "eng-cstr-conversion": {
+      "name": "一次反応 CSTR 転化率計算機",
+      "description": "完全混合の連続撹拌槽反応器で、不可逆一次反応の定常転化率を計算します。",
+      "image_alt": "一次反応 CSTR 転化率計算機"
+    },
+    "eng-welding-line-heat": {
+      "name": "溶接の単位長さあたり入熱計算機",
+      "description": "電圧、電流、溶接速度が一定の場合に、母材へ伝わる単位溶接長さあたりの熱エネルギーを計算します。",
+      "image_alt": "溶接の単位長さあたり入熱計算機"
+    },
+    "eng-bend-allowance": {
+      "name": "板金曲げ部の展開長さ計算機",
+      "description": "入力した K ファクターから中立軸位置を定め、1 つの円弧状曲げ部の展開長さを計算します。",
+      "image_alt": "板金曲げ部の展開長さ計算機"
     }
   },
   "schema_version": "1.0",

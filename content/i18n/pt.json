@@ -796,6 +796,311 @@
       "name": "Decremento logarítmico",
       "description": "Decremento logarítmico — δ = ln(x₁/x₂)/n. Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
       "image_alt": "Decremento logarítmico"
+    },
+    "world-law-portal": {
+      "name": "Biblioteca de legislação mundial",
+      "description": "Leia legislação nacional em HTML no idioma original. Explore documentos com fontes oficiais, informações de edição e condições de reutilização.",
+      "image_alt": "Biblioteca de legislação mundial"
+    },
+    "eng-rocket-delta-v": {
+      "name": "Delta-v de foguete de Tsiolkovsky",
+      "description": "Delta-v de foguete de Tsiolkovsky — Δv = v_e ln(m₀/m_f). Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Delta-v de foguete de Tsiolkovsky"
+    },
+    "eng-rocket-nozzle-thrust": {
+      "name": "Empuxo de bocal de foguete",
+      "description": "Empuxo de bocal de foguete — F = ṁv_e + (p_e−p_a)A_e. Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Empuxo de bocal de foguete"
+    },
+    "eng-tidal-acceleration": {
+      "name": "Diferença de aceleração de maré",
+      "description": "Diferença de aceleração de maré — Δg = GM(1/r₁² − 1/r₂²). Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Diferença de aceleração de maré"
+    },
+    "eng-hill-radius": {
+      "name": "Raio da esfera de Hill",
+      "description": "Raio da esfera de Hill — r_H = a (m/(3M))^(1/3). Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Raio da esfera de Hill"
+    },
+    "eng-fluid-roche-limit": {
+      "name": "Limite de Roche de satélite fluido",
+      "description": "Limite de Roche de satélite fluido — d_R = 2.44 R (ρ_M/ρ_m)^(1/3). Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Limite de Roche de satélite fluido"
+    },
+    "eng-einstein-ring": {
+      "name": "Raio angular de anel de Einstein",
+      "description": "Raio angular de anel de Einstein — θ_E = √[(4GM/c²)(D_S−D_L)/(D_L D_S)]. Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Raio angular de anel de Einstein"
+    },
+    "eng-eddington-luminosity": {
+      "name": "Luminosidade de Eddington",
+      "description": "Luminosidade de Eddington — L_Edd = 4πGMc/κ. Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Luminosidade de Eddington"
+    },
+    "eng-jeans-mass": {
+      "name": "Massa de Jeans",
+      "description": "Massa de Jeans — M_J = π^(5/2)c_s³ / (6G^(3/2)√ρ). Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Massa de Jeans"
+    },
+    "eng-gravitational-redshift": {
+      "name": "Desvio gravitacional para o vermelho",
+      "description": "Desvio gravitacional para o vermelho — z = √[(1−r_s/r_o)/(1−r_s/r_e)]−1; r_s=2GM/c². Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Desvio gravitacional para o vermelho"
+    },
+    "eng-transit-depth": {
+      "name": "Profundidade de trânsito de exoplaneta",
+      "description": "Profundidade de trânsito de exoplaneta — δ = (R_p/R_s)². Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Profundidade de trânsito de exoplaneta"
+    },
+    "eng-quantum-box-energy": {
+      "name": "Energia de partícula em poço infinito",
+      "description": "Energia de partícula em poço infinito — Eₙ = n²h² / (8mL²). Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Energia de partícula em poço infinito"
+    },
+    "eng-barrier-tunneling": {
+      "name": "Probabilidade de transmissão de barreira retangular",
+      "description": "Probabilidade de transmissão de barreira retangular — E<U: T=[1+U²sinh²(κa)/(4E(U−E))]⁻¹; E=U: T=[1+mUa²/(2ℏ²)]⁻¹; E>U: T=[1+U²sin²(qa)/(4E(E−U))]⁻¹. Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Probabilidade de transmissão de barreira retangular"
+    },
+    "eng-hydrogen-transition": {
+      "name": "Comprimento de onda de transição do hidrogénio",
+      "description": "Comprimento de onda de transição do hidrogénio — 1/λ = R_H(1/n𝒻² − 1/nᵢ²). Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Comprimento de onda de transição do hidrogénio"
+    },
+    "eng-quantum-oscillator": {
+      "name": "Energia de oscilador harmónico quântico",
+      "description": "Energia de oscilador harmónico quântico — Eₙ = ℏω(n+1/2). Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Energia de oscilador harmónico quântico"
+    },
+    "eng-compton-shift": {
+      "name": "Variação do comprimento de onda Compton",
+      "description": "Variação do comprimento de onda Compton — Δλ = (h/(mc))(1−cos θ) = (2h/(mc))sin²(θ/2). Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Variação do comprimento de onda Compton"
+    },
+    "eng-photoelectric-stop": {
+      "name": "Potencial de paragem fotoelétrico",
+      "description": "Potencial de paragem fotoelétrico — V_stop = (hc/λ − φ)/e, when hc/λ ≥ φ. Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Potencial de paragem fotoelétrico"
+    },
+    "eng-nuclear-q-value": {
+      "name": "Valor Q de reação nuclear",
+      "description": "Valor Q de reação nuclear — Q = [Σ(Nᵢmᵢ)_initial − Σ(Nⱼmⱼ)_final]c². Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Valor Q de reação nuclear"
+    },
+    "eng-gaussian-beam": {
+      "name": "Raio de feixe laser gaussiano",
+      "description": "Raio de feixe laser gaussiano — w(z) = w₀√[1+(z/z_R)²], z_R=πnw₀²/λ₀. Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Raio de feixe laser gaussiano"
+    },
+    "eng-malus-intensity": {
+      "name": "Intensidade luminosa pela lei de Malus",
+      "description": "Intensidade luminosa pela lei de Malus — I = I₀ cos² θ. Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Intensidade luminosa pela lei de Malus"
+    },
+    "eng-faraday-rotation": {
+      "name": "Rotação de polarização de Faraday",
+      "description": "Rotação de polarização de Faraday — θ = V B∥ L. Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Rotação de polarização de Faraday"
+    },
+    "eng-collision-restitution": {
+      "name": "Velocidade após colisão com restituição",
+      "description": "Velocidade após colisão com restituição — v₁ = [(m₁ − e m₂)u₁ + (1 + e)m₂u₂] / (m₁ + m₂). Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Velocidade após colisão com restituição"
+    },
+    "eng-rolling-incline": {
+      "name": "Aceleração de rolamento sem deslizamento",
+      "description": "Aceleração de rolamento sem deslizamento — a = g sin θ / [1 + I/(m r²)]. Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Aceleração de rolamento sem deslizamento"
+    },
+    "eng-gyroscope-precession": {
+      "name": "Velocidade de precessão de giroscópio",
+      "description": "Velocidade de precessão de giroscópio — Ω ≈ m g l / (I ω). Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Velocidade de precessão de giroscópio"
+    },
+    "eng-coriolis-horizontal": {
+      "name": "Aceleração horizontal de Coriolis",
+      "description": "Aceleração horizontal de Coriolis — aₕ = 2 Ω v |sin φ|. Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Aceleração horizontal de Coriolis"
+    },
+    "eng-capstan-tension": {
+      "name": "Tensão limite de cabo em cabrestante",
+      "description": "Tensão limite de cabo em cabrestante — Tₗ = Tₛ exp(μₛ θ). Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Tensão limite de cabo em cabrestante"
+    },
+    "eng-inertial-atwood": {
+      "name": "Aceleração de Atwood com inércia da polia",
+      "description": "Aceleração de Atwood com inércia da polia — a = (m₂ − m₁)g / (m₁ + m₂ + I/r²). Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Aceleração de Atwood com inércia da polia"
+    },
+    "eng-open-belt-length": {
+      "name": "Comprimento de correia aberta",
+      "description": "Comprimento de correia aberta — q = |D₁ − D₂|/(2C); L = 2C√(1 − q²) + π(D₁ + D₂)/2 + |D₁ − D₂| asin(q). Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Comprimento de correia aberta"
+    },
+    "eng-point-mass-inertia": {
+      "name": "Momento de inércia de massas pontuais",
+      "description": "Momento de inércia de massas pontuais — I = Σ mᵢ rᵢ². Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Momento de inércia de massas pontuais"
+    },
+    "eng-miner-fatigue": {
+      "name": "Dano acumulado por fadiga de Miner",
+      "description": "Dano acumulado por fadiga de Miner — D = Σ nᵢ / Nᵢ. Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Dano acumulado por fadiga de Miner"
+    },
+    "eng-forced-vibration": {
+      "name": "Amplitude estacionária de vibração forçada",
+      "description": "Amplitude estacionária de vibração forçada — X = F₀ / √[(k − mω²)² + (cω)²]. Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Amplitude estacionária de vibração forçada"
+    },
+    "eng-froude-number": {
+      "name": "Número de Froude",
+      "description": "Número de Froude — Fr = V / √(gD), D = A/T. Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Número de Froude"
+    },
+    "eng-weber-number": {
+      "name": "Número de Weber",
+      "description": "Número de Weber — We = ρV²L / σ. Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Número de Weber"
+    },
+    "eng-bond-number": {
+      "name": "Número de Bond",
+      "description": "Número de Bond — Bo = |ρ₁ − ρ₂|gL² / σ. Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Número de Bond"
+    },
+    "eng-cavitation-number": {
+      "name": "Número de cavitação",
+      "description": "Número de cavitação — σc = (pabs − pv) / (ρV²/2). Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Número de cavitação"
+    },
+    "eng-hydraulic-jump": {
+      "name": "Profundidade após ressalto hidráulico",
+      "description": "Profundidade após ressalto hidráulico — Fr₁ = V₁/√(gy₁); y₂ = y₁[√(1+8Fr₁²)−1]/2. Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Profundidade após ressalto hidráulico"
+    },
+    "eng-water-hammer": {
+      "name": "Variação de pressão de golpe de aríete",
+      "description": "Variação de pressão de golpe de aríete — Δp = ρa(Vinitial − Vfinal). Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Variação de pressão de golpe de aríete"
+    },
+    "eng-couette-force": {
+      "name": "Força viscosa de escoamento de Couette plano",
+      "description": "Força viscosa de escoamento de Couette plano — F = μAV / h. Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Força viscosa de escoamento de Couette plano"
+    },
+    "eng-rotating-free-surface": {
+      "name": "Diferença de altura da superfície livre em rotação",
+      "description": "Diferença de altura da superfície livre em rotação — Δz = z(r₂)−z(r₁) = ω²(r₂²−r₁²)/(2g). Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Diferença de altura da superfície livre em rotação"
+    },
+    "eng-circulation-lift": {
+      "name": "Sustentação por unidade de envergadura pela circulação",
+      "description": "Sustentação por unidade de envergadura pela circulação — L′ = ρUΓ (clockwise Γ positive, U rightward). Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Sustentação por unidade de envergadura pela circulação"
+    },
+    "eng-water-wave-length": {
+      "name": "Comprimento de onda de superfície em profundidade finita",
+      "description": "Comprimento de onda de superfície em profundidade finita — (2π/T)² = gk tanh(kh), λ = 2π/k. Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Comprimento de onda de superfície em profundidade finita"
+    },
+    "eng-resistor-thermal-noise": {
+      "name": "Tensão de ruído térmico de resistor",
+      "description": "Tensão de ruído térmico de resistor — Vₙ,rms = √(4k_BTRB). Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Tensão de ruído térmico de resistor"
+    },
+    "eng-adc-quantization-noise": {
+      "name": "Erro de quantização de ADC",
+      "description": "Erro de quantização de ADC — q = V_FS/2ᴺ; e_rms = q/√12. Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Erro de quantização de ADC"
+    },
+    "eng-sampling-jitter-snr": {
+      "name": "Relação sinal-ruído limitada por jitter",
+      "description": "Relação sinal-ruído limitada por jitter — SNR_j = −20 log₁₀(2πfσt). Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Relação sinal-ruído limitada por jitter"
+    },
+    "eng-alias-frequency": {
+      "name": "Frequência de alias após amostragem",
+      "description": "Frequência de alias após amostragem — r = f mod f_s; f_alias = min(r, f_s−r). Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Frequência de alias após amostragem"
+    },
+    "eng-shannon-capacity": {
+      "name": "Capacidade de canal de Shannon",
+      "description": "Capacidade de canal de Shannon — C = B log₂(1 + 10^(SNR_dB/10)). Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Capacidade de canal de Shannon"
+    },
+    "eng-cascade-noise-figure": {
+      "name": "Figura de ruído de amplificadores em cascata",
+      "description": "Figura de ruído de amplificadores em cascata — F_total = F₁ + Σᵢ₌₂ⁿ (Fᵢ−1)/(G₁…Gᵢ₋₁); NF = 10 log₁₀F_total. Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Figura de ruído de amplificadores em cascata"
+    },
+    "eng-free-space-path-loss": {
+      "name": "Perda de percurso em espaço livre",
+      "description": "Perda de percurso em espaço livre — L_FS = 20 log₁₀(4πdf/c). Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Perda de percurso em espaço livre"
+    },
+    "eng-coax-impedance": {
+      "name": "Impedância característica de linha coaxial",
+      "description": "Impedância característica de linha coaxial — Z₀ = [√(μ₀μr/(ε₀εr))/(2π)] ln(b/a). Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Impedância característica de linha coaxial"
+    },
+    "eng-load-vswr": {
+      "name": "Reflexão na carga e relação de ondas estacionárias",
+      "description": "Reflexão na carga e relação de ondas estacionárias — Γ = (Z_L−Z₀)/(Z_L+Z₀); VSWR = (1+|Γ|)/(1−|Γ|). Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Reflexão na carga e relação de ondas estacionárias"
+    },
+    "eng-hall-voltage": {
+      "name": "Tensão de Hall",
+      "description": "Tensão de Hall — V_H = IB/(nqt). Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Tensão de Hall"
+    },
+    "eng-counterflow-ntu": {
+      "name": "Desempenho de permutador de calor em contracorrente",
+      "description": "Desempenho de permutador de calor em contracorrente — Q̇ = ε Cmin (Th,in − Tc,in); NTU = UA/Cmin; Cr = Cmin/Cmax; ε = [1 − exp(−NTU(1−Cr))]/[1 − Cr exp(−NTU(1−Cr))]; Cr = 1: ε = NTU/(1+NTU). Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Desempenho de permutador de calor em contracorrente"
+    },
+    "eng-fin-efficiency": {
+      "name": "Eficiência de aleta térmica",
+      "description": "Eficiência de aleta térmica — m = √(hP/(kA꜀)); η = tanh(mL)/(mL); mL → 0: η → 1. Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Eficiência de aleta térmica"
+    },
+    "eng-heated-slab-center": {
+      "name": "Temperatura máxima de placa com geração interna de calor",
+      "description": "Temperatura máxima de placa com geração interna de calor — Tmax = Tₛ + q‴L²/(2k); t = 2L. Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Temperatura máxima de placa com geração interna de calor"
+    },
+    "eng-ideal-mixing-entropy": {
+      "name": "Entropia de mistura de gases ideais",
+      "description": "Entropia de mistura de gases ideais — ΔSmix = −R Σ[nᵢ ln(xᵢ)]; xᵢ = nᵢ/Σnᵢ; lim(nᵢ→0⁺) nᵢ ln(nᵢ/Σnⱼ) = 0. Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Entropia de mistura de gases ideais"
+    },
+    "eng-reaction-equilibrium": {
+      "name": "Constante de equilíbrio de reação",
+      "description": "Constante de equilíbrio de reação — K = exp(−ΔᵣG°/(RT)). Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Constante de equilíbrio de reação"
+    },
+    "eng-raoult-bubble-pressure": {
+      "name": "Pressão de bolha de mistura ideal",
+      "description": "Pressão de bolha de mistura ideal — P = Σ(xᵢpᵢ*); Σxᵢ = 1. Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Pressão de bolha de mistura ideal"
+    },
+    "eng-electroplating-mass": {
+      "name": "Massa depositada por eletrodeposição",
+      "description": "Massa depositada por eletrodeposição — m = η I t M/(zF). Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Massa depositada por eletrodeposição"
+    },
+    "eng-cstr-conversion": {
+      "name": "Conversão de reator contínuo de tanque agitado",
+      "description": "Conversão de reator contínuo de tanque agitado — τ = V/Q; Da = kτ; X = Da/(1+Da). Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Conversão de reator contínuo de tanque agitado"
+    },
+    "eng-welding-line-heat": {
+      "name": "Aporte térmico por unidade de comprimento na soldadura",
+      "description": "Aporte térmico por unidade de comprimento na soldadura — H = ηUI/v; 1 kJ/mm = 10⁶ J/m. Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Aporte térmico por unidade de comprimento na soldadura"
+    },
+    "eng-bend-allowance": {
+      "name": "Comprimento desenvolvido de dobra de chapa",
+      "description": "Comprimento desenvolvido de dobra de chapa — BA = θ(R + Kt); θ ∈ [0, π] rad. Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
+      "image_alt": "Comprimento desenvolvido de dobra de chapa"
     }
   },
   "schema_version": "1.0",

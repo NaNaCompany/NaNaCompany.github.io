@@ -1699,6 +1699,1026 @@
         "url": "https://github.com/NaNaCompany/eng-logarithmic-decrement/blob/b261b8575b4ea2581e337fa0873b13f7a65833b8/LICENSE"
       },
       "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-rocket-delta-v",
+      "repository": "https://github.com/NaNaCompany/eng-rocket-delta-v",
+      "commit": "3c037d084b58ee7c9c01c4df8ac15ab632c76349",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-rocket-delta-v/blob/3c037d084b58ee7c9c01c4df8ac15ab632c76349/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-rocket-nozzle-thrust",
+      "repository": "https://github.com/NaNaCompany/eng-rocket-nozzle-thrust",
+      "commit": "836442fa3bc31945a19b03a983fda326f88061b1",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-rocket-nozzle-thrust/blob/836442fa3bc31945a19b03a983fda326f88061b1/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-tidal-acceleration",
+      "repository": "https://github.com/NaNaCompany/eng-tidal-acceleration",
+      "commit": "36711afee41fab058866675da48693dc51948ae3",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-tidal-acceleration/blob/36711afee41fab058866675da48693dc51948ae3/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-hill-radius",
+      "repository": "https://github.com/NaNaCompany/eng-hill-radius",
+      "commit": "610581cf89aa3a5807f018aca6808899cd193d6e",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-hill-radius/blob/610581cf89aa3a5807f018aca6808899cd193d6e/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-fluid-roche-limit",
+      "repository": "https://github.com/NaNaCompany/eng-fluid-roche-limit",
+      "commit": "5ee7eb542403755f63c1161c7f71211288f0da56",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-fluid-roche-limit/blob/5ee7eb542403755f63c1161c7f71211288f0da56/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-einstein-ring",
+      "repository": "https://github.com/NaNaCompany/eng-einstein-ring",
+      "commit": "abd4d156f744772b904ffcbbec6dd617e11c06eb",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-einstein-ring/blob/abd4d156f744772b904ffcbbec6dd617e11c06eb/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-eddington-luminosity",
+      "repository": "https://github.com/NaNaCompany/eng-eddington-luminosity",
+      "commit": "fda1e8f3011b15e2fe3c2e92bd01c49c3a5a9da7",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-eddington-luminosity/blob/fda1e8f3011b15e2fe3c2e92bd01c49c3a5a9da7/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-jeans-mass",
+      "repository": "https://github.com/NaNaCompany/eng-jeans-mass",
+      "commit": "cca2a60a59bed026786ddfcb8490e2c08ae27985",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-jeans-mass/blob/cca2a60a59bed026786ddfcb8490e2c08ae27985/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-gravitational-redshift",
+      "repository": "https://github.com/NaNaCompany/eng-gravitational-redshift",
+      "commit": "074d0a1689f4f7acd03cdc8c883a1523d893eac0",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-gravitational-redshift/blob/074d0a1689f4f7acd03cdc8c883a1523d893eac0/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-transit-depth",
+      "repository": "https://github.com/NaNaCompany/eng-transit-depth",
+      "commit": "65f6b304c75e762825151f56258315bc89d3a07c",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-transit-depth/blob/65f6b304c75e762825151f56258315bc89d3a07c/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-quantum-box-energy",
+      "repository": "https://github.com/NaNaCompany/eng-quantum-box-energy",
+      "commit": "ffc29ac879fc58117a0bfc4daf08886bb0fcde64",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-quantum-box-energy/blob/ffc29ac879fc58117a0bfc4daf08886bb0fcde64/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-barrier-tunneling",
+      "repository": "https://github.com/NaNaCompany/eng-barrier-tunneling",
+      "commit": "f4145988d2f70342b482c3a591cc7d7ea9a4b275",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-barrier-tunneling/blob/f4145988d2f70342b482c3a591cc7d7ea9a4b275/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-hydrogen-transition",
+      "repository": "https://github.com/NaNaCompany/eng-hydrogen-transition",
+      "commit": "cea66f21193ae1cf2219f72f7e93a109d623eb61",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-hydrogen-transition/blob/cea66f21193ae1cf2219f72f7e93a109d623eb61/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-quantum-oscillator",
+      "repository": "https://github.com/NaNaCompany/eng-quantum-oscillator",
+      "commit": "902f483374fdc19e1f7f30240cd7b822aab24caf",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-quantum-oscillator/blob/902f483374fdc19e1f7f30240cd7b822aab24caf/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-compton-shift",
+      "repository": "https://github.com/NaNaCompany/eng-compton-shift",
+      "commit": "7748700f41c736b124d32e0debc66d83704a88a4",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-compton-shift/blob/7748700f41c736b124d32e0debc66d83704a88a4/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-photoelectric-stop",
+      "repository": "https://github.com/NaNaCompany/eng-photoelectric-stop",
+      "commit": "fc41466cd0e3f9f5db3e04cb47b2e2fe455f3d2f",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-photoelectric-stop/blob/fc41466cd0e3f9f5db3e04cb47b2e2fe455f3d2f/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-nuclear-q-value",
+      "repository": "https://github.com/NaNaCompany/eng-nuclear-q-value",
+      "commit": "616187e6fe509117abb707c93113607a4ec73b07",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-nuclear-q-value/blob/616187e6fe509117abb707c93113607a4ec73b07/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-gaussian-beam",
+      "repository": "https://github.com/NaNaCompany/eng-gaussian-beam",
+      "commit": "df9d8249691ef8ea971aa046fc8f626af417a333",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-gaussian-beam/blob/df9d8249691ef8ea971aa046fc8f626af417a333/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-malus-intensity",
+      "repository": "https://github.com/NaNaCompany/eng-malus-intensity",
+      "commit": "77a68c9324ad55f82066dd03a69a74cf57fb3718",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-malus-intensity/blob/77a68c9324ad55f82066dd03a69a74cf57fb3718/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-faraday-rotation",
+      "repository": "https://github.com/NaNaCompany/eng-faraday-rotation",
+      "commit": "7cf728d9a80bfebb0beadd8d595f4fbab85637f8",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-faraday-rotation/blob/7cf728d9a80bfebb0beadd8d595f4fbab85637f8/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-collision-restitution",
+      "repository": "https://github.com/NaNaCompany/eng-collision-restitution",
+      "commit": "89f0659bf24289b3f403092956e09abf7692e7a2",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-collision-restitution/blob/89f0659bf24289b3f403092956e09abf7692e7a2/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-rolling-incline",
+      "repository": "https://github.com/NaNaCompany/eng-rolling-incline",
+      "commit": "c92b7261d431625a2596de6aae860ea49c72f965",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-rolling-incline/blob/c92b7261d431625a2596de6aae860ea49c72f965/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-gyroscope-precession",
+      "repository": "https://github.com/NaNaCompany/eng-gyroscope-precession",
+      "commit": "fab35c92e2727838159b1be73d16f377a481c774",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-gyroscope-precession/blob/fab35c92e2727838159b1be73d16f377a481c774/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-coriolis-horizontal",
+      "repository": "https://github.com/NaNaCompany/eng-coriolis-horizontal",
+      "commit": "9f4e958aa3d930124c1a8118e9731f2b59b926ce",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-coriolis-horizontal/blob/9f4e958aa3d930124c1a8118e9731f2b59b926ce/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-capstan-tension",
+      "repository": "https://github.com/NaNaCompany/eng-capstan-tension",
+      "commit": "7a7dbce6886c71124901a3f5be5c332f2f193424",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-capstan-tension/blob/7a7dbce6886c71124901a3f5be5c332f2f193424/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-inertial-atwood",
+      "repository": "https://github.com/NaNaCompany/eng-inertial-atwood",
+      "commit": "497a9a964a805ad271e7c6739b054b181b658e5d",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-inertial-atwood/blob/497a9a964a805ad271e7c6739b054b181b658e5d/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-open-belt-length",
+      "repository": "https://github.com/NaNaCompany/eng-open-belt-length",
+      "commit": "eeed1e88e476f2ecbb0b017a9388c30aad8b4324",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-open-belt-length/blob/eeed1e88e476f2ecbb0b017a9388c30aad8b4324/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-point-mass-inertia",
+      "repository": "https://github.com/NaNaCompany/eng-point-mass-inertia",
+      "commit": "a56299585c13751d6c465b586b7b9808e4abce71",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-point-mass-inertia/blob/a56299585c13751d6c465b586b7b9808e4abce71/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-miner-fatigue",
+      "repository": "https://github.com/NaNaCompany/eng-miner-fatigue",
+      "commit": "8a72cf0a21d6d947a68f3134ec4df87bdfafbd65",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-miner-fatigue/blob/8a72cf0a21d6d947a68f3134ec4df87bdfafbd65/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-forced-vibration",
+      "repository": "https://github.com/NaNaCompany/eng-forced-vibration",
+      "commit": "bc9213349d54d08568c1f4c16c3b79af150978ca",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-forced-vibration/blob/bc9213349d54d08568c1f4c16c3b79af150978ca/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-froude-number",
+      "repository": "https://github.com/NaNaCompany/eng-froude-number",
+      "commit": "25a1121170f23f97f52af787d5ebc61ecc1edfb2",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-froude-number/blob/25a1121170f23f97f52af787d5ebc61ecc1edfb2/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-weber-number",
+      "repository": "https://github.com/NaNaCompany/eng-weber-number",
+      "commit": "1d2b55f7baac417c82a772bc83656aa9ec93afab",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-weber-number/blob/1d2b55f7baac417c82a772bc83656aa9ec93afab/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-bond-number",
+      "repository": "https://github.com/NaNaCompany/eng-bond-number",
+      "commit": "bece62bc7f0143ab982456264a27e4fb9b30427a",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-bond-number/blob/bece62bc7f0143ab982456264a27e4fb9b30427a/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-cavitation-number",
+      "repository": "https://github.com/NaNaCompany/eng-cavitation-number",
+      "commit": "5d6668aa8392dcaf1750fc3d5744353ec4b9cd61",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-cavitation-number/blob/5d6668aa8392dcaf1750fc3d5744353ec4b9cd61/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-hydraulic-jump",
+      "repository": "https://github.com/NaNaCompany/eng-hydraulic-jump",
+      "commit": "f5f00119496593fee6eab3561516eded8253bb78",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-hydraulic-jump/blob/f5f00119496593fee6eab3561516eded8253bb78/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-water-hammer",
+      "repository": "https://github.com/NaNaCompany/eng-water-hammer",
+      "commit": "bcce84e55b4db0bbc5470ae89a1ddd5989a4aee2",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-water-hammer/blob/bcce84e55b4db0bbc5470ae89a1ddd5989a4aee2/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-couette-force",
+      "repository": "https://github.com/NaNaCompany/eng-couette-force",
+      "commit": "4a80e4b6b087ce8c371b13bc0d836a9db8e3865a",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-couette-force/blob/4a80e4b6b087ce8c371b13bc0d836a9db8e3865a/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-rotating-free-surface",
+      "repository": "https://github.com/NaNaCompany/eng-rotating-free-surface",
+      "commit": "2a155f13cc22660029bf52486aad0a5ff33179b3",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-rotating-free-surface/blob/2a155f13cc22660029bf52486aad0a5ff33179b3/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-circulation-lift",
+      "repository": "https://github.com/NaNaCompany/eng-circulation-lift",
+      "commit": "38fe025f7802ba29d0a5659b83dc29b1da00b90d",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-circulation-lift/blob/38fe025f7802ba29d0a5659b83dc29b1da00b90d/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-water-wave-length",
+      "repository": "https://github.com/NaNaCompany/eng-water-wave-length",
+      "commit": "c64b7e46a006251f248825d8f0e86926c7fa135c",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-water-wave-length/blob/c64b7e46a006251f248825d8f0e86926c7fa135c/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-resistor-thermal-noise",
+      "repository": "https://github.com/NaNaCompany/eng-resistor-thermal-noise",
+      "commit": "35b2d3831f5677b5d941b1ad4717597895161064",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-resistor-thermal-noise/blob/35b2d3831f5677b5d941b1ad4717597895161064/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-adc-quantization-noise",
+      "repository": "https://github.com/NaNaCompany/eng-adc-quantization-noise",
+      "commit": "9e108ddb8763721ef6cac8d46f45b7cc7fc7a8d9",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-adc-quantization-noise/blob/9e108ddb8763721ef6cac8d46f45b7cc7fc7a8d9/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-sampling-jitter-snr",
+      "repository": "https://github.com/NaNaCompany/eng-sampling-jitter-snr",
+      "commit": "536fe3829e0916f0bc8b82e265b57227137bc6ac",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-sampling-jitter-snr/blob/536fe3829e0916f0bc8b82e265b57227137bc6ac/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-alias-frequency",
+      "repository": "https://github.com/NaNaCompany/eng-alias-frequency",
+      "commit": "1e1226980a9e97d0e6e72bccf349331a12d651d8",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-alias-frequency/blob/1e1226980a9e97d0e6e72bccf349331a12d651d8/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-shannon-capacity",
+      "repository": "https://github.com/NaNaCompany/eng-shannon-capacity",
+      "commit": "28cdd974f7732e3b7930c79eb8757385b940e4af",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-shannon-capacity/blob/28cdd974f7732e3b7930c79eb8757385b940e4af/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-cascade-noise-figure",
+      "repository": "https://github.com/NaNaCompany/eng-cascade-noise-figure",
+      "commit": "f9491f8e0881eb82af09ee6a85a3823e084454cc",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-cascade-noise-figure/blob/f9491f8e0881eb82af09ee6a85a3823e084454cc/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-free-space-path-loss",
+      "repository": "https://github.com/NaNaCompany/eng-free-space-path-loss",
+      "commit": "f4cd47b41881867f70cd4db98effd91d0b126b66",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-free-space-path-loss/blob/f4cd47b41881867f70cd4db98effd91d0b126b66/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-coax-impedance",
+      "repository": "https://github.com/NaNaCompany/eng-coax-impedance",
+      "commit": "ac61a838f47b59129e4b4c2fb338a9f9b186970a",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-coax-impedance/blob/ac61a838f47b59129e4b4c2fb338a9f9b186970a/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-load-vswr",
+      "repository": "https://github.com/NaNaCompany/eng-load-vswr",
+      "commit": "ac20592d99a07f294e9138edb3e9ecaec3b849ce",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-load-vswr/blob/ac20592d99a07f294e9138edb3e9ecaec3b849ce/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-hall-voltage",
+      "repository": "https://github.com/NaNaCompany/eng-hall-voltage",
+      "commit": "520de518859cec63e7ebc3d407fc9f08c050669c",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-hall-voltage/blob/520de518859cec63e7ebc3d407fc9f08c050669c/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-counterflow-ntu",
+      "repository": "https://github.com/NaNaCompany/eng-counterflow-ntu",
+      "commit": "3cbe71e61dbbc572f50501565b8c8fe6794e2a65",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-counterflow-ntu/blob/3cbe71e61dbbc572f50501565b8c8fe6794e2a65/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-fin-efficiency",
+      "repository": "https://github.com/NaNaCompany/eng-fin-efficiency",
+      "commit": "450045009b190d4832e960c671784e4874df7846",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-fin-efficiency/blob/450045009b190d4832e960c671784e4874df7846/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-heated-slab-center",
+      "repository": "https://github.com/NaNaCompany/eng-heated-slab-center",
+      "commit": "f30370d9773b438d1f98f4635ce0ddc4c79551de",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-heated-slab-center/blob/f30370d9773b438d1f98f4635ce0ddc4c79551de/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-ideal-mixing-entropy",
+      "repository": "https://github.com/NaNaCompany/eng-ideal-mixing-entropy",
+      "commit": "d684eec9a2232070648e2b11b5d8f04bbce143d1",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-ideal-mixing-entropy/blob/d684eec9a2232070648e2b11b5d8f04bbce143d1/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-reaction-equilibrium",
+      "repository": "https://github.com/NaNaCompany/eng-reaction-equilibrium",
+      "commit": "e496b29a9f4dcb44b1a80dcf86d5e6ed6982ce97",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-reaction-equilibrium/blob/e496b29a9f4dcb44b1a80dcf86d5e6ed6982ce97/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-raoult-bubble-pressure",
+      "repository": "https://github.com/NaNaCompany/eng-raoult-bubble-pressure",
+      "commit": "448013614ab0efef24a6f0786a348c53b0d9aa18",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-raoult-bubble-pressure/blob/448013614ab0efef24a6f0786a348c53b0d9aa18/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-electroplating-mass",
+      "repository": "https://github.com/NaNaCompany/eng-electroplating-mass",
+      "commit": "520b324aca513a06b9c179b605476a3d275f48a6",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-electroplating-mass/blob/520b324aca513a06b9c179b605476a3d275f48a6/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-cstr-conversion",
+      "repository": "https://github.com/NaNaCompany/eng-cstr-conversion",
+      "commit": "a085a6aec8ba08d7860181f75073f8c94e741aea",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-cstr-conversion/blob/a085a6aec8ba08d7860181f75073f8c94e741aea/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-welding-line-heat",
+      "repository": "https://github.com/NaNaCompany/eng-welding-line-heat",
+      "commit": "f137122401f9fbf42320e46a8792fa4e974eae03",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-welding-line-heat/blob/f137122401f9fbf42320e46a8792fa4e974eae03/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
+    },
+    {
+      "app_id": "eng-bend-allowance",
+      "repository": "https://github.com/NaNaCompany/eng-bend-allowance",
+      "commit": "854bc008c3a0a99ee238cc849e8c7988499a6098",
+      "source_paths": [
+        "localization/en.json",
+        "localization/ja.json",
+        "localization/zh.json",
+        "localization/es.json",
+        "localization/de.json"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/NaNaCompany/eng-bend-allowance/blob/854bc008c3a0a99ee238cc849e8c7988499a6098/LICENSE"
+      },
+      "modifications": "Adapted title and purpose for directory cards; added original French, Portuguese and Russian translations."
     }
   ]
 }

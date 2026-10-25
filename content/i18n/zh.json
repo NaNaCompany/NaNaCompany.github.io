@@ -796,6 +796,311 @@
       "name": "对数衰减率计算器",
       "description": "根据自由衰减振动中同方向的峰值计算对数衰减率。",
       "image_alt": "对数衰减率计算器"
+    },
+    "world-law-portal": {
+      "name": "世界法律资料库",
+      "description": "以HTML阅读各国法律原文。浏览保留官方来源、版本信息及再利用条件的文献，正文保持原文语言。",
+      "image_alt": "世界法律资料库"
+    },
+    "eng-rocket-delta-v": {
+      "name": "齐奥尔科夫斯基火箭速度增量计算器",
+      "description": "根据燃烧前后的总质量与有效排气速率，计算单次火箭燃烧的理想速度增量。",
+      "image_alt": "齐奥尔科夫斯基火箭速度增量计算器"
+    },
+    "eng-rocket-nozzle-thrust": {
+      "name": "火箭喷管推力计算器",
+      "description": "根据排气动量以及出口与环境的压力差，计算火箭喷管的轴向推力。",
+      "image_alt": "火箭喷管推力计算器"
+    },
+    "eng-tidal-acceleration": {
+      "name": "潮汐差分加速度计算器",
+      "description": "计算同一径向直线上两点的牛顿引力加速度大小之差。",
+      "image_alt": "潮汐差分加速度计算器"
+    },
+    "eng-hill-radius": {
+      "name": "希尔球半径计算器",
+      "description": "估算小质量天体绕主天体作圆轨道运动时的希尔半径。",
+      "image_alt": "希尔球半径计算器"
+    },
+    "eng-fluid-roche-limit": {
+      "name": "流体卫星洛希极限计算器",
+      "description": "估算无抗拉强度流体卫星在经典潮汐作用下发生解体的距离。",
+      "image_alt": "流体卫星洛希极限计算器"
+    },
+    "eng-einstein-ring": {
+      "name": "爱因斯坦环角半径计算器",
+      "description": "采用局部欧几里得几何，计算精确对齐点质量透镜的爱因斯坦环角半径。",
+      "image_alt": "爱因斯坦环角半径计算器"
+    },
+    "eng-eddington-luminosity": {
+      "name": "爱丁顿光度计算器",
+      "description": "计算球对称条件下辐射加速度与引力加速度平衡时的爱丁顿光度标度。",
+      "image_alt": "爱丁顿光度计算器"
+    },
+    "eng-jeans-mass": {
+      "name": "金斯质量计算器",
+      "description": "在线性金斯不稳定性模型中，计算以临界波长为直径的球体质量。",
+      "image_alt": "金斯质量计算器"
+    },
+    "eng-gravitational-redshift": {
+      "name": "引力红移计算器",
+      "description": "计算外部史瓦西时空中两个静止观察者之间的引力波长偏移。",
+      "image_alt": "引力红移计算器"
+    },
+    "eng-transit-depth": {
+      "name": "系外行星凌日深度计算器",
+      "description": "计算不透明行星完全位于恒星视圆面内时遮挡恒星光的理想比例。",
+      "image_alt": "系外行星凌日深度计算器"
+    },
+    "eng-quantum-box-energy": {
+      "name": "无限深量子势阱能级计算器",
+      "description": "计算粒子在一维无限深方势阱中的能级。",
+      "image_alt": "无限深量子势阱能级计算器"
+    },
+    "eng-barrier-tunneling": {
+      "name": "矩形势垒透射率计算器",
+      "description": "计算入射能量低于、等于或高于矩形势垒时的透射概率。",
+      "image_alt": "矩形势垒透射率计算器"
+    },
+    "eng-hydrogen-transition": {
+      "name": "氢原子跃迁波长计算器",
+      "description": "采用里德伯模型，根据两个主量子数估算氢原子发射波长。",
+      "image_alt": "氢原子跃迁波长计算器"
+    },
+    "eng-quantum-oscillator": {
+      "name": "量子谐振子能级计算器",
+      "description": "计算包含零点能的一维量子谐振子能级。",
+      "image_alt": "量子谐振子能级计算器"
+    },
+    "eng-compton-shift": {
+      "name": "康普顿散射波长变化计算器",
+      "description": "计算光子被初始静止自由靶粒子散射后的波长增量。",
+      "image_alt": "康普顿散射波长变化计算器"
+    },
+    "eng-photoelectric-stop": {
+      "name": "光电效应遏止电压计算器",
+      "description": "采用单光子模型，计算阻止最快光电子所需的反向电压大小。",
+      "image_alt": "光电效应遏止电压计算器"
+    },
+    "eng-nuclear-q-value": {
+      "name": "核反应 Q 值计算器",
+      "description": "根据总静止质量之差，计算每次反应释放或吸收的能量。",
+      "image_alt": "核反应 Q 值计算器"
+    },
+    "eng-gaussian-beam": {
+      "name": "高斯光束半径计算器",
+      "description": "计算理想高斯光束在距束腰指定距离处的半径。",
+      "image_alt": "高斯光束半径计算器"
+    },
+    "eng-malus-intensity": {
+      "name": "马吕斯定律透射光强计算器",
+      "description": "计算线偏振光通过理想检偏器后的光强。",
+      "image_alt": "马吕斯定律透射光强计算器"
+    },
+    "eng-faraday-rotation": {
+      "name": "法拉第偏振旋转计算器",
+      "description": "计算均匀纵向磁场中的法拉第偏振旋转。",
+      "image_alt": "法拉第偏振旋转计算器"
+    },
+    "eng-collision-restitution": {
+      "name": "含恢复系数的碰撞速度计算器",
+      "description": "根据线动量守恒和恢复系数，求第一个物体的碰撞后速度。",
+      "image_alt": "含恢复系数的碰撞速度计算器"
+    },
+    "eng-rolling-incline": {
+      "name": "斜面滚动加速度计算器",
+      "description": "同时考虑平动和转动，计算物体沿斜面向下的加速度。",
+      "image_alt": "斜面滚动加速度计算器"
+    },
+    "eng-gyroscope-precession": {
+      "name": "陀螺进动计算器",
+      "description": "估算快速自转的对称陀螺在重力作用下的缓慢稳态进动。",
+      "image_alt": "陀螺进动计算器"
+    },
+    "eng-coriolis-horizontal": {
+      "name": "水平科里奥利加速度计算器",
+      "description": "计算指定纬度处垂直于水平运动方向的科里奥利加速度分量。",
+      "image_alt": "水平科里奥利加速度计算器"
+    },
+    "eng-capstan-tension": {
+      "name": "绞盘绳索极限张力计算器",
+      "description": "计算柔性绳索绕圆柱鼓轮即将滑动时的较大侧张力。",
+      "image_alt": "绞盘绳索极限张力计算器"
+    },
+    "eng-inertial-atwood": {
+      "name": "含滑轮转动惯量的阿特伍德加速度计算器",
+      "description": "计算两悬挂质量通过具有转动惯量的滑轮相连时的加速度。",
+      "image_alt": "含滑轮转动惯量的阿特伍德加速度计算器"
+    },
+    "eng-open-belt-length": {
+      "name": "开口带传动精确带长计算器",
+      "description": "利用公切线和圆弧几何，计算不交叉带传动的节线长度。",
+      "image_alt": "开口带传动精确带长计算器"
+    },
+    "eng-point-mass-inertia": {
+      "name": "质点转动惯量计算器",
+      "description": "根据质点列表及其到同一指定轴的垂直距离，求转动惯量之和。",
+      "image_alt": "质点转动惯量计算器"
+    },
+    "eng-miner-fatigue": {
+      "name": "迈纳累计疲劳损伤计算器",
+      "description": "根据可编辑列表中的实际循环数和容许循环数，合计疲劳损伤份额。",
+      "image_alt": "迈纳累计疲劳损伤计算器"
+    },
+    "eng-forced-vibration": {
+      "name": "强迫振动稳态振幅计算器",
+      "description": "计算单自由度质量–弹簧–阻尼系统的简谐稳态位移振幅。",
+      "image_alt": "强迫振动稳态振幅计算器"
+    },
+    "eng-froude-number": {
+      "name": "弗劳德数计算器",
+      "description": "采用断面平均流速和水力深度，计算明渠流动的弗劳德数；水力深度定义为过水面积除以自由水面宽度。",
+      "image_alt": "弗劳德数计算器"
+    },
+    "eng-weber-number": {
+      "name": "韦伯数计算器",
+      "description": "根据指定特征长度和相对速率，计算惯性作用与界面张力作用之比。",
+      "image_alt": "韦伯数计算器"
+    },
+    "eng-bond-number": {
+      "name": "邦德数计算器",
+      "description": "计算两流体密度差引起的重力作用与界面张力作用的大小之比。",
+      "image_alt": "邦德数计算器"
+    },
+    "eng-cavitation-number": {
+      "name": "空化数计算器",
+      "description": "将参考绝对压力与饱和蒸气压之差除以动压，计算空化指标。",
+      "image_alt": "空化数计算器"
+    },
+    "eng-hydraulic-jump": {
+      "name": "水跃共轭水深计算器",
+      "description": "利用动量守恒，计算水平矩形渠道中上游急流对应的下游共轭水深。",
+      "image_alt": "水跃共轭水深计算器"
+    },
+    "eng-water-hammer": {
+      "name": "茹科夫斯基水锤压力变化计算器",
+      "description": "估算液体流速快速变化后，在下游扰动处产生并向上游传播的初始压力波。",
+      "image_alt": "茹科夫斯基水锤压力变化计算器"
+    },
+    "eng-couette-force": {
+      "name": "平面库埃特流阻力计算器",
+      "description": "根据平行板间的线性速度分布，计算运动板单面所受黏性阻力的大小。",
+      "image_alt": "平面库埃特流阻力计算器"
+    },
+    "eng-rotating-free-surface": {
+      "name": "旋转液体自由液面高度差计算器",
+      "description": "计算液体与容器作刚体旋转时，两个径向位置之间的自由液面高度差。",
+      "image_alt": "旋转液体自由液面高度差计算器"
+    },
+    "eng-circulation-lift": {
+      "name": "环量单位翼展升力计算器",
+      "description": "利用库塔–茹科夫斯基关系，计算稳态二维环量流动的有符号单位翼展升力。",
+      "image_alt": "环量单位翼展升力计算器"
+    },
+    "eng-water-wave-length": {
+      "name": "有限水深重力波波长计算器",
+      "description": "求解有限水深线性重力波色散方程的正波数，获得连续覆盖浅水与深水情况的波长。",
+      "image_alt": "有限水深重力波波长计算器"
+    },
+    "eng-resistor-thermal-noise": {
+      "name": "电阻热噪声计算器",
+      "description": "根据电阻温度和等效噪声带宽，估算电阻开路热噪声电压的有效值。",
+      "image_alt": "电阻热噪声计算器"
+    },
+    "eng-adc-quantization-noise": {
+      "name": "ADC 量化噪声计算器",
+      "description": "根据均匀 N 位量化器的完整输入电压范围，计算理想量化误差有效值。",
+      "image_alt": "ADC 量化噪声计算器"
+    },
+    "eng-sampling-jitter-snr": {
+      "name": "采样抖动信噪比计算器",
+      "description": "估算采样正弦波时仅由时间抖动限制的信噪比。",
+      "image_alt": "采样抖动信噪比计算器"
+    },
+    "eng-alias-frequency": {
+      "name": "采样混叠频率计算器",
+      "description": "将均匀采样实正弦信号的频率折叠到零至采样率一半的区间。",
+      "image_alt": "采样混叠频率计算器"
+    },
+    "eng-shannon-capacity": {
+      "name": "香农信道容量计算器",
+      "description": "根据带宽和接收信噪比，计算带限加性白高斯噪声信道的香农容量。",
+      "image_alt": "香农信道容量计算器"
+    },
+    "eng-cascade-noise-figure": {
+      "name": "级联噪声系数计算器",
+      "description": "利用弗里斯级联关系，合成有序各级的功率增益与噪声系数。",
+      "image_alt": "级联噪声系数计算器"
+    },
+    "eng-free-space-path-loss": {
+      "name": "自由空间路径损耗计算器",
+      "description": "计算远场自由空间传播中由几何扩散导致的各向同性天线参考路径损耗。",
+      "image_alt": "自由空间路径损耗计算器"
+    },
+    "eng-coax-impedance": {
+      "name": "同轴线特性阻抗计算器",
+      "description": "根据导体半径与均匀介质物性，计算同心同轴线的无损 TEM 模特性阻抗。",
+      "image_alt": "同轴线特性阻抗计算器"
+    },
+    "eng-load-vswr": {
+      "name": "复数负载电压驻波比计算器",
+      "description": "根据实数参考阻抗和有限复数负载阻抗，计算电压驻波比。",
+      "image_alt": "复数负载电压驻波比计算器"
+    },
+    "eng-hall-voltage": {
+      "name": "霍尔电压计算器",
+      "description": "计算仅含一种载流子的平板样品的有符号霍尔电压。",
+      "image_alt": "霍尔电压计算器"
+    },
+    "eng-counterflow-ntu": {
+      "name": "逆流换热器计算器",
+      "description": "根据 UA、两股流体的热容量流率及入口温度，计算单程逆流换热器的稳态传热率。",
+      "image_alt": "逆流换热器计算器"
+    },
+    "eng-fin-efficiency": {
+      "name": "绝热端肋片效率计算器",
+      "description": "比较均匀直肋片的实际传热量与整个肋片表面均处于基底温度时的理想传热量。",
+      "image_alt": "绝热端肋片效率计算器"
+    },
+    "eng-heated-slab-center": {
+      "name": "内热源平板中心温度计算器",
+      "description": "计算均匀内发热、两表面温度相同且给定的平板在稳态下的最高中心温度。",
+      "image_alt": "内热源平板中心温度计算器"
+    },
+    "eng-ideal-mixing-entropy": {
+      "name": "理想气体混合熵计算器",
+      "description": "计算不同理想气体在初始温度和压力相同时从隔开状态混合的熵增。",
+      "image_alt": "理想气体混合熵计算器"
+    },
+    "eng-reaction-equilibrium": {
+      "name": "反应平衡常数计算器",
+      "description": "根据指定反应和标准态的标准反应吉布斯能，计算无量纲热力学平衡常数。",
+      "image_alt": "反应平衡常数计算器"
+    },
+    "eng-raoult-bubble-pressure": {
+      "name": "理想混合物泡点压力计算器",
+      "description": "根据液相组成及同一温度下纯组分的蒸气压，计算理想液体溶液开始沸腾时的总压力。",
+      "image_alt": "理想混合物泡点压力计算器"
+    },
+    "eng-electroplating-mass": {
+      "name": "电镀沉积质量计算器",
+      "description": "采用法拉第定律和输入的电流效率，计算目标电极反应的沉积质量。",
+      "image_alt": "电镀沉积质量计算器"
+    },
+    "eng-cstr-conversion": {
+      "name": "一级反应 CSTR 转化率计算器",
+      "description": "计算完全混合连续搅拌釜式反应器中不可逆一级反应的稳态转化率。",
+      "image_alt": "一级反应 CSTR 转化率计算器"
+    },
+    "eng-welding-line-heat": {
+      "name": "单位焊缝长度热输入计算器",
+      "description": "计算电压、电流和焊接速度恒定时，每单位焊缝长度传入工件的热能。",
+      "image_alt": "单位焊缝长度热输入计算器"
+    },
+    "eng-bend-allowance": {
+      "name": "钣金折弯展开长度计算器",
+      "description": "根据输入的 K 因子确定中性层位置，计算单个圆弧折弯部分的展开长度。",
+      "image_alt": "钣金折弯展开长度计算器"
     }
   },
   "schema_version": "1.0",

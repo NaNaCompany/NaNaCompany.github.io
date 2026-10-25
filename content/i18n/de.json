@@ -796,6 +796,311 @@
       "name": "Logarithmischer Dekrementrechner",
       "description": "Berechnen Sie das logarithmische Dekrement aus gleichgerichteten Amplitudenspitzen einer frei abklingenden Schwingung.",
       "image_alt": "Logarithmischer Dekrementrechner"
+    },
+    "world-law-portal": {
+      "name": "Weltweites Gesetzesarchiv",
+      "description": "Lesen Sie nationale Rechtsvorschriften als HTML in der Originalsprache. Finden Sie Dokumente mit offiziellen Quellen, Fassungsangaben und Nutzungsbedingungen.",
+      "image_alt": "Weltweites Gesetzesarchiv"
+    },
+    "eng-rocket-delta-v": {
+      "name": "Ziolkowski-Rechner für das Raketen-Δv",
+      "description": "Berechnen Sie das ideale Δv eines einzelnen Raketenbrennmanövers aus Gesamtmassen und effektiver Ausströmgeschwindigkeit.",
+      "image_alt": "Ziolkowski-Rechner für das Raketen-Δv"
+    },
+    "eng-rocket-nozzle-thrust": {
+      "name": "Rechner für den Schub einer Raketendüse",
+      "description": "Berechnen Sie den axialen Raketendüsenschub aus dem Abgasimpuls und der Druckdifferenz zwischen Ausgang und Umgebung.",
+      "image_alt": "Rechner für den Schub einer Raketendüse"
+    },
+    "eng-tidal-acceleration": {
+      "name": "Rechner für die gravitative Differenzbeschleunigung",
+      "description": "Berechnen Sie die Differenz der Newtonschen Gravitationsbeschleunigungsgrößen an zwei radial ausgerichteten Punkten.",
+      "image_alt": "Rechner für die gravitative Differenzbeschleunigung"
+    },
+    "eng-hill-radius": {
+      "name": "Rechner für den Hill-Radius",
+      "description": "Schätzen Sie den Hill-Radius eines massearmen Körpers auf einer Kreisbahn um einen Zentralkörper.",
+      "image_alt": "Rechner für den Hill-Radius"
+    },
+    "eng-fluid-roche-limit": {
+      "name": "Rechner für die Roche-Grenze eines flüssigen Satelliten",
+      "description": "Schätzen Sie den klassischen Abstand, bei dem ein flüssiger Satellit ohne Zugfestigkeit durch Gezeitenkräfte zerreißt.",
+      "image_alt": "Rechner für die Roche-Grenze eines flüssigen Satelliten"
+    },
+    "eng-einstein-ring": {
+      "name": "Rechner für den Winkelradius eines Einstein-Rings",
+      "description": "Berechnen Sie den Winkelradius des Einstein-Rings für eine ausgerichtete Punktlinse in lokaler euklidischer Geometrie.",
+      "image_alt": "Rechner für den Winkelradius eines Einstein-Rings"
+    },
+    "eng-eddington-luminosity": {
+      "name": "Rechner für die Eddington-Leuchtkraft",
+      "description": "Berechnen Sie die sphärische Eddington-Leuchtkraftskala, bei der Strahlungs- und Gravitationsbeschleunigung im Gleichgewicht sind.",
+      "image_alt": "Rechner für die Eddington-Leuchtkraft"
+    },
+    "eng-jeans-mass": {
+      "name": "Rechner für die Jeans-Masse",
+      "description": "Berechnen Sie im linearen Jeans-Instabilitätsmodell die Masse einer Kugel mit der kritischen Wellenlänge als Durchmesser.",
+      "image_alt": "Rechner für die Jeans-Masse"
+    },
+    "eng-gravitational-redshift": {
+      "name": "Rechner für die gravitative Rotverschiebung",
+      "description": "Berechnen Sie die gravitative Wellenlängenverschiebung zwischen zwei statischen Beobachtern in der äußeren Schwarzschild-Raumzeit.",
+      "image_alt": "Rechner für die gravitative Rotverschiebung"
+    },
+    "eng-transit-depth": {
+      "name": "Rechner für die Transittiefe eines Exoplaneten",
+      "description": "Berechnen Sie den idealen Anteil des Sternlichts, der von einem undurchsichtigen Planeten vollständig innerhalb der Sternscheibe blockiert wird.",
+      "image_alt": "Rechner für die Transittiefe eines Exoplaneten"
+    },
+    "eng-quantum-box-energy": {
+      "name": "Rechner für die Energie im unendlich hohen Potentialtopf",
+      "description": "Berechnen Sie ein Energieniveau für ein Teilchen in einem eindimensionalen unendlich hohen rechteckigen Potentialtopf.",
+      "image_alt": "Rechner für die Energie im unendlich hohen Potentialtopf"
+    },
+    "eng-barrier-tunneling": {
+      "name": "Rechner für die Transmission durch eine Rechteckbarriere",
+      "description": "Berechnen Sie die Transmissionswahrscheinlichkeit bei einer Energie unterhalb, genau auf Höhe oder oberhalb einer Rechteckbarriere.",
+      "image_alt": "Rechner für die Transmission durch eine Rechteckbarriere"
+    },
+    "eng-hydrogen-transition": {
+      "name": "Rechner für die Wasserstoff-Übergangswellenlänge",
+      "description": "Schätzen Sie die Wellenlänge der Wasserstoffemission zwischen zwei Hauptquantenzahlen mithilfe eines Rydberg-Modells.",
+      "image_alt": "Rechner für die Wasserstoff-Übergangswellenlänge"
+    },
+    "eng-quantum-oscillator": {
+      "name": "Rechner für die Energie des quantenmechanischen harmonischen Oszillators",
+      "description": "Berechnen Sie ein eindimensionales quantenharmonisches Oszillatorniveau einschließlich seiner Nullpunktsenergie.",
+      "image_alt": "Rechner für die Energie des quantenmechanischen harmonischen Oszillators"
+    },
+    "eng-compton-shift": {
+      "name": "Rechner für die Compton-Wellenlängenänderung",
+      "description": "Berechnen Sie die Zunahme der Photonenwellenlänge bei Streuung an einem anfangs ruhenden freien Teilchen.",
+      "image_alt": "Rechner für die Compton-Wellenlängenänderung"
+    },
+    "eng-photoelectric-stop": {
+      "name": "Rechner für die Gegenspannung beim Photoeffekt",
+      "description": "Berechnen Sie die Größe der Sperrspannung, die erforderlich ist, um die schnellsten Photoelektronen in einem Einzelphotonenmodell zu stoppen.",
+      "image_alt": "Rechner für die Gegenspannung beim Photoeffekt"
+    },
+    "eng-nuclear-q-value": {
+      "name": "Rechner für den Q-Wert einer Kernreaktion",
+      "description": "Berechnen Sie die Energiefreisetzung oder -aufnahme pro Reaktion aus der gesamten Ruhemassedifferenz.",
+      "image_alt": "Rechner für den Q-Wert einer Kernreaktion"
+    },
+    "eng-gaussian-beam": {
+      "name": "Rechner für den Gaußstrahlradius",
+      "description": "Berechnen Sie den Radius eines idealen Gaußstrahls in einem bestimmten Abstand von der Strahltaille.",
+      "image_alt": "Rechner für den Gaußstrahlradius"
+    },
+    "eng-malus-intensity": {
+      "name": "Rechner für die transmittierte Intensität nach dem Malus-Gesetz",
+      "description": "Berechnen Sie die Intensität linear polarisierten Lichts nach einem idealen Analysator.",
+      "image_alt": "Rechner für die transmittierte Intensität nach dem Malus-Gesetz"
+    },
+    "eng-faraday-rotation": {
+      "name": "Rechner für die Faraday-Polarisationsdrehung",
+      "description": "Berechnen Sie die Faraday-Drehung der Polarisation in einem homogenen longitudinalen Magnetfeld.",
+      "image_alt": "Rechner für die Faraday-Polarisationsdrehung"
+    },
+    "eng-collision-restitution": {
+      "name": "Rechner für die Stoßgeschwindigkeit mit Stoßzahl",
+      "description": "Bestimmen Sie die Endgeschwindigkeit des ersten Körpers aus Impulserhaltung und Stoßzahl.",
+      "image_alt": "Rechner für die Stoßgeschwindigkeit mit Stoßzahl"
+    },
+    "eng-rolling-incline": {
+      "name": "Rechner für die Rollbeschleunigung auf einer schiefen Ebene",
+      "description": "Berechnen Sie die Hangabwärtsbeschleunigung unter Berücksichtigung von Translation und Rotation.",
+      "image_alt": "Rechner für die Rollbeschleunigung auf einer schiefen Ebene"
+    },
+    "eng-gyroscope-precession": {
+      "name": "Rechner für die Kreiselpräzession",
+      "description": "Schätzen Sie die langsame, stetige Gravitationspräzession für ein sich schnell drehendes symmetrisches Gyroskop.",
+      "image_alt": "Rechner für die Kreiselpräzession"
+    },
+    "eng-coriolis-horizontal": {
+      "name": "Rechner für die horizontale Coriolisbeschleunigung",
+      "description": "Berechnen Sie die Coriolis-Beschleunigungskomponente senkrecht zur horizontalen Bewegung auf einem angegebenen Breitengrad.",
+      "image_alt": "Rechner für die horizontale Coriolisbeschleunigung"
+    },
+    "eng-capstan-tension": {
+      "name": "Rechner für die Grenzseilkraft nach der Seilreibungsformel",
+      "description": "Finden Sie die größere Seilspannung bei drohendem Schlupf um eine zylindrische Trommel.",
+      "image_alt": "Rechner für die Grenzseilkraft nach der Seilreibungsformel"
+    },
+    "eng-inertial-atwood": {
+      "name": "Rechner für die Atwood-Beschleunigung mit Rollenträgheit",
+      "description": "Berechnen Sie die Beschleunigung zweier hängender Massen, die über eine Rolle mit Rotationsträgheit verbunden sind.",
+      "image_alt": "Rechner für die Atwood-Beschleunigung mit Rollenträgheit"
+    },
+    "eng-open-belt-length": {
+      "name": "Rechner für die exakte Länge eines offenen Riemens",
+      "description": "Berechnen Sie die Wirklinienlänge eines ungekreuzten Riemens mithilfe der Tangenten- und Kreisbogen-Geometrie.",
+      "image_alt": "Rechner für die exakte Länge eines offenen Riemens"
+    },
+    "eng-point-mass-inertia": {
+      "name": "Rechner für das Trägheitsmoment von Punktmassen",
+      "description": "Summieren Sie das Trägheitsmoment einer Liste von Punktmassen unter Verwendung senkrechter Abstände zu einer angegebenen Achse.",
+      "image_alt": "Rechner für das Trägheitsmoment von Punktmassen"
+    },
+    "eng-miner-fatigue": {
+      "name": "Rechner für die kumulative Ermüdungsschädigung nach Miner",
+      "description": "Summieren Sie Ermüdungsschadenanteile aus einer bearbeitbaren Liste der angewendeten und zulässigen Zyklenzahlen.",
+      "image_alt": "Rechner für die kumulative Ermüdungsschädigung nach Miner"
+    },
+    "eng-forced-vibration": {
+      "name": "Rechner für die stationäre Amplitude erzwungener Schwingungen",
+      "description": "Berechnen Sie die harmonische stationäre Auslenkungsamplitude eines Masse-Feder-Dämpfer-Systems mit einem Freiheitsgrad.",
+      "image_alt": "Rechner für die stationäre Amplitude erzwungener Schwingungen"
+    },
+    "eng-froude-number": {
+      "name": "Rechner für die Froude-Zahl",
+      "description": "Berechnen Sie die Froude-Zahl einer Gerinneströmung aus der querschnittsgemittelten Geschwindigkeit und der hydraulischen Tiefe, also Fließquerschnitt geteilt durch freie Wasserspiegelbreite.",
+      "image_alt": "Rechner für die Froude-Zahl"
+    },
+    "eng-weber-number": {
+      "name": "Rechner für die Weber-Zahl",
+      "description": "Berechnen Sie das Verhältnis von Trägheit zu Grenzflächenspannungseffekten für eine angegebene charakteristische Länge und Relativgeschwindigkeit.",
+      "image_alt": "Rechner für die Weber-Zahl"
+    },
+    "eng-bond-number": {
+      "name": "Rechner für die Bond-Zahl",
+      "description": "Berechnen Sie das Größenverhältnis der Schwerkraft aufgrund des Dichteunterschieds zwischen zwei Flüssigkeiten zur Grenzflächenspannung.",
+      "image_alt": "Rechner für die Bond-Zahl"
+    },
+    "eng-cavitation-number": {
+      "name": "Rechner für die Kavitationszahl",
+      "description": "Berechnen Sie einen Kavitationsindex, indem Sie die Spanne zwischen dem absoluten Referenzdruck und dem Sättigungsdampfdruck durch den dynamischen Druck dividieren.",
+      "image_alt": "Rechner für die Kavitationszahl"
+    },
+    "eng-hydraulic-jump": {
+      "name": "Rechner für die konjugierte Tiefe beim Wechselsprung",
+      "description": "Berechnen Sie mithilfe der Impulserhaltung die konjugierte unterstromige Wassertiefe für schießende oberstromige Strömung in einem horizontalen Rechteckgerinne.",
+      "image_alt": "Rechner für die konjugierte Tiefe beim Wechselsprung"
+    },
+    "eng-water-hammer": {
+      "name": "Rechner für die Druckstoßänderung nach Joukowsky",
+      "description": "Schätzen Sie die anfängliche Druckwelle ab, die bei einer stromabwärtigen Störung erzeugt wird und sich nach einer schnellen Änderung der Flüssigkeitsgeschwindigkeit stromaufwärts ausbreitet.",
+      "image_alt": "Rechner für die Druckstoßänderung nach Joukowsky"
+    },
+    "eng-couette-force": {
+      "name": "Rechner für die Reibungskraft bei ebener Couette-Strömung",
+      "description": "Berechnen Sie die Größe der viskosen Widerstandskraft auf einer Seite einer beweglichen Platte aus dem linearen Geschwindigkeitsprofil zwischen parallelen Platten.",
+      "image_alt": "Rechner für die Reibungskraft bei ebener Couette-Strömung"
+    },
+    "eng-rotating-free-surface": {
+      "name": "Rechner für die Höhendifferenz einer rotierenden Flüssigkeitsoberfläche",
+      "description": "Berechnen Sie den vorzeichenbehafteten Höhenunterschied der freien Oberfläche zwischen zwei radialen Positionen, wenn die Flüssigkeit als starrer Körper mit seinem Behälter rotiert.",
+      "image_alt": "Rechner für die Höhendifferenz einer rotierenden Flüssigkeitsoberfläche"
+    },
+    "eng-circulation-lift": {
+      "name": "Rechner für den zirkulationsbedingten Auftrieb pro Spannweite",
+      "description": "Berechnen Sie den vorzeichenbehafteten Auftrieb pro Spannweiteneinheit aus der Kutta-Joukowski-Beziehung für eine stetige zweidimensionale Zirkulationsströmung.",
+      "image_alt": "Rechner für den zirkulationsbedingten Auftrieb pro Spannweite"
+    },
+    "eng-water-wave-length": {
+      "name": "Rechner für die Schwerewellenlänge bei endlicher Wassertiefe",
+      "description": "Lösen Sie die lineare Dispersionsgleichung für Schwerewellen bei endlicher Wassertiefe nach der positiven Wellenzahl, um die Wellenlänge durchgehend für Flach- und Tiefwasser zu erhalten.",
+      "image_alt": "Rechner für die Schwerewellenlänge bei endlicher Wassertiefe"
+    },
+    "eng-resistor-thermal-noise": {
+      "name": "Rechner für thermisches Widerstandsrauschen",
+      "description": "Schätzen Sie die RMS-Leerlauf-Thermorauschspannung eines Widerstands anhand seiner Temperatur und der äquivalenten Rauschbandbreite.",
+      "image_alt": "Rechner für thermisches Widerstandsrauschen"
+    },
+    "eng-adc-quantization-noise": {
+      "name": "Rechner für ADC-Quantisierungsrauschen",
+      "description": "Berechnen Sie den idealen RMS-Quantisierungsfehler für einen gleichmäßigen N-Bit-Quantisierer über den gesamten Eingangsspannungsbereich.",
+      "image_alt": "Rechner für ADC-Quantisierungsrauschen"
+    },
+    "eng-sampling-jitter-snr": {
+      "name": "Rechner für das durch Abtastjitter begrenzte SNR",
+      "description": "Schätzen Sie das Signal-Rausch-Verhältnis, das allein durch Timing-Jitter beim Abtasten einer Sinuswelle verursacht wird.",
+      "image_alt": "Rechner für das durch Abtastjitter begrenzte SNR"
+    },
+    "eng-alias-frequency": {
+      "name": "Rechner für die Aliasfrequenz bei Abtastung",
+      "description": "Falten Sie eine gleichmäßig abgetastete reale Sinuskurve in das Frequenzintervall von Null bis zur Hälfte der Abtastrate.",
+      "image_alt": "Rechner für die Aliasfrequenz bei Abtastung"
+    },
+    "eng-shannon-capacity": {
+      "name": "Rechner für die Shannon-Kanalkapazität",
+      "description": "Berechnen Sie die Shannon-Kapazität eines bandbegrenzten AWGN-Kanals aus der Bandbreite und dem empfangenen SNR.",
+      "image_alt": "Rechner für die Shannon-Kanalkapazität"
+    },
+    "eng-cascade-noise-figure": {
+      "name": "Rechner für die Rauschzahl einer Kaskade",
+      "description": "Kombinieren Sie die Leistungsverstärkung und die Rauschzahl einer geordneten Liste von Stufen mithilfe der Friis-Kaskadenbeziehung.",
+      "image_alt": "Rechner für die Rauschzahl einer Kaskade"
+    },
+    "eng-free-space-path-loss": {
+      "name": "Rechner für die Freiraumdämpfung",
+      "description": "Berechnen Sie den isotropen Referenzpfadverlust, der durch geometrische Ausbreitung bei der Ausbreitung im Fernfeld im freien Raum verursacht wird.",
+      "image_alt": "Rechner für die Freiraumdämpfung"
+    },
+    "eng-coax-impedance": {
+      "name": "Rechner für den Wellenwiderstand einer Koaxialleitung",
+      "description": "Berechnen Sie die verlustfreie TEM-Wellenimpedanz einer konzentrischen Koaxialleitung anhand ihrer Leiterradien und gleichmäßigen dielektrischen Eigenschaften.",
+      "image_alt": "Rechner für den Wellenwiderstand einer Koaxialleitung"
+    },
+    "eng-load-vswr": {
+      "name": "Rechner für das VSWR einer komplexen Last",
+      "description": "Berechnen Sie das Spannungs-Stehwellenverhältnis aus einer realen Referenzimpedanz und einer endlichen komplexen Lastimpedanz.",
+      "image_alt": "Rechner für das VSWR einer komplexen Last"
+    },
+    "eng-hall-voltage": {
+      "name": "Rechner für die Hall-Spannung",
+      "description": "Berechnen Sie die Hall-Spannung mit Vorzeichen für eine flache Probe mit einem einzigen Ladungsträgertyp.",
+      "image_alt": "Rechner für die Hall-Spannung"
+    },
+    "eng-counterflow-ntu": {
+      "name": "Rechner für einen Gegenstrom-Wärmeübertrager",
+      "description": "Berechnen Sie den stationär übertragenen Wärmestrom eines einzügigen Gegenstrom-Wärmeübertragers aus UA, Wärmekapazitätsströmen und Eintrittstemperaturen.",
+      "image_alt": "Rechner für einen Gegenstrom-Wärmeübertrager"
+    },
+    "eng-fin-efficiency": {
+      "name": "Rechner für den Rippenwirkungsgrad bei isolierter Spitze",
+      "description": "Vergleichen Sie die Wärmeübertragung einer geraden, gleichmäßigen Rippe mit der idealen Wärmeübertragung, wenn ihre gesamte Oberfläche die Grundtemperatur hätte.",
+      "image_alt": "Rechner für den Rippenwirkungsgrad bei isolierter Spitze"
+    },
+    "eng-heated-slab-center": {
+      "name": "Rechner für die Mittentemperatur einer intern beheizten Platte",
+      "description": "Berechnen Sie die stationäre maximale Mittentemperatur einer Platte mit gleichmäßiger innerer Wärmeerzeugung und gleicher vorgegebener Temperatur beider Oberflächen.",
+      "image_alt": "Rechner für die Mittentemperatur einer intern beheizten Platte"
+    },
+    "eng-ideal-mixing-entropy": {
+      "name": "Rechner für die Mischungsentropie idealer Gase",
+      "description": "Finden Sie die Entropiezunahme, wenn verschiedene ideale Gase, die zunächst bei der gleichen Temperatur und dem gleichen Druck getrennt wurden, gemischt werden.",
+      "image_alt": "Rechner für die Mischungsentropie idealer Gase"
+    },
+    "eng-reaction-equilibrium": {
+      "name": "Rechner für die Reaktionsgleichgewichtskonstante",
+      "description": "Berechnen Sie die dimensionslose thermodynamische Gleichgewichtskonstante aus der Standard-Reaktions-Gibbs-Energie für eine festgelegte Reaktion und einen festgelegten Standardzustand.",
+      "image_alt": "Rechner für die Reaktionsgleichgewichtskonstante"
+    },
+    "eng-raoult-bubble-pressure": {
+      "name": "Rechner für den Blasenpunktdruck einer idealen Mischung",
+      "description": "Berechnen Sie den Gesamtdruck zu Beginn des Siedens in einer idealen flüssigen Lösung aus der Flüssigkeitszusammensetzung und dem Dampfdruck der reinen Komponenten bei einer gemeinsamen Temperatur.",
+      "image_alt": "Rechner für den Blasenpunktdruck einer idealen Mischung"
+    },
+    "eng-electroplating-mass": {
+      "name": "Rechner für die galvanisch abgeschiedene Masse",
+      "description": "Berechnen Sie mit dem Faraday-Gesetz und der eingegebenen Stromausbeute die durch die gewünschte Elektrodenreaktion abgeschiedene Masse.",
+      "image_alt": "Rechner für die galvanisch abgeschiedene Masse"
+    },
+    "eng-cstr-conversion": {
+      "name": "Rechner für den Umsatz erster Ordnung im CSTR",
+      "description": "Berechnen Sie den stationären Umsatz einer irreversiblen Reaktion erster Ordnung in einem perfekt gemischten kontinuierlichen Rührkesselreaktor.",
+      "image_alt": "Rechner für den Umsatz erster Ordnung im CSTR"
+    },
+    "eng-welding-line-heat": {
+      "name": "Rechner für die Wärmeeinbringung pro Schweißlänge",
+      "description": "Berechnen Sie die pro Schweißnahtlänge an das Werkstück abgegebene Wärmeenergie bei konstanter Spannung, Stromstärke und Verfahrgeschwindigkeit.",
+      "image_alt": "Rechner für die Wärmeeinbringung pro Schweißlänge"
+    },
+    "eng-bend-allowance": {
+      "name": "Rechner für die Biegezugabe von Blech",
+      "description": "Bestimmen Sie mit einem eingegebenen K-Faktor die Lage der neutralen Achse und berechnen Sie die abgewickelte Länge einer einzelnen kreisförmigen Biegung.",
+      "image_alt": "Rechner für die Biegezugabe von Blech"
     }
   },
   "schema_version": "1.0",

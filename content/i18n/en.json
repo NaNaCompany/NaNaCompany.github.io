@@ -796,6 +796,311 @@
       "name": "Logarithmic Decrement Calculator",
       "description": "Calculate logarithmic decrement from same-direction free-decay peaks.",
       "image_alt": "Logarithmic Decrement Calculator"
+    },
+    "world-law-portal": {
+      "name": "World Law Library",
+      "description": "Read national legislation as HTML in its original language. Browse documents with official sources, edition information and reuse terms.",
+      "image_alt": "World Law Library"
+    },
+    "eng-rocket-delta-v": {
+      "name": "Tsiolkovsky Rocket Delta V Calculator",
+      "description": "Calculate the ideal delta v from one rocket burn using total masses and effective exhaust speed.",
+      "image_alt": "Tsiolkovsky Rocket Delta V Calculator"
+    },
+    "eng-rocket-nozzle-thrust": {
+      "name": "Rocket Nozzle Thrust Calculator",
+      "description": "Calculate axial rocket nozzle thrust from exhaust momentum and the exit-to-ambient pressure difference.",
+      "image_alt": "Rocket Nozzle Thrust Calculator"
+    },
+    "eng-tidal-acceleration": {
+      "name": "Tidal Differential Acceleration Calculator",
+      "description": "Calculate the difference in Newtonian gravitational acceleration magnitudes at two radially aligned points.",
+      "image_alt": "Tidal Differential Acceleration Calculator"
+    },
+    "eng-hill-radius": {
+      "name": "Hill Sphere Radius Calculator",
+      "description": "Estimate the Hill radius of a low-mass body on a circular orbit around a primary.",
+      "image_alt": "Hill Sphere Radius Calculator"
+    },
+    "eng-fluid-roche-limit": {
+      "name": "Fluid Satellite Roche Limit Calculator",
+      "description": "Estimate the classical tidal disruption distance for a fluid satellite without tensile strength.",
+      "image_alt": "Fluid Satellite Roche Limit Calculator"
+    },
+    "eng-einstein-ring": {
+      "name": "Einstein Ring Angular Radius Calculator",
+      "description": "Calculate the Einstein ring angular radius for an aligned point lens in local Euclidean geometry.",
+      "image_alt": "Einstein Ring Angular Radius Calculator"
+    },
+    "eng-eddington-luminosity": {
+      "name": "Eddington Luminosity Calculator",
+      "description": "Calculate the spherical Eddington luminosity scale where radiative and gravitational acceleration balance.",
+      "image_alt": "Eddington Luminosity Calculator"
+    },
+    "eng-jeans-mass": {
+      "name": "Jeans Mass Calculator",
+      "description": "Calculate the mass of a critical-wavelength sphere in the linear Jeans instability model.",
+      "image_alt": "Jeans Mass Calculator"
+    },
+    "eng-gravitational-redshift": {
+      "name": "Gravitational Redshift Calculator",
+      "description": "Calculate the gravitational wavelength shift between two static observers in exterior Schwarzschild spacetime.",
+      "image_alt": "Gravitational Redshift Calculator"
+    },
+    "eng-transit-depth": {
+      "name": "Exoplanet Transit Depth Calculator",
+      "description": "Calculate the ideal fraction of stellar light blocked by an opaque planet fully within the stellar disk.",
+      "image_alt": "Exoplanet Transit Depth Calculator"
+    },
+    "eng-quantum-box-energy": {
+      "name": "Infinite Quantum Well Energy Calculator",
+      "description": "Calculate an energy level for a particle confined in a one-dimensional infinite square well.",
+      "image_alt": "Infinite Quantum Well Energy Calculator"
+    },
+    "eng-barrier-tunneling": {
+      "name": "Rectangular Barrier Transmission Calculator",
+      "description": "Calculate the transmission probability below, at and above a rectangular barrier.",
+      "image_alt": "Rectangular Barrier Transmission Calculator"
+    },
+    "eng-hydrogen-transition": {
+      "name": "Hydrogen Transition Wavelength Calculator",
+      "description": "Estimate a hydrogen emission wavelength between two principal quantum numbers using a Rydberg model.",
+      "image_alt": "Hydrogen Transition Wavelength Calculator"
+    },
+    "eng-quantum-oscillator": {
+      "name": "Quantum Harmonic Oscillator Energy Calculator",
+      "description": "Calculate a one-dimensional quantum harmonic oscillator level including its zero-point energy.",
+      "image_alt": "Quantum Harmonic Oscillator Energy Calculator"
+    },
+    "eng-compton-shift": {
+      "name": "Compton Scattering Wavelength Shift Calculator",
+      "description": "Calculate the photon wavelength increase when scattering from an initially stationary free target.",
+      "image_alt": "Compton Scattering Wavelength Shift Calculator"
+    },
+    "eng-photoelectric-stop": {
+      "name": "Photoelectric Stopping Voltage Calculator",
+      "description": "Calculate the reverse voltage magnitude needed to stop the fastest photoelectrons in a single-photon model.",
+      "image_alt": "Photoelectric Stopping Voltage Calculator"
+    },
+    "eng-nuclear-q-value": {
+      "name": "Nuclear Reaction Q Value Calculator",
+      "description": "Calculate the energy release or absorption per reaction from the total rest-mass difference.",
+      "image_alt": "Nuclear Reaction Q Value Calculator"
+    },
+    "eng-gaussian-beam": {
+      "name": "Gaussian Beam Radius Calculator",
+      "description": "Calculate the radius of an ideal Gaussian beam at a distance from its waist.",
+      "image_alt": "Gaussian Beam Radius Calculator"
+    },
+    "eng-malus-intensity": {
+      "name": "Malus Law Transmitted Intensity Calculator",
+      "description": "Calculate the intensity of linearly polarized light after an ideal analyzer.",
+      "image_alt": "Malus Law Transmitted Intensity Calculator"
+    },
+    "eng-faraday-rotation": {
+      "name": "Faraday Polarization Rotation Calculator",
+      "description": "Calculate Faraday polarization rotation in a uniform longitudinal magnetic field.",
+      "image_alt": "Faraday Polarization Rotation Calculator"
+    },
+    "eng-collision-restitution": {
+      "name": "Collision velocity with restitution calculator",
+      "description": "Find the first body’s final velocity from linear momentum and the coefficient of restitution.",
+      "image_alt": "Collision velocity with restitution calculator"
+    },
+    "eng-rolling-incline": {
+      "name": "Rolling acceleration on an incline calculator",
+      "description": "Compute down-slope acceleration while accounting for both translation and rotation.",
+      "image_alt": "Rolling acceleration on an incline calculator"
+    },
+    "eng-gyroscope-precession": {
+      "name": "Gyroscope precession calculator",
+      "description": "Estimate slow steady gravitational precession for a rapidly spinning symmetric gyroscope.",
+      "image_alt": "Gyroscope precession calculator"
+    },
+    "eng-coriolis-horizontal": {
+      "name": "Horizontal Coriolis acceleration calculator",
+      "description": "Compute the Coriolis acceleration component perpendicular to horizontal motion at a stated latitude.",
+      "image_alt": "Horizontal Coriolis acceleration calculator"
+    },
+    "eng-capstan-tension": {
+      "name": "Capstan limiting rope tension calculator",
+      "description": "Find the larger rope tension at impending slip around a cylindrical drum.",
+      "image_alt": "Capstan limiting rope tension calculator"
+    },
+    "eng-inertial-atwood": {
+      "name": "Atwood acceleration with pulley inertia calculator",
+      "description": "Compute the acceleration of two hanging masses connected over a pulley with rotational inertia.",
+      "image_alt": "Atwood acceleration with pulley inertia calculator"
+    },
+    "eng-open-belt-length": {
+      "name": "Exact open belt length calculator",
+      "description": "Compute an uncrossed belt’s pitch-line length using tangent and circular-arc geometry.",
+      "image_alt": "Exact open belt length calculator"
+    },
+    "eng-point-mass-inertia": {
+      "name": "Point-mass moment of inertia calculator",
+      "description": "Sum the moment of inertia of a list of point masses using perpendicular distances to one stated axis.",
+      "image_alt": "Point-mass moment of inertia calculator"
+    },
+    "eng-miner-fatigue": {
+      "name": "Miner cumulative fatigue damage calculator",
+      "description": "Sum fatigue-damage fractions from an editable list of applied and allowable cycle counts.",
+      "image_alt": "Miner cumulative fatigue damage calculator"
+    },
+    "eng-forced-vibration": {
+      "name": "Forced-vibration steady amplitude calculator",
+      "description": "Compute the harmonic steady displacement amplitude of a single-degree-of-freedom mass-spring-damper system.",
+      "image_alt": "Forced-vibration steady amplitude calculator"
+    },
+    "eng-froude-number": {
+      "name": "Froude Number Calculator",
+      "description": "Calculate the Froude number for open-channel flow using the section-mean speed and hydraulic depth, defined as flow area divided by free-surface top width.",
+      "image_alt": "Froude Number Calculator"
+    },
+    "eng-weber-number": {
+      "name": "Weber Number Calculator",
+      "description": "Calculate the ratio of inertia to interfacial-tension effects for a stated characteristic length and relative speed.",
+      "image_alt": "Weber Number Calculator"
+    },
+    "eng-bond-number": {
+      "name": "Bond Number Calculator",
+      "description": "Calculate the magnitude ratio of gravity due to the density difference between two fluids to interfacial tension.",
+      "image_alt": "Bond Number Calculator"
+    },
+    "eng-cavitation-number": {
+      "name": "Cavitation Number Calculator",
+      "description": "Calculate a cavitation index by dividing the margin between reference absolute pressure and saturation vapor pressure by dynamic pressure.",
+      "image_alt": "Cavitation Number Calculator"
+    },
+    "eng-hydraulic-jump": {
+      "name": "Hydraulic Jump Sequent Depth Calculator",
+      "description": "Calculate the downstream sequent depth corresponding to supercritical upstream flow in a horizontal rectangular channel using momentum conservation.",
+      "image_alt": "Hydraulic Jump Sequent Depth Calculator"
+    },
+    "eng-water-hammer": {
+      "name": "Joukowsky Water Hammer Pressure Change Calculator",
+      "description": "Estimate the initial pressure wave generated at a downstream disturbance and travelling upstream after a rapid change in liquid speed.",
+      "image_alt": "Joukowsky Water Hammer Pressure Change Calculator"
+    },
+    "eng-couette-force": {
+      "name": "Plane Couette Flow Drag Force Calculator",
+      "description": "Calculate the viscous drag-force magnitude on one face of a moving plate from the linear velocity profile between parallel plates.",
+      "image_alt": "Plane Couette Flow Drag Force Calculator"
+    },
+    "eng-rotating-free-surface": {
+      "name": "Rotating Liquid Free-Surface Height Difference Calculator",
+      "description": "Calculate the signed free-surface height difference between two radial positions when liquid rotates as a rigid body with its container.",
+      "image_alt": "Rotating Liquid Free-Surface Height Difference Calculator"
+    },
+    "eng-circulation-lift": {
+      "name": "Circulation Lift per Unit Span Calculator",
+      "description": "Calculate signed lift per unit span from the Kutta–Joukowski relation for steady two-dimensional circulation flow.",
+      "image_alt": "Circulation Lift per Unit Span Calculator"
+    },
+    "eng-water-wave-length": {
+      "name": "Finite-Depth Gravity Wave Wavelength Calculator",
+      "description": "Solve the finite-depth linear gravity-wave dispersion equation for positive wavenumber to obtain wavelength, continuously spanning shallow and deep water.",
+      "image_alt": "Finite-Depth Gravity Wave Wavelength Calculator"
+    },
+    "eng-resistor-thermal-noise": {
+      "name": "Resistor Thermal Noise Calculator",
+      "description": "Estimate the RMS open-circuit thermal noise voltage of a resistor from its temperature and equivalent noise bandwidth.",
+      "image_alt": "Resistor Thermal Noise Calculator"
+    },
+    "eng-adc-quantization-noise": {
+      "name": "ADC Quantization Noise Calculator",
+      "description": "Calculate ideal RMS quantization error for a uniform N-bit quantizer across its full input voltage span.",
+      "image_alt": "ADC Quantization Noise Calculator"
+    },
+    "eng-sampling-jitter-snr": {
+      "name": "Sampling Jitter SNR Calculator",
+      "description": "Estimate the signal-to-noise ratio imposed solely by timing jitter when sampling a sine wave.",
+      "image_alt": "Sampling Jitter SNR Calculator"
+    },
+    "eng-alias-frequency": {
+      "name": "Sampling Alias Frequency Calculator",
+      "description": "Fold a uniformly sampled real sinusoid into the frequency interval from zero to half the sampling rate.",
+      "image_alt": "Sampling Alias Frequency Calculator"
+    },
+    "eng-shannon-capacity": {
+      "name": "Shannon Channel Capacity Calculator",
+      "description": "Calculate the Shannon capacity of a band-limited AWGN channel from bandwidth and received SNR.",
+      "image_alt": "Shannon Channel Capacity Calculator"
+    },
+    "eng-cascade-noise-figure": {
+      "name": "Cascaded Noise Figure Calculator",
+      "description": "Combine the power gain and noise figure of an ordered list of stages using the Friis cascade relation.",
+      "image_alt": "Cascaded Noise Figure Calculator"
+    },
+    "eng-free-space-path-loss": {
+      "name": "Free-Space Path Loss Calculator",
+      "description": "Calculate isotropic-reference path loss caused by geometric spreading in far-field free-space propagation.",
+      "image_alt": "Free-Space Path Loss Calculator"
+    },
+    "eng-coax-impedance": {
+      "name": "Coaxial Characteristic Impedance Calculator",
+      "description": "Calculate the lossless TEM characteristic impedance of a concentric coaxial line from its conductor radii and uniform dielectric properties.",
+      "image_alt": "Coaxial Characteristic Impedance Calculator"
+    },
+    "eng-load-vswr": {
+      "name": "Complex Load VSWR Calculator",
+      "description": "Calculate voltage standing wave ratio from a real reference impedance and a finite complex load impedance.",
+      "image_alt": "Complex Load VSWR Calculator"
+    },
+    "eng-hall-voltage": {
+      "name": "Hall Voltage Calculator",
+      "description": "Calculate signed Hall voltage for a flat sample with a single carrier type.",
+      "image_alt": "Hall Voltage Calculator"
+    },
+    "eng-counterflow-ntu": {
+      "name": "Counterflow heat exchanger calculator",
+      "description": "Calculate the steady heat transfer rate of a single-pass counterflow exchanger from UA, stream heat capacity rates and inlet temperatures.",
+      "image_alt": "Counterflow heat exchanger calculator"
+    },
+    "eng-fin-efficiency": {
+      "name": "Insulated-tip fin efficiency calculator",
+      "description": "Compare heat transfer from a straight uniform fin with the ideal heat transfer if its entire surface were at the base temperature.",
+      "image_alt": "Insulated-tip fin efficiency calculator"
+    },
+    "eng-heated-slab-center": {
+      "name": "Internally heated slab center temperature calculator",
+      "description": "Calculate the steady maximum center temperature of a uniformly heated slab whose two surfaces have the same prescribed temperature.",
+      "image_alt": "Internally heated slab center temperature calculator"
+    },
+    "eng-ideal-mixing-entropy": {
+      "name": "Ideal gas mixing entropy calculator",
+      "description": "Find the entropy increase when distinct ideal gases, initially separated at the same temperature and pressure, are mixed.",
+      "image_alt": "Ideal gas mixing entropy calculator"
+    },
+    "eng-reaction-equilibrium": {
+      "name": "Reaction equilibrium constant calculator",
+      "description": "Calculate the dimensionless thermodynamic equilibrium constant from the standard reaction Gibbs energy for a specified reaction and standard state.",
+      "image_alt": "Reaction equilibrium constant calculator"
+    },
+    "eng-raoult-bubble-pressure": {
+      "name": "Ideal mixture bubble-point pressure calculator",
+      "description": "Calculate the total pressure at the onset of boiling in an ideal liquid solution from liquid composition and pure-component vapor pressures at a common temperature.",
+      "image_alt": "Ideal mixture bubble-point pressure calculator"
+    },
+    "eng-electroplating-mass": {
+      "name": "Electroplating deposited mass calculator",
+      "description": "Use Faraday's law and the entered current efficiency to calculate the mass deposited by the desired electrode reaction.",
+      "image_alt": "Electroplating deposited mass calculator"
+    },
+    "eng-cstr-conversion": {
+      "name": "First-order CSTR conversion calculator",
+      "description": "Calculate the steady-state conversion of an irreversible first-order reaction in a perfectly mixed continuous stirred-tank reactor.",
+      "image_alt": "First-order CSTR conversion calculator"
+    },
+    "eng-welding-line-heat": {
+      "name": "Welding heat input per length calculator",
+      "description": "Calculate the thermal energy delivered to the workpiece per weld length for constant voltage, current and travel speed.",
+      "image_alt": "Welding heat input per length calculator"
+    },
+    "eng-bend-allowance": {
+      "name": "Sheet metal bend allowance calculator",
+      "description": "Use an entered K-factor to locate the neutral axis and calculate the developed length of one circular curved bend.",
+      "image_alt": "Sheet metal bend allowance calculator"
     }
   },
   "schema_version": "1.0",

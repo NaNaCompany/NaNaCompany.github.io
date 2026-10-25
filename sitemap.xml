@@ -19,7 +19,13 @@
     <loc>https://nanalab.kr/eng-ac-real-power/sitemap.xml</loc>
   </sitemap>
   <sitemap>
+    <loc>https://nanalab.kr/eng-adc-quantization-noise/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
     <loc>https://nanalab.kr/eng-adiabatic-temperature/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/eng-alias-frequency/sitemap.xml</loc>
   </sitemap>
   <sitemap>
     <loc>https://nanalab.kr/eng-aperture-resolution/sitemap.xml</loc>
@@ -34,7 +40,16 @@
     <loc>https://nanalab.kr/eng-axial-stress/sitemap.xml</loc>
   </sitemap>
   <sitemap>
+    <loc>https://nanalab.kr/eng-barrier-tunneling/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/eng-bend-allowance/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
     <loc>https://nanalab.kr/eng-bending-stress/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/eng-bond-number/sitemap.xml</loc>
   </sitemap>
   <sitemap>
     <loc>https://nanalab.kr/eng-buoyant-force/sitemap.xml</loc>
@@ -49,10 +64,19 @@
     <loc>https://nanalab.kr/eng-capillary-rise/sitemap.xml</loc>
   </sitemap>
   <sitemap>
+    <loc>https://nanalab.kr/eng-capstan-tension/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
     <loc>https://nanalab.kr/eng-carnot-cop/sitemap.xml</loc>
   </sitemap>
   <sitemap>
     <loc>https://nanalab.kr/eng-carnot-efficiency/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/eng-cascade-noise-figure/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/eng-cavitation-number/sitemap.xml</loc>
   </sitemap>
   <sitemap>
     <loc>https://nanalab.kr/eng-center-of-mass/sitemap.xml</loc>
@@ -61,13 +85,37 @@
     <loc>https://nanalab.kr/eng-centripetal-acceleration/sitemap.xml</loc>
   </sitemap>
   <sitemap>
+    <loc>https://nanalab.kr/eng-circulation-lift/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/eng-coax-impedance/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/eng-collision-restitution/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
     <loc>https://nanalab.kr/eng-combined-length-uncertainty/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/eng-compton-shift/sitemap.xml</loc>
   </sitemap>
   <sitemap>
     <loc>https://nanalab.kr/eng-convection-heat/sitemap.xml</loc>
   </sitemap>
   <sitemap>
+    <loc>https://nanalab.kr/eng-coriolis-horizontal/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/eng-couette-force/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/eng-counterflow-ntu/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
     <loc>https://nanalab.kr/eng-critical-incline/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/eng-cstr-conversion/sitemap.xml</loc>
   </sitemap>
   <sitemap>
     <loc>https://nanalab.kr/eng-de-broglie/sitemap.xml</loc>
@@ -88,13 +136,28 @@
     <loc>https://nanalab.kr/eng-dynamic-pressure/sitemap.xml</loc>
   </sitemap>
   <sitemap>
+    <loc>https://nanalab.kr/eng-eddington-luminosity/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/eng-einstein-ring/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/eng-electroplating-mass/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
     <loc>https://nanalab.kr/eng-escape-speed/sitemap.xml</loc>
   </sitemap>
   <sitemap>
     <loc>https://nanalab.kr/eng-euler-buckling/sitemap.xml</loc>
   </sitemap>
   <sitemap>
+    <loc>https://nanalab.kr/eng-faraday-rotation/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
     <loc>https://nanalab.kr/eng-fiber-numerical-aperture/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/eng-fin-efficiency/sitemap.xml</loc>
   </sitemap>
   <sitemap>
     <loc>https://nanalab.kr/eng-first-order-half-life/sitemap.xml</loc>
@@ -103,13 +166,28 @@
     <loc>https://nanalab.kr/eng-first-order-settling/sitemap.xml</loc>
   </sitemap>
   <sitemap>
+    <loc>https://nanalab.kr/eng-fluid-roche-limit/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/eng-forced-vibration/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
     <loc>https://nanalab.kr/eng-free-fall-time/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/eng-free-space-path-loss/sitemap.xml</loc>
   </sitemap>
   <sitemap>
     <loc>https://nanalab.kr/eng-friction-stop-distance/sitemap.xml</loc>
   </sitemap>
   <sitemap>
+    <loc>https://nanalab.kr/eng-froude-number/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
     <loc>https://nanalab.kr/eng-gas-rms-speed/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/eng-gaussian-beam/sitemap.xml</loc>
   </sitemap>
   <sitemap>
     <loc>https://nanalab.kr/eng-grating-angle/sitemap.xml</loc>
@@ -118,22 +196,46 @@
     <loc>https://nanalab.kr/eng-gravitational-energy/sitemap.xml</loc>
   </sitemap>
   <sitemap>
+    <loc>https://nanalab.kr/eng-gravitational-redshift/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
     <loc>https://nanalab.kr/eng-gravity-at-radius/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/eng-gyroscope-precession/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/eng-hall-voltage/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/eng-heated-slab-center/sitemap.xml</loc>
   </sitemap>
   <sitemap>
     <loc>https://nanalab.kr/eng-henry-solubility/sitemap.xml</loc>
   </sitemap>
   <sitemap>
+    <loc>https://nanalab.kr/eng-hill-radius/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
     <loc>https://nanalab.kr/eng-hohmann-delta-v/sitemap.xml</loc>
   </sitemap>
   <sitemap>
+    <loc>https://nanalab.kr/eng-hydraulic-jump/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
     <loc>https://nanalab.kr/eng-hydraulic-power/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/eng-hydrogen-transition/sitemap.xml</loc>
   </sitemap>
   <sitemap>
     <loc>https://nanalab.kr/eng-hydrostatic-pressure/sitemap.xml</loc>
   </sitemap>
   <sitemap>
     <loc>https://nanalab.kr/eng-ideal-gas-density/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/eng-ideal-mixing-entropy/sitemap.xml</loc>
   </sitemap>
   <sitemap>
     <loc>https://nanalab.kr/eng-ideal-transformer/sitemap.xml</loc>
@@ -145,7 +247,13 @@
     <loc>https://nanalab.kr/eng-inductive-reactance/sitemap.xml</loc>
   </sitemap>
   <sitemap>
+    <loc>https://nanalab.kr/eng-inertial-atwood/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
     <loc>https://nanalab.kr/eng-isothermal-work/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/eng-jeans-mass/sitemap.xml</loc>
   </sitemap>
   <sitemap>
     <loc>https://nanalab.kr/eng-kinematic-viscosity/sitemap.xml</loc>
@@ -155,6 +263,9 @@
   </sitemap>
   <sitemap>
     <loc>https://nanalab.kr/eng-lc-resonance/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/eng-load-vswr/sitemap.xml</loc>
   </sitemap>
   <sitemap>
     <loc>https://nanalab.kr/eng-log-mean-temperature/sitemap.xml</loc>
@@ -169,10 +280,16 @@
     <loc>https://nanalab.kr/eng-mach/sitemap.xml</loc>
   </sitemap>
   <sitemap>
+    <loc>https://nanalab.kr/eng-malus-intensity/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
     <loc>https://nanalab.kr/eng-mass-flow/sitemap.xml</loc>
   </sitemap>
   <sitemap>
     <loc>https://nanalab.kr/eng-mean-free-path/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/eng-miner-fatigue/sitemap.xml</loc>
   </sitemap>
   <sitemap>
     <loc>https://nanalab.kr/eng-nernst-potential/sitemap.xml</loc>
@@ -184,7 +301,13 @@
     <loc>https://nanalab.kr/eng-normal-reflectance/sitemap.xml</loc>
   </sitemap>
   <sitemap>
+    <loc>https://nanalab.kr/eng-nuclear-q-value/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
     <loc>https://nanalab.kr/eng-nusselt-number/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/eng-open-belt-length/sitemap.xml</loc>
   </sitemap>
   <sitemap>
     <loc>https://nanalab.kr/eng-orbital-period/sitemap.xml</loc>
@@ -199,6 +322,9 @@
     <loc>https://nanalab.kr/eng-pendulum-period/sitemap.xml</loc>
   </sitemap>
   <sitemap>
+    <loc>https://nanalab.kr/eng-photoelectric-stop/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
     <loc>https://nanalab.kr/eng-photon-energy/sitemap.xml</loc>
   </sitemap>
   <sitemap>
@@ -206,6 +332,9 @@
   </sitemap>
   <sitemap>
     <loc>https://nanalab.kr/eng-point-charge-field/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/eng-point-mass-inertia/sitemap.xml</loc>
   </sitemap>
   <sitemap>
     <loc>https://nanalab.kr/eng-power-db/sitemap.xml</loc>
@@ -217,7 +346,16 @@
     <loc>https://nanalab.kr/eng-projectile-range/sitemap.xml</loc>
   </sitemap>
   <sitemap>
+    <loc>https://nanalab.kr/eng-quantum-box-energy/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/eng-quantum-oscillator/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
     <loc>https://nanalab.kr/eng-radiation-heat/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/eng-raoult-bubble-pressure/sitemap.xml</loc>
   </sitemap>
   <sitemap>
     <loc>https://nanalab.kr/eng-rayleigh-number/sitemap.xml</loc>
@@ -229,7 +367,13 @@
     <loc>https://nanalab.kr/eng-rc-time/sitemap.xml</loc>
   </sitemap>
   <sitemap>
+    <loc>https://nanalab.kr/eng-reaction-equilibrium/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
     <loc>https://nanalab.kr/eng-relativistic-energy/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/eng-resistor-thermal-noise/sitemap.xml</loc>
   </sitemap>
   <sitemap>
     <loc>https://nanalab.kr/eng-restrained-thermal-stress/sitemap.xml</loc>
@@ -244,7 +388,22 @@
     <loc>https://nanalab.kr/eng-rlc-impedance/sitemap.xml</loc>
   </sitemap>
   <sitemap>
+    <loc>https://nanalab.kr/eng-rocket-delta-v/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/eng-rocket-nozzle-thrust/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/eng-rolling-incline/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/eng-rotating-free-surface/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
     <loc>https://nanalab.kr/eng-rotation-energy/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/eng-sampling-jitter-snr/sitemap.xml</loc>
   </sitemap>
   <sitemap>
     <loc>https://nanalab.kr/eng-schwarzschild-radius/sitemap.xml</loc>
@@ -263,6 +422,9 @@
   </sitemap>
   <sitemap>
     <loc>https://nanalab.kr/eng-shaft-twist/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/eng-shannon-capacity/sitemap.xml</loc>
   </sitemap>
   <sitemap>
     <loc>https://nanalab.kr/eng-skin-depth/sitemap.xml</loc>
@@ -301,6 +463,12 @@
     <loc>https://nanalab.kr/eng-thin-lens-image/sitemap.xml</loc>
   </sitemap>
   <sitemap>
+    <loc>https://nanalab.kr/eng-tidal-acceleration/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/eng-transit-depth/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
     <loc>https://nanalab.kr/eng-tube-area-inertia/sitemap.xml</loc>
   </sitemap>
   <sitemap>
@@ -311,6 +479,18 @@
   </sitemap>
   <sitemap>
     <loc>https://nanalab.kr/eng-wall-conduction/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/eng-water-hammer/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/eng-water-wave-length/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/eng-weber-number/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/eng-welding-line-heat/sitemap.xml</loc>
   </sitemap>
   <sitemap>
     <loc>https://nanalab.kr/eng-wire-resistance/sitemap.xml</loc>
@@ -341,5 +521,8 @@
   </sitemap>
   <sitemap>
     <loc>https://nanalab.kr/table-memory/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/world-law-portal/sitemap.xml</loc>
   </sitemap>
 </sitemapindex>

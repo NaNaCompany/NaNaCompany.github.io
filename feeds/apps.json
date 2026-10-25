@@ -8,6 +8,737 @@
   "favicon": "https://nanalab.kr/favicon.ico/android-icon-192x192.png",
   "items": [
     {
+      "id": "urn:nanalab:apps:eng-bend-allowance",
+      "url": "https://nanalab.kr/eng-bend-allowance/",
+      "title": "[앱] 판금 절곡부 전개 길이 계산기",
+      "content_text": "입력한 K계수로 중립축 반지름을 정하고 원호 형태 절곡부의 전개 길이만 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:22:30Z",
+      "image": "https://nanalab.kr/eng-bend-allowance/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-cstr-conversion",
+      "url": "https://nanalab.kr/eng-cstr-conversion/",
+      "title": "[앱] 연속 교반 반응기 전환율 계산기",
+      "content_text": "완전히 혼합되는 연속 교반 탱크의 비가역 1차 반응에 대해 정상상태 전환율을 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:22:29Z",
+      "image": "https://nanalab.kr/eng-cstr-conversion/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-welding-line-heat",
+      "url": "https://nanalab.kr/eng-welding-line-heat/",
+      "title": "[앱] 용접 단위길이 입열량 계산기",
+      "content_text": "일정한 전압·전류·이동속도에서 전기 아크 에너지 중 모재에 전달되는 길이당 열량을 구합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:22:29Z",
+      "image": "https://nanalab.kr/eng-welding-line-heat/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-electroplating-mass",
+      "url": "https://nanalab.kr/eng-electroplating-mass/",
+      "title": "[앱] 전해도금 석출 질량 계산기",
+      "content_text": "패러데이 전기분해 법칙과 입력한 전류효율로 목표 반응에서 석출되는 물질의 질량을 구합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:22:28Z",
+      "image": "https://nanalab.kr/eng-electroplating-mass/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-raoult-bubble-pressure",
+      "url": "https://nanalab.kr/eng-raoult-bubble-pressure/",
+      "title": "[앱] 이상 혼합물 기포점 압력 계산기",
+      "content_text": "같은 온도의 성분별 포화증기압과 액상 조성으로 이상 용액에 첫 기포가 생기는 총압을 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:22:20Z",
+      "image": "https://nanalab.kr/eng-raoult-bubble-pressure/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-reaction-equilibrium",
+      "url": "https://nanalab.kr/eng-reaction-equilibrium/",
+      "title": "[앱] 반응 평형상수 계산기",
+      "content_text": "정해진 반응식과 표준상태에 대응하는 표준 반응 깁스에너지에서 무차원 열역학 평형상수를 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:22:19Z",
+      "image": "https://nanalab.kr/eng-reaction-equilibrium/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-ideal-mixing-entropy",
+      "url": "https://nanalab.kr/eng-ideal-mixing-entropy/",
+      "title": "[앱] 이상기체 혼합 엔트로피 계산기",
+      "content_text": "처음에 같은 온도와 압력으로 분리되어 있던 서로 다른 이상기체를 혼합할 때의 엔트로피 증가를 구합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:22:18Z",
+      "image": "https://nanalab.kr/eng-ideal-mixing-entropy/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-heated-slab-center",
+      "url": "https://nanalab.kr/eng-heated-slab-center/",
+      "title": "[앱] 내부 발열 평판 최고온도 계산기",
+      "content_text": "양쪽 표면이 같은 온도로 유지되는 내부 발열 평판에서 정상상태의 중심 최고온도를 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:22:17Z",
+      "image": "https://nanalab.kr/eng-heated-slab-center/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-fin-efficiency",
+      "url": "https://nanalab.kr/eng-fin-efficiency/",
+      "title": "[앱] 방열핀 효율 계산기",
+      "content_text": "일정한 단면을 가진 곧은 핀의 실제 열방출량을 핀 전체가 기저 온도일 때의 이상적인 열방출량과 비교합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:22:09Z",
+      "image": "https://nanalab.kr/eng-fin-efficiency/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-hall-voltage",
+      "url": "https://nanalab.kr/eng-hall-voltage/",
+      "title": "[앱] 홀 전압 계산기",
+      "content_text": "단일 캐리어 평판 시료에서 부호 있는 전류·자기장·전하로 홀 전압 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:22:08Z",
+      "image": "https://nanalab.kr/eng-hall-voltage/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-counterflow-ntu",
+      "url": "https://nanalab.kr/eng-counterflow-ntu/",
+      "title": "[앱] 대향류 열교환기 성능 계산기",
+      "content_text": "출구온도를 모를 때 UA와 양쪽 열용량유량으로 단일 통과 대향류 열교환기의 정상 교환열량률을 구합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:22:08Z",
+      "image": "https://nanalab.kr/eng-counterflow-ntu/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-load-vswr",
+      "url": "https://nanalab.kr/eng-load-vswr/",
+      "title": "[앱] 부하 반사와 정재파비 계산기",
+      "content_text": "실수 기준임피던스와 유한 복소 부하로 전압 정재파비 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:22:07Z",
+      "image": "https://nanalab.kr/eng-load-vswr/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-cascade-noise-figure",
+      "url": "https://nanalab.kr/eng-cascade-noise-figure/",
+      "title": "[앱] 다단 증폭기 잡음지수 계산기",
+      "content_text": "입력에서 출력으로 연결된 여러 단의 전력 이득과 잡음지수를 Friis 식으로 결합 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:21:58Z",
+      "image": "https://nanalab.kr/eng-cascade-noise-figure/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-free-space-path-loss",
+      "url": "https://nanalab.kr/eng-free-space-path-loss/",
+      "title": "[앱] 자유공간 전파 경로손실 계산기",
+      "content_text": "원거리 자유공간 전파의 기하학적 확산에 따른 등방성 안테나 기준 경로손실 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:21:58Z",
+      "image": "https://nanalab.kr/eng-free-space-path-loss/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-coax-impedance",
+      "url": "https://nanalab.kr/eng-coax-impedance/",
+      "title": "[앱] 동축선 특성임피던스 계산기",
+      "content_text": "동심 원통형 동축선의 도체 반지름과 균일 유전체 특성으로 무손실 TEM 특성임피던스 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:21:58Z",
+      "image": "https://nanalab.kr/eng-coax-impedance/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-shannon-capacity",
+      "url": "https://nanalab.kr/eng-shannon-capacity/",
+      "title": "[앱] 섀넌 채널 용량 계산기",
+      "content_text": "대역폭과 수신 SNR로 대역 제한 AWGN 채널의 섀넌 이론 용량 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:21:57Z",
+      "image": "https://nanalab.kr/eng-shannon-capacity/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-sampling-jitter-snr",
+      "url": "https://nanalab.kr/eng-sampling-jitter-snr/",
+      "title": "[앱] 샘플링 지터 SNR 계산기",
+      "content_text": "정현파를 샘플링할 때 시간 지터만으로 제한되는 신호 대 잡음비 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:21:48Z",
+      "image": "https://nanalab.kr/eng-sampling-jitter-snr/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-alias-frequency",
+      "url": "https://nanalab.kr/eng-alias-frequency/",
+      "title": "[앱] 샘플링 앨리어스 주파수 계산기",
+      "content_text": "등간격으로 샘플링한 단일 실수 정현파가 0~f_s/2 구간에 나타나는 접힘 주파수 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:21:48Z",
+      "image": "https://nanalab.kr/eng-alias-frequency/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-adc-quantization-noise",
+      "url": "https://nanalab.kr/eng-adc-quantization-noise/",
+      "title": "[앱] ADC 양자화 오차 계산기",
+      "content_text": "이상적인 N비트 균일 양자화기의 전체 입력 범위에서 양자화 오차의 실효값 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:21:47Z",
+      "image": "https://nanalab.kr/eng-adc-quantization-noise/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-resistor-thermal-noise",
+      "url": "https://nanalab.kr/eng-resistor-thermal-noise/",
+      "title": "[앱] 저항 열잡음 전압 계산기",
+      "content_text": "저항과 온도, 등가잡음대역폭으로 저항 양단의 열잡음 실효전압 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:21:46Z",
+      "image": "https://nanalab.kr/eng-resistor-thermal-noise/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-circulation-lift",
+      "url": "https://nanalab.kr/eng-circulation-lift/",
+      "title": "[앱] 순환에 따른 단위 폭 양력 계산기",
+      "content_text": "정상 2차원 순환 유동에서 쿠타–주콥스키 관계로 단위 폭당 부호 있는 양력을 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:21:38Z",
+      "image": "https://nanalab.kr/eng-circulation-lift/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-water-wave-length",
+      "url": "https://nanalab.kr/eng-water-wave-length/",
+      "title": "[앱] 유한 수심 수면파 파장 계산기",
+      "content_text": "유한 수심의 선형 중력파 분산식을 양의 파수에 대해 풀어 파장을 계산합니다. 얕은 물·깊은 물의 근사 사이도 연속적으로 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:21:38Z",
+      "image": "https://nanalab.kr/eng-water-wave-length/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-rotating-free-surface",
+      "url": "https://nanalab.kr/eng-rotating-free-surface/",
+      "title": "[앱] 회전 용기 수면 높이차 계산기",
+      "content_text": "액체가 용기와 함께 강체 회전할 때 두 반지름 위치 사이의 부호 있는 자유수면 높이차를 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:21:37Z",
+      "image": "https://nanalab.kr/eng-rotating-free-surface/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-couette-force",
+      "url": "https://nanalab.kr/eng-couette-force/",
+      "title": "[앱] 평판 쿠에트 유동 저항력 계산기",
+      "content_text": "평행한 두 판 사이의 선형 속도분포로부터 이동판 한 면의 점성 저항력 크기를 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:21:36Z",
+      "image": "https://nanalab.kr/eng-couette-force/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-hydraulic-jump",
+      "url": "https://nanalab.kr/eng-hydraulic-jump/",
+      "title": "[앱] 도수 후 수심 계산기",
+      "content_text": "수평 직사각 수로의 운동량 보존식으로 상류 사류에 대응하는 도수 후 수심을 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:21:28Z",
+      "image": "https://nanalab.kr/eng-hydraulic-jump/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-water-hammer",
+      "url": "https://nanalab.kr/eng-water-hammer/",
+      "title": "[앱] 수격 압력변화 계산기",
+      "content_text": "급격한 유속 변화에 의해 하류 교란점에서 발생하여 상류로 진행하는 초기 압력파를 추정합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:21:28Z",
+      "image": "https://nanalab.kr/eng-water-hammer/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-cavitation-number",
+      "url": "https://nanalab.kr/eng-cavitation-number/",
+      "title": "[앱] 캐비테이션수 계산기",
+      "content_text": "절대압과 포화 증기압 사이의 여유를 동압으로 나눈 캐비테이션 지표를 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:21:27Z",
+      "image": "https://nanalab.kr/eng-cavitation-number/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-bond-number",
+      "url": "https://nanalab.kr/eng-bond-number/",
+      "title": "[앱] 본드수 계산기",
+      "content_text": "두 유체의 밀도차에 따른 중력 효과와 계면장력 효과의 크기 비를 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:21:26Z",
+      "image": "https://nanalab.kr/eng-bond-number/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-froude-number",
+      "url": "https://nanalab.kr/eng-froude-number/",
+      "title": "[앱] 프루드수 계산기",
+      "content_text": "자유수면 흐름에서 관성과 중력파 속도의 관계를 프루드수로 계산합니다. 수리수심은 유수면적을 수면폭으로 나눈 값입니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:21:18Z",
+      "image": "https://nanalab.kr/eng-froude-number/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-weber-number",
+      "url": "https://nanalab.kr/eng-weber-number/",
+      "title": "[앱] 웨버수 계산기",
+      "content_text": "선택한 길이와 상대속도에서 관성 효과와 계면장력 효과의 비를 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:21:18Z",
+      "image": "https://nanalab.kr/eng-weber-number/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-forced-vibration",
+      "url": "https://nanalab.kr/eng-forced-vibration/",
+      "title": "[앱] 강제진동 정상 진폭 계산기",
+      "content_text": "질량·스프링·점성 감쇠로 이루어진 1자유도계에 조화력이 작용할 때 정상 변위 진폭을 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:21:17Z",
+      "image": "https://nanalab.kr/eng-forced-vibration/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-miner-fatigue",
+      "url": "https://nanalab.kr/eng-miner-fatigue/",
+      "title": "[앱] 마이너 누적 피로손상 계산기",
+      "content_text": "하중 구간별 실제 반복수와 해당 조건의 피로수명을 목록으로 입력하여 선형 누적 손상지수를 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:21:16Z",
+      "image": "https://nanalab.kr/eng-miner-fatigue/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-point-mass-inertia",
+      "url": "https://nanalab.kr/eng-point-mass-inertia/",
+      "title": "[앱] 점질량 집합 관성모멘트 계산기",
+      "content_text": "점질량별 질량과 회전축까지의 수직거리를 목록으로 입력하여 전체 질량관성모멘트를 합산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:21:08Z",
+      "image": "https://nanalab.kr/eng-point-mass-inertia/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-open-belt-length",
+      "url": "https://nanalab.kr/eng-open-belt-length/",
+      "title": "[앱] 개방 벨트 필요 길이 계산기",
+      "content_text": "교차하지 않는 두 풀리를 두르는 벨트의 피치선 길이를 접선과 원호의 정확한 기하식으로 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:21:07Z",
+      "image": "https://nanalab.kr/eng-open-belt-length/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-capstan-tension",
+      "url": "https://nanalab.kr/eng-capstan-tension/",
+      "title": "[앱] 캡스턴 로프 한계장력 계산기",
+      "content_text": "드럼에 감긴 로프가 미끄러지기 직전에 지탱할 수 있는 큰 쪽 장력을 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:21:06Z",
+      "image": "https://nanalab.kr/eng-capstan-tension/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-inertial-atwood",
+      "url": "https://nanalab.kr/eng-inertial-atwood/",
+      "title": "[앱] 관성 도르래 애트우드 가속도 계산기",
+      "content_text": "두 개의 매달린 추와 회전 관성이 있는 도르래로 이루어진 애트우드 장치의 가속도를 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:21:06Z",
+      "image": "https://nanalab.kr/eng-inertial-atwood/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-coriolis-horizontal",
+      "url": "https://nanalab.kr/eng-coriolis-horizontal/",
+      "title": "[앱] 수평 코리올리 가속도 계산기",
+      "content_text": "회전하는 구면의 주어진 위도에서 수평 이동에 수직인 코리올리 가속도 성분의 크기를 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:20:58Z",
+      "image": "https://nanalab.kr/eng-coriolis-horizontal/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-rolling-incline",
+      "url": "https://nanalab.kr/eng-rolling-incline/",
+      "title": "[앱] 경사면 순수 구름 가속도 계산기",
+      "content_text": "회전 관성까지 반영하여 경사면을 미끄러지지 않고 구르는 물체의 가속도를 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:20:56Z",
+      "image": "https://nanalab.kr/eng-rolling-incline/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-gyroscope-precession",
+      "url": "https://nanalab.kr/eng-gyroscope-precession/",
+      "title": "[앱] 자이로스코프 세차속도 계산기",
+      "content_text": "고속으로 자전하는 대칭 자이로스코프의 중력에 의한 느린 정상 세차속도를 추정합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:20:56Z",
+      "image": "https://nanalab.kr/eng-gyroscope-precession/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-collision-restitution",
+      "url": "https://nanalab.kr/eng-collision-restitution/",
+      "title": "[앱] 반발계수 충돌 후 속도 계산기",
+      "content_text": "일직선에서 충돌하는 두 물체의 운동량과 반발계수로 첫 물체의 충돌 후 속도를 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:20:55Z",
+      "image": "https://nanalab.kr/eng-collision-restitution/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-faraday-rotation",
+      "url": "https://nanalab.kr/eng-faraday-rotation/",
+      "title": "[앱] 패러데이 편광 회전 계산기",
+      "content_text": "균일한 종방향 자기장 속 매질의 패러데이 편광 회전각을 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:20:47Z",
+      "image": "https://nanalab.kr/eng-faraday-rotation/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-nuclear-q-value",
+      "url": "https://nanalab.kr/eng-nuclear-q-value/",
+      "title": "[앱] 핵반응 Q값 계산기",
+      "content_text": "반응 전후 총 정지질량 차이로 한 번의 반응에 대한 방출·흡수 에너지를 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:20:46Z",
+      "image": "https://nanalab.kr/eng-nuclear-q-value/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-gaussian-beam",
+      "url": "https://nanalab.kr/eng-gaussian-beam/",
+      "title": "[앱] 가우시안 레이저 빔 크기 계산기",
+      "content_text": "이상적인 가우시안 빔의 허리에서 떨어진 위치의 빔 반지름을 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:20:46Z",
+      "image": "https://nanalab.kr/eng-gaussian-beam/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-malus-intensity",
+      "url": "https://nanalab.kr/eng-malus-intensity/",
+      "title": "[앱] 편광판 투과광 세기 계산기",
+      "content_text": "선편광이 이상적인 편광 분석기를 통과한 뒤의 광강도를 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:20:46Z",
+      "image": "https://nanalab.kr/eng-malus-intensity/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-photoelectric-stop",
+      "url": "https://nanalab.kr/eng-photoelectric-stop/",
+      "title": "[앱] 광전효과 정지전압 계산기",
+      "content_text": "단일 광자 광전효과에서 가장 빠른 광전자를 멈추는 역전압의 크기를 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:20:37Z",
+      "image": "https://nanalab.kr/eng-photoelectric-stop/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-quantum-oscillator",
+      "url": "https://nanalab.kr/eng-quantum-oscillator/",
+      "title": "[앱] 양자 조화진동자 에너지 계산기",
+      "content_text": "영점에너지를 포함하는 1차원 양자 조화진동자의 에너지 준위를 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:20:36Z",
+      "image": "https://nanalab.kr/eng-quantum-oscillator/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-compton-shift",
+      "url": "https://nanalab.kr/eng-compton-shift/",
+      "title": "[앱] 콤프턴 산란 파장변화 계산기",
+      "content_text": "정지한 자유 표적에 의한 광자 산란의 파장 증가량을 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:20:36Z",
+      "image": "https://nanalab.kr/eng-compton-shift/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-hydrogen-transition",
+      "url": "https://nanalab.kr/eng-hydrogen-transition/",
+      "title": "[앱] 수소 원자 전이 파장 계산기",
+      "content_text": "두 주양자수 사이 수소 원자의 방출광 파장을 리드베리 근사로 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:20:34Z",
+      "image": "https://nanalab.kr/eng-hydrogen-transition/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-transit-depth",
+      "url": "https://nanalab.kr/eng-transit-depth/",
+      "title": "[앱] 외계행성 통과 깊이 계산기",
+      "content_text": "항성 원반 내부에 완전히 들어온 불투명한 행성이 가리는 이상적인 밝기 비율을 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:20:26Z",
+      "image": "https://nanalab.kr/eng-transit-depth/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-quantum-box-energy",
+      "url": "https://nanalab.kr/eng-quantum-box-energy/",
+      "title": "[앱] 무한 우물 입자 에너지 계산기",
+      "content_text": "1차원 무한 사각 우물에 갇힌 입자의 에너지 준위를 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:20:26Z",
+      "image": "https://nanalab.kr/eng-quantum-box-energy/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-barrier-tunneling",
+      "url": "https://nanalab.kr/eng-barrier-tunneling/",
+      "title": "[앱] 사각 장벽 터널링 확률 계산기",
+      "content_text": "유한 폭 사각 장벽의 투과확률을 장벽 아래·경계·위 에너지에서 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:20:26Z",
+      "image": "https://nanalab.kr/eng-barrier-tunneling/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-gravitational-redshift",
+      "url": "https://nanalab.kr/eng-gravitational-redshift/",
+      "title": "[앱] 중력 적색편이 계산기",
+      "content_text": "슈바르츠실트 외부 시공간에서 정지한 두 관측자 사이의 중력에 의한 파장 편이를 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:20:24Z",
+      "image": "https://nanalab.kr/eng-gravitational-redshift/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-eddington-luminosity",
+      "url": "https://nanalab.kr/eng-eddington-luminosity/",
+      "title": "[앱] 에딩턴 한계광도 계산기",
+      "content_text": "복사 가속도와 중력가속도가 같은 구대칭 에딩턴 광도 척도를 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:20:15Z",
+      "image": "https://nanalab.kr/eng-eddington-luminosity/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-jeans-mass",
+      "url": "https://nanalab.kr/eng-jeans-mass/",
+      "title": "[앱] 진스 질량 계산기",
+      "content_text": "균일한 기체의 선형 진스 불안정성에서 임계 파장 구의 질량을 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:20:15Z",
+      "image": "https://nanalab.kr/eng-jeans-mass/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-fluid-roche-limit",
+      "url": "https://nanalab.kr/eng-fluid-roche-limit/",
+      "title": "[앱] 유체 위성 로슈 한계 계산기",
+      "content_text": "인장강도가 없는 유체 위성의 고전적 조석 파괴 한계 중심거리를 추정한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:20:14Z",
+      "image": "https://nanalab.kr/eng-fluid-roche-limit/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-einstein-ring",
+      "url": "https://nanalab.kr/eng-einstein-ring/",
+      "title": "[앱] 아인슈타인 고리 각반지름 계산기",
+      "content_text": "관측자·점렌즈·광원이 정렬된 근거리 유클리드 기하에서 아인슈타인 고리의 각반지름을 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:20:14Z",
+      "image": "https://nanalab.kr/eng-einstein-ring/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-rocket-nozzle-thrust",
+      "url": "https://nanalab.kr/eng-rocket-nozzle-thrust/",
+      "title": "[앱] 로켓 노즐 추력 계산기",
+      "content_text": "배기 운동량과 출구·주변 압력차로 준정상 로켓 노즐의 축방향 추력을 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:20:04Z",
+      "image": "https://nanalab.kr/eng-rocket-nozzle-thrust/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-tidal-acceleration",
+      "url": "https://nanalab.kr/eng-tidal-acceleration/",
+      "title": "[앱] 조석 차등가속도 계산기",
+      "content_text": "같은 반지름 방향에 놓인 두 점이 받는 뉴턴 중력가속도의 크기 차를 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:20:04Z",
+      "image": "https://nanalab.kr/eng-tidal-acceleration/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-hill-radius",
+      "url": "https://nanalab.kr/eng-hill-radius/",
+      "title": "[앱] 힐 구 반지름 계산기",
+      "content_text": "작은 천체가 큰 천체를 원궤도로 공전할 때 힐 영역의 대표 반지름을 추정한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:20:04Z",
+      "image": "https://nanalab.kr/eng-hill-radius/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-rocket-delta-v",
+      "url": "https://nanalab.kr/eng-rocket-delta-v/",
+      "title": "[앱] 치올콥스키 로켓 Δv 계산기",
+      "content_text": "질량 감소와 유효 배기속도로 한 번의 이상적인 로켓 연소가 제공하는 Δv를 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T06:20:03Z",
+      "image": "https://nanalab.kr/eng-rocket-delta-v/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:world-law-portal",
+      "url": "https://nanalab.kr/world-law-portal/",
+      "title": "[앱] 세계 법령 자료실",
+      "content_text": "국가별 법령 원문을 HTML로 읽는 자료실. 공식 출처·판본·재이용 조건을 확인하고, 원문 언어로 제공되는 문서를 탐색하세요.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "문서·텍스트"
+      ],
+      "date_published": "2026-10-25T06:03:27Z"
+    },
+    {
       "id": "urn:nanalab:apps:eng-logarithmic-decrement",
       "url": "https://nanalab.kr/eng-logarithmic-decrement/",
       "title": "[앱] 감쇠진동 로그감소율 계산기",
@@ -474,738 +1205,6 @@
       ],
       "date_published": "2026-10-25T05:22:56Z",
       "image": "https://nanalab.kr/eng-projectile-range/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-free-fall-time",
-      "url": "https://nanalab.kr/eng-free-fall-time/",
-      "title": "[앱] 자유낙하 시간 계산기",
-      "content_text": "정지 상태에서 일정 중력으로 낙하하는 시간 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T05:22:48Z",
-      "image": "https://nanalab.kr/eng-free-fall-time/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-gas-rms-speed",
-      "url": "https://nanalab.kr/eng-gas-rms-speed/",
-      "title": "[앱] 기체 분자 RMS 속력 계산기",
-      "content_text": "이상기체 분자 병진운동의 RMS 속력 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T05:22:39Z",
-      "image": "https://nanalab.kr/eng-gas-rms-speed/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-de-broglie",
-      "url": "https://nanalab.kr/eng-de-broglie/",
-      "title": "[앱] 드브로이 파장 계산기",
-      "content_text": "입자 운동량으로 물질파 파장 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T05:22:30Z",
-      "image": "https://nanalab.kr/eng-de-broglie/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-relativistic-energy",
-      "url": "https://nanalab.kr/eng-relativistic-energy/",
-      "title": "[앱] 상대론 운동에너지 계산기",
-      "content_text": "광속에 가까운 물체의 병진 운동에너지 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T05:22:22Z",
-      "image": "https://nanalab.kr/eng-relativistic-energy/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-lorentz-factor",
-      "url": "https://nanalab.kr/eng-lorentz-factor/",
-      "title": "[앱] 로런츠 인자 계산기",
-      "content_text": "특수상대론 속력에 따른 로런츠 인자 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T05:22:13Z",
-      "image": "https://nanalab.kr/eng-lorentz-factor/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-schwarzschild-radius",
-      "url": "https://nanalab.kr/eng-schwarzschild-radius/",
-      "title": "[앱] 슈바르츠실트 반지름 계산기",
-      "content_text": "비회전·무전하 블랙홀 모델의 사건지평선 반지름 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T05:22:04Z",
-      "image": "https://nanalab.kr/eng-schwarzschild-radius/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-gravity-at-radius",
-      "url": "https://nanalab.kr/eng-gravity-at-radius/",
-      "title": "[앱] 천체 중력가속도 계산기",
-      "content_text": "구대칭 천체 바깥에서 거리별 중력가속도 크기 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T05:21:55Z",
-      "image": "https://nanalab.kr/eng-gravity-at-radius/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-gravitational-energy",
-      "url": "https://nanalab.kr/eng-gravitational-energy/",
-      "title": "[앱] 중력 위치에너지 계산기",
-      "content_text": "무한대를 기준으로 한 천체 중력 위치에너지 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T05:21:47Z",
-      "image": "https://nanalab.kr/eng-gravitational-energy/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-hohmann-delta-v",
-      "url": "https://nanalab.kr/eng-hohmann-delta-v/",
-      "title": "[앱] 호만 전이 총 델타V 계산기",
-      "content_text": "같은 평면의 원궤도 사이 이상적인 2회 기동 속력 변화량 합계 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T05:21:39Z",
-      "image": "https://nanalab.kr/eng-hohmann-delta-v/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-orbital-period",
-      "url": "https://nanalab.kr/eng-orbital-period/",
-      "title": "[앱] 원궤도 공전주기 계산기",
-      "content_text": "중심 천체 주위를 도는 이상 원궤도 공전시간 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T05:21:30Z",
-      "image": "https://nanalab.kr/eng-orbital-period/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-escape-speed",
-      "url": "https://nanalab.kr/eng-escape-speed/",
-      "title": "[앱] 탈출속도 계산기",
-      "content_text": "천체 중력장을 벗어나는 최소 초기 속력 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T05:21:22Z",
-      "image": "https://nanalab.kr/eng-escape-speed/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-spring-damping-ratio",
-      "url": "https://nanalab.kr/eng-spring-damping-ratio/",
-      "title": "[앱] 질량 스프링 감쇠비 계산기",
-      "content_text": "감쇠비 계산 / 진동·제어 실험의 임계감쇠 확인 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T01:05:51Z",
-      "image": "https://nanalab.kr/eng-spring-damping-ratio/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-first-order-settling",
-      "url": "https://nanalab.kr/eng-first-order-settling/",
-      "title": "[앱] 1차계 정착시간 계산기",
-      "content_text": "1차계 정착시간 계산 / 센서·공정 응답 대기시간 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T01:05:43Z",
-      "image": "https://nanalab.kr/eng-first-order-settling/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-fiber-numerical-aperture",
-      "url": "https://nanalab.kr/eng-fiber-numerical-aperture/",
-      "title": "[앱] 계단형 광섬유 NA 계산기",
-      "content_text": "광섬유 NA 계산 / 코어·클래딩 사양 검산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T01:05:35Z",
-      "image": "https://nanalab.kr/eng-fiber-numerical-aperture/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-snell-refraction",
-      "url": "https://nanalab.kr/eng-snell-refraction/",
-      "title": "[앱] 스넬 굴절각 계산기",
-      "content_text": "굴절각 스넬 법칙 계산 / 광선 경로 검산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T01:05:27Z",
-      "image": "https://nanalab.kr/eng-snell-refraction/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-aperture-resolution",
-      "url": "https://nanalab.kr/eng-aperture-resolution/",
-      "title": "[앱] 원형 개구 회절 분해각 계산기",
-      "content_text": "회절한계 분해능 각도 / 망원경·광학계 기초 검산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T01:05:19Z",
-      "image": "https://nanalab.kr/eng-aperture-resolution/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-thin-lens-image",
-      "url": "https://nanalab.kr/eng-thin-lens-image/",
-      "title": "[앱] 얇은 렌즈 상거리 계산기",
-      "content_text": "렌즈 상거리 계산 / 광학 벤치·카메라 기초 검산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T01:05:11Z",
-      "image": "https://nanalab.kr/eng-thin-lens-image/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-photon-energy",
-      "url": "https://nanalab.kr/eng-photon-energy/",
-      "title": "[앱] 파장으로 광자 에너지 계산기",
-      "content_text": "파장 광자 에너지 계산 / LED·레이저 분광 기초 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T01:05:02Z",
-      "image": "https://nanalab.kr/eng-photon-energy/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-osmotic-pressure",
-      "url": "https://nanalab.kr/eng-osmotic-pressure/",
-      "title": "[앱] 희석용액 삼투압 계산기",
-      "content_text": "삼투압 계산 / 용액 물성·막 공정 기초 검산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T01:04:54Z",
-      "image": "https://nanalab.kr/eng-osmotic-pressure/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-first-order-half-life",
-      "url": "https://nanalab.kr/eng-first-order-half-life/",
-      "title": "[앱] 1차 반응 반감기 계산기",
-      "content_text": "일차 반응 반감기 계산 / 반응공학·붕괴 모델 검산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T01:04:46Z",
-      "image": "https://nanalab.kr/eng-first-order-half-life/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-arrhenius-rate",
-      "url": "https://nanalab.kr/eng-arrhenius-rate/",
-      "title": "[앱] 아레니우스 속도상수 계산기",
-      "content_text": "아레니우스 방정식 계산 / 반응속도 온도 검산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T01:04:37Z",
-      "image": "https://nanalab.kr/eng-arrhenius-rate/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-mean-free-path",
-      "url": "https://nanalab.kr/eng-mean-free-path/",
-      "title": "[앱] 기체 평균자유행로 계산기",
-      "content_text": "평균자유행로 계산 / 진공·기체 운동론 검산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T01:04:28Z",
-      "image": "https://nanalab.kr/eng-mean-free-path/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-ideal-gas-density",
-      "url": "https://nanalab.kr/eng-ideal-gas-density/",
-      "title": "[앱] 이상기체 밀도 계산기",
-      "content_text": "기체 밀도 온도 압력 계산 / 공정·실험 물성 검산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T01:04:19Z",
-      "image": "https://nanalab.kr/eng-ideal-gas-density/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-euler-buckling",
-      "url": "https://nanalab.kr/eng-euler-buckling/",
-      "title": "[앱] 양단 힌지 기둥 오일러 좌굴하중 계산기",
-      "content_text": "오일러 좌굴하중 / 세장 기둥 기초 실험 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T01:04:10Z",
-      "image": "https://nanalab.kr/eng-euler-buckling/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-shaft-twist",
-      "url": "https://nanalab.kr/eng-shaft-twist/",
-      "title": "[앱] 원형 축 비틀림각 계산기",
-      "content_text": "축 비틀림각 계산 / 회전축 강성 검산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T01:04:02Z",
-      "image": "https://nanalab.kr/eng-shaft-twist/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-bending-stress",
-      "url": "https://nanalab.kr/eng-bending-stress/",
-      "title": "[앱] 보 최대 굽힘응력 계산기",
-      "content_text": "굽힘 응력 계산 / 실험 모멘트의 응력 환산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T01:03:53Z",
-      "image": "https://nanalab.kr/eng-bending-stress/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-restrained-thermal-stress",
-      "url": "https://nanalab.kr/eng-restrained-thermal-stress/",
-      "title": "[앱] 완전 구속 열응력 계산기",
-      "content_text": "구속 열응력 계산 / 열팽창을 막은 봉재 검산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T01:03:44Z",
-      "image": "https://nanalab.kr/eng-restrained-thermal-stress/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-axial-extension",
-      "url": "https://nanalab.kr/eng-axial-extension/",
-      "title": "[앱] 축하중 봉재 늘어남 계산기",
-      "content_text": "인장봉 늘어남 계산 / 하중-변위 검산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T01:03:36Z",
-      "image": "https://nanalab.kr/eng-axial-extension/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-shaft-shear",
-      "url": "https://nanalab.kr/eng-shaft-shear/",
-      "title": "[앱] 중실 원축 최대 전단응력 계산기",
-      "content_text": "축 비틀림 전단응력 / 구동축 지름 초기 검산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T01:03:27Z",
-      "image": "https://nanalab.kr/eng-shaft-shear/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-axial-stress",
-      "url": "https://nanalab.kr/eng-axial-stress/",
-      "title": "[앱] 축하중 평균 응력 계산기",
-      "content_text": "인장 하중 단면 응력 계산 / 시편·봉재 검산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T01:03:18Z",
-      "image": "https://nanalab.kr/eng-axial-stress/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-pendulum-period",
-      "url": "https://nanalab.kr/eng-pendulum-period/",
-      "title": "[앱] 작은 진폭 단진자 주기 계산기",
-      "content_text": "단진자 주기 계산 / 기초 진동·중력 실험 검산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T01:03:10Z",
-      "image": "https://nanalab.kr/eng-pendulum-period/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-spring-frequency",
-      "url": "https://nanalab.kr/eng-spring-frequency/",
-      "title": "[앱] 질량 스프링 고유진동수 계산기",
-      "content_text": "스프링 질량 고유진동수 / 방진·진동 실험 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T01:03:02Z",
-      "image": "https://nanalab.kr/eng-spring-frequency/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-centripetal-acceleration",
-      "url": "https://nanalab.kr/eng-centripetal-acceleration/",
-      "title": "[앱] 구심가속도 계산기",
-      "content_text": "구심가속도 계산 / 원심 실험·회전 장치 검산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T01:02:53Z",
-      "image": "https://nanalab.kr/eng-centripetal-acceleration/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-shaft-power",
-      "url": "https://nanalab.kr/eng-shaft-power/",
-      "title": "[앱] 축 토크 동력 계산기",
-      "content_text": "토크 rpm 출력 계산 / 모터 사양·회전축 실험 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T01:02:45Z",
-      "image": "https://nanalab.kr/eng-shaft-power/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-rotation-energy",
-      "url": "https://nanalab.kr/eng-rotation-energy/",
-      "title": "[앱] 회전 운동에너지 계산기",
-      "content_text": "플라이휠 회전 에너지 계산 / 모터·회전체 검산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T01:02:36Z",
-      "image": "https://nanalab.kr/eng-rotation-energy/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-power-db",
-      "url": "https://nanalab.kr/eng-power-db/",
-      "title": "[앱] 전력 이득 dB 계산기",
-      "content_text": "전력비 데시벨 계산 / 증폭기·링크 손실 검산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T01:02:27Z",
-      "image": "https://nanalab.kr/eng-power-db/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-voltage-divider",
-      "url": "https://nanalab.kr/eng-voltage-divider/",
-      "title": "[앱] 무부하 전압분배 계산기",
-      "content_text": "저항 전압분배 계산 / ADC 센서 입력 초기 검산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T01:02:18Z",
-      "image": "https://nanalab.kr/eng-voltage-divider/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-lc-resonance",
-      "url": "https://nanalab.kr/eng-lc-resonance/",
-      "title": "[앱] LC 공진주파수 계산기",
-      "content_text": "LC 공진주파수 계산 / 필터·공진 실험 초기 설계 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T01:02:10Z",
-      "image": "https://nanalab.kr/eng-lc-resonance/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-inductive-reactance",
-      "url": "https://nanalab.kr/eng-inductive-reactance/",
-      "title": "[앱] 유도성 리액턴스 계산기",
-      "content_text": "코일 리액턴스 계산 / 주파수별 유도성 부하 확인 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T01:02:01Z",
-      "image": "https://nanalab.kr/eng-inductive-reactance/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-capacitive-reactance",
-      "url": "https://nanalab.kr/eng-capacitive-reactance/",
-      "title": "[앱] 용량성 리액턴스 계산기",
-      "content_text": "커패시터 리액턴스 계산 / 교류 회로 소자 검산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T01:01:52Z",
-      "image": "https://nanalab.kr/eng-capacitive-reactance/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-rl-time",
-      "url": "https://nanalab.kr/eng-rl-time/",
-      "title": "[앱] RL 시정수 계산기",
-      "content_text": "RL 시정수 계산 / 코일 전류 응답 실험 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T01:01:43Z",
-      "image": "https://nanalab.kr/eng-rl-time/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-rc-time",
-      "url": "https://nanalab.kr/eng-rc-time/",
-      "title": "[앱] RC 시정수 계산기",
-      "content_text": "RC 시정수 계산 / 충방전·센서 필터 실험 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T01:01:35Z",
-      "image": "https://nanalab.kr/eng-rc-time/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-solenoid-inductance",
-      "url": "https://nanalab.kr/eng-solenoid-inductance/",
-      "title": "[앱] 긴 공심 솔레노이드 인덕턴스 계산기",
-      "content_text": "솔레노이드 인덕턴스 계산 / 코일 권선 초기 검산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T01:01:25Z",
-      "image": "https://nanalab.kr/eng-solenoid-inductance/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-plate-capacitance",
-      "url": "https://nanalab.kr/eng-plate-capacitance/",
-      "title": "[앱] 평행판 정전용량 계산기",
-      "content_text": "평행판 커패시터 계산 / 센서·유전체 실험 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T01:01:17Z",
-      "image": "https://nanalab.kr/eng-plate-capacitance/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-wire-resistance",
-      "url": "https://nanalab.kr/eng-wire-resistance/",
-      "title": "[앱] 전선 직류저항 계산기",
-      "content_text": "전선 길이 저항 계산 / 배선·저항선 실험 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T01:01:08Z",
-      "image": "https://nanalab.kr/eng-wire-resistance/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-carnot-cop",
-      "url": "https://nanalab.kr/eng-carnot-cop/",
-      "title": "[앱] 카르노 냉동기 COP 계산기",
-      "content_text": "냉동 카르노 COP 계산 / 냉동공조 이론 검산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T01:01:00Z",
-      "image": "https://nanalab.kr/eng-carnot-cop/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-carnot-efficiency",
-      "url": "https://nanalab.kr/eng-carnot-efficiency/",
-      "title": "[앱] 카르노 효율 상한 계산기",
-      "content_text": "카르노 효율 계산 / 열기관 이론 상한 확인 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T01:00:52Z",
-      "image": "https://nanalab.kr/eng-carnot-efficiency/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-thermal-expansion",
-      "url": "https://nanalab.kr/eng-thermal-expansion/",
-      "title": "[앱] 열팽창 길이 변화 계산기",
-      "content_text": "열팽창 길이 계산 / 조립 간극·금속봉 실험 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T01:00:44Z",
-      "image": "https://nanalab.kr/eng-thermal-expansion/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-radiation-heat",
-      "url": "https://nanalab.kr/eng-radiation-heat/",
-      "title": "[앱] 순복사 열전달률 계산기",
-      "content_text": "복사열 스테판 볼츠만 계산 / 고온 표면 열손실 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T01:00:35Z",
-      "image": "https://nanalab.kr/eng-radiation-heat/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-convection-heat",
-      "url": "https://nanalab.kr/eng-convection-heat/",
-      "title": "[앱] 표면 대류 열전달률 계산기",
-      "content_text": "뉴턴 냉각법칙 계산 / 방열판·열전달 실험 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T01:00:27Z",
-      "image": "https://nanalab.kr/eng-convection-heat/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-wall-conduction",
-      "url": "https://nanalab.kr/eng-wall-conduction/",
-      "title": "[앱] 평판 전도 열전달률 계산기",
-      "content_text": "벽 열전도 계산 / 단열판·전도 실험 검산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T01:00:18Z",
-      "image": "https://nanalab.kr/eng-wall-conduction/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-drag-force",
-      "url": "https://nanalab.kr/eng-drag-force/",
-      "title": "[앱] 항력 한 값 계산기",
-      "content_text": "공기저항 항력 계산 / 풍동 계수로 하중 검산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T01:00:10Z",
-      "image": "https://nanalab.kr/eng-drag-force/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-kinematic-viscosity",
-      "url": "https://nanalab.kr/eng-kinematic-viscosity/",
-      "title": "[앱] 동점성계수 계산기",
-      "content_text": "점도 동점도 계산 / 물성표 단위 혼동 해결 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T01:00:01Z",
-      "image": "https://nanalab.kr/eng-kinematic-viscosity/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-hydraulic-power",
-      "url": "https://nanalab.kr/eng-hydraulic-power/",
-      "title": "[앱] 유체 압력동력 계산기",
-      "content_text": "압력 유량 동력 계산 / 펌프 압력일률 검산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T00:59:53Z",
-      "image": "https://nanalab.kr/eng-hydraulic-power/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-laminar-pipe-drop",
-      "url": "https://nanalab.kr/eng-laminar-pipe-drop/",
-      "title": "[앱] 층류 원관 압력강하 계산기",
-      "content_text": "포아죄유 압력강하 / 미세유로·층류 실험 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T00:59:45Z",
-      "image": "https://nanalab.kr/eng-laminar-pipe-drop/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-hydrostatic-pressure",
-      "url": "https://nanalab.kr/eng-hydrostatic-pressure/",
-      "title": "[앱] 액주 게이지압 계산기",
-      "content_text": "수두 압력 계산 / 탱크 액주압·수조 실험 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T00:59:37Z",
-      "image": "https://nanalab.kr/eng-hydrostatic-pressure/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-mass-flow",
-      "url": "https://nanalab.kr/eng-mass-flow/",
-      "title": "[앱] 질량유량 계산기",
-      "content_text": "질량유량 환산 / 가스 공급·물질수지 입력값 확인 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T00:59:28Z",
-      "image": "https://nanalab.kr/eng-mass-flow/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-volume-flow",
-      "url": "https://nanalab.kr/eng-volume-flow/",
-      "title": "[앱] 관 단면 체적유량 계산기",
-      "content_text": "유속 유량 계산 / 배관·송풍구 단면 유량 검산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T00:59:20Z",
-      "image": "https://nanalab.kr/eng-volume-flow/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-dynamic-pressure",
-      "url": "https://nanalab.kr/eng-dynamic-pressure/",
-      "title": "[앱] 동압 한 값 계산기",
-      "content_text": "풍속 동압 계산 / 풍동 하중과 계수 산정 전 검산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T00:59:12Z",
-      "image": "https://nanalab.kr/eng-dynamic-pressure/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-mach",
-      "url": "https://nanalab.kr/eng-mach/",
-      "title": "[앱] 마하수 계산기",
-      "content_text": "마하수 계산 / 풍동·노즐 실험 속도비 확인 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T00:59:04Z",
-      "image": "https://nanalab.kr/eng-mach/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-reynolds",
-      "url": "https://nanalab.kr/eng-reynolds/",
-      "title": "[앱] 레이놀즈수 계산기",
-      "content_text": "레이놀즈수 계산 / 관 유동 실험·모형 유사성 점검 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T00:58:55Z",
-      "image": "https://nanalab.kr/eng-reynolds/og.png"
     }
   ]
 }

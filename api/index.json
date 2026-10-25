@@ -3,11 +3,11 @@
   "title": "NaNa Lab 공개 데이터",
   "home_page_url": "https://nanalab.kr",
   "documentation_url": "https://nanalab.kr/feeds/",
-  "total_count": 459,
+  "total_count": 520,
   "catalogs": {
     "apps": {
       "url": "https://nanalab.kr/api/apps.json",
-      "count": 132
+      "count": 193
     },
     "lectures": {
       "url": "https://nanalab.kr/api/lectures.json",

@@ -796,6 +796,311 @@
       "name": "Calculadora de decremento logarítmico",
       "description": "Calcule el decremento logarítmico a partir de picos del mismo sentido de una vibración libre amortiguada.",
       "image_alt": "Calculadora de decremento logarítmico"
+    },
+    "world-law-portal": {
+      "name": "Biblioteca de legislación mundial",
+      "description": "Lea legislación nacional en HTML y en su idioma original. Consulte documentos con fuentes oficiales, información de edición y condiciones de reutilización.",
+      "image_alt": "Biblioteca de legislación mundial"
+    },
+    "eng-rocket-delta-v": {
+      "name": "Calculadora de delta v de un cohete según Tsiolkovsky",
+      "description": "Calcule el delta v ideal a partir de la combustión de un cohete utilizando las masas totales y la velocidad de escape efectiva.",
+      "image_alt": "Calculadora de delta v de un cohete según Tsiolkovsky"
+    },
+    "eng-rocket-nozzle-thrust": {
+      "name": "Calculadora de empuje de una tobera de cohete",
+      "description": "Calcule el empuje axial de la tobera del cohete a partir del momento de escape y la diferencia de presión entre la salida y el ambiente.",
+      "image_alt": "Calculadora de empuje de una tobera de cohete"
+    },
+    "eng-tidal-acceleration": {
+      "name": "Calculadora de aceleración diferencial de mareas",
+      "description": "Calcule la diferencia en las magnitudes de la aceleración gravitacional newtoniana en dos puntos alineados radialmente.",
+      "image_alt": "Calculadora de aceleración diferencial de mareas"
+    },
+    "eng-hill-radius": {
+      "name": "Calculadora del radio de la esfera de Hill",
+      "description": "Calcule el radio de Hill de un cuerpo de baja masa en una órbita circular alrededor de un primario.",
+      "image_alt": "Calculadora del radio de la esfera de Hill"
+    },
+    "eng-fluid-roche-limit": {
+      "name": "Calculadora del límite de Roche para un satélite fluido",
+      "description": "Estime la distancia clásica de disrupción por mareas para un satélite fluido sin resistencia a la tracción.",
+      "image_alt": "Calculadora del límite de Roche para un satélite fluido"
+    },
+    "eng-einstein-ring": {
+      "name": "Calculadora de radio angular del anillo de Einstein",
+      "description": "Calcule el radio angular del anillo de Einstein para una lente puntual alineada en geometría euclidiana local.",
+      "image_alt": "Calculadora de radio angular del anillo de Einstein"
+    },
+    "eng-eddington-luminosity": {
+      "name": "Calculadora de luminosidad de Eddington",
+      "description": "Calcule la escala de luminosidad esférica de Eddington donde se equilibran la aceleración radiativa y gravitacional.",
+      "image_alt": "Calculadora de luminosidad de Eddington"
+    },
+    "eng-jeans-mass": {
+      "name": "Calculadora de masa de Jeans",
+      "description": "Calcule la masa de una esfera de longitud de onda crítica en el modelo lineal de inestabilidad de Jeans.",
+      "image_alt": "Calculadora de masa de Jeans"
+    },
+    "eng-gravitational-redshift": {
+      "name": "Calculadora de desplazamiento al rojo gravitacional",
+      "description": "Calcule el cambio de longitud de onda gravitacional entre dos observadores estáticos en el espacio-tiempo exterior de Schwarzschild.",
+      "image_alt": "Calculadora de desplazamiento al rojo gravitacional"
+    },
+    "eng-transit-depth": {
+      "name": "Calculadora de profundidad de tránsito de exoplanetas",
+      "description": "Calcule la fracción ideal de luz estelar bloqueada por un planeta opaco completamente dentro del disco estelar.",
+      "image_alt": "Calculadora de profundidad de tránsito de exoplanetas"
+    },
+    "eng-quantum-box-energy": {
+      "name": "Calculadora de energía en un pozo cuántico infinito",
+      "description": "Calcule el nivel de energía de una partícula confinada en un pozo cuadrado infinito unidimensional.",
+      "image_alt": "Calculadora de energía en un pozo cuántico infinito"
+    },
+    "eng-barrier-tunneling": {
+      "name": "Calculadora de transmisión a través de una barrera rectangular",
+      "description": "Calcule la probabilidad de transmisión debajo, en y encima de una barrera rectangular.",
+      "image_alt": "Calculadora de transmisión a través de una barrera rectangular"
+    },
+    "eng-hydrogen-transition": {
+      "name": "Calculadora de longitud de onda de transición de hidrógeno",
+      "description": "Estime una longitud de onda de emisión de hidrógeno entre dos números cuánticos principales utilizando un modelo de Rydberg.",
+      "image_alt": "Calculadora de longitud de onda de transición de hidrógeno"
+    },
+    "eng-quantum-oscillator": {
+      "name": "Calculadora de energía del oscilador armónico cuántico",
+      "description": "Calcule el nivel de un oscilador armónico cuántico unidimensional, incluida su energía de punto cero.",
+      "image_alt": "Calculadora de energía del oscilador armónico cuántico"
+    },
+    "eng-compton-shift": {
+      "name": "Calculadora de cambio de longitud de onda de dispersión Compton",
+      "description": "Calcule el aumento de la longitud de onda del fotón cuando se dispersa desde un objetivo libre inicialmente estacionario.",
+      "image_alt": "Calculadora de cambio de longitud de onda de dispersión Compton"
+    },
+    "eng-photoelectric-stop": {
+      "name": "Calculadora de tensión de frenado fotoeléctrico",
+      "description": "Calcule la magnitud del voltaje inverso necesaria para detener los fotoelectrones más rápidos en un modelo de fotón único.",
+      "image_alt": "Calculadora de tensión de frenado fotoeléctrico"
+    },
+    "eng-nuclear-q-value": {
+      "name": "Calculadora del valor Q de la reacción nuclear",
+      "description": "Calcule la liberación o absorción de energía por reacción a partir de la diferencia total de masa en reposo.",
+      "image_alt": "Calculadora del valor Q de la reacción nuclear"
+    },
+    "eng-gaussian-beam": {
+      "name": "Calculadora de radio de haz gaussiano",
+      "description": "Calcule el radio de un haz gaussiano ideal a una distancia de su cintura.",
+      "image_alt": "Calculadora de radio de haz gaussiano"
+    },
+    "eng-malus-intensity": {
+      "name": "Calculadora de intensidad transmitida de la ley de Malus",
+      "description": "Calcule la intensidad de la luz polarizada linealmente después de un analizador ideal.",
+      "image_alt": "Calculadora de intensidad transmitida de la ley de Malus"
+    },
+    "eng-faraday-rotation": {
+      "name": "Calculadora de rotación de polarización de Faraday",
+      "description": "Calcule la rotación de polarización de Faraday en un campo magnético longitudinal uniforme.",
+      "image_alt": "Calculadora de rotación de polarización de Faraday"
+    },
+    "eng-collision-restitution": {
+      "name": "Calculadora de velocidad tras una colisión con restitución",
+      "description": "Encuentre la velocidad final del primer cuerpo a partir del momento lineal y el coeficiente de restitución.",
+      "image_alt": "Calculadora de velocidad tras una colisión con restitución"
+    },
+    "eng-rolling-incline": {
+      "name": "Calculadora de aceleración de rodadura en un plano inclinado",
+      "description": "Calcule la aceleración cuesta abajo teniendo en cuenta tanto la traslación como la rotación.",
+      "image_alt": "Calculadora de aceleración de rodadura en un plano inclinado"
+    },
+    "eng-gyroscope-precession": {
+      "name": "Calculadora de precesión giroscópica",
+      "description": "Calcule la precesión gravitacional lenta y constante para un giroscopio simétrico que gira rápidamente.",
+      "image_alt": "Calculadora de precesión giroscópica"
+    },
+    "eng-coriolis-horizontal": {
+      "name": "Calculadora de aceleración de Coriolis horizontal",
+      "description": "Calcule la componente de la aceleración de Coriolis perpendicular al movimiento horizontal en una latitud determinada.",
+      "image_alt": "Calculadora de aceleración de Coriolis horizontal"
+    },
+    "eng-capstan-tension": {
+      "name": "Calculadora de tensión límite de una cuerda sobre un cabrestante",
+      "description": "Encuentre la tensión mayor del cable ante un deslizamiento inminente alrededor de un tambor cilíndrico.",
+      "image_alt": "Calculadora de tensión límite de una cuerda sobre un cabrestante"
+    },
+    "eng-inertial-atwood": {
+      "name": "Calculadora de aceleración de Atwood con inercia de polea",
+      "description": "Calcule la aceleración de dos masas suspendidas conectadas sobre una polea con inercia rotacional.",
+      "image_alt": "Calculadora de aceleración de Atwood con inercia de polea"
+    },
+    "eng-open-belt-length": {
+      "name": "Calculadora exacta de longitud de una correa abierta",
+      "description": "Calcule la longitud de la línea de paso de una correa no cruzada utilizando geometría tangente y de arco circular.",
+      "image_alt": "Calculadora exacta de longitud de una correa abierta"
+    },
+    "eng-point-mass-inertia": {
+      "name": "Calculadora de momento de inercia de masas puntuales",
+      "description": "Sume el momento de inercia de una lista de masas puntuales utilizando distancias perpendiculares a un eje establecido.",
+      "image_alt": "Calculadora de momento de inercia de masas puntuales"
+    },
+    "eng-miner-fatigue": {
+      "name": "Calculadora de daño acumulado por fatiga según Miner",
+      "description": "Sume fracciones de daño por fatiga de una lista editable de recuentos de ciclos aplicados y permitidos.",
+      "image_alt": "Calculadora de daño acumulado por fatiga según Miner"
+    },
+    "eng-forced-vibration": {
+      "name": "Calculadora de amplitud estacionaria de una vibración forzada",
+      "description": "Calcule la amplitud armónica del desplazamiento estacionario de un sistema masa-resorte-amortiguador de un solo grado de libertad.",
+      "image_alt": "Calculadora de amplitud estacionaria de una vibración forzada"
+    },
+    "eng-froude-number": {
+      "name": "Calculadora del número de Froude",
+      "description": "Calcule el número de Froude para flujo en canales abiertos utilizando la velocidad media de la sección y la profundidad hidráulica, definida como el área de flujo dividida por el ancho superior de la superficie libre.",
+      "image_alt": "Calculadora del número de Froude"
+    },
+    "eng-weber-number": {
+      "name": "Calculadora del número de Weber",
+      "description": "Calcule la relación entre la inercia y los efectos de tensión interfacial para una longitud característica y una velocidad relativa determinadas.",
+      "image_alt": "Calculadora del número de Weber"
+    },
+    "eng-bond-number": {
+      "name": "Calculadora del número de Bond",
+      "description": "Calcule la relación de magnitud de la gravedad debida a la diferencia de densidad entre dos fluidos y la tensión interfacial.",
+      "image_alt": "Calculadora del número de Bond"
+    },
+    "eng-cavitation-number": {
+      "name": "Calculadora del número de cavitación",
+      "description": "Calcule un índice de cavitación dividiendo el margen entre la presión absoluta de referencia y la presión de vapor de saturación por la presión dinámica.",
+      "image_alt": "Calculadora del número de cavitación"
+    },
+    "eng-hydraulic-jump": {
+      "name": "Calculadora de tirante conjugado de un resalto hidráulico",
+      "description": "Calcule el tirante conjugado aguas abajo correspondiente a un flujo supercrítico aguas arriba en un canal rectangular horizontal mediante la conservación de la cantidad de movimiento.",
+      "image_alt": "Calculadora de tirante conjugado de un resalto hidráulico"
+    },
+    "eng-water-hammer": {
+      "name": "Calculadora de cambio de presión por golpe de ariete de Joukowsky",
+      "description": "Estime la onda de presión inicial generada en una perturbación aguas abajo y que viaja aguas arriba después de un cambio rápido en la velocidad del líquido.",
+      "image_alt": "Calculadora de cambio de presión por golpe de ariete de Joukowsky"
+    },
+    "eng-couette-force": {
+      "name": "Calculadora de fuerza de arrastre en flujo plano de Couette",
+      "description": "Calcule la magnitud de la fuerza de arrastre viscosa en una cara de una placa móvil a partir del perfil de velocidad lineal entre placas paralelas.",
+      "image_alt": "Calculadora de fuerza de arrastre en flujo plano de Couette"
+    },
+    "eng-rotating-free-surface": {
+      "name": "Calculadora de diferencia de altura de superficie libre de líquido giratorio",
+      "description": "Calcule la diferencia de altura de la superficie libre con signo entre dos posiciones radiales cuando el líquido gira como un cuerpo rígido con su recipiente.",
+      "image_alt": "Calculadora de diferencia de altura de superficie libre de líquido giratorio"
+    },
+    "eng-circulation-lift": {
+      "name": "Calculadora de sustentación por unidad de envergadura a partir de la circulación",
+      "description": "Calcule la sustentación con signo por unidad de envergadura mediante la relación de Kutta–Joukowski para un flujo bidimensional estacionario con circulación.",
+      "image_alt": "Calculadora de sustentación por unidad de envergadura a partir de la circulación"
+    },
+    "eng-water-wave-length": {
+      "name": "Calculadora de longitud de onda gravitatoria en agua de profundidad finita",
+      "description": "Resuelva la ecuación de dispersión de ondas de gravedad lineal de profundidad finita para obtener un número de onda positivo para obtener una longitud de onda que abarque continuamente aguas poco profundas y profundas.",
+      "image_alt": "Calculadora de longitud de onda gravitatoria en agua de profundidad finita"
+    },
+    "eng-resistor-thermal-noise": {
+      "name": "Calculadora de ruido térmico de resistencia",
+      "description": "Calcule el voltaje RMS de ruido térmico de circuito abierto de una resistencia a partir de su temperatura y ancho de banda de ruido equivalente.",
+      "image_alt": "Calculadora de ruido térmico de resistencia"
+    },
+    "eng-adc-quantization-noise": {
+      "name": "Calculadora de ruido de cuantización de un ADC",
+      "description": "Calcule el error de cuantificación RMS ideal para un cuantificador uniforme de N bits en todo su rango de voltaje de entrada.",
+      "image_alt": "Calculadora de ruido de cuantización de un ADC"
+    },
+    "eng-sampling-jitter-snr": {
+      "name": "Calculadora de SNR limitada por el jitter de muestreo",
+      "description": "Calcule la relación señal-ruido impuesta únicamente por la fluctuación de tiempo al muestrear una onda sinusoidal.",
+      "image_alt": "Calculadora de SNR limitada por el jitter de muestreo"
+    },
+    "eng-alias-frequency": {
+      "name": "Calculadora de frecuencia de alias por muestreo",
+      "description": "Doble una sinusoide real muestreada uniformemente en el intervalo de frecuencia de cero a la mitad de la frecuencia de muestreo.",
+      "image_alt": "Calculadora de frecuencia de alias por muestreo"
+    },
+    "eng-shannon-capacity": {
+      "name": "Calculadora de capacidad del canal Shannon",
+      "description": "Calcule la capacidad de Shannon de un canal AWGN de ​​banda limitada a partir del ancho de banda y la SNR recibida.",
+      "image_alt": "Calculadora de capacidad del canal Shannon"
+    },
+    "eng-cascade-noise-figure": {
+      "name": "Calculadora de figura de ruido de etapas en cascada",
+      "description": "Combine la ganancia de potencia y el factor de ruido de una lista ordenada de etapas utilizando la relación en cascada de Friis.",
+      "image_alt": "Calculadora de figura de ruido de etapas en cascada"
+    },
+    "eng-free-space-path-loss": {
+      "name": "Calculadora de pérdida de trayectoria en el espacio libre",
+      "description": "Calcule la pérdida de trayectoria de referencia isotrópica causada por la dispersión geométrica en la propagación en el espacio libre de campo lejano.",
+      "image_alt": "Calculadora de pérdida de trayectoria en el espacio libre"
+    },
+    "eng-coax-impedance": {
+      "name": "Calculadora de impedancia característica coaxial",
+      "description": "Calcule la impedancia característica TEM sin pérdidas de una línea coaxial concéntrica a partir de sus radios conductores y propiedades dieléctricas uniformes.",
+      "image_alt": "Calculadora de impedancia característica coaxial"
+    },
+    "eng-load-vswr": {
+      "name": "Calculadora de ROE de tensión para una carga compleja",
+      "description": "Calcule la relación de onda estacionaria de voltaje a partir de una impedancia de referencia real y una impedancia de carga compleja finita.",
+      "image_alt": "Calculadora de ROE de tensión para una carga compleja"
+    },
+    "eng-hall-voltage": {
+      "name": "Calculadora de voltaje Hall",
+      "description": "Calcule el voltaje Hall con signo para una muestra plana con un solo tipo de portador.",
+      "image_alt": "Calculadora de voltaje Hall"
+    },
+    "eng-counterflow-ntu": {
+      "name": "Calculadora de intercambiador de calor a contracorriente",
+      "description": "Calcule la tasa de transferencia de calor en régimen estacionario de un intercambiador a contracorriente de un solo paso a partir de UA, las tasas de capacidad calorífica de las corrientes y las temperaturas de entrada.",
+      "image_alt": "Calculadora de intercambiador de calor a contracorriente"
+    },
+    "eng-fin-efficiency": {
+      "name": "Calculadora de eficiencia de una aleta con extremo aislado",
+      "description": "Compare la transferencia de calor de una aleta recta y uniforme con la transferencia de calor ideal si toda su superficie estuviera a la temperatura base.",
+      "image_alt": "Calculadora de eficiencia de una aleta con extremo aislado"
+    },
+    "eng-heated-slab-center": {
+      "name": "Calculadora de temperatura central de una pared plana con generación interna de calor",
+      "description": "Calcule la temperatura central máxima constante de una losa calentada uniformemente cuyas dos superficies tienen la misma temperatura prescrita.",
+      "image_alt": "Calculadora de temperatura central de una pared plana con generación interna de calor"
+    },
+    "eng-ideal-mixing-entropy": {
+      "name": "Calculadora de entropía de mezcla de gases ideales",
+      "description": "Encuentre el aumento de entropía cuando se mezclan distintos gases ideales, inicialmente separados a la misma temperatura y presión.",
+      "image_alt": "Calculadora de entropía de mezcla de gases ideales"
+    },
+    "eng-reaction-equilibrium": {
+      "name": "Calculadora de constante de equilibrio de una reacción",
+      "description": "Calcule la constante de equilibrio termodinámico adimensional a partir de la energía de Gibbs de reacción estándar para una reacción y un estado estándar específicos.",
+      "image_alt": "Calculadora de constante de equilibrio de una reacción"
+    },
+    "eng-raoult-bubble-pressure": {
+      "name": "Calculadora de presión de burbuja de una mezcla ideal",
+      "description": "Calcule la presión total al inicio de la ebullición en una solución líquida ideal a partir de la composición líquida y las presiones de vapor del componente puro a una temperatura común.",
+      "image_alt": "Calculadora de presión de burbuja de una mezcla ideal"
+    },
+    "eng-electroplating-mass": {
+      "name": "Calculadora de masa depositada por electrodeposición",
+      "description": "Utilice la ley de Faraday y la eficiencia de corriente introducida para calcular la masa depositada por la reacción de electrodo deseada.",
+      "image_alt": "Calculadora de masa depositada por electrodeposición"
+    },
+    "eng-cstr-conversion": {
+      "name": "Calculadora de conversión de primer orden en un CSTR",
+      "description": "Calcule la conversión en estado estacionario de una reacción irreversible de primer orden en un reactor de tanque agitado continuo perfectamente mezclado.",
+      "image_alt": "Calculadora de conversión de primer orden en un CSTR"
+    },
+    "eng-welding-line-heat": {
+      "name": "Calculadora de aporte térmico por unidad de longitud de soldadura",
+      "description": "Calcule la energía térmica entregada a la pieza de trabajo por longitud de soldadura para voltaje, corriente y velocidad de desplazamiento constantes.",
+      "image_alt": "Calculadora de aporte térmico por unidad de longitud de soldadura"
+    },
+    "eng-bend-allowance": {
+      "name": "Calculadora de longitud desarrollada del pliegue de una chapa",
+      "description": "Utilice el factor K introducido para situar el eje neutro y calcular la longitud desarrollada de la parte curva de un único pliegue circular.",
+      "image_alt": "Calculadora de longitud desarrollada del pliegue de una chapa"
     }
   },
   "schema_version": "1.0",

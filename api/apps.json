@@ -1,8 +1,1833 @@
 {
   "schema_version": "1.0",
   "type": "apps",
-  "count": 132,
+  "count": 193,
   "items": [
+    {
+      "id": "eng-bend-allowance",
+      "section": "apps",
+      "title": "판금 절곡부 전개 길이 계산기",
+      "url": "https://nanalab.kr/eng-bend-allowance/",
+      "summary": "입력한 K계수로 중립축 반지름을 정하고 원호 형태 절곡부의 전개 길이만 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:22:30Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-bend-allowance/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-bend-allowance",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-bend-allowance/",
+        "en": "https://nanalab.kr/eng-bend-allowance/en/",
+        "es": "https://nanalab.kr/eng-bend-allowance/es/",
+        "zh": "https://nanalab.kr/eng-bend-allowance/zh/",
+        "ja": "https://nanalab.kr/eng-bend-allowance/ja/",
+        "de": "https://nanalab.kr/eng-bend-allowance/de/"
+      }
+    },
+    {
+      "id": "eng-cstr-conversion",
+      "section": "apps",
+      "title": "연속 교반 반응기 전환율 계산기",
+      "url": "https://nanalab.kr/eng-cstr-conversion/",
+      "summary": "완전히 혼합되는 연속 교반 탱크의 비가역 1차 반응에 대해 정상상태 전환율을 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:22:29Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-cstr-conversion/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-cstr-conversion",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-cstr-conversion/",
+        "en": "https://nanalab.kr/eng-cstr-conversion/en/",
+        "es": "https://nanalab.kr/eng-cstr-conversion/es/",
+        "zh": "https://nanalab.kr/eng-cstr-conversion/zh/",
+        "ja": "https://nanalab.kr/eng-cstr-conversion/ja/",
+        "de": "https://nanalab.kr/eng-cstr-conversion/de/"
+      }
+    },
+    {
+      "id": "eng-welding-line-heat",
+      "section": "apps",
+      "title": "용접 단위길이 입열량 계산기",
+      "url": "https://nanalab.kr/eng-welding-line-heat/",
+      "summary": "일정한 전압·전류·이동속도에서 전기 아크 에너지 중 모재에 전달되는 길이당 열량을 구합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:22:29Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-welding-line-heat/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-welding-line-heat",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-welding-line-heat/",
+        "en": "https://nanalab.kr/eng-welding-line-heat/en/",
+        "es": "https://nanalab.kr/eng-welding-line-heat/es/",
+        "zh": "https://nanalab.kr/eng-welding-line-heat/zh/",
+        "ja": "https://nanalab.kr/eng-welding-line-heat/ja/",
+        "de": "https://nanalab.kr/eng-welding-line-heat/de/"
+      }
+    },
+    {
+      "id": "eng-electroplating-mass",
+      "section": "apps",
+      "title": "전해도금 석출 질량 계산기",
+      "url": "https://nanalab.kr/eng-electroplating-mass/",
+      "summary": "패러데이 전기분해 법칙과 입력한 전류효율로 목표 반응에서 석출되는 물질의 질량을 구합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:22:28Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-electroplating-mass/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-electroplating-mass",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-electroplating-mass/",
+        "en": "https://nanalab.kr/eng-electroplating-mass/en/",
+        "es": "https://nanalab.kr/eng-electroplating-mass/es/",
+        "zh": "https://nanalab.kr/eng-electroplating-mass/zh/",
+        "ja": "https://nanalab.kr/eng-electroplating-mass/ja/",
+        "de": "https://nanalab.kr/eng-electroplating-mass/de/"
+      }
+    },
+    {
+      "id": "eng-raoult-bubble-pressure",
+      "section": "apps",
+      "title": "이상 혼합물 기포점 압력 계산기",
+      "url": "https://nanalab.kr/eng-raoult-bubble-pressure/",
+      "summary": "같은 온도의 성분별 포화증기압과 액상 조성으로 이상 용액에 첫 기포가 생기는 총압을 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:22:20Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-raoult-bubble-pressure/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-raoult-bubble-pressure",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-raoult-bubble-pressure/",
+        "en": "https://nanalab.kr/eng-raoult-bubble-pressure/en/",
+        "es": "https://nanalab.kr/eng-raoult-bubble-pressure/es/",
+        "zh": "https://nanalab.kr/eng-raoult-bubble-pressure/zh/",
+        "ja": "https://nanalab.kr/eng-raoult-bubble-pressure/ja/",
+        "de": "https://nanalab.kr/eng-raoult-bubble-pressure/de/"
+      }
+    },
+    {
+      "id": "eng-reaction-equilibrium",
+      "section": "apps",
+      "title": "반응 평형상수 계산기",
+      "url": "https://nanalab.kr/eng-reaction-equilibrium/",
+      "summary": "정해진 반응식과 표준상태에 대응하는 표준 반응 깁스에너지에서 무차원 열역학 평형상수를 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:22:19Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-reaction-equilibrium/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-reaction-equilibrium",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-reaction-equilibrium/",
+        "en": "https://nanalab.kr/eng-reaction-equilibrium/en/",
+        "es": "https://nanalab.kr/eng-reaction-equilibrium/es/",
+        "zh": "https://nanalab.kr/eng-reaction-equilibrium/zh/",
+        "ja": "https://nanalab.kr/eng-reaction-equilibrium/ja/",
+        "de": "https://nanalab.kr/eng-reaction-equilibrium/de/"
+      }
+    },
+    {
+      "id": "eng-ideal-mixing-entropy",
+      "section": "apps",
+      "title": "이상기체 혼합 엔트로피 계산기",
+      "url": "https://nanalab.kr/eng-ideal-mixing-entropy/",
+      "summary": "처음에 같은 온도와 압력으로 분리되어 있던 서로 다른 이상기체를 혼합할 때의 엔트로피 증가를 구합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:22:18Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-ideal-mixing-entropy/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-ideal-mixing-entropy",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-ideal-mixing-entropy/",
+        "en": "https://nanalab.kr/eng-ideal-mixing-entropy/en/",
+        "es": "https://nanalab.kr/eng-ideal-mixing-entropy/es/",
+        "zh": "https://nanalab.kr/eng-ideal-mixing-entropy/zh/",
+        "ja": "https://nanalab.kr/eng-ideal-mixing-entropy/ja/",
+        "de": "https://nanalab.kr/eng-ideal-mixing-entropy/de/"
+      }
+    },
+    {
+      "id": "eng-heated-slab-center",
+      "section": "apps",
+      "title": "내부 발열 평판 최고온도 계산기",
+      "url": "https://nanalab.kr/eng-heated-slab-center/",
+      "summary": "양쪽 표면이 같은 온도로 유지되는 내부 발열 평판에서 정상상태의 중심 최고온도를 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:22:17Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-heated-slab-center/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-heated-slab-center",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-heated-slab-center/",
+        "en": "https://nanalab.kr/eng-heated-slab-center/en/",
+        "es": "https://nanalab.kr/eng-heated-slab-center/es/",
+        "zh": "https://nanalab.kr/eng-heated-slab-center/zh/",
+        "ja": "https://nanalab.kr/eng-heated-slab-center/ja/",
+        "de": "https://nanalab.kr/eng-heated-slab-center/de/"
+      }
+    },
+    {
+      "id": "eng-fin-efficiency",
+      "section": "apps",
+      "title": "방열핀 효율 계산기",
+      "url": "https://nanalab.kr/eng-fin-efficiency/",
+      "summary": "일정한 단면을 가진 곧은 핀의 실제 열방출량을 핀 전체가 기저 온도일 때의 이상적인 열방출량과 비교합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:22:09Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-fin-efficiency/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-fin-efficiency",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-fin-efficiency/",
+        "en": "https://nanalab.kr/eng-fin-efficiency/en/",
+        "es": "https://nanalab.kr/eng-fin-efficiency/es/",
+        "zh": "https://nanalab.kr/eng-fin-efficiency/zh/",
+        "ja": "https://nanalab.kr/eng-fin-efficiency/ja/",
+        "de": "https://nanalab.kr/eng-fin-efficiency/de/"
+      }
+    },
+    {
+      "id": "eng-hall-voltage",
+      "section": "apps",
+      "title": "홀 전압 계산기",
+      "url": "https://nanalab.kr/eng-hall-voltage/",
+      "summary": "단일 캐리어 평판 시료에서 부호 있는 전류·자기장·전하로 홀 전압 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:22:08Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-hall-voltage/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-hall-voltage",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-hall-voltage/",
+        "en": "https://nanalab.kr/eng-hall-voltage/en/",
+        "es": "https://nanalab.kr/eng-hall-voltage/es/",
+        "zh": "https://nanalab.kr/eng-hall-voltage/zh/",
+        "ja": "https://nanalab.kr/eng-hall-voltage/ja/",
+        "de": "https://nanalab.kr/eng-hall-voltage/de/"
+      }
+    },
+    {
+      "id": "eng-counterflow-ntu",
+      "section": "apps",
+      "title": "대향류 열교환기 성능 계산기",
+      "url": "https://nanalab.kr/eng-counterflow-ntu/",
+      "summary": "출구온도를 모를 때 UA와 양쪽 열용량유량으로 단일 통과 대향류 열교환기의 정상 교환열량률을 구합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:22:08Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-counterflow-ntu/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-counterflow-ntu",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-counterflow-ntu/",
+        "en": "https://nanalab.kr/eng-counterflow-ntu/en/",
+        "es": "https://nanalab.kr/eng-counterflow-ntu/es/",
+        "zh": "https://nanalab.kr/eng-counterflow-ntu/zh/",
+        "ja": "https://nanalab.kr/eng-counterflow-ntu/ja/",
+        "de": "https://nanalab.kr/eng-counterflow-ntu/de/"
+      }
+    },
+    {
+      "id": "eng-load-vswr",
+      "section": "apps",
+      "title": "부하 반사와 정재파비 계산기",
+      "url": "https://nanalab.kr/eng-load-vswr/",
+      "summary": "실수 기준임피던스와 유한 복소 부하로 전압 정재파비 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:22:07Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-load-vswr/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-load-vswr",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-load-vswr/",
+        "en": "https://nanalab.kr/eng-load-vswr/en/",
+        "es": "https://nanalab.kr/eng-load-vswr/es/",
+        "zh": "https://nanalab.kr/eng-load-vswr/zh/",
+        "ja": "https://nanalab.kr/eng-load-vswr/ja/",
+        "de": "https://nanalab.kr/eng-load-vswr/de/"
+      }
+    },
+    {
+      "id": "eng-cascade-noise-figure",
+      "section": "apps",
+      "title": "다단 증폭기 잡음지수 계산기",
+      "url": "https://nanalab.kr/eng-cascade-noise-figure/",
+      "summary": "입력에서 출력으로 연결된 여러 단의 전력 이득과 잡음지수를 Friis 식으로 결합 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:21:58Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-cascade-noise-figure/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-cascade-noise-figure",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-cascade-noise-figure/",
+        "en": "https://nanalab.kr/eng-cascade-noise-figure/en/",
+        "es": "https://nanalab.kr/eng-cascade-noise-figure/es/",
+        "zh": "https://nanalab.kr/eng-cascade-noise-figure/zh/",
+        "ja": "https://nanalab.kr/eng-cascade-noise-figure/ja/",
+        "de": "https://nanalab.kr/eng-cascade-noise-figure/de/"
+      }
+    },
+    {
+      "id": "eng-free-space-path-loss",
+      "section": "apps",
+      "title": "자유공간 전파 경로손실 계산기",
+      "url": "https://nanalab.kr/eng-free-space-path-loss/",
+      "summary": "원거리 자유공간 전파의 기하학적 확산에 따른 등방성 안테나 기준 경로손실 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:21:58Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-free-space-path-loss/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-free-space-path-loss",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-free-space-path-loss/",
+        "en": "https://nanalab.kr/eng-free-space-path-loss/en/",
+        "es": "https://nanalab.kr/eng-free-space-path-loss/es/",
+        "zh": "https://nanalab.kr/eng-free-space-path-loss/zh/",
+        "ja": "https://nanalab.kr/eng-free-space-path-loss/ja/",
+        "de": "https://nanalab.kr/eng-free-space-path-loss/de/"
+      }
+    },
+    {
+      "id": "eng-coax-impedance",
+      "section": "apps",
+      "title": "동축선 특성임피던스 계산기",
+      "url": "https://nanalab.kr/eng-coax-impedance/",
+      "summary": "동심 원통형 동축선의 도체 반지름과 균일 유전체 특성으로 무손실 TEM 특성임피던스 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:21:58Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-coax-impedance/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-coax-impedance",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-coax-impedance/",
+        "en": "https://nanalab.kr/eng-coax-impedance/en/",
+        "es": "https://nanalab.kr/eng-coax-impedance/es/",
+        "zh": "https://nanalab.kr/eng-coax-impedance/zh/",
+        "ja": "https://nanalab.kr/eng-coax-impedance/ja/",
+        "de": "https://nanalab.kr/eng-coax-impedance/de/"
+      }
+    },
+    {
+      "id": "eng-shannon-capacity",
+      "section": "apps",
+      "title": "섀넌 채널 용량 계산기",
+      "url": "https://nanalab.kr/eng-shannon-capacity/",
+      "summary": "대역폭과 수신 SNR로 대역 제한 AWGN 채널의 섀넌 이론 용량 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:21:57Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-shannon-capacity/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-shannon-capacity",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-shannon-capacity/",
+        "en": "https://nanalab.kr/eng-shannon-capacity/en/",
+        "es": "https://nanalab.kr/eng-shannon-capacity/es/",
+        "zh": "https://nanalab.kr/eng-shannon-capacity/zh/",
+        "ja": "https://nanalab.kr/eng-shannon-capacity/ja/",
+        "de": "https://nanalab.kr/eng-shannon-capacity/de/"
+      }
+    },
+    {
+      "id": "eng-sampling-jitter-snr",
+      "section": "apps",
+      "title": "샘플링 지터 SNR 계산기",
+      "url": "https://nanalab.kr/eng-sampling-jitter-snr/",
+      "summary": "정현파를 샘플링할 때 시간 지터만으로 제한되는 신호 대 잡음비 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:21:48Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-sampling-jitter-snr/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-sampling-jitter-snr",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-sampling-jitter-snr/",
+        "en": "https://nanalab.kr/eng-sampling-jitter-snr/en/",
+        "es": "https://nanalab.kr/eng-sampling-jitter-snr/es/",
+        "zh": "https://nanalab.kr/eng-sampling-jitter-snr/zh/",
+        "ja": "https://nanalab.kr/eng-sampling-jitter-snr/ja/",
+        "de": "https://nanalab.kr/eng-sampling-jitter-snr/de/"
+      }
+    },
+    {
+      "id": "eng-alias-frequency",
+      "section": "apps",
+      "title": "샘플링 앨리어스 주파수 계산기",
+      "url": "https://nanalab.kr/eng-alias-frequency/",
+      "summary": "등간격으로 샘플링한 단일 실수 정현파가 0~f_s/2 구간에 나타나는 접힘 주파수 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:21:48Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-alias-frequency/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-alias-frequency",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-alias-frequency/",
+        "en": "https://nanalab.kr/eng-alias-frequency/en/",
+        "es": "https://nanalab.kr/eng-alias-frequency/es/",
+        "zh": "https://nanalab.kr/eng-alias-frequency/zh/",
+        "ja": "https://nanalab.kr/eng-alias-frequency/ja/",
+        "de": "https://nanalab.kr/eng-alias-frequency/de/"
+      }
+    },
+    {
+      "id": "eng-adc-quantization-noise",
+      "section": "apps",
+      "title": "ADC 양자화 오차 계산기",
+      "url": "https://nanalab.kr/eng-adc-quantization-noise/",
+      "summary": "이상적인 N비트 균일 양자화기의 전체 입력 범위에서 양자화 오차의 실효값 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:21:47Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-adc-quantization-noise/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-adc-quantization-noise",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-adc-quantization-noise/",
+        "en": "https://nanalab.kr/eng-adc-quantization-noise/en/",
+        "es": "https://nanalab.kr/eng-adc-quantization-noise/es/",
+        "zh": "https://nanalab.kr/eng-adc-quantization-noise/zh/",
+        "ja": "https://nanalab.kr/eng-adc-quantization-noise/ja/",
+        "de": "https://nanalab.kr/eng-adc-quantization-noise/de/"
+      }
+    },
+    {
+      "id": "eng-resistor-thermal-noise",
+      "section": "apps",
+      "title": "저항 열잡음 전압 계산기",
+      "url": "https://nanalab.kr/eng-resistor-thermal-noise/",
+      "summary": "저항과 온도, 등가잡음대역폭으로 저항 양단의 열잡음 실효전압 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:21:46Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-resistor-thermal-noise/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-resistor-thermal-noise",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-resistor-thermal-noise/",
+        "en": "https://nanalab.kr/eng-resistor-thermal-noise/en/",
+        "es": "https://nanalab.kr/eng-resistor-thermal-noise/es/",
+        "zh": "https://nanalab.kr/eng-resistor-thermal-noise/zh/",
+        "ja": "https://nanalab.kr/eng-resistor-thermal-noise/ja/",
+        "de": "https://nanalab.kr/eng-resistor-thermal-noise/de/"
+      }
+    },
+    {
+      "id": "eng-circulation-lift",
+      "section": "apps",
+      "title": "순환에 따른 단위 폭 양력 계산기",
+      "url": "https://nanalab.kr/eng-circulation-lift/",
+      "summary": "정상 2차원 순환 유동에서 쿠타–주콥스키 관계로 단위 폭당 부호 있는 양력을 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:21:38Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-circulation-lift/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-circulation-lift",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-circulation-lift/",
+        "en": "https://nanalab.kr/eng-circulation-lift/en/",
+        "es": "https://nanalab.kr/eng-circulation-lift/es/",
+        "zh": "https://nanalab.kr/eng-circulation-lift/zh/",
+        "ja": "https://nanalab.kr/eng-circulation-lift/ja/",
+        "de": "https://nanalab.kr/eng-circulation-lift/de/"
+      }
+    },
+    {
+      "id": "eng-water-wave-length",
+      "section": "apps",
+      "title": "유한 수심 수면파 파장 계산기",
+      "url": "https://nanalab.kr/eng-water-wave-length/",
+      "summary": "유한 수심의 선형 중력파 분산식을 양의 파수에 대해 풀어 파장을 계산합니다. 얕은 물·깊은 물의 근사 사이도 연속적으로 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:21:38Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-water-wave-length/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-water-wave-length",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-water-wave-length/",
+        "en": "https://nanalab.kr/eng-water-wave-length/en/",
+        "es": "https://nanalab.kr/eng-water-wave-length/es/",
+        "zh": "https://nanalab.kr/eng-water-wave-length/zh/",
+        "ja": "https://nanalab.kr/eng-water-wave-length/ja/",
+        "de": "https://nanalab.kr/eng-water-wave-length/de/"
+      }
+    },
+    {
+      "id": "eng-rotating-free-surface",
+      "section": "apps",
+      "title": "회전 용기 수면 높이차 계산기",
+      "url": "https://nanalab.kr/eng-rotating-free-surface/",
+      "summary": "액체가 용기와 함께 강체 회전할 때 두 반지름 위치 사이의 부호 있는 자유수면 높이차를 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:21:37Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-rotating-free-surface/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-rotating-free-surface",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-rotating-free-surface/",
+        "en": "https://nanalab.kr/eng-rotating-free-surface/en/",
+        "es": "https://nanalab.kr/eng-rotating-free-surface/es/",
+        "zh": "https://nanalab.kr/eng-rotating-free-surface/zh/",
+        "ja": "https://nanalab.kr/eng-rotating-free-surface/ja/",
+        "de": "https://nanalab.kr/eng-rotating-free-surface/de/"
+      }
+    },
+    {
+      "id": "eng-couette-force",
+      "section": "apps",
+      "title": "평판 쿠에트 유동 저항력 계산기",
+      "url": "https://nanalab.kr/eng-couette-force/",
+      "summary": "평행한 두 판 사이의 선형 속도분포로부터 이동판 한 면의 점성 저항력 크기를 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:21:36Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-couette-force/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-couette-force",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-couette-force/",
+        "en": "https://nanalab.kr/eng-couette-force/en/",
+        "es": "https://nanalab.kr/eng-couette-force/es/",
+        "zh": "https://nanalab.kr/eng-couette-force/zh/",
+        "ja": "https://nanalab.kr/eng-couette-force/ja/",
+        "de": "https://nanalab.kr/eng-couette-force/de/"
+      }
+    },
+    {
+      "id": "eng-hydraulic-jump",
+      "section": "apps",
+      "title": "도수 후 수심 계산기",
+      "url": "https://nanalab.kr/eng-hydraulic-jump/",
+      "summary": "수평 직사각 수로의 운동량 보존식으로 상류 사류에 대응하는 도수 후 수심을 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:21:28Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-hydraulic-jump/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-hydraulic-jump",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-hydraulic-jump/",
+        "en": "https://nanalab.kr/eng-hydraulic-jump/en/",
+        "es": "https://nanalab.kr/eng-hydraulic-jump/es/",
+        "zh": "https://nanalab.kr/eng-hydraulic-jump/zh/",
+        "ja": "https://nanalab.kr/eng-hydraulic-jump/ja/",
+        "de": "https://nanalab.kr/eng-hydraulic-jump/de/"
+      }
+    },
+    {
+      "id": "eng-water-hammer",
+      "section": "apps",
+      "title": "수격 압력변화 계산기",
+      "url": "https://nanalab.kr/eng-water-hammer/",
+      "summary": "급격한 유속 변화에 의해 하류 교란점에서 발생하여 상류로 진행하는 초기 압력파를 추정합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:21:28Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-water-hammer/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-water-hammer",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-water-hammer/",
+        "en": "https://nanalab.kr/eng-water-hammer/en/",
+        "es": "https://nanalab.kr/eng-water-hammer/es/",
+        "zh": "https://nanalab.kr/eng-water-hammer/zh/",
+        "ja": "https://nanalab.kr/eng-water-hammer/ja/",
+        "de": "https://nanalab.kr/eng-water-hammer/de/"
+      }
+    },
+    {
+      "id": "eng-cavitation-number",
+      "section": "apps",
+      "title": "캐비테이션수 계산기",
+      "url": "https://nanalab.kr/eng-cavitation-number/",
+      "summary": "절대압과 포화 증기압 사이의 여유를 동압으로 나눈 캐비테이션 지표를 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:21:27Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-cavitation-number/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-cavitation-number",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-cavitation-number/",
+        "en": "https://nanalab.kr/eng-cavitation-number/en/",
+        "es": "https://nanalab.kr/eng-cavitation-number/es/",
+        "zh": "https://nanalab.kr/eng-cavitation-number/zh/",
+        "ja": "https://nanalab.kr/eng-cavitation-number/ja/",
+        "de": "https://nanalab.kr/eng-cavitation-number/de/"
+      }
+    },
+    {
+      "id": "eng-bond-number",
+      "section": "apps",
+      "title": "본드수 계산기",
+      "url": "https://nanalab.kr/eng-bond-number/",
+      "summary": "두 유체의 밀도차에 따른 중력 효과와 계면장력 효과의 크기 비를 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:21:26Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-bond-number/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-bond-number",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-bond-number/",
+        "en": "https://nanalab.kr/eng-bond-number/en/",
+        "es": "https://nanalab.kr/eng-bond-number/es/",
+        "zh": "https://nanalab.kr/eng-bond-number/zh/",
+        "ja": "https://nanalab.kr/eng-bond-number/ja/",
+        "de": "https://nanalab.kr/eng-bond-number/de/"
+      }
+    },
+    {
+      "id": "eng-froude-number",
+      "section": "apps",
+      "title": "프루드수 계산기",
+      "url": "https://nanalab.kr/eng-froude-number/",
+      "summary": "자유수면 흐름에서 관성과 중력파 속도의 관계를 프루드수로 계산합니다. 수리수심은 유수면적을 수면폭으로 나눈 값입니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:21:18Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-froude-number/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-froude-number",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-froude-number/",
+        "en": "https://nanalab.kr/eng-froude-number/en/",
+        "es": "https://nanalab.kr/eng-froude-number/es/",
+        "zh": "https://nanalab.kr/eng-froude-number/zh/",
+        "ja": "https://nanalab.kr/eng-froude-number/ja/",
+        "de": "https://nanalab.kr/eng-froude-number/de/"
+      }
+    },
+    {
+      "id": "eng-weber-number",
+      "section": "apps",
+      "title": "웨버수 계산기",
+      "url": "https://nanalab.kr/eng-weber-number/",
+      "summary": "선택한 길이와 상대속도에서 관성 효과와 계면장력 효과의 비를 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:21:18Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-weber-number/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-weber-number",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-weber-number/",
+        "en": "https://nanalab.kr/eng-weber-number/en/",
+        "es": "https://nanalab.kr/eng-weber-number/es/",
+        "zh": "https://nanalab.kr/eng-weber-number/zh/",
+        "ja": "https://nanalab.kr/eng-weber-number/ja/",
+        "de": "https://nanalab.kr/eng-weber-number/de/"
+      }
+    },
+    {
+      "id": "eng-forced-vibration",
+      "section": "apps",
+      "title": "강제진동 정상 진폭 계산기",
+      "url": "https://nanalab.kr/eng-forced-vibration/",
+      "summary": "질량·스프링·점성 감쇠로 이루어진 1자유도계에 조화력이 작용할 때 정상 변위 진폭을 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:21:17Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-forced-vibration/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-forced-vibration",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-forced-vibration/",
+        "en": "https://nanalab.kr/eng-forced-vibration/en/",
+        "es": "https://nanalab.kr/eng-forced-vibration/es/",
+        "zh": "https://nanalab.kr/eng-forced-vibration/zh/",
+        "ja": "https://nanalab.kr/eng-forced-vibration/ja/",
+        "de": "https://nanalab.kr/eng-forced-vibration/de/"
+      }
+    },
+    {
+      "id": "eng-miner-fatigue",
+      "section": "apps",
+      "title": "마이너 누적 피로손상 계산기",
+      "url": "https://nanalab.kr/eng-miner-fatigue/",
+      "summary": "하중 구간별 실제 반복수와 해당 조건의 피로수명을 목록으로 입력하여 선형 누적 손상지수를 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:21:16Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-miner-fatigue/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-miner-fatigue",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-miner-fatigue/",
+        "en": "https://nanalab.kr/eng-miner-fatigue/en/",
+        "es": "https://nanalab.kr/eng-miner-fatigue/es/",
+        "zh": "https://nanalab.kr/eng-miner-fatigue/zh/",
+        "ja": "https://nanalab.kr/eng-miner-fatigue/ja/",
+        "de": "https://nanalab.kr/eng-miner-fatigue/de/"
+      }
+    },
+    {
+      "id": "eng-point-mass-inertia",
+      "section": "apps",
+      "title": "점질량 집합 관성모멘트 계산기",
+      "url": "https://nanalab.kr/eng-point-mass-inertia/",
+      "summary": "점질량별 질량과 회전축까지의 수직거리를 목록으로 입력하여 전체 질량관성모멘트를 합산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:21:08Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-point-mass-inertia/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-point-mass-inertia",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-point-mass-inertia/",
+        "en": "https://nanalab.kr/eng-point-mass-inertia/en/",
+        "es": "https://nanalab.kr/eng-point-mass-inertia/es/",
+        "zh": "https://nanalab.kr/eng-point-mass-inertia/zh/",
+        "ja": "https://nanalab.kr/eng-point-mass-inertia/ja/",
+        "de": "https://nanalab.kr/eng-point-mass-inertia/de/"
+      }
+    },
+    {
+      "id": "eng-open-belt-length",
+      "section": "apps",
+      "title": "개방 벨트 필요 길이 계산기",
+      "url": "https://nanalab.kr/eng-open-belt-length/",
+      "summary": "교차하지 않는 두 풀리를 두르는 벨트의 피치선 길이를 접선과 원호의 정확한 기하식으로 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:21:07Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-open-belt-length/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-open-belt-length",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-open-belt-length/",
+        "en": "https://nanalab.kr/eng-open-belt-length/en/",
+        "es": "https://nanalab.kr/eng-open-belt-length/es/",
+        "zh": "https://nanalab.kr/eng-open-belt-length/zh/",
+        "ja": "https://nanalab.kr/eng-open-belt-length/ja/",
+        "de": "https://nanalab.kr/eng-open-belt-length/de/"
+      }
+    },
+    {
+      "id": "eng-capstan-tension",
+      "section": "apps",
+      "title": "캡스턴 로프 한계장력 계산기",
+      "url": "https://nanalab.kr/eng-capstan-tension/",
+      "summary": "드럼에 감긴 로프가 미끄러지기 직전에 지탱할 수 있는 큰 쪽 장력을 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:21:06Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-capstan-tension/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-capstan-tension",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-capstan-tension/",
+        "en": "https://nanalab.kr/eng-capstan-tension/en/",
+        "es": "https://nanalab.kr/eng-capstan-tension/es/",
+        "zh": "https://nanalab.kr/eng-capstan-tension/zh/",
+        "ja": "https://nanalab.kr/eng-capstan-tension/ja/",
+        "de": "https://nanalab.kr/eng-capstan-tension/de/"
+      }
+    },
+    {
+      "id": "eng-inertial-atwood",
+      "section": "apps",
+      "title": "관성 도르래 애트우드 가속도 계산기",
+      "url": "https://nanalab.kr/eng-inertial-atwood/",
+      "summary": "두 개의 매달린 추와 회전 관성이 있는 도르래로 이루어진 애트우드 장치의 가속도를 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:21:06Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-inertial-atwood/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-inertial-atwood",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-inertial-atwood/",
+        "en": "https://nanalab.kr/eng-inertial-atwood/en/",
+        "es": "https://nanalab.kr/eng-inertial-atwood/es/",
+        "zh": "https://nanalab.kr/eng-inertial-atwood/zh/",
+        "ja": "https://nanalab.kr/eng-inertial-atwood/ja/",
+        "de": "https://nanalab.kr/eng-inertial-atwood/de/"
+      }
+    },
+    {
+      "id": "eng-coriolis-horizontal",
+      "section": "apps",
+      "title": "수평 코리올리 가속도 계산기",
+      "url": "https://nanalab.kr/eng-coriolis-horizontal/",
+      "summary": "회전하는 구면의 주어진 위도에서 수평 이동에 수직인 코리올리 가속도 성분의 크기를 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:20:58Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-coriolis-horizontal/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-coriolis-horizontal",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-coriolis-horizontal/",
+        "en": "https://nanalab.kr/eng-coriolis-horizontal/en/",
+        "es": "https://nanalab.kr/eng-coriolis-horizontal/es/",
+        "zh": "https://nanalab.kr/eng-coriolis-horizontal/zh/",
+        "ja": "https://nanalab.kr/eng-coriolis-horizontal/ja/",
+        "de": "https://nanalab.kr/eng-coriolis-horizontal/de/"
+      }
+    },
+    {
+      "id": "eng-rolling-incline",
+      "section": "apps",
+      "title": "경사면 순수 구름 가속도 계산기",
+      "url": "https://nanalab.kr/eng-rolling-incline/",
+      "summary": "회전 관성까지 반영하여 경사면을 미끄러지지 않고 구르는 물체의 가속도를 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:20:56Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-rolling-incline/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-rolling-incline",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-rolling-incline/",
+        "en": "https://nanalab.kr/eng-rolling-incline/en/",
+        "es": "https://nanalab.kr/eng-rolling-incline/es/",
+        "zh": "https://nanalab.kr/eng-rolling-incline/zh/",
+        "ja": "https://nanalab.kr/eng-rolling-incline/ja/",
+        "de": "https://nanalab.kr/eng-rolling-incline/de/"
+      }
+    },
+    {
+      "id": "eng-gyroscope-precession",
+      "section": "apps",
+      "title": "자이로스코프 세차속도 계산기",
+      "url": "https://nanalab.kr/eng-gyroscope-precession/",
+      "summary": "고속으로 자전하는 대칭 자이로스코프의 중력에 의한 느린 정상 세차속도를 추정합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:20:56Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-gyroscope-precession/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-gyroscope-precession",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-gyroscope-precession/",
+        "en": "https://nanalab.kr/eng-gyroscope-precession/en/",
+        "es": "https://nanalab.kr/eng-gyroscope-precession/es/",
+        "zh": "https://nanalab.kr/eng-gyroscope-precession/zh/",
+        "ja": "https://nanalab.kr/eng-gyroscope-precession/ja/",
+        "de": "https://nanalab.kr/eng-gyroscope-precession/de/"
+      }
+    },
+    {
+      "id": "eng-collision-restitution",
+      "section": "apps",
+      "title": "반발계수 충돌 후 속도 계산기",
+      "url": "https://nanalab.kr/eng-collision-restitution/",
+      "summary": "일직선에서 충돌하는 두 물체의 운동량과 반발계수로 첫 물체의 충돌 후 속도를 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:20:55Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-collision-restitution/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-collision-restitution",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-collision-restitution/",
+        "en": "https://nanalab.kr/eng-collision-restitution/en/",
+        "es": "https://nanalab.kr/eng-collision-restitution/es/",
+        "zh": "https://nanalab.kr/eng-collision-restitution/zh/",
+        "ja": "https://nanalab.kr/eng-collision-restitution/ja/",
+        "de": "https://nanalab.kr/eng-collision-restitution/de/"
+      }
+    },
+    {
+      "id": "eng-faraday-rotation",
+      "section": "apps",
+      "title": "패러데이 편광 회전 계산기",
+      "url": "https://nanalab.kr/eng-faraday-rotation/",
+      "summary": "균일한 종방향 자기장 속 매질의 패러데이 편광 회전각을 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:20:47Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-faraday-rotation/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-faraday-rotation",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-faraday-rotation/",
+        "en": "https://nanalab.kr/eng-faraday-rotation/en/",
+        "es": "https://nanalab.kr/eng-faraday-rotation/es/",
+        "zh": "https://nanalab.kr/eng-faraday-rotation/zh/",
+        "ja": "https://nanalab.kr/eng-faraday-rotation/ja/",
+        "de": "https://nanalab.kr/eng-faraday-rotation/de/"
+      }
+    },
+    {
+      "id": "eng-nuclear-q-value",
+      "section": "apps",
+      "title": "핵반응 Q값 계산기",
+      "url": "https://nanalab.kr/eng-nuclear-q-value/",
+      "summary": "반응 전후 총 정지질량 차이로 한 번의 반응에 대한 방출·흡수 에너지를 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:20:46Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-nuclear-q-value/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-nuclear-q-value",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-nuclear-q-value/",
+        "en": "https://nanalab.kr/eng-nuclear-q-value/en/",
+        "es": "https://nanalab.kr/eng-nuclear-q-value/es/",
+        "zh": "https://nanalab.kr/eng-nuclear-q-value/zh/",
+        "ja": "https://nanalab.kr/eng-nuclear-q-value/ja/",
+        "de": "https://nanalab.kr/eng-nuclear-q-value/de/"
+      }
+    },
+    {
+      "id": "eng-gaussian-beam",
+      "section": "apps",
+      "title": "가우시안 레이저 빔 크기 계산기",
+      "url": "https://nanalab.kr/eng-gaussian-beam/",
+      "summary": "이상적인 가우시안 빔의 허리에서 떨어진 위치의 빔 반지름을 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:20:46Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-gaussian-beam/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-gaussian-beam",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-gaussian-beam/",
+        "en": "https://nanalab.kr/eng-gaussian-beam/en/",
+        "es": "https://nanalab.kr/eng-gaussian-beam/es/",
+        "zh": "https://nanalab.kr/eng-gaussian-beam/zh/",
+        "ja": "https://nanalab.kr/eng-gaussian-beam/ja/",
+        "de": "https://nanalab.kr/eng-gaussian-beam/de/"
+      }
+    },
+    {
+      "id": "eng-malus-intensity",
+      "section": "apps",
+      "title": "편광판 투과광 세기 계산기",
+      "url": "https://nanalab.kr/eng-malus-intensity/",
+      "summary": "선편광이 이상적인 편광 분석기를 통과한 뒤의 광강도를 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:20:46Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-malus-intensity/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-malus-intensity",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-malus-intensity/",
+        "en": "https://nanalab.kr/eng-malus-intensity/en/",
+        "es": "https://nanalab.kr/eng-malus-intensity/es/",
+        "zh": "https://nanalab.kr/eng-malus-intensity/zh/",
+        "ja": "https://nanalab.kr/eng-malus-intensity/ja/",
+        "de": "https://nanalab.kr/eng-malus-intensity/de/"
+      }
+    },
+    {
+      "id": "eng-photoelectric-stop",
+      "section": "apps",
+      "title": "광전효과 정지전압 계산기",
+      "url": "https://nanalab.kr/eng-photoelectric-stop/",
+      "summary": "단일 광자 광전효과에서 가장 빠른 광전자를 멈추는 역전압의 크기를 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:20:37Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-photoelectric-stop/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-photoelectric-stop",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-photoelectric-stop/",
+        "en": "https://nanalab.kr/eng-photoelectric-stop/en/",
+        "es": "https://nanalab.kr/eng-photoelectric-stop/es/",
+        "zh": "https://nanalab.kr/eng-photoelectric-stop/zh/",
+        "ja": "https://nanalab.kr/eng-photoelectric-stop/ja/",
+        "de": "https://nanalab.kr/eng-photoelectric-stop/de/"
+      }
+    },
+    {
+      "id": "eng-quantum-oscillator",
+      "section": "apps",
+      "title": "양자 조화진동자 에너지 계산기",
+      "url": "https://nanalab.kr/eng-quantum-oscillator/",
+      "summary": "영점에너지를 포함하는 1차원 양자 조화진동자의 에너지 준위를 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:20:36Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-quantum-oscillator/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-quantum-oscillator",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-quantum-oscillator/",
+        "en": "https://nanalab.kr/eng-quantum-oscillator/en/",
+        "es": "https://nanalab.kr/eng-quantum-oscillator/es/",
+        "zh": "https://nanalab.kr/eng-quantum-oscillator/zh/",
+        "ja": "https://nanalab.kr/eng-quantum-oscillator/ja/",
+        "de": "https://nanalab.kr/eng-quantum-oscillator/de/"
+      }
+    },
+    {
+      "id": "eng-compton-shift",
+      "section": "apps",
+      "title": "콤프턴 산란 파장변화 계산기",
+      "url": "https://nanalab.kr/eng-compton-shift/",
+      "summary": "정지한 자유 표적에 의한 광자 산란의 파장 증가량을 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:20:36Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-compton-shift/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-compton-shift",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-compton-shift/",
+        "en": "https://nanalab.kr/eng-compton-shift/en/",
+        "es": "https://nanalab.kr/eng-compton-shift/es/",
+        "zh": "https://nanalab.kr/eng-compton-shift/zh/",
+        "ja": "https://nanalab.kr/eng-compton-shift/ja/",
+        "de": "https://nanalab.kr/eng-compton-shift/de/"
+      }
+    },
+    {
+      "id": "eng-hydrogen-transition",
+      "section": "apps",
+      "title": "수소 원자 전이 파장 계산기",
+      "url": "https://nanalab.kr/eng-hydrogen-transition/",
+      "summary": "두 주양자수 사이 수소 원자의 방출광 파장을 리드베리 근사로 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:20:34Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-hydrogen-transition/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-hydrogen-transition",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-hydrogen-transition/",
+        "en": "https://nanalab.kr/eng-hydrogen-transition/en/",
+        "es": "https://nanalab.kr/eng-hydrogen-transition/es/",
+        "zh": "https://nanalab.kr/eng-hydrogen-transition/zh/",
+        "ja": "https://nanalab.kr/eng-hydrogen-transition/ja/",
+        "de": "https://nanalab.kr/eng-hydrogen-transition/de/"
+      }
+    },
+    {
+      "id": "eng-transit-depth",
+      "section": "apps",
+      "title": "외계행성 통과 깊이 계산기",
+      "url": "https://nanalab.kr/eng-transit-depth/",
+      "summary": "항성 원반 내부에 완전히 들어온 불투명한 행성이 가리는 이상적인 밝기 비율을 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:20:26Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-transit-depth/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-transit-depth",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-transit-depth/",
+        "en": "https://nanalab.kr/eng-transit-depth/en/",
+        "es": "https://nanalab.kr/eng-transit-depth/es/",
+        "zh": "https://nanalab.kr/eng-transit-depth/zh/",
+        "ja": "https://nanalab.kr/eng-transit-depth/ja/",
+        "de": "https://nanalab.kr/eng-transit-depth/de/"
+      }
+    },
+    {
+      "id": "eng-quantum-box-energy",
+      "section": "apps",
+      "title": "무한 우물 입자 에너지 계산기",
+      "url": "https://nanalab.kr/eng-quantum-box-energy/",
+      "summary": "1차원 무한 사각 우물에 갇힌 입자의 에너지 준위를 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:20:26Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-quantum-box-energy/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-quantum-box-energy",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-quantum-box-energy/",
+        "en": "https://nanalab.kr/eng-quantum-box-energy/en/",
+        "es": "https://nanalab.kr/eng-quantum-box-energy/es/",
+        "zh": "https://nanalab.kr/eng-quantum-box-energy/zh/",
+        "ja": "https://nanalab.kr/eng-quantum-box-energy/ja/",
+        "de": "https://nanalab.kr/eng-quantum-box-energy/de/"
+      }
+    },
+    {
+      "id": "eng-barrier-tunneling",
+      "section": "apps",
+      "title": "사각 장벽 터널링 확률 계산기",
+      "url": "https://nanalab.kr/eng-barrier-tunneling/",
+      "summary": "유한 폭 사각 장벽의 투과확률을 장벽 아래·경계·위 에너지에서 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:20:26Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-barrier-tunneling/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-barrier-tunneling",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-barrier-tunneling/",
+        "en": "https://nanalab.kr/eng-barrier-tunneling/en/",
+        "es": "https://nanalab.kr/eng-barrier-tunneling/es/",
+        "zh": "https://nanalab.kr/eng-barrier-tunneling/zh/",
+        "ja": "https://nanalab.kr/eng-barrier-tunneling/ja/",
+        "de": "https://nanalab.kr/eng-barrier-tunneling/de/"
+      }
+    },
+    {
+      "id": "eng-gravitational-redshift",
+      "section": "apps",
+      "title": "중력 적색편이 계산기",
+      "url": "https://nanalab.kr/eng-gravitational-redshift/",
+      "summary": "슈바르츠실트 외부 시공간에서 정지한 두 관측자 사이의 중력에 의한 파장 편이를 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:20:24Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-gravitational-redshift/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-gravitational-redshift",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-gravitational-redshift/",
+        "en": "https://nanalab.kr/eng-gravitational-redshift/en/",
+        "es": "https://nanalab.kr/eng-gravitational-redshift/es/",
+        "zh": "https://nanalab.kr/eng-gravitational-redshift/zh/",
+        "ja": "https://nanalab.kr/eng-gravitational-redshift/ja/",
+        "de": "https://nanalab.kr/eng-gravitational-redshift/de/"
+      }
+    },
+    {
+      "id": "eng-eddington-luminosity",
+      "section": "apps",
+      "title": "에딩턴 한계광도 계산기",
+      "url": "https://nanalab.kr/eng-eddington-luminosity/",
+      "summary": "복사 가속도와 중력가속도가 같은 구대칭 에딩턴 광도 척도를 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:20:15Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-eddington-luminosity/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-eddington-luminosity",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-eddington-luminosity/",
+        "en": "https://nanalab.kr/eng-eddington-luminosity/en/",
+        "es": "https://nanalab.kr/eng-eddington-luminosity/es/",
+        "zh": "https://nanalab.kr/eng-eddington-luminosity/zh/",
+        "ja": "https://nanalab.kr/eng-eddington-luminosity/ja/",
+        "de": "https://nanalab.kr/eng-eddington-luminosity/de/"
+      }
+    },
+    {
+      "id": "eng-jeans-mass",
+      "section": "apps",
+      "title": "진스 질량 계산기",
+      "url": "https://nanalab.kr/eng-jeans-mass/",
+      "summary": "균일한 기체의 선형 진스 불안정성에서 임계 파장 구의 질량을 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:20:15Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-jeans-mass/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-jeans-mass",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-jeans-mass/",
+        "en": "https://nanalab.kr/eng-jeans-mass/en/",
+        "es": "https://nanalab.kr/eng-jeans-mass/es/",
+        "zh": "https://nanalab.kr/eng-jeans-mass/zh/",
+        "ja": "https://nanalab.kr/eng-jeans-mass/ja/",
+        "de": "https://nanalab.kr/eng-jeans-mass/de/"
+      }
+    },
+    {
+      "id": "eng-fluid-roche-limit",
+      "section": "apps",
+      "title": "유체 위성 로슈 한계 계산기",
+      "url": "https://nanalab.kr/eng-fluid-roche-limit/",
+      "summary": "인장강도가 없는 유체 위성의 고전적 조석 파괴 한계 중심거리를 추정한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:20:14Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-fluid-roche-limit/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-fluid-roche-limit",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-fluid-roche-limit/",
+        "en": "https://nanalab.kr/eng-fluid-roche-limit/en/",
+        "es": "https://nanalab.kr/eng-fluid-roche-limit/es/",
+        "zh": "https://nanalab.kr/eng-fluid-roche-limit/zh/",
+        "ja": "https://nanalab.kr/eng-fluid-roche-limit/ja/",
+        "de": "https://nanalab.kr/eng-fluid-roche-limit/de/"
+      }
+    },
+    {
+      "id": "eng-einstein-ring",
+      "section": "apps",
+      "title": "아인슈타인 고리 각반지름 계산기",
+      "url": "https://nanalab.kr/eng-einstein-ring/",
+      "summary": "관측자·점렌즈·광원이 정렬된 근거리 유클리드 기하에서 아인슈타인 고리의 각반지름을 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:20:14Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-einstein-ring/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-einstein-ring",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-einstein-ring/",
+        "en": "https://nanalab.kr/eng-einstein-ring/en/",
+        "es": "https://nanalab.kr/eng-einstein-ring/es/",
+        "zh": "https://nanalab.kr/eng-einstein-ring/zh/",
+        "ja": "https://nanalab.kr/eng-einstein-ring/ja/",
+        "de": "https://nanalab.kr/eng-einstein-ring/de/"
+      }
+    },
+    {
+      "id": "eng-rocket-nozzle-thrust",
+      "section": "apps",
+      "title": "로켓 노즐 추력 계산기",
+      "url": "https://nanalab.kr/eng-rocket-nozzle-thrust/",
+      "summary": "배기 운동량과 출구·주변 압력차로 준정상 로켓 노즐의 축방향 추력을 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:20:04Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-rocket-nozzle-thrust/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-rocket-nozzle-thrust",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-rocket-nozzle-thrust/",
+        "en": "https://nanalab.kr/eng-rocket-nozzle-thrust/en/",
+        "es": "https://nanalab.kr/eng-rocket-nozzle-thrust/es/",
+        "zh": "https://nanalab.kr/eng-rocket-nozzle-thrust/zh/",
+        "ja": "https://nanalab.kr/eng-rocket-nozzle-thrust/ja/",
+        "de": "https://nanalab.kr/eng-rocket-nozzle-thrust/de/"
+      }
+    },
+    {
+      "id": "eng-tidal-acceleration",
+      "section": "apps",
+      "title": "조석 차등가속도 계산기",
+      "url": "https://nanalab.kr/eng-tidal-acceleration/",
+      "summary": "같은 반지름 방향에 놓인 두 점이 받는 뉴턴 중력가속도의 크기 차를 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:20:04Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-tidal-acceleration/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-tidal-acceleration",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-tidal-acceleration/",
+        "en": "https://nanalab.kr/eng-tidal-acceleration/en/",
+        "es": "https://nanalab.kr/eng-tidal-acceleration/es/",
+        "zh": "https://nanalab.kr/eng-tidal-acceleration/zh/",
+        "ja": "https://nanalab.kr/eng-tidal-acceleration/ja/",
+        "de": "https://nanalab.kr/eng-tidal-acceleration/de/"
+      }
+    },
+    {
+      "id": "eng-hill-radius",
+      "section": "apps",
+      "title": "힐 구 반지름 계산기",
+      "url": "https://nanalab.kr/eng-hill-radius/",
+      "summary": "작은 천체가 큰 천체를 원궤도로 공전할 때 힐 영역의 대표 반지름을 추정한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:20:04Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-hill-radius/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-hill-radius",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-hill-radius/",
+        "en": "https://nanalab.kr/eng-hill-radius/en/",
+        "es": "https://nanalab.kr/eng-hill-radius/es/",
+        "zh": "https://nanalab.kr/eng-hill-radius/zh/",
+        "ja": "https://nanalab.kr/eng-hill-radius/ja/",
+        "de": "https://nanalab.kr/eng-hill-radius/de/"
+      }
+    },
+    {
+      "id": "eng-rocket-delta-v",
+      "section": "apps",
+      "title": "치올콥스키 로켓 Δv 계산기",
+      "url": "https://nanalab.kr/eng-rocket-delta-v/",
+      "summary": "질량 감소와 유효 배기속도로 한 번의 이상적인 로켓 연소가 제공하는 Δv를 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.",
+      "category": "공학·계산",
+      "date_published": "2026-10-25T06:20:03Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/eng-rocket-delta-v/og.png",
+      "repository": "https://github.com/NaNaCompany/eng-rocket-delta-v",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/eng-rocket-delta-v/",
+        "en": "https://nanalab.kr/eng-rocket-delta-v/en/",
+        "es": "https://nanalab.kr/eng-rocket-delta-v/es/",
+        "zh": "https://nanalab.kr/eng-rocket-delta-v/zh/",
+        "ja": "https://nanalab.kr/eng-rocket-delta-v/ja/",
+        "de": "https://nanalab.kr/eng-rocket-delta-v/de/"
+      }
+    },
+    {
+      "id": "world-law-portal",
+      "section": "apps",
+      "title": "세계 법령 자료실",
+      "url": "https://nanalab.kr/world-law-portal/",
+      "summary": "국가별 법령 원문을 HTML로 읽는 자료실. 공식 출처·판본·재이용 조건을 확인하고, 원문 언어로 제공되는 문서를 탐색하세요.",
+      "category": "문서·텍스트",
+      "date_published": "2026-10-25T06:03:27Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "repository": "https://github.com/NaNaCompany/world-law-portal",
+      "languages": [
+        "ko",
+        "en",
+        "zh",
+        "es"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/world-law-portal/",
+        "en": "https://nanalab.kr/world-law-portal/en/",
+        "zh": "https://nanalab.kr/world-law-portal/zh/",
+        "es": "https://nanalab.kr/world-law-portal/es/"
+      }
+    },
     {
       "id": "eng-logarithmic-decrement",
       "section": "apps",
