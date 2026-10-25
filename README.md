@@ -114,3 +114,9 @@ const corporateLectures = items.filter(item => item.category === '기업');
 `python scripts/build_site.py` 후 `python scripts/check_syndication.py`를 실행하면 생성 최신성, RSS/JSON Feed 일치, XML 이스케이프, 안정적인 ID, 날짜 정밀도, 출처, 실제 항목 앵커를 검사합니다. 규격 참고: [RSS 2.0](https://www.rssboard.org/rss-specification), [JSON Feed 1.1](https://www.jsonfeed.org/version/1.1/).
 
 강연·R&D는 메인에서도 전체 자료를 표시합니다. 강연은 원본 사이트와 같이 `lectures`와 `courses-offline`을 합쳐 ID 중복을 제거하고 최신 강의순으로 정렬합니다. 기업·공공기관·교육기관·연구기관·컨퍼런스 분류와 검색을 함께 사용할 수 있습니다. 온라인 강좌 버튼은 추가하지 않습니다. R&D의 전체 논문·특허·개발 프로젝트는 `/research/`와 각각 `/papers/`, `/patents/`, `/projects/`에서도 제공합니다.
+
+## 디렉터리 다국어
+
+한국어 메인(`/`)과 영어·일본어·중국어 간체·스페인어·독일어·프랑스어·포르투갈어·러시아어 서브 페이지를 제공합니다. 각 언어에서 홈·앱·강의·연구·논문·특허·프로젝트·구독 안내를 볼 수 있습니다. 언어 선택은 같은 경로를 유지하며 한국어 메인에서 자동 이동하지 않습니다. 앱 카드의 이름·설명과 공통 UI를 번역하고, 원문 강의·논문 제목 및 기관명·날짜·자료 링크는 보존합니다. RSS와 공개 JSON은 기존 한국어 데이터를 유지합니다.
+
+번역 원본·출처와 유지보수 방법은 [content/i18n/README.md](content/i18n/README.md)를 확인하세요. 새 앱을 추가할 때 8개 언어의 `apps` 항목도 추가하고, 기존 검사에 더해 `python scripts/check_localization.py`를 실행하세요. 모든 언어 페이지는 고유 canonical, 상호 hreflang, 사이트맵 URL을 빌드에서 함께 생성합니다.

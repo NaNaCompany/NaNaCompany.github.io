@@ -18,6 +18,14 @@
       "url": "https://nanalab.kr/color-drop/sitemap.xml"
     },
     {
+      "app_id": "eng-ac-real-power",
+      "url": "https://nanalab.kr/eng-ac-real-power/sitemap.xml"
+    },
+    {
+      "app_id": "eng-adiabatic-temperature",
+      "url": "https://nanalab.kr/eng-adiabatic-temperature/sitemap.xml"
+    },
+    {
       "app_id": "eng-aperture-resolution",
       "url": "https://nanalab.kr/eng-aperture-resolution/sitemap.xml"
     },
@@ -38,8 +46,20 @@
       "url": "https://nanalab.kr/eng-bending-stress/sitemap.xml"
     },
     {
+      "app_id": "eng-buoyant-force",
+      "url": "https://nanalab.kr/eng-buoyant-force/sitemap.xml"
+    },
+    {
+      "app_id": "eng-cantilever-deflection",
+      "url": "https://nanalab.kr/eng-cantilever-deflection/sitemap.xml"
+    },
+    {
       "app_id": "eng-capacitive-reactance",
       "url": "https://nanalab.kr/eng-capacitive-reactance/sitemap.xml"
+    },
+    {
+      "app_id": "eng-capillary-rise",
+      "url": "https://nanalab.kr/eng-capillary-rise/sitemap.xml"
     },
     {
       "app_id": "eng-carnot-cop",
@@ -50,12 +70,40 @@
       "url": "https://nanalab.kr/eng-carnot-efficiency/sitemap.xml"
     },
     {
+      "app_id": "eng-center-of-mass",
+      "url": "https://nanalab.kr/eng-center-of-mass/sitemap.xml"
+    },
+    {
       "app_id": "eng-centripetal-acceleration",
       "url": "https://nanalab.kr/eng-centripetal-acceleration/sitemap.xml"
     },
     {
+      "app_id": "eng-combined-length-uncertainty",
+      "url": "https://nanalab.kr/eng-combined-length-uncertainty/sitemap.xml"
+    },
+    {
       "app_id": "eng-convection-heat",
       "url": "https://nanalab.kr/eng-convection-heat/sitemap.xml"
+    },
+    {
+      "app_id": "eng-critical-incline",
+      "url": "https://nanalab.kr/eng-critical-incline/sitemap.xml"
+    },
+    {
+      "app_id": "eng-de-broglie",
+      "url": "https://nanalab.kr/eng-de-broglie/sitemap.xml"
+    },
+    {
+      "app_id": "eng-decay-activity",
+      "url": "https://nanalab.kr/eng-decay-activity/sitemap.xml"
+    },
+    {
+      "app_id": "eng-dilute-ph",
+      "url": "https://nanalab.kr/eng-dilute-ph/sitemap.xml"
+    },
+    {
+      "app_id": "eng-double-slit-spacing",
+      "url": "https://nanalab.kr/eng-double-slit-spacing/sitemap.xml"
     },
     {
       "app_id": "eng-drag-force",
@@ -64,6 +112,10 @@
     {
       "app_id": "eng-dynamic-pressure",
       "url": "https://nanalab.kr/eng-dynamic-pressure/sitemap.xml"
+    },
+    {
+      "app_id": "eng-escape-speed",
+      "url": "https://nanalab.kr/eng-escape-speed/sitemap.xml"
     },
     {
       "app_id": "eng-euler-buckling",
@@ -82,6 +134,38 @@
       "url": "https://nanalab.kr/eng-first-order-settling/sitemap.xml"
     },
     {
+      "app_id": "eng-free-fall-time",
+      "url": "https://nanalab.kr/eng-free-fall-time/sitemap.xml"
+    },
+    {
+      "app_id": "eng-friction-stop-distance",
+      "url": "https://nanalab.kr/eng-friction-stop-distance/sitemap.xml"
+    },
+    {
+      "app_id": "eng-gas-rms-speed",
+      "url": "https://nanalab.kr/eng-gas-rms-speed/sitemap.xml"
+    },
+    {
+      "app_id": "eng-grating-angle",
+      "url": "https://nanalab.kr/eng-grating-angle/sitemap.xml"
+    },
+    {
+      "app_id": "eng-gravitational-energy",
+      "url": "https://nanalab.kr/eng-gravitational-energy/sitemap.xml"
+    },
+    {
+      "app_id": "eng-gravity-at-radius",
+      "url": "https://nanalab.kr/eng-gravity-at-radius/sitemap.xml"
+    },
+    {
+      "app_id": "eng-henry-solubility",
+      "url": "https://nanalab.kr/eng-henry-solubility/sitemap.xml"
+    },
+    {
+      "app_id": "eng-hohmann-delta-v",
+      "url": "https://nanalab.kr/eng-hohmann-delta-v/sitemap.xml"
+    },
+    {
       "app_id": "eng-hydraulic-power",
       "url": "https://nanalab.kr/eng-hydraulic-power/sitemap.xml"
     },
@@ -94,8 +178,20 @@
       "url": "https://nanalab.kr/eng-ideal-gas-density/sitemap.xml"
     },
     {
+      "app_id": "eng-ideal-transformer",
+      "url": "https://nanalab.kr/eng-ideal-transformer/sitemap.xml"
+    },
+    {
+      "app_id": "eng-impulse",
+      "url": "https://nanalab.kr/eng-impulse/sitemap.xml"
+    },
+    {
       "app_id": "eng-inductive-reactance",
       "url": "https://nanalab.kr/eng-inductive-reactance/sitemap.xml"
+    },
+    {
+      "app_id": "eng-isothermal-work",
+      "url": "https://nanalab.kr/eng-isothermal-work/sitemap.xml"
     },
     {
       "app_id": "eng-kinematic-viscosity",
@@ -110,6 +206,18 @@
       "url": "https://nanalab.kr/eng-lc-resonance/sitemap.xml"
     },
     {
+      "app_id": "eng-log-mean-temperature",
+      "url": "https://nanalab.kr/eng-log-mean-temperature/sitemap.xml"
+    },
+    {
+      "app_id": "eng-logarithmic-decrement",
+      "url": "https://nanalab.kr/eng-logarithmic-decrement/sitemap.xml"
+    },
+    {
+      "app_id": "eng-lorentz-factor",
+      "url": "https://nanalab.kr/eng-lorentz-factor/sitemap.xml"
+    },
+    {
       "app_id": "eng-mach",
       "url": "https://nanalab.kr/eng-mach/sitemap.xml"
     },
@@ -120,6 +228,30 @@
     {
       "app_id": "eng-mean-free-path",
       "url": "https://nanalab.kr/eng-mean-free-path/sitemap.xml"
+    },
+    {
+      "app_id": "eng-nernst-potential",
+      "url": "https://nanalab.kr/eng-nernst-potential/sitemap.xml"
+    },
+    {
+      "app_id": "eng-noninverting-gain",
+      "url": "https://nanalab.kr/eng-noninverting-gain/sitemap.xml"
+    },
+    {
+      "app_id": "eng-normal-reflectance",
+      "url": "https://nanalab.kr/eng-normal-reflectance/sitemap.xml"
+    },
+    {
+      "app_id": "eng-nusselt-number",
+      "url": "https://nanalab.kr/eng-nusselt-number/sitemap.xml"
+    },
+    {
+      "app_id": "eng-orbital-period",
+      "url": "https://nanalab.kr/eng-orbital-period/sitemap.xml"
+    },
+    {
+      "app_id": "eng-orifice-flow",
+      "url": "https://nanalab.kr/eng-orifice-flow/sitemap.xml"
     },
     {
       "app_id": "eng-osmotic-pressure",
@@ -138,16 +270,40 @@
       "url": "https://nanalab.kr/eng-plate-capacitance/sitemap.xml"
     },
     {
+      "app_id": "eng-point-charge-field",
+      "url": "https://nanalab.kr/eng-point-charge-field/sitemap.xml"
+    },
+    {
       "app_id": "eng-power-db",
       "url": "https://nanalab.kr/eng-power-db/sitemap.xml"
+    },
+    {
+      "app_id": "eng-prandtl-number",
+      "url": "https://nanalab.kr/eng-prandtl-number/sitemap.xml"
+    },
+    {
+      "app_id": "eng-projectile-range",
+      "url": "https://nanalab.kr/eng-projectile-range/sitemap.xml"
     },
     {
       "app_id": "eng-radiation-heat",
       "url": "https://nanalab.kr/eng-radiation-heat/sitemap.xml"
     },
     {
+      "app_id": "eng-rayleigh-number",
+      "url": "https://nanalab.kr/eng-rayleigh-number/sitemap.xml"
+    },
+    {
+      "app_id": "eng-rc-lowpass-gain",
+      "url": "https://nanalab.kr/eng-rc-lowpass-gain/sitemap.xml"
+    },
+    {
       "app_id": "eng-rc-time",
       "url": "https://nanalab.kr/eng-rc-time/sitemap.xml"
+    },
+    {
+      "app_id": "eng-relativistic-energy",
+      "url": "https://nanalab.kr/eng-relativistic-energy/sitemap.xml"
     },
     {
       "app_id": "eng-restrained-thermal-stress",
@@ -162,8 +318,24 @@
       "url": "https://nanalab.kr/eng-rl-time/sitemap.xml"
     },
     {
+      "app_id": "eng-rlc-impedance",
+      "url": "https://nanalab.kr/eng-rlc-impedance/sitemap.xml"
+    },
+    {
       "app_id": "eng-rotation-energy",
       "url": "https://nanalab.kr/eng-rotation-energy/sitemap.xml"
+    },
+    {
+      "app_id": "eng-schwarzschild-radius",
+      "url": "https://nanalab.kr/eng-schwarzschild-radius/sitemap.xml"
+    },
+    {
+      "app_id": "eng-sensible-heat",
+      "url": "https://nanalab.kr/eng-sensible-heat/sitemap.xml"
+    },
+    {
+      "app_id": "eng-series-spring",
+      "url": "https://nanalab.kr/eng-series-spring/sitemap.xml"
     },
     {
       "app_id": "eng-shaft-power",
@@ -178,6 +350,10 @@
       "url": "https://nanalab.kr/eng-shaft-twist/sitemap.xml"
     },
     {
+      "app_id": "eng-skin-depth",
+      "url": "https://nanalab.kr/eng-skin-depth/sitemap.xml"
+    },
+    {
       "app_id": "eng-snell-refraction",
       "url": "https://nanalab.kr/eng-snell-refraction/sitemap.xml"
     },
@@ -186,12 +362,32 @@
       "url": "https://nanalab.kr/eng-solenoid-inductance/sitemap.xml"
     },
     {
+      "app_id": "eng-sound-doppler",
+      "url": "https://nanalab.kr/eng-sound-doppler/sitemap.xml"
+    },
+    {
+      "app_id": "eng-sound-pressure-level",
+      "url": "https://nanalab.kr/eng-sound-pressure-level/sitemap.xml"
+    },
+    {
       "app_id": "eng-spring-damping-ratio",
       "url": "https://nanalab.kr/eng-spring-damping-ratio/sitemap.xml"
     },
     {
+      "app_id": "eng-spring-energy",
+      "url": "https://nanalab.kr/eng-spring-energy/sitemap.xml"
+    },
+    {
       "app_id": "eng-spring-frequency",
       "url": "https://nanalab.kr/eng-spring-frequency/sitemap.xml"
+    },
+    {
+      "app_id": "eng-stokes-terminal-speed",
+      "url": "https://nanalab.kr/eng-stokes-terminal-speed/sitemap.xml"
+    },
+    {
+      "app_id": "eng-thermal-diffusivity",
+      "url": "https://nanalab.kr/eng-thermal-diffusivity/sitemap.xml"
     },
     {
       "app_id": "eng-thermal-expansion",
@@ -200,6 +396,10 @@
     {
       "app_id": "eng-thin-lens-image",
       "url": "https://nanalab.kr/eng-thin-lens-image/sitemap.xml"
+    },
+    {
+      "app_id": "eng-tube-area-inertia",
+      "url": "https://nanalab.kr/eng-tube-area-inertia/sitemap.xml"
     },
     {
       "app_id": "eng-voltage-divider",

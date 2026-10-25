@@ -8,6 +8,606 @@
   "favicon": "https://nanalab.kr/favicon.ico/android-icon-192x192.png",
   "items": [
     {
+      "id": "urn:nanalab:apps:eng-logarithmic-decrement",
+      "url": "https://nanalab.kr/eng-logarithmic-decrement/",
+      "title": "[앱] 감쇠진동 로그감소율 계산기",
+      "content_text": "감쇠 자유진동의 두 같은 방향 피크로 로그감소율 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:28:20Z",
+      "image": "https://nanalab.kr/eng-logarithmic-decrement/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-combined-length-uncertainty",
+      "url": "https://nanalab.kr/eng-combined-length-uncertainty/",
+      "title": "[앱] 독립 길이측정 합성불확도 계산기",
+      "content_text": "상관 없는 두 길이 성분의 선형 결합 표준불확도 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:28:12Z",
+      "image": "https://nanalab.kr/eng-combined-length-uncertainty/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-orifice-flow",
+      "url": "https://nanalab.kr/eng-orifice-flow/",
+      "title": "[앱] 비압축 오리피스 유량 계산기",
+      "content_text": "상류 속도를 무시하는 비압축 오리피스의 모델 유량 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:28:03Z",
+      "image": "https://nanalab.kr/eng-orifice-flow/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-stokes-terminal-speed",
+      "url": "https://nanalab.kr/eng-stokes-terminal-speed/",
+      "title": "[앱] 스톡스 입자 종단속도 계산기",
+      "content_text": "매우 작은 입자 레이놀즈수에서 구형 입자의 종단속도 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:27:55Z",
+      "image": "https://nanalab.kr/eng-stokes-terminal-speed/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-henry-solubility",
+      "url": "https://nanalab.kr/eng-henry-solubility/",
+      "title": "[앱] 헨리법칙 용존농도 계산기",
+      "content_text": "명시한 용해도형 헨리상수와 부분압으로 용존농도 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:27:47Z",
+      "image": "https://nanalab.kr/eng-henry-solubility/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-decay-activity",
+      "url": "https://nanalab.kr/eng-decay-activity/",
+      "title": "[앱] 방사성 활동도 감쇠 계산기",
+      "content_text": "일정 붕괴상수를 가진 단일 핵종의 활동도 감소 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:27:38Z",
+      "image": "https://nanalab.kr/eng-decay-activity/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-nernst-potential",
+      "url": "https://nanalab.kr/eng-nernst-potential/",
+      "title": "[앱] 네른스트 전위 계산기",
+      "content_text": "명시한 반응지수와 온도로 평형 전극·전지 전위 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:27:30Z",
+      "image": "https://nanalab.kr/eng-nernst-potential/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-dilute-ph",
+      "url": "https://nanalab.kr/eng-dilute-ph/",
+      "title": "[앱] 이상 희석용액 pH 계산기",
+      "content_text": "활동도계수를 1로 둔 수소이온 농도 기반 pH 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:27:22Z",
+      "image": "https://nanalab.kr/eng-dilute-ph/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-sound-doppler",
+      "url": "https://nanalab.kr/eng-sound-doppler/",
+      "title": "[앱] 음파 도플러 주파수 계산기",
+      "content_text": "매질 기준 1차원 음원·관측자 운동의 도플러 주파수 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:27:13Z",
+      "image": "https://nanalab.kr/eng-sound-doppler/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-sound-pressure-level",
+      "url": "https://nanalab.kr/eng-sound-pressure-level/",
+      "title": "[앱] 음압 레벨 계산기",
+      "content_text": "기준 실효 음압에 대한 음압 레벨 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:27:04Z",
+      "image": "https://nanalab.kr/eng-sound-pressure-level/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-grating-angle",
+      "url": "https://nanalab.kr/eng-grating-angle/",
+      "title": "[앱] 회절격자 회절각 계산기",
+      "content_text": "수직 입사 회절격자의 지정 양의 차수 방향 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:26:56Z",
+      "image": "https://nanalab.kr/eng-grating-angle/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-double-slit-spacing",
+      "url": "https://nanalab.kr/eng-double-slit-spacing/",
+      "title": "[앱] 이중슬릿 무늬간격 계산기",
+      "content_text": "원거리 작은 각도 이중슬릿 간섭무늬 간격 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:26:47Z",
+      "image": "https://nanalab.kr/eng-double-slit-spacing/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-normal-reflectance",
+      "url": "https://nanalab.kr/eng-normal-reflectance/",
+      "title": "[앱] 정상입사 프레넬 반사율 계산기",
+      "content_text": "비흡수 유전체 경계면의 수직 입사 세기 반사율 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:26:39Z",
+      "image": "https://nanalab.kr/eng-normal-reflectance/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-rc-lowpass-gain",
+      "url": "https://nanalab.kr/eng-rc-lowpass-gain/",
+      "title": "[앱] RC 저역통과 진폭비 계산기",
+      "content_text": "커패시터 양단 출력의 이상 RC 저역통과 진폭비 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:26:31Z",
+      "image": "https://nanalab.kr/eng-rc-lowpass-gain/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-noninverting-gain",
+      "url": "https://nanalab.kr/eng-noninverting-gain/",
+      "title": "[앱] 비반전 연산증폭기 이득 계산기",
+      "content_text": "이상 연산증폭기의 비반전 음귀환 전압이득 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:26:22Z",
+      "image": "https://nanalab.kr/eng-noninverting-gain/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-skin-depth",
+      "url": "https://nanalab.kr/eng-skin-depth/",
+      "title": "[앱] 양도체 표피깊이 계산기",
+      "content_text": "양도체 근사에서 전자기장 진폭의 1/e 감쇠 깊이 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:26:14Z",
+      "image": "https://nanalab.kr/eng-skin-depth/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-ac-real-power",
+      "url": "https://nanalab.kr/eng-ac-real-power/",
+      "title": "[앱] 교류 유효전력 계산기",
+      "content_text": "정현파 전압·전류와 위상차로 평균 유효전력 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:26:05Z",
+      "image": "https://nanalab.kr/eng-ac-real-power/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-rlc-impedance",
+      "url": "https://nanalab.kr/eng-rlc-impedance/",
+      "title": "[앱] 직렬 RLC 임피던스 계산기",
+      "content_text": "이상 직렬 RLC 회로의 정현파 임피던스 크기 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:25:57Z",
+      "image": "https://nanalab.kr/eng-rlc-impedance/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-ideal-transformer",
+      "url": "https://nanalab.kr/eng-ideal-transformer/",
+      "title": "[앱] 이상 변압기 전압 계산기",
+      "content_text": "권선비로 이상적인 교류 변압기의 2차 전압 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:25:48Z",
+      "image": "https://nanalab.kr/eng-ideal-transformer/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-point-charge-field",
+      "url": "https://nanalab.kr/eng-point-charge-field/",
+      "title": "[앱] 점전하 전기장 계산기",
+      "content_text": "진공 속 고립된 점전하의 전기장 크기 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:25:40Z",
+      "image": "https://nanalab.kr/eng-point-charge-field/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-capillary-rise",
+      "url": "https://nanalab.kr/eng-capillary-rise/",
+      "title": "[앱] 모세관 상승높이 계산기",
+      "content_text": "원형 모세관의 정적 액면 상승 또는 하강 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:25:31Z",
+      "image": "https://nanalab.kr/eng-capillary-rise/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-buoyant-force",
+      "url": "https://nanalab.kr/eng-buoyant-force/",
+      "title": "[앱] 배제유체 부력 계산기",
+      "content_text": "잠긴 부분이 밀어낸 유체 무게로 부력 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:25:22Z",
+      "image": "https://nanalab.kr/eng-buoyant-force/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-log-mean-temperature",
+      "url": "https://nanalab.kr/eng-log-mean-temperature/",
+      "title": "[앱] 로그평균 온도차 계산기",
+      "content_text": "열교환기 양 끝의 양의 온도차로 LMTD 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:25:14Z",
+      "image": "https://nanalab.kr/eng-log-mean-temperature/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-adiabatic-temperature",
+      "url": "https://nanalab.kr/eng-adiabatic-temperature/",
+      "title": "[앱] 단열 이상기체 출구온도 계산기",
+      "content_text": "가역 단열 이상기체 과정의 압력비에 따른 온도 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:25:05Z",
+      "image": "https://nanalab.kr/eng-adiabatic-temperature/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-isothermal-work",
+      "url": "https://nanalab.kr/eng-isothermal-work/",
+      "title": "[앱] 이상기체 등온팽창일 계산기",
+      "content_text": "가역 등온 과정에서 이상기체가 한 압력-체적 일 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:24:56Z",
+      "image": "https://nanalab.kr/eng-isothermal-work/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-sensible-heat",
+      "url": "https://nanalab.kr/eng-sensible-heat/",
+      "title": "[앱] 현열 필요열량 계산기",
+      "content_text": "상변화 없는 가열·냉각의 현열 변화량 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:24:48Z",
+      "image": "https://nanalab.kr/eng-sensible-heat/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-thermal-diffusivity",
+      "url": "https://nanalab.kr/eng-thermal-diffusivity/",
+      "title": "[앱] 열확산계수 계산기",
+      "content_text": "열전도율과 체적 열용량으로 열확산계수 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:24:40Z",
+      "image": "https://nanalab.kr/eng-thermal-diffusivity/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-nusselt-number",
+      "url": "https://nanalab.kr/eng-nusselt-number/",
+      "title": "[앱] 누셀트수 계산기",
+      "content_text": "알고 있는 대류계수를 무차원 누셀트수로 환산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:24:31Z",
+      "image": "https://nanalab.kr/eng-nusselt-number/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-prandtl-number",
+      "url": "https://nanalab.kr/eng-prandtl-number/",
+      "title": "[앱] 프란틀수 계산기",
+      "content_text": "운동량 확산과 열확산의 비율인 프란틀수 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:24:22Z",
+      "image": "https://nanalab.kr/eng-prandtl-number/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-rayleigh-number",
+      "url": "https://nanalab.kr/eng-rayleigh-number/",
+      "title": "[앱] 레이리수 계산기",
+      "content_text": "자연대류에서 부력과 확산의 상대 크기를 나타내는 레이리수 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:24:13Z",
+      "image": "https://nanalab.kr/eng-rayleigh-number/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-cantilever-deflection",
+      "url": "https://nanalab.kr/eng-cantilever-deflection/",
+      "title": "[앱] 외팔보 끝 처짐 계산기",
+      "content_text": "끝에 집중하중을 받는 선형 외팔보의 자유단 처짐 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:24:05Z",
+      "image": "https://nanalab.kr/eng-cantilever-deflection/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-tube-area-inertia",
+      "url": "https://nanalab.kr/eng-tube-area-inertia/",
+      "title": "[앱] 원관 단면2차모멘트 계산기",
+      "content_text": "중공 원형 단면의 도심 지름축 단면2차모멘트 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:23:56Z",
+      "image": "https://nanalab.kr/eng-tube-area-inertia/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-spring-energy",
+      "url": "https://nanalab.kr/eng-spring-energy/",
+      "title": "[앱] 스프링 저장에너지 계산기",
+      "content_text": "평형점에서 늘이거나 압축한 선형 스프링 에너지 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:23:48Z",
+      "image": "https://nanalab.kr/eng-spring-energy/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-critical-incline",
+      "url": "https://nanalab.kr/eng-critical-incline/",
+      "title": "[앱] 미끄럼 임계경사각 계산기",
+      "content_text": "이상적인 쿨롱 마찰 모델의 미끄럼 시작 경사각 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:23:39Z",
+      "image": "https://nanalab.kr/eng-critical-incline/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-friction-stop-distance",
+      "url": "https://nanalab.kr/eng-friction-stop-distance/",
+      "title": "[앱] 마찰 정지거리 계산기",
+      "content_text": "수평면에서 일정 운동마찰만 작용하는 정지거리 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:23:30Z",
+      "image": "https://nanalab.kr/eng-friction-stop-distance/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-center-of-mass",
+      "url": "https://nanalab.kr/eng-center-of-mass/",
+      "title": "[앱] 두 물체 질량중심 계산기",
+      "content_text": "공통 원점을 기준으로 두 점질량의 1차원 질량중심 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:23:22Z",
+      "image": "https://nanalab.kr/eng-center-of-mass/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-series-spring",
+      "url": "https://nanalab.kr/eng-series-spring/",
+      "title": "[앱] 직렬 스프링 등가강성 계산기",
+      "content_text": "두 선형 스프링을 직렬로 연결한 등가 강성 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:23:13Z",
+      "image": "https://nanalab.kr/eng-series-spring/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-impulse",
+      "url": "https://nanalab.kr/eng-impulse/",
+      "title": "[앱] 평균힘 충격량 계산기",
+      "content_text": "같은 축의 평균힘과 작용 시간으로 충격량 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:23:04Z",
+      "image": "https://nanalab.kr/eng-impulse/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-projectile-range",
+      "url": "https://nanalab.kr/eng-projectile-range/",
+      "title": "[앱] 경사 투사 도달거리 계산기",
+      "content_text": "같은 높이로 돌아오는 이상적인 포물선 투사 거리 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:22:56Z",
+      "image": "https://nanalab.kr/eng-projectile-range/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-free-fall-time",
+      "url": "https://nanalab.kr/eng-free-fall-time/",
+      "title": "[앱] 자유낙하 시간 계산기",
+      "content_text": "정지 상태에서 일정 중력으로 낙하하는 시간 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:22:48Z",
+      "image": "https://nanalab.kr/eng-free-fall-time/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-gas-rms-speed",
+      "url": "https://nanalab.kr/eng-gas-rms-speed/",
+      "title": "[앱] 기체 분자 RMS 속력 계산기",
+      "content_text": "이상기체 분자 병진운동의 RMS 속력 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:22:39Z",
+      "image": "https://nanalab.kr/eng-gas-rms-speed/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-de-broglie",
+      "url": "https://nanalab.kr/eng-de-broglie/",
+      "title": "[앱] 드브로이 파장 계산기",
+      "content_text": "입자 운동량으로 물질파 파장 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:22:30Z",
+      "image": "https://nanalab.kr/eng-de-broglie/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-relativistic-energy",
+      "url": "https://nanalab.kr/eng-relativistic-energy/",
+      "title": "[앱] 상대론 운동에너지 계산기",
+      "content_text": "광속에 가까운 물체의 병진 운동에너지 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:22:22Z",
+      "image": "https://nanalab.kr/eng-relativistic-energy/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-lorentz-factor",
+      "url": "https://nanalab.kr/eng-lorentz-factor/",
+      "title": "[앱] 로런츠 인자 계산기",
+      "content_text": "특수상대론 속력에 따른 로런츠 인자 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:22:13Z",
+      "image": "https://nanalab.kr/eng-lorentz-factor/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-schwarzschild-radius",
+      "url": "https://nanalab.kr/eng-schwarzschild-radius/",
+      "title": "[앱] 슈바르츠실트 반지름 계산기",
+      "content_text": "비회전·무전하 블랙홀 모델의 사건지평선 반지름 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:22:04Z",
+      "image": "https://nanalab.kr/eng-schwarzschild-radius/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-gravity-at-radius",
+      "url": "https://nanalab.kr/eng-gravity-at-radius/",
+      "title": "[앱] 천체 중력가속도 계산기",
+      "content_text": "구대칭 천체 바깥에서 거리별 중력가속도 크기 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:21:55Z",
+      "image": "https://nanalab.kr/eng-gravity-at-radius/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-gravitational-energy",
+      "url": "https://nanalab.kr/eng-gravitational-energy/",
+      "title": "[앱] 중력 위치에너지 계산기",
+      "content_text": "무한대를 기준으로 한 천체 중력 위치에너지 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:21:47Z",
+      "image": "https://nanalab.kr/eng-gravitational-energy/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-hohmann-delta-v",
+      "url": "https://nanalab.kr/eng-hohmann-delta-v/",
+      "title": "[앱] 호만 전이 총 델타V 계산기",
+      "content_text": "같은 평면의 원궤도 사이 이상적인 2회 기동 속력 변화량 합계 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:21:39Z",
+      "image": "https://nanalab.kr/eng-hohmann-delta-v/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-orbital-period",
+      "url": "https://nanalab.kr/eng-orbital-period/",
+      "title": "[앱] 원궤도 공전주기 계산기",
+      "content_text": "중심 천체 주위를 도는 이상 원궤도 공전시간 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:21:30Z",
+      "image": "https://nanalab.kr/eng-orbital-period/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-escape-speed",
+      "url": "https://nanalab.kr/eng-escape-speed/",
+      "title": "[앱] 탈출속도 계산기",
+      "content_text": "천체 중력장을 벗어나는 최소 초기 속력 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:21:22Z",
+      "image": "https://nanalab.kr/eng-escape-speed/og.png"
+    },
+    {
       "id": "urn:nanalab:apps:eng-spring-damping-ratio",
       "url": "https://nanalab.kr/eng-spring-damping-ratio/",
       "title": "[앱] 질량 스프링 감쇠비 계산기",
@@ -1787,644 +2387,6 @@
       ],
       "date_published": "2025-12-26T18:05:57Z",
       "image": "https://nanalab.kr/apps/img/image_resize.png"
-    },
-    {
-      "id": "urn:nanalab:apps:doc_compress",
-      "url": "https://nanalab.kr/doc_compress/",
-      "title": "[앱] 문서 압축",
-      "content_text": "PDF와 오피스 문서, 이미지의 용량을 줄이는 도구입니다.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "문서·텍스트"
-      ],
-      "date_published": "2025-12-26T12:20:24Z",
-      "image": "https://nanalab.kr/apps/img/doc_compress.png"
-    },
-    {
-      "id": "urn:nanalab:apps:qr",
-      "url": "https://nanalab.kr/qr/",
-      "title": "[앱] QR 코드 생성기",
-      "content_text": "링크를 공유하기 쉬운 나만의 QR 코드로 만들어 보세요.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "생활·업무"
-      ],
-      "date_published": "2025-12-26T12:05:00Z",
-      "image": "https://nanalab.kr/apps/img/qr.png"
-    },
-    {
-      "id": "urn:nanalab:lectures:lecture-197-381e68f409e342df",
-      "url": "https://nanalab.kr/lectures/#record-lectures-lecture-197-381e68f409e342df",
-      "title": "[강의] 생성형 AI의 공직실무 활용",
-      "content_text": "복지행정분야 핵심인력 워크숍에서 업무용 프롬프트 작성과 AI 답변 검토 기법을 다뤘습니다. NotebookLM을 활용한 자료 기반 질의응답과 유권해석 사례를 통해 공직 실무에 AI를 적용하는 방법을 실습했습니다.\n\n기관: 한국보건복지인재원\n\n원본 날짜: 2025.12.18.\n\n출처: https://bhban.kr/",
-      "tags": [
-        "강의",
-        "공공기관"
-      ],
-      "date_published": "2025-12-18T00:00:00+09:00",
-      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@fbf1d971da1543f8a3ef2167b2dc16ec01a9064a/src/images/lectures/197.webp"
-    },
-    {
-      "id": "urn:nanalab:apps:smart_calculator",
-      "url": "https://nanalab.kr/smart_calculator/",
-      "title": "[앱] 스마트 계산기",
-      "content_text": "일반 계산부터 환율 계산까지. 음성 입력과 계산 기록을 함께 활용하세요.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "생활·업무"
-      ],
-      "date_published": "2025-12-17T14:23:34Z",
-      "image": "https://nanalab.kr/apps/img/smart_calculator.png"
-    },
-    {
-      "id": "urn:nanalab:lectures:lecture-nhi-20251212",
-      "url": "https://nanalab.kr/lectures/#record-lectures-lecture-nhi-20251212",
-      "title": "[강의] AI 실습 2(심화) · AI 실습 3(연습)",
-      "content_text": "제4기 AI 이해와 활용 과정에서 오전에는 AI 실습 2(심화), 오후에는 AI 실습 3(연습) 강의를 진행했습니다.\n\n기관: 국가공무원인재개발원\n\n원본 날짜: 2025.12.12.\n\n출처: https://bhban.kr/",
-      "tags": [
-        "강의",
-        "공공기관"
-      ],
-      "date_published": "2025-12-12T00:00:00+09:00",
-      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@fbf1d971da1543f8a3ef2167b2dc16ec01a9064a/src/images/lectures/196.webp"
-    },
-    {
-      "id": "urn:nanalab:lectures:lecture-195-30ebc79ef95c103a",
-      "url": "https://nanalab.kr/lectures/#record-lectures-lecture-195-30ebc79ef95c103a",
-      "title": "[강의] 챗GPT와 인공지능의 미래",
-      "content_text": "챗GPT의 작동 원리와 RAG를 살펴보고, AI 산업의 경쟁 구도와 인프라 변화를 소개했습니다. 기업의 AI 도입이 업무 환경에 가져올 변화도 함께 다뤘습니다.\n\n기관: 한국포장재활용사업공제조합\n\n원본 날짜: 2025.11.28.\n\n출처: https://bhban.kr/",
-      "tags": [
-        "강의",
-        "기업"
-      ],
-      "date_published": "2025-11-28T00:00:00+09:00",
-      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@fbf1d971da1543f8a3ef2167b2dc16ec01a9064a/src/images/lectures/195.webp"
-    },
-    {
-      "id": "urn:nanalab:lectures:lecture-194-214ae02343d2db91",
-      "url": "https://nanalab.kr/lectures/#record-lectures-lecture-194-214ae02343d2db91",
-      "title": "[강의] 공공기관 AI 활용 가이드",
-      "content_text": "공공기관의 AI 도입과 내부망 구축, RAG 활용 방식을 소개했습니다. 공공 AI 챗봇의 악용 사례와 대화 정보 유출 사례를 통해 도입 시 점검할 보안 문제도 살펴봤습니다.\n\n기관: 대구디지털혁신진흥원\n\n원본 날짜: 2025.11.20.\n\n출처: https://bhban.kr/",
-      "tags": [
-        "강의",
-        "공공기관"
-      ],
-      "date_published": "2025-11-20T00:00:00+09:00",
-      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@fbf1d971da1543f8a3ef2167b2dc16ec01a9064a/src/images/lectures/194.webp"
-    },
-    {
-      "id": "urn:nanalab:lectures:lecture-193-678a125cc276c118",
-      "url": "https://nanalab.kr/lectures/#record-lectures-lecture-193-678a125cc276c118",
-      "title": "[강의] 생성형 AI 시대의 신산업과 기회들",
-      "content_text": "생성형 AI로 달라지는 산업과 직업, 그 변화에서 찾을 수 있는 기회를 주제로 강연했습니다. 기업의 AI 구축 사례와 프롬프트 엔지니어링, RAG 활용 방식도 소개했습니다.\n\n기관: 경안고등학교\n\n원본 날짜: 2025.11.10.\n\n출처: https://bhban.kr/",
-      "tags": [
-        "강의",
-        "교육기관"
-      ],
-      "date_published": "2025-11-10T00:00:00+09:00",
-      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@fbf1d971da1543f8a3ef2167b2dc16ec01a9064a/src/images/lectures/193.webp"
-    },
-    {
-      "id": "urn:nanalab:lectures:lecture-192-cf73aa56fcc9aa33",
-      "url": "https://nanalab.kr/lectures/#record-lectures-lecture-192-cf73aa56fcc9aa33",
-      "title": "[강의] AI 이후의 인간: 생성형 AI 시대의 미래",
-      "content_text": "생성형 AI가 일과 산업을 어떻게 바꾸는지 살펴보고, GPT의 원리와 프롬프트 작성법을 소개했습니다. 할루시네이션과 RAG, AI 악용 사례를 통해 활용 시 주의할 점도 짚었습니다.\n\n기관: 병점도서관\n\n원본 날짜: 2025.11.08.\n\n출처: https://bhban.kr/",
-      "tags": [
-        "강의",
-        "교육기관"
-      ],
-      "date_published": "2025-11-08T00:00:00+09:00",
-      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@fbf1d971da1543f8a3ef2167b2dc16ec01a9064a/src/images/lectures/192.webp"
-    },
-    {
-      "id": "urn:nanalab:lectures:lecture-191-d596257b7300d187",
-      "url": "https://nanalab.kr/lectures/#record-lectures-lecture-191-d596257b7300d187",
-      "title": "[강의] AI 시대의 진로와 미래",
-      "content_text": "생성형 AI가 산업과 직업에 가져오는 변화를 살펴보고, AI 시대의 진로를 주제로 강연했습니다. GPT의 작동 원리와 프롬프트 엔지니어링, RAG의 기초도 함께 소개했습니다.\n\n기관: 안동여자고등학교\n\n원본 날짜: 2025.11.07.\n\n출처: https://bhban.kr/",
-      "tags": [
-        "강의",
-        "교육기관"
-      ],
-      "date_published": "2025-11-07T00:00:00+09:00",
-      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@fbf1d971da1543f8a3ef2167b2dc16ec01a9064a/src/images/lectures/191.webp"
-    },
-    {
-      "id": "urn:nanalab:lectures:course-34",
-      "url": "https://nanalab.kr/lectures/#record-lectures-course-34",
-      "title": "[강의] 기획재정부 청년인턴 AI 연수",
-      "content_text": "기획재정부의 청년인턴 50여명을 대상으로 한 3일간의 AI 연수를 진행했습니다. 11월 5일 세종시에서 이론 연수가 진행되었고, 11월 12일~13일 양일간 태안의 공무원연수원에서 집합교육이 진행되었습니다. 시수가 많다 보니 기초부터 실습, 활용, 경시대회까지 올인원으로 진행하였고, 일부 수강생들과는 아직까지도 연락을 주고받고 있습니다.\n\n원본 날짜: 2025.11.05. 11.12. 11.13.\n\n출처: https://bhban.kr/",
-      "tags": [
-        "강의",
-        "공공기관"
-      ],
-      "date_published": "2025-11-05T00:00:00+09:00",
-      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@0121b1cd870b2bfdd17fc4c6a6eda89637a522a9/src/images/courses/34-faces-blurred-1d8b33e09e3c.webp"
-    },
-    {
-      "id": "urn:nanalab:lectures:lecture-180-resized-816b7082a8ff-16ae1282077080a4",
-      "url": "https://nanalab.kr/lectures/#record-lectures-lecture-180-resized-816b7082a8ff-16ae1282077080a4",
-      "title": "[강의] 프롬프트 엔지니어링 - 기초, 심화",
-      "content_text": "홍익대학교의 초청으로 학부생들을 대상으로 한 특강을 제공했습니다. 11월 3일, 11월 17일 2회에 걸쳐 기초, 심화강의 진행했습니다.\n\n기관: 홍익대학교\n\n원본 날짜: 2025.11.03. 11.17.\n\n출처: https://bhban.kr/",
-      "tags": [
-        "강의",
-        "교육기관"
-      ],
-      "date_published": "2025-11-03T00:00:00+09:00",
-      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@0121b1cd870b2bfdd17fc4c6a6eda89637a522a9/src/images/lectures/180-resized-816b7082a8ff.webp",
-      "external_url": "https://www.hongik.ac.kr/kr/index.do"
-    },
-    {
-      "id": "urn:nanalab:lectures:lecture-logo-nhi-887d117b9eba-89839712d7a13870",
-      "url": "https://nanalab.kr/lectures/#record-lectures-lecture-logo-nhi-887d117b9eba-89839712d7a13870",
-      "title": "[강의] 생성형 AI의 이해와 활용 - AI실습 3",
-      "content_text": "국가공무원인재개발원에서 진행한 [제3기 AI이해와 활용 과정] 연수에 출강했습니다.\n\n기관: 국가공무원인재개발원\n\n원본 날짜: 2025.10.31.\n\n출처: https://bhban.kr/",
-      "tags": [
-        "강의",
-        "공공기관"
-      ],
-      "date_published": "2025-10-31T00:00:00+09:00",
-      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@ce92fa43f34d73dbdff7e041e2a6770bd9b3a3b0/src/images/lectures/logo-nhi-887d117b9eba.webp",
-      "external_url": "https://www.nhi.go.kr/index.jsp"
-    },
-    {
-      "id": "urn:nanalab:lectures:lecture-178-faces-blurred-5c6cb3901f2c-bc529694e9503fca",
-      "url": "https://nanalab.kr/lectures/#record-lectures-lecture-178-faces-blurred-5c6cb3901f2c-bc529694e9503fca",
-      "title": "[강의] 자녀가 살아가야 할 AI시대의 일자리 대격변",
-      "content_text": "영등포구청의 진로직업체험지원센터에서 구내 학부모분들을 대상으로 한 AI시대의 진로특강을 제공했습니다. 구청장님도 방문하시고, 학부모분들의 뜨거운 열정에 저도 자극을 많이 받는 자리였습니다.\n\n기관: 영등포 진로직업체험지원센터\n\n원본 날짜: 2025.10.28.\n\n출처: https://bhban.kr/",
-      "tags": [
-        "강의",
-        "공공기관"
-      ],
-      "date_published": "2025-10-28T00:00:00+09:00",
-      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@58bb2789ed1e676a56a5a40c5bf49f99ee24953d/src/images/lectures/178-faces-blurred-5c6cb3901f2c.webp",
-      "external_url": "https://www.ydp.go.kr/www/selectBbsNttView.do?bbsNo=40&nttNo=406317&&pageUnit=10&pageIndex=60"
-    },
-    {
-      "id": "urn:nanalab:lectures:lecture-logo-jne-f4a4a1a0171b-36789401619422a1",
-      "url": "https://nanalab.kr/lectures/#record-lectures-lecture-logo-jne-f4a4a1a0171b-36789401619422a1",
-      "title": "[강의] 생성형 AI 임팩트",
-      "content_text": "전남교육청 특수교육지원센터에서 진행한 특수교육 담당자 연수에 참석해 특강을 제공했습니다. 장애학생e페스티벌에 참석하셨던 장학사님께서 불러주셨습니다.\n\n기관: 전남교육청 특수교육지원센터\n\n원본 날짜: 2025.10.27.\n\n출처: https://bhban.kr/",
-      "tags": [
-        "강의",
-        "공공기관"
-      ],
-      "date_published": "2025-10-27T00:00:00+09:00",
-      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@ce92fa43f34d73dbdff7e041e2a6770bd9b3a3b0/src/images/lectures/logo-jne-f4a4a1a0171b.webp",
-      "external_url": "https://www.jge.go.kr/spedu/main.do"
-    },
-    {
-      "id": "urn:nanalab:lectures:lecture-176-faces-blurred-b3192e8759b0-a14fa158d5a2f2ae",
-      "url": "https://nanalab.kr/lectures/#record-lectures-lecture-176-faces-blurred-b3192e8759b0-a14fa158d5a2f2ae",
-      "title": "[강의] 생성형 AI 혁명 - 기계 제조 산업에서의",
-      "content_text": "2025 서울기계리더스포럼 조합원사 임직원 혁신역량 교육에서 AI 특강을 제공했습니다.\n\n기관: 서울시 기계공업 협동조합\n\n원본 날짜: 2025.10.24.\n\n출처: https://bhban.kr/",
-      "tags": [
-        "강의",
-        "기업"
-      ],
-      "date_published": "2025-10-24T00:00:00+09:00",
-      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@0121b1cd870b2bfdd17fc4c6a6eda89637a522a9/src/images/lectures/176-faces-blurred-b3192e8759b0.webp",
-      "external_url": "http://www.smic.or.kr/"
-    },
-    {
-      "id": "urn:nanalab:lectures:lecture-logo-csj-1a359314daeb-1c9b84cddff44188",
-      "url": "https://nanalab.kr/lectures/#record-lectures-lecture-logo-csj-1a359314daeb-1c9b84cddff44188",
-      "title": "[강의] 생성형 AI의 활용 & 의료용 대마의 이해",
-      "content_text": "가톨릭상지대학교 바이오제약학과의 초청으로 생성형 AI 활용 특강과, 의료용 대마 관련 특강을 제공했습니다.\n\n기관: 가톨릭상지대학교 바이오제약학과\n\n원본 날짜: 2025.10.18.\n\n출처: https://bhban.kr/",
-      "tags": [
-        "강의",
-        "교육기관"
-      ],
-      "date_published": "2025-10-18T00:00:00+09:00",
-      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@ce92fa43f34d73dbdff7e041e2a6770bd9b3a3b0/src/images/lectures/logo-csj-1a359314daeb.webp",
-      "external_url": "https://biopharm.csj.ac.kr/"
-    },
-    {
-      "id": "urn:nanalab:lectures:lecture-174-faces-blurred-f445fe2d8d3f-2128bf84d7ee0a2c",
-      "url": "https://nanalab.kr/lectures/#record-lectures-lecture-174-faces-blurred-f445fe2d8d3f-2128bf84d7ee0a2c",
-      "title": "[강의] 생성형 AI의 활용",
-      "content_text": "한국농수산대학교 전교생 대상 교양특강 강의에 출강했습니다.\n\n기관: 한국농수산대학교\n\n원본 날짜: 2025.10.14.\n\n출처: https://bhban.kr/",
-      "tags": [
-        "강의",
-        "교육기관"
-      ],
-      "date_published": "2025-10-14T00:00:00+09:00",
-      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@0121b1cd870b2bfdd17fc4c6a6eda89637a522a9/src/images/lectures/174-faces-blurred-f445fe2d8d3f.webp",
-      "external_url": "https://eais.af.ac.kr/"
-    },
-    {
-      "id": "urn:nanalab:lectures:lecture-173-2755d5dceeabbcfe",
-      "url": "https://nanalab.kr/lectures/#record-lectures-lecture-173-2755d5dceeabbcfe",
-      "title": "[강의] 공직자를 위한 생성형AI 인사이트",
-      "content_text": "교원연수 다녀왔습니다.\n\n기관: 경북교육청연수원\n\n원본 날짜: 2025.09.25.\n\n출처: https://bhban.kr/",
-      "tags": [
-        "강의",
-        "공공기관"
-      ],
-      "date_published": "2025-09-25T00:00:00+09:00",
-      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/lectures/173.webp",
-      "external_url": "https://www.gbeti.or.kr/"
-    },
-    {
-      "id": "urn:nanalab:lectures:lecture-172-faces-blurred-aa500cae8ba0-e4dbc1f93be98043",
-      "url": "https://nanalab.kr/lectures/#record-lectures-lecture-172-faces-blurred-aa500cae8ba0-e4dbc1f93be98043",
-      "title": "[강의] 공공기관 AI 동향과 실무활용, 보안 무력화 사례",
-      "content_text": "한국정보보호학회에서 주관하는 [2025 제6회 호남사이버보안콘퍼런스]에서 특강을 제공했습니다.\n\n기관: 한국정보보호학회\n\n원본 날짜: 2025.09.18.\n\n출처: https://bhban.kr/",
-      "tags": [
-        "강의",
-        "컨퍼런스"
-      ],
-      "date_published": "2025-09-18T00:00:00+09:00",
-      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@0121b1cd870b2bfdd17fc4c6a6eda89637a522a9/src/images/lectures/172-faces-blurred-aa500cae8ba0.webp",
-      "external_url": "https://www.kiisc.or.kr/"
-    },
-    {
-      "id": "urn:nanalab:lectures:lecture-171-resized-205ddd9bf6d3-09286f6185816567",
-      "url": "https://nanalab.kr/lectures/#record-lectures-lecture-171-resized-205ddd9bf6d3-09286f6185816567",
-      "title": "[강의] 도서관, 평생학습관 재직자 업무역량을 위한 생성형 AI의 활용",
-      "content_text": "[2025년도 서울시교육청 도서관 및 평생학습관 AI, 디지털기반 역량강화 연수]를 진행했습니다. 오전, 오후 각각 100여 명 참석하셨습니다.\n\n기관: 서울특별시교육청\n\n원본 날짜: 2025.09.15.\n\n출처: https://bhban.kr/",
-      "tags": [
-        "강의",
-        "공공기관"
-      ],
-      "date_published": "2025-09-15T00:00:00+09:00",
-      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@0121b1cd870b2bfdd17fc4c6a6eda89637a522a9/src/images/lectures/171-resized-205ddd9bf6d3.webp",
-      "external_url": "https://www.sen.go.kr/sen/index.do"
-    },
-    {
-      "id": "urn:nanalab:lectures:lecture-logo-ediya-b0c77136e74b-38177e0fc503a737",
-      "url": "https://nanalab.kr/lectures/#record-lectures-lecture-logo-ediya-b0c77136e74b-38177e0fc503a737",
-      "title": "[강의] 생성형 AI의 직무 활용 전략",
-      "content_text": "과장급 승진자 대상 연수를 진행했습니다. 4시간 분량의 실습 위주 강의였습니다.\n\n기관: 이디야\n\n원본 날짜: 2025.09.12\n\n출처: https://bhban.kr/",
-      "tags": [
-        "강의",
-        "기업"
-      ],
-      "date_published": "2025-09-12T00:00:00+09:00",
-      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@ce92fa43f34d73dbdff7e041e2a6770bd9b3a3b0/src/images/lectures/logo-ediya-b0c77136e74b.webp",
-      "external_url": "https://www.ediya.com/"
-    },
-    {
-      "id": "urn:nanalab:lectures:lecture-169-cda95daf81969afc",
-      "url": "https://nanalab.kr/lectures/#record-lectures-lecture-169-cda95daf81969afc",
-      "title": "[강의] 생성형 AI의 활용",
-      "content_text": "보건복지인재원에서 실시하는 [보건의료 디지털 실무역량 강화과정] 교육에 다녀왔습니다. 9월 10일, 9월 24일 2일간 진행된 교육이고 1일 8시간 진행되었습니다.\n\n기관: 보건복지인재원\n\n원본 날짜: 2025.09.10. 09.24.\n\n출처: https://bhban.kr/",
-      "tags": [
-        "강의",
-        "공공기관"
-      ],
-      "date_published": "2025-09-10T00:00:00+09:00",
-      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@034b889e0d4fac79308695267909cef9ec44f7b3/src/images/lectures/169.webp",
-      "external_url": "https://edu.kohi.or.kr/index.do"
-    },
-    {
-      "id": "urn:nanalab:lectures:lecture-168-cbc9f7daef59e5a8",
-      "url": "https://nanalab.kr/lectures/#record-lectures-lecture-168-cbc9f7daef59e5a8",
-      "title": "[강의] 생성형 AI 임팩트",
-      "content_text": "국립특수교육원, 한국콘텐츠진흥원, 넷마블 문화재단이 공동으로 개최한 [전국 장애학생 e페스티벌]에서 관리자를 대상으로 한 특강을 제공했습니다. 전국의 특수교육 관련 장학사, 교장선생님들이 모인 자리였습니다.\n\n기관: 전국 장애학생 e페스티벌\n\n원본 날짜: 2025.09.09.\n\n출처: https://bhban.kr/",
-      "tags": [
-        "강의",
-        "교육기관"
-      ],
-      "date_published": "2025-09-09T00:00:00+09:00",
-      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@fbf1d971da1543f8a3ef2167b2dc16ec01a9064a/src/images/lectures/168.webp",
-      "external_url": "https://www.nise.go.kr/boardCnts/view.do?boardID=14&boardSeq=735671&lev=0&searchType=null&statusYN=W&page=1&s=nise&m=0303&opType=N"
-    },
-    {
-      "id": "urn:nanalab:lectures:lecture-logo-kcc-historical-99e26fc5913f-262bcf72679402c6",
-      "url": "https://nanalab.kr/lectures/#record-lectures-lecture-logo-kcc-historical-99e26fc5913f-262bcf72679402c6",
-      "title": "[강의] 기술자문",
-      "content_text": "방송통신위원회의 생성형 AI 관련 회의에 참석하여 기술자문을 제공했습니다.\n\n기관: 방송통신위원회\n\n원본 날짜: 2025.09.08.\n\n출처: https://bhban.kr/",
-      "tags": [
-        "강의",
-        "공공기관"
-      ],
-      "date_published": "2025-09-08T00:00:00+09:00",
-      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@9fcc0cb789f8ea779330f46b5cd0c4e06f17819b/src/images/lectures/logo-kcc-historical-99e26fc5913f.webp",
-      "external_url": "https://www.kmcc.go.kr/user.do"
-    },
-    {
-      "id": "urn:nanalab:lectures:lecture-166-resized-823774981420-a208eb27b572deed",
-      "url": "https://nanalab.kr/lectures/#record-lectures-lecture-166-resized-823774981420-a208eb27b572deed",
-      "title": "[강의] 질문의 기술과 챗봇",
-      "content_text": "남양주시청의 [슈퍼 성장을 위한 일잘러:리워크 Work Smart 교육] - [2025년 일잘러 리 스킬(re-skill) 과정]에서 4시간 분량의 실습 연수를 제공했습니다.\n\n기관: 남양주시청\n\n원본 날짜: 2025.08.29.\n\n출처: https://bhban.kr/",
-      "tags": [
-        "강의",
-        "공공기관"
-      ],
-      "date_published": "2025-08-29T00:00:00+09:00",
-      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@0121b1cd870b2bfdd17fc4c6a6eda89637a522a9/src/images/lectures/166-resized-823774981420.webp"
-    },
-    {
-      "id": "urn:nanalab:lectures:lecture-165-faces-mosaic-edd62136384d-044b72aac267f9f8",
-      "url": "https://nanalab.kr/lectures/#record-lectures-lecture-165-faces-mosaic-edd62136384d-044b72aac267f9f8",
-      "title": "[강의] 생성형 AI 산업의 흐름과 실제 활용 사례",
-      "content_text": "미래와소프트웨어 재단에서 주최하는 제16회 꿈찾기 캠프에서 특강을 제공했습니다. 어린이들이 아주 활기차서 즐거웠습니다.\n\n기관: 미래와소프트웨어재단\n\n원본 날짜: 2025.08.23.\n\n출처: https://bhban.kr/",
-      "tags": [
-        "강의",
-        "기업"
-      ],
-      "date_published": "2025-08-23T00:00:00+09:00",
-      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@cb6f1e34b30ec759789391ed9e40ff3838357092/src/images/lectures/165-faces-mosaic-edd62136384d.webp",
-      "external_url": "http://blog.kcc.co.kr/?p=24133"
-    },
-    {
-      "id": "urn:nanalab:lectures:lecture-logo-keti-bb0cd02c286c-d1eac5a4e54e79e0",
-      "url": "https://nanalab.kr/lectures/#record-lectures-lecture-logo-keti-bb0cd02c286c-d1eac5a4e54e79e0",
-      "title": "[강의] Word2Vec 부터 GPT까지",
-      "content_text": "KETI 워크숍에 참석하여 생성형 AI의 발전사에 대한 특강을 제공했습니다.\n\n기관: KETI\n\n원본 날짜: 2025.08.14.\n\n출처: https://bhban.kr/",
-      "tags": [
-        "강의",
-        "연구기관"
-      ],
-      "date_published": "2025-08-14T00:00:00+09:00",
-      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@ce92fa43f34d73dbdff7e041e2a6770bd9b3a3b0/src/images/lectures/logo-keti-bb0cd02c286c.webp",
-      "external_url": "https://www.keti.re.kr/main/main.php"
-    },
-    {
-      "id": "urn:nanalab:lectures:lecture-logo-haesung-c79671cedc0a-67fc7e713a27d7a9",
-      "url": "https://nanalab.kr/lectures/#record-lectures-lecture-logo-haesung-c79671cedc0a-67fc7e713a27d7a9",
-      "title": "[강의] 임원을 위한 생성형 AI 특강",
-      "content_text": "임원을 대상으로 실습과 이론을 병행한 강의를 제공했습니다.\n\n기관: 해성그룹\n\n원본 날짜: 2025.08.12.\n\n출처: https://bhban.kr/",
-      "tags": [
-        "강의",
-        "기업"
-      ],
-      "date_published": "2025-08-12T00:00:00+09:00",
-      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@ce92fa43f34d73dbdff7e041e2a6770bd9b3a3b0/src/images/lectures/logo-haesung-c79671cedc0a.webp",
-      "external_url": "https://www.haesunggroup.com/"
-    },
-    {
-      "id": "urn:nanalab:lectures:lecture-162-faces-blurred-a406584a20a7-c4673ff83a496794",
-      "url": "https://nanalab.kr/lectures/#record-lectures-lecture-162-faces-blurred-a406584a20a7-c4673ff83a496794",
-      "title": "[강의] 공직자를 위한 생성형 AI 인사이트",
-      "content_text": "경주시청에서 매월 열리는 서라벌 아카데미 및 정례석회에 특강을 다녀왔습니다.\n\n기관: 경주시청\n\n원본 날짜: 2025.08.06.\n\n출처: https://bhban.kr/",
-      "tags": [
-        "강의",
-        "공공기관"
-      ],
-      "date_published": "2025-08-06T00:00:00+09:00",
-      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@0121b1cd870b2bfdd17fc4c6a6eda89637a522a9/src/images/lectures/162-faces-blurred-a406584a20a7.webp",
-      "external_url": "https://www.gyeongju.go.kr/open_content/ko/index.do"
-    },
-    {
-      "id": "urn:nanalab:lectures:lecture-161-40c388c82ed4488d",
-      "url": "https://nanalab.kr/lectures/#record-lectures-lecture-161-40c388c82ed4488d",
-      "title": "[강의] AI 기초 지식에 대한 이해, 실생활에서 사용하는 인공지능",
-      "content_text": "어르신들을 대상으로 특강을 진행했습니다. 그 넓은 홀이 가득 찬 걸 보고 깜짝 놀랐습니다.\n\n기관: 신내노인종합복지관\n\n원본 날짜: 2025.07.22.\n\n출처: https://bhban.kr/",
-      "tags": [
-        "강의",
-        "공공기관"
-      ],
-      "date_published": "2025-07-22T00:00:00+09:00",
-      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@fbf1d971da1543f8a3ef2167b2dc16ec01a9064a/src/images/lectures/161.webp",
-      "external_url": "http://www.shinnaesenior.or.kr/#1"
-    },
-    {
-      "id": "urn:nanalab:lectures:lecture-160-bc4b39775d461320",
-      "url": "https://nanalab.kr/lectures/#record-lectures-lecture-160-bc4b39775d461320",
-      "title": "[강의] 나보다 똑똑한 AI와 사는 법",
-      "content_text": "체육관에 의자를 쫙 깔아놓고 전교생 대상 특강 진행했습니다.\n\n기관: 성주고등학교\n\n원본 날짜: 2025.07.17.\n\n출처: https://bhban.kr/",
-      "tags": [
-        "강의",
-        "교육기관"
-      ],
-      "date_published": "2025-07-17T00:00:00+09:00",
-      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@fbf1d971da1543f8a3ef2167b2dc16ec01a9064a/src/images/lectures/160.webp",
-      "external_url": "https://school.gyo6.net/sjump/main.do?sysId=sjump"
-    },
-    {
-      "id": "urn:nanalab:lectures:lecture-159-74d3195c36fe9bce",
-      "url": "https://nanalab.kr/lectures/#record-lectures-lecture-159-74d3195c36fe9bce",
-      "title": "[강의] 나보다 똑똑한 AI와 사는 법",
-      "content_text": "성주여고에 방문하여 특강을 진행했습니다. 제 얼굴이 박힌 머그컵과 직접 구운 쿠키도 선물로 받았습니다. 이런 환대는 처음이라 크게 감동했습니다.\n\n기관: 성주여자고등학교\n\n원본 날짜: 2025.07.15.\n\n출처: https://bhban.kr/",
-      "tags": [
-        "강의",
-        "교육기관"
-      ],
-      "date_published": "2025-07-15T00:00:00+09:00",
-      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@fbf1d971da1543f8a3ef2167b2dc16ec01a9064a/src/images/lectures/159.webp",
-      "external_url": "https://school.gyo6.net/sjghs/main.do?sysId=sjghs"
-    },
-    {
-      "id": "urn:nanalab:lectures:lecture-logo-gangwon-education-office-946d9ad0c86f-cd26251c8e1c70e5",
-      "url": "https://nanalab.kr/lectures/#record-lectures-lecture-logo-gangwon-education-office-946d9ad0c86f-cd26251c8e1c70e5",
-      "title": "[강의] 생성형 AI 활용 방안",
-      "content_text": "강원특별자치도교육청에서 진행한 평생교육사 직무 연수에 출강하여 AI 활용방안을 강의했습니다.\n\n기관: 강원특별자치도교육청\n\n원본 날짜: 2025.07.04.\n\n출처: https://bhban.kr/",
-      "tags": [
-        "강의",
-        "공공기관"
-      ],
-      "date_published": "2025-07-04T00:00:00+09:00",
-      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@58bb2789ed1e676a56a5a40c5bf49f99ee24953d/src/images/lectures/logo-gangwon-education-office-946d9ad0c86f.webp",
-      "external_url": "https://v.daum.net/v/U36UheuSGM"
-    },
-    {
-      "id": "urn:nanalab:lectures:lecture-157-resized-231efec701fd-2693b6699e18d283",
-      "url": "https://nanalab.kr/lectures/#record-lectures-lecture-157-resized-231efec701fd-2693b6699e18d283",
-      "title": "[강의] 생성형 AI 활용 방안",
-      "content_text": "계림고등학교를 방문해 교사 대상 연수를 진행했습니다.\n\n기관: 계림고등학교\n\n원본 날짜: 2025.06.23.\n\n출처: https://bhban.kr/",
-      "tags": [
-        "강의",
-        "교육기관"
-      ],
-      "date_published": "2025-06-23T00:00:00+09:00",
-      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@0121b1cd870b2bfdd17fc4c6a6eda89637a522a9/src/images/lectures/157-resized-231efec701fd.webp",
-      "external_url": "https://school.gyo6.net/gyerim/main.do?sysId=gyerim"
-    },
-    {
-      "id": "urn:nanalab:lectures:lecture-logo-gbeti-ee3d3ed641ba-edcfe4086065ab82",
-      "url": "https://nanalab.kr/lectures/#record-lectures-lecture-logo-gbeti-ee3d3ed641ba-edcfe4086065ab82",
-      "title": "[강의] 공직자를 위한 생성형 AI 업무 활용",
-      "content_text": "[미래를 준비하는 직급별 역량강화 3기] 연수에 출강해 AI교육을 진행했습니다.\n\n기관: 경북교육청연수원\n\n원본 날짜: 2025.06.19.\n\n출처: https://bhban.kr/",
-      "tags": [
-        "강의",
-        "공공기관"
-      ],
-      "date_published": "2025-06-19T00:00:00+09:00",
-      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@ce92fa43f34d73dbdff7e041e2a6770bd9b3a3b0/src/images/lectures/logo-gbeti-ee3d3ed641ba.webp",
-      "external_url": "https://www.gbeti.or.kr"
-    },
-    {
-      "id": "urn:nanalab:lectures:lecture-logo-kohi-e45f84811eda-292f6d56058a7df0",
-      "url": "https://nanalab.kr/lectures/#record-lectures-lecture-logo-kohi-e45f84811eda-292f6d56058a7df0",
-      "title": "[강의] 공직자를 위한 생성형 AI 업무 활용",
-      "content_text": "제1기 금연사업관리과정의 \"AI를 활용한 보건사업 홍보전략\" 교육을 다녀왔습니다. 전국 보건소 재직자분들 집합교육입니다.\n\n기관: 보건복지인재개발원\n\n원본 날짜: 2025.06.17.\n\n출처: https://bhban.kr/",
-      "tags": [
-        "강의",
-        "공공기관"
-      ],
-      "date_published": "2025-06-17T00:00:00+09:00",
-      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@ce92fa43f34d73dbdff7e041e2a6770bd9b3a3b0/src/images/lectures/logo-kohi-e45f84811eda.webp",
-      "external_url": "https://www.mohw.go.kr/"
-    },
-    {
-      "id": "urn:nanalab:lectures:lecture-154-faces-blurred-da1a40050fb1-9d8ca70d288ca80c",
-      "url": "https://nanalab.kr/lectures/#record-lectures-lecture-154-faces-blurred-da1a40050fb1-9d8ca70d288ca80c",
-      "title": "[강의] 공직자를 위한 생성형 AI 업무 활용",
-      "content_text": "경북교육청에서 진행한 5급 이상 일반직공무원 대상 행정리더십 연수에서 특강을 제공했습니다.\n\n기관: 경북교육청\n\n원본 날짜: 2025.06.04.\n\n출처: https://bhban.kr/",
-      "tags": [
-        "강의",
-        "공공기관"
-      ],
-      "date_published": "2025-06-04T00:00:00+09:00",
-      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@0121b1cd870b2bfdd17fc4c6a6eda89637a522a9/src/images/lectures/154-faces-blurred-da1a40050fb1.webp",
-      "external_url": "https://www.dkilbo.com/news/articleView.html?idxno=499420"
-    },
-    {
-      "id": "urn:nanalab:lectures:lecture-153-0d67ff8b36be393a",
-      "url": "https://nanalab.kr/lectures/#record-lectures-lecture-153-0d67ff8b36be393a",
-      "title": "[강의] 진짜 전문가에게 듣는 생성형 AI",
-      "content_text": "인하대학교 학부생들을 대상으로 특강을 진행했습니다.\n\n기관: 인하대학교\n\n원본 날짜: 2025.06.02.\n\n출처: https://bhban.kr/",
-      "tags": [
-        "강의",
-        "교육기관"
-      ],
-      "date_published": "2025-06-02T00:00:00+09:00",
-      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@fbf1d971da1543f8a3ef2167b2dc16ec01a9064a/src/images/lectures/153.webp",
-      "external_url": "https://www.inha.ac.kr/kr/index.do"
-    },
-    {
-      "id": "urn:nanalab:lectures:lecture-152-7736197cd9a74947",
-      "url": "https://nanalab.kr/lectures/#record-lectures-lecture-152-7736197cd9a74947",
-      "title": "[강의] 나보다 똑똑한 AI와 사는 법",
-      "content_text": "IKP 입주기업 런치 클래스 특강을 진행했습니다.\n\n기관: KOTRA\n\n원본 날짜: 2025.05.29.\n\n출처: https://bhban.kr/",
-      "tags": [
-        "강의",
-        "공공기관"
-      ],
-      "date_published": "2025-05-29T00:00:00+09:00",
-      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@fbf1d971da1543f8a3ef2167b2dc16ec01a9064a/src/images/lectures/152.webp",
-      "external_url": "https://www.kotra.or.kr/index.do"
-    },
-    {
-      "id": "urn:nanalab:lectures:lecture-logo-ahnlab-945749d13d78-81f4a51743613440",
-      "url": "https://nanalab.kr/lectures/#record-lectures-lecture-logo-ahnlab-945749d13d78-81f4a51743613440",
-      "title": "[강의] 기획자의 업무활용을 위한 프롬프트 엔지니어링",
-      "content_text": "안랩 기획자스쿨에 출강하여, 기획자 업무에 특화된 프롬프트엔지니어링 특강을 진행했습니다.\n\n기관: 안랩\n\n원본 날짜: 2025.05.28.\n\n출처: https://bhban.kr/",
-      "tags": [
-        "강의",
-        "기업"
-      ],
-      "date_published": "2025-05-28T00:00:00+09:00",
-      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@ce92fa43f34d73dbdff7e041e2a6770bd9b3a3b0/src/images/lectures/logo-ahnlab-945749d13d78.webp",
-      "external_url": "https://www.ahnlab.com/ko"
-    },
-    {
-      "id": "urn:nanalab:lectures:lecture-150",
-      "url": "https://nanalab.kr/lectures/#record-lectures-lecture-150",
-      "title": "[강의] 업무를 바꾸는 똑똑한 AI 활용법",
-      "content_text": "[2025 교육공동체 미래역량 강화 과정] 연수 출강했습니다. 3주에 걸쳐 750명을 대상으로 교육 진행했습니다.\n\n기관: 경기도교육청\n\n원본 날짜: 2025.05.20.\n\n출처: https://bhban.kr/",
-      "tags": [
-        "강의",
-        "공공기관"
-      ],
-      "date_published": "2025-05-20T00:00:00+09:00",
-      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@9fcc0cb789f8ea779330f46b5cd0c4e06f17819b/src/images/lectures/logo-goe-289b3d74f56c.webp",
-      "external_url": "https://www.goe.go.kr/goe/main.do"
-    },
-    {
-      "id": "urn:nanalab:lectures:lecture-logo-lg-adead1a6f695-e7b4860881a5cdab",
-      "url": "https://nanalab.kr/lectures/#record-lectures-lecture-logo-lg-adead1a6f695-e7b4860881a5cdab",
-      "title": "[강의] 생성형 AI 업무 활용",
-      "content_text": "LG인화원 CX혁신 전문가과정 연수를 다녀왔습니다. 각 계열사의 우수임직원이 참여하는 교육입니다.\n\n기관: LG\n\n원본 날짜: 2025.05.16.\n\n출처: https://bhban.kr/",
-      "tags": [
-        "강의",
-        "기업"
-      ],
-      "date_published": "2025-05-16T00:00:00+09:00",
-      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@ce92fa43f34d73dbdff7e041e2a6770bd9b3a3b0/src/images/lectures/logo-lg-adead1a6f695.webp",
-      "external_url": "https://www.lg.co.kr/"
-    },
-    {
-      "id": "urn:nanalab:lectures:lecture-148-fb1bb0ecf848f90e",
-      "url": "https://nanalab.kr/lectures/#record-lectures-lecture-148-fb1bb0ecf848f90e",
-      "title": "[강의] 생성형 AI 업무 활용",
-      "content_text": "팸텍과 TIS 재직자를 위해 생성형 AI를 업무에 활용하는 방법을 안내해드리고 왔습니다.\n\n기관: 팸텍\n\n원본 날짜: 2025.05.14.\n\n출처: https://bhban.kr/",
-      "tags": [
-        "강의",
-        "기업"
-      ],
-      "date_published": "2025-05-14T00:00:00+09:00",
-      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@fbf1d971da1543f8a3ef2167b2dc16ec01a9064a/src/images/lectures/148.webp",
-      "external_url": "https://pamtek.com/"
-    },
-    {
-      "id": "urn:nanalab:lectures:lecture-147-resized-816b7082a8ff-415e991897ee71e4",
-      "url": "https://nanalab.kr/lectures/#record-lectures-lecture-147-resized-816b7082a8ff-415e991897ee71e4",
-      "title": "[강의] 프롬프트 엔지니어링 실습",
-      "content_text": "홍익대학교에 재방문해, 이번에는 프롬프트 엔지니어링 실습 강의를 진행했습니다.\n\n기관: 홍익대학교\n\n원본 날짜: 2025.05.09.\n\n출처: https://bhban.kr/",
-      "tags": [
-        "강의",
-        "교육기관"
-      ],
-      "date_published": "2025-05-09T00:00:00+09:00",
-      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@0121b1cd870b2bfdd17fc4c6a6eda89637a522a9/src/images/lectures/147-resized-816b7082a8ff.webp",
-      "external_url": "https://www.hongik.ac.kr/kr/index.do"
-    },
-    {
-      "id": "urn:nanalab:lectures:lecture-146-faces-blurred-18e473a13307-baff0caf2e67a358",
-      "url": "https://nanalab.kr/lectures/#record-lectures-lecture-146-faces-blurred-18e473a13307-baff0caf2e67a358",
-      "title": "[강의] 생성형 AI의 올바른 활용 방안과 AI시대의 교육",
-      "content_text": "[2025년 미래교육 학부모 아카데미 1기 - 명사 초청 특강]의 세 번째 강사로 초청받아 지역 주민들과 AI에 대한 이야기를 나누었습니다.\n\n기관: 청도도서관\n\n원본 날짜: 2025.05.02.\n\n출처: https://bhban.kr/",
-      "tags": [
-        "강의",
-        "교육기관"
-      ],
-      "date_published": "2025-05-02T00:00:00+09:00",
-      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@0121b1cd870b2bfdd17fc4c6a6eda89637a522a9/src/images/lectures/146-faces-blurred-18e473a13307.webp",
-      "external_url": "https://www.gbelib.kr/cd/index.do"
-    },
-    {
-      "id": "urn:nanalab:lectures:lecture-145-resized-7808cb5dcf8c-766b9117a61cf527",
-      "url": "https://nanalab.kr/lectures/#record-lectures-lecture-145-resized-7808cb5dcf8c-766b9117a61cf527",
-      "title": "[강의] 생성형 AI를 활용한 보건사업 실무",
-      "content_text": "보건복지인재원의 초청으로 [제1기 건강증진통합서비스관리과정] 특강강사로 출강했습니다. 실습이 포함된 프롬프트 엔지니어링 강의입니다.\n\n기관: 한국보건복지인재원\n\n원본 날짜: 2025.04.29.\n\n출처: https://bhban.kr/",
-      "tags": [
-        "강의",
-        "공공기관"
-      ],
-      "date_published": "2025-04-29T00:00:00+09:00",
-      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@0121b1cd870b2bfdd17fc4c6a6eda89637a522a9/src/images/lectures/145-resized-7808cb5dcf8c.webp",
-      "external_url": "https://edu.kohi.or.kr/index.do"
-    },
-    {
-      "id": "urn:nanalab:lectures:lecture-144-faces-blurred-b39f8eb7c221-387fe1f946894446",
-      "url": "https://nanalab.kr/lectures/#record-lectures-lecture-144-faces-blurred-b39f8eb7c221-387fe1f946894446",
-      "title": "[강의] 생성형 AI: GPT로 시작된",
-      "content_text": "홍익대학교의 초청으로 프롬프트 엔지니어링 이론 특강을 다녀왔습니다.\n\n기관: 홍익대학교\n\n원본 날짜: 2025.04.25.\n\n출처: https://bhban.kr/",
-      "tags": [
-        "강의",
-        "교육기관"
-      ],
-      "date_published": "2025-04-25T00:00:00+09:00",
-      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@0121b1cd870b2bfdd17fc4c6a6eda89637a522a9/src/images/lectures/144-faces-blurred-b39f8eb7c221.webp",
-      "external_url": "https://www.hongik.ac.kr/kr/index.do"
-    },
-    {
-      "id": "urn:nanalab:lectures:lecture-143-resized-a368f623a3d7-88942f071965a6f7",
-      "url": "https://nanalab.kr/lectures/#record-lectures-lecture-143-resized-a368f623a3d7-88942f071965a6f7",
-      "title": "[강의] 생성형 AI의 직무 활용: 약간의 노력으로 초격차를 만들자",
-      "content_text": "한국공항공사의 초청으로 프롬프트 엔지니어링 특강을 다녀왔습니다.\n\n기관: 한국공항공사\n\n원본 날짜: 2025.04.23.\n\n출처: https://bhban.kr/",
-      "tags": [
-        "강의",
-        "기업"
-      ],
-      "date_published": "2025-04-23T00:00:00+09:00",
-      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@0121b1cd870b2bfdd17fc4c6a6eda89637a522a9/src/images/lectures/143-resized-a368f623a3d7.webp",
-      "external_url": "https://www.airport.co.kr/www/index.do"
-    },
-    {
-      "id": "urn:nanalab:lectures:lecture-138-resized-85267972886c-37de591aea82ced8",
-      "url": "https://nanalab.kr/lectures/#record-lectures-lecture-138-resized-85267972886c-37de591aea82ced8",
-      "title": "[강의] 프롬프트 엔지니어링",
-      "content_text": "한예종에서 한 번 더 특강을 진행했습니다.\n\n기관: 한국예술종합학교\n\n원본 날짜: 2025.04.17.\n\n출처: https://bhban.kr/",
-      "tags": [
-        "강의",
-        "교육기관"
-      ],
-      "date_published": "2025-04-17T00:00:00+09:00",
-      "image": "https://cdn.jsdelivr.net/gh/needleworm/needleworm.github.io@0121b1cd870b2bfdd17fc4c6a6eda89637a522a9/src/images/lectures/138-resized-85267972886c.webp",
-      "external_url": "https://www.karts.ac.kr/index_karts.jsp"
     }
   ]
 }

@@ -1,0 +1,818 @@
+{
+  "ui": {
+    "Services": "Leistungen",
+    "About": "Über uns",
+    "Customers": "Kunden",
+    "Process": "Ablauf",
+    "Apps": "Apps",
+    "Lectures": "Vorträge",
+    "Research": "Forschung",
+    "Contact": "Kontakt",
+    "Contact Us": "Kontakt aufnehmen",
+    "AI for Every Business": "KI für jedes Unternehmen",
+    "We can help your business to be more successful with powerful AI": "Mit leistungsstarker KI unterstützen wir Ihren Geschäftserfolg.",
+    "Your browser does not support the video tag.": "Ihr Browser unterstützt keine Videowiedergabe.",
+    "Key Services": "Unsere Leistungen",
+    "연구개발과제 협력": "Zusammenarbeit in Forschung und Entwicklung",
+    "R&D과제의 성공적인 수행과 지표달성, 특허출원을 지원합니다.": "Wir unterstützen F&E-Projekte, Zielerreichung und Patentanmeldungen.",
+    "AI 관련 컨설팅": "KI-Beratung",
+    "AI분야의 기술자문, AI 도입과 관련된 사업기획 자문을 제공합니다.": "Technische Beratung und Geschäftsplanung für die Einführung von KI.",
+    "PoC 과제 수행": "Machbarkeitsnachweise",
+    "아이디어를 빠르게 검증하기 위한 6개월 내외 규모의 PoC 과제를 수행합니다.": "In etwa sechsmonatigen PoC-Projekten prüfen wir Ideen zügig.",
+    "업무용 AI 시제품 구현": "KI-Prototypen für den Arbeitsalltag",
+    "임직원의 효율적인 업무수행을 위한 AI플랫폼의 시제품을 구현합니다.": "Wir entwickeln KI-Plattform-Prototypen für effizienteres Arbeiten.",
+    "평가보고서 작성": "Bewertungsberichte",
+    "AI관련 사업계획서의 타당성 검증 및 검토의견보고서를 작성해드립니다.": "Wir prüfen die Machbarkeit von KI-Geschäftsplänen und erstellen Gutachten.",
+    "AI 활용 교육": "Schulungen zur KI-Nutzung",
+    "고객사의 업무수행분야에 가장 적합한 방향으로, 임직원의 생성형 AI 활용 교육을 제공합니다.": "Auf die Aufgaben Ihrer Mitarbeitenden abgestimmte Schulungen zu generativer KI.",
+    "AI Engineer, CEO": "KI-Ingenieur, Geschäftsführer",
+    "🚀 상상텃밭(주) 前 CTO (2018. ~ 2024.)": "🚀 Ehemaliger CTO von SangSang Farm (2018–2024)",
+    "✒️ 저서 36건": "✒️ 36 Bücher",
+    "💡 특허·실용신안 출원 34건": "💡 34 Patent- und Gebrauchsmusteranmeldungen",
+    "🔬 논문·연구 28건 (프리프린트 포함)": "🔬 28 Arbeiten und Studien, einschließlich Preprints",
+    "🎓 KAIST 바이오및뇌공학과 학사/석사 조기졸업": "🎓 Vorzeitiger Bachelor- und Masterabschluss in Bio- und Gehirn-Ingenieurwissenschaften, KAIST",
+    "📜 행정안전부 장관 표창 수상": "📜 Auszeichnung des koreanischen Innen- und Sicherheitsministers",
+    "🕶️ 한국인 최초": "🕶️ Erstes koreanisches",
+    "국제IQ만점자협회(LPS)": "Hochbegabtenvereinigung LPS",
+    "정회원": "Vollmitglied",
+    "협업/자문/교육사례": "Zusammenarbeit, Beratung und Schulung",
+    "공공기관": "Öffentliche Einrichtungen",
+    "기업": "Unternehmen",
+    "교육기관": "Bildungseinrichtungen",
+    "연구기관": "Forschungsinstitute",
+    "출연연": "Forschungsinstitute",
+    "컨퍼런스": "Konferenzen",
+    "협업 과정": "Ablauf der Zusammenarbeit",
+    "Discover": "Verstehen",
+    "고객사 니즈 정의": "Ihren Bedarf klären",
+    "Plan": "Planen",
+    "과업 범위 협상, 수행계획안 수립": "Umfang abstimmen und Durchführung planen",
+    "Work": "Umsetzen",
+    "과업 성실 수행": "Die vereinbarten Aufgaben umsetzen",
+    "Finish": "Liefern",
+    "산출물 납품": "Ergebnisse übergeben",
+    "전체": "Alle",
+    "생활·업무": "Alltag & Arbeit",
+    "문서·텍스트": "Dokumente & Text",
+    "이미지·미디어": "Bilder & Medien",
+    "재미·실험": "Spaß & Experimente",
+    "AI·개발": "KI & Entwicklung",
+    "공학·계산": "Technik & Berechnungen",
+    "최신 앱부터 만나보세요. 작업에 꼭 맞는 도구를 찾아보세요.": "Entdecken Sie die neuesten Apps und passende Werkzeuge für Ihre Aufgaben.",
+    "필요한 웹앱과 도구를 한곳에서 만나보세요.": "Web-Apps und nützliche Werkzeuge an einem Ort.",
+    "앱 이름 또는 기능 검색": "Nach App oder Funktion suchen",
+    "어떤 도구를 찾으세요?": "Welches Werkzeug suchen Sie?",
+    "앱 분류": "App-Kategorien",
+    "앱 열기": "App öffnen",
+    "템플릿 보기": "Vorlage ansehen",
+    "개발 템플릿": "Entwicklungsvorlage",
+    "일치하는 도구가 없습니다.": "Keine passenden Werkzeuge.",
+    "다른 검색어를 입력하거나 분류를 바꿔 보세요.": "Versuchen Sie einen anderen Suchbegriff oder eine andere Kategorie.",
+    "전체 도구 보기": "Alle Werkzeuge anzeigen",
+    "강의·출강 이력 전체 · 최신 강의순": "Alle Vorträge · neueste zuerst",
+    "강의·출강 이력": "Vorträge und Lehraufträge",
+    "강연 제목·기관·연도 검색": "Nach Titel, Einrichtung oder Jahr suchen",
+    "기관명 또는 주제 검색": "Einrichtung oder Thema suchen",
+    "강의 기관 분류": "Einrichtungstypen",
+    "일치하는 강연이 없습니다. 검색어나 기관 분류를 바꿔 보세요.": "Keine passenden Vorträge. Ändern Sie Suchbegriff oder Einrichtungstyp.",
+    "R&D 분류": "Forschungskategorien",
+    "논문·특허·개발 프로젝트 전체": "Alle Arbeiten, Patente und Entwicklungsprojekte",
+    "논문·특허·개발 프로젝트": "Arbeiten, Patente und Entwicklungsprojekte",
+    "논문·연구": "Arbeiten & Studien",
+    "특허·실용신안": "Patente & Gebrauchsmuster",
+    "개발 프로젝트": "Entwicklungsprojekte",
+    "링크 열기": "Link öffnen",
+    "출처:": "Quelle:",
+    "반병현 공식 홈페이지 bhban.kr": "Offizielle Website von Byunghyun Ban, bhban.kr",
+    "· 원본 섹션의 정적 스냅샷이며, 원문 자료는 출처 사이트로 연결됩니다.": "· Statische Kopien der Originalbereiche; Dokumente verweisen auf die Quelle.",
+    "나나랩과 함께 혁신을 준비하세요!": "Gestalten Sie Ihre nächste Innovation mit NaNa Lab.",
+    "Name": "Name",
+    "Institution": "Einrichtung",
+    "Phone Number": "Telefonnummer",
+    "Email": "E-Mail",
+    "Title": "Betreff",
+    "Message": "Nachricht",
+    "이름을 입력해주세요": "Ihren Namen eingeben",
+    "소속 기관명을 입력해주세요": "Ihre Einrichtung eingeben",
+    "국가 선택": "Ländervorwahl",
+    "직접입력": "Manuell eingeben",
+    "이메일을 입력해주세요": "Ihre E-Mail eingeben",
+    "제목을 입력해주세요": "Betreff eingeben",
+    "문의하실 내용을 남겨주세요": "Beschreiben Sie Ihr Anliegen",
+    "문의 보내기": "Anfrage senden",
+    "전송 중... (Sending...)": "Wird gesendet…",
+    "문의가 성공적으로 전송되었습니다! (Email sent successfully!)": "Ihre Anfrage wurde gesendet.",
+    "메일 전송에 실패했습니다:": "Nachricht konnte nicht gesendet werden:",
+    "NaNa Lab은 주식회사 나나컴퍼니의 영업권 일부를 치즈케익스튜디오가 양수하여 운영하는 사업부입니다.": "NaNa Lab ist ein Geschäftsbereich von Cheesecake Studio, das einen Teil der Geschäftsrechte von NaNa Company übernommen hat.",
+    "(주)나나컴퍼니 대표이사 반병현. 사업자등록번호: 456-81-03285": "NaNa Company · Geschäftsführer Byunghyun Ban · Registrierungsnummer: 456-81-03285",
+    "치즈케익스튜디오 대표자 반병현, 사업자등록번호: 269-08-02374": "Cheesecake Studio · Byunghyun Ban · Registrierungsnummer: 269-08-02374",
+    "개인정보처리방침": "Datenschutz",
+    "구독·데이터": "Feeds & Daten",
+    "RSS · JSON Feed · 공개 JSON": "RSS · JSON Feed · öffentliche JSON-Daten",
+    "구독 피드": "Abonnement-Feeds",
+    "통합 업데이트": "Alle Neuigkeiten",
+    "앱": "Apps",
+    "강의": "Vorträge",
+    "연구": "Forschung",
+    "논문": "Arbeiten",
+    "특허": "Patente",
+    "프로젝트": "Projekte",
+    "연구 통합": "Gesamte Forschung",
+    "조회용 JSON": "Öffentliche JSON-Kataloge",
+    "전체 엔드포인트·개수·스키마 버전": "Endpunkte, Anzahlen und Schemaversion",
+    "날짜와 출처": "Datumsangaben & Quellen",
+    "Toggle navigation": "Navigation umschalten",
+    "재미·라이프": "Spaß & Leben",
+    "미리보기 PDF (1쪽)": "Vorschau-PDF (1 Seite)",
+    "아래 주소를 RSS 리더에 등록하세요. RSS 2.0과 JSON Feed 1.1을 제공합니다. 통합 피드는 최근 200건, 분야별 피드는 최근 100건입니다.": "Diese Adressen können Sie im Feedreader abonnieren. RSS 2.0 und JSON Feed 1.1: 200 aktuelle Einträge im Gesamtfeed, 100 je Bereich.",
+    "전체 목록을 정적 JSON으로 제공합니다. 별도 로그인이나 API 키 없이 GET 요청으로 읽을 수 있습니다. 응답의": "Vollständige Kataloge stehen als statisches JSON bereit, per GET ohne Anmeldung oder API-Schlüssel. Das Feld",
+    "가 목록이며": "enthält die Liste;",
+    "가 항목 수입니다.": "ist die Anzahl der Einträge.",
+    "앱은 등록 원본의 공개 시각, 강의·특허는 원문에 적힌 일정을 사용합니다. 일자만 있는 자료는 한국 시간 00:00으로 표현합니다. 연도만 확인되는 자료에는 정확한 게시 일시를 넣지 않습니다. 날짜를 모르는 항목은 뒤에 정렬합니다. 재빌드만으로 ID나 게시 시각이 바뀌지 않습니다.": "Apps verwenden die ursprüngliche Veröffentlichungszeit, Vorträge und Patente die dokumentierten Termine. Reine Datumsangaben gelten um Mitternacht in Korea. Bei Jahresangaben wird keine genaue Zeit erfunden. Undatierte Einträge folgen zuletzt. Neubauten ändern weder IDs noch Veröffentlichungszeiten.",
+    "강의·연구 자료의 원본 출처는": "Die Originalquelle der Vortrags- und Forschungsdaten ist",
+    "입니다. 논문·프리프린트 구분과 인용·원문 링크를 확인하세요. 공개 API 제공은 원문 자료의 이용 조건을 변경하지 않습니다.": ". Beachten Sie Publikations- und Preprint-Kennzeichnungen, Zitate und Originallinks. Die öffentliche API ändert die Nutzungsbedingungen der Dokumente nicht.",
+    "모든 파일은 사이트 빌드 때 함께 갱신됩니다. JSON Feed는 호스팅 환경에 따라": "Alle Dateien werden beim Website-Build aktualisiert. Je nach Hosting kann JSON Feed",
+    "으로 응답할 수 있으며 JSON Feed 1.1에서 허용하는 방식입니다.": "verwenden; dies ist nach JSON Feed 1.1 zulässig.",
+    "Web app": "Web-App",
+    "apps & tools": "Apps & Werkzeuge"
+  },
+  "apps": {
+    "smart_calculator": {
+      "name": "Intelligenter Rechner",
+      "description": "Alltagsrechnungen und Währungsumrechnung mit Spracheingabe und Verlauf.",
+      "image_alt": "Intelligenter Rechner"
+    },
+    "qr": {
+      "name": "QR-Code-Generator",
+      "description": "Links in leicht teilbare QR-Codes umwandeln.",
+      "image_alt": "QR-Code-Generator"
+    },
+    "count_words": {
+      "name": "Zeichenzähler",
+      "description": "Koreanische Zeichen und Bytes zählen und die Textlänge prüfen.",
+      "image_alt": "Zeichenzähler"
+    },
+    "image_resize": {
+      "name": "Bildgröße ändern",
+      "description": "Bildgröße und Seitenverhältnis ändern und Ausschnitte zuschneiden.",
+      "image_alt": "Bildgröße ändern"
+    },
+    "merge_pdf": {
+      "name": "PDFs zusammenfügen",
+      "description": "PDF-Dateien in gewünschter Reihenfolge zusammenfügen.",
+      "image_alt": "PDFs zusammenfügen"
+    },
+    "doc_compress": {
+      "name": "Dokumente komprimieren",
+      "description": "PDFs, Office-Dokumente und Bilder verkleinern.",
+      "image_alt": "Dokumente komprimieren"
+    },
+    "doc_stat": {
+      "name": "Dokumentanalyse",
+      "description": "Seitenzahl, Wortzahl und weitere Daten von PDFs und DOCX-Dateien prüfen.",
+      "image_alt": "Dokumentanalyse"
+    },
+    "doc_summarizer": {
+      "name": "Dokumente zusammenfassen",
+      "description": "Ein Werkzeug zum Lesen langer Dokumente und Ordnen der Kernaussagen.",
+      "image_alt": "Dokumente zusammenfassen"
+    },
+    "lipsum": {
+      "name": "Blindtext-Generator",
+      "description": "Beispieltexte für Layouts und Dokumente erzeugen.",
+      "image_alt": "Blindtext-Generator"
+    },
+    "gif_studio": {
+      "name": "GIF-Studio",
+      "description": "GIFs an einem Ort skalieren, zuschneiden, drehen und optimieren.",
+      "image_alt": "GIF-Studio"
+    },
+    "video_2_gif": {
+      "name": "Video zu GIF",
+      "description": "Einen Videoausschnitt auswählen und als animiertes GIF speichern.",
+      "image_alt": "Video zu GIF"
+    },
+    "audio_edit": {
+      "name": "Audio-Editor",
+      "description": "Audio zuschneiden, Lautstärke anpassen und Formate umwandeln.",
+      "image_alt": "Audio-Editor"
+    },
+    "afd": {
+      "name": "Abwesenheitsbildschirm",
+      "description": "Den aktuellen Status bei Abwesenheit oder Besprechungen anzeigen.",
+      "image_alt": "Abwesenheitsbildschirm"
+    },
+    "bmi": {
+      "name": "BMI-Rechner",
+      "description": "Den Body-Mass-Index aus Größe und Gewicht berechnen.",
+      "image_alt": "BMI-Rechner"
+    },
+    "fortune": {
+      "name": "Tageshoroskop",
+      "description": "Spielerisch einen Blick auf das Glück des Tages werfen.",
+      "image_alt": "Tageshoroskop"
+    },
+    "luck": {
+      "name": "Glückskanone",
+      "description": "Teilnehmende sammeln und zufällig Gewinner auslosen.",
+      "image_alt": "Glückskanone"
+    },
+    "chatTemplate": {
+      "name": "Solo-Chat",
+      "description": "Beide Seiten eines Gesprächs spielen und Chat-Szenen erstellen.",
+      "image_alt": "Solo-Chat"
+    },
+    "ppp": {
+      "name": "Portal veröffentlichter Prompts",
+      "description": "Prompts aus veröffentlichten Büchern entdecken.",
+      "image_alt": "Portal veröffentlichter Prompts"
+    },
+    "astra": {
+      "name": "Astra Playground",
+      "description": "KI-Agenten mit Übungsseiten und Beispieldateien erproben.",
+      "image_alt": "Astra Playground"
+    },
+    "android_webview_template": {
+      "name": "Android-WebView-Vorlage",
+      "description": "Per Konfigurationsdatei eine Website in eine Android-App verwandeln.",
+      "image_alt": "Android-WebView-Vorlage"
+    },
+    "rebirth_country": {
+      "name": "Reisepass fürs nächste Leben",
+      "description": "In welchem Land werden Sie wiedergeboren? Ein neuer Pass nach weltweiten Bevölkerungsanteilen.",
+      "image_alt": "Reisepass fürs nächste Leben"
+    },
+    "ai_knowledge_tree": {
+      "name": "KI-Wissensbaum",
+      "description": "Im Auftrag eines Großunternehmens entwickelt, um den aktuellen Stand der KI-Branche übersichtlich darzustellen.",
+      "image_alt": "KI-Wissensbaum"
+    },
+    "rebirth_biology": {
+      "name": "Ausweis fürs nächste Leben",
+      "description": "72 mögliche nächste Leben nach der Biomasse der Erde entdecken und einen eigenen Ausweis erhalten.",
+      "image_alt": "Ausweis fürs nächste Leben"
+    },
+    "body-clock": {
+      "name": "Können Sie zehn Sekunden schätzen?",
+      "description": "Dreimal zehn Sekunden ohne Uhr schätzen und das Zeitgefühl testen.",
+      "image_alt": "Können Sie zehn Sekunden schätzen?"
+    },
+    "color-drop": {
+      "name": "Die andere Farbe finden",
+      "description": "Die abweichende Farbe zwischen ähnlichen Kacheln finden.",
+      "image_alt": "Die andere Farbe finden"
+    },
+    "level-frame": {
+      "name": "Den Rahmen geraderücken",
+      "description": "Einen schiefen Rahmen drehen und das Gefühl für die Waagerechte testen.",
+      "image_alt": "Den Rahmen geraderücken"
+    },
+    "table-memory": {
+      "name": "Tischgedächtnis in drei Sekunden",
+      "description": "Einen Tisch drei Sekunden betrachten und die Anordnung rekonstruieren.",
+      "image_alt": "Tischgedächtnis in drei Sekunden"
+    },
+    "lunch-math": {
+      "name": "Mittagessen im Kopf berechnen",
+      "description": "Mittagessenkosten ohne Rechner ermitteln und Kopfrechnen testen.",
+      "image_alt": "Mittagessen im Kopf berechnen"
+    },
+    "rain-rhythm": {
+      "name": "Den Regenrhythmus wiederholen",
+      "description": "Den gehörten Regentropfenrhythmus merken und wiederholen.",
+      "image_alt": "Den Regenrhythmus wiederholen"
+    },
+    "next-life-stats": {
+      "name": "100 Punkte fürs nächste Leben",
+      "description": "100 Punkte fürs nächste Leben verteilen und das Ergebnis entdecken.",
+      "image_alt": "100 Punkte fürs nächste Leben"
+    },
+    "line-copy": {
+      "name": "Eine Linie aus dem Gedächtnis zeichnen",
+      "description": "Eine Linie zwei Sekunden merken und gleich lang nachzeichnen.",
+      "image_alt": "Eine Linie aus dem Gedächtnis zeichnen"
+    },
+    "cat-naps": {
+      "name": "Alle sechs Katzen schlafen legen",
+      "description": "Schlafplätze finden, die die Wünsche aller sechs wählerischen Katzen erfüllen.",
+      "image_alt": "Alle sechs Katzen schlafen legen"
+    },
+    "eng-reynolds": {
+      "name": "Reynolds-Zahlenrechner",
+      "description": "Überprüfen Sie die Strömungsähnlichkeit in Rohrexperimenten und maßstabsgetreuen Modellen.",
+      "image_alt": "Reynolds-Zahlenrechner"
+    },
+    "eng-mach": {
+      "name": "Machzahl-Rechner",
+      "description": "Vergleichen Sie die Strömungsgeschwindigkeit mit der lokalen Schallgeschwindigkeit in Windkanälen und Düsen.",
+      "image_alt": "Machzahl-Rechner"
+    },
+    "eng-dynamic-pressure": {
+      "name": "Dynamischer Druckrechner",
+      "description": "Überprüfen Sie den dynamischen Druck, bevor Sie Windkanallasten und -koeffizienten abschätzen.",
+      "image_alt": "Dynamischer Druckrechner"
+    },
+    "eng-volume-flow": {
+      "name": "Volumenstromrechner",
+      "description": "Überprüfen Sie den Durchfluss durch ein Rohr oder eine Lüftungsöffnung anhand der Querschnittsfläche.",
+      "image_alt": "Volumenstromrechner"
+    },
+    "eng-mass-flow": {
+      "name": "Massendurchflussrechner",
+      "description": "Konvertieren Sie den Volumenstrom in den Massenstrom für die Gasversorgung und Stoffbilanzen.",
+      "image_alt": "Massendurchflussrechner"
+    },
+    "eng-hydrostatic-pressure": {
+      "name": "Hydrostatischer Manometerdruckrechner",
+      "description": "Überprüfen Sie den Flüssigkeitssäulendruck in Tanks und führen Sie hydrostatische Experimente durch.",
+      "image_alt": "Hydrostatischer Manometerdruckrechner"
+    },
+    "eng-laminar-pipe-drop": {
+      "name": "Rechner für den Druckabfall in laminaren Rohren",
+      "description": "Überprüfen Sie den Hagen-Poiseuille-Druckverlust in Mikrokanälen und Laminarströmungsexperimenten.",
+      "image_alt": "Rechner für den Druckabfall in laminaren Rohren"
+    },
+    "eng-hydraulic-power": {
+      "name": "Hydraulikdruck-Leistungsrechner",
+      "description": "Überprüfen Sie die Geschwindigkeit der Druckarbeit anhand von Druckanstieg und Durchflussmenge.",
+      "image_alt": "Hydraulikdruck-Leistungsrechner"
+    },
+    "eng-kinematic-viscosity": {
+      "name": "Rechner für kinematische Viskosität",
+      "description": "Konvertieren Sie die dynamische Viskosität in die kinematische Viskosität, ohne die Einheiten zu vermischen.",
+      "image_alt": "Rechner für kinematische Viskosität"
+    },
+    "eng-drag-force": {
+      "name": "Widerstandskraftrechner",
+      "description": "Überprüfen Sie eine Widerstandslast anhand eines bekannten Windkanal-Widerstandskoeffizienten.",
+      "image_alt": "Widerstandskraftrechner"
+    },
+    "eng-wall-conduction": {
+      "name": "Wärmeleitungsrechner für ebene Wände",
+      "description": "Überprüfen Sie die Wärmeleitung durch eine Wand oder einen Isolationskörper.",
+      "image_alt": "Wärmeleitungsrechner für ebene Wände"
+    },
+    "eng-convection-heat": {
+      "name": "Oberflächenkonvektionsrechner",
+      "description": "Wenden Sie das Newtonsche Abkühlungsgesetz auf eine Oberfläche mit bekanntem Konvektionskoeffizienten an.",
+      "image_alt": "Oberflächenkonvektionsrechner"
+    },
+    "eng-radiation-heat": {
+      "name": "Nettostrahlungs-Wärmeübertragungsrechner",
+      "description": "Überprüfen Sie den Strahlungswärmeverlust zwischen einer kleinen grauen Fläche und einer großen Umgebung.",
+      "image_alt": "Nettostrahlungs-Wärmeübertragungsrechner"
+    },
+    "eng-thermal-expansion": {
+      "name": "Rechner für lineare Wärmeausdehnung",
+      "description": "Überprüfen Sie die freie Längenänderung einer Metallstange oder ein Montagespiel.",
+      "image_alt": "Rechner für lineare Wärmeausdehnung"
+    },
+    "eng-carnot-efficiency": {
+      "name": "Carnot-Effizienzgrenzenrechner",
+      "description": "Überprüfen Sie die theoretische Effizienzgrenze für eine Wärmekraftmaschine zwischen zwei Reservoirs.",
+      "image_alt": "Carnot-Effizienzgrenzenrechner"
+    },
+    "eng-carnot-cop": {
+      "name": "COP-Rechner für Carnot-Kältemaschinen",
+      "description": "Prüfen Sie den idealen Kälteleistungskoeffizienten zwischen zwei Behältern.",
+      "image_alt": "COP-Rechner für Carnot-Kältemaschinen"
+    },
+    "eng-wire-resistance": {
+      "name": "Rechner für den Draht-Gleichstromwiderstand",
+      "description": "Überprüfen Sie den Leiterwiderstand anhand von Widerstand, Länge und Querschnittsfläche.",
+      "image_alt": "Rechner für den Draht-Gleichstromwiderstand"
+    },
+    "eng-plate-capacitance": {
+      "name": "Parallelplattenkapazitätsrechner",
+      "description": "Überprüfen Sie die ideale Kapazität für einen Sensor oder ein dielektrisches Experiment.",
+      "image_alt": "Parallelplattenkapazitätsrechner"
+    },
+    "eng-solenoid-inductance": {
+      "name": "Induktivitätsrechner für lange Luftspulen",
+      "description": "Überprüfen Sie eine erste Induktivitätsschätzung für eine lange Luftspule.",
+      "image_alt": "Induktivitätsrechner für lange Luftspulen"
+    },
+    "eng-rc-time": {
+      "name": "RC-Zeitkonstantenrechner",
+      "description": "Überprüfen Sie die Zeitkonstante einer Lade- oder Filterschaltung erster Ordnung.",
+      "image_alt": "RC-Zeitkonstantenrechner"
+    },
+    "eng-rl-time": {
+      "name": "RL-Zeitkonstantenrechner",
+      "description": "Überprüfen Sie die aktuelle Reaktionszeitkonstante eines Spulenkreises erster Ordnung.",
+      "image_alt": "RL-Zeitkonstantenrechner"
+    },
+    "eng-capacitive-reactance": {
+      "name": "Kapazitiver Reaktanzrechner",
+      "description": "Überprüfen Sie die Größe der idealen Kondensatorreaktanz bei einer Sinusfrequenz.",
+      "image_alt": "Kapazitiver Reaktanzrechner"
+    },
+    "eng-inductive-reactance": {
+      "name": "Induktiver Reaktanzrechner",
+      "description": "Überprüfen Sie die ideale induktive Reaktanz bei einer ausgewählten Sinusfrequenz.",
+      "image_alt": "Induktiver Reaktanzrechner"
+    },
+    "eng-lc-resonance": {
+      "name": "LC-Resonanzfrequenzrechner",
+      "description": "Prüfen Sie die ideale Resonanzfrequenz für einen Filter- oder Resonanzversuch.",
+      "image_alt": "LC-Resonanzfrequenzrechner"
+    },
+    "eng-voltage-divider": {
+      "name": "Unbelasteter Spannungsteiler-Rechner",
+      "description": "Überprüfen Sie einen idealen Widerstandsteiler, bevor Sie einen ADC oder eine Sensorlast anschließen.",
+      "image_alt": "Unbelasteter Spannungsteiler-Rechner"
+    },
+    "eng-power-db": {
+      "name": "Leistungsgewinn in Dezibel-Rechner",
+      "description": "Überprüfen Sie das Leistungsverhältnis für einen Verstärker oder das Budget für Verbindungsverluste.",
+      "image_alt": "Leistungsgewinn in Dezibel-Rechner"
+    },
+    "eng-rotation-energy": {
+      "name": "Rechner für rotierende kinetische Energie",
+      "description": "Überprüfen Sie die gespeicherte Rotationsenergie in einem Schwungrad oder einem starren Rotor.",
+      "image_alt": "Rechner für rotierende kinetische Energie"
+    },
+    "eng-shaft-power": {
+      "name": "Wellendrehmoment-Leistungsrechner",
+      "description": "Überprüfen Sie die mechanische Wellenleistung anhand des angegebenen Drehmoments und der Drehzahl.",
+      "image_alt": "Wellendrehmoment-Leistungsrechner"
+    },
+    "eng-centripetal-acceleration": {
+      "name": "Rechner für die zentripetale Beschleunigung",
+      "description": "Überprüfen Sie die normale Beschleunigungskomponente in einem Kreisbewegungsexperiment.",
+      "image_alt": "Rechner für die zentripetale Beschleunigung"
+    },
+    "eng-spring-frequency": {
+      "name": "Eigenfrequenzrechner für Feder-Masse-Systeme",
+      "description": "Überprüfen Sie die ungedämpfte Eigenfrequenz eines linearen Schwingungsmodells.",
+      "image_alt": "Eigenfrequenzrechner für Feder-Masse-Systeme"
+    },
+    "eng-pendulum-period": {
+      "name": "Rechner für die Periode des Kleinwinkelpendels",
+      "description": "Überprüfen Sie eine einfache Pendelperiode für grundlegende Schwerkraft- und Vibrationsexperimente.",
+      "image_alt": "Rechner für die Periode des Kleinwinkelpendels"
+    },
+    "eng-axial-stress": {
+      "name": "Durchschnittlicher Axialspannungsrechner",
+      "description": "Überprüfen Sie die durchschnittliche Axialspannung in einer Probe oder einem Stab.",
+      "image_alt": "Durchschnittlicher Axialspannungsrechner"
+    },
+    "eng-shaft-shear": {
+      "name": "Rechner für die Scherspannung einer massiven kreisförmigen Welle",
+      "description": "Überprüfen Sie die maximale Torsionsschubspannung für einen anfänglichen Wellendurchmesser.",
+      "image_alt": "Rechner für die Scherspannung einer massiven kreisförmigen Welle"
+    },
+    "eng-axial-extension": {
+      "name": "Rechner für die Verlängerung der Axialstange",
+      "description": "Überprüfen Sie die axiale Längenänderung bei bekannter Last und bekanntem Materialmodul.",
+      "image_alt": "Rechner für die Verlängerung der Axialstange"
+    },
+    "eng-restrained-thermal-stress": {
+      "name": "Rechner für vollständig eingespannte thermische Spannungen",
+      "description": "Überprüfen Sie die einachsige thermische Spannung, wenn sich ein Stab nicht ausdehnen kann.",
+      "image_alt": "Rechner für vollständig eingespannte thermische Spannungen"
+    },
+    "eng-bending-stress": {
+      "name": "Rechner für die maximale Biegespannung des Balkens",
+      "description": "Aus einem bekannten Biegemoment die Normalspannung in der Randfaser berechnen.",
+      "image_alt": "Rechner für die maximale Biegespannung des Balkens"
+    },
+    "eng-shaft-twist": {
+      "name": "Rechner für den Drehwinkel einer kreisförmigen Welle",
+      "description": "Überprüfen Sie die Verdrehung zwischen den Enden einer gleichmäßigen kreisförmigen Welle.",
+      "image_alt": "Rechner für den Drehwinkel einer kreisförmigen Welle"
+    },
+    "eng-euler-buckling": {
+      "name": "Euler-Knicklastrechner für beidseitig gelenkige Stützen",
+      "description": "Prüfen Sie die ideale elastische Knicklast für eine schlanke gelenkige Stütze.",
+      "image_alt": "Euler-Knicklastrechner für beidseitig gelenkige Stützen"
+    },
+    "eng-ideal-gas-density": {
+      "name": "Idealer Gasdichterechner",
+      "description": "Überprüfen Sie die ideale Gasdichte anhand von Absolutdruck, Molmasse und Temperatur.",
+      "image_alt": "Idealer Gasdichterechner"
+    },
+    "eng-mean-free-path": {
+      "name": "Rechner für den mittleren freien Weg des Gases",
+      "description": "Überprüfen Sie die mittlere freie Weglänge eines verdünnten Gases in der kinetischen Theorie oder in Vakuumexperimenten.",
+      "image_alt": "Rechner für den mittleren freien Weg des Gases"
+    },
+    "eng-arrhenius-rate": {
+      "name": "Arrhenius-Geschwindigkeitskonstantenrechner",
+      "description": "Überprüfen Sie die Temperaturabhängigkeit einer Reaktionsgeschwindigkeitskonstanten.",
+      "image_alt": "Arrhenius-Geschwindigkeitskonstantenrechner"
+    },
+    "eng-first-order-half-life": {
+      "name": "Rechner für die Halbwertszeit erster Ordnung",
+      "description": "Überprüfen Sie die Halbwertszeit eines idealen Verschwindens oder Zerfallsprozesses erster Ordnung.",
+      "image_alt": "Rechner für die Halbwertszeit erster Ordnung"
+    },
+    "eng-osmotic-pressure": {
+      "name": "Osmotischer Druckrechner für verdünnte Lösungen",
+      "description": "Überprüfen Sie den osmotischen Druck mit der idealen Näherung einer verdünnten Lösung.",
+      "image_alt": "Osmotischer Druckrechner für verdünnte Lösungen"
+    },
+    "eng-photon-energy": {
+      "name": "Photonenenergie aus der Wellenlänge berechnen",
+      "description": "Konvertieren Sie eine Vakuumwellenlänge in Einzelphotonenenergie für die grundlegende Spektroskopie.",
+      "image_alt": "Photonenenergie aus der Wellenlänge berechnen"
+    },
+    "eng-thin-lens-image": {
+      "name": "Bildentfernungsrechner für dünne Linsen",
+      "description": "Überprüfen Sie den vorzeichenbehafteten Bildabstand in einem paraxialen Modell mit dünner Linse.",
+      "image_alt": "Bildentfernungsrechner für dünne Linsen"
+    },
+    "eng-aperture-resolution": {
+      "name": "Rechner für die Auflösung kreisförmiger Aperturen",
+      "description": "Überprüfen Sie den Rayleigh-Beugungswinkel für eine ideale kreisförmige Apertur.",
+      "image_alt": "Rechner für die Auflösung kreisförmiger Aperturen"
+    },
+    "eng-snell-refraction": {
+      "name": "Snell Brechungswinkel-Rechner",
+      "description": "Überprüfen Sie einen gebrochenen Strahlwinkel, der von der Grenzflächennormalen gemessen wird.",
+      "image_alt": "Snell Brechungswinkel-Rechner"
+    },
+    "eng-fiber-numerical-aperture": {
+      "name": "Numerischer Aperturrechner für Stufenindexfasern",
+      "description": "Überprüfen Sie die numerische Apertur anhand der Brechungsindizes von Kern und Mantel.",
+      "image_alt": "Numerischer Aperturrechner für Stufenindexfasern"
+    },
+    "eng-first-order-settling": {
+      "name": "Rechner für die Einschwingzeit erster Ordnung",
+      "description": "Überprüfen Sie die Wartezeit für einen stabilen Prozess erster Ordnung oder eine Sensorreaktion.",
+      "image_alt": "Rechner für die Einschwingzeit erster Ordnung"
+    },
+    "eng-spring-damping-ratio": {
+      "name": "Dämpfungsgradrechner für Feder-Masse-Systeme",
+      "description": "Überprüfen Sie die viskose Dämpfung im Verhältnis zur kritischen Dämpfung in einem linearen Schwingungsmodell.",
+      "image_alt": "Dämpfungsgradrechner für Feder-Masse-Systeme"
+    },
+    "eng-escape-speed": {
+      "name": "Fluchtgeschwindigkeitsrechner",
+      "description": "Berechnen Sie die minimale Anfangsgeschwindigkeit, um einem isolierten Körper zu entkommen.",
+      "image_alt": "Fluchtgeschwindigkeitsrechner"
+    },
+    "eng-orbital-period": {
+      "name": "Rechner für die Umlaufzeit auf einer Kreisbahn",
+      "description": "Berechnen Sie die Periode einer idealen Kreisbahn.",
+      "image_alt": "Rechner für die Umlaufzeit auf einer Kreisbahn"
+    },
+    "eng-hohmann-delta-v": {
+      "name": "Hohmann-Transfer-Gesamt-Delta-V-Rechner",
+      "description": "Berechnen Sie die gesamte impulsive Geschwindigkeitsänderung zwischen koplanaren Kreisbahnen.",
+      "image_alt": "Hohmann-Transfer-Gesamt-Delta-V-Rechner"
+    },
+    "eng-gravitational-energy": {
+      "name": "Gravitationspotential-Energierechner",
+      "description": "Berechnen Sie die potenzielle Gravitationsenergie relativ zur Unendlichkeit.",
+      "image_alt": "Gravitationspotential-Energierechner"
+    },
+    "eng-gravity-at-radius": {
+      "name": "Rechner für die Gravitationsbeschleunigung im Abstand r",
+      "description": "Berechnen Sie die Gravitationsbeschleunigung außerhalb eines kugelförmigen Körpers.",
+      "image_alt": "Rechner für die Gravitationsbeschleunigung im Abstand r"
+    },
+    "eng-schwarzschild-radius": {
+      "name": "Schwarzschild-Radius-Rechner",
+      "description": "Berechnen Sie den Horizontradius eines nicht rotierenden, ungeladenen Schwarzen-Loch-Modells.",
+      "image_alt": "Schwarzschild-Radius-Rechner"
+    },
+    "eng-lorentz-factor": {
+      "name": "Lorentz-Faktor-Rechner",
+      "description": "Berechnen Sie den Lorentzfaktor aus der Relativgeschwindigkeit.",
+      "image_alt": "Lorentz-Faktor-Rechner"
+    },
+    "eng-relativistic-energy": {
+      "name": "Rechner für relativistische kinetische Energie",
+      "description": "Berechnen Sie die translatorische kinetische Energie mithilfe der speziellen Relativitätstheorie.",
+      "image_alt": "Rechner für relativistische kinetische Energie"
+    },
+    "eng-de-broglie": {
+      "name": "De Broglie Wellenlängenrechner",
+      "description": "Berechnen Sie aus dem Impuls eine Materiewellenwellenlänge.",
+      "image_alt": "De Broglie Wellenlängenrechner"
+    },
+    "eng-gas-rms-speed": {
+      "name": "Rechner für die quadratisch gemittelte Molekülgeschwindigkeit",
+      "description": "Berechnen Sie die Wurzel aus dem Mittelwert des Quadrats der translatorischen Molekülgeschwindigkeit eines idealen Gases.",
+      "image_alt": "Rechner für die quadratisch gemittelte Molekülgeschwindigkeit"
+    },
+    "eng-free-fall-time": {
+      "name": "Freier-Fall-Zeitrechner",
+      "description": "Berechnen Sie die Fallzeit aus dem Ruhezustand bei gleichmäßiger Schwerkraft.",
+      "image_alt": "Freier-Fall-Zeitrechner"
+    },
+    "eng-projectile-range": {
+      "name": "Projektilreichweitenrechner",
+      "description": "Berechnen Sie die ideale Projektilreichweite, wenn Start- und Landehöhe übereinstimmen.",
+      "image_alt": "Projektilreichweitenrechner"
+    },
+    "eng-impulse": {
+      "name": "Rechner für den Kraftstoß einer mittleren Kraft",
+      "description": "Berechnen Sie den eindimensionalen Kraftstoß aus mittlerer Kraft und Einwirkdauer.",
+      "image_alt": "Rechner für den Kraftstoß einer mittleren Kraft"
+    },
+    "eng-series-spring": {
+      "name": "Rechner für die Federsteifigkeit bei Reihenschaltung",
+      "description": "Berechnen Sie die äquivalente Steifigkeit zweier linearer Federn in Reihe.",
+      "image_alt": "Rechner für die Federsteifigkeit bei Reihenschaltung"
+    },
+    "eng-center-of-mass": {
+      "name": "Zwei-Massen-Schwerpunktrechner",
+      "description": "Berechnen Sie den Schwerpunkt zweier Punktmassen auf einer Achse.",
+      "image_alt": "Zwei-Massen-Schwerpunktrechner"
+    },
+    "eng-friction-stop-distance": {
+      "name": "Reibungs-Bremsweg-Rechner",
+      "description": "Berechnen Sie den Gleitbremsweg bei konstanter Gleitreibung.",
+      "image_alt": "Reibungs-Bremsweg-Rechner"
+    },
+    "eng-critical-incline": {
+      "name": "Rechner für kritische Gleitneigungswinkel",
+      "description": "Berechnen Sie den Gleitbeginn-Neigungswinkel in einem Coulomb-Reibungsmodell.",
+      "image_alt": "Rechner für kritische Gleitneigungswinkel"
+    },
+    "eng-spring-energy": {
+      "name": "Rechner für die potenzielle Energie einer Feder",
+      "description": "Berechnen Sie die in einer gedehnten oder komprimierten linearen Feder gespeicherte Energie.",
+      "image_alt": "Rechner für die potenzielle Energie einer Feder"
+    },
+    "eng-tube-area-inertia": {
+      "name": "Rechner für das Flächenträgheitsmoment eines Kreisrohrs",
+      "description": "Berechnen Sie das axiale Flächenträgheitsmoment eines Kreisrohrs bezüglich einer durch den Flächenschwerpunkt verlaufenden Durchmesserachse.",
+      "image_alt": "Rechner für das Flächenträgheitsmoment eines Kreisrohrs"
+    },
+    "eng-cantilever-deflection": {
+      "name": "Rechner für die Enddurchbiegung eines Kragträgers",
+      "description": "Berechnen Sie die Enddurchbiegung eines schlanken Kragträgers unter einer Einzelkraft am freien Ende.",
+      "image_alt": "Rechner für die Enddurchbiegung eines Kragträgers"
+    },
+    "eng-rayleigh-number": {
+      "name": "Rayleigh-Zahlenrechner",
+      "description": "Berechnen Sie die Rayleigh-Zahl für eine bestimmte Konfiguration mit natürlicher Konvektion.",
+      "image_alt": "Rayleigh-Zahlenrechner"
+    },
+    "eng-prandtl-number": {
+      "name": "Prandtl-Zahlenrechner",
+      "description": "Berechnen Sie das Verhältnis von Impulsdiffusivität zu Temperaturleitfähigkeit.",
+      "image_alt": "Prandtl-Zahlenrechner"
+    },
+    "eng-nusselt-number": {
+      "name": "Nusselt-Zahlenrechner",
+      "description": "Wandeln Sie einen bekannten Konvektionskoeffizienten in eine Nusselt-Zahl um.",
+      "image_alt": "Nusselt-Zahlenrechner"
+    },
+    "eng-thermal-diffusivity": {
+      "name": "Rechner für die Temperaturleitfähigkeit",
+      "description": "Berechnen Sie die Temperaturleitfähigkeit aus Wärmeleitfähigkeit und volumetrischer Wärmekapazität.",
+      "image_alt": "Rechner für die Temperaturleitfähigkeit"
+    },
+    "eng-sensible-heat": {
+      "name": "Rechner für fühlbare Wärme",
+      "description": "Berechnen Sie die sensible Wärme zum Heizen oder Kühlen ohne Phasenwechsel.",
+      "image_alt": "Rechner für fühlbare Wärme"
+    },
+    "eng-isothermal-work": {
+      "name": "Rechner für die ideale isotherme Gasarbeit",
+      "description": "Berechnen Sie die reversible isotherme Druck-Volumen-Arbeit, die ein ideales Gas verrichtet.",
+      "image_alt": "Rechner für die ideale isotherme Gasarbeit"
+    },
+    "eng-adiabatic-temperature": {
+      "name": "Rechner für die adiabatische ideale Gastemperatur",
+      "description": "Berechnen Sie die Endtemperatur für einen reversiblen adiabatischen Idealgasprozess.",
+      "image_alt": "Rechner für die adiabatische ideale Gastemperatur"
+    },
+    "eng-log-mean-temperature": {
+      "name": "Rechner für die logarithmische mittlere Temperaturdifferenz",
+      "description": "Berechnen Sie LMTD aus zwei positiven Endtemperaturdifferenzen.",
+      "image_alt": "Rechner für die logarithmische mittlere Temperaturdifferenz"
+    },
+    "eng-buoyant-force": {
+      "name": "Auftriebsrechner für verdrängte Flüssigkeiten",
+      "description": "Berechnen Sie den Auftrieb aus dem Gewicht der verdrängten Flüssigkeit.",
+      "image_alt": "Auftriebsrechner für verdrängte Flüssigkeiten"
+    },
+    "eng-capillary-rise": {
+      "name": "Kapillaranstiegsrechner",
+      "description": "Berechnen Sie die statische Steighöhe oder Absenkung in einer kreisförmigen Kapillare.",
+      "image_alt": "Kapillaranstiegsrechner"
+    },
+    "eng-point-charge-field": {
+      "name": "Punktladungsrechner für elektrische Felder",
+      "description": "Berechnen Sie die Feldstärke einer isolierten Punktladung im Vakuum.",
+      "image_alt": "Punktladungsrechner für elektrische Felder"
+    },
+    "eng-ideal-transformer": {
+      "name": "Idealer Transformatorspannungsrechner",
+      "description": "Berechnen Sie die ideale Sekundärspannung des Wechselstromtransformators aus dem Windungsverhältnis.",
+      "image_alt": "Idealer Transformatorspannungsrechner"
+    },
+    "eng-rlc-impedance": {
+      "name": "Rechner für die Impedanz einer RLC-Reihenschaltung",
+      "description": "Berechnen Sie die Größe der sinusförmigen Impedanz einer idealen Reihen-RLC-Schaltung.",
+      "image_alt": "Rechner für die Impedanz einer RLC-Reihenschaltung"
+    },
+    "eng-ac-real-power": {
+      "name": "Wechselstrom-Wirkleistungsrechner",
+      "description": "Berechnen Sie die durchschnittliche Wirkleistung aus sinusförmiger RMS-Spannung, Strom und Phase.",
+      "image_alt": "Wechselstrom-Wirkleistungsrechner"
+    },
+    "eng-skin-depth": {
+      "name": "Rechner für die Skintiefe guter Leiter",
+      "description": "Berechnen Sie in der Näherung für gute Leiter die Eindringtiefe, bei der die elektromagnetische Amplitude auf 1/e abfällt.",
+      "image_alt": "Rechner für die Skintiefe guter Leiter"
+    },
+    "eng-noninverting-gain": {
+      "name": "Rechner für die nichtinvertierende Operationsverstärkerverstärkung",
+      "description": "Berechnen Sie die ideale nichtinvertierende Spannungsverstärkung mit negativer Rückkopplung.",
+      "image_alt": "Rechner für die nichtinvertierende Operationsverstärkerverstärkung"
+    },
+    "eng-rc-lowpass-gain": {
+      "name": "Rechner für den Amplitudengang eines RC-Tiefpasses",
+      "description": "Berechnen Sie den Amplitudengang eines unbelasteten RC-Tiefpassfilters.",
+      "image_alt": "Rechner für den Amplitudengang eines RC-Tiefpasses"
+    },
+    "eng-normal-reflectance": {
+      "name": "Rechner für das Fresnel-Reflexionsvermögen bei normalem Einfall",
+      "description": "Berechnen Sie den Intensitätsreflexionsgrad bei normalem Einfall zwischen verlustfreien Dielektrika.",
+      "image_alt": "Rechner für das Fresnel-Reflexionsvermögen bei normalem Einfall"
+    },
+    "eng-double-slit-spacing": {
+      "name": "Rechner für den Interferenzstreifenabstand am Doppelspalt",
+      "description": "Berechnen Sie den Doppelspalt-Streifenabstand in der Fernfeld-Kleinwinkelnäherung.",
+      "image_alt": "Rechner für den Interferenzstreifenabstand am Doppelspalt"
+    },
+    "eng-grating-angle": {
+      "name": "Rechner für den Beugungsgitterwinkel",
+      "description": "Berechnen Sie einen bestimmten Winkel der positiven Beugungsordnung bei normalem Einfall.",
+      "image_alt": "Rechner für den Beugungsgitterwinkel"
+    },
+    "eng-sound-pressure-level": {
+      "name": "Rechner für den Schalldruckpegel",
+      "description": "Berechnen Sie den Schalldruckpegel relativ zu einem expliziten Referenzdruck.",
+      "image_alt": "Rechner für den Schalldruckpegel"
+    },
+    "eng-sound-doppler": {
+      "name": "Akustischer Doppler-Frequenzrechner",
+      "description": "Berechnen Sie die klassische eindimensionale akustische Dopplerfrequenz.",
+      "image_alt": "Akustischer Doppler-Frequenzrechner"
+    },
+    "eng-dilute-ph": {
+      "name": "Idealer pH-Rechner für verdünnte Lösungen",
+      "description": "Berechnen Sie den konzentrationsbasierten pH-Wert mit einem Aktivitätskoeffizienten von eins.",
+      "image_alt": "Idealer pH-Rechner für verdünnte Lösungen"
+    },
+    "eng-nernst-potential": {
+      "name": "Nernst-Potentialrechner",
+      "description": "Berechnen Sie ein Gleichgewichtspotential für einen bestimmten Reaktionsquotienten und eine bestimmte Temperatur.",
+      "image_alt": "Nernst-Potentialrechner"
+    },
+    "eng-decay-activity": {
+      "name": "Rechner für den Zerfall radioaktiver Aktivität",
+      "description": "Berechnen Sie die zeitliche Abnahme der Aktivität eines einzelnen Nuklids bei konstanter Zerfallskonstante.",
+      "image_alt": "Rechner für den Zerfall radioaktiver Aktivität"
+    },
+    "eng-henry-solubility": {
+      "name": "Rechner für die gelöste Konzentration nach dem Henry-Gesetz",
+      "description": "Berechnen Sie die gelöste Konzentration mithilfe einer expliziten Henry-Konstante in Löslichkeitsform.",
+      "image_alt": "Rechner für die gelöste Konzentration nach dem Henry-Gesetz"
+    },
+    "eng-stokes-terminal-speed": {
+      "name": "Stokes-Teilchen-Endgeschwindigkeitsrechner",
+      "description": "Berechnen Sie die Endgeschwindigkeit einer kleinen Kugel in einer Kriechströmung.",
+      "image_alt": "Stokes-Teilchen-Endgeschwindigkeitsrechner"
+    },
+    "eng-orifice-flow": {
+      "name": "Rechner für inkompressible Strömung durch eine Öffnung",
+      "description": "Berechnen Sie die inkompressible Strömung durch eine Öffnung bei vernachlässigbarer Anströmgeschwindigkeit.",
+      "image_alt": "Rechner für inkompressible Strömung durch eine Öffnung"
+    },
+    "eng-combined-length-uncertainty": {
+      "name": "Unabhängiger Längenunsicherheitsrechner",
+      "description": "Kombinieren Sie unabhängige Längenstandardunsicherheiten für ein lineares Modell.",
+      "image_alt": "Unabhängiger Längenunsicherheitsrechner"
+    },
+    "eng-logarithmic-decrement": {
+      "name": "Logarithmischer Dekrementrechner",
+      "description": "Berechnen Sie das logarithmische Dekrement aus gleichgerichteten Amplitudenspitzen einer frei abklingenden Schwingung.",
+      "image_alt": "Logarithmischer Dekrementrechner"
+    }
+  },
+  "schema_version": "1.0",
+  "language": "de",
+  "archive_note": "Archivtitel, Einrichtungsnamen, Datumsangaben und Originaldokumente bleiben in der Quellsprache. Feeds und JSON verwenden den koreanischen Katalog.",
+  "app_count": "{label}: {count}",
+  "lecture_count": "{label}: {count} · neueste zuerst",
+  "record_count": "{count} Einträge",
+  "titles": {
+    "": "KI für jedes Unternehmen",
+    "apps": "Apps",
+    "lectures": "Vorträge",
+    "research": "Forschung",
+    "papers": "Arbeiten & Studien",
+    "patents": "Patente & Gebrauchsmuster",
+    "projects": "Entwicklungsprojekte",
+    "feeds": "Feeds & Daten"
+  },
+  "description": "Entdecken Sie die neuesten Apps und passende Werkzeuge für Ihre Aufgaben. Arbeiten, Patente und Entwicklungsprojekte"
+}

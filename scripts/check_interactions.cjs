@@ -17,7 +17,7 @@ function element(data = {}, text = '') {
         focus() { this.focused = true; }
     };
 }
-function setup(archive = false) {
+function setup(archive = false, localized = false) {
     const cards = archive ? [] : apps.map(app => element({category:app.category}, `${app.name} ${app.description}`));
     const filters = archive ? [] : ['all', ...new Set(apps.map(app => app.category))].map(category => element({filter:category}));
     const entries = archive ? [element({category:'교육기관'}, '홍익대학교 2026 AI Agent'), element({category:'기업'}, 'LG인화원 업무 자동화')] : [];
@@ -25,6 +25,11 @@ function setup(archive = false) {
     const ids = archive
         ? {'archive-search':element(), 'archive-count':element()}
         : {'app-search':element(), 'result-count':element(), 'empty-results':element(), 'reset-filters':element()};
+    if (localized) {
+        const buttons = archive ? lectureFilters : filters;
+        buttons.forEach(button => { button.dataset.label = archive ? (button.dataset.lectureCategory === '기업' ? 'Companies' : 'All') : (button.dataset.filter === 'all' ? 'All' : 'Category'); });
+        ids[archive ? 'archive-count' : 'result-count'].dataset.template = archive ? '{label}: {count} · newest first' : '{label}: {count}';
+    }
     const domReady = [];
     const document = {
         getElementById: id => ids[id] || null,
@@ -65,4 +70,11 @@ archive.ids['archive-search'].emit('input');
 assert.equal(archive.entries.filter(card => !card.hidden).length, 1);
 assert.equal(archive.ids['archive-count'].textContent, '기업 1건 · 최신 강의순');
 assert.equal(archive.lectureFilters.find(button => button.dataset.lectureCategory === '기업').attributes['aria-pressed'], 'true');
-console.log('PASS: search, combined category filter, empty state, reset, accessible filter state, archive search');
+const english = setup(false, true);
+english.ids['app-search'].value = 'astra';
+english.ids['app-search'].emit('input');
+assert.equal(english.ids['result-count'].textContent, 'All: 1');
+const englishArchive = setup(true, true);
+englishArchive.lectureFilters.find(button => button.dataset.lectureCategory === '기업').emit('click');
+assert.equal(englishArchive.ids['archive-count'].textContent, 'Companies: 1 · newest first');
+console.log('PASS: search, combined category filter, empty state, reset, accessible filter state, archive search, localized counts and category labels');

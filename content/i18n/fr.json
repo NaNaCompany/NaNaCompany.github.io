@@ -1,0 +1,818 @@
+{
+  "ui": {
+    "Services": "Services",
+    "About": "À propos",
+    "Customers": "Clients",
+    "Process": "Processus",
+    "Apps": "Applications",
+    "Lectures": "Conférences",
+    "Research": "Recherche",
+    "Contact": "Contact",
+    "Contact Us": "Nous contacter",
+    "AI for Every Business": "L’IA pour chaque entreprise",
+    "We can help your business to be more successful with powerful AI": "Nous aidons votre entreprise à réussir grâce à l’IA.",
+    "Your browser does not support the video tag.": "Votre navigateur ne prend pas en charge la vidéo.",
+    "Key Services": "Nos services",
+    "연구개발과제 협력": "Collaboration en R&D",
+    "R&D과제의 성공적인 수행과 지표달성, 특허출원을 지원합니다.": "Nous accompagnons les projets de R&D, leurs objectifs et les dépôts de brevets.",
+    "AI 관련 컨설팅": "Conseil en IA",
+    "AI분야의 기술자문, AI 도입과 관련된 사업기획 자문을 제공합니다.": "Conseil technique et planification pour l’adoption de l’IA.",
+    "PoC 과제 수행": "Preuves de concept",
+    "아이디어를 빠르게 검증하기 위한 6개월 내외 규모의 PoC 과제를 수행합니다.": "Nous validons rapidement les idées par des PoC d’environ six mois.",
+    "업무용 AI 시제품 구현": "Prototypes d’IA pour le travail",
+    "임직원의 효율적인 업무수행을 위한 AI플랫폼의 시제품을 구현합니다.": "Nous créons des prototypes de plateformes d’IA pour améliorer le travail des équipes.",
+    "평가보고서 작성": "Rapports d’évaluation",
+    "AI관련 사업계획서의 타당성 검증 및 검토의견보고서를 작성해드립니다.": "Nous évaluons la faisabilité des projets d’IA et rédigeons des rapports.",
+    "AI 활용 교육": "Formation pratique à l’IA",
+    "고객사의 업무수행분야에 가장 적합한 방향으로, 임직원의 생성형 AI 활용 교육을 제공합니다.": "Des formations à l’IA générative adaptées aux métiers de vos équipes.",
+    "AI Engineer, CEO": "Ingénieur en IA, PDG",
+    "🚀 상상텃밭(주) 前 CTO (2018. ~ 2024.)": "🚀 Ancien CTO de SangSang Farm (2018–2024)",
+    "✒️ 저서 36건": "✒️ 36 livres",
+    "💡 특허·실용신안 출원 34건": "💡 34 demandes de brevets et modèles d’utilité",
+    "🔬 논문·연구 28건 (프리프린트 포함)": "🔬 28 articles et études, prépublications comprises",
+    "🎓 KAIST 바이오및뇌공학과 학사/석사 조기졸업": "🎓 Licence et master obtenus en avance en bio-ingénierie et ingénierie cérébrale, KAIST",
+    "📜 행정안전부 장관 표창 수상": "📜 Distinction du ministre coréen de l’Intérieur et de la Sécurité",
+    "🕶️ 한국인 최초": "🕶️ Premier Coréen",
+    "국제IQ만점자협회(LPS)": "Société de haut QI LPS",
+    "정회원": "membre à part entière",
+    "협업/자문/교육사례": "Collaboration, conseil et formation",
+    "공공기관": "Organismes publics",
+    "기업": "Entreprises",
+    "교육기관": "Éducation",
+    "연구기관": "Instituts de recherche",
+    "출연연": "Instituts de recherche",
+    "컨퍼런스": "Conférences",
+    "협업 과정": "Notre méthode de travail",
+    "Discover": "Découvrir",
+    "고객사 니즈 정의": "Définir vos besoins",
+    "Plan": "Planifier",
+    "과업 범위 협상, 수행계획안 수립": "Définir le périmètre et préparer le plan",
+    "Work": "Réaliser",
+    "과업 성실 수행": "Réaliser le travail convenu",
+    "Finish": "Livrer",
+    "산출물 납품": "Livrer les résultats",
+    "전체": "Tout",
+    "생활·업무": "Quotidien et travail",
+    "문서·텍스트": "Documents et texte",
+    "이미지·미디어": "Images et médias",
+    "재미·실험": "Jeux et expériences",
+    "AI·개발": "IA et développement",
+    "공학·계산": "Ingénierie et calcul",
+    "최신 앱부터 만나보세요. 작업에 꼭 맞는 도구를 찾아보세요.": "Découvrez les nouveautés et trouvez l’outil adapté à votre tâche.",
+    "필요한 웹앱과 도구를 한곳에서 만나보세요.": "Applications web et outils réunis au même endroit.",
+    "앱 이름 또는 기능 검색": "Rechercher par nom ou fonction",
+    "어떤 도구를 찾으세요?": "Quel outil cherchez-vous ?",
+    "앱 분류": "Catégories d’applications",
+    "앱 열기": "Ouvrir l’application",
+    "템플릿 보기": "Voir le modèle",
+    "개발 템플릿": "Modèle de développement",
+    "일치하는 도구가 없습니다.": "Aucun outil correspondant.",
+    "다른 검색어를 입력하거나 분류를 바꿔 보세요.": "Essayez un autre mot-clé ou une autre catégorie.",
+    "전체 도구 보기": "Afficher tous les outils",
+    "강의·출강 이력 전체 · 최신 강의순": "Toutes les conférences · les plus récentes d’abord",
+    "강의·출강 이력": "Conférences et interventions",
+    "강연 제목·기관·연도 검색": "Rechercher par titre, organisme ou année",
+    "기관명 또는 주제 검색": "Rechercher un organisme ou un sujet",
+    "강의 기관 분류": "Types d’organismes",
+    "일치하는 강연이 없습니다. 검색어나 기관 분류를 바꿔 보세요.": "Aucune conférence correspondante. Modifiez la recherche ou le type d’organisme.",
+    "R&D 분류": "Catégories de R&D",
+    "논문·특허·개발 프로젝트 전체": "Tous les articles, brevets et projets de développement",
+    "논문·특허·개발 프로젝트": "Articles, brevets et projets",
+    "논문·연구": "Articles et études",
+    "특허·실용신안": "Brevets et modèles d’utilité",
+    "개발 프로젝트": "Projets de développement",
+    "링크 열기": "Ouvrir le lien",
+    "출처:": "Source :",
+    "반병현 공식 홈페이지 bhban.kr": "Site officiel de Byunghyun Ban, bhban.kr",
+    "· 원본 섹션의 정적 스냅샷이며, 원문 자료는 출처 사이트로 연결됩니다.": "· Copies statiques des sections originales ; les documents renvoient à la source.",
+    "나나랩과 함께 혁신을 준비하세요!": "Préparez votre prochaine innovation avec NaNa Lab.",
+    "Name": "Nom",
+    "Institution": "Organisme",
+    "Phone Number": "Téléphone",
+    "Email": "E-mail",
+    "Title": "Objet",
+    "Message": "Message",
+    "이름을 입력해주세요": "Indiquez votre nom",
+    "소속 기관명을 입력해주세요": "Indiquez votre organisme",
+    "국가 선택": "Indicatif du pays",
+    "직접입력": "Saisir manuellement",
+    "이메일을 입력해주세요": "Indiquez votre e-mail",
+    "제목을 입력해주세요": "Indiquez l’objet",
+    "문의하실 내용을 남겨주세요": "Décrivez votre demande",
+    "문의 보내기": "Envoyer la demande",
+    "전송 중... (Sending...)": "Envoi en cours…",
+    "문의가 성공적으로 전송되었습니다! (Email sent successfully!)": "Votre demande a été envoyée.",
+    "메일 전송에 실패했습니다:": "Échec de l’envoi :",
+    "NaNa Lab은 주식회사 나나컴퍼니의 영업권 일부를 치즈케익스튜디오가 양수하여 운영하는 사업부입니다.": "NaNa Lab est une division de Cheesecake Studio, qui a acquis une partie des droits commerciaux de NaNa Company.",
+    "(주)나나컴퍼니 대표이사 반병현. 사업자등록번호: 456-81-03285": "NaNa Company · PDG Byunghyun Ban · Immatriculation : 456-81-03285",
+    "치즈케익스튜디오 대표자 반병현, 사업자등록번호: 269-08-02374": "Cheesecake Studio · Byunghyun Ban · Immatriculation : 269-08-02374",
+    "개인정보처리방침": "Politique de confidentialité",
+    "구독·데이터": "Flux et données",
+    "RSS · JSON Feed · 공개 JSON": "RSS · JSON Feed · JSON public",
+    "구독 피드": "Flux d’abonnement",
+    "통합 업데이트": "Toutes les nouveautés",
+    "앱": "Applications",
+    "강의": "Conférences",
+    "연구": "Recherche",
+    "논문": "Articles",
+    "특허": "Brevets",
+    "프로젝트": "Projets",
+    "연구 통합": "Toute la recherche",
+    "조회용 JSON": "Catalogues JSON publics",
+    "전체 엔드포인트·개수·스키마 버전": "Points d’accès, nombres et version du schéma",
+    "날짜와 출처": "Dates et sources",
+    "Toggle navigation": "Ouvrir ou fermer le menu",
+    "재미·라이프": "Loisirs et vie",
+    "미리보기 PDF (1쪽)": "Aperçu PDF (1 page)",
+    "아래 주소를 RSS 리더에 등록하세요. RSS 2.0과 JSON Feed 1.1을 제공합니다. 통합 피드는 최근 200건, 분야별 피드는 최근 100건입니다.": "Ajoutez ces adresses à votre lecteur. RSS 2.0 et JSON Feed 1.1 sont disponibles : 200 entrées récentes dans le flux global, 100 par rubrique.",
+    "전체 목록을 정적 JSON으로 제공합니다. 별도 로그인이나 API 키 없이 GET 요청으로 읽을 수 있습니다. 응답의": "Les catalogues complets sont des JSON statiques, accessibles par GET sans connexion ni clé API. Le champ",
+    "가 목록이며": "contient la liste ;",
+    "가 항목 수입니다.": "indique le nombre d’entrées.",
+    "앱은 등록 원본의 공개 시각, 강의·특허는 원문에 적힌 일정을 사용합니다. 일자만 있는 자료는 한국 시간 00:00으로 표현합니다. 연도만 확인되는 자료에는 정확한 게시 일시를 넣지 않습니다. 날짜를 모르는 항목은 뒤에 정렬합니다. 재빌드만으로 ID나 게시 시각이 바뀌지 않습니다.": "Les applications utilisent la date de publication d’origine ; conférences et brevets, la date documentée. Une date sans heure correspond à minuit en Corée. Aucune heure précise n’est inventée pour une année seule. Les entrées non datées viennent à la fin. Une reconstruction ne change ni identifiants ni dates.",
+    "강의·연구 자료의 원본 출처는": "La source des conférences et recherches est",
+    "입니다. 논문·프리프린트 구분과 인용·원문 링크를 확인하세요. 공개 API 제공은 원문 자료의 이용 조건을 변경하지 않습니다.": ". Consultez les mentions de publication ou prépublication, les citations et les liens originaux. L’API publique ne modifie pas les conditions d’utilisation des documents.",
+    "모든 파일은 사이트 빌드 때 함께 갱신됩니다. JSON Feed는 호스팅 환경에 따라": "Tous les fichiers sont actualisés à la génération du site. Selon l’hébergement, JSON Feed peut utiliser",
+    "으로 응답할 수 있으며 JSON Feed 1.1에서 허용하는 방식입니다.": ", ce que permet JSON Feed 1.1.",
+    "Web app": "Application web",
+    "apps & tools": "applications et outils"
+  },
+  "apps": {
+    "smart_calculator": {
+      "name": "Calculatrice intelligente",
+      "description": "Calculs courants et conversion de devises, avec saisie vocale et historique.",
+      "image_alt": "Calculatrice intelligente"
+    },
+    "qr": {
+      "name": "Générateur de codes QR",
+      "description": "Transformez un lien en code QR facile à partager.",
+      "image_alt": "Générateur de codes QR"
+    },
+    "count_words": {
+      "name": "Compteur de caractères",
+      "description": "Comptez les caractères coréens et les octets pour mesurer vos textes.",
+      "image_alt": "Compteur de caractères"
+    },
+    "image_resize": {
+      "name": "Redimensionner les images",
+      "description": "Modifiez la taille et les proportions des images, puis recadrez-les.",
+      "image_alt": "Redimensionner les images"
+    },
+    "merge_pdf": {
+      "name": "Fusionner des PDF",
+      "description": "Réunissez vos PDF dans un document, dans l’ordre voulu.",
+      "image_alt": "Fusionner des PDF"
+    },
+    "doc_compress": {
+      "name": "Compresser des documents",
+      "description": "Réduisez la taille des PDF, documents bureautiques et images.",
+      "image_alt": "Compresser des documents"
+    },
+    "doc_stat": {
+      "name": "Analyser les documents",
+      "description": "Consultez le nombre de pages, de mots et d’autres données des PDF et DOCX.",
+      "image_alt": "Analyser les documents"
+    },
+    "doc_summarizer": {
+      "name": "Résumer les documents",
+      "description": "Un outil pour lire de longs documents et en organiser les idées essentielles.",
+      "image_alt": "Résumer les documents"
+    },
+    "lipsum": {
+      "name": "Générateur de faux texte",
+      "description": "Générez du texte d’exemple pour vos maquettes et documents.",
+      "image_alt": "Générateur de faux texte"
+    },
+    "gif_studio": {
+      "name": "Studio GIF",
+      "description": "Redimensionnez, recadrez, faites pivoter et optimisez vos GIF au même endroit.",
+      "image_alt": "Studio GIF"
+    },
+    "video_2_gif": {
+      "name": "Vidéo vers GIF",
+      "description": "Choisissez un passage vidéo et transformez-le en GIF animé.",
+      "image_alt": "Vidéo vers GIF"
+    },
+    "audio_edit": {
+      "name": "Éditeur audio",
+      "description": "Découpez l’audio, réglez le volume et convertissez les formats.",
+      "image_alt": "Éditeur audio"
+    },
+    "afd": {
+      "name": "Écran d’absence",
+      "description": "Affichez votre statut pendant une absence ou une réunion.",
+      "image_alt": "Écran d’absence"
+    },
+    "bmi": {
+      "name": "Calculateur d’IMC",
+      "description": "Calculez l’indice de masse corporelle avec la taille et le poids.",
+      "image_alt": "Calculateur d’IMC"
+    },
+    "fortune": {
+      "name": "La chance du jour",
+      "description": "Découvrez votre chance du jour pour vous amuser.",
+      "image_alt": "La chance du jour"
+    },
+    "luck": {
+      "name": "Canon de la chance",
+      "description": "Réunissez les participants et tirez un gagnant au sort.",
+      "image_alt": "Canon de la chance"
+    },
+    "chatTemplate": {
+      "name": "Conversation en solo",
+      "description": "Jouez les deux rôles pour créer votre scène de discussion.",
+      "image_alt": "Conversation en solo"
+    },
+    "ppp": {
+      "name": "Portail de prompts publiés",
+      "description": "Parcourez des prompts issus de livres publiés.",
+      "image_alt": "Portail de prompts publiés"
+    },
+    "astra": {
+      "name": "Astra Playground",
+      "description": "Exercez-vous aux agents d’IA avec des sites et fichiers d’exemple.",
+      "image_alt": "Astra Playground"
+    },
+    "android_webview_template": {
+      "name": "Modèle Android WebView",
+      "description": "Modifiez la configuration pour convertir un site web en application Android.",
+      "image_alt": "Modèle Android WebView"
+    },
+    "rebirth_country": {
+      "name": "Passeport de réincarnation",
+      "description": "Où renaîtrez-vous ? Découvrez un pays et un passeport selon la population mondiale.",
+      "image_alt": "Passeport de réincarnation"
+    },
+    "ai_knowledge_tree": {
+      "name": "Arbre des connaissances en IA",
+      "description": "Créée à la demande d’une grande entreprise pour permettre à chacun de comprendre d’un coup d’œil l’industrie de l’IA.",
+      "image_alt": "Arbre des connaissances en IA"
+    },
+    "rebirth_biology": {
+      "name": "Carte d’identité de réincarnation",
+      "description": "Découvrez 72 vies possibles selon la biomasse terrestre, avec votre carte d’identité d’organisme.",
+      "image_alt": "Carte d’identité de réincarnation"
+    },
+    "body-clock": {
+      "name": "Pouvez-vous sentir dix secondes ?",
+      "description": "Estimez trois fois dix secondes sans horloge pour tester votre perception du temps.",
+      "image_alt": "Pouvez-vous sentir dix secondes ?"
+    },
+    "color-drop": {
+      "name": "Trouvez la couleur différente",
+      "description": "Trouvez la seule couleur différente parmi des cases semblables.",
+      "image_alt": "Trouvez la couleur différente"
+    },
+    "level-frame": {
+      "name": "Redressez le cadre",
+      "description": "Faites pivoter un cadre penché pour tester votre sens de l’horizontale.",
+      "image_alt": "Redressez le cadre"
+    },
+    "table-memory": {
+      "name": "La table en trois secondes",
+      "description": "Observez une table trois secondes, puis reconstituez la disposition des objets.",
+      "image_alt": "La table en trois secondes"
+    },
+    "lunch-math": {
+      "name": "Calcul mental du déjeuner",
+      "description": "Calculez l’addition du déjeuner de tête pour tester rapidité et précision.",
+      "image_alt": "Calcul mental du déjeuner"
+    },
+    "rain-rhythm": {
+      "name": "Reproduisez le rythme de la pluie",
+      "description": "Mémorisez le rythme des gouttes de pluie et reproduisez-le.",
+      "image_alt": "Reproduisez le rythme de la pluie"
+    },
+    "next-life-stats": {
+      "name": "Cent points pour votre prochaine vie",
+      "description": "Répartissez cent points pour votre prochaine vie et découvrez votre résultat.",
+      "image_alt": "Cent points pour votre prochaine vie"
+    },
+    "line-copy": {
+      "name": "Reproduisez la ligne de mémoire",
+      "description": "Mémorisez une ligne deux secondes et redessinez-la à la même longueur.",
+      "image_alt": "Reproduisez la ligne de mémoire"
+    },
+    "cat-naps": {
+      "name": "Endormez les six chats",
+      "description": "Trouvez des places qui permettent aux six chats difficiles de dormir.",
+      "image_alt": "Endormez les six chats"
+    },
+    "eng-reynolds": {
+      "name": "Nombre de Reynolds",
+      "description": "Nombre de Reynolds — Re = ρ V L / μ. Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Nombre de Reynolds"
+    },
+    "eng-mach": {
+      "name": "Nombre de Mach",
+      "description": "Nombre de Mach — M = V / a. Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Nombre de Mach"
+    },
+    "eng-dynamic-pressure": {
+      "name": "Pression dynamique",
+      "description": "Pression dynamique — q = ρ V² / 2. Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Pression dynamique"
+    },
+    "eng-volume-flow": {
+      "name": "Débit volumique",
+      "description": "Débit volumique — Q = A V. Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Débit volumique"
+    },
+    "eng-mass-flow": {
+      "name": "Débit massique",
+      "description": "Débit massique — ṁ = ρ Q. Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Débit massique"
+    },
+    "eng-hydrostatic-pressure": {
+      "name": "Pression hydrostatique",
+      "description": "Pression hydrostatique — p_g = ρ g h. Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Pression hydrostatique"
+    },
+    "eng-laminar-pipe-drop": {
+      "name": "Perte de pression en régime laminaire",
+      "description": "Perte de pression en régime laminaire — Δp = 128 μ L Q / (π D⁴). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Perte de pression en régime laminaire"
+    },
+    "eng-hydraulic-power": {
+      "name": "Puissance hydraulique",
+      "description": "Puissance hydraulique — P_h = Δp Q. Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Puissance hydraulique"
+    },
+    "eng-kinematic-viscosity": {
+      "name": "Viscosité cinématique",
+      "description": "Viscosité cinématique — ν = μ / ρ. Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Viscosité cinématique"
+    },
+    "eng-drag-force": {
+      "name": "Force de traînée",
+      "description": "Force de traînée — D = C_D ρ V² A / 2. Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Force de traînée"
+    },
+    "eng-wall-conduction": {
+      "name": "Conduction à travers une paroi",
+      "description": "Conduction à travers une paroi — Q̇ = k A ΔT / L. Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Conduction à travers une paroi"
+    },
+    "eng-convection-heat": {
+      "name": "Transfert thermique par convection",
+      "description": "Transfert thermique par convection — Q̇ = h A (T_s − T_∞). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Transfert thermique par convection"
+    },
+    "eng-radiation-heat": {
+      "name": "Transfert thermique par rayonnement",
+      "description": "Transfert thermique par rayonnement — Q̇_net = ε σ_SB A (T_s⁴ − T_sur⁴). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Transfert thermique par rayonnement"
+    },
+    "eng-thermal-expansion": {
+      "name": "Dilatation thermique",
+      "description": "Dilatation thermique — ΔL = α L₀ ΔT. Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Dilatation thermique"
+    },
+    "eng-carnot-efficiency": {
+      "name": "Rendement de Carnot",
+      "description": "Rendement de Carnot — η_C = 1 − T_c / T_h. Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Rendement de Carnot"
+    },
+    "eng-carnot-cop": {
+      "name": "Coefficient de performance de Carnot",
+      "description": "Coefficient de performance de Carnot — COP_R,C = T_c / (T_h − T_c). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Coefficient de performance de Carnot"
+    },
+    "eng-wire-resistance": {
+      "name": "Résistance d’un fil",
+      "description": "Résistance d’un fil — R = ρ_e L / A. Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Résistance d’un fil"
+    },
+    "eng-plate-capacitance": {
+      "name": "Capacité d’un condensateur plan",
+      "description": "Capacité d’un condensateur plan — C = ε₀ ε_r A / d. Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Capacité d’un condensateur plan"
+    },
+    "eng-solenoid-inductance": {
+      "name": "Inductance d’un solénoïde",
+      "description": "Inductance d’un solénoïde — L = μ₀ N² A / l. Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Inductance d’un solénoïde"
+    },
+    "eng-rc-time": {
+      "name": "Constante de temps RC",
+      "description": "Constante de temps RC — τ = R C. Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Constante de temps RC"
+    },
+    "eng-rl-time": {
+      "name": "Constante de temps RL",
+      "description": "Constante de temps RL — τ = L / R. Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Constante de temps RL"
+    },
+    "eng-capacitive-reactance": {
+      "name": "Réactance capacitive",
+      "description": "Réactance capacitive — X_C = 1 / (2π f C). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Réactance capacitive"
+    },
+    "eng-inductive-reactance": {
+      "name": "Réactance inductive",
+      "description": "Réactance inductive — X_L = 2π f L. Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Réactance inductive"
+    },
+    "eng-lc-resonance": {
+      "name": "Résonance LC",
+      "description": "Résonance LC — f₀ = 1 / (2π √(L C)). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Résonance LC"
+    },
+    "eng-voltage-divider": {
+      "name": "Diviseur de tension",
+      "description": "Diviseur de tension — V_out = V_in R₂ / (R₁ + R₂). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Diviseur de tension"
+    },
+    "eng-power-db": {
+      "name": "Rapport de puissance en décibels",
+      "description": "Rapport de puissance en décibels — G_P = 10 log₁₀(P_out / P_in). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Rapport de puissance en décibels"
+    },
+    "eng-rotation-energy": {
+      "name": "Énergie cinétique de rotation",
+      "description": "Énergie cinétique de rotation — K_rot = I ω² / 2. Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Énergie cinétique de rotation"
+    },
+    "eng-shaft-power": {
+      "name": "Puissance d’un arbre",
+      "description": "Puissance d’un arbre — P = T ω,  ω = 2π n / 60 (n: rpm). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Puissance d’un arbre"
+    },
+    "eng-centripetal-acceleration": {
+      "name": "Accélération centripète",
+      "description": "Accélération centripète — a_c = v² / r. Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Accélération centripète"
+    },
+    "eng-spring-frequency": {
+      "name": "Fréquence masse-ressort",
+      "description": "Fréquence masse-ressort — f_n = √(k/m) / (2π). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Fréquence masse-ressort"
+    },
+    "eng-pendulum-period": {
+      "name": "Période d’un pendule",
+      "description": "Période d’un pendule — T = 2π √(L/g). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Période d’un pendule"
+    },
+    "eng-axial-stress": {
+      "name": "Contrainte axiale",
+      "description": "Contrainte axiale — σ_avg = F / A. Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Contrainte axiale"
+    },
+    "eng-shaft-shear": {
+      "name": "Cisaillement d’un arbre",
+      "description": "Cisaillement d’un arbre — τ_max = 16 T / (π d³). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Cisaillement d’un arbre"
+    },
+    "eng-axial-extension": {
+      "name": "Allongement axial",
+      "description": "Allongement axial — δ = F L / (A E). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Allongement axial"
+    },
+    "eng-restrained-thermal-stress": {
+      "name": "Contrainte thermique sous blocage",
+      "description": "Contrainte thermique sous blocage — σ = −E α ΔT. Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Contrainte thermique sous blocage"
+    },
+    "eng-bending-stress": {
+      "name": "Contrainte de flexion",
+      "description": "Contrainte de flexion — σ_max = M c / I. Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Contrainte de flexion"
+    },
+    "eng-shaft-twist": {
+      "name": "Angle de torsion d’un arbre",
+      "description": "Angle de torsion d’un arbre — φ = T L / (G J). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Angle de torsion d’un arbre"
+    },
+    "eng-euler-buckling": {
+      "name": "Flambement d’Euler",
+      "description": "Flambement d’Euler — P_cr = π² E I_min / L². Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Flambement d’Euler"
+    },
+    "eng-ideal-gas-density": {
+      "name": "Masse volumique d’un gaz parfait",
+      "description": "Masse volumique d’un gaz parfait — ρ = p M / (R T). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Masse volumique d’un gaz parfait"
+    },
+    "eng-mean-free-path": {
+      "name": "Libre parcours moyen",
+      "description": "Libre parcours moyen — λ = k_B T / (√2 π d² p). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Libre parcours moyen"
+    },
+    "eng-arrhenius-rate": {
+      "name": "Constante de vitesse d’Arrhenius",
+      "description": "Constante de vitesse d’Arrhenius — k = A exp(−E_a / (R T)). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Constante de vitesse d’Arrhenius"
+    },
+    "eng-first-order-half-life": {
+      "name": "Demi-vie d’une réaction du premier ordre",
+      "description": "Demi-vie d’une réaction du premier ordre — t_1/2 = ln(2) / k. Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Demi-vie d’une réaction du premier ordre"
+    },
+    "eng-osmotic-pressure": {
+      "name": "Pression osmotique",
+      "description": "Pression osmotique — Π = i c R T. Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Pression osmotique"
+    },
+    "eng-photon-energy": {
+      "name": "Énergie d’un photon",
+      "description": "Énergie d’un photon — E = h c₀ / λ₀. Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Énergie d’un photon"
+    },
+    "eng-thin-lens-image": {
+      "name": "Image d’une lentille mince",
+      "description": "Image d’une lentille mince — d_i = 1 / (1/f − 1/d_o). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Image d’une lentille mince"
+    },
+    "eng-aperture-resolution": {
+      "name": "Résolution d’une ouverture circulaire",
+      "description": "Résolution d’une ouverture circulaire — θ_R ≈ 1.22 λ / D. Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Résolution d’une ouverture circulaire"
+    },
+    "eng-snell-refraction": {
+      "name": "Réfraction de Snell",
+      "description": "Réfraction de Snell — θ₂ = asin((n₁/n₂) sin θ₁). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Réfraction de Snell"
+    },
+    "eng-fiber-numerical-aperture": {
+      "name": "Ouverture numérique d’une fibre",
+      "description": "Ouverture numérique d’une fibre — NA = √(n_core² − n_clad²). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Ouverture numérique d’une fibre"
+    },
+    "eng-first-order-settling": {
+      "name": "Temps d’établissement du premier ordre",
+      "description": "Temps d’établissement du premier ordre — t_s = −τ ln(ε). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Temps d’établissement du premier ordre"
+    },
+    "eng-spring-damping-ratio": {
+      "name": "Taux d’amortissement masse-ressort",
+      "description": "Taux d’amortissement masse-ressort — ζ = c / (2 √(m k)). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Taux d’amortissement masse-ressort"
+    },
+    "eng-escape-speed": {
+      "name": "Vitesse de libération",
+      "description": "Vitesse de libération — v_esc = √(2GM/r). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Vitesse de libération"
+    },
+    "eng-orbital-period": {
+      "name": "Période d’une orbite circulaire",
+      "description": "Période d’une orbite circulaire — T = 2π √(r³/(GM)). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Période d’une orbite circulaire"
+    },
+    "eng-hohmann-delta-v": {
+      "name": "Delta-v total du transfert de Hohmann",
+      "description": "Delta-v total du transfert de Hohmann — Δv = |√(μ/r₁)(√(2r₂/(r₁+r₂))−1)| + |√(μ/r₂)(1−√(2r₁/(r₁+r₂)))|. Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Delta-v total du transfert de Hohmann"
+    },
+    "eng-gravitational-energy": {
+      "name": "Énergie potentielle gravitationnelle",
+      "description": "Énergie potentielle gravitationnelle — U = −GMm/r. Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Énergie potentielle gravitationnelle"
+    },
+    "eng-gravity-at-radius": {
+      "name": "Gravité à une distance donnée",
+      "description": "Gravité à une distance donnée — g = GM/r². Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Gravité à une distance donnée"
+    },
+    "eng-schwarzschild-radius": {
+      "name": "Rayon de Schwarzschild",
+      "description": "Rayon de Schwarzschild — r_s = 2GM/c². Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Rayon de Schwarzschild"
+    },
+    "eng-lorentz-factor": {
+      "name": "Facteur de Lorentz",
+      "description": "Facteur de Lorentz — γ = 1/√(1−v²/c²). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Facteur de Lorentz"
+    },
+    "eng-relativistic-energy": {
+      "name": "Énergie cinétique relativiste",
+      "description": "Énergie cinétique relativiste — K = (γ−1)mc². Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Énergie cinétique relativiste"
+    },
+    "eng-de-broglie": {
+      "name": "Longueur d’onde de De Broglie",
+      "description": "Longueur d’onde de De Broglie — λ = h/p. Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Longueur d’onde de De Broglie"
+    },
+    "eng-gas-rms-speed": {
+      "name": "Vitesse quadratique moyenne des molécules",
+      "description": "Vitesse quadratique moyenne des molécules — v_rms = √(3RT/M). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Vitesse quadratique moyenne des molécules"
+    },
+    "eng-free-fall-time": {
+      "name": "Durée de chute libre",
+      "description": "Durée de chute libre — t = √(2h/g). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Durée de chute libre"
+    },
+    "eng-projectile-range": {
+      "name": "Portée d’un projectile",
+      "description": "Portée d’un projectile — R = v₀² sin(2θ)/g. Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Portée d’un projectile"
+    },
+    "eng-impulse": {
+      "name": "Impulsion d’une force moyenne",
+      "description": "Impulsion d’une force moyenne — J = F_avg Δt. Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Impulsion d’une force moyenne"
+    },
+    "eng-series-spring": {
+      "name": "Raideur de ressorts en série",
+      "description": "Raideur de ressorts en série — k_eq = k₁k₂/(k₁+k₂). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Raideur de ressorts en série"
+    },
+    "eng-center-of-mass": {
+      "name": "Centre de masse de deux corps",
+      "description": "Centre de masse de deux corps — x_cm = (m₁x₁+m₂x₂)/(m₁+m₂). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Centre de masse de deux corps"
+    },
+    "eng-friction-stop-distance": {
+      "name": "Distance d’arrêt par frottement",
+      "description": "Distance d’arrêt par frottement — d = v₀²/(2μ_k g). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Distance d’arrêt par frottement"
+    },
+    "eng-critical-incline": {
+      "name": "Angle critique de glissement",
+      "description": "Angle critique de glissement — θ = atan(μ_s). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Angle critique de glissement"
+    },
+    "eng-spring-energy": {
+      "name": "Énergie potentielle d’un ressort",
+      "description": "Énergie potentielle d’un ressort — U = ½kx². Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Énergie potentielle d’un ressort"
+    },
+    "eng-tube-area-inertia": {
+      "name": "Moment quadratique d’un tube circulaire",
+      "description": "Moment quadratique d’un tube circulaire — I = π(D⁴−d⁴)/64. Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Moment quadratique d’un tube circulaire"
+    },
+    "eng-cantilever-deflection": {
+      "name": "Flèche à l’extrémité d’une poutre en porte-à-faux",
+      "description": "Flèche à l’extrémité d’une poutre en porte-à-faux — δ = FL³/(3EI). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Flèche à l’extrémité d’une poutre en porte-à-faux"
+    },
+    "eng-rayleigh-number": {
+      "name": "Nombre de Rayleigh",
+      "description": "Nombre de Rayleigh — Ra = gβΔT L³/(να). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Nombre de Rayleigh"
+    },
+    "eng-prandtl-number": {
+      "name": "Nombre de Prandtl",
+      "description": "Nombre de Prandtl — Pr = μc_p/k. Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Nombre de Prandtl"
+    },
+    "eng-nusselt-number": {
+      "name": "Nombre de Nusselt",
+      "description": "Nombre de Nusselt — Nu = hL/k_f. Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Nombre de Nusselt"
+    },
+    "eng-thermal-diffusivity": {
+      "name": "Diffusivité thermique",
+      "description": "Diffusivité thermique — α = k/(ρc_p). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Diffusivité thermique"
+    },
+    "eng-sensible-heat": {
+      "name": "Chaleur sensible",
+      "description": "Chaleur sensible — Q = mc_pΔT. Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Chaleur sensible"
+    },
+    "eng-isothermal-work": {
+      "name": "Travail isotherme d’un gaz parfait",
+      "description": "Travail isotherme d’un gaz parfait — W = nRT ln(V₂/V₁). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Travail isotherme d’un gaz parfait"
+    },
+    "eng-adiabatic-temperature": {
+      "name": "Température adiabatique d’un gaz parfait",
+      "description": "Température adiabatique d’un gaz parfait — T₂ = T₁(p₂/p₁)^((γ−1)/γ). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Température adiabatique d’un gaz parfait"
+    },
+    "eng-log-mean-temperature": {
+      "name": "Différence de température moyenne logarithmique",
+      "description": "Différence de température moyenne logarithmique — ΔT_lm = (ΔT₁−ΔT₂)/ln(ΔT₁/ΔT₂). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Différence de température moyenne logarithmique"
+    },
+    "eng-buoyant-force": {
+      "name": "Poussée d’Archimède",
+      "description": "Poussée d’Archimède — F_B = ρgV_disp. Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Poussée d’Archimède"
+    },
+    "eng-capillary-rise": {
+      "name": "Ascension capillaire",
+      "description": "Ascension capillaire — h = 2σ cosθ/(ρgr). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Ascension capillaire"
+    },
+    "eng-point-charge-field": {
+      "name": "Champ électrique d’une charge ponctuelle",
+      "description": "Champ électrique d’une charge ponctuelle — E = |q|/(4πε₀r²). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Champ électrique d’une charge ponctuelle"
+    },
+    "eng-ideal-transformer": {
+      "name": "Tension d’un transformateur idéal",
+      "description": "Tension d’un transformateur idéal — V₂ = V₁N₂/N₁. Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Tension d’un transformateur idéal"
+    },
+    "eng-rlc-impedance": {
+      "name": "Impédance d’un circuit RLC série",
+      "description": "Impédance d’un circuit RLC série — |Z| = √(R²+(2πfL−1/(2πfC))²). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Impédance d’un circuit RLC série"
+    },
+    "eng-ac-real-power": {
+      "name": "Puissance active en courant alternatif",
+      "description": "Puissance active en courant alternatif — P = V_rms I_rms cosφ. Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Puissance active en courant alternatif"
+    },
+    "eng-skin-depth": {
+      "name": "Épaisseur de peau d’un bon conducteur",
+      "description": "Épaisseur de peau d’un bon conducteur — δ = √(1/(πf μ₀μ_r σ)). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Épaisseur de peau d’un bon conducteur"
+    },
+    "eng-noninverting-gain": {
+      "name": "Gain d’un amplificateur non-inverseur",
+      "description": "Gain d’un amplificateur non-inverseur — A_v = 1+R_f/R_g. Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Gain d’un amplificateur non-inverseur"
+    },
+    "eng-rc-lowpass-gain": {
+      "name": "Gain d’un filtre RC passe-bas",
+      "description": "Gain d’un filtre RC passe-bas — |H| = 1/√(1+(2πfRC)²). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Gain d’un filtre RC passe-bas"
+    },
+    "eng-normal-reflectance": {
+      "name": "Réflectance de Fresnel à incidence normale",
+      "description": "Réflectance de Fresnel à incidence normale — R = ((n₁−n₂)/(n₁+n₂))². Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Réflectance de Fresnel à incidence normale"
+    },
+    "eng-double-slit-spacing": {
+      "name": "Interfrange d’une double fente",
+      "description": "Interfrange d’une double fente — Δy ≈ λL/d. Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Interfrange d’une double fente"
+    },
+    "eng-grating-angle": {
+      "name": "Angle d’un réseau de diffraction",
+      "description": "Angle d’un réseau de diffraction — θ = asin(mλ/d). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Angle d’un réseau de diffraction"
+    },
+    "eng-sound-pressure-level": {
+      "name": "Niveau de pression acoustique",
+      "description": "Niveau de pression acoustique — L_p = 20 log₁₀(p_rms/p_ref). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Niveau de pression acoustique"
+    },
+    "eng-sound-doppler": {
+      "name": "Fréquence Doppler acoustique",
+      "description": "Fréquence Doppler acoustique — f_obs = f₀(c_s+v_o)/(c_s−v_s). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Fréquence Doppler acoustique"
+    },
+    "eng-dilute-ph": {
+      "name": "pH d’une solution idéale diluée",
+      "description": "pH d’une solution idéale diluée — pH ≈ −log₁₀(c_H/(1 mol/L)). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "pH d’une solution idéale diluée"
+    },
+    "eng-nernst-potential": {
+      "name": "Potentiel de Nernst",
+      "description": "Potentiel de Nernst — E = E° − RT lnQ/(nF). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Potentiel de Nernst"
+    },
+    "eng-decay-activity": {
+      "name": "Décroissance de l’activité radioactive",
+      "description": "Décroissance de l’activité radioactive — A = A₀ exp(−λt). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Décroissance de l’activité radioactive"
+    },
+    "eng-henry-solubility": {
+      "name": "Concentration dissoute selon Henry",
+      "description": "Concentration dissoute selon Henry — c = k_H p. Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Concentration dissoute selon Henry"
+    },
+    "eng-stokes-terminal-speed": {
+      "name": "Vitesse limite de Stokes",
+      "description": "Vitesse limite de Stokes — v_t = (ρ_p−ρ_f)gd²/(18μ). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Vitesse limite de Stokes"
+    },
+    "eng-orifice-flow": {
+      "name": "Débit incompressible à travers un orifice",
+      "description": "Débit incompressible à travers un orifice — Q = C_d A √(2Δp/ρ). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Débit incompressible à travers un orifice"
+    },
+    "eng-combined-length-uncertainty": {
+      "name": "Incertitude composée de longueurs indépendantes",
+      "description": "Incertitude composée de longueurs indépendantes — u_c = √((c₁u₁)²+(c₂u₂)²). Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Incertitude composée de longueurs indépendantes"
+    },
+    "eng-logarithmic-decrement": {
+      "name": "Décrément logarithmique",
+      "description": "Décrément logarithmique — δ = ln(x₁/x₂)/n. Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
+      "image_alt": "Décrément logarithmique"
+    }
+  },
+  "schema_version": "1.0",
+  "language": "fr",
+  "archive_note": "Les titres, organismes, dates et documents des archives sont conservés dans leur langue d’origine. Les flux et JSON reprennent le catalogue coréen.",
+  "app_count": "{label}: {count}",
+  "lecture_count": "{label}: {count} · les plus récentes d’abord",
+  "record_count": "{count} entrées",
+  "titles": {
+    "": "L’IA pour chaque entreprise",
+    "apps": "Applications",
+    "lectures": "Conférences",
+    "research": "Recherche",
+    "papers": "Articles et études",
+    "patents": "Brevets et modèles d’utilité",
+    "projects": "Projets de développement",
+    "feeds": "Flux et données"
+  },
+  "description": "Découvrez les nouveautés et trouvez l’outil adapté à votre tâche. Articles, brevets et projets"
+}

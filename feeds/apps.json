@@ -8,6 +8,606 @@
   "favicon": "https://nanalab.kr/favicon.ico/android-icon-192x192.png",
   "items": [
     {
+      "id": "urn:nanalab:apps:eng-logarithmic-decrement",
+      "url": "https://nanalab.kr/eng-logarithmic-decrement/",
+      "title": "[앱] 감쇠진동 로그감소율 계산기",
+      "content_text": "감쇠 자유진동의 두 같은 방향 피크로 로그감소율 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:28:20Z",
+      "image": "https://nanalab.kr/eng-logarithmic-decrement/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-combined-length-uncertainty",
+      "url": "https://nanalab.kr/eng-combined-length-uncertainty/",
+      "title": "[앱] 독립 길이측정 합성불확도 계산기",
+      "content_text": "상관 없는 두 길이 성분의 선형 결합 표준불확도 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:28:12Z",
+      "image": "https://nanalab.kr/eng-combined-length-uncertainty/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-orifice-flow",
+      "url": "https://nanalab.kr/eng-orifice-flow/",
+      "title": "[앱] 비압축 오리피스 유량 계산기",
+      "content_text": "상류 속도를 무시하는 비압축 오리피스의 모델 유량 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:28:03Z",
+      "image": "https://nanalab.kr/eng-orifice-flow/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-stokes-terminal-speed",
+      "url": "https://nanalab.kr/eng-stokes-terminal-speed/",
+      "title": "[앱] 스톡스 입자 종단속도 계산기",
+      "content_text": "매우 작은 입자 레이놀즈수에서 구형 입자의 종단속도 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:27:55Z",
+      "image": "https://nanalab.kr/eng-stokes-terminal-speed/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-henry-solubility",
+      "url": "https://nanalab.kr/eng-henry-solubility/",
+      "title": "[앱] 헨리법칙 용존농도 계산기",
+      "content_text": "명시한 용해도형 헨리상수와 부분압으로 용존농도 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:27:47Z",
+      "image": "https://nanalab.kr/eng-henry-solubility/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-decay-activity",
+      "url": "https://nanalab.kr/eng-decay-activity/",
+      "title": "[앱] 방사성 활동도 감쇠 계산기",
+      "content_text": "일정 붕괴상수를 가진 단일 핵종의 활동도 감소 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:27:38Z",
+      "image": "https://nanalab.kr/eng-decay-activity/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-nernst-potential",
+      "url": "https://nanalab.kr/eng-nernst-potential/",
+      "title": "[앱] 네른스트 전위 계산기",
+      "content_text": "명시한 반응지수와 온도로 평형 전극·전지 전위 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:27:30Z",
+      "image": "https://nanalab.kr/eng-nernst-potential/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-dilute-ph",
+      "url": "https://nanalab.kr/eng-dilute-ph/",
+      "title": "[앱] 이상 희석용액 pH 계산기",
+      "content_text": "활동도계수를 1로 둔 수소이온 농도 기반 pH 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:27:22Z",
+      "image": "https://nanalab.kr/eng-dilute-ph/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-sound-doppler",
+      "url": "https://nanalab.kr/eng-sound-doppler/",
+      "title": "[앱] 음파 도플러 주파수 계산기",
+      "content_text": "매질 기준 1차원 음원·관측자 운동의 도플러 주파수 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:27:13Z",
+      "image": "https://nanalab.kr/eng-sound-doppler/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-sound-pressure-level",
+      "url": "https://nanalab.kr/eng-sound-pressure-level/",
+      "title": "[앱] 음압 레벨 계산기",
+      "content_text": "기준 실효 음압에 대한 음압 레벨 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:27:04Z",
+      "image": "https://nanalab.kr/eng-sound-pressure-level/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-grating-angle",
+      "url": "https://nanalab.kr/eng-grating-angle/",
+      "title": "[앱] 회절격자 회절각 계산기",
+      "content_text": "수직 입사 회절격자의 지정 양의 차수 방향 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:26:56Z",
+      "image": "https://nanalab.kr/eng-grating-angle/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-double-slit-spacing",
+      "url": "https://nanalab.kr/eng-double-slit-spacing/",
+      "title": "[앱] 이중슬릿 무늬간격 계산기",
+      "content_text": "원거리 작은 각도 이중슬릿 간섭무늬 간격 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:26:47Z",
+      "image": "https://nanalab.kr/eng-double-slit-spacing/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-normal-reflectance",
+      "url": "https://nanalab.kr/eng-normal-reflectance/",
+      "title": "[앱] 정상입사 프레넬 반사율 계산기",
+      "content_text": "비흡수 유전체 경계면의 수직 입사 세기 반사율 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:26:39Z",
+      "image": "https://nanalab.kr/eng-normal-reflectance/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-rc-lowpass-gain",
+      "url": "https://nanalab.kr/eng-rc-lowpass-gain/",
+      "title": "[앱] RC 저역통과 진폭비 계산기",
+      "content_text": "커패시터 양단 출력의 이상 RC 저역통과 진폭비 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:26:31Z",
+      "image": "https://nanalab.kr/eng-rc-lowpass-gain/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-noninverting-gain",
+      "url": "https://nanalab.kr/eng-noninverting-gain/",
+      "title": "[앱] 비반전 연산증폭기 이득 계산기",
+      "content_text": "이상 연산증폭기의 비반전 음귀환 전압이득 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:26:22Z",
+      "image": "https://nanalab.kr/eng-noninverting-gain/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-skin-depth",
+      "url": "https://nanalab.kr/eng-skin-depth/",
+      "title": "[앱] 양도체 표피깊이 계산기",
+      "content_text": "양도체 근사에서 전자기장 진폭의 1/e 감쇠 깊이 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:26:14Z",
+      "image": "https://nanalab.kr/eng-skin-depth/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-ac-real-power",
+      "url": "https://nanalab.kr/eng-ac-real-power/",
+      "title": "[앱] 교류 유효전력 계산기",
+      "content_text": "정현파 전압·전류와 위상차로 평균 유효전력 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:26:05Z",
+      "image": "https://nanalab.kr/eng-ac-real-power/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-rlc-impedance",
+      "url": "https://nanalab.kr/eng-rlc-impedance/",
+      "title": "[앱] 직렬 RLC 임피던스 계산기",
+      "content_text": "이상 직렬 RLC 회로의 정현파 임피던스 크기 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:25:57Z",
+      "image": "https://nanalab.kr/eng-rlc-impedance/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-ideal-transformer",
+      "url": "https://nanalab.kr/eng-ideal-transformer/",
+      "title": "[앱] 이상 변압기 전압 계산기",
+      "content_text": "권선비로 이상적인 교류 변압기의 2차 전압 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:25:48Z",
+      "image": "https://nanalab.kr/eng-ideal-transformer/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-point-charge-field",
+      "url": "https://nanalab.kr/eng-point-charge-field/",
+      "title": "[앱] 점전하 전기장 계산기",
+      "content_text": "진공 속 고립된 점전하의 전기장 크기 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:25:40Z",
+      "image": "https://nanalab.kr/eng-point-charge-field/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-capillary-rise",
+      "url": "https://nanalab.kr/eng-capillary-rise/",
+      "title": "[앱] 모세관 상승높이 계산기",
+      "content_text": "원형 모세관의 정적 액면 상승 또는 하강 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:25:31Z",
+      "image": "https://nanalab.kr/eng-capillary-rise/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-buoyant-force",
+      "url": "https://nanalab.kr/eng-buoyant-force/",
+      "title": "[앱] 배제유체 부력 계산기",
+      "content_text": "잠긴 부분이 밀어낸 유체 무게로 부력 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:25:22Z",
+      "image": "https://nanalab.kr/eng-buoyant-force/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-log-mean-temperature",
+      "url": "https://nanalab.kr/eng-log-mean-temperature/",
+      "title": "[앱] 로그평균 온도차 계산기",
+      "content_text": "열교환기 양 끝의 양의 온도차로 LMTD 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:25:14Z",
+      "image": "https://nanalab.kr/eng-log-mean-temperature/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-adiabatic-temperature",
+      "url": "https://nanalab.kr/eng-adiabatic-temperature/",
+      "title": "[앱] 단열 이상기체 출구온도 계산기",
+      "content_text": "가역 단열 이상기체 과정의 압력비에 따른 온도 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:25:05Z",
+      "image": "https://nanalab.kr/eng-adiabatic-temperature/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-isothermal-work",
+      "url": "https://nanalab.kr/eng-isothermal-work/",
+      "title": "[앱] 이상기체 등온팽창일 계산기",
+      "content_text": "가역 등온 과정에서 이상기체가 한 압력-체적 일 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:24:56Z",
+      "image": "https://nanalab.kr/eng-isothermal-work/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-sensible-heat",
+      "url": "https://nanalab.kr/eng-sensible-heat/",
+      "title": "[앱] 현열 필요열량 계산기",
+      "content_text": "상변화 없는 가열·냉각의 현열 변화량 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:24:48Z",
+      "image": "https://nanalab.kr/eng-sensible-heat/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-thermal-diffusivity",
+      "url": "https://nanalab.kr/eng-thermal-diffusivity/",
+      "title": "[앱] 열확산계수 계산기",
+      "content_text": "열전도율과 체적 열용량으로 열확산계수 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:24:40Z",
+      "image": "https://nanalab.kr/eng-thermal-diffusivity/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-nusselt-number",
+      "url": "https://nanalab.kr/eng-nusselt-number/",
+      "title": "[앱] 누셀트수 계산기",
+      "content_text": "알고 있는 대류계수를 무차원 누셀트수로 환산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:24:31Z",
+      "image": "https://nanalab.kr/eng-nusselt-number/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-prandtl-number",
+      "url": "https://nanalab.kr/eng-prandtl-number/",
+      "title": "[앱] 프란틀수 계산기",
+      "content_text": "운동량 확산과 열확산의 비율인 프란틀수 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:24:22Z",
+      "image": "https://nanalab.kr/eng-prandtl-number/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-rayleigh-number",
+      "url": "https://nanalab.kr/eng-rayleigh-number/",
+      "title": "[앱] 레이리수 계산기",
+      "content_text": "자연대류에서 부력과 확산의 상대 크기를 나타내는 레이리수 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:24:13Z",
+      "image": "https://nanalab.kr/eng-rayleigh-number/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-cantilever-deflection",
+      "url": "https://nanalab.kr/eng-cantilever-deflection/",
+      "title": "[앱] 외팔보 끝 처짐 계산기",
+      "content_text": "끝에 집중하중을 받는 선형 외팔보의 자유단 처짐 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:24:05Z",
+      "image": "https://nanalab.kr/eng-cantilever-deflection/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-tube-area-inertia",
+      "url": "https://nanalab.kr/eng-tube-area-inertia/",
+      "title": "[앱] 원관 단면2차모멘트 계산기",
+      "content_text": "중공 원형 단면의 도심 지름축 단면2차모멘트 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:23:56Z",
+      "image": "https://nanalab.kr/eng-tube-area-inertia/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-spring-energy",
+      "url": "https://nanalab.kr/eng-spring-energy/",
+      "title": "[앱] 스프링 저장에너지 계산기",
+      "content_text": "평형점에서 늘이거나 압축한 선형 스프링 에너지 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:23:48Z",
+      "image": "https://nanalab.kr/eng-spring-energy/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-critical-incline",
+      "url": "https://nanalab.kr/eng-critical-incline/",
+      "title": "[앱] 미끄럼 임계경사각 계산기",
+      "content_text": "이상적인 쿨롱 마찰 모델의 미끄럼 시작 경사각 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:23:39Z",
+      "image": "https://nanalab.kr/eng-critical-incline/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-friction-stop-distance",
+      "url": "https://nanalab.kr/eng-friction-stop-distance/",
+      "title": "[앱] 마찰 정지거리 계산기",
+      "content_text": "수평면에서 일정 운동마찰만 작용하는 정지거리 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:23:30Z",
+      "image": "https://nanalab.kr/eng-friction-stop-distance/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-center-of-mass",
+      "url": "https://nanalab.kr/eng-center-of-mass/",
+      "title": "[앱] 두 물체 질량중심 계산기",
+      "content_text": "공통 원점을 기준으로 두 점질량의 1차원 질량중심 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:23:22Z",
+      "image": "https://nanalab.kr/eng-center-of-mass/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-series-spring",
+      "url": "https://nanalab.kr/eng-series-spring/",
+      "title": "[앱] 직렬 스프링 등가강성 계산기",
+      "content_text": "두 선형 스프링을 직렬로 연결한 등가 강성 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:23:13Z",
+      "image": "https://nanalab.kr/eng-series-spring/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-impulse",
+      "url": "https://nanalab.kr/eng-impulse/",
+      "title": "[앱] 평균힘 충격량 계산기",
+      "content_text": "같은 축의 평균힘과 작용 시간으로 충격량 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:23:04Z",
+      "image": "https://nanalab.kr/eng-impulse/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-projectile-range",
+      "url": "https://nanalab.kr/eng-projectile-range/",
+      "title": "[앱] 경사 투사 도달거리 계산기",
+      "content_text": "같은 높이로 돌아오는 이상적인 포물선 투사 거리 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:22:56Z",
+      "image": "https://nanalab.kr/eng-projectile-range/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-free-fall-time",
+      "url": "https://nanalab.kr/eng-free-fall-time/",
+      "title": "[앱] 자유낙하 시간 계산기",
+      "content_text": "정지 상태에서 일정 중력으로 낙하하는 시간 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:22:48Z",
+      "image": "https://nanalab.kr/eng-free-fall-time/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-gas-rms-speed",
+      "url": "https://nanalab.kr/eng-gas-rms-speed/",
+      "title": "[앱] 기체 분자 RMS 속력 계산기",
+      "content_text": "이상기체 분자 병진운동의 RMS 속력 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:22:39Z",
+      "image": "https://nanalab.kr/eng-gas-rms-speed/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-de-broglie",
+      "url": "https://nanalab.kr/eng-de-broglie/",
+      "title": "[앱] 드브로이 파장 계산기",
+      "content_text": "입자 운동량으로 물질파 파장 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:22:30Z",
+      "image": "https://nanalab.kr/eng-de-broglie/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-relativistic-energy",
+      "url": "https://nanalab.kr/eng-relativistic-energy/",
+      "title": "[앱] 상대론 운동에너지 계산기",
+      "content_text": "광속에 가까운 물체의 병진 운동에너지 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:22:22Z",
+      "image": "https://nanalab.kr/eng-relativistic-energy/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-lorentz-factor",
+      "url": "https://nanalab.kr/eng-lorentz-factor/",
+      "title": "[앱] 로런츠 인자 계산기",
+      "content_text": "특수상대론 속력에 따른 로런츠 인자 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:22:13Z",
+      "image": "https://nanalab.kr/eng-lorentz-factor/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-schwarzschild-radius",
+      "url": "https://nanalab.kr/eng-schwarzschild-radius/",
+      "title": "[앱] 슈바르츠실트 반지름 계산기",
+      "content_text": "비회전·무전하 블랙홀 모델의 사건지평선 반지름 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:22:04Z",
+      "image": "https://nanalab.kr/eng-schwarzschild-radius/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-gravity-at-radius",
+      "url": "https://nanalab.kr/eng-gravity-at-radius/",
+      "title": "[앱] 천체 중력가속도 계산기",
+      "content_text": "구대칭 천체 바깥에서 거리별 중력가속도 크기 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:21:55Z",
+      "image": "https://nanalab.kr/eng-gravity-at-radius/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-gravitational-energy",
+      "url": "https://nanalab.kr/eng-gravitational-energy/",
+      "title": "[앱] 중력 위치에너지 계산기",
+      "content_text": "무한대를 기준으로 한 천체 중력 위치에너지 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:21:47Z",
+      "image": "https://nanalab.kr/eng-gravitational-energy/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-hohmann-delta-v",
+      "url": "https://nanalab.kr/eng-hohmann-delta-v/",
+      "title": "[앱] 호만 전이 총 델타V 계산기",
+      "content_text": "같은 평면의 원궤도 사이 이상적인 2회 기동 속력 변화량 합계 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:21:39Z",
+      "image": "https://nanalab.kr/eng-hohmann-delta-v/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-orbital-period",
+      "url": "https://nanalab.kr/eng-orbital-period/",
+      "title": "[앱] 원궤도 공전주기 계산기",
+      "content_text": "중심 천체 주위를 도는 이상 원궤도 공전시간 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:21:30Z",
+      "image": "https://nanalab.kr/eng-orbital-period/og.png"
+    },
+    {
+      "id": "urn:nanalab:apps:eng-escape-speed",
+      "url": "https://nanalab.kr/eng-escape-speed/",
+      "title": "[앱] 탈출속도 계산기",
+      "content_text": "천체 중력장을 벗어나는 최소 초기 속력 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "공학·계산"
+      ],
+      "date_published": "2026-10-25T05:21:22Z",
+      "image": "https://nanalab.kr/eng-escape-speed/og.png"
+    },
+    {
       "id": "urn:nanalab:apps:eng-spring-damping-ratio",
       "url": "https://nanalab.kr/eng-spring-damping-ratio/",
       "title": "[앱] 질량 스프링 감쇠비 계산기",
@@ -606,384 +1206,6 @@
       ],
       "date_published": "2026-10-25T00:58:55Z",
       "image": "https://nanalab.kr/eng-reynolds/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:cat-naps",
-      "url": "https://nanalab.kr/cat-naps/",
-      "title": "[앱] 까다로운 고양이 6마리, 전부 재울 수 있을까?",
-      "content_text": "여섯 고양이의 조건을 살피며 모두 잠들 수 있는 자리를 찾아보세요.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "재미·라이프"
-      ],
-      "date_published": "2026-10-24T21:18:42Z",
-      "image": "https://nanalab.kr/cat-naps/og/default.jpg"
-    },
-    {
-      "id": "urn:nanalab:apps:line-copy",
-      "url": "https://nanalab.kr/line-copy/",
-      "title": "[앱] 딱 2초 본 선, 똑같이 그릴 수 있을까?",
-      "content_text": "2초 동안 본 선의 길이를 기억하고 똑같이 그려 보세요.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "재미·라이프"
-      ],
-      "date_published": "2026-10-24T21:18:39Z",
-      "image": "https://nanalab.kr/line-copy/og/default.jpg"
-    },
-    {
-      "id": "urn:nanalab:apps:next-life-stats",
-      "url": "https://nanalab.kr/next-life-stats/",
-      "title": "[앱] 다음 생에 쓸 100점, 어디에 걸어야 잘 풀릴까?",
-      "content_text": "다음 생에 쓸 100점을 나누고 나만의 결과를 확인하는 게임입니다.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "재미·라이프"
-      ],
-      "date_published": "2026-10-24T21:18:36Z",
-      "image": "https://nanalab.kr/next-life-stats/og/default.jpg"
-    },
-    {
-      "id": "urn:nanalab:apps:rain-rhythm",
-      "url": "https://nanalab.kr/rain-rhythm/",
-      "title": "[앱] 방금 본 빗방울, 같은 박자로 칠 수 있을까?",
-      "content_text": "방금 들은 빗방울의 리듬을 기억하고 같은 박자로 따라 쳐 보세요.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "재미·라이프"
-      ],
-      "date_published": "2026-10-24T21:18:34Z",
-      "image": "https://nanalab.kr/rain-rhythm/og/default.jpg"
-    },
-    {
-      "id": "urn:nanalab:apps:lunch-math",
-      "url": "https://nanalab.kr/lunch-math/",
-      "title": "[앱] 계산기 없이 점심값, 얼마나 빨리 맞힐 수 있을까?",
-      "content_text": "계산기 없이 점심값을 계산하며 암산 속도와 정확도를 확인해 보세요.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "재미·라이프"
-      ],
-      "date_published": "2026-10-24T21:18:31Z",
-      "image": "https://nanalab.kr/lunch-math/og/default.jpg"
-    },
-    {
-      "id": "urn:nanalab:apps:table-memory",
-      "url": "https://nanalab.kr/table-memory/",
-      "title": "[앱] 딱 3초 본 식탁, 얼마나 기억할 수 있을까?",
-      "content_text": "3초 동안 본 식탁을 기억해 사물의 배치를 맞혀 보세요.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "재미·라이프"
-      ],
-      "date_published": "2026-10-24T21:18:28Z",
-      "image": "https://nanalab.kr/table-memory/og/default.jpg"
-    },
-    {
-      "id": "urn:nanalab:apps:level-frame",
-      "url": "https://nanalab.kr/level-frame/",
-      "title": "[앱] 기울어진 액자, 얼마나 정확하게 고칠 수 있을까?",
-      "content_text": "기울어진 액자를 돌려 수평 감각을 확인하는 게임입니다.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "재미·라이프"
-      ],
-      "date_published": "2026-10-24T21:18:25Z",
-      "image": "https://nanalab.kr/level-frame/og/default.jpg"
-    },
-    {
-      "id": "urn:nanalab:apps:color-drop",
-      "url": "https://nanalab.kr/color-drop/",
-      "title": "[앱] 하나만 다른 색, 끝까지 찾아낼 수 있을까?",
-      "content_text": "비슷한 색 타일 사이에서 하나만 다른 색을 찾아보세요.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "재미·라이프"
-      ],
-      "date_published": "2026-10-24T21:18:22Z",
-      "image": "https://nanalab.kr/color-drop/og/default.jpg"
-    },
-    {
-      "id": "urn:nanalab:apps:body-clock",
-      "url": "https://nanalab.kr/body-clock/",
-      "title": "[앱] 시계 없이 10초, 정확히 멈출 수 있을까?",
-      "content_text": "숫자를 보지 않고 10초를 세 번 재며 나의 시간 감각을 확인하는 게임입니다.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "재미·라이프"
-      ],
-      "date_published": "2026-10-24T21:18:19Z",
-      "image": "https://nanalab.kr/body-clock/og/default.jpg"
-    },
-    {
-      "id": "urn:nanalab:apps:rebirth_biology",
-      "url": "https://nanalab.kr/rebirth_biology/",
-      "title": "[앱] 생물등록증",
-      "content_text": "다시 태어나면 어떤 생물일까? 지구 생물량으로 만나는 72개의 다음 생과 나만의 생물등록증.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "재미·라이프"
-      ],
-      "date_published": "2026-10-24T08:28:43Z",
-      "image": "https://nanalab.kr/rebirth_biology/og/default.jpg"
-    },
-    {
-      "id": "urn:nanalab:apps:ai_knowledge_tree",
-      "url": "https://mind-map.ai.kr/",
-      "title": "[앱] AI Knowledge Tree",
-      "content_text": "대기업의 의뢰로 제작하였으며, 누구든지 AI 산업의 현주소를 한눈에 확인할 수 있도록 정리한 앱입니다.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "AI·개발"
-      ],
-      "date_published": "2026-10-24T16:45:12+09:00"
-    },
-    {
-      "id": "urn:nanalab:apps:rebirth_country",
-      "url": "https://nanalab.kr/rebirth_country/",
-      "title": "[앱] 환생 여권",
-      "content_text": "다음 생에는 어느 나라에서 태어날까? 세계 인구 비례로 만나는 나의 새 나라와 여권.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "재미·라이프"
-      ],
-      "date_published": "2026-10-24T07:02:43Z",
-      "image": "https://nanalab.kr/rebirth_country/og/default.jpg"
-    },
-    {
-      "id": "urn:nanalab:apps:astra",
-      "url": "https://nanalab.kr/astra/",
-      "title": "[앱] Astra Playground",
-      "content_text": "AI 에이전트 실습용 사이트와 예제 파일을 한곳에서 만나보세요.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "AI·개발"
-      ],
-      "date_published": "2026-09-09T07:23:08Z"
-    },
-    {
-      "id": "urn:nanalab:apps:audio_edit",
-      "url": "https://nanalab.kr/audio_edit/",
-      "title": "[앱] 오디오 편집기",
-      "content_text": "오디오를 자르고 음량을 조절하거나 파일 형식을 변환하세요.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "이미지·미디어"
-      ],
-      "date_published": "2026-01-24T11:07:01Z"
-    },
-    {
-      "id": "urn:nanalab:apps:chatTemplate",
-      "url": "https://nanalab.kr/chatTemplate/",
-      "title": "[앱] 솔로 채팅",
-      "content_text": "대화의 양쪽 역할을 직접 맡아 채팅 장면을 만들어 보세요.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "재미·라이프"
-      ],
-      "date_published": "2026-01-08T02:29:39Z",
-      "image": "https://nanalab.kr/apps/img/solo_chat.png"
-    },
-    {
-      "id": "urn:nanalab:apps:ppp",
-      "url": "https://nanalab.kr/ppp/",
-      "title": "[앱] Published Prompt Portal",
-      "content_text": "도서로 출간된 프롬프트를 모아 소개하는 프롬프트 포털입니다.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "AI·개발"
-      ],
-      "date_published": "2026-01-06T05:53:58Z"
-    },
-    {
-      "id": "urn:nanalab:apps:android_webview_template",
-      "url": "https://github.com/NaNaCompany/android_webview_template",
-      "title": "[앱] Android WebView 템플릿",
-      "content_text": "설정 파일을 수정해 웹사이트를 안드로이드 앱으로 만드는 개발 템플릿입니다.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "AI·개발"
-      ],
-      "date_published": "2026-01-01T02:31:22Z"
-    },
-    {
-      "id": "urn:nanalab:apps:luck",
-      "url": "https://nanalab.kr/luck/",
-      "title": "[앱] 럭키 캐논",
-      "content_text": "참가자를 모아 행운의 주인공을 뽑는 랜덤 추첨 도구입니다.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "재미·라이프"
-      ],
-      "date_published": "2025-12-31T02:23:20Z"
-    },
-    {
-      "id": "urn:nanalab:apps:bmi",
-      "url": "https://nanalab.kr/bmi/",
-      "title": "[앱] BMI 계산기",
-      "content_text": "키와 몸무게로 체질량지수를 간편하게 계산하세요.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "생활·업무"
-      ],
-      "date_published": "2025-12-31T01:29:09Z",
-      "image": "https://nanalab.kr/apps/img/bmi.png"
-    },
-    {
-      "id": "urn:nanalab:apps:afd",
-      "url": "https://nanalab.kr/afd/",
-      "title": "[앱] 자리 비움 화면",
-      "content_text": "회의나 외출 중일 때, 현재 상태를 화면에 표시해 두세요.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "생활·업무"
-      ],
-      "date_published": "2025-12-31T00:52:25Z",
-      "image": "https://nanalab.kr/apps/img/afd.png"
-    },
-    {
-      "id": "urn:nanalab:apps:merge_pdf",
-      "url": "https://nanalab.kr/merge_pdf/",
-      "title": "[앱] PDF 합치기",
-      "content_text": "흩어진 PDF 파일을 원하는 순서로 모아 하나의 문서로 만드세요.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "문서·텍스트"
-      ],
-      "date_published": "2025-12-31T00:36:06Z",
-      "image": "https://nanalab.kr/apps/img/merge_pdf.png"
-    },
-    {
-      "id": "urn:nanalab:apps:doc_summarizer",
-      "url": "https://nanalab.kr/doc_summarizer/",
-      "title": "[앱] 문서 요약기",
-      "content_text": "긴 문서를 읽고 핵심 내용을 정리하는 데 도움을 주는 도구입니다.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "문서·텍스트"
-      ],
-      "date_published": "2025-12-29T12:25:25Z",
-      "image": "https://nanalab.kr/apps/img/doc_summary.jpg"
-    },
-    {
-      "id": "urn:nanalab:apps:lipsum",
-      "url": "https://nanalab.kr/lipsum/",
-      "title": "[앱] 더미 텍스트 생성기",
-      "content_text": "디자인과 문서 작업에 필요한 예시 텍스트를 만들어 보세요.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "문서·텍스트"
-      ],
-      "date_published": "2025-12-29T11:58:31Z",
-      "image": "https://nanalab.kr/apps/img/lipsum.png"
-    },
-    {
-      "id": "urn:nanalab:apps:doc_stat",
-      "url": "https://nanalab.kr/doc_stat/",
-      "title": "[앱] 문서 분석기",
-      "content_text": "PDF와 DOCX의 페이지 수, 단어 수 등 문서 정보를 확인하세요.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "문서·텍스트"
-      ],
-      "date_published": "2025-12-29T11:32:08Z",
-      "image": "https://nanalab.kr/apps/img/doc_stat.png"
-    },
-    {
-      "id": "urn:nanalab:apps:count_words",
-      "url": "https://nanalab.kr/count_words/",
-      "title": "[앱] 글자 수 세기",
-      "content_text": "한글 글자 수와 바이트를 확인하고, 작성한 글의 분량을 살펴보세요.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "문서·텍스트"
-      ],
-      "date_published": "2025-12-29T11:28:36Z",
-      "image": "https://nanalab.kr/apps/img/count_words.png"
-    },
-    {
-      "id": "urn:nanalab:apps:fortune",
-      "url": "https://nanalab.kr/fortune/",
-      "title": "[앱] 오늘의 운세",
-      "content_text": "오늘은 어떤 하루가 될까요? 가볍게 운세를 확인해 보세요.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "재미·라이프"
-      ],
-      "date_published": "2025-12-29T11:12:13Z",
-      "image": "https://nanalab.kr/apps/img/fortune.png"
-    },
-    {
-      "id": "urn:nanalab:apps:gif_studio",
-      "url": "https://nanalab.kr/gif_studio/",
-      "title": "[앱] GIF 스튜디오",
-      "content_text": "GIF의 크기, 자르기, 회전과 용량 최적화를 한곳에서 처리하세요.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "이미지·미디어"
-      ],
-      "date_published": "2025-12-27T11:41:24Z",
-      "image": "https://nanalab.kr/apps/img/gif_studio.png"
-    },
-    {
-      "id": "urn:nanalab:apps:video_2_gif",
-      "url": "https://nanalab.kr/video_2_gif/",
-      "title": "[앱] 동영상을 GIF로",
-      "content_text": "동영상에서 필요한 순간을 골라 움직이는 GIF로 만드세요.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "이미지·미디어"
-      ],
-      "date_published": "2025-12-27T04:22:03Z",
-      "image": "https://nanalab.kr/apps/img/video_to_gif.png"
-    },
-    {
-      "id": "urn:nanalab:apps:image_resize",
-      "url": "https://nanalab.kr/image_resize/",
-      "title": "[앱] 이미지 리사이저",
-      "content_text": "이미지의 크기와 비율을 바꾸고 필요한 부분만 잘라내세요.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "이미지·미디어"
-      ],
-      "date_published": "2025-12-26T18:05:57Z",
-      "image": "https://nanalab.kr/apps/img/image_resize.png"
-    },
-    {
-      "id": "urn:nanalab:apps:doc_compress",
-      "url": "https://nanalab.kr/doc_compress/",
-      "title": "[앱] 문서 압축",
-      "content_text": "PDF와 오피스 문서, 이미지의 용량을 줄이는 도구입니다.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "문서·텍스트"
-      ],
-      "date_published": "2025-12-26T12:20:24Z",
-      "image": "https://nanalab.kr/apps/img/doc_compress.png"
-    },
-    {
-      "id": "urn:nanalab:apps:qr",
-      "url": "https://nanalab.kr/qr/",
-      "title": "[앱] QR 코드 생성기",
-      "content_text": "링크를 공유하기 쉬운 나만의 QR 코드로 만들어 보세요.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "생활·업무"
-      ],
-      "date_published": "2025-12-26T12:05:00Z",
-      "image": "https://nanalab.kr/apps/img/qr.png"
-    },
-    {
-      "id": "urn:nanalab:apps:smart_calculator",
-      "url": "https://nanalab.kr/smart_calculator/",
-      "title": "[앱] 스마트 계산기",
-      "content_text": "일반 계산부터 환율 계산까지. 음성 입력과 계산 기록을 함께 활용하세요.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "생활·업무"
-      ],
-      "date_published": "2025-12-17T14:23:34Z",
-      "image": "https://nanalab.kr/apps/img/smart_calculator.png"
     }
   ]
 }

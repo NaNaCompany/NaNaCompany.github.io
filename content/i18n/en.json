@@ -1,0 +1,818 @@
+{
+  "ui": {
+    "Services": "Services",
+    "About": "About",
+    "Customers": "Customers",
+    "Process": "Process",
+    "Apps": "Apps",
+    "Lectures": "Lectures",
+    "Research": "Research",
+    "Contact": "Contact",
+    "Contact Us": "Contact us",
+    "AI for Every Business": "AI for Every Business",
+    "We can help your business to be more successful with powerful AI": "We help your business succeed with powerful AI.",
+    "Your browser does not support the video tag.": "Your browser does not support video playback.",
+    "Key Services": "Key services",
+    "연구개발과제 협력": "R&D collaboration",
+    "R&D과제의 성공적인 수행과 지표달성, 특허출원을 지원합니다.": "We support R&D delivery, performance targets and patent applications.",
+    "AI 관련 컨설팅": "AI consulting",
+    "AI분야의 기술자문, AI 도입과 관련된 사업기획 자문을 제공합니다.": "Technical advice on AI and business planning for AI adoption.",
+    "PoC 과제 수행": "Proof of concept",
+    "아이디어를 빠르게 검증하기 위한 6개월 내외 규모의 PoC 과제를 수행합니다.": "We run proof-of-concept projects of around six months to validate ideas quickly.",
+    "업무용 AI 시제품 구현": "AI prototypes for work",
+    "임직원의 효율적인 업무수행을 위한 AI플랫폼의 시제품을 구현합니다.": "We build AI platform prototypes that help employees work efficiently.",
+    "평가보고서 작성": "Evaluation reports",
+    "AI관련 사업계획서의 타당성 검증 및 검토의견보고서를 작성해드립니다.": "We review the feasibility of AI business plans and prepare evaluation reports.",
+    "AI 활용 교육": "Practical AI training",
+    "고객사의 업무수행분야에 가장 적합한 방향으로, 임직원의 생성형 AI 활용 교육을 제공합니다.": "Generative AI training tailored to the work your employees do.",
+    "AI Engineer, CEO": "AI engineer, CEO",
+    "🚀 상상텃밭(주) 前 CTO (2018. ~ 2024.)": "🚀 Former CTO, SangSang Farm (2018–2024)",
+    "✒️ 저서 36건": "✒️ 36 books",
+    "💡 특허·실용신안 출원 34건": "💡 34 patent and utility model applications",
+    "🔬 논문·연구 28건 (프리프린트 포함)": "🔬 28 papers and studies, including preprints",
+    "🎓 KAIST 바이오및뇌공학과 학사/석사 조기졸업": "🎓 Early completion of BSc and MSc, Bio and Brain Engineering, KAIST",
+    "📜 행정안전부 장관 표창 수상": "📜 Commendation from Korea’s Minister of the Interior and Safety",
+    "🕶️ 한국인 최초": "🕶️ First Korean",
+    "국제IQ만점자협회(LPS)": "LPS high-IQ society",
+    "정회원": "full member",
+    "협업/자문/교육사례": "Collaboration, consulting and training",
+    "공공기관": "Public institutions",
+    "기업": "Companies",
+    "교육기관": "Education",
+    "연구기관": "Research institutes",
+    "출연연": "Research institutes",
+    "컨퍼런스": "Conferences",
+    "협업 과정": "How we work together",
+    "Discover": "Discover",
+    "고객사 니즈 정의": "Define your needs",
+    "Plan": "Plan",
+    "과업 범위 협상, 수행계획안 수립": "Agree on scope and prepare a delivery plan",
+    "Work": "Work",
+    "과업 성실 수행": "Carry out the agreed work",
+    "Finish": "Deliver",
+    "산출물 납품": "Deliver the results",
+    "전체": "All",
+    "생활·업무": "Everyday & work",
+    "문서·텍스트": "Documents & text",
+    "이미지·미디어": "Images & media",
+    "재미·실험": "Fun & experiments",
+    "AI·개발": "AI & development",
+    "공학·계산": "Engineering & calculations",
+    "최신 앱부터 만나보세요. 작업에 꼭 맞는 도구를 찾아보세요.": "Explore the newest apps and find the right tool for your task.",
+    "필요한 웹앱과 도구를 한곳에서 만나보세요.": "Web apps and useful tools in one place.",
+    "앱 이름 또는 기능 검색": "Search by app name or function",
+    "어떤 도구를 찾으세요?": "What tool are you looking for?",
+    "앱 분류": "App categories",
+    "앱 열기": "Open app",
+    "템플릿 보기": "View template",
+    "개발 템플릿": "Development template",
+    "일치하는 도구가 없습니다.": "No matching tools.",
+    "다른 검색어를 입력하거나 분류를 바꿔 보세요.": "Try another search or category.",
+    "전체 도구 보기": "Show all tools",
+    "강의·출강 이력 전체 · 최신 강의순": "All lectures and speaking engagements · newest first",
+    "강의·출강 이력": "Lectures and speaking engagements",
+    "강연 제목·기관·연도 검색": "Search by lecture, institution or year",
+    "기관명 또는 주제 검색": "Search institutions or topics",
+    "강의 기관 분류": "Institution categories",
+    "일치하는 강연이 없습니다. 검색어나 기관 분류를 바꿔 보세요.": "No matching lectures. Try another search or institution category.",
+    "R&D 분류": "Research categories",
+    "논문·특허·개발 프로젝트 전체": "All papers, patents and development projects",
+    "논문·특허·개발 프로젝트": "Papers, patents and development projects",
+    "논문·연구": "Papers & studies",
+    "특허·실용신안": "Patents & utility models",
+    "개발 프로젝트": "Development projects",
+    "링크 열기": "Open link",
+    "출처:": "Source:",
+    "반병현 공식 홈페이지 bhban.kr": "Byunghyun Ban’s official website, bhban.kr",
+    "· 원본 섹션의 정적 스냅샷이며, 원문 자료는 출처 사이트로 연결됩니다.": "· Static snapshots of the original sections; document links lead to the source.",
+    "나나랩과 함께 혁신을 준비하세요!": "Build your next idea with NaNa Lab.",
+    "Name": "Name",
+    "Institution": "Institution",
+    "Phone Number": "Phone number",
+    "Email": "Email",
+    "Title": "Subject",
+    "Message": "Message",
+    "이름을 입력해주세요": "Enter your name",
+    "소속 기관명을 입력해주세요": "Enter your institution",
+    "국가 선택": "Country code",
+    "직접입력": "Enter manually",
+    "이메일을 입력해주세요": "Enter your email",
+    "제목을 입력해주세요": "Enter a subject",
+    "문의하실 내용을 남겨주세요": "Tell us about your enquiry",
+    "문의 보내기": "Send enquiry",
+    "전송 중... (Sending...)": "Sending…",
+    "문의가 성공적으로 전송되었습니다! (Email sent successfully!)": "Your enquiry has been sent.",
+    "메일 전송에 실패했습니다:": "Could not send the message:",
+    "NaNa Lab은 주식회사 나나컴퍼니의 영업권 일부를 치즈케익스튜디오가 양수하여 운영하는 사업부입니다.": "NaNa Lab is a division operated by Cheesecake Studio, which acquired part of NaNa Company’s business rights.",
+    "(주)나나컴퍼니 대표이사 반병현. 사업자등록번호: 456-81-03285": "NaNa Company · CEO Byunghyun Ban · Business registration: 456-81-03285",
+    "치즈케익스튜디오 대표자 반병현, 사업자등록번호: 269-08-02374": "Cheesecake Studio · Byunghyun Ban · Business registration: 269-08-02374",
+    "개인정보처리방침": "Privacy policy",
+    "구독·데이터": "Feeds & data",
+    "RSS · JSON Feed · 공개 JSON": "RSS · JSON Feed · public JSON",
+    "구독 피드": "Subscription feeds",
+    "통합 업데이트": "All updates",
+    "앱": "Apps",
+    "강의": "Lectures",
+    "연구": "Research",
+    "논문": "Papers",
+    "특허": "Patents",
+    "프로젝트": "Projects",
+    "연구 통합": "All research",
+    "조회용 JSON": "Public JSON catalogs",
+    "전체 엔드포인트·개수·스키마 버전": "All endpoints, counts and schema version",
+    "날짜와 출처": "Dates & sources",
+    "Toggle navigation": "Toggle navigation",
+    "재미·라이프": "Fun & life",
+    "미리보기 PDF (1쪽)": "Preview PDF (1 page)",
+    "아래 주소를 RSS 리더에 등록하세요. RSS 2.0과 JSON Feed 1.1을 제공합니다. 통합 피드는 최근 200건, 분야별 피드는 최근 100건입니다.": "Add these URLs to your feed reader. RSS 2.0 and JSON Feed 1.1 are available. The combined feed contains the latest 200 records; each section feed contains 100.",
+    "전체 목록을 정적 JSON으로 제공합니다. 별도 로그인이나 API 키 없이 GET 요청으로 읽을 수 있습니다. 응답의": "Complete catalogs are available as static JSON, readable with GET requests without a login or API key. The response field",
+    "가 목록이며": "contains the list;",
+    "가 항목 수입니다.": "is the number of records.",
+    "앱은 등록 원본의 공개 시각, 강의·특허는 원문에 적힌 일정을 사용합니다. 일자만 있는 자료는 한국 시간 00:00으로 표현합니다. 연도만 확인되는 자료에는 정확한 게시 일시를 넣지 않습니다. 날짜를 모르는 항목은 뒤에 정렬합니다. 재빌드만으로 ID나 게시 시각이 바뀌지 않습니다.": "Apps use the source publication time; lectures and patents use their recorded dates. Date-only records use midnight in Korea. Year-only records have no invented precise timestamp. Undated records follow dated records. Rebuilding does not change IDs or publication times.",
+    "강의·연구 자료의 원본 출처는": "The original source of lecture and research records is",
+    "입니다. 논문·프리프린트 구분과 인용·원문 링크를 확인하세요. 공개 API 제공은 원문 자료의 이용 조건을 변경하지 않습니다.": ". Check publication and preprint labels, citations and original links. Public API access does not change the original documents’ terms of use.",
+    "모든 파일은 사이트 빌드 때 함께 갱신됩니다. JSON Feed는 호스팅 환경에 따라": "All files are updated during the site build. Depending on hosting, JSON Feed may use",
+    "으로 응답할 수 있으며 JSON Feed 1.1에서 허용하는 방식입니다.": ", which JSON Feed 1.1 permits.",
+    "Web app": "Web app",
+    "apps & tools": "apps & tools"
+  },
+  "apps": {
+    "smart_calculator": {
+      "name": "Smart Calculator",
+      "description": "Everyday calculations and currency conversion, with voice input and calculation history.",
+      "image_alt": "Smart Calculator"
+    },
+    "qr": {
+      "name": "QR Code Generator",
+      "description": "Turn a link into your own QR code for easy sharing.",
+      "image_alt": "QR Code Generator"
+    },
+    "count_words": {
+      "name": "Character Counter",
+      "description": "Check Korean character counts and bytes to measure the length of your writing.",
+      "image_alt": "Character Counter"
+    },
+    "image_resize": {
+      "name": "Image Resizer",
+      "description": "Resize images, change their proportions and crop the parts you need.",
+      "image_alt": "Image Resizer"
+    },
+    "merge_pdf": {
+      "name": "Merge PDF",
+      "description": "Combine PDF files into one document in the order you choose.",
+      "image_alt": "Merge PDF"
+    },
+    "doc_compress": {
+      "name": "Document Compressor",
+      "description": "Reduce the size of PDF files, office documents and images.",
+      "image_alt": "Document Compressor"
+    },
+    "doc_stat": {
+      "name": "Document Analyzer",
+      "description": "Inspect page counts, word counts and other PDF and DOCX document information.",
+      "image_alt": "Document Analyzer"
+    },
+    "doc_summarizer": {
+      "name": "Document Summarizer",
+      "description": "A tool to help you read long documents and organize their main points.",
+      "image_alt": "Document Summarizer"
+    },
+    "lipsum": {
+      "name": "Dummy Text Generator",
+      "description": "Generate sample text for design layouts and document drafts.",
+      "image_alt": "Dummy Text Generator"
+    },
+    "gif_studio": {
+      "name": "GIF Studio",
+      "description": "Resize, crop, rotate and optimize GIF files in one place.",
+      "image_alt": "GIF Studio"
+    },
+    "video_2_gif": {
+      "name": "Video to GIF",
+      "description": "Select a moment from a video and turn it into an animated GIF.",
+      "image_alt": "Video to GIF"
+    },
+    "audio_edit": {
+      "name": "Audio Editor",
+      "description": "Trim audio, adjust volume and convert file formats.",
+      "image_alt": "Audio Editor"
+    },
+    "afd": {
+      "name": "Away Screen",
+      "description": "Display your current status while you are away or in a meeting.",
+      "image_alt": "Away Screen"
+    },
+    "bmi": {
+      "name": "BMI Calculator",
+      "description": "Calculate body mass index from height and weight.",
+      "image_alt": "BMI Calculator"
+    },
+    "fortune": {
+      "name": "Today’s Fortune",
+      "description": "See what today might bring with a lighthearted fortune reading.",
+      "image_alt": "Today’s Fortune"
+    },
+    "luck": {
+      "name": "Lucky Cannon",
+      "description": "Gather participants and randomly draw a lucky winner.",
+      "image_alt": "Lucky Cannon"
+    },
+    "chatTemplate": {
+      "name": "Solo Chat",
+      "description": "Play both sides of a conversation to create your own chat scene.",
+      "image_alt": "Solo Chat"
+    },
+    "ppp": {
+      "name": "Published Prompt Portal",
+      "description": "Browse prompts collected from published books.",
+      "image_alt": "Published Prompt Portal"
+    },
+    "astra": {
+      "name": "Astra Playground",
+      "description": "Practice AI agents with exercise sites and example files in one place.",
+      "image_alt": "Astra Playground"
+    },
+    "android_webview_template": {
+      "name": "Android WebView Template",
+      "description": "Edit a configuration file to turn a website into an Android app.",
+      "image_alt": "Android WebView Template"
+    },
+    "rebirth_country": {
+      "name": "Rebirth Passport",
+      "description": "Where will you be born next? Discover a new country and passport based on world population shares.",
+      "image_alt": "Rebirth Passport"
+    },
+    "ai_knowledge_tree": {
+      "name": "AI Knowledge Tree",
+      "description": "Commissioned by a large corporation, this app helps anyone see the current state of the AI industry at a glance.",
+      "image_alt": "AI Knowledge Tree"
+    },
+    "rebirth_biology": {
+      "name": "Rebirth Life ID",
+      "description": "What organism will you become? Discover 72 possible next lives based on Earth’s biomass, with your own life ID.",
+      "image_alt": "Rebirth Life ID"
+    },
+    "body-clock": {
+      "name": "Can You Feel Ten Seconds?",
+      "description": "Estimate ten seconds three times without watching a clock to test your sense of time.",
+      "image_alt": "Can You Feel Ten Seconds?"
+    },
+    "color-drop": {
+      "name": "Find the Different Color",
+      "description": "Find the one different color among similar tiles.",
+      "image_alt": "Find the Different Color"
+    },
+    "level-frame": {
+      "name": "Straighten the Frame",
+      "description": "Rotate a tilted frame to test your sense of level.",
+      "image_alt": "Straighten the Frame"
+    },
+    "table-memory": {
+      "name": "Three-Second Table Memory",
+      "description": "Look at a table for three seconds, then reproduce the arrangement of its objects.",
+      "image_alt": "Three-Second Table Memory"
+    },
+    "lunch-math": {
+      "name": "Mental Lunch Math",
+      "description": "Calculate lunch bills without a calculator to test mental speed and accuracy.",
+      "image_alt": "Mental Lunch Math"
+    },
+    "rain-rhythm": {
+      "name": "Repeat the Rain Rhythm",
+      "description": "Remember the rhythm of raindrops you just heard and repeat it.",
+      "image_alt": "Repeat the Rain Rhythm"
+    },
+    "next-life-stats": {
+      "name": "100 Points for Your Next Life",
+      "description": "Allocate 100 points for your next life and discover your personal result.",
+      "image_alt": "100 Points for Your Next Life"
+    },
+    "line-copy": {
+      "name": "Copy the Line from Memory",
+      "description": "Memorize a line for two seconds and redraw it at the same length.",
+      "image_alt": "Copy the Line from Memory"
+    },
+    "cat-naps": {
+      "name": "Put All Six Cats to Sleep",
+      "description": "Find sleeping places that satisfy the preferences of all six picky cats.",
+      "image_alt": "Put All Six Cats to Sleep"
+    },
+    "eng-reynolds": {
+      "name": "Reynolds Number Calculator",
+      "description": "Check flow similarity in pipe experiments and scale models.",
+      "image_alt": "Reynolds Number Calculator"
+    },
+    "eng-mach": {
+      "name": "Mach Number Calculator",
+      "description": "Compare flow speed with the local speed of sound in wind tunnels and nozzles.",
+      "image_alt": "Mach Number Calculator"
+    },
+    "eng-dynamic-pressure": {
+      "name": "Dynamic Pressure Calculator",
+      "description": "Check dynamic pressure before estimating wind-tunnel loads and coefficients.",
+      "image_alt": "Dynamic Pressure Calculator"
+    },
+    "eng-volume-flow": {
+      "name": "Volume Flow Rate Calculator",
+      "description": "Check flow through a pipe or ventilation opening using its cross-sectional area.",
+      "image_alt": "Volume Flow Rate Calculator"
+    },
+    "eng-mass-flow": {
+      "name": "Mass Flow Rate Calculator",
+      "description": "Convert volumetric flow to mass flow for gas supply and material balances.",
+      "image_alt": "Mass Flow Rate Calculator"
+    },
+    "eng-hydrostatic-pressure": {
+      "name": "Hydrostatic Gauge Pressure Calculator",
+      "description": "Check liquid-column pressure in tanks and hydrostatic experiments.",
+      "image_alt": "Hydrostatic Gauge Pressure Calculator"
+    },
+    "eng-laminar-pipe-drop": {
+      "name": "Laminar Pipe Pressure Drop Calculator",
+      "description": "Check Hagen–Poiseuille pressure loss in microchannels and laminar-flow experiments.",
+      "image_alt": "Laminar Pipe Pressure Drop Calculator"
+    },
+    "eng-hydraulic-power": {
+      "name": "Hydraulic Pressure Power Calculator",
+      "description": "Check the rate of pressure work from pressure rise and flow rate.",
+      "image_alt": "Hydraulic Pressure Power Calculator"
+    },
+    "eng-kinematic-viscosity": {
+      "name": "Kinematic Viscosity Calculator",
+      "description": "Convert dynamic viscosity to kinematic viscosity without mixing their units.",
+      "image_alt": "Kinematic Viscosity Calculator"
+    },
+    "eng-drag-force": {
+      "name": "Drag Force Calculator",
+      "description": "Check a drag load using a known wind-tunnel drag coefficient.",
+      "image_alt": "Drag Force Calculator"
+    },
+    "eng-wall-conduction": {
+      "name": "Plane Wall Conduction Calculator",
+      "description": "Check heat conduction through a wall or insulation specimen.",
+      "image_alt": "Plane Wall Conduction Calculator"
+    },
+    "eng-convection-heat": {
+      "name": "Surface Convection Calculator",
+      "description": "Apply Newton's law of cooling to a surface with a known convection coefficient.",
+      "image_alt": "Surface Convection Calculator"
+    },
+    "eng-radiation-heat": {
+      "name": "Net Radiation Heat Transfer Calculator",
+      "description": "Check radiative heat loss between a small gray surface and large surroundings.",
+      "image_alt": "Net Radiation Heat Transfer Calculator"
+    },
+    "eng-thermal-expansion": {
+      "name": "Linear Thermal Expansion Calculator",
+      "description": "Check free length change in a metal rod or an assembly clearance.",
+      "image_alt": "Linear Thermal Expansion Calculator"
+    },
+    "eng-carnot-efficiency": {
+      "name": "Carnot Efficiency Limit Calculator",
+      "description": "Check the theoretical efficiency limit for a heat engine between two reservoirs.",
+      "image_alt": "Carnot Efficiency Limit Calculator"
+    },
+    "eng-carnot-cop": {
+      "name": "Carnot Refrigerator COP Calculator",
+      "description": "Check the ideal refrigeration coefficient of performance between two reservoirs.",
+      "image_alt": "Carnot Refrigerator COP Calculator"
+    },
+    "eng-wire-resistance": {
+      "name": "Wire DC Resistance Calculator",
+      "description": "Check conductor resistance from resistivity, length and cross-sectional area.",
+      "image_alt": "Wire DC Resistance Calculator"
+    },
+    "eng-plate-capacitance": {
+      "name": "Parallel Plate Capacitance Calculator",
+      "description": "Check ideal capacitance for a sensor or a dielectric experiment.",
+      "image_alt": "Parallel Plate Capacitance Calculator"
+    },
+    "eng-solenoid-inductance": {
+      "name": "Long Air Core Solenoid Calculator",
+      "description": "Check an initial inductance estimate for a long air core coil.",
+      "image_alt": "Long Air Core Solenoid Calculator"
+    },
+    "eng-rc-time": {
+      "name": "RC Time Constant Calculator",
+      "description": "Check the time constant of a first-order charging or filter circuit.",
+      "image_alt": "RC Time Constant Calculator"
+    },
+    "eng-rl-time": {
+      "name": "RL Time Constant Calculator",
+      "description": "Check the current response time constant of a first-order coil circuit.",
+      "image_alt": "RL Time Constant Calculator"
+    },
+    "eng-capacitive-reactance": {
+      "name": "Capacitive Reactance Calculator",
+      "description": "Check the magnitude of ideal capacitor reactance at a sinusoidal frequency.",
+      "image_alt": "Capacitive Reactance Calculator"
+    },
+    "eng-inductive-reactance": {
+      "name": "Inductive Reactance Calculator",
+      "description": "Check ideal inductive reactance at a chosen sinusoidal frequency.",
+      "image_alt": "Inductive Reactance Calculator"
+    },
+    "eng-lc-resonance": {
+      "name": "LC Resonance Frequency Calculator",
+      "description": "Check the ideal resonance frequency for a filter or resonance experiment.",
+      "image_alt": "LC Resonance Frequency Calculator"
+    },
+    "eng-voltage-divider": {
+      "name": "Unloaded Voltage Divider Calculator",
+      "description": "Check an ideal resistive divider before connecting an ADC or sensor load.",
+      "image_alt": "Unloaded Voltage Divider Calculator"
+    },
+    "eng-power-db": {
+      "name": "Power Gain in Decibels Calculator",
+      "description": "Check a power ratio for an amplifier or a link loss budget.",
+      "image_alt": "Power Gain in Decibels Calculator"
+    },
+    "eng-rotation-energy": {
+      "name": "Rotational Kinetic Energy Calculator",
+      "description": "Check stored rotation energy in a flywheel or a rigid rotor.",
+      "image_alt": "Rotational Kinetic Energy Calculator"
+    },
+    "eng-shaft-power": {
+      "name": "Shaft Torque Power Calculator",
+      "description": "Check mechanical shaft power from signed torque and rotation speed.",
+      "image_alt": "Shaft Torque Power Calculator"
+    },
+    "eng-centripetal-acceleration": {
+      "name": "Centripetal Acceleration Calculator",
+      "description": "Check the normal acceleration component in a circular-motion experiment.",
+      "image_alt": "Centripetal Acceleration Calculator"
+    },
+    "eng-spring-frequency": {
+      "name": "Mass Spring Natural Frequency Calculator",
+      "description": "Check the undamped natural frequency of a linear vibration model.",
+      "image_alt": "Mass Spring Natural Frequency Calculator"
+    },
+    "eng-pendulum-period": {
+      "name": "Small Angle Pendulum Period Calculator",
+      "description": "Check a simple pendulum period for basic gravity and vibration experiments.",
+      "image_alt": "Small Angle Pendulum Period Calculator"
+    },
+    "eng-axial-stress": {
+      "name": "Average Axial Stress Calculator",
+      "description": "Check average axial stress in a specimen or a bar.",
+      "image_alt": "Average Axial Stress Calculator"
+    },
+    "eng-shaft-shear": {
+      "name": "Solid Circular Shaft Shear Stress Calculator",
+      "description": "Check maximum torsional shear stress for an initial shaft diameter.",
+      "image_alt": "Solid Circular Shaft Shear Stress Calculator"
+    },
+    "eng-axial-extension": {
+      "name": "Axial Bar Extension Calculator",
+      "description": "Check axial length change from a known load and material modulus.",
+      "image_alt": "Axial Bar Extension Calculator"
+    },
+    "eng-restrained-thermal-stress": {
+      "name": "Fully Restrained Thermal Stress Calculator",
+      "description": "Check uniaxial thermal stress when a bar cannot expand.",
+      "image_alt": "Fully Restrained Thermal Stress Calculator"
+    },
+    "eng-bending-stress": {
+      "name": "Maximum Beam Bending Stress Calculator",
+      "description": "Convert a known bending moment to the extreme-fiber normal stress.",
+      "image_alt": "Maximum Beam Bending Stress Calculator"
+    },
+    "eng-shaft-twist": {
+      "name": "Circular Shaft Twist Angle Calculator",
+      "description": "Check twist between the ends of a uniform circular shaft.",
+      "image_alt": "Circular Shaft Twist Angle Calculator"
+    },
+    "eng-euler-buckling": {
+      "name": "Pinned Column Euler Buckling Calculator",
+      "description": "Check ideal elastic buckling load for a slender pinned column.",
+      "image_alt": "Pinned Column Euler Buckling Calculator"
+    },
+    "eng-ideal-gas-density": {
+      "name": "Ideal Gas Density Calculator",
+      "description": "Check ideal gas density from absolute pressure, molar mass and temperature.",
+      "image_alt": "Ideal Gas Density Calculator"
+    },
+    "eng-mean-free-path": {
+      "name": "Gas Mean Free Path Calculator",
+      "description": "Check a dilute gas mean free path in kinetic theory or vacuum experiments.",
+      "image_alt": "Gas Mean Free Path Calculator"
+    },
+    "eng-arrhenius-rate": {
+      "name": "Arrhenius Rate Constant Calculator",
+      "description": "Check the temperature dependence of a reaction rate constant.",
+      "image_alt": "Arrhenius Rate Constant Calculator"
+    },
+    "eng-first-order-half-life": {
+      "name": "First Order Half Life Calculator",
+      "description": "Check the half life of an ideal first-order disappearance or decay process.",
+      "image_alt": "First Order Half Life Calculator"
+    },
+    "eng-osmotic-pressure": {
+      "name": "Dilute Solution Osmotic Pressure Calculator",
+      "description": "Check osmotic pressure with the ideal dilute-solution approximation.",
+      "image_alt": "Dilute Solution Osmotic Pressure Calculator"
+    },
+    "eng-photon-energy": {
+      "name": "Photon Energy from Wavelength Calculator",
+      "description": "Convert a vacuum wavelength to single-photon energy for basic spectroscopy.",
+      "image_alt": "Photon Energy from Wavelength Calculator"
+    },
+    "eng-thin-lens-image": {
+      "name": "Thin Lens Image Distance Calculator",
+      "description": "Check signed image distance in a paraxial thin-lens model.",
+      "image_alt": "Thin Lens Image Distance Calculator"
+    },
+    "eng-aperture-resolution": {
+      "name": "Circular Aperture Resolution Calculator",
+      "description": "Check the Rayleigh diffraction angle for an ideal circular aperture.",
+      "image_alt": "Circular Aperture Resolution Calculator"
+    },
+    "eng-snell-refraction": {
+      "name": "Snell Refraction Angle Calculator",
+      "description": "Check a refracted ray angle measured from the interface normal.",
+      "image_alt": "Snell Refraction Angle Calculator"
+    },
+    "eng-fiber-numerical-aperture": {
+      "name": "Step Index Fiber Numerical Aperture Calculator",
+      "description": "Check numerical aperture from core and cladding refractive indices.",
+      "image_alt": "Step Index Fiber Numerical Aperture Calculator"
+    },
+    "eng-first-order-settling": {
+      "name": "First Order Settling Time Calculator",
+      "description": "Check waiting time for a stable first-order process or sensor response.",
+      "image_alt": "First Order Settling Time Calculator"
+    },
+    "eng-spring-damping-ratio": {
+      "name": "Mass Spring Damping Ratio Calculator",
+      "description": "Check viscous damping relative to critical damping in a linear vibration model.",
+      "image_alt": "Mass Spring Damping Ratio Calculator"
+    },
+    "eng-escape-speed": {
+      "name": "Escape Speed Calculator",
+      "description": "Calculate the minimum initial speed to escape an isolated body.",
+      "image_alt": "Escape Speed Calculator"
+    },
+    "eng-orbital-period": {
+      "name": "Circular Orbit Period Calculator",
+      "description": "Calculate the period of an ideal circular orbit.",
+      "image_alt": "Circular Orbit Period Calculator"
+    },
+    "eng-hohmann-delta-v": {
+      "name": "Hohmann Transfer Total Delta V Calculator",
+      "description": "Calculate the total impulsive speed change between coplanar circular orbits.",
+      "image_alt": "Hohmann Transfer Total Delta V Calculator"
+    },
+    "eng-gravitational-energy": {
+      "name": "Gravitational Potential Energy Calculator",
+      "description": "Calculate gravitational potential energy relative to infinity.",
+      "image_alt": "Gravitational Potential Energy Calculator"
+    },
+    "eng-gravity-at-radius": {
+      "name": "Gravity at Radius Calculator",
+      "description": "Calculate the gravitational acceleration outside a spherical body.",
+      "image_alt": "Gravity at Radius Calculator"
+    },
+    "eng-schwarzschild-radius": {
+      "name": "Schwarzschild Radius Calculator",
+      "description": "Calculate the horizon radius of a nonrotating uncharged black hole model.",
+      "image_alt": "Schwarzschild Radius Calculator"
+    },
+    "eng-lorentz-factor": {
+      "name": "Lorentz Factor Calculator",
+      "description": "Calculate the Lorentz factor from relative speed.",
+      "image_alt": "Lorentz Factor Calculator"
+    },
+    "eng-relativistic-energy": {
+      "name": "Relativistic Kinetic Energy Calculator",
+      "description": "Calculate translational kinetic energy using special relativity.",
+      "image_alt": "Relativistic Kinetic Energy Calculator"
+    },
+    "eng-de-broglie": {
+      "name": "De Broglie Wavelength Calculator",
+      "description": "Calculate a matter-wave wavelength from momentum.",
+      "image_alt": "De Broglie Wavelength Calculator"
+    },
+    "eng-gas-rms-speed": {
+      "name": "Gas Molecular RMS Speed Calculator",
+      "description": "Calculate the RMS translational molecular speed of an ideal gas.",
+      "image_alt": "Gas Molecular RMS Speed Calculator"
+    },
+    "eng-free-fall-time": {
+      "name": "Free Fall Time Calculator",
+      "description": "Calculate fall time from rest in uniform gravity.",
+      "image_alt": "Free Fall Time Calculator"
+    },
+    "eng-projectile-range": {
+      "name": "Projectile Range Calculator",
+      "description": "Calculate ideal projectile range when launch and landing heights match.",
+      "image_alt": "Projectile Range Calculator"
+    },
+    "eng-impulse": {
+      "name": "Average Force Impulse Calculator",
+      "description": "Calculate one-dimensional impulse from average force and duration.",
+      "image_alt": "Average Force Impulse Calculator"
+    },
+    "eng-series-spring": {
+      "name": "Series Spring Stiffness Calculator",
+      "description": "Calculate the equivalent stiffness of two linear springs in series.",
+      "image_alt": "Series Spring Stiffness Calculator"
+    },
+    "eng-center-of-mass": {
+      "name": "Two Mass Center of Mass Calculator",
+      "description": "Calculate the center of mass of two point masses on one axis.",
+      "image_alt": "Two Mass Center of Mass Calculator"
+    },
+    "eng-friction-stop-distance": {
+      "name": "Friction Stopping Distance Calculator",
+      "description": "Calculate sliding stopping distance with constant kinetic friction.",
+      "image_alt": "Friction Stopping Distance Calculator"
+    },
+    "eng-critical-incline": {
+      "name": "Critical Sliding Incline Angle Calculator",
+      "description": "Calculate the onset-of-sliding incline angle in a Coulomb friction model.",
+      "image_alt": "Critical Sliding Incline Angle Calculator"
+    },
+    "eng-spring-energy": {
+      "name": "Spring Potential Energy Calculator",
+      "description": "Calculate energy stored in a stretched or compressed linear spring.",
+      "image_alt": "Spring Potential Energy Calculator"
+    },
+    "eng-tube-area-inertia": {
+      "name": "Circular Tube Area Moment Calculator",
+      "description": "Calculate the second moment of area of a circular tube about a centroidal diameter.",
+      "image_alt": "Circular Tube Area Moment Calculator"
+    },
+    "eng-cantilever-deflection": {
+      "name": "Cantilever Tip Deflection Calculator",
+      "description": "Calculate tip deflection of a slender cantilever under a tip point load.",
+      "image_alt": "Cantilever Tip Deflection Calculator"
+    },
+    "eng-rayleigh-number": {
+      "name": "Rayleigh Number Calculator",
+      "description": "Calculate the Rayleigh number for a specified natural-convection configuration.",
+      "image_alt": "Rayleigh Number Calculator"
+    },
+    "eng-prandtl-number": {
+      "name": "Prandtl Number Calculator",
+      "description": "Calculate the ratio of momentum diffusivity to thermal diffusivity.",
+      "image_alt": "Prandtl Number Calculator"
+    },
+    "eng-nusselt-number": {
+      "name": "Nusselt Number Calculator",
+      "description": "Convert a known convection coefficient to a Nusselt number.",
+      "image_alt": "Nusselt Number Calculator"
+    },
+    "eng-thermal-diffusivity": {
+      "name": "Thermal Diffusivity Calculator",
+      "description": "Calculate thermal diffusivity from conductivity and volumetric heat capacity.",
+      "image_alt": "Thermal Diffusivity Calculator"
+    },
+    "eng-sensible-heat": {
+      "name": "Sensible Heat Calculator",
+      "description": "Calculate sensible heat for heating or cooling without a phase change.",
+      "image_alt": "Sensible Heat Calculator"
+    },
+    "eng-isothermal-work": {
+      "name": "Ideal Gas Isothermal Work Calculator",
+      "description": "Calculate reversible isothermal pressure-volume work done by an ideal gas.",
+      "image_alt": "Ideal Gas Isothermal Work Calculator"
+    },
+    "eng-adiabatic-temperature": {
+      "name": "Adiabatic Ideal Gas Temperature Calculator",
+      "description": "Calculate final temperature for a reversible adiabatic ideal-gas process.",
+      "image_alt": "Adiabatic Ideal Gas Temperature Calculator"
+    },
+    "eng-log-mean-temperature": {
+      "name": "Log Mean Temperature Difference Calculator",
+      "description": "Calculate LMTD from two positive terminal temperature differences.",
+      "image_alt": "Log Mean Temperature Difference Calculator"
+    },
+    "eng-buoyant-force": {
+      "name": "Displaced Fluid Buoyancy Calculator",
+      "description": "Calculate buoyancy from the weight of displaced fluid.",
+      "image_alt": "Displaced Fluid Buoyancy Calculator"
+    },
+    "eng-capillary-rise": {
+      "name": "Capillary Rise Calculator",
+      "description": "Calculate static rise or depression in a circular capillary.",
+      "image_alt": "Capillary Rise Calculator"
+    },
+    "eng-point-charge-field": {
+      "name": "Point Charge Electric Field Calculator",
+      "description": "Calculate the field magnitude of an isolated point charge in vacuum.",
+      "image_alt": "Point Charge Electric Field Calculator"
+    },
+    "eng-ideal-transformer": {
+      "name": "Ideal Transformer Voltage Calculator",
+      "description": "Calculate ideal AC transformer secondary voltage from the turns ratio.",
+      "image_alt": "Ideal Transformer Voltage Calculator"
+    },
+    "eng-rlc-impedance": {
+      "name": "Series RLC Impedance Calculator",
+      "description": "Calculate sinusoidal impedance magnitude of an ideal series RLC circuit.",
+      "image_alt": "Series RLC Impedance Calculator"
+    },
+    "eng-ac-real-power": {
+      "name": "AC Real Power Calculator",
+      "description": "Calculate average real power from sinusoidal RMS voltage, current and phase.",
+      "image_alt": "AC Real Power Calculator"
+    },
+    "eng-skin-depth": {
+      "name": "Good Conductor Skin Depth Calculator",
+      "description": "Calculate the electromagnetic amplitude 1/e depth in the good-conductor approximation.",
+      "image_alt": "Good Conductor Skin Depth Calculator"
+    },
+    "eng-noninverting-gain": {
+      "name": "Noninverting Op Amp Gain Calculator",
+      "description": "Calculate ideal noninverting negative-feedback voltage gain.",
+      "image_alt": "Noninverting Op Amp Gain Calculator"
+    },
+    "eng-rc-lowpass-gain": {
+      "name": "RC Low Pass Magnitude Calculator",
+      "description": "Calculate magnitude response of an unloaded RC low-pass filter.",
+      "image_alt": "RC Low Pass Magnitude Calculator"
+    },
+    "eng-normal-reflectance": {
+      "name": "Normal Incidence Fresnel Reflectance Calculator",
+      "description": "Calculate intensity reflectance at normal incidence between lossless dielectrics.",
+      "image_alt": "Normal Incidence Fresnel Reflectance Calculator"
+    },
+    "eng-double-slit-spacing": {
+      "name": "Double Slit Fringe Spacing Calculator",
+      "description": "Calculate double-slit fringe spacing in the far-field small-angle approximation.",
+      "image_alt": "Double Slit Fringe Spacing Calculator"
+    },
+    "eng-grating-angle": {
+      "name": "Diffraction Grating Angle Calculator",
+      "description": "Calculate a specified positive diffraction-order angle at normal incidence.",
+      "image_alt": "Diffraction Grating Angle Calculator"
+    },
+    "eng-sound-pressure-level": {
+      "name": "Sound Pressure Level Calculator",
+      "description": "Calculate sound pressure level relative to an explicit reference pressure.",
+      "image_alt": "Sound Pressure Level Calculator"
+    },
+    "eng-sound-doppler": {
+      "name": "Acoustic Doppler Frequency Calculator",
+      "description": "Calculate classical one-dimensional acoustic Doppler frequency.",
+      "image_alt": "Acoustic Doppler Frequency Calculator"
+    },
+    "eng-dilute-ph": {
+      "name": "Ideal Dilute Solution pH Calculator",
+      "description": "Calculate concentration-based pH with an activity coefficient of one.",
+      "image_alt": "Ideal Dilute Solution pH Calculator"
+    },
+    "eng-nernst-potential": {
+      "name": "Nernst Potential Calculator",
+      "description": "Calculate an equilibrium potential for a specified reaction quotient and temperature.",
+      "image_alt": "Nernst Potential Calculator"
+    },
+    "eng-decay-activity": {
+      "name": "Radioactive Activity Decay Calculator",
+      "description": "Calculate activity decay of a single nuclide with a constant decay rate.",
+      "image_alt": "Radioactive Activity Decay Calculator"
+    },
+    "eng-henry-solubility": {
+      "name": "Henry Law Dissolved Concentration Calculator",
+      "description": "Calculate dissolved concentration using an explicit solubility-form Henry constant.",
+      "image_alt": "Henry Law Dissolved Concentration Calculator"
+    },
+    "eng-stokes-terminal-speed": {
+      "name": "Stokes Particle Terminal Velocity Calculator",
+      "description": "Calculate terminal velocity of a small sphere in creeping flow.",
+      "image_alt": "Stokes Particle Terminal Velocity Calculator"
+    },
+    "eng-orifice-flow": {
+      "name": "Incompressible Orifice Flow Calculator",
+      "description": "Calculate incompressible orifice flow with negligible upstream velocity.",
+      "image_alt": "Incompressible Orifice Flow Calculator"
+    },
+    "eng-combined-length-uncertainty": {
+      "name": "Independent Length Uncertainty Calculator",
+      "description": "Combine independent length standard uncertainties for a linear model.",
+      "image_alt": "Independent Length Uncertainty Calculator"
+    },
+    "eng-logarithmic-decrement": {
+      "name": "Logarithmic Decrement Calculator",
+      "description": "Calculate logarithmic decrement from same-direction free-decay peaks.",
+      "image_alt": "Logarithmic Decrement Calculator"
+    }
+  },
+  "schema_version": "1.0",
+  "language": "en",
+  "archive_note": "Archive titles, institution names, dates and original documents are retained in their source language. Feeds and public JSON retain the Korean catalog.",
+  "app_count": "{label}: {count}",
+  "lecture_count": "{label}: {count} · newest first",
+  "record_count": "{count} records",
+  "titles": {
+    "": "AI for Every Business",
+    "apps": "Apps",
+    "lectures": "Lectures",
+    "research": "Research",
+    "papers": "Papers & studies",
+    "patents": "Patents & utility models",
+    "projects": "Development projects",
+    "feeds": "Feeds & data"
+  },
+  "description": "Explore the newest apps and find the right tool for your task. Papers, patents and development projects"
+}

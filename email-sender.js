@@ -18,19 +18,19 @@ document.getElementById('contact-form').addEventListener('submit', function (eve
     // Change button text to indicate loading
     const btn = this.querySelector('button[type="submit"]');
     const originalText = btn.textContent;
-    btn.textContent = '전송 중... (Sending...)';
+    btn.textContent = this.dataset.sending || '전송 중... (Sending...)';
     btn.disabled = true;
 
     // Send the form using EmailJS
     emailjs.sendForm(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, this)
         .then(function () {
-            alert('문의가 성공적으로 전송되었습니다! (Email sent successfully!)');
+            alert(document.getElementById('contact-form').dataset.success || '문의가 성공적으로 전송되었습니다! (Email sent successfully!)');
             document.getElementById('contact-form').reset();
             btn.textContent = originalText;
             btn.disabled = false;
         }, function (error) {
             console.error('EmailJS Error:', error);
-            alert('메일 전송에 실패했습니다: ' + JSON.stringify(error));
+            alert((document.getElementById('contact-form').dataset.failure || '메일 전송에 실패했습니다: ') + JSON.stringify(error));
             btn.textContent = originalText;
             btn.disabled = false;
         });

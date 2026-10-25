@@ -1,0 +1,818 @@
+{
+  "ui": {
+    "Services": "服务",
+    "About": "关于我们",
+    "Customers": "客户案例",
+    "Process": "合作流程",
+    "Apps": "应用",
+    "Lectures": "讲座",
+    "Research": "研究",
+    "Contact": "联系我们",
+    "Contact Us": "联系我们",
+    "AI for Every Business": "让每家企业用上AI",
+    "We can help your business to be more successful with powerful AI": "以强大的AI助力您的业务发展。",
+    "Your browser does not support the video tag.": "您的浏览器不支持视频播放。",
+    "Key Services": "核心服务",
+    "연구개발과제 협력": "研发项目合作",
+    "R&D과제의 성공적인 수행과 지표달성, 특허출원을 지원합니다.": "协助完成研发项目、达成指标并申请专利。",
+    "AI 관련 컨설팅": "AI咨询",
+    "AI분야의 기술자문, AI 도입과 관련된 사업기획 자문을 제공합니다.": "提供AI技术咨询及AI应用的业务规划建议。",
+    "PoC 과제 수행": "概念验证项目",
+    "아이디어를 빠르게 검증하기 위한 6개월 내외 규모의 PoC 과제를 수행합니다.": "通过约六个月的概念验证项目快速检验想法。",
+    "업무용 AI 시제품 구현": "工作场景AI原型",
+    "임직원의 효율적인 업무수행을 위한 AI플랫폼의 시제품을 구현합니다.": "开发帮助员工提高工作效率的AI平台原型。",
+    "평가보고서 작성": "评估报告",
+    "AI관련 사업계획서의 타당성 검증 및 검토의견보고서를 작성해드립니다.": "审查AI商业计划的可行性并编写评估意见报告。",
+    "AI 활용 교육": "AI应用培训",
+    "고객사의 업무수행분야에 가장 적합한 방향으로, 임직원의 생성형 AI 활용 교육을 제공합니다.": "按照客户的工作领域为员工提供生成式AI培训。",
+    "AI Engineer, CEO": "AI工程师、首席执行官",
+    "🚀 상상텃밭(주) 前 CTO (2018. ~ 2024.)": "🚀 SangSang Farm前首席技术官（2018—2024年）",
+    "✒️ 저서 36건": "✒️ 36部著作",
+    "💡 특허·실용신안 출원 34건": "💡 34项专利及实用新型申请",
+    "🔬 논문·연구 28건 (프리프린트 포함)": "🔬 28项论文及研究（含预印本）",
+    "🎓 KAIST 바이오및뇌공학과 학사/석사 조기졸업": "🎓 提前完成KAIST生物及脑工程学士、硕士学位",
+    "📜 행정안전부 장관 표창 수상": "📜 韩国行政安全部长官表彰",
+    "🕶️ 한국인 최초": "🕶️ 首位韩国籍",
+    "국제IQ만점자협회(LPS)": "LPS高智商协会",
+    "정회원": "正式会员",
+    "협업/자문/교육사례": "合作、咨询及培训案例",
+    "공공기관": "公共机构",
+    "기업": "企业",
+    "교육기관": "教育机构",
+    "연구기관": "研究机构",
+    "출연연": "公立研究机构",
+    "컨퍼런스": "会议",
+    "협업 과정": "合作流程",
+    "Discover": "需求探索",
+    "고객사 니즈 정의": "明确客户需求",
+    "Plan": "规划",
+    "과업 범위 협상, 수행계획안 수립": "商定范围并制定实施计划",
+    "Work": "执行",
+    "과업 성실 수행": "认真完成约定工作",
+    "Finish": "交付",
+    "산출물 납품": "交付成果",
+    "전체": "全部",
+    "생활·업무": "生活与办公",
+    "문서·텍스트": "文档与文本",
+    "이미지·미디어": "图像与媒体",
+    "재미·실험": "趣味与实验",
+    "AI·개발": "AI与开发",
+    "공학·계산": "工程与计算",
+    "최신 앱부터 만나보세요. 작업에 꼭 맞는 도구를 찾아보세요.": "从最新应用开始，找到适合任务的工具。",
+    "필요한 웹앱과 도구를 한곳에서 만나보세요.": "在一处发现所需的网页应用与工具。",
+    "앱 이름 또는 기능 검색": "搜索应用名称或功能",
+    "어떤 도구를 찾으세요?": "您在寻找什么工具？",
+    "앱 분류": "应用分类",
+    "앱 열기": "打开应用",
+    "템플릿 보기": "查看模板",
+    "개발 템플릿": "开发模板",
+    "일치하는 도구가 없습니다.": "没有匹配的工具。",
+    "다른 검색어를 입력하거나 분류를 바꿔 보세요.": "请尝试其他关键词或分类。",
+    "전체 도구 보기": "显示全部工具",
+    "강의·출강 이력 전체 · 최신 강의순": "全部讲座及授课记录 · 最新优先",
+    "강의·출강 이력": "讲座及授课记录",
+    "강연 제목·기관·연도 검색": "按讲座、机构或年份搜索",
+    "기관명 또는 주제 검색": "搜索机构或主题",
+    "강의 기관 분류": "讲座机构分类",
+    "일치하는 강연이 없습니다. 검색어나 기관 분류를 바꿔 보세요.": "没有匹配的讲座，请更换关键词或机构分类。",
+    "R&D 분류": "研发分类",
+    "논문·특허·개발 프로젝트 전체": "全部论文、专利及开发项目",
+    "논문·특허·개발 프로젝트": "论文、专利及开发项目",
+    "논문·연구": "论文与研究",
+    "특허·실용신안": "专利与实用新型",
+    "개발 프로젝트": "开发项目",
+    "링크 열기": "打开链接",
+    "출처:": "来源：",
+    "반병현 공식 홈페이지 bhban.kr": "潘炳贤官方网站 bhban.kr",
+    "· 원본 섹션의 정적 스냅샷이며, 원문 자료는 출처 사이트로 연결됩니다.": "· 本页为原栏目静态快照，原始资料链接至来源网站。",
+    "나나랩과 함께 혁신을 준비하세요!": "与NaNa Lab一起准备创新！",
+    "Name": "姓名",
+    "Institution": "所属机构",
+    "Phone Number": "电话号码",
+    "Email": "电子邮箱",
+    "Title": "主题",
+    "Message": "留言",
+    "이름을 입력해주세요": "请输入姓名",
+    "소속 기관명을 입력해주세요": "请输入所属机构",
+    "국가 선택": "选择国家区号",
+    "직접입력": "手动输入",
+    "이메일을 입력해주세요": "请输入电子邮箱",
+    "제목을 입력해주세요": "请输入主题",
+    "문의하실 내용을 남겨주세요": "请输入咨询内容",
+    "문의 보내기": "发送咨询",
+    "전송 중... (Sending...)": "发送中…",
+    "문의가 성공적으로 전송되었습니다! (Email sent successfully!)": "咨询已发送。",
+    "메일 전송에 실패했습니다:": "邮件发送失败：",
+    "NaNa Lab은 주식회사 나나컴퍼니의 영업권 일부를 치즈케익스튜디오가 양수하여 운영하는 사업부입니다.": "NaNa Lab是由受让NaNa Company部分营业权的Cheesecake Studio运营的事业部。",
+    "(주)나나컴퍼니 대표이사 반병현. 사업자등록번호: 456-81-03285": "NaNa Company代表潘炳贤 · 营业登记号：456-81-03285",
+    "치즈케익스튜디오 대표자 반병현, 사업자등록번호: 269-08-02374": "Cheesecake Studio代表潘炳贤 · 营业登记号：269-08-02374",
+    "개인정보처리방침": "隐私政策",
+    "구독·데이터": "订阅与数据",
+    "RSS · JSON Feed · 공개 JSON": "RSS · JSON Feed · 公开JSON",
+    "구독 피드": "订阅源",
+    "통합 업데이트": "全部更新",
+    "앱": "应用",
+    "강의": "讲座",
+    "연구": "研究",
+    "논문": "论文",
+    "특허": "专利",
+    "프로젝트": "项目",
+    "연구 통합": "全部研究",
+    "조회용 JSON": "公开JSON目录",
+    "전체 엔드포인트·개수·스키마 버전": "全部端点、数量及架构版本",
+    "날짜와 출처": "日期与来源",
+    "Toggle navigation": "展开或收起导航",
+    "재미·라이프": "趣味与生活",
+    "미리보기 PDF (1쪽)": "预览PDF（1页）",
+    "아래 주소를 RSS 리더에 등록하세요. RSS 2.0과 JSON Feed 1.1을 제공합니다. 통합 피드는 최근 200건, 분야별 피드는 최근 100건입니다.": "将以下网址添加到订阅阅读器。支持RSS 2.0和JSON Feed 1.1。综合源包含最新200条，各分类源包含最新100条。",
+    "전체 목록을 정적 JSON으로 제공합니다. 별도 로그인이나 API 키 없이 GET 요청으로 읽을 수 있습니다. 응답의": "完整目录以静态JSON提供，无需登录或API密钥即可通过GET读取。响应中的",
+    "가 목록이며": "是列表，",
+    "가 항목 수입니다.": "是条目数量。",
+    "앱은 등록 원본의 공개 시각, 강의·특허는 원문에 적힌 일정을 사용합니다. 일자만 있는 자료는 한국 시간 00:00으로 표현합니다. 연도만 확인되는 자료에는 정확한 게시 일시를 넣지 않습니다. 날짜를 모르는 항목은 뒤에 정렬합니다. 재빌드만으로 ID나 게시 시각이 바뀌지 않습니다.": "应用采用来源的发布时间，讲座和专利采用原文日期。只有日期时按韩国时间零点表示；只有年份时不编造具体时间。未知日期的记录排在最后。重新构建不会改变ID或发布时间。",
+    "강의·연구 자료의 원본 출처는": "讲座及研究记录的原始来源是",
+    "입니다. 논문·프리프린트 구분과 인용·원문 링크를 확인하세요. 공개 API 제공은 원문 자료의 이용 조건을 변경하지 않습니다.": "。请查看论文和预印本标签、引用及原文链接。公开API不会改变原始资料的使用条件。",
+    "모든 파일은 사이트 빌드 때 함께 갱신됩니다. JSON Feed는 호스팅 환경에 따라": "所有文件在网站构建时一并更新。根据托管环境，JSON Feed可能使用",
+    "으로 응답할 수 있으며 JSON Feed 1.1에서 허용하는 방식입니다.": "响应，这是JSON Feed 1.1允许的方式。",
+    "Web app": "网页应用",
+    "apps & tools": "款应用与工具"
+  },
+  "apps": {
+    "smart_calculator": {
+      "name": "智能计算器",
+      "description": "从日常计算到汇率换算，支持语音输入和计算历史。",
+      "image_alt": "智能计算器"
+    },
+    "qr": {
+      "name": "二维码生成器",
+      "description": "把链接转为便于分享的专属二维码。",
+      "image_alt": "二维码生成器"
+    },
+    "count_words": {
+      "name": "字符统计",
+      "description": "查看韩文字符数和字节数，了解文章篇幅。",
+      "image_alt": "字符统计"
+    },
+    "image_resize": {
+      "name": "图像缩放工具",
+      "description": "调整图像大小、比例并裁剪所需区域。",
+      "image_alt": "图像缩放工具"
+    },
+    "merge_pdf": {
+      "name": "PDF合并",
+      "description": "按您选择的顺序将多个PDF合为一个文档。",
+      "image_alt": "PDF合并"
+    },
+    "doc_compress": {
+      "name": "文档压缩",
+      "description": "缩小PDF、办公文档和图像的文件大小。",
+      "image_alt": "文档压缩"
+    },
+    "doc_stat": {
+      "name": "文档分析",
+      "description": "查看PDF和DOCX的页数、词数等文档信息。",
+      "image_alt": "文档分析"
+    },
+    "doc_summarizer": {
+      "name": "文档摘要",
+      "description": "帮助阅读长文档并整理重点的工具。",
+      "image_alt": "文档摘要"
+    },
+    "lipsum": {
+      "name": "占位文本生成器",
+      "description": "为设计排版和文档草稿生成示例文本。",
+      "image_alt": "占位文本生成器"
+    },
+    "gif_studio": {
+      "name": "GIF工作室",
+      "description": "在一处完成GIF缩放、裁剪、旋转与体积优化。",
+      "image_alt": "GIF工作室"
+    },
+    "video_2_gif": {
+      "name": "视频转GIF",
+      "description": "从视频中选择片段并转为动态GIF。",
+      "image_alt": "视频转GIF"
+    },
+    "audio_edit": {
+      "name": "音频编辑器",
+      "description": "裁剪音频、调整音量并转换文件格式。",
+      "image_alt": "音频编辑器"
+    },
+    "afd": {
+      "name": "离开状态屏幕",
+      "description": "开会或外出时在屏幕显示当前状态。",
+      "image_alt": "离开状态屏幕"
+    },
+    "bmi": {
+      "name": "BMI计算器",
+      "description": "根据身高和体重计算身体质量指数。",
+      "image_alt": "BMI计算器"
+    },
+    "fortune": {
+      "name": "今日运势",
+      "description": "轻松看看今天会有怎样的运势。",
+      "image_alt": "今日运势"
+    },
+    "luck": {
+      "name": "幸运抽签",
+      "description": "汇集参与者并随机抽出幸运获奖者。",
+      "image_alt": "幸运抽签"
+    },
+    "chatTemplate": {
+      "name": "单人聊天",
+      "description": "自己扮演对话双方，制作聊天场景。",
+      "image_alt": "单人聊天"
+    },
+    "ppp": {
+      "name": "已出版提示词门户",
+      "description": "汇集已出版图书中提示词的门户。",
+      "image_alt": "已出版提示词门户"
+    },
+    "astra": {
+      "name": "Astra练习场",
+      "description": "在一处使用AI智能体练习网站及示例文件。",
+      "image_alt": "Astra练习场"
+    },
+    "android_webview_template": {
+      "name": "Android WebView模板",
+      "description": "修改配置文件即可将网站制作成Android应用的开发模板。",
+      "image_alt": "Android WebView模板"
+    },
+    "rebirth_country": {
+      "name": "转生护照",
+      "description": "来世会出生在哪个国家？按照世界人口比例获得新的国家和护照。",
+      "image_alt": "转生护照"
+    },
+    "ai_knowledge_tree": {
+      "name": "AI知识树",
+      "description": "应大型企业委托制作，让任何人都能一目了然地了解AI产业现状。",
+      "image_alt": "AI知识树"
+    },
+    "rebirth_biology": {
+      "name": "转生生物证",
+      "description": "来世会是哪种生物？按照地球生物量探索72种来世并获得专属生物证。",
+      "image_alt": "转生生物证"
+    },
+    "body-clock": {
+      "name": "不看时钟，能数准十秒吗？",
+      "description": "不看时钟计时十秒三次，测试您的时间感。",
+      "image_alt": "不看时钟，能数准十秒吗？"
+    },
+    "color-drop": {
+      "name": "找出不同的颜色",
+      "description": "在颜色相近的方块中找出唯一不同的一块。",
+      "image_alt": "找出不同的颜色"
+    },
+    "level-frame": {
+      "name": "把相框摆正",
+      "description": "转动倾斜的相框，测试您的水平感。",
+      "image_alt": "把相框摆正"
+    },
+    "table-memory": {
+      "name": "三秒餐桌记忆",
+      "description": "看餐桌三秒钟，再凭记忆还原物品位置。",
+      "image_alt": "三秒餐桌记忆"
+    },
+    "lunch-math": {
+      "name": "午餐心算",
+      "description": "不用计算器算午餐账单，测试心算速度与准确度。",
+      "image_alt": "午餐心算"
+    },
+    "rain-rhythm": {
+      "name": "重复雨滴节奏",
+      "description": "记住刚听过的雨滴节奏并重复出来。",
+      "image_alt": "重复雨滴节奏"
+    },
+    "next-life-stats": {
+      "name": "分配来世的一百分",
+      "description": "为下一世分配一百分，查看属于您的结果。",
+      "image_alt": "分配来世的一百分"
+    },
+    "line-copy": {
+      "name": "凭记忆画线",
+      "description": "看一条线两秒钟，记住长度并画出同样长的线。",
+      "image_alt": "凭记忆画线"
+    },
+    "cat-naps": {
+      "name": "让六只猫都睡着",
+      "description": "根据六只挑剔猫咪的条件，为它们找到都能睡着的位置。",
+      "image_alt": "让六只猫都睡着"
+    },
+    "eng-reynolds": {
+      "name": "雷诺数计算器",
+      "description": "检查管道实验和比例模型中的流动相似性。",
+      "image_alt": "雷诺数计算器"
+    },
+    "eng-mach": {
+      "name": "马赫数计算器",
+      "description": "将流速与风洞和喷嘴中的局部声速进行比较。",
+      "image_alt": "马赫数计算器"
+    },
+    "eng-dynamic-pressure": {
+      "name": "动压计算器",
+      "description": "在估计风洞载荷和系数之前检查动压力。",
+      "image_alt": "动压计算器"
+    },
+    "eng-volume-flow": {
+      "name": "体积流量计算器",
+      "description": "使用管道或通风口的横截面积检查流经管道或通风口的流量。",
+      "image_alt": "体积流量计算器"
+    },
+    "eng-mass-flow": {
+      "name": "质量流量计算器",
+      "description": "将体积流量转换为质量流量，以实现气体供应和物料平衡。",
+      "image_alt": "质量流量计算器"
+    },
+    "eng-hydrostatic-pressure": {
+      "name": "静水压表压计算器",
+      "description": "检查罐中的液柱压力和静水压实验。",
+      "image_alt": "静水压表压计算器"
+    },
+    "eng-laminar-pipe-drop": {
+      "name": "层流管压降计算器",
+      "description": "检查微通道和层流实验中的哈根-泊肃叶压力损失。",
+      "image_alt": "层流管压降计算器"
+    },
+    "eng-hydraulic-power": {
+      "name": "液压功率计算器",
+      "description": "从压力上升和流量检查压力做功速率。",
+      "image_alt": "液压功率计算器"
+    },
+    "eng-kinematic-viscosity": {
+      "name": "运动粘度计算器",
+      "description": "将动态粘度转换为运动粘度，无需混合它们的单位。",
+      "image_alt": "运动粘度计算器"
+    },
+    "eng-drag-force": {
+      "name": "阻力计算器",
+      "description": "使用已知的风洞阻力系数检查阻力负载。",
+      "image_alt": "阻力计算器"
+    },
+    "eng-wall-conduction": {
+      "name": "平壁导热计算器",
+      "description": "检查通过墙壁或隔热样本的热传导。",
+      "image_alt": "平壁导热计算器"
+    },
+    "eng-convection-heat": {
+      "name": "表面对流计算器",
+      "description": "将牛顿冷却定律应用于对流系数已知的表面。",
+      "image_alt": "表面对流计算器"
+    },
+    "eng-radiation-heat": {
+      "name": "净辐射传热计算器",
+      "description": "检查小灰色表面和大周围环境之间的辐射热损失。",
+      "image_alt": "净辐射传热计算器"
+    },
+    "eng-thermal-expansion": {
+      "name": "线性热膨胀计算器",
+      "description": "检查金属杆的自由长度变化或装配间隙。",
+      "image_alt": "线性热膨胀计算器"
+    },
+    "eng-carnot-efficiency": {
+      "name": "卡诺效率极限计算器",
+      "description": "检查两个储层之间热机的理论效率极限。",
+      "image_alt": "卡诺效率极限计算器"
+    },
+    "eng-carnot-cop": {
+      "name": "卡诺制冷机 COP 计算器",
+      "description": "检查两个储液器之间的理想制冷性能系数。",
+      "image_alt": "卡诺制冷机 COP 计算器"
+    },
+    "eng-wire-resistance": {
+      "name": "电线直流电阻计算器",
+      "description": "从电阻率、长度和横截面积检查导体电阻。",
+      "image_alt": "电线直流电阻计算器"
+    },
+    "eng-plate-capacitance": {
+      "name": "平行板电容计算器",
+      "description": "检查传感器或介电实验的理想电容。",
+      "image_alt": "平行板电容计算器"
+    },
+    "eng-solenoid-inductance": {
+      "name": "长空心螺线管电感计算器",
+      "description": "检查长空心线圈的初始电感估计。",
+      "image_alt": "长空心螺线管电感计算器"
+    },
+    "eng-rc-time": {
+      "name": "RC 时间常数计算器",
+      "description": "检查一阶充电或滤波电路的时间常数。",
+      "image_alt": "RC 时间常数计算器"
+    },
+    "eng-rl-time": {
+      "name": "RL 时间常数计算器",
+      "description": "检查一阶线圈电路的电流响应时间常数。",
+      "image_alt": "RL 时间常数计算器"
+    },
+    "eng-capacitive-reactance": {
+      "name": "容抗计算器",
+      "description": "检查正弦频率下理想电容器电抗的大小。",
+      "image_alt": "容抗计算器"
+    },
+    "eng-inductive-reactance": {
+      "name": "感抗计算器",
+      "description": "检查所选正弦频率下的理想感抗。",
+      "image_alt": "感抗计算器"
+    },
+    "eng-lc-resonance": {
+      "name": "LC 谐振频率计算器",
+      "description": "检查滤波器或谐振实验的理想谐振频率。",
+      "image_alt": "LC 谐振频率计算器"
+    },
+    "eng-voltage-divider": {
+      "name": "空载分压器计算器",
+      "description": "在连接 ADC 或传感器负载之前检查理想的电阻分压器。",
+      "image_alt": "空载分压器计算器"
+    },
+    "eng-power-db": {
+      "name": "功率增益分贝计算器",
+      "description": "检查放大器的功率比或链路损耗预算。",
+      "image_alt": "功率增益分贝计算器"
+    },
+    "eng-rotation-energy": {
+      "name": "旋转动能计算器",
+      "description": "检查飞轮或刚性转子中存储的旋转能量。",
+      "image_alt": "旋转动能计算器"
+    },
+    "eng-shaft-power": {
+      "name": "轴扭矩功率计算器",
+      "description": "根据有符号的扭矩和转速检查机械轴功率。",
+      "image_alt": "轴扭矩功率计算器"
+    },
+    "eng-centripetal-acceleration": {
+      "name": "向心加速度计算器",
+      "description": "检查圆周运动实验中的法向加速度分量。",
+      "image_alt": "向心加速度计算器"
+    },
+    "eng-spring-frequency": {
+      "name": "质量弹簧固有频率计算器",
+      "description": "检查线性振动模型的无阻尼固有频率。",
+      "image_alt": "质量弹簧固有频率计算器"
+    },
+    "eng-pendulum-period": {
+      "name": "小角摆周期计算器",
+      "description": "检查基本重力和振动实验的简单摆周期。",
+      "image_alt": "小角摆周期计算器"
+    },
+    "eng-axial-stress": {
+      "name": "平均轴向应力计算器",
+      "description": "检查样本或棒材的平均轴向应力。",
+      "image_alt": "平均轴向应力计算器"
+    },
+    "eng-shaft-shear": {
+      "name": "实心圆轴剪应力计算器",
+      "description": "检查初始轴直径的最大扭转剪切应力。",
+      "image_alt": "实心圆轴剪应力计算器"
+    },
+    "eng-axial-extension": {
+      "name": "轴杆延伸计算器",
+      "description": "检查已知载荷和材料模量的轴向长度变化。",
+      "image_alt": "轴杆延伸计算器"
+    },
+    "eng-restrained-thermal-stress": {
+      "name": "完全约束热应力计算器",
+      "description": "检查棒材无法膨胀时的单轴热应力。",
+      "image_alt": "完全约束热应力计算器"
+    },
+    "eng-bending-stress": {
+      "name": "最大梁弯曲应力计算器",
+      "description": "由已知弯矩核算截面最外缘的弯曲正应力。",
+      "image_alt": "最大梁弯曲应力计算器"
+    },
+    "eng-shaft-twist": {
+      "name": "圆轴扭转角计算器",
+      "description": "检查均匀圆轴两端之间的扭转。",
+      "image_alt": "圆轴扭转角计算器"
+    },
+    "eng-euler-buckling": {
+      "name": "两端铰支柱欧拉屈曲载荷计算器",
+      "description": "核算两端铰支细长柱的理想弹性屈曲载荷。",
+      "image_alt": "两端铰支柱欧拉屈曲载荷计算器"
+    },
+    "eng-ideal-gas-density": {
+      "name": "理想气体密度计算器",
+      "description": "从绝对压力、摩尔质量和温度检查理想气体密度。",
+      "image_alt": "理想气体密度计算器"
+    },
+    "eng-mean-free-path": {
+      "name": "气体平均自由程计算器",
+      "description": "检查动力学理论或真空实验中的稀气体平均自由程。",
+      "image_alt": "气体平均自由程计算器"
+    },
+    "eng-arrhenius-rate": {
+      "name": "阿累尼乌斯速率常数计算器",
+      "description": "检查反应速率常数的温度依赖性。",
+      "image_alt": "阿累尼乌斯速率常数计算器"
+    },
+    "eng-first-order-half-life": {
+      "name": "一阶半衰期计算器",
+      "description": "检查理想的一阶消失或衰变过程的半衰期。",
+      "image_alt": "一阶半衰期计算器"
+    },
+    "eng-osmotic-pressure": {
+      "name": "稀溶液渗透压计算器",
+      "description": "使用理想稀溶液近似值检查渗透压。",
+      "image_alt": "稀溶液渗透压计算器"
+    },
+    "eng-photon-energy": {
+      "name": "由波长计算光子能量",
+      "description": "将真空波长转换为单光子能量以实现基本光谱学。",
+      "image_alt": "由波长计算光子能量"
+    },
+    "eng-thin-lens-image": {
+      "name": "薄透镜像距计算器",
+      "description": "核算近轴薄透镜模型中带符号的像距。",
+      "image_alt": "薄透镜像距计算器"
+    },
+    "eng-aperture-resolution": {
+      "name": "圆孔径分辨率计算器",
+      "description": "检查瑞利衍射角以获得理想的圆形孔径。",
+      "image_alt": "圆孔径分辨率计算器"
+    },
+    "eng-snell-refraction": {
+      "name": "斯涅尔折射角计算器",
+      "description": "检查从界面法线测量的折射光线角度。",
+      "image_alt": "斯涅尔折射角计算器"
+    },
+    "eng-fiber-numerical-aperture": {
+      "name": "阶跃折射率光纤数值孔径计算器",
+      "description": "检查纤芯和包层折射率的数值孔径。",
+      "image_alt": "阶跃折射率光纤数值孔径计算器"
+    },
+    "eng-first-order-settling": {
+      "name": "一阶稳定时间计算器",
+      "description": "检查稳定的一阶过程或传感器响应的等待时间。",
+      "image_alt": "一阶稳定时间计算器"
+    },
+    "eng-spring-damping-ratio": {
+      "name": "质量弹簧阻尼比计算器",
+      "description": "检查线性振动模型中相对于临界阻尼的粘性阻尼。",
+      "image_alt": "质量弹簧阻尼比计算器"
+    },
+    "eng-escape-speed": {
+      "name": "逃逸速度计算器",
+      "description": "计算摆脱孤立天体引力所需的最小初始速率。",
+      "image_alt": "逃逸速度计算器"
+    },
+    "eng-orbital-period": {
+      "name": "圆轨道周期计算器",
+      "description": "计算理想圆轨道的运行周期。",
+      "image_alt": "圆轨道周期计算器"
+    },
+    "eng-hohmann-delta-v": {
+      "name": "霍曼转移总速度增量计算器",
+      "description": "计算同一轨道平面内两个圆轨道之间转移所需的总瞬时速度增量。",
+      "image_alt": "霍曼转移总速度增量计算器"
+    },
+    "eng-gravitational-energy": {
+      "name": "引力势能计算器",
+      "description": "以无穷远处为零势能，计算引力势能。",
+      "image_alt": "引力势能计算器"
+    },
+    "eng-gravity-at-radius": {
+      "name": "指定半径处引力加速度计算器",
+      "description": "计算球对称天体外部的引力加速度。",
+      "image_alt": "指定半径处引力加速度计算器"
+    },
+    "eng-schwarzschild-radius": {
+      "name": "史瓦西半径计算器",
+      "description": "计算不旋转且不带电黑洞模型的事件视界半径。",
+      "image_alt": "史瓦西半径计算器"
+    },
+    "eng-lorentz-factor": {
+      "name": "洛伦兹因子计算器",
+      "description": "根据相对速率计算洛伦兹因子。",
+      "image_alt": "洛伦兹因子计算器"
+    },
+    "eng-relativistic-energy": {
+      "name": "相对论动能计算器",
+      "description": "采用狭义相对论计算平动动能。",
+      "image_alt": "相对论动能计算器"
+    },
+    "eng-de-broglie": {
+      "name": "德布罗意波长计算器",
+      "description": "根据动量大小计算物质波波长。",
+      "image_alt": "德布罗意波长计算器"
+    },
+    "eng-gas-rms-speed": {
+      "name": "气体分子方均根速率计算器",
+      "description": "计算理想气体分子平动速率的方均根值。",
+      "image_alt": "气体分子方均根速率计算器"
+    },
+    "eng-free-fall-time": {
+      "name": "自由落体时间计算器",
+      "description": "计算物体在均匀重力场中从静止开始下落所需的时间。",
+      "image_alt": "自由落体时间计算器"
+    },
+    "eng-projectile-range": {
+      "name": "抛体射程计算器",
+      "description": "计算发射点与落地点等高时的理想抛体射程。",
+      "image_alt": "抛体射程计算器"
+    },
+    "eng-impulse": {
+      "name": "平均力冲量计算器",
+      "description": "根据平均力与作用时间计算一维冲量。",
+      "image_alt": "平均力冲量计算器"
+    },
+    "eng-series-spring": {
+      "name": "串联弹簧等效刚度计算器",
+      "description": "计算两个串联线性弹簧的等效刚度。",
+      "image_alt": "串联弹簧等效刚度计算器"
+    },
+    "eng-center-of-mass": {
+      "name": "双质点质心计算器",
+      "description": "计算同一轴上两个质点的质心位置。",
+      "image_alt": "双质点质心计算器"
+    },
+    "eng-friction-stop-distance": {
+      "name": "摩擦制动距离计算器",
+      "description": "计算恒定动摩擦力作用下的滑动停止距离。",
+      "image_alt": "摩擦制动距离计算器"
+    },
+    "eng-critical-incline": {
+      "name": "开始滑动临界倾角计算器",
+      "description": "采用库仑摩擦模型计算斜面上开始滑动的临界倾角。",
+      "image_alt": "开始滑动临界倾角计算器"
+    },
+    "eng-spring-energy": {
+      "name": "弹簧势能计算器",
+      "description": "计算线性弹簧拉伸或压缩时储存的能量。",
+      "image_alt": "弹簧势能计算器"
+    },
+    "eng-tube-area-inertia": {
+      "name": "圆管截面惯性矩计算器",
+      "description": "计算圆管截面对过形心直径轴的截面二次矩。",
+      "image_alt": "圆管截面惯性矩计算器"
+    },
+    "eng-cantilever-deflection": {
+      "name": "悬臂梁端部挠度计算器",
+      "description": "计算细长悬臂梁在端部集中力作用下的端部挠度。",
+      "image_alt": "悬臂梁端部挠度计算器"
+    },
+    "eng-rayleigh-number": {
+      "name": "瑞利数计算器",
+      "description": "计算指定自然对流条件下的瑞利数。",
+      "image_alt": "瑞利数计算器"
+    },
+    "eng-prandtl-number": {
+      "name": "普朗特数计算器",
+      "description": "计算动量扩散率与热扩散率的比值。",
+      "image_alt": "普朗特数计算器"
+    },
+    "eng-nusselt-number": {
+      "name": "努塞尔数计算器",
+      "description": "根据已知对流换热系数计算努塞尔数。",
+      "image_alt": "努塞尔数计算器"
+    },
+    "eng-thermal-diffusivity": {
+      "name": "热扩散率计算器",
+      "description": "根据热导率和体积热容计算热扩散率。",
+      "image_alt": "热扩散率计算器"
+    },
+    "eng-sensible-heat": {
+      "name": "显热计算器",
+      "description": "计算无相变加热或冷却过程的显热。",
+      "image_alt": "显热计算器"
+    },
+    "eng-isothermal-work": {
+      "name": "理想气体等温功计算器",
+      "description": "计算理想气体在可逆等温过程中对外所做的体积功。",
+      "image_alt": "理想气体等温功计算器"
+    },
+    "eng-adiabatic-temperature": {
+      "name": "理想气体绝热温度计算器",
+      "description": "计算理想气体可逆绝热过程的最终温度。",
+      "image_alt": "理想气体绝热温度计算器"
+    },
+    "eng-log-mean-temperature": {
+      "name": "对数平均温差计算器",
+      "description": "根据两端的正温差计算对数平均温差。",
+      "image_alt": "对数平均温差计算器"
+    },
+    "eng-buoyant-force": {
+      "name": "排开流体浮力计算器",
+      "description": "根据排开流体的重量计算浮力。",
+      "image_alt": "排开流体浮力计算器"
+    },
+    "eng-capillary-rise": {
+      "name": "毛细管液面升降计算器",
+      "description": "计算圆形毛细管内液面的静态上升或下降高度。",
+      "image_alt": "毛细管液面升降计算器"
+    },
+    "eng-point-charge-field": {
+      "name": "点电荷电场计算器",
+      "description": "计算真空中孤立点电荷产生的电场强度大小。",
+      "image_alt": "点电荷电场计算器"
+    },
+    "eng-ideal-transformer": {
+      "name": "理想变压器电压计算器",
+      "description": "根据匝数比计算理想交流变压器的次级电压。",
+      "image_alt": "理想变压器电压计算器"
+    },
+    "eng-rlc-impedance": {
+      "name": "串联 RLC 阻抗计算器",
+      "description": "计算理想串联 RLC 电路在正弦稳态下的阻抗大小。",
+      "image_alt": "串联 RLC 阻抗计算器"
+    },
+    "eng-ac-real-power": {
+      "name": "交流有功功率计算器",
+      "description": "根据正弦电压和电流的有效值及相位差计算平均有功功率。",
+      "image_alt": "交流有功功率计算器"
+    },
+    "eng-skin-depth": {
+      "name": "良导体趋肤深度计算器",
+      "description": "采用良导体近似计算电磁场振幅衰减到 1/e 时的深度。",
+      "image_alt": "良导体趋肤深度计算器"
+    },
+    "eng-noninverting-gain": {
+      "name": "同相运算放大器增益计算器",
+      "description": "计算理想同相负反馈电路的电压增益。",
+      "image_alt": "同相运算放大器增益计算器"
+    },
+    "eng-rc-lowpass-gain": {
+      "name": "RC 低通幅频响应计算器",
+      "description": "计算空载 RC 低通滤波器的幅频响应。",
+      "image_alt": "RC 低通幅频响应计算器"
+    },
+    "eng-normal-reflectance": {
+      "name": "法向入射菲涅尔反射率计算器",
+      "description": "计算两种无损介质界面在法向入射时的光强反射率。",
+      "image_alt": "法向入射菲涅尔反射率计算器"
+    },
+    "eng-double-slit-spacing": {
+      "name": "双缝干涉条纹间距计算器",
+      "description": "采用远场小角度近似计算双缝干涉条纹间距。",
+      "image_alt": "双缝干涉条纹间距计算器"
+    },
+    "eng-grating-angle": {
+      "name": "衍射光栅角度计算器",
+      "description": "计算法向入射时指定正级次的衍射角。",
+      "image_alt": "衍射光栅角度计算器"
+    },
+    "eng-sound-pressure-level": {
+      "name": "声压级计算器",
+      "description": "相对于明确给定的参考声压计算声压级。",
+      "image_alt": "声压级计算器"
+    },
+    "eng-sound-doppler": {
+      "name": "声学多普勒频率计算器",
+      "description": "计算经典一维声学多普勒频率。",
+      "image_alt": "声学多普勒频率计算器"
+    },
+    "eng-dilute-ph": {
+      "name": "理想稀溶液 pH 计算器",
+      "description": "采用活度系数为 1 的浓度近似计算 pH。",
+      "image_alt": "理想稀溶液 pH 计算器"
+    },
+    "eng-nernst-potential": {
+      "name": "能斯特电位计算器",
+      "description": "根据给定的反应商和温度计算平衡电位。",
+      "image_alt": "能斯特电位计算器"
+    },
+    "eng-decay-activity": {
+      "name": "放射性活度衰变计算器",
+      "description": "采用恒定衰变常数计算单一核素的活度随时间的衰减。",
+      "image_alt": "放射性活度衰变计算器"
+    },
+    "eng-henry-solubility": {
+      "name": "亨利定律溶解浓度计算器",
+      "description": "采用明确约定为溶解度形式的亨利常数计算溶解浓度。",
+      "image_alt": "亨利定律溶解浓度计算器"
+    },
+    "eng-stokes-terminal-speed": {
+      "name": "斯托克斯粒子终端速度计算器",
+      "description": "计算小球形粒子在蠕流条件下的终端速度。",
+      "image_alt": "斯托克斯粒子终端速度计算器"
+    },
+    "eng-orifice-flow": {
+      "name": "不可压缩孔口流量计算器",
+      "description": "计算上游速度可忽略时的不可压缩孔口流量。",
+      "image_alt": "不可压缩孔口流量计算器"
+    },
+    "eng-combined-length-uncertainty": {
+      "name": "独立长度标准不确定度合成计算器",
+      "description": "合成线性模型中相互独立的长度标准不确定度。",
+      "image_alt": "独立长度标准不确定度合成计算器"
+    },
+    "eng-logarithmic-decrement": {
+      "name": "对数衰减率计算器",
+      "description": "根据自由衰减振动中同方向的峰值计算对数衰减率。",
+      "image_alt": "对数衰减率计算器"
+    }
+  },
+  "schema_version": "1.0",
+  "language": "zh",
+  "archive_note": "讲座及研究的题名、机构名、日期和原始资料保留原文。订阅源和公开JSON仍使用韩文目录。",
+  "app_count": "{label}: {count}",
+  "lecture_count": "{label}: {count} · 最新优先",
+  "record_count": "{count} 项",
+  "titles": {
+    "": "让每家企业用上AI",
+    "apps": "应用",
+    "lectures": "讲座",
+    "research": "研究",
+    "papers": "论文与研究",
+    "patents": "专利与实用新型",
+    "projects": "开发项目",
+    "feeds": "订阅与数据"
+  },
+  "description": "从最新应用开始，找到适合任务的工具。 论文、专利及开发项目"
+}

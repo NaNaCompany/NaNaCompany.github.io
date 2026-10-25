@@ -15,6 +15,7 @@ import re
 import xml.etree.ElementTree as ET
 from syndication import anchor_cards, build_syndication, documentation
 from site_urls import canonical_url, canonical_links
+from localization import build_localized_pages
 
 ROOT = Path(__file__).resolve().parents[1]
 VOID = set('area base br col embed hr img input link meta param source track wbr'.split())
@@ -182,8 +183,8 @@ def build():
     sections = {key: imported(key) for key in ['lectures','papers','patents','websites']}
     assert all(sections.values())
     shell = shell.replace('</head>', '<link rel="stylesheet" href="/additions.css">\n</head>')
-    shell = shell.replace('src="script.js"', 'src="/script.js?v=archives-20261024"')
-    shell = shell.replace('href="/additions.css"', 'href="/additions.css?v=syndication-20261025"')
+    shell = shell.replace('src="script.js"', 'src="/script.js?v=languages-20261025"')
+    shell = shell.replace('href="/additions.css"', 'href="/additions.css?v=languages-20261025"')
     shell = shell.replace('<a href="#apps">Recent</a>', '<a href="#apps">Apps</a>')
     shell = shell.replace('<a href="https://nanalab.kr/apps">APPs</a>', '<a href="#lectures">Lectures</a><a href="#research">Research</a>')
     app_section = directory(apps).replace('class="directory-section container"', 'class="app-section catalog-addition container"')
@@ -216,6 +217,7 @@ def build():
     for route, key, label in [('papers','papers','논문·연구'), ('patents','patents','특허·실용신안'), ('projects','websites','개발 프로젝트')]:
         outputs[f'{route}/index.html'] = subpage(intro(label, 'R&D') + '<nav class="research-category-nav container"><a href="/papers/">논문·연구</a><a href="/patents/">특허·실용신안</a><a href="/projects/">개발 프로젝트</a></nav>' + portfolio_section(key,label,sections[key]) + source_note,label,route)
     outputs['feeds/index.html'] = subpage(intro('구독·데이터', 'RSS · JSON Feed · 공개 JSON') + documentation(), '구독·데이터', 'feeds')
+    localized_urls = build_localized_pages(outputs, apps, app_card)
     outputs.update(build_syndication(apps, sections, json.loads(read('content/portfolio/provenance.json'))))
     # The base retains one canonical URL per page and its verified metadata.
     sitemap = read('content/sitemap-base.xml')
@@ -239,7 +241,7 @@ def build():
     # whether that app publishes its own leaf sitemap. External hosts belong
     # in their own sitemaps; fragments do not identify separate pages.
     known_urls = {node.text for node in ET.fromstring(sitemap).iter('{http://www.sitemaps.org/schemas/sitemap/0.9}loc')}
-    linked_urls = homepage_sitemap_urls(shell)
+    linked_urls = homepage_sitemap_urls(shell) | set(localized_urls)
     for app in apps:
         target = app.get('url') or 'https://nanalab.kr/' + app['id'] + '/'
         linked_urls.update(homepage_sitemap_urls(f'<a href="{escape(target, quote=True)}"></a>'))

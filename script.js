@@ -1,5 +1,9 @@
 // App directory: server-rendered cards remain available without JavaScript.
 document.addEventListener('DOMContentLoaded', () => {
+    // Matching archives share their anchors across all language routes.
+    document.querySelectorAll('.language-menu a').forEach(link => {
+        if (window.location.hash) link.hash = window.location.hash;
+    });
     const search = document.getElementById('app-search');
     const cards = [...document.querySelectorAll('.directory-card')];
     const filters = [...document.querySelectorAll('[data-filter]')];
@@ -13,7 +17,9 @@ document.addEventListener('DOMContentLoaded', () => {
             card.hidden = !matches;
             if (matches) count++;
         });
-        document.getElementById('result-count').textContent = `${selected === 'all' ? '전체' : selected} ${count}개`;
+        const result = document.getElementById('result-count');
+        const label = filters.find(button => button.dataset.filter === selected)?.dataset.label || (selected === 'all' ? '전체' : selected);
+        result.textContent = (result.dataset.template || '{label} {count}개').replace('{label}', label).replace('{count}', count);
         document.getElementById('empty-results').hidden = count !== 0;
         filters.forEach(button => {
             const active = button.dataset.filter === selected;
@@ -68,7 +74,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     || !card.textContent.normalize('NFKC').toLocaleLowerCase().includes(query);
                 if (!card.hidden) count++;
             });
-            document.getElementById('archive-count').textContent = `${lectureCategory} ${count}건 · 최신 강의순`;
+            const result = document.getElementById('archive-count');
+            const label = categoryButtons.find(button => button.dataset.lectureCategory === lectureCategory)?.dataset.label || lectureCategory;
+            result.textContent = (result.dataset.template || '{label} {count}건 · 최신 강의순').replace('{label}', label).replace('{count}', count);
             categoryButtons.forEach(button => {
                 const active = button.dataset.lectureCategory === lectureCategory;
                 button.classList.toggle('active', active);

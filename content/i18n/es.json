@@ -1,0 +1,818 @@
+{
+  "ui": {
+    "Services": "Servicios",
+    "About": "Acerca de",
+    "Customers": "Clientes",
+    "Process": "Proceso",
+    "Apps": "Aplicaciones",
+    "Lectures": "Conferencias",
+    "Research": "Investigación",
+    "Contact": "Contacto",
+    "Contact Us": "Contactar",
+    "AI for Every Business": "IA para cada empresa",
+    "We can help your business to be more successful with powerful AI": "Ayudamos a tu empresa a crecer con IA.",
+    "Your browser does not support the video tag.": "Tu navegador no admite vídeo.",
+    "Key Services": "Servicios principales",
+    "연구개발과제 협력": "Colaboración en I+D",
+    "R&D과제의 성공적인 수행과 지표달성, 특허출원을 지원합니다.": "Apoyamos proyectos de I+D, sus objetivos y las solicitudes de patentes.",
+    "AI 관련 컨설팅": "Consultoría de IA",
+    "AI분야의 기술자문, AI 도입과 관련된 사업기획 자문을 제공합니다.": "Asesoramiento técnico y planificación empresarial para adoptar IA.",
+    "PoC 과제 수행": "Pruebas de concepto",
+    "아이디어를 빠르게 검증하기 위한 6개월 내외 규모의 PoC 과제를 수행합니다.": "Validamos ideas con proyectos de prueba de concepto de unos seis meses.",
+    "업무용 AI 시제품 구현": "Prototipos de IA para el trabajo",
+    "임직원의 효율적인 업무수행을 위한 AI플랫폼의 시제품을 구현합니다.": "Creamos prototipos de plataformas de IA para mejorar la eficiencia del equipo.",
+    "평가보고서 작성": "Informes de evaluación",
+    "AI관련 사업계획서의 타당성 검증 및 검토의견보고서를 작성해드립니다.": "Revisamos la viabilidad de planes de IA y elaboramos informes.",
+    "AI 활용 교육": "Formación práctica en IA",
+    "고객사의 업무수행분야에 가장 적합한 방향으로, 임직원의 생성형 AI 활용 교육을 제공합니다.": "Formación en IA generativa adaptada al trabajo de tus empleados.",
+    "AI Engineer, CEO": "Ingeniero de IA, CEO",
+    "🚀 상상텃밭(주) 前 CTO (2018. ~ 2024.)": "🚀 Ex CTO de SangSang Farm (2018–2024)",
+    "✒️ 저서 36건": "✒️ 36 libros",
+    "💡 특허·실용신안 출원 34건": "💡 34 solicitudes de patentes y modelos de utilidad",
+    "🔬 논문·연구 28건 (프리프린트 포함)": "🔬 28 artículos y estudios, incluidos preprints",
+    "🎓 KAIST 바이오및뇌공학과 학사/석사 조기졸업": "🎓 Graduación anticipada de grado y máster en Bioingeniería e Ingeniería Cerebral, KAIST",
+    "📜 행정안전부 장관 표창 수상": "📜 Reconocimiento del Ministerio del Interior y Seguridad de Corea",
+    "🕶️ 한국인 최초": "🕶️ Primer coreano",
+    "국제IQ만점자협회(LPS)": "Sociedad de alto CI LPS",
+    "정회원": "miembro de pleno derecho",
+    "협업/자문/교육사례": "Colaboración, consultoría y formación",
+    "공공기관": "Instituciones públicas",
+    "기업": "Empresas",
+    "교육기관": "Educación",
+    "연구기관": "Centros de investigación",
+    "출연연": "Centros de investigación",
+    "컨퍼런스": "Congresos",
+    "협업 과정": "Cómo colaboramos",
+    "Discover": "Descubrir",
+    "고객사 니즈 정의": "Definir tus necesidades",
+    "Plan": "Planificar",
+    "과업 범위 협상, 수행계획안 수립": "Acordar el alcance y preparar el plan",
+    "Work": "Ejecutar",
+    "과업 성실 수행": "Realizar el trabajo acordado",
+    "Finish": "Entregar",
+    "산출물 납품": "Entregar los resultados",
+    "전체": "Todas",
+    "생활·업무": "Vida y trabajo",
+    "문서·텍스트": "Documentos y texto",
+    "이미지·미디어": "Imágenes y medios",
+    "재미·실험": "Juegos y experimentos",
+    "AI·개발": "IA y desarrollo",
+    "공학·계산": "Ingeniería y cálculo",
+    "최신 앱부터 만나보세요. 작업에 꼭 맞는 도구를 찾아보세요.": "Explora las novedades y encuentra la herramienta que necesitas.",
+    "필요한 웹앱과 도구를 한곳에서 만나보세요.": "Aplicaciones web y herramientas en un solo lugar.",
+    "앱 이름 또는 기능 검색": "Buscar por nombre o función",
+    "어떤 도구를 찾으세요?": "¿Qué herramienta buscas?",
+    "앱 분류": "Categorías",
+    "앱 열기": "Abrir aplicación",
+    "템플릿 보기": "Ver plantilla",
+    "개발 템플릿": "Plantilla de desarrollo",
+    "일치하는 도구가 없습니다.": "No hay herramientas coincidentes.",
+    "다른 검색어를 입력하거나 분류를 바꿔 보세요.": "Prueba otra búsqueda o categoría.",
+    "전체 도구 보기": "Ver todas",
+    "강의·출강 이력 전체 · 최신 강의순": "Todas las conferencias · más recientes primero",
+    "강의·출강 이력": "Conferencias y ponencias",
+    "강연 제목·기관·연도 검색": "Buscar por título, institución o año",
+    "기관명 또는 주제 검색": "Buscar institución o tema",
+    "강의 기관 분류": "Tipos de institución",
+    "일치하는 강연이 없습니다. 검색어나 기관 분류를 바꿔 보세요.": "No hay conferencias coincidentes. Cambia la búsqueda o el tipo de institución.",
+    "R&D 분류": "Categorías de I+D",
+    "논문·특허·개발 프로젝트 전체": "Artículos, patentes y proyectos completos",
+    "논문·특허·개발 프로젝트": "Artículos, patentes y proyectos",
+    "논문·연구": "Artículos y estudios",
+    "특허·실용신안": "Patentes y modelos de utilidad",
+    "개발 프로젝트": "Proyectos de desarrollo",
+    "링크 열기": "Abrir enlace",
+    "출처:": "Fuente:",
+    "반병현 공식 홈페이지 bhban.kr": "Sitio oficial de Byunghyun Ban, bhban.kr",
+    "· 원본 섹션의 정적 스냅샷이며, 원문 자료는 출처 사이트로 연결됩니다.": "· Copias estáticas de las secciones originales; los documentos enlazan a la fuente.",
+    "나나랩과 함께 혁신을 준비하세요!": "Prepara tu próxima innovación con NaNa Lab.",
+    "Name": "Nombre",
+    "Institution": "Institución",
+    "Phone Number": "Teléfono",
+    "Email": "Correo electrónico",
+    "Title": "Asunto",
+    "Message": "Mensaje",
+    "이름을 입력해주세요": "Escribe tu nombre",
+    "소속 기관명을 입력해주세요": "Escribe tu institución",
+    "국가 선택": "Código de país",
+    "직접입력": "Introducir manualmente",
+    "이메일을 입력해주세요": "Escribe tu correo",
+    "제목을 입력해주세요": "Escribe un asunto",
+    "문의하실 내용을 남겨주세요": "Cuéntanos tu consulta",
+    "문의 보내기": "Enviar consulta",
+    "전송 중... (Sending...)": "Enviando…",
+    "문의가 성공적으로 전송되었습니다! (Email sent successfully!)": "Tu consulta se ha enviado.",
+    "메일 전송에 실패했습니다:": "No se pudo enviar el mensaje:",
+    "NaNa Lab은 주식회사 나나컴퍼니의 영업권 일부를 치즈케익스튜디오가 양수하여 운영하는 사업부입니다.": "NaNa Lab es una división de Cheesecake Studio, que adquirió parte de los derechos comerciales de NaNa Company.",
+    "(주)나나컴퍼니 대표이사 반병현. 사업자등록번호: 456-81-03285": "NaNa Company · CEO Byunghyun Ban · Registro: 456-81-03285",
+    "치즈케익스튜디오 대표자 반병현, 사업자등록번호: 269-08-02374": "Cheesecake Studio · Byunghyun Ban · Registro: 269-08-02374",
+    "개인정보처리방침": "Política de privacidad",
+    "구독·데이터": "Fuentes y datos",
+    "RSS · JSON Feed · 공개 JSON": "RSS · JSON Feed · JSON público",
+    "구독 피드": "Fuentes de suscripción",
+    "통합 업데이트": "Todas las novedades",
+    "앱": "Aplicaciones",
+    "강의": "Conferencias",
+    "연구": "Investigación",
+    "논문": "Artículos",
+    "특허": "Patentes",
+    "프로젝트": "Proyectos",
+    "연구 통합": "Toda la investigación",
+    "조회용 JSON": "Catálogos JSON públicos",
+    "전체 엔드포인트·개수·스키마 버전": "Endpoints, recuentos y versión del esquema",
+    "날짜와 출처": "Fechas y fuentes",
+    "Toggle navigation": "Abrir o cerrar menú",
+    "재미·라이프": "Diversión y vida",
+    "미리보기 PDF (1쪽)": "Vista previa PDF (1 página)",
+    "아래 주소를 RSS 리더에 등록하세요. RSS 2.0과 JSON Feed 1.1을 제공합니다. 통합 피드는 최근 200건, 분야별 피드는 최근 100건입니다.": "Añade estas direcciones a tu lector. Se ofrecen RSS 2.0 y JSON Feed 1.1: 200 registros recientes en el feed general y 100 en cada sección.",
+    "전체 목록을 정적 JSON으로 제공합니다. 별도 로그인이나 API 키 없이 GET 요청으로 읽을 수 있습니다. 응답의": "Los catálogos completos son JSON estático, accesible por GET sin cuenta ni clave API. El campo",
+    "가 목록이며": "contiene la lista;",
+    "가 항목 수입니다.": "es el número de registros.",
+    "앱은 등록 원본의 공개 시각, 강의·특허는 원문에 적힌 일정을 사용합니다. 일자만 있는 자료는 한국 시간 00:00으로 표현합니다. 연도만 확인되는 자료에는 정확한 게시 일시를 넣지 않습니다. 날짜를 모르는 항목은 뒤에 정렬합니다. 재빌드만으로 ID나 게시 시각이 바뀌지 않습니다.": "Las apps usan la fecha de publicación de origen; las conferencias y patentes, su fecha registrada. Las fechas sin hora se representan a medianoche de Corea. No se inventan horas para registros con solo año. Los registros sin fecha van al final. Reconstruir no cambia IDs ni fechas.",
+    "강의·연구 자료의 원본 출처는": "La fuente original de los registros de conferencias e investigación es",
+    "입니다. 논문·프리프린트 구분과 인용·원문 링크를 확인하세요. 공개 API 제공은 원문 자료의 이용 조건을 변경하지 않습니다.": ". Consulta las etiquetas de publicación y preprint, las citas y los enlaces originales. La API pública no cambia las condiciones de uso de los documentos.",
+    "모든 파일은 사이트 빌드 때 함께 갱신됩니다. JSON Feed는 호스팅 환경에 따라": "Todos los archivos se actualizan al generar el sitio. Según el alojamiento, JSON Feed puede usar",
+    "으로 응답할 수 있으며 JSON Feed 1.1에서 허용하는 방식입니다.": ", permitido por JSON Feed 1.1.",
+    "Web app": "Aplicación web",
+    "apps & tools": "aplicaciones y herramientas"
+  },
+  "apps": {
+    "smart_calculator": {
+      "name": "Calculadora inteligente",
+      "description": "Cálculos cotidianos y cambio de divisas con entrada de voz e historial.",
+      "image_alt": "Calculadora inteligente"
+    },
+    "qr": {
+      "name": "Generador de códigos QR",
+      "description": "Convierte un enlace en un código QR fácil de compartir.",
+      "image_alt": "Generador de códigos QR"
+    },
+    "count_words": {
+      "name": "Contador de caracteres",
+      "description": "Cuenta caracteres coreanos y bytes para comprobar la extensión de tus textos.",
+      "image_alt": "Contador de caracteres"
+    },
+    "image_resize": {
+      "name": "Redimensionar imágenes",
+      "description": "Cambia el tamaño, las proporciones y el recorte de tus imágenes.",
+      "image_alt": "Redimensionar imágenes"
+    },
+    "merge_pdf": {
+      "name": "Unir PDF",
+      "description": "Une archivos PDF en un documento en el orden que elijas.",
+      "image_alt": "Unir PDF"
+    },
+    "doc_compress": {
+      "name": "Comprimir documentos",
+      "description": "Reduce el tamaño de PDF, documentos de oficina e imágenes.",
+      "image_alt": "Comprimir documentos"
+    },
+    "doc_stat": {
+      "name": "Analizar documentos",
+      "description": "Consulta páginas, palabras y otros datos de archivos PDF y DOCX.",
+      "image_alt": "Analizar documentos"
+    },
+    "doc_summarizer": {
+      "name": "Resumir documentos",
+      "description": "Una herramienta para leer documentos largos y organizar sus ideas principales.",
+      "image_alt": "Resumir documentos"
+    },
+    "lipsum": {
+      "name": "Generador de texto de relleno",
+      "description": "Genera texto de ejemplo para diseños y documentos.",
+      "image_alt": "Generador de texto de relleno"
+    },
+    "gif_studio": {
+      "name": "Estudio GIF",
+      "description": "Cambia tamaño, recorta, gira y optimiza GIF en un solo lugar.",
+      "image_alt": "Estudio GIF"
+    },
+    "video_2_gif": {
+      "name": "Vídeo a GIF",
+      "description": "Elige un fragmento de vídeo y conviértelo en GIF animado.",
+      "image_alt": "Vídeo a GIF"
+    },
+    "audio_edit": {
+      "name": "Editor de audio",
+      "description": "Recorta audio, ajusta el volumen y convierte formatos.",
+      "image_alt": "Editor de audio"
+    },
+    "afd": {
+      "name": "Pantalla de ausencia",
+      "description": "Muestra tu estado cuando estés fuera o en una reunión.",
+      "image_alt": "Pantalla de ausencia"
+    },
+    "bmi": {
+      "name": "Calculadora de IMC",
+      "description": "Calcula el índice de masa corporal a partir de altura y peso.",
+      "image_alt": "Calculadora de IMC"
+    },
+    "fortune": {
+      "name": "Tu suerte de hoy",
+      "description": "Descubre tu suerte de hoy con una lectura para divertirte.",
+      "image_alt": "Tu suerte de hoy"
+    },
+    "luck": {
+      "name": "Cañón de la suerte",
+      "description": "Reúne participantes y sortea un ganador al azar.",
+      "image_alt": "Cañón de la suerte"
+    },
+    "chatTemplate": {
+      "name": "Chat en solitario",
+      "description": "Interpreta ambos lados de una conversación y crea una escena de chat.",
+      "image_alt": "Chat en solitario"
+    },
+    "ppp": {
+      "name": "Portal de prompts publicados",
+      "description": "Explora prompts recopilados de libros publicados.",
+      "image_alt": "Portal de prompts publicados"
+    },
+    "astra": {
+      "name": "Astra Playground",
+      "description": "Practica agentes de IA con sitios de ejercicios y archivos de ejemplo.",
+      "image_alt": "Astra Playground"
+    },
+    "android_webview_template": {
+      "name": "Plantilla Android WebView",
+      "description": "Edita la configuración para convertir un sitio web en una app Android.",
+      "image_alt": "Plantilla Android WebView"
+    },
+    "rebirth_country": {
+      "name": "Pasaporte de otra vida",
+      "description": "¿Dónde nacerás después? Descubre un país y pasaporte según la población mundial.",
+      "image_alt": "Pasaporte de otra vida"
+    },
+    "ai_knowledge_tree": {
+      "name": "Árbol del conocimiento de IA",
+      "description": "Creada por encargo de una gran empresa para que cualquiera vea el estado actual de la industria de la IA.",
+      "image_alt": "Árbol del conocimiento de IA"
+    },
+    "rebirth_biology": {
+      "name": "Identidad de tu próxima vida",
+      "description": "Descubre 72 posibles vidas según la biomasa de la Tierra y recibe tu identidad de organismo.",
+      "image_alt": "Identidad de tu próxima vida"
+    },
+    "body-clock": {
+      "name": "¿Puedes sentir diez segundos?",
+      "description": "Calcula diez segundos tres veces sin reloj para probar tu sentido del tiempo.",
+      "image_alt": "¿Puedes sentir diez segundos?"
+    },
+    "color-drop": {
+      "name": "Encuentra el color diferente",
+      "description": "Encuentra el único color diferente entre fichas parecidas.",
+      "image_alt": "Encuentra el color diferente"
+    },
+    "level-frame": {
+      "name": "Endereza el cuadro",
+      "description": "Gira un cuadro inclinado para probar tu sentido de la horizontal.",
+      "image_alt": "Endereza el cuadro"
+    },
+    "table-memory": {
+      "name": "Memoria de mesa en tres segundos",
+      "description": "Mira una mesa tres segundos y reproduce la posición de los objetos.",
+      "image_alt": "Memoria de mesa en tres segundos"
+    },
+    "lunch-math": {
+      "name": "Calcula el almuerzo de memoria",
+      "description": "Calcula la cuenta del almuerzo sin calculadora y prueba tu rapidez y precisión.",
+      "image_alt": "Calcula el almuerzo de memoria"
+    },
+    "rain-rhythm": {
+      "name": "Repite el ritmo de la lluvia",
+      "description": "Recuerda el ritmo de las gotas que acabas de oír y repítelo.",
+      "image_alt": "Repite el ritmo de la lluvia"
+    },
+    "next-life-stats": {
+      "name": "Cien puntos para tu próxima vida",
+      "description": "Reparte cien puntos para tu próxima vida y descubre tu resultado.",
+      "image_alt": "Cien puntos para tu próxima vida"
+    },
+    "line-copy": {
+      "name": "Copia la línea de memoria",
+      "description": "Memoriza una línea dos segundos y dibújala con la misma longitud.",
+      "image_alt": "Copia la línea de memoria"
+    },
+    "cat-naps": {
+      "name": "Duerme a los seis gatos",
+      "description": "Encuentra lugares para dormir que satisfagan a los seis gatos exigentes.",
+      "image_alt": "Duerme a los seis gatos"
+    },
+    "eng-reynolds": {
+      "name": "Calculadora del número de Reynolds",
+      "description": "Verifique la similitud de flujo en experimentos de tuberías y modelos a escala.",
+      "image_alt": "Calculadora del número de Reynolds"
+    },
+    "eng-mach": {
+      "name": "Calculadora de número de Mach",
+      "description": "Compare la velocidad del flujo con la velocidad local del sonido en túneles de viento y toberas.",
+      "image_alt": "Calculadora de número de Mach"
+    },
+    "eng-dynamic-pressure": {
+      "name": "Calculadora de presión dinámica",
+      "description": "Verifique la presión dinámica antes de estimar las cargas y los coeficientes del túnel de viento.",
+      "image_alt": "Calculadora de presión dinámica"
+    },
+    "eng-volume-flow": {
+      "name": "Calculadora de caudal volumétrico",
+      "description": "Verifique el flujo a través de una tubería o abertura de ventilación usando su área de sección transversal.",
+      "image_alt": "Calculadora de caudal volumétrico"
+    },
+    "eng-mass-flow": {
+      "name": "Calculadora de caudal másico",
+      "description": "Convierta el flujo volumétrico en flujo másico para el suministro de gas y balances de materiales.",
+      "image_alt": "Calculadora de caudal másico"
+    },
+    "eng-hydrostatic-pressure": {
+      "name": "Calculadora de presión manométrica hidrostática",
+      "description": "Verifique la presión de la columna de líquido en tanques y experimentos hidrostáticos.",
+      "image_alt": "Calculadora de presión manométrica hidrostática"
+    },
+    "eng-laminar-pipe-drop": {
+      "name": "Calculadora de caída de presión de tubería laminar",
+      "description": "Compruebe la pérdida de presión de Hagen-Poiseuille en microcanales y experimentos de flujo laminar.",
+      "image_alt": "Calculadora de caída de presión de tubería laminar"
+    },
+    "eng-hydraulic-power": {
+      "name": "Calculadora de potencia de presión hidráulica",
+      "description": "Verifique la tasa de trabajo de presión a partir del aumento de presión y el caudal.",
+      "image_alt": "Calculadora de potencia de presión hidráulica"
+    },
+    "eng-kinematic-viscosity": {
+      "name": "Calculadora de viscosidad cinemática",
+      "description": "Convierta la viscosidad dinámica en viscosidad cinemática sin mezclar sus unidades.",
+      "image_alt": "Calculadora de viscosidad cinemática"
+    },
+    "eng-drag-force": {
+      "name": "Calculadora de fuerza de arrastre",
+      "description": "Verifique una carga de arrastre utilizando un coeficiente de arrastre conocido del túnel de viento.",
+      "image_alt": "Calculadora de fuerza de arrastre"
+    },
+    "eng-wall-conduction": {
+      "name": "Calculadora de conducción térmica en pared plana",
+      "description": "Verifique la conducción de calor a través de una pared o una muestra de aislamiento.",
+      "image_alt": "Calculadora de conducción térmica en pared plana"
+    },
+    "eng-convection-heat": {
+      "name": "Calculadora de convección superficial",
+      "description": "Aplique la ley de enfriamiento de Newton a una superficie con un coeficiente de convección conocido.",
+      "image_alt": "Calculadora de convección superficial"
+    },
+    "eng-radiation-heat": {
+      "name": "Calculadora de transferencia de calor por radiación neta",
+      "description": "Verifique la pérdida de calor por radiación entre una pequeña superficie gris y un entorno grande.",
+      "image_alt": "Calculadora de transferencia de calor por radiación neta"
+    },
+    "eng-thermal-expansion": {
+      "name": "Calculadora de expansión térmica lineal",
+      "description": "Compruebe el cambio de longitud libre en una varilla metálica o en la holgura de montaje.",
+      "image_alt": "Calculadora de expansión térmica lineal"
+    },
+    "eng-carnot-efficiency": {
+      "name": "Calculadora de límite de eficiencia de Carnot",
+      "description": "Verifique el límite de eficiencia teórica para un motor térmico entre dos depósitos.",
+      "image_alt": "Calculadora de límite de eficiencia de Carnot"
+    },
+    "eng-carnot-cop": {
+      "name": "Calculadora de COP de una máquina frigorífica de Carnot",
+      "description": "Verifique el coeficiente de rendimiento de refrigeración ideal entre dos depósitos.",
+      "image_alt": "Calculadora de COP de una máquina frigorífica de Carnot"
+    },
+    "eng-wire-resistance": {
+      "name": "Calculadora de resistencia de CC de alambre",
+      "description": "Verifique la resistencia del conductor a partir de la resistividad, la longitud y el área de la sección transversal.",
+      "image_alt": "Calculadora de resistencia de CC de alambre"
+    },
+    "eng-plate-capacitance": {
+      "name": "Calculadora de capacitancia de placas paralelas",
+      "description": "Verifique la capacitancia ideal para un sensor o un experimento dieléctrico.",
+      "image_alt": "Calculadora de capacitancia de placas paralelas"
+    },
+    "eng-solenoid-inductance": {
+      "name": "Calculadora de inductancia de solenoide largo con núcleo de aire",
+      "description": "Verifique una estimación de inductancia inicial para una bobina con núcleo de aire largo.",
+      "image_alt": "Calculadora de inductancia de solenoide largo con núcleo de aire"
+    },
+    "eng-rc-time": {
+      "name": "Calculadora de constante de tiempo RC",
+      "description": "Verifique la constante de tiempo de un circuito de carga o filtro de primer orden.",
+      "image_alt": "Calculadora de constante de tiempo RC"
+    },
+    "eng-rl-time": {
+      "name": "Calculadora de constante de tiempo RL",
+      "description": "Verifique la constante de tiempo de respuesta actual de un circuito de bobina de primer orden.",
+      "image_alt": "Calculadora de constante de tiempo RL"
+    },
+    "eng-capacitive-reactance": {
+      "name": "Calculadora de reactancia capacitiva",
+      "description": "Verifique la magnitud de la reactancia del capacitor ideal a una frecuencia sinusoidal.",
+      "image_alt": "Calculadora de reactancia capacitiva"
+    },
+    "eng-inductive-reactance": {
+      "name": "Calculadora de reactancia inductiva",
+      "description": "Verifique la reactancia inductiva ideal a una frecuencia sinusoidal elegida.",
+      "image_alt": "Calculadora de reactancia inductiva"
+    },
+    "eng-lc-resonance": {
+      "name": "Calculadora de frecuencia de resonancia LC",
+      "description": "Verifique la frecuencia de resonancia ideal para un filtro o experimento de resonancia.",
+      "image_alt": "Calculadora de frecuencia de resonancia LC"
+    },
+    "eng-voltage-divider": {
+      "name": "Calculadora de divisor de tensión sin carga",
+      "description": "Verifique un divisor resistivo ideal antes de conectar un ADC o una carga de sensor.",
+      "image_alt": "Calculadora de divisor de tensión sin carga"
+    },
+    "eng-power-db": {
+      "name": "Calculadora de ganancia de potencia en decibelios",
+      "description": "Verifique la relación de potencia de un amplificador o el presupuesto de pérdida de enlace.",
+      "image_alt": "Calculadora de ganancia de potencia en decibelios"
+    },
+    "eng-rotation-energy": {
+      "name": "Calculadora de energía cinética rotacional",
+      "description": "Verifique la energía de rotación almacenada en un volante o un rotor rígido.",
+      "image_alt": "Calculadora de energía cinética rotacional"
+    },
+    "eng-shaft-power": {
+      "name": "Calculadora de potencia de par del eje",
+      "description": "Verifique la potencia mecánica del eje a partir del par firmado y la velocidad de rotación.",
+      "image_alt": "Calculadora de potencia de par del eje"
+    },
+    "eng-centripetal-acceleration": {
+      "name": "Calculadora de aceleración centrípeta",
+      "description": "Verifique el componente de aceleración normal en un experimento de movimiento circular.",
+      "image_alt": "Calculadora de aceleración centrípeta"
+    },
+    "eng-spring-frequency": {
+      "name": "Calculadora de frecuencia natural de un sistema masa-resorte",
+      "description": "Verifique la frecuencia natural no amortiguada de un modelo de vibración lineal.",
+      "image_alt": "Calculadora de frecuencia natural de un sistema masa-resorte"
+    },
+    "eng-pendulum-period": {
+      "name": "Calculadora de período de péndulo de ángulo pequeño",
+      "description": "Consulte un período de péndulo simple para experimentos básicos de gravedad y vibración.",
+      "image_alt": "Calculadora de período de péndulo de ángulo pequeño"
+    },
+    "eng-axial-stress": {
+      "name": "Calculadora de tensión axial promedio",
+      "description": "Verifique la tensión axial promedio en una muestra o una barra.",
+      "image_alt": "Calculadora de tensión axial promedio"
+    },
+    "eng-shaft-shear": {
+      "name": "Calculadora de esfuerzo cortante de eje circular sólido",
+      "description": "Verifique el esfuerzo cortante torsional máximo para un diámetro de eje inicial.",
+      "image_alt": "Calculadora de esfuerzo cortante de eje circular sólido"
+    },
+    "eng-axial-extension": {
+      "name": "Calculadora de extensión de barra axial",
+      "description": "Verifique el cambio de longitud axial a partir de una carga y un módulo de material conocidos.",
+      "image_alt": "Calculadora de extensión de barra axial"
+    },
+    "eng-restrained-thermal-stress": {
+      "name": "Calculadora de tensión térmica con restricción total",
+      "description": "Verifique la tensión térmica uniaxial cuando una barra no puede expandirse.",
+      "image_alt": "Calculadora de tensión térmica con restricción total"
+    },
+    "eng-bending-stress": {
+      "name": "Calculadora de tensión máxima de flexión de vigas",
+      "description": "Calcule la tensión normal en la fibra extrema a partir de un momento flector conocido.",
+      "image_alt": "Calculadora de tensión máxima de flexión de vigas"
+    },
+    "eng-shaft-twist": {
+      "name": "Calculadora de ángulo de torsión de eje circular",
+      "description": "Compruebe la torsión entre los extremos de un eje circular uniforme.",
+      "image_alt": "Calculadora de ángulo de torsión de eje circular"
+    },
+    "eng-euler-buckling": {
+      "name": "Calculadora de pandeo de Euler de columna biarticulada",
+      "description": "Compruebe la carga de pandeo elástica ideal para una columna articulada delgada.",
+      "image_alt": "Calculadora de pandeo de Euler de columna biarticulada"
+    },
+    "eng-ideal-gas-density": {
+      "name": "Calculadora de densidad de gas ideal",
+      "description": "Verifique la densidad del gas ideal a partir de la presión absoluta, la masa molar y la temperatura.",
+      "image_alt": "Calculadora de densidad de gas ideal"
+    },
+    "eng-mean-free-path": {
+      "name": "Calculadora de camino libre medio de gas",
+      "description": "Verifique el camino libre medio del gas diluido en teoría cinética o experimentos de vacío.",
+      "image_alt": "Calculadora de camino libre medio de gas"
+    },
+    "eng-arrhenius-rate": {
+      "name": "Calculadora de constante de tasa de Arrhenius",
+      "description": "Compruebe la dependencia de la temperatura de una constante de velocidad de reacción.",
+      "image_alt": "Calculadora de constante de tasa de Arrhenius"
+    },
+    "eng-first-order-half-life": {
+      "name": "Calculadora de semivida de primer orden",
+      "description": "Calcule la semivida de un proceso ideal de desaparición o desintegración de primer orden.",
+      "image_alt": "Calculadora de semivida de primer orden"
+    },
+    "eng-osmotic-pressure": {
+      "name": "Calculadora de presión osmótica de solución diluida",
+      "description": "Compruebe la presión osmótica con la aproximación ideal de solución diluida.",
+      "image_alt": "Calculadora de presión osmótica de solución diluida"
+    },
+    "eng-photon-energy": {
+      "name": "Calculadora de energía de fotones a partir de longitud de onda",
+      "description": "Convierta una longitud de onda del vacío en energía de fotón único para espectroscopia básica.",
+      "image_alt": "Calculadora de energía de fotones a partir de longitud de onda"
+    },
+    "eng-thin-lens-image": {
+      "name": "Calculadora de distancia de imagen de lente delgada",
+      "description": "Verifique la distancia de la imagen firmada en un modelo de lente delgada paraxial.",
+      "image_alt": "Calculadora de distancia de imagen de lente delgada"
+    },
+    "eng-aperture-resolution": {
+      "name": "Calculadora de resolución de apertura circular",
+      "description": "Verifique el ángulo de difracción de Rayleigh para obtener una apertura circular ideal.",
+      "image_alt": "Calculadora de resolución de apertura circular"
+    },
+    "eng-snell-refraction": {
+      "name": "Calculadora de ángulo de refracción de Snell",
+      "description": "Verifique el ángulo del rayo refractado medido desde la interfaz normal.",
+      "image_alt": "Calculadora de ángulo de refracción de Snell"
+    },
+    "eng-fiber-numerical-aperture": {
+      "name": "Calculadora de apertura numérica de fibra de índice escalonado",
+      "description": "Verifique la apertura numérica a partir de los índices de refracción del núcleo y el revestimiento.",
+      "image_alt": "Calculadora de apertura numérica de fibra de índice escalonado"
+    },
+    "eng-first-order-settling": {
+      "name": "Calculadora de tiempo de establecimiento de primer orden",
+      "description": "Verifique el tiempo de espera para un proceso de primer orden estable o una respuesta del sensor.",
+      "image_alt": "Calculadora de tiempo de establecimiento de primer orden"
+    },
+    "eng-spring-damping-ratio": {
+      "name": "Calculadora de amortiguamiento de un sistema masa-resorte",
+      "description": "Verifique la amortiguación viscosa en relación con la amortiguación crítica en un modelo de vibración lineal.",
+      "image_alt": "Calculadora de amortiguamiento de un sistema masa-resorte"
+    },
+    "eng-escape-speed": {
+      "name": "Calculadora de velocidad de escape",
+      "description": "Calcule la rapidez inicial mínima para escapar de un cuerpo aislado.",
+      "image_alt": "Calculadora de velocidad de escape"
+    },
+    "eng-orbital-period": {
+      "name": "Calculadora del período de órbita circular",
+      "description": "Calcula el período de una órbita circular ideal.",
+      "image_alt": "Calculadora del período de órbita circular"
+    },
+    "eng-hohmann-delta-v": {
+      "name": "Calculadora de delta v total de una transferencia de Hohmann",
+      "description": "Calcule el cambio total de velocidad impulsiva entre órbitas circulares coplanares.",
+      "image_alt": "Calculadora de delta v total de una transferencia de Hohmann"
+    },
+    "eng-gravitational-energy": {
+      "name": "Calculadora de energía potencial gravitacional",
+      "description": "Calcula la energía potencial gravitacional relativa al infinito.",
+      "image_alt": "Calculadora de energía potencial gravitacional"
+    },
+    "eng-gravity-at-radius": {
+      "name": "Calculadora de gravedad en radio",
+      "description": "Calcula la aceleración gravitacional fuera de un cuerpo esférico.",
+      "image_alt": "Calculadora de gravedad en radio"
+    },
+    "eng-schwarzschild-radius": {
+      "name": "Calculadora de radio de Schwarzschild",
+      "description": "Calcule el radio del horizonte de un modelo de agujero negro no giratorio y sin carga.",
+      "image_alt": "Calculadora de radio de Schwarzschild"
+    },
+    "eng-lorentz-factor": {
+      "name": "Calculadora del factor de Lorentz",
+      "description": "Calcule el factor de Lorentz a partir de la velocidad relativa.",
+      "image_alt": "Calculadora del factor de Lorentz"
+    },
+    "eng-relativistic-energy": {
+      "name": "Calculadora de energía cinética relativista",
+      "description": "Calcule la energía cinética de traslación usando la relatividad especial.",
+      "image_alt": "Calculadora de energía cinética relativista"
+    },
+    "eng-de-broglie": {
+      "name": "Calculadora de longitud de onda De Broglie",
+      "description": "Calcule la longitud de onda de materia a partir de la cantidad de movimiento.",
+      "image_alt": "Calculadora de longitud de onda De Broglie"
+    },
+    "eng-gas-rms-speed": {
+      "name": "Calculadora de rapidez molecular cuadrática media de un gas",
+      "description": "Calcule la velocidad molecular de traslación RMS de un gas ideal.",
+      "image_alt": "Calculadora de rapidez molecular cuadrática media de un gas"
+    },
+    "eng-free-fall-time": {
+      "name": "Calculadora de tiempo de caída libre",
+      "description": "Calcule el tiempo de caída desde el reposo en gravedad uniforme.",
+      "image_alt": "Calculadora de tiempo de caída libre"
+    },
+    "eng-projectile-range": {
+      "name": "Calculadora de alcance de proyectil",
+      "description": "Calcule el alcance ideal del proyectil cuando las alturas de lanzamiento y aterrizaje coinciden.",
+      "image_alt": "Calculadora de alcance de proyectil"
+    },
+    "eng-impulse": {
+      "name": "Calculadora de impulso de fuerza promedio",
+      "description": "Calcule el impulso unidimensional a partir de la fuerza media y la duración de su aplicación.",
+      "image_alt": "Calculadora de impulso de fuerza promedio"
+    },
+    "eng-series-spring": {
+      "name": "Calculadora de rigidez de resorte en serie",
+      "description": "Calcule la rigidez equivalente de dos resortes lineales en serie.",
+      "image_alt": "Calculadora de rigidez de resorte en serie"
+    },
+    "eng-center-of-mass": {
+      "name": "Calculadora del centro de masa de dos masas",
+      "description": "Calcule el centro de masa de dos masas puntuales en un eje.",
+      "image_alt": "Calculadora del centro de masa de dos masas"
+    },
+    "eng-friction-stop-distance": {
+      "name": "Calculadora de distancia de frenado por fricción",
+      "description": "Calcule la distancia de frenado por deslizamiento con fricción cinética constante.",
+      "image_alt": "Calculadora de distancia de frenado por fricción"
+    },
+    "eng-critical-incline": {
+      "name": "Calculadora de ángulo de inclinación de deslizamiento crítico",
+      "description": "Calcule el ángulo de inclinación de inicio del deslizamiento en un modelo de fricción de Coulomb.",
+      "image_alt": "Calculadora de ángulo de inclinación de deslizamiento crítico"
+    },
+    "eng-spring-energy": {
+      "name": "Calculadora de energía potencial de resorte",
+      "description": "Calcule la energía almacenada en un resorte lineal estirado o comprimido.",
+      "image_alt": "Calculadora de energía potencial de resorte"
+    },
+    "eng-tube-area-inertia": {
+      "name": "Calculadora del segundo momento de área de un tubo circular",
+      "description": "Calcule el segundo momento del área de un tubo circular con respecto a un diámetro centroidal.",
+      "image_alt": "Calculadora del segundo momento de área de un tubo circular"
+    },
+    "eng-cantilever-deflection": {
+      "name": "Calculadora de deflexión del extremo de una viga en voladizo",
+      "description": "Calcule la deflexión de la punta de un voladizo delgado bajo una carga puntual.",
+      "image_alt": "Calculadora de deflexión del extremo de una viga en voladizo"
+    },
+    "eng-rayleigh-number": {
+      "name": "Calculadora del número de Rayleigh",
+      "description": "Calcule el número de Rayleigh para una configuración de convección natural específica.",
+      "image_alt": "Calculadora del número de Rayleigh"
+    },
+    "eng-prandtl-number": {
+      "name": "Calculadora del número de Prandtl",
+      "description": "Calcule la relación entre la difusividad de cantidad de movimiento y la difusividad térmica.",
+      "image_alt": "Calculadora del número de Prandtl"
+    },
+    "eng-nusselt-number": {
+      "name": "Calculadora del número de Nusselt",
+      "description": "Convierta un coeficiente de convección conocido a un número de Nusselt.",
+      "image_alt": "Calculadora del número de Nusselt"
+    },
+    "eng-thermal-diffusivity": {
+      "name": "Calculadora de difusividad térmica",
+      "description": "Calcule la difusividad térmica a partir de la conductividad y la capacidad calorífica volumétrica.",
+      "image_alt": "Calculadora de difusividad térmica"
+    },
+    "eng-sensible-heat": {
+      "name": "Calculadora de calor sensible",
+      "description": "Calcule el calor sensible para calentar o enfriar sin cambio de fase.",
+      "image_alt": "Calculadora de calor sensible"
+    },
+    "eng-isothermal-work": {
+      "name": "Calculadora de trabajo isotérmico del gas ideal",
+      "description": "Calcule el trabajo presión-volumen isotérmico reversible realizado por un gas ideal.",
+      "image_alt": "Calculadora de trabajo isotérmico del gas ideal"
+    },
+    "eng-adiabatic-temperature": {
+      "name": "Calculadora de temperatura del gas ideal adiabático",
+      "description": "Calcule la temperatura final para un proceso adiabático reversible de gas ideal.",
+      "image_alt": "Calculadora de temperatura del gas ideal adiabático"
+    },
+    "eng-log-mean-temperature": {
+      "name": "Calculadora de diferencia de temperatura media logarítmica",
+      "description": "Calcule LMTD a partir de dos diferencias positivas de temperatura terminal.",
+      "image_alt": "Calculadora de diferencia de temperatura media logarítmica"
+    },
+    "eng-buoyant-force": {
+      "name": "Calculadora de flotabilidad de fluido desplazado",
+      "description": "Calcule la flotabilidad a partir del peso del fluido desplazado.",
+      "image_alt": "Calculadora de flotabilidad de fluido desplazado"
+    },
+    "eng-capillary-rise": {
+      "name": "Calculadora de ascenso capilar",
+      "description": "Calcule el ascenso o depresión estática en un capilar circular.",
+      "image_alt": "Calculadora de ascenso capilar"
+    },
+    "eng-point-charge-field": {
+      "name": "Calculadora de campo eléctrico de carga puntual",
+      "description": "Calcule la magnitud del campo de una carga puntual aislada en el vacío.",
+      "image_alt": "Calculadora de campo eléctrico de carga puntual"
+    },
+    "eng-ideal-transformer": {
+      "name": "Calculadora de voltaje ideal del transformador",
+      "description": "Calcule el voltaje secundario ideal del transformador de CA a partir de la relación de vueltas.",
+      "image_alt": "Calculadora de voltaje ideal del transformador"
+    },
+    "eng-rlc-impedance": {
+      "name": "Calculadora de impedancia serie RLC",
+      "description": "Calcule la magnitud de la impedancia sinusoidal de un circuito RLC en serie ideal.",
+      "image_alt": "Calculadora de impedancia serie RLC"
+    },
+    "eng-ac-real-power": {
+      "name": "Calculadora de potencia activa de CA",
+      "description": "Calcule la potencia real promedio a partir de voltaje, corriente y fase RMS sinusoidal.",
+      "image_alt": "Calculadora de potencia activa de CA"
+    },
+    "eng-skin-depth": {
+      "name": "Calculadora de profundidad de penetración en un buen conductor",
+      "description": "Calcule la profundidad a la que la amplitud electromagnética disminuye a 1/e, en la aproximación de buen conductor.",
+      "image_alt": "Calculadora de profundidad de penetración en un buen conductor"
+    },
+    "eng-noninverting-gain": {
+      "name": "Calculadora de ganancia de amplificador operacional no inversor",
+      "description": "Calcule la ganancia de voltaje de retroalimentación negativa ideal no inversora.",
+      "image_alt": "Calculadora de ganancia de amplificador operacional no inversor"
+    },
+    "eng-rc-lowpass-gain": {
+      "name": "Calculadora de magnitud de paso bajo RC",
+      "description": "Calcule la respuesta en magnitud de un filtro RC de paso bajo sin carga en la salida.",
+      "image_alt": "Calculadora de magnitud de paso bajo RC"
+    },
+    "eng-normal-reflectance": {
+      "name": "Calculadora de reflectancia de Fresnel de incidencia normal",
+      "description": "Calcule la reflectancia de intensidad en incidencia normal entre dieléctricos sin pérdidas.",
+      "image_alt": "Calculadora de reflectancia de Fresnel de incidencia normal"
+    },
+    "eng-double-slit-spacing": {
+      "name": "Calculadora de espaciado de franjas de doble hendidura",
+      "description": "Calcule el espaciado de franjas de doble rendija en la aproximación de ángulo pequeño de campo lejano.",
+      "image_alt": "Calculadora de espaciado de franjas de doble hendidura"
+    },
+    "eng-grating-angle": {
+      "name": "Calculadora de ángulo de rejilla de difracción",
+      "description": "Calcule un ángulo de orden de difracción positivo especificado en incidencia normal.",
+      "image_alt": "Calculadora de ángulo de rejilla de difracción"
+    },
+    "eng-sound-pressure-level": {
+      "name": "Calculadora de nivel de presión sonora",
+      "description": "Calcule el nivel de presión sonora en relación con una presión de referencia explícita.",
+      "image_alt": "Calculadora de nivel de presión sonora"
+    },
+    "eng-sound-doppler": {
+      "name": "Calculadora de frecuencia Doppler acústica",
+      "description": "Calcule la frecuencia Doppler acústica unidimensional clásica.",
+      "image_alt": "Calculadora de frecuencia Doppler acústica"
+    },
+    "eng-dilute-ph": {
+      "name": "Calculadora de pH de solución diluida ideal",
+      "description": "Calcule el pH basado en la concentración con un coeficiente de actividad de uno.",
+      "image_alt": "Calculadora de pH de solución diluida ideal"
+    },
+    "eng-nernst-potential": {
+      "name": "Calculadora de potencial Nernst",
+      "description": "Calcule un potencial de equilibrio para un cociente de reacción y una temperatura específicos.",
+      "image_alt": "Calculadora de potencial Nernst"
+    },
+    "eng-decay-activity": {
+      "name": "Calculadora de desintegración de la actividad radiactiva",
+      "description": "Calcule la desintegración de la actividad de un solo nucleido con una tasa de desintegración constante.",
+      "image_alt": "Calculadora de desintegración de la actividad radiactiva"
+    },
+    "eng-henry-solubility": {
+      "name": "Calculadora de concentración disuelta según la ley de Henry",
+      "description": "Calcule la concentración disuelta utilizando una constante de Henry explícita en forma de solubilidad.",
+      "image_alt": "Calculadora de concentración disuelta según la ley de Henry"
+    },
+    "eng-stokes-terminal-speed": {
+      "name": "Calculadora de velocidad terminal de partículas de Stokes",
+      "description": "Calcule la velocidad terminal de una esfera pequeña en flujo de Stokes.",
+      "image_alt": "Calculadora de velocidad terminal de partículas de Stokes"
+    },
+    "eng-orifice-flow": {
+      "name": "Calculadora de flujo de orificio incompresible",
+      "description": "Calcule el flujo de orificio incompresible con velocidad aguas arriba insignificante.",
+      "image_alt": "Calculadora de flujo de orificio incompresible"
+    },
+    "eng-combined-length-uncertainty": {
+      "name": "Calculadora de incertidumbre de longitud independiente",
+      "description": "Combine incertidumbres estándar de longitud independientes para un modelo lineal.",
+      "image_alt": "Calculadora de incertidumbre de longitud independiente"
+    },
+    "eng-logarithmic-decrement": {
+      "name": "Calculadora de decremento logarítmico",
+      "description": "Calcule el decremento logarítmico a partir de picos del mismo sentido de una vibración libre amortiguada.",
+      "image_alt": "Calculadora de decremento logarítmico"
+    }
+  },
+  "schema_version": "1.0",
+  "language": "es",
+  "archive_note": "Los títulos, instituciones, fechas y documentos del archivo se conservan en su idioma original. Los feeds y JSON mantienen el catálogo coreano.",
+  "app_count": "{label}: {count}",
+  "lecture_count": "{label}: {count} · más recientes primero",
+  "record_count": "{count} registros",
+  "titles": {
+    "": "IA para cada empresa",
+    "apps": "Aplicaciones",
+    "lectures": "Conferencias",
+    "research": "Investigación",
+    "papers": "Artículos y estudios",
+    "patents": "Patentes y modelos de utilidad",
+    "projects": "Proyectos de desarrollo",
+    "feeds": "Fuentes y datos"
+  },
+  "description": "Explora las novedades y encuentra la herramienta que necesitas. Artículos, patentes y proyectos"
+}
