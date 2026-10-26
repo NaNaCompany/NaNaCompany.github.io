@@ -211,7 +211,10 @@
       "zh",
       "es"
     ],
-    "sitemap_lastmod": "2026-10-25"
+    "sitemap_lastmod": "2026-10-25",
+    "language_paths": {
+      "ko": ""
+    }
   },
   {
     "id": "ai_knowledge_tree",
@@ -242,7 +245,10 @@
       "zh",
       "es"
     ],
-    "sitemap_lastmod": "2026-10-25"
+    "sitemap_lastmod": "2026-10-25",
+    "language_paths": {
+      "ko": ""
+    }
   },
   {
     "id": "body-clock",
@@ -284,7 +290,10 @@
       "zh",
       "es"
     ],
-    "sitemap_lastmod": "2026-10-25"
+    "sitemap_lastmod": "2026-10-25",
+    "language_paths": {
+      "ko": ""
+    }
   },
   {
     "id": "level-frame",
@@ -305,7 +314,10 @@
       "zh",
       "es"
     ],
-    "sitemap_lastmod": "2026-10-25"
+    "sitemap_lastmod": "2026-10-25",
+    "language_paths": {
+      "ko": ""
+    }
   },
   {
     "id": "table-memory",
@@ -326,7 +338,10 @@
       "zh",
       "es"
     ],
-    "sitemap_lastmod": "2026-10-25"
+    "sitemap_lastmod": "2026-10-25",
+    "language_paths": {
+      "ko": ""
+    }
   },
   {
     "id": "lunch-math",
@@ -410,7 +425,10 @@
       "zh",
       "es"
     ],
-    "sitemap_lastmod": "2026-10-25"
+    "sitemap_lastmod": "2026-10-25",
+    "language_paths": {
+      "ko": ""
+    }
   },
   {
     "id": "cat-naps",
@@ -431,7 +449,10 @@
       "zh",
       "es"
     ],
-    "sitemap_lastmod": "2026-10-25"
+    "sitemap_lastmod": "2026-10-25",
+    "language_paths": {
+      "ko": ""
+    }
   },
   {
     "id": "eng-reynolds",
