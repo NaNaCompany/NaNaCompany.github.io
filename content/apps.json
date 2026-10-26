@@ -4625,7 +4625,15 @@
     "published_at": "2026-10-26T00:47:34Z",
     "date_source": "github_repository_created_at",
     "languages": [
-      "ko"
+      "ko",
+      "en",
+      "ja",
+      "zh",
+      "es",
+      "de",
+      "fr",
+      "pt",
+      "ru"
     ],
     "language_paths": {
       "ko": ""
@@ -4643,7 +4651,15 @@
     "published_at": "2026-10-26T00:47:49Z",
     "date_source": "github_repository_created_at",
     "languages": [
-      "ko"
+      "ko",
+      "en",
+      "ja",
+      "zh",
+      "es",
+      "de",
+      "fr",
+      "pt",
+      "ru"
     ],
     "language_paths": {
       "ko": ""
@@ -4661,7 +4677,15 @@
     "published_at": "2026-10-26T00:47:58Z",
     "date_source": "github_repository_created_at",
     "languages": [
-      "ko"
+      "ko",
+      "en",
+      "ja",
+      "zh",
+      "es",
+      "de",
+      "fr",
+      "pt",
+      "ru"
     ],
     "language_paths": {
       "ko": ""
