@@ -1116,6 +1116,131 @@
       "name": "QR-Codes erstellen",
       "description": "Erstelle statische QR-Codes für Webadressen, Text und WLAN-Einstellungen. Speichere PNG- und SVG-Dateien ohne Ablaufdatum direkt im Browser.",
       "image_alt": "QR-Codes erstellen"
+    },
+    "filename-studio": {
+      "name": "Dateinamen-Werkstatt",
+      "description": "Prüfen Sie Namensregeln und Konflikte und exportieren Sie umbenannte Kopien als ZIP mit Zuordnungs-CSV.",
+      "image_alt": "Dateinamen-Werkstatt"
+    },
+    "duplicate-file-lab": {
+      "name": "Labor für Dateiduplikate",
+      "description": "Vergleichen Sie SHA-256-Hashes, unterscheiden Sie gleiche Inhalte von gleichen Dateinamen und exportieren Sie die Ergebnisse als CSV.",
+      "image_alt": "Labor für Dateiduplikate"
+    },
+    "folder-manifest": {
+      "name": "Ordner-Übergabeliste",
+      "description": "Erstellen Sie CSV- oder Markdown-Listen mit relativen Pfaden, Größen, Änderungszeiten und optionalen SHA-256-Hashes.",
+      "image_alt": "Ordner-Übergabeliste"
+    },
+    "csv-inspector": {
+      "name": "CSV-Kodierung prüfen",
+      "description": "Prüfen Sie Kodierungskandidaten, Trennzeichen, Spaltenzahlen und Anführungszeichen und exportieren Sie normalisierte CSV-Dateien und Fehlerlisten.",
+      "image_alt": "CSV-Kodierung prüfen"
+    },
+    "table-diff": {
+      "name": "Tabellen vergleichen",
+      "description": "Vergleichen Sie zwei CSV- oder TSV-Tabellen anhand einer Schlüsselspalte und exportieren Sie Änderungen sowie doppelte oder leere Schlüssel als CSV.",
+      "image_alt": "Tabellen vergleichen"
+    },
+    "paste-table-cleaner": {
+      "name": "Kopierte Tabellen bereinigen",
+      "description": "Bereinigen Sie Leerzeichen, leere Zeilen und Spalten in eingefügten Tabellen und kopieren oder speichern Sie CSV, TSV oder Markdown.",
+      "image_alt": "Kopierte Tabellen bereinigen"
+    },
+    "json-workbench": {
+      "name": "JSON-Werkbank",
+      "description": "Validieren und formatieren Sie JSON mit Erhalt großer Ganzzahlen, erkunden Sie den Baum und vergleichen Sie zwei Dokumentstrukturen.",
+      "image_alt": "JSON-Werkbank"
+    },
+    "regex-lab": {
+      "name": "Regex-Labor",
+      "description": "Testen Sie Treffer, Erfassungsgruppen und Ersetzungen mit JavaScript-RegEx und exportieren Sie die Ergebnisse als Text oder JSON.",
+      "image_alt": "Regex-Labor"
+    },
+    "workday-calendar": {
+      "name": "Arbeitstage-Kalender",
+      "description": "Legen Sie ausgeschlossene Wochentage und Feiertage fest, um Arbeitstage zu zählen oder ein Datum um Arbeitstage zu verschieben.",
+      "image_alt": "Arbeitstage-Kalender"
+    },
+    "world-meeting-time": {
+      "name": "Internationale Besprechungszeiten",
+      "description": "Vergleichen Sie Zeitzonen und Arbeitszeiten verschiedener Städte, finden Sie gemeinsame Termine und exportieren Sie einen ICS-Kalendereintrag.",
+      "image_alt": "Internationale Besprechungszeiten"
+    },
+    "template-merge": {
+      "name": "Vorlagen mit Daten füllen",
+      "description": "Füllen Sie Textvorlagen mit CSV-Spalten, erstellen Sie mehrere Dokumente und exportieren Sie TXT-, HTML- oder ZIP-Dateien.",
+      "image_alt": "Vorlagen mit Daten füllen"
+    },
+    "timesheet-studio": {
+      "name": "Arbeitszeitstudio",
+      "description": "Erfassen Sie Arbeitsbeginn, Arbeitsende, Pausen und Nachtschichten, summieren Sie Tages- und Wochenstunden und exportieren Sie CSV.",
+      "image_alt": "Arbeitszeitstudio"
+    },
+    "url-cleaner": {
+      "name": "URL-Parameter-Werkstatt",
+      "description": "Bearbeiten Sie URL-Abfragen und doppelte Parameter, entfernen Sie Tracking-Felder oder erstellen Sie UTM-Tags und kopieren oder speichern Sie das Ergebnis.",
+      "image_alt": "URL-Parameter-Werkstatt"
+    },
+    "contrast-lab": {
+      "name": "Farbkontrast-Labor",
+      "description": "Berechnen Sie Farbkontrast mit Vordergrund, Hintergrund und Transparenz und prüfen Sie WCAG-Textgrenzwerte und Farbvorschläge.",
+      "image_alt": "Farbkontrast-Labor"
+    },
+    "meta-tag-studio": {
+      "name": "Meta-Tag-Studio",
+      "description": "Geben Sie Titel, Beschreibung, URL und Bilddaten ein, um HTML-Head-, Open-Graph- und Twitter-Card-Tags zu erstellen.",
+      "image_alt": "Meta-Tag-Studio"
+    },
+    "subtitle-shift": {
+      "name": "Untertitel-Zeitkorrektur",
+      "description": "Verschieben und skalieren Sie SRT- oder WebVTT-Zeiten, prüfen Sie Überlappungen und konvertieren oder speichern Sie im unterstützten Formatumfang.",
+      "image_alt": "Untertitel-Zeitkorrektur"
+    },
+    "gantt-sketch": {
+      "name": "Gantt-Entwurf",
+      "description": "Vergleichen Sie Basis- und Szenariozeitpläne mit Abhängigkeiten, Arbeitstagen, Ausnahmen und Verzögerungen und exportieren Sie SVG oder CSV.",
+      "image_alt": "Gantt-Entwurf"
+    },
+    "decision-matrix": {
+      "name": "Gewichtete Entscheidungsmatrix",
+      "description": "Geben Sie Kriteriengewichte und Bewertungen ein, um Basis- und Szenariorangfolgen sowie Punktebeiträge zu vergleichen.",
+      "image_alt": "Gewichtete Entscheidungsmatrix"
+    },
+    "truth-table-lab": {
+      "name": "Wahrheitstabellen-Labor",
+      "description": "Untersuchen Sie Wahrheitstabellen mit bis zu sechs Variablen, eine äquivalente disjunktive Form und Karnaugh-Diagramme für zwei bis vier Variablen.",
+      "image_alt": "Wahrheitstabellen-Labor"
+    },
+    "regression-lab": {
+      "name": "Regressionslabor",
+      "description": "Passen Sie lineare oder exponentielle Modelle an Messdaten an, prüfen Sie Koeffizienten, R², Residuen und Diagramme und exportieren Sie SVG oder CSV.",
+      "image_alt": "Regressionslabor"
+    },
+    "matrix-workbench": {
+      "name": "Matrix-Werkstatt",
+      "description": "Berechnen Sie Matrizen von 2×2 bis 6×6 mit exakten Brüchen und verfolgen Sie Determinanten, Inversen, Rang, Ax=b-Lösungen und Zeilenoperationen.",
+      "image_alt": "Matrix-Werkstatt"
+    },
+    "semester-gpa": {
+      "name": "Semester-Notensimulator",
+      "description": "Berechnen Sie mit eigener Notenskala und Leistungspunkten Semester- und Gesamtdurchschnitt, Wiederholungsersatz und den nötigen Zieldurchschnitt.",
+      "image_alt": "Semester-Notensimulator"
+    },
+    "deadline-planner": {
+      "name": "Abgabeplaner",
+      "description": "Planen Sie von einer gemeinsamen Frist rückwärts mit Aufwand, Prioritäten, Tageskapazitäten und Puffern und prüfen Sie nicht zugewiesene Zeit.",
+      "image_alt": "Abgabeplaner"
+    },
+    "shared-costs": {
+      "name": "Wohnkosten aufteilen",
+      "description": "Verteilen Sie gemeinsame und persönliche Kosten nach Wohntagen, Fläche, Verbrauch oder Gewichten und prüfen Sie Salden und vorgeschlagene Überweisungen.",
+      "image_alt": "Wohnkosten aufteilen"
+    },
+    "nocturne-library": {
+      "name": "NOCTURNE · Die Nachtbibliothek",
+      "description": "Lesen Sie zwölf Romane im Original mit schwarzem Hintergrund, weißer Schrift, anpassbaren Schriften, Inhaltsverzeichnis, Leseposition und Lesezeichen.",
+      "image_alt": "NOCTURNE · Die Nachtbibliothek"
     }
   },
   "schema_version": "1.0",

@@ -1116,6 +1116,131 @@
       "name": "QRコード作成",
       "description": "URL・テキスト・Wi-Fi設定を静的QRコードにします。有効期限のないPNG・SVGファイルをブラウザーで保存できます。",
       "image_alt": "QRコード作成"
+    },
+    "filename-studio": {
+      "name": "ファイル名ルールのプレビュー",
+      "description": "ファイル名の変更ルールと重複を確認し、変更後のコピーをZIPと対応表CSVで保存できます。",
+      "image_alt": "ファイル名ルールのプレビュー"
+    },
+    "duplicate-file-lab": {
+      "name": "重複ファイル検査",
+      "description": "選択したファイルのSHA-256を比較し、内容の重複と名前の重複を分けてCSVに保存できます。",
+      "image_alt": "重複ファイル検査"
+    },
+    "folder-manifest": {
+      "name": "フォルダー納品リスト",
+      "description": "フォルダー内の相対パス、サイズ、更新日時、任意のSHA-256をCSVやMarkdownの一覧にできます。",
+      "image_alt": "フォルダー納品リスト"
+    },
+    "csv-inspector": {
+      "name": "CSV 文字コード・構造点検",
+      "description": "CSVの文字コード候補、区切り文字、列数、引用符の構文を確認し、正規化CSVとエラー一覧を保存できます。",
+      "image_alt": "CSV 文字コード・構造点検"
+    },
+    "table-diff": {
+      "name": "2つの表を照合",
+      "description": "キー列で2つのCSV・TSV表を比較し、追加・削除・変更と重複・空のキーを確認してCSVに保存できます。",
+      "image_alt": "2つの表を照合"
+    },
+    "paste-table-cleaner": {
+      "name": "貼り付け表の整理",
+      "description": "貼り付けた表の空白・空行・空列を整理し、CSV・TSV・Markdownでコピーや保存ができます。",
+      "image_alt": "貼り付け表の整理"
+    },
+    "json-workbench": {
+      "name": "JSON ワークベンチ",
+      "description": "大きな整数を保ちながらJSONの構文・整形・ツリーを確認し、2つの文書の構造差分を比較できます。",
+      "image_alt": "JSON ワークベンチ"
+    },
+    "regex-lab": {
+      "name": "正規表現ラボ",
+      "description": "JavaScript正規表現の一致・キャプチャグループ・置換結果を確認し、テキストやJSONで保存できます。",
+      "image_alt": "正規表現ラボ"
+    },
+    "workday-calendar": {
+      "name": "営業日カレンダー",
+      "description": "除外する曜日と休日を設定し、期間内の営業日数や指定営業日数だけ前後の日付を計算できます。",
+      "image_alt": "営業日カレンダー"
+    },
+    "world-meeting-time": {
+      "name": "国際会議タイムテーブル",
+      "description": "都市ごとのタイムゾーンと勤務時間を比較し、共通の会議候補を探してICS予定に保存できます。",
+      "image_alt": "国際会議タイムテーブル"
+    },
+    "template-merge": {
+      "name": "文書テンプレート一括作成",
+      "description": "CSVの列をテキストテンプレートの変数に差し込み、複数文書をTXT・HTML・ZIPで保存できます。",
+      "image_alt": "文書テンプレート一括作成"
+    },
+    "timesheet-studio": {
+      "name": "業務時間精算ツール",
+      "description": "出退勤・休憩・翌日までの勤務を入力し、日別・週別の勤務時間を集計してCSVに保存できます。",
+      "image_alt": "業務時間精算ツール"
+    },
+    "url-cleaner": {
+      "name": "URL パラメーター編集",
+      "description": "URLクエリと重複パラメーターを編集し、追跡項目の削除やUTM作成の結果をコピー・保存できます。",
+      "image_alt": "URL パラメーター編集"
+    },
+    "contrast-lab": {
+      "name": "色のコントラスト実験室",
+      "description": "前景・背景・透明度を反映した色のコントラストを計算し、WCAGの文字基準と色の調整候補を確認できます。",
+      "image_alt": "色のコントラスト実験室"
+    },
+    "meta-tag-studio": {
+      "name": "Webメタタグ作成",
+      "description": "タイトル・説明・URL・画像情報からHTML head、Open Graph、Twitterカードのタグを作成できます。",
+      "image_alt": "Webメタタグ作成"
+    },
+    "subtitle-shift": {
+      "name": "字幕の時間調整",
+      "description": "SRT・WebVTT字幕の時間移動と倍率を調整し、重なりを確認して対応範囲内で変換・保存できます。",
+      "image_alt": "字幕の時間調整"
+    },
+    "gantt-sketch": {
+      "name": "ガント予定の下書き",
+      "description": "作業の依存関係・営業日・除外日・遅延を反映し、基準とシナリオの工程を比較してSVG・CSVに保存できます。",
+      "image_alt": "ガント予定の下書き"
+    },
+    "decision-matrix": {
+      "name": "意思決定の加重表",
+      "description": "基準ごとの重みと選択肢の点数を入力し、基本・シナリオの順位と点数への寄与を比較できます。",
+      "image_alt": "意思決定の加重表"
+    },
+    "truth-table-lab": {
+      "name": "論理回路の真理値表",
+      "description": "ブール式の最大6変数の真理値表、等価な積和形、2～4変数のカルノー図を確認できます。",
+      "image_alt": "論理回路の真理値表"
+    },
+    "regression-lab": {
+      "name": "実験データのフィッティング",
+      "description": "実験データに線形・指数モデルを当てはめ、係数・R²・残差・グラフを確認してSVG・CSVに保存できます。",
+      "image_alt": "実験データのフィッティング"
+    },
+    "matrix-workbench": {
+      "name": "行列の計算過程",
+      "description": "2×2～6×6の行列を正確な分数で計算し、行列式・逆行列・階数・Ax=bの解と行基本変形を確認できます。",
+      "image_alt": "行列の計算過程"
+    },
+    "semester-gpa": {
+      "name": "学期成績シミュレーター",
+      "description": "独自の評点換算表と単位数で学期・累積の成績平均、再履修の置き換え、目標に必要な平均を計算できます。",
+      "image_alt": "学期成績シミュレーター"
+    },
+    "deadline-planner": {
+      "name": "課題の締切逆算プラン",
+      "description": "作業時間・優先度・日別の空き時間・余裕を設定し、共通の締切から逆算して未配分時間を確認できます。",
+      "image_alt": "課題の締切逆算プラン"
+    },
+    "shared-costs": {
+      "name": "生活費の分担計算",
+      "description": "居住日数・面積・使用量・重みで共有・個人費用を配分し、支払者ごとの残高と送金案を確認できます。",
+      "image_alt": "生活費の分担計算"
+    },
+    "nocturne-library": {
+      "name": "NOCTURNE · 夜の書斎",
+      "description": "原語の小説12冊を黒い背景と白い文字で読み、書体・文字サイズ・目次・読書位置・しおりを利用できます。",
+      "image_alt": "NOCTURNE · 夜の書斎"
     }
   },
   "schema_version": "1.0",

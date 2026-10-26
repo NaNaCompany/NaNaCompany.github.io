@@ -1116,6 +1116,131 @@
       "name": "Create QR codes",
       "description": "Create static QR codes for website addresses, text and Wi-Fi settings. Save PNG and SVG files in your browser without an expiry date.",
       "image_alt": "Create QR codes"
+    },
+    "filename-studio": {
+      "name": "Filename Studio",
+      "description": "Preview filename rules and conflicts, then export renamed copies as a ZIP with a mapping CSV.",
+      "image_alt": "Filename Studio"
+    },
+    "duplicate-file-lab": {
+      "name": "Duplicate File Lab",
+      "description": "Compare SHA-256 hashes to distinguish duplicate contents from duplicate filenames and export the results as CSV.",
+      "image_alt": "Duplicate File Lab"
+    },
+    "folder-manifest": {
+      "name": "Folder Delivery Manifest",
+      "description": "Create CSV or Markdown manifests with relative paths, sizes, modification times and optional SHA-256 hashes.",
+      "image_alt": "Folder Delivery Manifest"
+    },
+    "csv-inspector": {
+      "name": "CSV Encoding Inspector",
+      "description": "Inspect encoding candidates, delimiters, column counts and quote syntax, then export normalized CSV and error reports.",
+      "image_alt": "CSV Encoding Inspector"
+    },
+    "table-diff": {
+      "name": "Table Diff",
+      "description": "Compare two CSV or TSV tables by a key column, review additions, removals, changes and key exceptions, and export CSV results.",
+      "image_alt": "Table Diff"
+    },
+    "paste-table-cleaner": {
+      "name": "Paste Table Cleaner",
+      "description": "Clean whitespace, blank rows and empty columns in pasted tables, then copy or download CSV, TSV or Markdown.",
+      "image_alt": "Paste Table Cleaner"
+    },
+    "json-workbench": {
+      "name": "JSON Workbench",
+      "description": "Validate, format and explore JSON trees while preserving large integers, and compare structural differences between two documents.",
+      "image_alt": "JSON Workbench"
+    },
+    "regex-lab": {
+      "name": "Regex Lab",
+      "description": "Test JavaScript regular-expression matches, capture groups and replacements, then export text or JSON results.",
+      "image_alt": "Regex Lab"
+    },
+    "workday-calendar": {
+      "name": "Workday Calendar",
+      "description": "Set excluded weekdays and holidays to count workdays in a period or move a date forward or backward by workdays.",
+      "image_alt": "Workday Calendar"
+    },
+    "world-meeting-time": {
+      "name": "World Meeting Time",
+      "description": "Compare city time zones and working hours to find shared meeting slots and export an ICS calendar event.",
+      "image_alt": "World Meeting Time"
+    },
+    "template-merge": {
+      "name": "Template Merge",
+      "description": "Fill text-template variables from CSV columns to generate multiple documents and export TXT, HTML or ZIP files.",
+      "image_alt": "Template Merge"
+    },
+    "timesheet-studio": {
+      "name": "Timesheet Studio",
+      "description": "Enter clock-in, clock-out, breaks and overnight shifts to total daily and weekly work hours and export CSV.",
+      "image_alt": "Timesheet Studio"
+    },
+    "url-cleaner": {
+      "name": "URL Parameter Studio",
+      "description": "Edit URL queries and duplicate parameters, remove tracking fields or create UTM tags, then copy or save the result.",
+      "image_alt": "URL Parameter Studio"
+    },
+    "contrast-lab": {
+      "name": "Color Contrast Lab",
+      "description": "Calculate color contrast with foreground, background and transparency, then review WCAG text thresholds and color adjustment candidates.",
+      "image_alt": "Color Contrast Lab"
+    },
+    "meta-tag-studio": {
+      "name": "Meta Tag Studio",
+      "description": "Enter a title, description, URL and image details to generate HTML head, Open Graph and Twitter card tags.",
+      "image_alt": "Meta Tag Studio"
+    },
+    "subtitle-shift": {
+      "name": "Subtitle Shift",
+      "description": "Shift and scale SRT or WebVTT subtitle times, inspect overlaps, and convert or export within supported format limits.",
+      "image_alt": "Subtitle Shift"
+    },
+    "gantt-sketch": {
+      "name": "Gantt Sketch",
+      "description": "Compare baseline and scenario schedules using task dependencies, workdays, exclusions and delays, then export SVG or CSV.",
+      "image_alt": "Gantt Sketch"
+    },
+    "decision-matrix": {
+      "name": "Decision Matrix",
+      "description": "Enter criterion weights and option scores to compare baseline and scenario rankings and score contributions.",
+      "image_alt": "Decision Matrix"
+    },
+    "truth-table-lab": {
+      "name": "Truth Table Lab",
+      "description": "Explore truth tables with up to six variables, an equivalent sum of products and Karnaugh maps for two to four variables.",
+      "image_alt": "Truth Table Lab"
+    },
+    "regression-lab": {
+      "name": "Regression Lab",
+      "description": "Fit linear or exponential models to experimental data, inspect coefficients, R², residuals and plots, and export SVG or CSV.",
+      "image_alt": "Regression Lab"
+    },
+    "matrix-workbench": {
+      "name": "Matrix Workbench",
+      "description": "Calculate 2×2 to 6×6 matrices with exact fractions and inspect determinants, inverses, rank, Ax=b solutions and row-operation steps.",
+      "image_alt": "Matrix Workbench"
+    },
+    "semester-gpa": {
+      "name": "Semester GPA Simulator",
+      "description": "Use a custom grade scale and credits to calculate semester and cumulative GPA, retake replacements and the average needed for a target.",
+      "image_alt": "Semester GPA Simulator"
+    },
+    "deadline-planner": {
+      "name": "Deadline Planner",
+      "description": "Work backward from a shared deadline using task estimates, priorities, daily availability and buffers, and review unallocated time.",
+      "image_alt": "Deadline Planner"
+    },
+    "shared-costs": {
+      "name": "Shared Living Costs",
+      "description": "Allocate shared and personal expenses by occupancy days, area, usage or weights, and review payer balances and suggested transfers.",
+      "image_alt": "Shared Living Costs"
+    },
+    "nocturne-library": {
+      "name": "NOCTURNE · The night library",
+      "description": "Read 12 novels in their original language on a black background with white text, adjustable fonts, contents, reading position and bookmarks.",
+      "image_alt": "NOCTURNE · The night library"
     }
   },
   "schema_version": "1.0",

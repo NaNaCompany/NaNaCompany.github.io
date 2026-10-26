@@ -1116,6 +1116,131 @@
       "name": "Créer des codes QR",
       "description": "Créez des codes QR statiques pour des adresses web, du texte et des paramètres Wi-Fi. Enregistrez des fichiers PNG et SVG sans date d’expiration dans le navigateur.",
       "image_alt": "Créer des codes QR"
+    },
+    "filename-studio": {
+      "name": "Atelier de noms de fichiers",
+      "description": "Prévisualisez les règles de nommage et les conflits, puis exportez les copies renommées en ZIP avec un CSV de correspondance.",
+      "image_alt": "Atelier de noms de fichiers"
+    },
+    "duplicate-file-lab": {
+      "name": "Détecteur de fichiers en double",
+      "description": "Comparez les empreintes SHA-256 pour distinguer les contenus identiques des noms répétés et exportez les résultats en CSV.",
+      "image_alt": "Détecteur de fichiers en double"
+    },
+    "folder-manifest": {
+      "name": "Inventaire de dossier",
+      "description": "Créez un inventaire CSV ou Markdown avec les chemins relatifs, tailles, dates de modification et empreintes SHA-256 facultatives.",
+      "image_alt": "Inventaire de dossier"
+    },
+    "csv-inspector": {
+      "name": "Inspection de fichiers CSV",
+      "description": "Vérifiez les encodages possibles, séparateurs, nombres de colonnes et guillemets, puis exportez le CSV normalisé et les erreurs.",
+      "image_alt": "Inspection de fichiers CSV"
+    },
+    "table-diff": {
+      "name": "Comparateur de tableaux",
+      "description": "Comparez deux tableaux CSV ou TSV par une colonne clé et exportez les ajouts, suppressions, modifications et clés problématiques en CSV.",
+      "image_alt": "Comparateur de tableaux"
+    },
+    "paste-table-cleaner": {
+      "name": "Nettoyage de tableaux collés",
+      "description": "Nettoyez les espaces, lignes et colonnes vides des tableaux collés, puis copiez ou téléchargez le résultat en CSV, TSV ou Markdown.",
+      "image_alt": "Nettoyage de tableaux collés"
+    },
+    "json-workbench": {
+      "name": "Atelier JSON",
+      "description": "Validez, formatez et explorez les arbres JSON en préservant les grands entiers, puis comparez la structure de deux documents.",
+      "image_alt": "Atelier JSON"
+    },
+    "regex-lab": {
+      "name": "Laboratoire Regex",
+      "description": "Testez les correspondances, groupes de capture et remplacements des expressions régulières JavaScript et exportez du texte ou du JSON.",
+      "image_alt": "Laboratoire Regex"
+    },
+    "workday-calendar": {
+      "name": "Calculateur de jours ouvrés",
+      "description": "Définissez les jours de semaine et dates à exclure pour compter les jours ouvrés ou décaler une date en jours ouvrés.",
+      "image_alt": "Calculateur de jours ouvrés"
+    },
+    "world-meeting-time": {
+      "name": "Horaires de réunion internationaux",
+      "description": "Comparez les fuseaux horaires et les heures de travail de plusieurs villes pour trouver des créneaux communs et exporter un événement ICS.",
+      "image_alt": "Horaires de réunion internationaux"
+    },
+    "template-merge": {
+      "name": "Fusion de modèles",
+      "description": "Remplissez les variables d'un modèle de texte avec des colonnes CSV et exportez les documents en TXT, HTML ou ZIP.",
+      "image_alt": "Fusion de modèles"
+    },
+    "timesheet-studio": {
+      "name": "Calcul des heures de travail",
+      "description": "Saisissez les heures d'arrivée, de départ, les pauses et les services de nuit pour totaliser les heures par jour et par semaine et exporter en CSV.",
+      "image_alt": "Calcul des heures de travail"
+    },
+    "url-cleaner": {
+      "name": "Atelier de paramètres URL",
+      "description": "Modifiez les paramètres d'URL, y compris les doublons, supprimez le suivi ou créez des balises UTM, puis copiez ou enregistrez le résultat.",
+      "image_alt": "Atelier de paramètres URL"
+    },
+    "contrast-lab": {
+      "name": "Laboratoire de contraste",
+      "description": "Calculez le contraste avec les couleurs de premier plan, de fond et leur transparence, puis consultez les seuils de texte WCAG et les couleurs proposées.",
+      "image_alt": "Laboratoire de contraste"
+    },
+    "meta-tag-studio": {
+      "name": "Atelier de métadonnées",
+      "description": "Saisissez un titre, une description, une URL et les informations d'image pour générer des balises HTML head, Open Graph et Twitter Card.",
+      "image_alt": "Atelier de métadonnées"
+    },
+    "subtitle-shift": {
+      "name": "Décalage de sous-titres",
+      "description": "Décalez et ajustez l'échelle des temps SRT ou WebVTT, vérifiez les chevauchements et convertissez ou exportez les formats pris en charge.",
+      "image_alt": "Décalage de sous-titres"
+    },
+    "gantt-sketch": {
+      "name": "Ébauche de planning Gantt",
+      "description": "Comparez le planning de référence et un scénario selon les dépendances, jours ouvrés, exclusions et retards, puis exportez en SVG ou CSV.",
+      "image_alt": "Ébauche de planning Gantt"
+    },
+    "decision-matrix": {
+      "name": "Matrice de décision",
+      "description": "Saisissez les poids des critères et les notes des options pour comparer les classements de référence, les scénarios et les contributions aux scores.",
+      "image_alt": "Matrice de décision"
+    },
+    "truth-table-lab": {
+      "name": "Laboratoire de tables de vérité",
+      "description": "Explorez des tables de vérité jusqu'à six variables, une somme de produits équivalente et des cartes de Karnaugh de deux à quatre variables.",
+      "image_alt": "Laboratoire de tables de vérité"
+    },
+    "regression-lab": {
+      "name": "Laboratoire de régression",
+      "description": "Ajustez des modèles linéaires ou exponentiels aux données expérimentales, examinez les coefficients, R², résidus et graphiques, puis exportez en SVG ou CSV.",
+      "image_alt": "Laboratoire de régression"
+    },
+    "matrix-workbench": {
+      "name": "Atelier de matrices",
+      "description": "Calculez des matrices de 2×2 à 6×6 en fractions exactes et consultez déterminants, inverses, rang, solutions de Ax=b et opérations sur les lignes.",
+      "image_alt": "Atelier de matrices"
+    },
+    "semester-gpa": {
+      "name": "Simulateur de moyenne universitaire",
+      "description": "Utilisez votre barème de notes et vos crédits pour calculer les moyennes semestrielles et cumulées, les remplacements après reprise et la moyenne nécessaire à un objectif.",
+      "image_alt": "Simulateur de moyenne universitaire"
+    },
+    "deadline-planner": {
+      "name": "Planificateur d'échéances",
+      "description": "Planifiez à rebours depuis une échéance commune selon les durées, priorités, disponibilités quotidiennes et marges, et repérez le temps non affecté.",
+      "image_alt": "Planificateur d'échéances"
+    },
+    "shared-costs": {
+      "name": "Répartition des frais partagés",
+      "description": "Répartissez les frais communs et personnels selon les jours d'occupation, la surface, l'usage ou des poids, puis consultez les soldes et virements proposés.",
+      "image_alt": "Répartition des frais partagés"
+    },
+    "nocturne-library": {
+      "name": "NOCTURNE · La bibliothèque nocturne",
+      "description": "Lisez 12 romans dans leur langue d'origine sur fond noir et texte blanc, avec polices réglables, sommaire, position de lecture et signets.",
+      "image_alt": "NOCTURNE · La bibliothèque nocturne"
     }
   },
   "schema_version": "1.0",

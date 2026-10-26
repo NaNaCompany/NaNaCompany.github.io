@@ -7,6 +7,281 @@
     <language>ko</language>
     <atom:link href="https://nanalab.kr/feeds/apps.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>[앱] NOCTURNE · 밤의 서재</title>
+      <link>https://nanalab.kr/nocturne-library/</link>
+      <description>원어 소설 12권을 검은 배경·흰 글자로 읽고 글꼴·크기·목차·읽던 위치·책갈피를 활용하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:nocturne-library</guid>
+      <category>앱</category>
+      <category>문서·텍스트</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 자취 비용 분배</title>
+      <link>https://nanalab.kr/shared-costs/</link>
+      <description>거주일·면적·사용량·가중치로 공용·개인 비용을 배분하고 결제자별 잔액과 송금 제안을 확인하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:shared-costs</guid>
+      <category>앱</category>
+      <category>생활·업무</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 학기 성적 시뮬레이터</title>
+      <link>https://nanalab.kr/semester-gpa/</link>
+      <description>직접 설정한 등급 환산표·학점으로 학기·누적 평점과 재수강 교체, 목표에 필요한 평균을 계산하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:semester-gpa</guid>
+      <category>앱</category>
+      <category>생활·업무</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 과제 마감 역산</title>
+      <link>https://nanalab.kr/deadline-planner/</link>
+      <description>작업 예상시간·우선순위·일별 가용시간·버퍼로 공통 마감부터 역산하고 미배정 시간을 확인하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:deadline-planner</guid>
+      <category>앱</category>
+      <category>생활·업무</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 행렬 계산 과정</title>
+      <link>https://nanalab.kr/matrix-workbench/</link>
+      <description>2×2~6×6 행렬을 정확한 분수로 계산하며 행렬식·역행렬·계수·Ax=b 해와 행 연산 과정을 확인하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:matrix-workbench</guid>
+      <category>앱</category>
+      <category>공학·계산</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 실험 데이터 피팅</title>
+      <link>https://nanalab.kr/regression-lab/</link>
+      <description>실험 데이터에 선형·지수 모델을 피팅해 계수·R²·잔차와 그래프를 확인하고 SVG·CSV로 저장하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:regression-lab</guid>
+      <category>앱</category>
+      <category>공학·계산</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 논리회로 진리표</title>
+      <link>https://nanalab.kr/truth-table-lab/</link>
+      <description>불 대수식의 최대 6변수 진리표·등가 곱의 합과 2~4변수 카르노 맵을 확인하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:truth-table-lab</guid>
+      <category>앱</category>
+      <category>공학·계산</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 의사결정 가중표</title>
+      <link>https://nanalab.kr/decision-matrix/</link>
+      <description>기준별 가중치와 대안별 점수를 입력해 기본·시나리오 순위와 점수 기여도를 비교하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:decision-matrix</guid>
+      <category>앱</category>
+      <category>생활·업무</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 간트 일정 초안</title>
+      <link>https://nanalab.kr/gantt-sketch/</link>
+      <description>작업 선후관계·근무일·제외일·지연을 반영해 기준 일정과 시나리오를 비교하고 SVG·CSV로 저장하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:gantt-sketch</guid>
+      <category>앱</category>
+      <category>생활·업무</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 웹 메타태그 작성기</title>
+      <link>https://nanalab.kr/meta-tag-studio/</link>
+      <description>제목·설명·URL·이미지 정보를 입력해 HTML head·Open Graph·Twitter 카드 태그를 생성하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:meta-tag-studio</guid>
+      <category>앱</category>
+      <category>AI·개발</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 자막 시간 조정</title>
+      <link>https://nanalab.kr/subtitle-shift/</link>
+      <description>SRT·WebVTT 자막의 시간 이동·배율을 조정하고 겹침을 확인해 지원 범위 안에서 변환·저장하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:subtitle-shift</guid>
+      <category>앱</category>
+      <category>이미지·미디어</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] URL 파라미터 정리</title>
+      <link>https://nanalab.kr/url-cleaner/</link>
+      <description>URL 쿼리와 중복 파라미터를 편집하고 추적 항목 제거·UTM 생성 결과를 복사하거나 저장하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:url-cleaner</guid>
+      <category>앱</category>
+      <category>AI·개발</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 색상 대비 실험실</title>
+      <link>https://nanalab.kr/contrast-lab/</link>
+      <description>전경·배경·투명도를 반영한 색상 대비를 계산하고 WCAG 텍스트 기준과 색상 조정 후보를 확인하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:contrast-lab</guid>
+      <category>앱</category>
+      <category>이미지·미디어</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 문서 일괄 템플릿 채우기</title>
+      <link>https://nanalab.kr/template-merge/</link>
+      <description>CSV 열을 텍스트 템플릿 변수에 채워 여러 문서를 만들고 TXT·HTML·ZIP으로 저장하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:template-merge</guid>
+      <category>앱</category>
+      <category>문서·텍스트</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 업무시간 정산기</title>
+      <link>https://nanalab.kr/timesheet-studio/</link>
+      <description>출퇴근·휴게·익일 근무를 입력해 일별·주별 근무시간을 합산하고 CSV로 저장하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:timesheet-studio</guid>
+      <category>앱</category>
+      <category>생활·업무</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 날짜 근무일 계산기</title>
+      <link>https://nanalab.kr/workday-calendar/</link>
+      <description>제외 요일과 휴일을 직접 정해 기간별 근무일 수와 지정 근무일만큼 전후 날짜를 계산하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:workday-calendar</guid>
+      <category>앱</category>
+      <category>생활·업무</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 국제 회의 시각표</title>
+      <link>https://nanalab.kr/world-meeting-time/</link>
+      <description>도시별 시간대와 근무시간을 비교해 공통 회의 후보를 찾고 ICS 일정으로 저장하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:world-meeting-time</guid>
+      <category>앱</category>
+      <category>생활·업무</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] JSON 작업대</title>
+      <link>https://nanalab.kr/json-workbench/</link>
+      <description>큰 정수를 보존하며 JSON 문법·서식·트리를 확인하고 두 문서의 구조 차이를 비교하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:json-workbench</guid>
+      <category>앱</category>
+      <category>AI·개발</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 정규식 실험실</title>
+      <link>https://nanalab.kr/regex-lab/</link>
+      <description>JavaScript 정규식의 매치·캡처 그룹·치환 결과를 확인하고 텍스트나 JSON으로 저장하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:regex-lab</guid>
+      <category>앱</category>
+      <category>AI·개발</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 표 두 개 대조</title>
+      <link>https://nanalab.kr/table-diff/</link>
+      <description>키 열로 두 CSV·TSV 표를 대조해 추가·삭제·변경과 중복·빈 키를 확인하고 CSV로 저장하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:table-diff</guid>
+      <category>앱</category>
+      <category>문서·텍스트</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 복붙 표 정리</title>
+      <link>https://nanalab.kr/paste-table-cleaner/</link>
+      <description>붙여 넣은 표의 공백·빈 행·빈 열을 정리하고 CSV·TSV·Markdown으로 복사하거나 저장하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:paste-table-cleaner</guid>
+      <category>앱</category>
+      <category>문서·텍스트</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 파일명 규칙 미리보기</title>
+      <link>https://nanalab.kr/filename-studio/</link>
+      <description>파일명 변경 규칙과 충돌을 미리 확인하고 이름을 바꾼 복사본 ZIP과 매핑 CSV를 저장하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:filename-studio</guid>
+      <category>앱</category>
+      <category>생활·업무</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 중복 파일 검사기</title>
+      <link>https://nanalab.kr/duplicate-file-lab/</link>
+      <description>선택한 파일의 SHA-256을 비교해 내용 중복과 이름 중복을 구분하고 결과 CSV를 저장하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:duplicate-file-lab</guid>
+      <category>앱</category>
+      <category>생활·업무</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 폴더 납품 목록 생성</title>
+      <link>https://nanalab.kr/folder-manifest/</link>
+      <description>폴더의 상대 경로·크기·수정시각과 선택한 SHA-256을 정리해 CSV·Markdown 목록으로 저장하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:folder-manifest</guid>
+      <category>앱</category>
+      <category>생활·업무</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] CSV 인코딩 구조 점검</title>
+      <link>https://nanalab.kr/csv-inspector/</link>
+      <description>CSV의 인코딩 후보·구분자·열 수·따옴표 문법을 점검하고 정규화 CSV와 오류 목록을 저장하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:csv-inspector</guid>
+      <category>앱</category>
+      <category>문서·텍스트</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:10 +0000</pubDate>
+    </item>
+    <item>
       <title>[앱] QR 코드 만들기</title>
       <link>https://nanalab.kr/qr-code/</link>
       <description>웹사이트 주소·한글 텍스트·Wi-Fi 정보를 정적 QR 코드로 만드세요. 만료 기한 없이 사용할 PNG·SVG 파일을 브라우저에서 저장합니다.
@@ -830,281 +1105,6 @@
       <category>앱</category>
       <category>공학·계산</category>
       <pubDate>Sun, 25 Oct 2026 05:26:56 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 이중슬릿 무늬간격 계산기</title>
-      <link>https://nanalab.kr/eng-double-slit-spacing/</link>
-      <description>원거리 작은 각도 이중슬릿 간섭무늬 간격 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:eng-double-slit-spacing</guid>
-      <category>앱</category>
-      <category>공학·계산</category>
-      <pubDate>Sun, 25 Oct 2026 05:26:47 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 정상입사 프레넬 반사율 계산기</title>
-      <link>https://nanalab.kr/eng-normal-reflectance/</link>
-      <description>비흡수 유전체 경계면의 수직 입사 세기 반사율 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:eng-normal-reflectance</guid>
-      <category>앱</category>
-      <category>공학·계산</category>
-      <pubDate>Sun, 25 Oct 2026 05:26:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] RC 저역통과 진폭비 계산기</title>
-      <link>https://nanalab.kr/eng-rc-lowpass-gain/</link>
-      <description>커패시터 양단 출력의 이상 RC 저역통과 진폭비 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:eng-rc-lowpass-gain</guid>
-      <category>앱</category>
-      <category>공학·계산</category>
-      <pubDate>Sun, 25 Oct 2026 05:26:31 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 비반전 연산증폭기 이득 계산기</title>
-      <link>https://nanalab.kr/eng-noninverting-gain/</link>
-      <description>이상 연산증폭기의 비반전 음귀환 전압이득 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:eng-noninverting-gain</guid>
-      <category>앱</category>
-      <category>공학·계산</category>
-      <pubDate>Sun, 25 Oct 2026 05:26:22 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 양도체 표피깊이 계산기</title>
-      <link>https://nanalab.kr/eng-skin-depth/</link>
-      <description>양도체 근사에서 전자기장 진폭의 1/e 감쇠 깊이 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:eng-skin-depth</guid>
-      <category>앱</category>
-      <category>공학·계산</category>
-      <pubDate>Sun, 25 Oct 2026 05:26:14 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 교류 유효전력 계산기</title>
-      <link>https://nanalab.kr/eng-ac-real-power/</link>
-      <description>정현파 전압·전류와 위상차로 평균 유효전력 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:eng-ac-real-power</guid>
-      <category>앱</category>
-      <category>공학·계산</category>
-      <pubDate>Sun, 25 Oct 2026 05:26:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 직렬 RLC 임피던스 계산기</title>
-      <link>https://nanalab.kr/eng-rlc-impedance/</link>
-      <description>이상 직렬 RLC 회로의 정현파 임피던스 크기 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:eng-rlc-impedance</guid>
-      <category>앱</category>
-      <category>공학·계산</category>
-      <pubDate>Sun, 25 Oct 2026 05:25:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 이상 변압기 전압 계산기</title>
-      <link>https://nanalab.kr/eng-ideal-transformer/</link>
-      <description>권선비로 이상적인 교류 변압기의 2차 전압 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:eng-ideal-transformer</guid>
-      <category>앱</category>
-      <category>공학·계산</category>
-      <pubDate>Sun, 25 Oct 2026 05:25:48 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 점전하 전기장 계산기</title>
-      <link>https://nanalab.kr/eng-point-charge-field/</link>
-      <description>진공 속 고립된 점전하의 전기장 크기 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:eng-point-charge-field</guid>
-      <category>앱</category>
-      <category>공학·계산</category>
-      <pubDate>Sun, 25 Oct 2026 05:25:40 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 모세관 상승높이 계산기</title>
-      <link>https://nanalab.kr/eng-capillary-rise/</link>
-      <description>원형 모세관의 정적 액면 상승 또는 하강 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:eng-capillary-rise</guid>
-      <category>앱</category>
-      <category>공학·계산</category>
-      <pubDate>Sun, 25 Oct 2026 05:25:31 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 배제유체 부력 계산기</title>
-      <link>https://nanalab.kr/eng-buoyant-force/</link>
-      <description>잠긴 부분이 밀어낸 유체 무게로 부력 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:eng-buoyant-force</guid>
-      <category>앱</category>
-      <category>공학·계산</category>
-      <pubDate>Sun, 25 Oct 2026 05:25:22 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 로그평균 온도차 계산기</title>
-      <link>https://nanalab.kr/eng-log-mean-temperature/</link>
-      <description>열교환기 양 끝의 양의 온도차로 LMTD 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:eng-log-mean-temperature</guid>
-      <category>앱</category>
-      <category>공학·계산</category>
-      <pubDate>Sun, 25 Oct 2026 05:25:14 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 단열 이상기체 출구온도 계산기</title>
-      <link>https://nanalab.kr/eng-adiabatic-temperature/</link>
-      <description>가역 단열 이상기체 과정의 압력비에 따른 온도 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:eng-adiabatic-temperature</guid>
-      <category>앱</category>
-      <category>공학·계산</category>
-      <pubDate>Sun, 25 Oct 2026 05:25:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 이상기체 등온팽창일 계산기</title>
-      <link>https://nanalab.kr/eng-isothermal-work/</link>
-      <description>가역 등온 과정에서 이상기체가 한 압력-체적 일 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:eng-isothermal-work</guid>
-      <category>앱</category>
-      <category>공학·계산</category>
-      <pubDate>Sun, 25 Oct 2026 05:24:56 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 현열 필요열량 계산기</title>
-      <link>https://nanalab.kr/eng-sensible-heat/</link>
-      <description>상변화 없는 가열·냉각의 현열 변화량 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:eng-sensible-heat</guid>
-      <category>앱</category>
-      <category>공학·계산</category>
-      <pubDate>Sun, 25 Oct 2026 05:24:48 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 열확산계수 계산기</title>
-      <link>https://nanalab.kr/eng-thermal-diffusivity/</link>
-      <description>열전도율과 체적 열용량으로 열확산계수 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:eng-thermal-diffusivity</guid>
-      <category>앱</category>
-      <category>공학·계산</category>
-      <pubDate>Sun, 25 Oct 2026 05:24:40 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 누셀트수 계산기</title>
-      <link>https://nanalab.kr/eng-nusselt-number/</link>
-      <description>알고 있는 대류계수를 무차원 누셀트수로 환산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:eng-nusselt-number</guid>
-      <category>앱</category>
-      <category>공학·계산</category>
-      <pubDate>Sun, 25 Oct 2026 05:24:31 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 프란틀수 계산기</title>
-      <link>https://nanalab.kr/eng-prandtl-number/</link>
-      <description>운동량 확산과 열확산의 비율인 프란틀수 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:eng-prandtl-number</guid>
-      <category>앱</category>
-      <category>공학·계산</category>
-      <pubDate>Sun, 25 Oct 2026 05:24:22 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 레이리수 계산기</title>
-      <link>https://nanalab.kr/eng-rayleigh-number/</link>
-      <description>자연대류에서 부력과 확산의 상대 크기를 나타내는 레이리수 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:eng-rayleigh-number</guid>
-      <category>앱</category>
-      <category>공학·계산</category>
-      <pubDate>Sun, 25 Oct 2026 05:24:13 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 외팔보 끝 처짐 계산기</title>
-      <link>https://nanalab.kr/eng-cantilever-deflection/</link>
-      <description>끝에 집중하중을 받는 선형 외팔보의 자유단 처짐 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:eng-cantilever-deflection</guid>
-      <category>앱</category>
-      <category>공학·계산</category>
-      <pubDate>Sun, 25 Oct 2026 05:24:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 원관 단면2차모멘트 계산기</title>
-      <link>https://nanalab.kr/eng-tube-area-inertia/</link>
-      <description>중공 원형 단면의 도심 지름축 단면2차모멘트 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:eng-tube-area-inertia</guid>
-      <category>앱</category>
-      <category>공학·계산</category>
-      <pubDate>Sun, 25 Oct 2026 05:23:56 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 스프링 저장에너지 계산기</title>
-      <link>https://nanalab.kr/eng-spring-energy/</link>
-      <description>평형점에서 늘이거나 압축한 선형 스프링 에너지 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:eng-spring-energy</guid>
-      <category>앱</category>
-      <category>공학·계산</category>
-      <pubDate>Sun, 25 Oct 2026 05:23:48 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 미끄럼 임계경사각 계산기</title>
-      <link>https://nanalab.kr/eng-critical-incline/</link>
-      <description>이상적인 쿨롱 마찰 모델의 미끄럼 시작 경사각 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:eng-critical-incline</guid>
-      <category>앱</category>
-      <category>공학·계산</category>
-      <pubDate>Sun, 25 Oct 2026 05:23:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 마찰 정지거리 계산기</title>
-      <link>https://nanalab.kr/eng-friction-stop-distance/</link>
-      <description>수평면에서 일정 운동마찰만 작용하는 정지거리 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:eng-friction-stop-distance</guid>
-      <category>앱</category>
-      <category>공학·계산</category>
-      <pubDate>Sun, 25 Oct 2026 05:23:30 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 두 물체 질량중심 계산기</title>
-      <link>https://nanalab.kr/eng-center-of-mass/</link>
-      <description>공통 원점을 기준으로 두 점질량의 1차원 질량중심 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:eng-center-of-mass</guid>
-      <category>앱</category>
-      <category>공학·계산</category>
-      <pubDate>Sun, 25 Oct 2026 05:23:22 +0000</pubDate>
     </item>
   </channel>
 </rss>

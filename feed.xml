@@ -7,6 +7,281 @@
     <language>ko</language>
     <atom:link href="https://nanalab.kr/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>[앱] NOCTURNE · 밤의 서재</title>
+      <link>https://nanalab.kr/nocturne-library/</link>
+      <description>원어 소설 12권을 검은 배경·흰 글자로 읽고 글꼴·크기·목차·읽던 위치·책갈피를 활용하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:nocturne-library</guid>
+      <category>앱</category>
+      <category>문서·텍스트</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 자취 비용 분배</title>
+      <link>https://nanalab.kr/shared-costs/</link>
+      <description>거주일·면적·사용량·가중치로 공용·개인 비용을 배분하고 결제자별 잔액과 송금 제안을 확인하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:shared-costs</guid>
+      <category>앱</category>
+      <category>생활·업무</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 학기 성적 시뮬레이터</title>
+      <link>https://nanalab.kr/semester-gpa/</link>
+      <description>직접 설정한 등급 환산표·학점으로 학기·누적 평점과 재수강 교체, 목표에 필요한 평균을 계산하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:semester-gpa</guid>
+      <category>앱</category>
+      <category>생활·업무</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 과제 마감 역산</title>
+      <link>https://nanalab.kr/deadline-planner/</link>
+      <description>작업 예상시간·우선순위·일별 가용시간·버퍼로 공통 마감부터 역산하고 미배정 시간을 확인하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:deadline-planner</guid>
+      <category>앱</category>
+      <category>생활·업무</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 행렬 계산 과정</title>
+      <link>https://nanalab.kr/matrix-workbench/</link>
+      <description>2×2~6×6 행렬을 정확한 분수로 계산하며 행렬식·역행렬·계수·Ax=b 해와 행 연산 과정을 확인하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:matrix-workbench</guid>
+      <category>앱</category>
+      <category>공학·계산</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 실험 데이터 피팅</title>
+      <link>https://nanalab.kr/regression-lab/</link>
+      <description>실험 데이터에 선형·지수 모델을 피팅해 계수·R²·잔차와 그래프를 확인하고 SVG·CSV로 저장하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:regression-lab</guid>
+      <category>앱</category>
+      <category>공학·계산</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 논리회로 진리표</title>
+      <link>https://nanalab.kr/truth-table-lab/</link>
+      <description>불 대수식의 최대 6변수 진리표·등가 곱의 합과 2~4변수 카르노 맵을 확인하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:truth-table-lab</guid>
+      <category>앱</category>
+      <category>공학·계산</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 의사결정 가중표</title>
+      <link>https://nanalab.kr/decision-matrix/</link>
+      <description>기준별 가중치와 대안별 점수를 입력해 기본·시나리오 순위와 점수 기여도를 비교하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:decision-matrix</guid>
+      <category>앱</category>
+      <category>생활·업무</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 간트 일정 초안</title>
+      <link>https://nanalab.kr/gantt-sketch/</link>
+      <description>작업 선후관계·근무일·제외일·지연을 반영해 기준 일정과 시나리오를 비교하고 SVG·CSV로 저장하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:gantt-sketch</guid>
+      <category>앱</category>
+      <category>생활·업무</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 웹 메타태그 작성기</title>
+      <link>https://nanalab.kr/meta-tag-studio/</link>
+      <description>제목·설명·URL·이미지 정보를 입력해 HTML head·Open Graph·Twitter 카드 태그를 생성하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:meta-tag-studio</guid>
+      <category>앱</category>
+      <category>AI·개발</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 자막 시간 조정</title>
+      <link>https://nanalab.kr/subtitle-shift/</link>
+      <description>SRT·WebVTT 자막의 시간 이동·배율을 조정하고 겹침을 확인해 지원 범위 안에서 변환·저장하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:subtitle-shift</guid>
+      <category>앱</category>
+      <category>이미지·미디어</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] URL 파라미터 정리</title>
+      <link>https://nanalab.kr/url-cleaner/</link>
+      <description>URL 쿼리와 중복 파라미터를 편집하고 추적 항목 제거·UTM 생성 결과를 복사하거나 저장하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:url-cleaner</guid>
+      <category>앱</category>
+      <category>AI·개발</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 색상 대비 실험실</title>
+      <link>https://nanalab.kr/contrast-lab/</link>
+      <description>전경·배경·투명도를 반영한 색상 대비를 계산하고 WCAG 텍스트 기준과 색상 조정 후보를 확인하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:contrast-lab</guid>
+      <category>앱</category>
+      <category>이미지·미디어</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 문서 일괄 템플릿 채우기</title>
+      <link>https://nanalab.kr/template-merge/</link>
+      <description>CSV 열을 텍스트 템플릿 변수에 채워 여러 문서를 만들고 TXT·HTML·ZIP으로 저장하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:template-merge</guid>
+      <category>앱</category>
+      <category>문서·텍스트</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 업무시간 정산기</title>
+      <link>https://nanalab.kr/timesheet-studio/</link>
+      <description>출퇴근·휴게·익일 근무를 입력해 일별·주별 근무시간을 합산하고 CSV로 저장하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:timesheet-studio</guid>
+      <category>앱</category>
+      <category>생활·업무</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 날짜 근무일 계산기</title>
+      <link>https://nanalab.kr/workday-calendar/</link>
+      <description>제외 요일과 휴일을 직접 정해 기간별 근무일 수와 지정 근무일만큼 전후 날짜를 계산하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:workday-calendar</guid>
+      <category>앱</category>
+      <category>생활·업무</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 국제 회의 시각표</title>
+      <link>https://nanalab.kr/world-meeting-time/</link>
+      <description>도시별 시간대와 근무시간을 비교해 공통 회의 후보를 찾고 ICS 일정으로 저장하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:world-meeting-time</guid>
+      <category>앱</category>
+      <category>생활·업무</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] JSON 작업대</title>
+      <link>https://nanalab.kr/json-workbench/</link>
+      <description>큰 정수를 보존하며 JSON 문법·서식·트리를 확인하고 두 문서의 구조 차이를 비교하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:json-workbench</guid>
+      <category>앱</category>
+      <category>AI·개발</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 정규식 실험실</title>
+      <link>https://nanalab.kr/regex-lab/</link>
+      <description>JavaScript 정규식의 매치·캡처 그룹·치환 결과를 확인하고 텍스트나 JSON으로 저장하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:regex-lab</guid>
+      <category>앱</category>
+      <category>AI·개발</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 표 두 개 대조</title>
+      <link>https://nanalab.kr/table-diff/</link>
+      <description>키 열로 두 CSV·TSV 표를 대조해 추가·삭제·변경과 중복·빈 키를 확인하고 CSV로 저장하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:table-diff</guid>
+      <category>앱</category>
+      <category>문서·텍스트</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 복붙 표 정리</title>
+      <link>https://nanalab.kr/paste-table-cleaner/</link>
+      <description>붙여 넣은 표의 공백·빈 행·빈 열을 정리하고 CSV·TSV·Markdown으로 복사하거나 저장하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:paste-table-cleaner</guid>
+      <category>앱</category>
+      <category>문서·텍스트</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 파일명 규칙 미리보기</title>
+      <link>https://nanalab.kr/filename-studio/</link>
+      <description>파일명 변경 규칙과 충돌을 미리 확인하고 이름을 바꾼 복사본 ZIP과 매핑 CSV를 저장하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:filename-studio</guid>
+      <category>앱</category>
+      <category>생활·업무</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 중복 파일 검사기</title>
+      <link>https://nanalab.kr/duplicate-file-lab/</link>
+      <description>선택한 파일의 SHA-256을 비교해 내용 중복과 이름 중복을 구분하고 결과 CSV를 저장하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:duplicate-file-lab</guid>
+      <category>앱</category>
+      <category>생활·업무</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 폴더 납품 목록 생성</title>
+      <link>https://nanalab.kr/folder-manifest/</link>
+      <description>폴더의 상대 경로·크기·수정시각과 선택한 SHA-256을 정리해 CSV·Markdown 목록으로 저장하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:folder-manifest</guid>
+      <category>앱</category>
+      <category>생활·업무</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] CSV 인코딩 구조 점검</title>
+      <link>https://nanalab.kr/csv-inspector/</link>
+      <description>CSV의 인코딩 후보·구분자·열 수·따옴표 문법을 점검하고 정규화 CSV와 오류 목록을 저장하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:csv-inspector</guid>
+      <category>앱</category>
+      <category>문서·텍스트</category>
+      <pubDate>Mon, 26 Oct 2026 07:19:10 +0000</pubDate>
+    </item>
+    <item>
       <title>[앱] QR 코드 만들기</title>
       <link>https://nanalab.kr/qr-code/</link>
       <description>웹사이트 주소·한글 텍스트·Wi-Fi 정보를 정적 QR 코드로 만드세요. 만료 기한 없이 사용할 PNG·SVG 파일을 브라우저에서 저장합니다.
@@ -1930,373 +2205,6 @@
       <category>앱</category>
       <category>AI·개발</category>
       <pubDate>Sat, 24 Oct 2026 16:45:12 +0900</pubDate>
-    </item>
-    <item>
-      <title>[앱] 환생 여권</title>
-      <link>https://nanalab.kr/rebirth_country/</link>
-      <description>다음 생에는 어느 나라에서 태어날까? 세계 인구 비례로 만나는 나의 새 나라와 여권.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:rebirth_country</guid>
-      <category>앱</category>
-      <category>재미·라이프</category>
-      <pubDate>Sat, 24 Oct 2026 07:02:43 +0000</pubDate>
-    </item>
-    <item>
-      <title>[강의] Agentic AI의 활용 – AI 팀원들을 고용해 일 시키기</title>
-      <link>https://nanalab.kr/lectures/#record-lectures-lecture-236</link>
-      <description>홍익대학교 학습전략강화워크숍에서 안티그래비티로 에이전틱 워크플로우를 체험하고, AI 팀원을 구성해 업무를 분담하는 방법과 토큰 엔지니어링을 다뤘습니다.
-
-기관: 홍익대학교
-
-원본 날짜: 2026.10.23.
-
-출처: https://bhban.kr/</description>
-      <guid isPermaLink="false">urn:nanalab:lectures:lecture-236</guid>
-      <category>강의</category>
-      <category>교육기관</category>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>[강의] AI 이후의 인간</title>
-      <link>https://nanalab.kr/lectures/#record-lectures-lecture-234</link>
-      <description>AI의 발전이 삶과 직업에 가져올 변화, 그리고 AI 시대에 사람이 준비해야 할 역량을 이야기했습니다.
-
-기관: 강릉여자고등학교
-
-원본 날짜: 2026.10.22.
-
-출처: https://bhban.kr/</description>
-      <guid isPermaLink="false">urn:nanalab:lectures:lecture-234</guid>
-      <category>강의</category>
-      <category>교육기관</category>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>[강의] AI 활용을 통한 정책문제 해결</title>
-      <link>https://nanalab.kr/lectures/#record-lectures-lecture-233</link>
-      <description>제5기 9급 신규자과정에서 업무 자료를 활용해 정책 문제를 해결하는 생성형 AI 실습을 진행했습니다.
-
-기관: 국가공무원인재개발원
-
-원본 날짜: 2026.10.21.
-
-출처: https://bhban.kr/</description>
-      <guid isPermaLink="false">urn:nanalab:lectures:lecture-233</guid>
-      <category>강의</category>
-      <category>공공기관</category>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>[강의] Agentic AI의 활용과 바이브코딩 실습</title>
-      <link>https://nanalab.kr/lectures/#record-lectures-lecture-236-20261019</link>
-      <description>홍익대학교 학습전략강화워크숍에서 Agentic AI의 개념과 주요 도구를 소개하고, 안티그래비티 설치부터 바이브코딩 실습까지 진행했습니다.
-
-기관: 홍익대학교
-
-원본 날짜: 2026.10.19.
-
-출처: https://bhban.kr/</description>
-      <guid isPermaLink="false">urn:nanalab:lectures:lecture-236-20261019</guid>
-      <category>강의</category>
-      <category>교육기관</category>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>[강의] AI 이후의 인간 — 나보다 똑똑한 AI와 사는 법</title>
-      <link>https://nanalab.kr/lectures/#record-lectures-lecture-190-957592625c54edcb</link>
-      <description>경북일고등학교에서 AI의 발전이 직업세계와 삶에 가져올 변화를 주제로 강연했습니다.
-
-기관: 예천도서관 · 경북일고등학교
-
-원본 날짜: 2026.10.15
-
-출처: https://bhban.kr/</description>
-      <guid isPermaLink="false">urn:nanalab:lectures:lecture-190-957592625c54edcb</guid>
-      <category>강의</category>
-      <category>교육기관</category>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>[강의] 생성형 AI 이해 및 실습</title>
-      <link>https://nanalab.kr/lectures/#record-lectures-lecture-nhi-20261012</link>
-      <description>제5기 9급 신규자과정에서 생성형 AI의 기초와 프롬프트 작성 방법을 다루고 업무 활용을 실습했습니다.
-
-기관: 국가공무원인재개발원
-
-원본 날짜: 2026.10.12.
-
-출처: https://bhban.kr/</description>
-      <guid isPermaLink="false">urn:nanalab:lectures:lecture-nhi-20261012</guid>
-      <category>강의</category>
-      <category>공공기관</category>
-      <pubDate>Mon, 12 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>[강의] AI를 활용한 실무 문서 작성법</title>
-      <link>https://nanalab.kr/lectures/#record-lectures-lecture-232</link>
-      <description>통합건강증진사업 실무자를 대상으로 AI를 활용한 문서 작성 방법을 다뤘습니다.
-
-기관: 울산 통합건강증진사업지원단
-
-원본 날짜: 2026.09.28.
-
-출처: https://bhban.kr/</description>
-      <guid isPermaLink="false">urn:nanalab:lectures:lecture-232</guid>
-      <category>강의</category>
-      <category>공공기관</category>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>[강의] 미래 행정, AI로 그리다</title>
-      <link>https://nanalab.kr/lectures/#record-lectures-lecture-nhi-20260921</link>
-      <description>제191기 5급 승진관리자과정에서 AI와 함께 업무용 프로그램을 만드는 바이브코딩을 다뤘습니다.
-
-기관: 국가공무원인재개발원
-
-원본 날짜: 2026.09.21.
-
-출처: https://bhban.kr/</description>
-      <guid isPermaLink="false">urn:nanalab:lectures:lecture-nhi-20260921</guid>
-      <category>강의</category>
-      <category>공공기관</category>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>[강의] Codex 기반 실무 업무 자동화</title>
-      <link>https://nanalab.kr/lectures/#record-lectures-lecture-188-4afecb95ceb13342</link>
-      <description>Codex와 에이전틱 프레임워크를 활용한 실무 업무 자동화를 다뤘습니다.
-
-기관: 한국행정연구원
-
-원본 날짜: 2026.09.15
-
-출처: https://bhban.kr/</description>
-      <guid isPermaLink="false">urn:nanalab:lectures:lecture-188-4afecb95ceb13342</guid>
-      <category>강의</category>
-      <category>연구기관</category>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>[강의] AI는 음악 연구를 수행할 수 있는가?</title>
-      <link>https://nanalab.kr/lectures/#record-lectures-lecture-187-13cd976a09d8defa</link>
-      <description>AI 생성 논문의 동료평가 통과 사례를 중심으로 음악 연구에서의 AI 활용 가능성을 살펴봤습니다.
-
-기관: 한국서양음악이론학회
-
-원본 날짜: 2026.09.12
-
-출처: https://bhban.kr/</description>
-      <guid isPermaLink="false">urn:nanalab:lectures:lecture-187-13cd976a09d8defa</guid>
-      <category>강의</category>
-      <category>컨퍼런스</category>
-      <pubDate>Sat, 12 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>[앱] Astra Playground</title>
-      <link>https://nanalab.kr/astra/</link>
-      <description>AI 에이전트 실습용 사이트와 예제 파일을 한곳에서 만나보세요.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:astra</guid>
-      <category>앱</category>
-      <category>AI·개발</category>
-      <pubDate>Wed, 09 Sep 2026 07:23:08 +0000</pubDate>
-    </item>
-    <item>
-      <title>[강의] 생성형 AI 혁명과 에이전틱 프레임워크</title>
-      <link>https://nanalab.kr/lectures/#record-lectures-lecture-186</link>
-      <description>생성형 AI의 활용 범위와 한계, 자료 검증, 에이전틱 프레임워크를 다뤘습니다.
-
-기관: 종근당
-
-원본 날짜: 2026.08.27. 09.04. 09.10.
-
-출처: https://bhban.kr/</description>
-      <guid isPermaLink="false">urn:nanalab:lectures:lecture-186</guid>
-      <category>강의</category>
-      <category>기업</category>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>[강의] AI Agent 팀원들과 협업하는 디렉터가 되어보세요!</title>
-      <link>https://nanalab.kr/lectures/#record-lectures-lecture-237</link>
-      <description>4주간의 Webex 온라인 학습모임에서 AI 에이전트와 협업해 업무용 웹 앱을 기획·제작하고, 배포한 결과를 공유하며 개선했습니다. 매주 실습과 피드 인증을 함께 진행했습니다.
-
-기관: LG인화원
-
-원본 날짜: 2026.08.24. 08.31. 09.07. 09.14.
-
-출처: https://bhban.kr/</description>
-      <guid isPermaLink="false">urn:nanalab:lectures:lecture-237</guid>
-      <category>강의</category>
-      <category>기업</category>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>[강의] 분임 정책연구 AI 활용 발표</title>
-      <link>https://nanalab.kr/lectures/#record-lectures-lecture-nhi-20260821</link>
-      <description>제190기 5급 승진관리자과정에서 AI 활용 발표에 대한 평가와 총평을 진행했습니다.
-
-기관: 국가공무원인재개발원
-
-원본 날짜: 2026.08.21.
-
-출처: https://bhban.kr/</description>
-      <guid isPermaLink="false">urn:nanalab:lectures:lecture-nhi-20260821</guid>
-      <category>강의</category>
-      <category>공공기관</category>
-      <pubDate>Fri, 21 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>[강의] 에이전트 시대의 도래와 활용</title>
-      <link>https://nanalab.kr/lectures/#record-lectures-lecture-231</link>
-      <description>MVP 강연에서 AI 에이전트의 활용 사례와 AI에 맡길 업무를 구분하는 방법을 다뤘습니다.
-
-기관: LG인화원
-
-원본 날짜: 2026.08.13.
-
-출처: https://bhban.kr/</description>
-      <guid isPermaLink="false">urn:nanalab:lectures:lecture-231</guid>
-      <category>강의</category>
-      <category>기업</category>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>[강의] AI 시대의 데이터 시각화와 스토리텔링</title>
-      <link>https://nanalab.kr/lectures/#record-lectures-lecture-184-a757f63e9dc1299f</link>
-      <description>생성형 AI와 에이전트를 활용해 데이터를 시각화하고 메시지를 전달하는 방법을 다뤘습니다.
-
-기관: 볼보그룹코리아
-
-원본 날짜: 2026.08.11
-
-출처: https://bhban.kr/</description>
-      <guid isPermaLink="false">urn:nanalab:lectures:lecture-184-a757f63e9dc1299f</guid>
-      <category>강의</category>
-      <category>기업</category>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>[강의] 미래 행정, AI로 그리다</title>
-      <link>https://nanalab.kr/lectures/#record-lectures-lecture-nhi-20260727</link>
-      <description>제190기 5급 승진관리자과정에서 AI와 함께 업무용 프로그램을 만드는 바이브코딩을 다뤘습니다.
-
-기관: 국가공무원인재개발원
-
-원본 날짜: 2026.07.27.
-
-출처: https://bhban.kr/</description>
-      <guid isPermaLink="false">urn:nanalab:lectures:lecture-nhi-20260727</guid>
-      <category>강의</category>
-      <category>공공기관</category>
-      <pubDate>Mon, 27 Jul 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>[강의] AI를 활용한 업무 효율, 어디까지 와 있을까?</title>
-      <link>https://nanalab.kr/lectures/#record-lectures-lecture-230</link>
-      <description>AI와 에이전트가 업무 수행 방식에 가져오는 변화를 사례와 함께 살펴봤습니다.
-
-기관: LG인화원
-
-원본 날짜: 2026.07.22.
-
-출처: https://bhban.kr/</description>
-      <guid isPermaLink="false">urn:nanalab:lectures:lecture-230</guid>
-      <category>강의</category>
-      <category>기업</category>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>[강의] AI를 활용한 기획보고서 작성법</title>
-      <link>https://nanalab.kr/lectures/#record-lectures-lecture-183-31c12f57966ea0b4</link>
-      <description>온라인 강연에서 AI를 활용해 기획보고서를 작성하는 방법을 다뤘습니다.
-
-기관: 한국농수산대학교
-
-원본 날짜: 2026.07.21
-
-출처: https://bhban.kr/</description>
-      <guid isPermaLink="false">urn:nanalab:lectures:lecture-183-31c12f57966ea0b4</guid>
-      <category>강의</category>
-      <category>교육기관</category>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>[강의] 에이전트 시대의 도래와 활용</title>
-      <link>https://nanalab.kr/lectures/#record-lectures-lecture-229</link>
-      <description>온라인 강연에서 AI 에이전트의 등장과 업무 활용 사례를 소개했습니다.
-
-기관: LG인화원
-
-원본 날짜: 2026.07.16.
-
-출처: https://bhban.kr/</description>
-      <guid isPermaLink="false">urn:nanalab:lectures:lecture-229</guid>
-      <category>강의</category>
-      <category>기업</category>
-      <pubDate>Thu, 16 Jul 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>[강의] AI가 가져올 기회, 빼앗아 갈 미래</title>
-      <link>https://nanalab.kr/lectures/#record-lectures-lecture-182-106cbbf6f6789dd7</link>
-      <description>용인중앙도서관 온라인 강연에서 AI가 만드는 새로운 기회와 직업·일상의 변화를 살펴봤습니다.
-
-기관: 용인중앙도서관
-
-원본 날짜: 2026.07.15
-
-출처: https://bhban.kr/</description>
-      <guid isPermaLink="false">urn:nanalab:lectures:lecture-182-106cbbf6f6789dd7</guid>
-      <category>강의</category>
-      <category>교육기관</category>
-      <pubDate>Wed, 15 Jul 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>[강의] 연구자를 위한 NotebookLM 실무교육</title>
-      <link>https://nanalab.kr/lectures/#record-lectures-lecture-181-7eb0abdd59c50827</link>
-      <description>선행논문 분석부터 리뷰 논문, 리비전 대응, 발표자료 작성까지 연구에 AI를 활용하는 방법을 실습했습니다.
-
-기관: 대구기계부품연구원
-
-원본 날짜: 2026.07.06. 07.13.
-
-출처: https://bhban.kr/</description>
-      <guid isPermaLink="false">urn:nanalab:lectures:lecture-181-7eb0abdd59c50827</guid>
-      <category>강의</category>
-      <category>연구기관</category>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>[강의] AI 시대의 진로 선택 가이드</title>
-      <link>https://nanalab.kr/lectures/#record-lectures-lecture-228-85af1b2f8648c303</link>
-      <description>AI가 바꾸는 직업세계와 진로 선택의 방향을 주제로 강연했습니다.
-
-기관: 송린이음터도서관
-
-원본 날짜: 2026.07.03.
-
-출처: https://bhban.kr/</description>
-      <guid isPermaLink="false">urn:nanalab:lectures:lecture-228-85af1b2f8648c303</guid>
-      <category>강의</category>
-      <category>교육기관</category>
-      <pubDate>Fri, 03 Jul 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>[강의] 챗GPT와 인공지능의 미래</title>
-      <link>https://nanalab.kr/lectures/#record-lectures-lecture-227-78bde51e0f62311b</link>
-      <description>챗GPT를 중심으로 인공지능의 발전과 앞으로의 변화를 살펴봤습니다.
-
-기관: 한국산업기술시험원
-
-원본 날짜: 2026.07.01.
-
-출처: https://bhban.kr/</description>
-      <guid isPermaLink="false">urn:nanalab:lectures:lecture-227-78bde51e0f62311b</guid>
-      <category>강의</category>
-      <category>연구기관</category>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>

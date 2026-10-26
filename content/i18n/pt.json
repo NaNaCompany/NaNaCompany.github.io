@@ -1116,6 +1116,131 @@
       "name": "Criar códigos QR",
       "description": "Crie códigos QR estáticos para endereços web, texto e configurações de Wi-Fi. Salve arquivos PNG e SVG no navegador sem data de expiração.",
       "image_alt": "Criar códigos QR"
+    },
+    "filename-studio": {
+      "name": "Estúdio de nomes de arquivos",
+      "description": "Confira regras e conflitos de nomes e exporte cópias renomeadas em ZIP com um CSV de correspondência.",
+      "image_alt": "Estúdio de nomes de arquivos"
+    },
+    "duplicate-file-lab": {
+      "name": "Verificador de arquivos duplicados",
+      "description": "Compare hashes SHA-256 para distinguir conteúdo duplicado de nomes repetidos e exporte os resultados em CSV.",
+      "image_alt": "Verificador de arquivos duplicados"
+    },
+    "folder-manifest": {
+      "name": "Inventário de pasta",
+      "description": "Crie inventários CSV ou Markdown com caminhos relativos, tamanhos, datas de modificação e hashes SHA-256 opcionais.",
+      "image_alt": "Inventário de pasta"
+    },
+    "csv-inspector": {
+      "name": "Inspetor de codificação CSV",
+      "description": "Confira possíveis codificações, delimitadores, número de colunas e aspas e exporte o CSV normalizado e a lista de erros.",
+      "image_alt": "Inspetor de codificação CSV"
+    },
+    "table-diff": {
+      "name": "Comparador de tabelas",
+      "description": "Compare duas tabelas CSV ou TSV por uma coluna-chave, confira inclusões, exclusões, alterações e chaves problemáticas e exporte em CSV.",
+      "image_alt": "Comparador de tabelas"
+    },
+    "paste-table-cleaner": {
+      "name": "Limpeza de tabelas coladas",
+      "description": "Limpe espaços, linhas e colunas vazias de tabelas coladas e copie ou baixe em CSV, TSV ou Markdown.",
+      "image_alt": "Limpeza de tabelas coladas"
+    },
+    "json-workbench": {
+      "name": "Bancada JSON",
+      "description": "Valide, formate e explore árvores JSON preservando inteiros grandes e compare diferenças estruturais entre dois documentos.",
+      "image_alt": "Bancada JSON"
+    },
+    "regex-lab": {
+      "name": "Laboratório Regex",
+      "description": "Teste correspondências, grupos de captura e substituições de expressões regulares JavaScript e exporte texto ou JSON.",
+      "image_alt": "Laboratório Regex"
+    },
+    "workday-calendar": {
+      "name": "Calculadora de dias úteis",
+      "description": "Defina dias da semana excluídos e feriados para contar dias úteis ou avançar e retroceder uma data em dias úteis.",
+      "image_alt": "Calculadora de dias úteis"
+    },
+    "world-meeting-time": {
+      "name": "Horário de reuniões internacionais",
+      "description": "Compare fusos horários e expedientes de diferentes cidades para encontrar horários comuns e exportar um evento ICS.",
+      "image_alt": "Horário de reuniões internacionais"
+    },
+    "template-merge": {
+      "name": "Preenchimento de modelos",
+      "description": "Preencha variáveis de modelos de texto com colunas CSV para gerar documentos e exportar em TXT, HTML ou ZIP.",
+      "image_alt": "Preenchimento de modelos"
+    },
+    "timesheet-studio": {
+      "name": "Apuração de horas de trabalho",
+      "description": "Informe entradas, saídas, pausas e turnos que passam da meia-noite para somar horas diárias e semanais e exportar em CSV.",
+      "image_alt": "Apuração de horas de trabalho"
+    },
+    "url-cleaner": {
+      "name": "Estúdio de parâmetros URL",
+      "description": "Edite consultas URL e parâmetros repetidos, remova campos de rastreamento ou crie tags UTM e copie ou salve o resultado.",
+      "image_alt": "Estúdio de parâmetros URL"
+    },
+    "contrast-lab": {
+      "name": "Laboratório de contraste",
+      "description": "Calcule o contraste considerando primeiro plano, fundo e transparência e confira limites de texto WCAG e opções de ajuste de cor.",
+      "image_alt": "Laboratório de contraste"
+    },
+    "meta-tag-studio": {
+      "name": "Estúdio de metatags",
+      "description": "Informe título, descrição, URL e dados de imagem para gerar tags HTML head, Open Graph e cartões do Twitter.",
+      "image_alt": "Estúdio de metatags"
+    },
+    "subtitle-shift": {
+      "name": "Ajuste de tempo de legendas",
+      "description": "Desloque e ajuste a escala dos tempos de legendas SRT ou WebVTT, confira sobreposições e converta ou exporte dentro dos limites suportados.",
+      "image_alt": "Ajuste de tempo de legendas"
+    },
+    "gantt-sketch": {
+      "name": "Rascunho de cronograma Gantt",
+      "description": "Compare o cronograma base e cenários com dependências, dias úteis, exclusões e atrasos e exporte em SVG ou CSV.",
+      "image_alt": "Rascunho de cronograma Gantt"
+    },
+    "decision-matrix": {
+      "name": "Matriz de decisão",
+      "description": "Informe pesos dos critérios e notas das alternativas para comparar classificações base, cenários e contribuições para a pontuação.",
+      "image_alt": "Matriz de decisão"
+    },
+    "truth-table-lab": {
+      "name": "Laboratório de tabelas-verdade",
+      "description": "Explore tabelas-verdade com até seis variáveis, uma soma de produtos equivalente e mapas de Karnaugh de duas a quatro variáveis.",
+      "image_alt": "Laboratório de tabelas-verdade"
+    },
+    "regression-lab": {
+      "name": "Laboratório de regressão",
+      "description": "Ajuste modelos lineares ou exponenciais a dados experimentais, confira coeficientes, R², resíduos e gráficos e exporte em SVG ou CSV.",
+      "image_alt": "Laboratório de regressão"
+    },
+    "matrix-workbench": {
+      "name": "Bancada de matrizes",
+      "description": "Calcule matrizes de 2×2 a 6×6 com frações exatas e confira determinantes, inversas, posto, soluções de Ax=b e operações de linha.",
+      "image_alt": "Bancada de matrizes"
+    },
+    "semester-gpa": {
+      "name": "Simulador de média acadêmica",
+      "description": "Use uma escala de notas e créditos própria para calcular médias semestrais e acumuladas, substituições por repetição e a média necessária para uma meta.",
+      "image_alt": "Simulador de média acadêmica"
+    },
+    "deadline-planner": {
+      "name": "Planejador de prazos",
+      "description": "Planeje de trás para a frente a partir de um prazo comum com estimativas, prioridades, disponibilidade diária e margens e confira o tempo não alocado.",
+      "image_alt": "Planejador de prazos"
+    },
+    "shared-costs": {
+      "name": "Divisão de despesas compartilhadas",
+      "description": "Distribua despesas comuns e pessoais por dias de moradia, área, consumo ou pesos e confira saldos e sugestões de transferência.",
+      "image_alt": "Divisão de despesas compartilhadas"
+    },
+    "nocturne-library": {
+      "name": "NOCTURNE · A biblioteca noturna",
+      "description": "Leia 12 romances no idioma original com fundo preto e texto branco, fontes ajustáveis, sumário, posição de leitura e marcadores.",
+      "image_alt": "NOCTURNE · A biblioteca noturna"
     }
   },
   "schema_version": "1.0",

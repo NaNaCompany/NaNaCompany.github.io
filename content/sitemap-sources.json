@@ -18,6 +18,26 @@
       "url": "https://nanalab.kr/color-drop/sitemap.xml"
     },
     {
+      "app_id": "contrast-lab",
+      "url": "https://nanalab.kr/contrast-lab/sitemap.xml"
+    },
+    {
+      "app_id": "csv-inspector",
+      "url": "https://nanalab.kr/csv-inspector/sitemap.xml"
+    },
+    {
+      "app_id": "deadline-planner",
+      "url": "https://nanalab.kr/deadline-planner/sitemap.xml"
+    },
+    {
+      "app_id": "decision-matrix",
+      "url": "https://nanalab.kr/decision-matrix/sitemap.xml"
+    },
+    {
+      "app_id": "duplicate-file-lab",
+      "url": "https://nanalab.kr/duplicate-file-lab/sitemap.xml"
+    },
+    {
       "app_id": "eng-ac-real-power",
       "url": "https://nanalab.kr/eng-ac-real-power/sitemap.xml"
     },
@@ -658,6 +678,22 @@
       "url": "https://nanalab.kr/eng-wire-resistance/sitemap.xml"
     },
     {
+      "app_id": "filename-studio",
+      "url": "https://nanalab.kr/filename-studio/sitemap.xml"
+    },
+    {
+      "app_id": "folder-manifest",
+      "url": "https://nanalab.kr/folder-manifest/sitemap.xml"
+    },
+    {
+      "app_id": "gantt-sketch",
+      "url": "https://nanalab.kr/gantt-sketch/sitemap.xml"
+    },
+    {
+      "app_id": "json-workbench",
+      "url": "https://nanalab.kr/json-workbench/sitemap.xml"
+    },
+    {
       "app_id": "level-frame",
       "url": "https://nanalab.kr/level-frame/sitemap.xml"
     },
@@ -670,8 +706,24 @@
       "url": "https://nanalab.kr/lunch-math/sitemap.xml"
     },
     {
+      "app_id": "matrix-workbench",
+      "url": "https://nanalab.kr/matrix-workbench/sitemap.xml"
+    },
+    {
+      "app_id": "meta-tag-studio",
+      "url": "https://nanalab.kr/meta-tag-studio/sitemap.xml"
+    },
+    {
       "app_id": "next-life-stats",
       "url": "https://nanalab.kr/next-life-stats/sitemap.xml"
+    },
+    {
+      "app_id": "nocturne-library",
+      "url": "https://nanalab.kr/nocturne-library/sitemap.xml"
+    },
+    {
+      "app_id": "paste-table-cleaner",
+      "url": "https://nanalab.kr/paste-table-cleaner/sitemap.xml"
     },
     {
       "app_id": "pdf-merge",
@@ -698,12 +750,56 @@
       "url": "https://nanalab.kr/rebirth_country/sitemap.xml"
     },
     {
+      "app_id": "regex-lab",
+      "url": "https://nanalab.kr/regex-lab/sitemap.xml"
+    },
+    {
+      "app_id": "regression-lab",
+      "url": "https://nanalab.kr/regression-lab/sitemap.xml"
+    },
+    {
+      "app_id": "semester-gpa",
+      "url": "https://nanalab.kr/semester-gpa/sitemap.xml"
+    },
+    {
+      "app_id": "shared-costs",
+      "url": "https://nanalab.kr/shared-costs/sitemap.xml"
+    },
+    {
+      "app_id": "subtitle-shift",
+      "url": "https://nanalab.kr/subtitle-shift/sitemap.xml"
+    },
+    {
+      "app_id": "table-diff",
+      "url": "https://nanalab.kr/table-diff/sitemap.xml"
+    },
+    {
       "app_id": "table-memory",
       "url": "https://nanalab.kr/table-memory/sitemap.xml"
     },
     {
+      "app_id": "template-merge",
+      "url": "https://nanalab.kr/template-merge/sitemap.xml"
+    },
+    {
+      "app_id": "timesheet-studio",
+      "url": "https://nanalab.kr/timesheet-studio/sitemap.xml"
+    },
+    {
+      "app_id": "truth-table-lab",
+      "url": "https://nanalab.kr/truth-table-lab/sitemap.xml"
+    },
+    {
+      "app_id": "url-cleaner",
+      "url": "https://nanalab.kr/url-cleaner/sitemap.xml"
+    },
+    {
       "app_id": "word-merge",
       "url": "https://nanalab.kr/word-merge/sitemap.xml"
+    },
+    {
+      "app_id": "workday-calendar",
+      "url": "https://nanalab.kr/workday-calendar/sitemap.xml"
     },
     {
       "app_id": "world-law-kr-acts",
@@ -718,6 +814,10 @@
     {
       "app_id": "world-law-portal",
       "url": "https://nanalab.kr/world-law-portal/sitemap.xml"
+    },
+    {
+      "app_id": "world-meeting-time",
+      "url": "https://nanalab.kr/world-meeting-time/sitemap.xml"
     }
   ],
   "supplemental": []

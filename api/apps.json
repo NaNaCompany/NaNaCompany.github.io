@@ -1,8 +1,758 @@
 {
   "schema_version": "1.0",
   "type": "apps",
-  "count": 196,
+  "count": 221,
   "items": [
+    {
+      "id": "nocturne-library",
+      "section": "apps",
+      "title": "NOCTURNE · 밤의 서재",
+      "url": "https://nanalab.kr/nocturne-library/",
+      "summary": "원어 소설 12권을 검은 배경·흰 글자로 읽고 글꼴·크기·목차·읽던 위치·책갈피를 활용하세요.",
+      "category": "문서·텍스트",
+      "date_published": "2026-10-26T07:19:38Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/nocturne-library/og/ko.jpg",
+      "repository": "https://github.com/NaNaCompany/nocturne-library",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/nocturne-library/",
+        "en": "https://nanalab.kr/nocturne-library/en/",
+        "es": "https://nanalab.kr/nocturne-library/es/",
+        "zh": "https://nanalab.kr/nocturne-library/zh/",
+        "ja": "https://nanalab.kr/nocturne-library/ja/",
+        "de": "https://nanalab.kr/nocturne-library/de/"
+      }
+    },
+    {
+      "id": "shared-costs",
+      "section": "apps",
+      "title": "자취 비용 분배",
+      "url": "https://nanalab.kr/shared-costs/",
+      "summary": "거주일·면적·사용량·가중치로 공용·개인 비용을 배분하고 결제자별 잔액과 송금 제안을 확인하세요.",
+      "category": "생활·업무",
+      "date_published": "2026-10-26T07:19:37Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/shared-costs/og/ko.jpg",
+      "repository": "https://github.com/NaNaCompany/shared-costs",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/shared-costs/",
+        "en": "https://nanalab.kr/shared-costs/en/",
+        "es": "https://nanalab.kr/shared-costs/es/",
+        "zh": "https://nanalab.kr/shared-costs/zh/",
+        "ja": "https://nanalab.kr/shared-costs/ja/",
+        "de": "https://nanalab.kr/shared-costs/de/"
+      }
+    },
+    {
+      "id": "semester-gpa",
+      "section": "apps",
+      "title": "학기 성적 시뮬레이터",
+      "url": "https://nanalab.kr/semester-gpa/",
+      "summary": "직접 설정한 등급 환산표·학점으로 학기·누적 평점과 재수강 교체, 목표에 필요한 평균을 계산하세요.",
+      "category": "생활·업무",
+      "date_published": "2026-10-26T07:19:34Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/semester-gpa/og/ko.jpg",
+      "repository": "https://github.com/NaNaCompany/semester-gpa",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/semester-gpa/",
+        "en": "https://nanalab.kr/semester-gpa/en/",
+        "es": "https://nanalab.kr/semester-gpa/es/",
+        "zh": "https://nanalab.kr/semester-gpa/zh/",
+        "ja": "https://nanalab.kr/semester-gpa/ja/",
+        "de": "https://nanalab.kr/semester-gpa/de/"
+      }
+    },
+    {
+      "id": "deadline-planner",
+      "section": "apps",
+      "title": "과제 마감 역산",
+      "url": "https://nanalab.kr/deadline-planner/",
+      "summary": "작업 예상시간·우선순위·일별 가용시간·버퍼로 공통 마감부터 역산하고 미배정 시간을 확인하세요.",
+      "category": "생활·업무",
+      "date_published": "2026-10-26T07:19:34Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/deadline-planner/og/ko.jpg",
+      "repository": "https://github.com/NaNaCompany/deadline-planner",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/deadline-planner/",
+        "en": "https://nanalab.kr/deadline-planner/en/",
+        "es": "https://nanalab.kr/deadline-planner/es/",
+        "zh": "https://nanalab.kr/deadline-planner/zh/",
+        "ja": "https://nanalab.kr/deadline-planner/ja/",
+        "de": "https://nanalab.kr/deadline-planner/de/"
+      }
+    },
+    {
+      "id": "matrix-workbench",
+      "section": "apps",
+      "title": "행렬 계산 과정",
+      "url": "https://nanalab.kr/matrix-workbench/",
+      "summary": "2×2~6×6 행렬을 정확한 분수로 계산하며 행렬식·역행렬·계수·Ax=b 해와 행 연산 과정을 확인하세요.",
+      "category": "공학·계산",
+      "date_published": "2026-10-26T07:19:33Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/matrix-workbench/og/ko.jpg",
+      "repository": "https://github.com/NaNaCompany/matrix-workbench",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/matrix-workbench/",
+        "en": "https://nanalab.kr/matrix-workbench/en/",
+        "es": "https://nanalab.kr/matrix-workbench/es/",
+        "zh": "https://nanalab.kr/matrix-workbench/zh/",
+        "ja": "https://nanalab.kr/matrix-workbench/ja/",
+        "de": "https://nanalab.kr/matrix-workbench/de/"
+      }
+    },
+    {
+      "id": "regression-lab",
+      "section": "apps",
+      "title": "실험 데이터 피팅",
+      "url": "https://nanalab.kr/regression-lab/",
+      "summary": "실험 데이터에 선형·지수 모델을 피팅해 계수·R²·잔차와 그래프를 확인하고 SVG·CSV로 저장하세요.",
+      "category": "공학·계산",
+      "date_published": "2026-10-26T07:19:32Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/regression-lab/og/ko.jpg",
+      "repository": "https://github.com/NaNaCompany/regression-lab",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/regression-lab/",
+        "en": "https://nanalab.kr/regression-lab/en/",
+        "es": "https://nanalab.kr/regression-lab/es/",
+        "zh": "https://nanalab.kr/regression-lab/zh/",
+        "ja": "https://nanalab.kr/regression-lab/ja/",
+        "de": "https://nanalab.kr/regression-lab/de/"
+      }
+    },
+    {
+      "id": "truth-table-lab",
+      "section": "apps",
+      "title": "논리회로 진리표",
+      "url": "https://nanalab.kr/truth-table-lab/",
+      "summary": "불 대수식의 최대 6변수 진리표·등가 곱의 합과 2~4변수 카르노 맵을 확인하세요.",
+      "category": "공학·계산",
+      "date_published": "2026-10-26T07:19:30Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/truth-table-lab/og/ko.jpg",
+      "repository": "https://github.com/NaNaCompany/truth-table-lab",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/truth-table-lab/",
+        "en": "https://nanalab.kr/truth-table-lab/en/",
+        "es": "https://nanalab.kr/truth-table-lab/es/",
+        "zh": "https://nanalab.kr/truth-table-lab/zh/",
+        "ja": "https://nanalab.kr/truth-table-lab/ja/",
+        "de": "https://nanalab.kr/truth-table-lab/de/"
+      }
+    },
+    {
+      "id": "decision-matrix",
+      "section": "apps",
+      "title": "의사결정 가중표",
+      "url": "https://nanalab.kr/decision-matrix/",
+      "summary": "기준별 가중치와 대안별 점수를 입력해 기본·시나리오 순위와 점수 기여도를 비교하세요.",
+      "category": "생활·업무",
+      "date_published": "2026-10-26T07:19:29Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/decision-matrix/og/ko.jpg",
+      "repository": "https://github.com/NaNaCompany/decision-matrix",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/decision-matrix/",
+        "en": "https://nanalab.kr/decision-matrix/en/",
+        "es": "https://nanalab.kr/decision-matrix/es/",
+        "zh": "https://nanalab.kr/decision-matrix/zh/",
+        "ja": "https://nanalab.kr/decision-matrix/ja/",
+        "de": "https://nanalab.kr/decision-matrix/de/"
+      }
+    },
+    {
+      "id": "gantt-sketch",
+      "section": "apps",
+      "title": "간트 일정 초안",
+      "url": "https://nanalab.kr/gantt-sketch/",
+      "summary": "작업 선후관계·근무일·제외일·지연을 반영해 기준 일정과 시나리오를 비교하고 SVG·CSV로 저장하세요.",
+      "category": "생활·업무",
+      "date_published": "2026-10-26T07:19:28Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/gantt-sketch/og/ko.jpg",
+      "repository": "https://github.com/NaNaCompany/gantt-sketch",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/gantt-sketch/",
+        "en": "https://nanalab.kr/gantt-sketch/en/",
+        "es": "https://nanalab.kr/gantt-sketch/es/",
+        "zh": "https://nanalab.kr/gantt-sketch/zh/",
+        "ja": "https://nanalab.kr/gantt-sketch/ja/",
+        "de": "https://nanalab.kr/gantt-sketch/de/"
+      }
+    },
+    {
+      "id": "meta-tag-studio",
+      "section": "apps",
+      "title": "웹 메타태그 작성기",
+      "url": "https://nanalab.kr/meta-tag-studio/",
+      "summary": "제목·설명·URL·이미지 정보를 입력해 HTML head·Open Graph·Twitter 카드 태그를 생성하세요.",
+      "category": "AI·개발",
+      "date_published": "2026-10-26T07:19:25Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/meta-tag-studio/og/ko.jpg",
+      "repository": "https://github.com/NaNaCompany/meta-tag-studio",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/meta-tag-studio/",
+        "en": "https://nanalab.kr/meta-tag-studio/en/",
+        "es": "https://nanalab.kr/meta-tag-studio/es/",
+        "zh": "https://nanalab.kr/meta-tag-studio/zh/",
+        "ja": "https://nanalab.kr/meta-tag-studio/ja/",
+        "de": "https://nanalab.kr/meta-tag-studio/de/"
+      }
+    },
+    {
+      "id": "subtitle-shift",
+      "section": "apps",
+      "title": "자막 시간 조정",
+      "url": "https://nanalab.kr/subtitle-shift/",
+      "summary": "SRT·WebVTT 자막의 시간 이동·배율을 조정하고 겹침을 확인해 지원 범위 안에서 변환·저장하세요.",
+      "category": "이미지·미디어",
+      "date_published": "2026-10-26T07:19:25Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/subtitle-shift/og/ko.jpg",
+      "repository": "https://github.com/NaNaCompany/subtitle-shift",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/subtitle-shift/",
+        "en": "https://nanalab.kr/subtitle-shift/en/",
+        "es": "https://nanalab.kr/subtitle-shift/es/",
+        "zh": "https://nanalab.kr/subtitle-shift/zh/",
+        "ja": "https://nanalab.kr/subtitle-shift/ja/",
+        "de": "https://nanalab.kr/subtitle-shift/de/"
+      }
+    },
+    {
+      "id": "url-cleaner",
+      "section": "apps",
+      "title": "URL 파라미터 정리",
+      "url": "https://nanalab.kr/url-cleaner/",
+      "summary": "URL 쿼리와 중복 파라미터를 편집하고 추적 항목 제거·UTM 생성 결과를 복사하거나 저장하세요.",
+      "category": "AI·개발",
+      "date_published": "2026-10-26T07:19:24Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/url-cleaner/og/ko.jpg",
+      "repository": "https://github.com/NaNaCompany/url-cleaner",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/url-cleaner/",
+        "en": "https://nanalab.kr/url-cleaner/en/",
+        "es": "https://nanalab.kr/url-cleaner/es/",
+        "zh": "https://nanalab.kr/url-cleaner/zh/",
+        "ja": "https://nanalab.kr/url-cleaner/ja/",
+        "de": "https://nanalab.kr/url-cleaner/de/"
+      }
+    },
+    {
+      "id": "contrast-lab",
+      "section": "apps",
+      "title": "색상 대비 실험실",
+      "url": "https://nanalab.kr/contrast-lab/",
+      "summary": "전경·배경·투명도를 반영한 색상 대비를 계산하고 WCAG 텍스트 기준과 색상 조정 후보를 확인하세요.",
+      "category": "이미지·미디어",
+      "date_published": "2026-10-26T07:19:24Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/contrast-lab/og/ko.jpg",
+      "repository": "https://github.com/NaNaCompany/contrast-lab",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/contrast-lab/",
+        "en": "https://nanalab.kr/contrast-lab/en/",
+        "es": "https://nanalab.kr/contrast-lab/es/",
+        "zh": "https://nanalab.kr/contrast-lab/zh/",
+        "ja": "https://nanalab.kr/contrast-lab/ja/",
+        "de": "https://nanalab.kr/contrast-lab/de/"
+      }
+    },
+    {
+      "id": "template-merge",
+      "section": "apps",
+      "title": "문서 일괄 템플릿 채우기",
+      "url": "https://nanalab.kr/template-merge/",
+      "summary": "CSV 열을 텍스트 템플릿 변수에 채워 여러 문서를 만들고 TXT·HTML·ZIP으로 저장하세요.",
+      "category": "문서·텍스트",
+      "date_published": "2026-10-26T07:19:20Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/template-merge/og/ko.jpg",
+      "repository": "https://github.com/NaNaCompany/template-merge",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/template-merge/",
+        "en": "https://nanalab.kr/template-merge/en/",
+        "es": "https://nanalab.kr/template-merge/es/",
+        "zh": "https://nanalab.kr/template-merge/zh/",
+        "ja": "https://nanalab.kr/template-merge/ja/",
+        "de": "https://nanalab.kr/template-merge/de/"
+      }
+    },
+    {
+      "id": "timesheet-studio",
+      "section": "apps",
+      "title": "업무시간 정산기",
+      "url": "https://nanalab.kr/timesheet-studio/",
+      "summary": "출퇴근·휴게·익일 근무를 입력해 일별·주별 근무시간을 합산하고 CSV로 저장하세요.",
+      "category": "생활·업무",
+      "date_published": "2026-10-26T07:19:20Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/timesheet-studio/og/ko.jpg",
+      "repository": "https://github.com/NaNaCompany/timesheet-studio",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/timesheet-studio/",
+        "en": "https://nanalab.kr/timesheet-studio/en/",
+        "es": "https://nanalab.kr/timesheet-studio/es/",
+        "zh": "https://nanalab.kr/timesheet-studio/zh/",
+        "ja": "https://nanalab.kr/timesheet-studio/ja/",
+        "de": "https://nanalab.kr/timesheet-studio/de/"
+      }
+    },
+    {
+      "id": "workday-calendar",
+      "section": "apps",
+      "title": "날짜 근무일 계산기",
+      "url": "https://nanalab.kr/workday-calendar/",
+      "summary": "제외 요일과 휴일을 직접 정해 기간별 근무일 수와 지정 근무일만큼 전후 날짜를 계산하세요.",
+      "category": "생활·업무",
+      "date_published": "2026-10-26T07:19:19Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/workday-calendar/og/ko.jpg",
+      "repository": "https://github.com/NaNaCompany/workday-calendar",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/workday-calendar/",
+        "en": "https://nanalab.kr/workday-calendar/en/",
+        "es": "https://nanalab.kr/workday-calendar/es/",
+        "zh": "https://nanalab.kr/workday-calendar/zh/",
+        "ja": "https://nanalab.kr/workday-calendar/ja/",
+        "de": "https://nanalab.kr/workday-calendar/de/"
+      }
+    },
+    {
+      "id": "world-meeting-time",
+      "section": "apps",
+      "title": "국제 회의 시각표",
+      "url": "https://nanalab.kr/world-meeting-time/",
+      "summary": "도시별 시간대와 근무시간을 비교해 공통 회의 후보를 찾고 ICS 일정으로 저장하세요.",
+      "category": "생활·업무",
+      "date_published": "2026-10-26T07:19:19Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/world-meeting-time/og/ko.jpg",
+      "repository": "https://github.com/NaNaCompany/world-meeting-time",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/world-meeting-time/",
+        "en": "https://nanalab.kr/world-meeting-time/en/",
+        "es": "https://nanalab.kr/world-meeting-time/es/",
+        "zh": "https://nanalab.kr/world-meeting-time/zh/",
+        "ja": "https://nanalab.kr/world-meeting-time/ja/",
+        "de": "https://nanalab.kr/world-meeting-time/de/"
+      }
+    },
+    {
+      "id": "json-workbench",
+      "section": "apps",
+      "title": "JSON 작업대",
+      "url": "https://nanalab.kr/json-workbench/",
+      "summary": "큰 정수를 보존하며 JSON 문법·서식·트리를 확인하고 두 문서의 구조 차이를 비교하세요.",
+      "category": "AI·개발",
+      "date_published": "2026-10-26T07:19:15Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/json-workbench/og/ko.jpg",
+      "repository": "https://github.com/NaNaCompany/json-workbench",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/json-workbench/",
+        "en": "https://nanalab.kr/json-workbench/en/",
+        "es": "https://nanalab.kr/json-workbench/es/",
+        "zh": "https://nanalab.kr/json-workbench/zh/",
+        "ja": "https://nanalab.kr/json-workbench/ja/",
+        "de": "https://nanalab.kr/json-workbench/de/"
+      }
+    },
+    {
+      "id": "regex-lab",
+      "section": "apps",
+      "title": "정규식 실험실",
+      "url": "https://nanalab.kr/regex-lab/",
+      "summary": "JavaScript 정규식의 매치·캡처 그룹·치환 결과를 확인하고 텍스트나 JSON으로 저장하세요.",
+      "category": "AI·개발",
+      "date_published": "2026-10-26T07:19:15Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/regex-lab/og/ko.jpg",
+      "repository": "https://github.com/NaNaCompany/regex-lab",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/regex-lab/",
+        "en": "https://nanalab.kr/regex-lab/en/",
+        "es": "https://nanalab.kr/regex-lab/es/",
+        "zh": "https://nanalab.kr/regex-lab/zh/",
+        "ja": "https://nanalab.kr/regex-lab/ja/",
+        "de": "https://nanalab.kr/regex-lab/de/"
+      }
+    },
+    {
+      "id": "table-diff",
+      "section": "apps",
+      "title": "표 두 개 대조",
+      "url": "https://nanalab.kr/table-diff/",
+      "summary": "키 열로 두 CSV·TSV 표를 대조해 추가·삭제·변경과 중복·빈 키를 확인하고 CSV로 저장하세요.",
+      "category": "문서·텍스트",
+      "date_published": "2026-10-26T07:19:14Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/table-diff/og/ko.jpg",
+      "repository": "https://github.com/NaNaCompany/table-diff",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/table-diff/",
+        "en": "https://nanalab.kr/table-diff/en/",
+        "es": "https://nanalab.kr/table-diff/es/",
+        "zh": "https://nanalab.kr/table-diff/zh/",
+        "ja": "https://nanalab.kr/table-diff/ja/",
+        "de": "https://nanalab.kr/table-diff/de/"
+      }
+    },
+    {
+      "id": "paste-table-cleaner",
+      "section": "apps",
+      "title": "복붙 표 정리",
+      "url": "https://nanalab.kr/paste-table-cleaner/",
+      "summary": "붙여 넣은 표의 공백·빈 행·빈 열을 정리하고 CSV·TSV·Markdown으로 복사하거나 저장하세요.",
+      "category": "문서·텍스트",
+      "date_published": "2026-10-26T07:19:14Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/paste-table-cleaner/og/ko.jpg",
+      "repository": "https://github.com/NaNaCompany/paste-table-cleaner",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/paste-table-cleaner/",
+        "en": "https://nanalab.kr/paste-table-cleaner/en/",
+        "es": "https://nanalab.kr/paste-table-cleaner/es/",
+        "zh": "https://nanalab.kr/paste-table-cleaner/zh/",
+        "ja": "https://nanalab.kr/paste-table-cleaner/ja/",
+        "de": "https://nanalab.kr/paste-table-cleaner/de/"
+      }
+    },
+    {
+      "id": "filename-studio",
+      "section": "apps",
+      "title": "파일명 규칙 미리보기",
+      "url": "https://nanalab.kr/filename-studio/",
+      "summary": "파일명 변경 규칙과 충돌을 미리 확인하고 이름을 바꾼 복사본 ZIP과 매핑 CSV를 저장하세요.",
+      "category": "생활·업무",
+      "date_published": "2026-10-26T07:19:10Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/filename-studio/og/ko.jpg",
+      "repository": "https://github.com/NaNaCompany/filename-studio",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/filename-studio/",
+        "en": "https://nanalab.kr/filename-studio/en/",
+        "es": "https://nanalab.kr/filename-studio/es/",
+        "zh": "https://nanalab.kr/filename-studio/zh/",
+        "ja": "https://nanalab.kr/filename-studio/ja/",
+        "de": "https://nanalab.kr/filename-studio/de/"
+      }
+    },
+    {
+      "id": "duplicate-file-lab",
+      "section": "apps",
+      "title": "중복 파일 검사기",
+      "url": "https://nanalab.kr/duplicate-file-lab/",
+      "summary": "선택한 파일의 SHA-256을 비교해 내용 중복과 이름 중복을 구분하고 결과 CSV를 저장하세요.",
+      "category": "생활·업무",
+      "date_published": "2026-10-26T07:19:10Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/duplicate-file-lab/og/ko.jpg",
+      "repository": "https://github.com/NaNaCompany/duplicate-file-lab",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/duplicate-file-lab/",
+        "en": "https://nanalab.kr/duplicate-file-lab/en/",
+        "es": "https://nanalab.kr/duplicate-file-lab/es/",
+        "zh": "https://nanalab.kr/duplicate-file-lab/zh/",
+        "ja": "https://nanalab.kr/duplicate-file-lab/ja/",
+        "de": "https://nanalab.kr/duplicate-file-lab/de/"
+      }
+    },
+    {
+      "id": "folder-manifest",
+      "section": "apps",
+      "title": "폴더 납품 목록 생성",
+      "url": "https://nanalab.kr/folder-manifest/",
+      "summary": "폴더의 상대 경로·크기·수정시각과 선택한 SHA-256을 정리해 CSV·Markdown 목록으로 저장하세요.",
+      "category": "생활·업무",
+      "date_published": "2026-10-26T07:19:10Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/folder-manifest/og/ko.jpg",
+      "repository": "https://github.com/NaNaCompany/folder-manifest",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/folder-manifest/",
+        "en": "https://nanalab.kr/folder-manifest/en/",
+        "es": "https://nanalab.kr/folder-manifest/es/",
+        "zh": "https://nanalab.kr/folder-manifest/zh/",
+        "ja": "https://nanalab.kr/folder-manifest/ja/",
+        "de": "https://nanalab.kr/folder-manifest/de/"
+      }
+    },
+    {
+      "id": "csv-inspector",
+      "section": "apps",
+      "title": "CSV 인코딩 구조 점검",
+      "url": "https://nanalab.kr/csv-inspector/",
+      "summary": "CSV의 인코딩 후보·구분자·열 수·따옴표 문법을 점검하고 정규화 CSV와 오류 목록을 저장하세요.",
+      "category": "문서·텍스트",
+      "date_published": "2026-10-26T07:19:10Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "https://nanalab.kr/csv-inspector/og/ko.jpg",
+      "repository": "https://github.com/NaNaCompany/csv-inspector",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/csv-inspector/",
+        "en": "https://nanalab.kr/csv-inspector/en/",
+        "es": "https://nanalab.kr/csv-inspector/es/",
+        "zh": "https://nanalab.kr/csv-inspector/zh/",
+        "ja": "https://nanalab.kr/csv-inspector/ja/",
+        "de": "https://nanalab.kr/csv-inspector/de/"
+      }
+    },
     {
       "id": "qr-code",
       "section": "apps",
