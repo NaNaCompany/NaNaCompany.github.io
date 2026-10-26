@@ -1101,6 +1101,21 @@
       "name": "Comprimento desenvolvido de dobra de chapa",
       "description": "Comprimento desenvolvido de dobra de chapa — BA = θ(R + Kt); θ ∈ [0, π] rad. Cálculo numérico com conversão de unidades e condições de aplicação indicadas na ferramenta.",
       "image_alt": "Comprimento desenvolvido de dobra de chapa"
+    },
+    "pdf-merge": {
+      "name": "Juntar PDF · Selecionar páginas",
+      "description": "Combine PDFs na ordem desejada e selecione os intervalos de páginas de cada arquivo. Salve um novo PDF no navegador sem enviar os documentos.",
+      "image_alt": "Juntar PDF · Selecionar páginas"
+    },
+    "word-merge": {
+      "name": "Juntar documentos Word",
+      "description": "Combine parágrafos, tabelas e imagens de arquivos DOCX na ordem desejada. Preserve as seções e os tamanhos de página ao salvar um novo Word no navegador.",
+      "image_alt": "Juntar documentos Word"
+    },
+    "qr-code": {
+      "name": "Criar códigos QR",
+      "description": "Crie códigos QR estáticos para endereços web, texto e configurações de Wi-Fi. Salve arquivos PNG e SVG no navegador sem data de expiração.",
+      "image_alt": "Criar códigos QR"
     }
   },
   "schema_version": "1.0",

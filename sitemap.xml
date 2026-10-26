@@ -508,7 +508,13 @@
     <loc>https://nanalab.kr/next-life-stats/sitemap.xml</loc>
   </sitemap>
   <sitemap>
+    <loc>https://nanalab.kr/pdf-merge/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
     <loc>https://nanalab.kr/ppp/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/qr-code/sitemap.xml</loc>
   </sitemap>
   <sitemap>
     <loc>https://nanalab.kr/rain-rhythm/sitemap.xml</loc>
@@ -521,6 +527,9 @@
   </sitemap>
   <sitemap>
     <loc>https://nanalab.kr/table-memory/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/word-merge/sitemap.xml</loc>
   </sitemap>
   <sitemap>
     <loc>https://nanalab.kr/world-law-kr-acts/sitemap.xml</loc>

@@ -1101,6 +1101,21 @@
       "name": "Sheet metal bend allowance calculator",
       "description": "Use an entered K-factor to locate the neutral axis and calculate the developed length of one circular curved bend.",
       "image_alt": "Sheet metal bend allowance calculator"
+    },
+    "pdf-merge": {
+      "name": "Merge PDF · Select pages",
+      "description": "Combine PDFs in your preferred order and choose page ranges for each file. Save a new PDF in your browser without uploading documents.",
+      "image_alt": "Merge PDF · Select pages"
+    },
+    "word-merge": {
+      "name": "Merge Word documents",
+      "description": "Combine paragraphs, tables and images from DOCX files in your preferred order. Save a new Word file in your browser while retaining document sections and page sizes.",
+      "image_alt": "Merge Word documents"
+    },
+    "qr-code": {
+      "name": "Create QR codes",
+      "description": "Create static QR codes for website addresses, text and Wi-Fi settings. Save PNG and SVG files in your browser without an expiry date.",
+      "image_alt": "Create QR codes"
     }
   },
   "schema_version": "1.0",

@@ -1101,6 +1101,21 @@
       "name": "Calculadora de longitud desarrollada del pliegue de una chapa",
       "description": "Utilice el factor K introducido para situar el eje neutro y calcular la longitud desarrollada de la parte curva de un único pliegue circular.",
       "image_alt": "Calculadora de longitud desarrollada del pliegue de una chapa"
+    },
+    "pdf-merge": {
+      "name": "Unir PDF · Elegir páginas",
+      "description": "Combina archivos PDF en el orden que prefieras y selecciona los intervalos de páginas de cada archivo. Guarda un PDF nuevo en el navegador sin subir documentos.",
+      "image_alt": "Unir PDF · Elegir páginas"
+    },
+    "word-merge": {
+      "name": "Unir documentos Word",
+      "description": "Combina párrafos, tablas e imágenes de archivos DOCX en el orden que prefieras. Conserva las secciones y los tamaños de página al guardar un Word nuevo en el navegador.",
+      "image_alt": "Unir documentos Word"
+    },
+    "qr-code": {
+      "name": "Crear códigos QR",
+      "description": "Crea códigos QR estáticos para direcciones web, texto y ajustes de Wi-Fi. Guarda archivos PNG y SVG en el navegador sin fecha de caducidad.",
+      "image_alt": "Crear códigos QR"
     }
   },
   "schema_version": "1.0",

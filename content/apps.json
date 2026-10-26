@@ -4613,5 +4613,59 @@
     "image_alt": "판금 절곡부 전개 길이 계산기의 제목과 단위 변환 안내가 표시된 대표 이미지",
     "symbol": "∑",
     "image_fit": "contain"
+  },
+  {
+    "id": "pdf-merge",
+    "name": "PDF 합치기 · 페이지 선택",
+    "category": "문서·텍스트",
+    "description": "여러 PDF를 원하는 순서로 합치고 문서별 페이지 범위를 선택하세요. 파일을 서버에 올리지 않고 브라우저에서 새 PDF로 저장합니다.",
+    "symbol": "PDF",
+    "url": "https://nanalab.kr/pdf-merge/",
+    "repository": "https://github.com/NaNaCompany/pdf-merge",
+    "published_at": "2026-10-26T00:47:34Z",
+    "date_source": "github_repository_created_at",
+    "languages": [
+      "ko"
+    ],
+    "language_paths": {
+      "ko": ""
+    },
+    "sitemap_lastmod": "2026-10-26"
+  },
+  {
+    "id": "word-merge",
+    "name": "Word 합치기",
+    "category": "문서·텍스트",
+    "description": "DOCX 문서의 문단·표·사진을 원하는 순서로 합치세요. 문서별 구역과 용지 크기를 유지하며 브라우저에서 새 Word 파일로 저장합니다.",
+    "symbol": "W",
+    "url": "https://nanalab.kr/word-merge/",
+    "repository": "https://github.com/NaNaCompany/word-merge",
+    "published_at": "2026-10-26T00:47:49Z",
+    "date_source": "github_repository_created_at",
+    "languages": [
+      "ko"
+    ],
+    "language_paths": {
+      "ko": ""
+    },
+    "sitemap_lastmod": "2026-10-26"
+  },
+  {
+    "id": "qr-code",
+    "name": "QR 코드 만들기",
+    "category": "생활·업무",
+    "description": "웹사이트 주소·한글 텍스트·Wi-Fi 정보를 정적 QR 코드로 만드세요. 만료 기한 없이 사용할 PNG·SVG 파일을 브라우저에서 저장합니다.",
+    "symbol": "QR",
+    "url": "https://nanalab.kr/qr-code/",
+    "repository": "https://github.com/NaNaCompany/qr-code",
+    "published_at": "2026-10-26T00:47:58Z",
+    "date_source": "github_repository_created_at",
+    "languages": [
+      "ko"
+    ],
+    "language_paths": {
+      "ko": ""
+    },
+    "sitemap_lastmod": "2026-10-26"
   }
 ]

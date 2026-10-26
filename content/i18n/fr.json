@@ -1101,6 +1101,21 @@
       "name": "Longueur développée d’un pli de tôle",
       "description": "Longueur développée d’un pli de tôle — BA = θ(R + Kt); θ ∈ [0, π] rad. Calcul numérique avec conversion des unités et conditions d’application précisées dans l’outil.",
       "image_alt": "Longueur développée d’un pli de tôle"
+    },
+    "pdf-merge": {
+      "name": "Fusionner des PDF · Choisir les pages",
+      "description": "Fusionnez les PDF dans l’ordre voulu et choisissez les plages de pages de chaque fichier. Enregistrez un nouveau PDF dans votre navigateur sans téléverser les documents.",
+      "image_alt": "Fusionner des PDF · Choisir les pages"
+    },
+    "word-merge": {
+      "name": "Fusionner des documents Word",
+      "description": "Réunissez les paragraphes, tableaux et images de fichiers DOCX dans l’ordre voulu. Conservez les sections et formats de page et enregistrez un nouveau Word dans le navigateur.",
+      "image_alt": "Fusionner des documents Word"
+    },
+    "qr-code": {
+      "name": "Créer des codes QR",
+      "description": "Créez des codes QR statiques pour des adresses web, du texte et des paramètres Wi-Fi. Enregistrez des fichiers PNG et SVG sans date d’expiration dans le navigateur.",
+      "image_alt": "Créer des codes QR"
     }
   },
   "schema_version": "1.0",

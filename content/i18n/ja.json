@@ -1101,6 +1101,21 @@
       "name": "板金曲げ部の展開長さ計算機",
       "description": "入力した K ファクターから中立軸位置を定め、1 つの円弧状曲げ部の展開長さを計算します。",
       "image_alt": "板金曲げ部の展開長さ計算機"
+    },
+    "pdf-merge": {
+      "name": "PDF結合・ページ選択",
+      "description": "PDFの順番と各ファイルのページ範囲を指定して結合できます。文書をアップロードせず、ブラウザーで新しいPDFを保存します。",
+      "image_alt": "PDF結合・ページ選択"
+    },
+    "word-merge": {
+      "name": "Word文書を結合",
+      "description": "DOCXの段落・表・画像を指定した順番で結合します。文書ごとのセクションと用紙サイズを保ち、ブラウザーで新しいWordファイルを保存します。",
+      "image_alt": "Word文書を結合"
+    },
+    "qr-code": {
+      "name": "QRコード作成",
+      "description": "URL・テキスト・Wi-Fi設定を静的QRコードにします。有効期限のないPNG・SVGファイルをブラウザーで保存できます。",
+      "image_alt": "QRコード作成"
     }
   },
   "schema_version": "1.0",

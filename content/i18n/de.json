@@ -1101,6 +1101,21 @@
       "name": "Rechner für die Biegezugabe von Blech",
       "description": "Bestimmen Sie mit einem eingegebenen K-Faktor die Lage der neutralen Achse und berechnen Sie die abgewickelte Länge einer einzelnen kreisförmigen Biegung.",
       "image_alt": "Rechner für die Biegezugabe von Blech"
+    },
+    "pdf-merge": {
+      "name": "PDF zusammenfügen · Seiten wählen",
+      "description": "Füge PDFs in gewünschter Reihenfolge zusammen und wähle Seitenbereiche je Datei. Speichere eine neue PDF direkt im Browser, ohne Dokumente hochzuladen.",
+      "image_alt": "PDF zusammenfügen · Seiten wählen"
+    },
+    "word-merge": {
+      "name": "Word-Dokumente zusammenfügen",
+      "description": "Verbinde Absätze, Tabellen und Bilder aus DOCX-Dateien in gewünschter Reihenfolge. Abschnitte und Seitengrößen bleiben beim Speichern im Browser erhalten.",
+      "image_alt": "Word-Dokumente zusammenfügen"
+    },
+    "qr-code": {
+      "name": "QR-Codes erstellen",
+      "description": "Erstelle statische QR-Codes für Webadressen, Text und WLAN-Einstellungen. Speichere PNG- und SVG-Dateien ohne Ablaufdatum direkt im Browser.",
+      "image_alt": "QR-Codes erstellen"
     }
   },
   "schema_version": "1.0",

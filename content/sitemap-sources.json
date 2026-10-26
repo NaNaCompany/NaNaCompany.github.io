@@ -674,8 +674,16 @@
       "url": "https://nanalab.kr/next-life-stats/sitemap.xml"
     },
     {
+      "app_id": "pdf-merge",
+      "url": "https://nanalab.kr/pdf-merge/sitemap.xml"
+    },
+    {
       "app_id": "ppp",
       "url": "https://nanalab.kr/ppp/sitemap.xml"
+    },
+    {
+      "app_id": "qr-code",
+      "url": "https://nanalab.kr/qr-code/sitemap.xml"
     },
     {
       "app_id": "rain-rhythm",
@@ -692,6 +700,10 @@
     {
       "app_id": "table-memory",
       "url": "https://nanalab.kr/table-memory/sitemap.xml"
+    },
+    {
+      "app_id": "word-merge",
+      "url": "https://nanalab.kr/word-merge/sitemap.xml"
     },
     {
       "app_id": "world-law-kr-acts",

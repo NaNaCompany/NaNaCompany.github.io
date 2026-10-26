@@ -7,6 +7,39 @@
     <language>ko</language>
     <atom:link href="https://nanalab.kr/feeds/apps.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>[앱] QR 코드 만들기</title>
+      <link>https://nanalab.kr/qr-code/</link>
+      <description>웹사이트 주소·한글 텍스트·Wi-Fi 정보를 정적 QR 코드로 만드세요. 만료 기한 없이 사용할 PNG·SVG 파일을 브라우저에서 저장합니다.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:qr-code</guid>
+      <category>앱</category>
+      <category>생활·업무</category>
+      <pubDate>Mon, 26 Oct 2026 00:47:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] Word 합치기</title>
+      <link>https://nanalab.kr/word-merge/</link>
+      <description>DOCX 문서의 문단·표·사진을 원하는 순서로 합치세요. 문서별 구역과 용지 크기를 유지하며 브라우저에서 새 Word 파일로 저장합니다.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:word-merge</guid>
+      <category>앱</category>
+      <category>문서·텍스트</category>
+      <pubDate>Mon, 26 Oct 2026 00:47:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] PDF 합치기 · 페이지 선택</title>
+      <link>https://nanalab.kr/pdf-merge/</link>
+      <description>여러 PDF를 원하는 순서로 합치고 문서별 페이지 범위를 선택하세요. 파일을 서버에 올리지 않고 브라우저에서 새 PDF로 저장합니다.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:pdf-merge</guid>
+      <category>앱</category>
+      <category>문서·텍스트</category>
+      <pubDate>Mon, 26 Oct 2026 00:47:34 +0000</pubDate>
+    </item>
+    <item>
       <title>[앱] 판금 절곡부 전개 길이 계산기</title>
       <link>https://nanalab.kr/eng-bend-allowance/</link>
       <description>입력한 K계수로 중립축 반지름을 정하고 원호 형태 절곡부의 전개 길이만 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.
@@ -1072,39 +1105,6 @@
       <category>앱</category>
       <category>공학·계산</category>
       <pubDate>Sun, 25 Oct 2026 05:23:22 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 직렬 스프링 등가강성 계산기</title>
-      <link>https://nanalab.kr/eng-series-spring/</link>
-      <description>두 선형 스프링을 직렬로 연결한 등가 강성 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:eng-series-spring</guid>
-      <category>앱</category>
-      <category>공학·계산</category>
-      <pubDate>Sun, 25 Oct 2026 05:23:13 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 평균힘 충격량 계산기</title>
-      <link>https://nanalab.kr/eng-impulse/</link>
-      <description>같은 축의 평균힘과 작용 시간으로 충격량 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:eng-impulse</guid>
-      <category>앱</category>
-      <category>공학·계산</category>
-      <pubDate>Sun, 25 Oct 2026 05:23:04 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 경사 투사 도달거리 계산기</title>
-      <link>https://nanalab.kr/eng-projectile-range/</link>
-      <description>같은 높이로 돌아오는 이상적인 포물선 투사 거리 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:eng-projectile-range</guid>
-      <category>앱</category>
-      <category>공학·계산</category>
-      <pubDate>Sun, 25 Oct 2026 05:22:56 +0000</pubDate>
     </item>
   </channel>
 </rss>

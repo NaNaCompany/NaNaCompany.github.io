@@ -7,6 +7,39 @@
     <language>ko</language>
     <atom:link href="https://nanalab.kr/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>[앱] QR 코드 만들기</title>
+      <link>https://nanalab.kr/qr-code/</link>
+      <description>웹사이트 주소·한글 텍스트·Wi-Fi 정보를 정적 QR 코드로 만드세요. 만료 기한 없이 사용할 PNG·SVG 파일을 브라우저에서 저장합니다.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:qr-code</guid>
+      <category>앱</category>
+      <category>생활·업무</category>
+      <pubDate>Mon, 26 Oct 2026 00:47:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] Word 합치기</title>
+      <link>https://nanalab.kr/word-merge/</link>
+      <description>DOCX 문서의 문단·표·사진을 원하는 순서로 합치세요. 문서별 구역과 용지 크기를 유지하며 브라우저에서 새 Word 파일로 저장합니다.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:word-merge</guid>
+      <category>앱</category>
+      <category>문서·텍스트</category>
+      <pubDate>Mon, 26 Oct 2026 00:47:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] PDF 합치기 · 페이지 선택</title>
+      <link>https://nanalab.kr/pdf-merge/</link>
+      <description>여러 PDF를 원하는 순서로 합치고 문서별 페이지 범위를 선택하세요. 파일을 서버에 올리지 않고 브라우저에서 새 PDF로 저장합니다.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:pdf-merge</guid>
+      <category>앱</category>
+      <category>문서·텍스트</category>
+      <pubDate>Mon, 26 Oct 2026 00:47:34 +0000</pubDate>
+    </item>
+    <item>
       <title>[앱] 판금 절곡부 전개 길이 계산기</title>
       <link>https://nanalab.kr/eng-bend-allowance/</link>
       <description>입력한 K계수로 중립축 반지름을 정하고 원호 형태 절곡부의 전개 길이만 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.
@@ -2264,51 +2297,6 @@
       <category>강의</category>
       <category>연구기관</category>
       <pubDate>Wed, 01 Jul 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>[강의] AI 활용을 통한 정책문제 해결Ⅰ·Ⅱ</title>
-      <link>https://nanalab.kr/lectures/#record-lectures-lecture-nhi-20260630</link>
-      <description>제14기 9급 신규자과정(지역인재수습직원)에서 업무 자료를 활용해 정책 문제를 해결하는 생성형 AI 실습을 진행했습니다.
-
-기관: 국가공무원인재개발원
-
-원본 날짜: 2026.06.30.
-
-출처: https://bhban.kr/</description>
-      <guid isPermaLink="false">urn:nanalab:lectures:lecture-nhi-20260630</guid>
-      <category>강의</category>
-      <category>공공기관</category>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>[강의] AI를 활용한 공공기관 업무 및 연구 수행 자동화</title>
-      <link>https://nanalab.kr/lectures/#record-lectures-lecture-225-85b7d694d1b44714</link>
-      <description>생성형 AI를 공공기관 업무와 연구 수행에 적용하는 방법을 소개했습니다.
-
-기관: 국립과학수사연구원
-
-원본 날짜: 2026.06.25.
-
-출처: https://bhban.kr/</description>
-      <guid isPermaLink="false">urn:nanalab:lectures:lecture-225-85b7d694d1b44714</guid>
-      <category>강의</category>
-      <category>연구기관</category>
-      <pubDate>Thu, 25 Jun 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>[강의] 생성형 AI 이해 및 실습</title>
-      <link>https://nanalab.kr/lectures/#record-lectures-lecture-nhi-20260623</link>
-      <description>제14기 9급 신규자과정(지역인재수습직원)에서 생성형 AI의 기초와 프롬프트 작성 방법을 다루고 업무 활용을 실습했습니다.
-
-기관: 국가공무원인재개발원
-
-원본 날짜: 2026.06.23.
-
-출처: https://bhban.kr/</description>
-      <guid isPermaLink="false">urn:nanalab:lectures:lecture-nhi-20260623</guid>
-      <category>강의</category>
-      <category>공공기관</category>
-      <pubDate>Tue, 23 Jun 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
