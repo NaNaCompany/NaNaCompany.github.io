@@ -1246,6 +1246,31 @@
       "name": "DLL-Downloadverzeichnis",
       "description": "Durchsuche 1.083 DLL-Dateinamen und finde die offiziellen Microsoft-Pakete, Laufzeitumgebungen und SDKs, die sie enthalten.",
       "image_alt": "DLL-Downloadverzeichnis"
+    },
+    "windows-error-guide": {
+      "name": "Windows-Fehlerhilfe",
+      "description": "Fehlercodes nach Vorgang, sichere Prüfungen und offizielle Microsoft-Hilfe.",
+      "image_alt": "Windows-Fehlerhilfe"
+    },
+    "printer-error-guide": {
+      "name": "Druckerfehler finden",
+      "description": "Prüfschritte und offizielle Hilfe nach Hersteller, Modell und Code finden.",
+      "image_alt": "Druckerfehler finden"
+    },
+    "appliance-error-guide": {
+      "name": "Fehlercodes für Haushaltsgeräte",
+      "description": "Codebedeutungen, sichere äußere Prüfungen und offizielle Hilfe nach Marke und Gerätefamilie finden.",
+      "image_alt": "Fehlercodes für Haushaltsgeräte"
+    },
+    "device-driver-finder": {
+      "name": "Geräte-ID und offizielle Treiber finden",
+      "description": "Offiziellen Support über ausgewählte USB/HID-Metadaten, begrenzte GPU-Angaben des Browsers oder manuell eingegebene PCI/USB-IDs finden.",
+      "image_alt": "Geräte-ID und offizielle Treiber finden"
+    },
+    "cuda-compatibility-checker": {
+      "name": "CUDA-, Treiber- und PyTorch-Anforderungen",
+      "description": "Vergleichen Sie ein Profil mit der manuell eingegebenen Treiberversion. GPU, Python und Betriebssystemdetails sind separat zu prüfen.",
+      "image_alt": "CUDA-, Treiber- und PyTorch-Anforderungen"
     }
   },
   "schema_version": "1.0",

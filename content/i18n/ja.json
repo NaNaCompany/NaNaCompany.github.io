@@ -1246,6 +1246,31 @@
       "name": "DLL公式ダウンロード資料室",
       "description": "1,083件のDLLファイル名を検索し、そのファイルを含むMicrosoft公式パッケージ・ランタイム・SDKのダウンロード先を確認できます。",
       "image_alt": "DLL公式ダウンロード資料室"
+    },
+    "windows-error-guide": {
+      "name": "Windows エラーガイド",
+      "description": "操作別のエラーコード、安全な確認項目、Microsoft の公式案内。",
+      "image_alt": "Windows エラーガイド"
+    },
+    "printer-error-guide": {
+      "name": "プリンターエラー検索",
+      "description": "メーカー・型番・番号から確認項目と公式窓口を探せます。",
+      "image_alt": "プリンターエラー検索"
+    },
+    "appliance-error-guide": {
+      "name": "家電エラーコード検索",
+      "description": "メーカーと製品群を分けてコードの意味、安全な外観確認、公式サポートを調べます。",
+      "image_alt": "家電エラーコード検索"
+    },
+    "device-driver-finder": {
+      "name": "デバイス ID・公式ドライバー検索",
+      "description": "選択した USB/HID 情報、ブラウザーの限定的な GPU 情報、手入力の PCI/USB ID から公式サポートを探します。",
+      "image_alt": "デバイス ID・公式ドライバー検索"
+    },
+    "cuda-compatibility-checker": {
+      "name": "CUDA・ドライバー・PyTorch 条件確認",
+      "description": "選択した構成と手入力のドライバーを比較します。GPU、Python、OS の詳細は別途確認が必要です。",
+      "image_alt": "CUDA・ドライバー・PyTorch 条件確認"
     }
   },
   "schema_version": "1.0",

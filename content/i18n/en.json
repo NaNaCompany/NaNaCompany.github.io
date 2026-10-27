@@ -1246,6 +1246,31 @@
       "name": "DLL Download Directory",
       "description": "Search 1,083 DLL filenames and find the Microsoft official packages, runtimes and SDKs that contain them.",
       "image_alt": "DLL Download Directory"
+    },
+    "windows-error-guide": {
+      "name": "Windows error guide",
+      "description": "Error codes by task, safe checks and official Microsoft guidance.",
+      "image_alt": "Windows error guide"
+    },
+    "printer-error-guide": {
+      "name": "Printer Error Guide",
+      "description": "Find model-specific checks and official support links by brand and code.",
+      "image_alt": "Printer Error Guide"
+    },
+    "appliance-error-guide": {
+      "name": "Appliance Error Code Guide",
+      "description": "Find code meanings, safe external checks and official support by brand and appliance family.",
+      "image_alt": "Appliance Error Code Guide"
+    },
+    "device-driver-finder": {
+      "name": "Device ID & Official Driver Finder",
+      "description": "Find official support using selected USB/HID metadata, limited browser GPU information, or a manually entered PCI/USB ID.",
+      "image_alt": "Device ID & Official Driver Finder"
+    },
+    "cuda-compatibility-checker": {
+      "name": "CUDA, driver and PyTorch requirements",
+      "description": "Compare a selected profile with a manually entered driver. GPU, Python and OS details require separate checks.",
+      "image_alt": "CUDA, driver and PyTorch requirements"
     }
   },
   "schema_version": "1.0",

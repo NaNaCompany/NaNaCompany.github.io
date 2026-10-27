@@ -1246,6 +1246,31 @@
       "name": "Répertoire de téléchargement DLL",
       "description": "Recherchez parmi 1 083 noms de fichiers DLL et trouvez les téléchargements des packages, environnements d’exécution et SDK officiels Microsoft qui les contiennent.",
       "image_alt": "Répertoire de téléchargement DLL"
+    },
+    "windows-error-guide": {
+      "name": "Guide des erreurs Windows",
+      "description": "Codes d’erreur par tâche, vérifications sûres et aide officielle Microsoft.",
+      "image_alt": "Guide des erreurs Windows"
+    },
+    "printer-error-guide": {
+      "name": "Guide des erreurs d’imprimante",
+      "description": "Trouvez les vérifications et liens d’assistance officiels par marque, modèle et code.",
+      "image_alt": "Guide des erreurs d’imprimante"
+    },
+    "appliance-error-guide": {
+      "name": "Codes d’erreur des appareils ménagers",
+      "description": "Consultez la signification des codes, les vérifications extérieures sûres et l’assistance officielle par marque et type d’appareil.",
+      "image_alt": "Codes d’erreur des appareils ménagers"
+    },
+    "device-driver-finder": {
+      "name": "Identifiant d’appareil et pilotes officiels",
+      "description": "Trouvez l’assistance officielle à partir des métadonnées USB/HID choisies, des informations GPU limitées du navigateur ou d’un identifiant PCI/USB saisi manuellement.",
+      "image_alt": "Identifiant d’appareil et pilotes officiels"
+    },
+    "cuda-compatibility-checker": {
+      "name": "Conditions CUDA, pilotes et PyTorch",
+      "description": "Comparez un profil avec la version du pilote saisie. Les détails du GPU, de Python et du système nécessitent des vérifications distinctes.",
+      "image_alt": "Conditions CUDA, pilotes et PyTorch"
     }
   },
   "schema_version": "1.0",

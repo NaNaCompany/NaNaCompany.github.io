@@ -8,6 +8,66 @@
   "favicon": "https://nanalab.kr/favicon.ico/android-icon-192x192.png",
   "items": [
     {
+      "id": "urn:nanalab:apps:cuda-compatibility-checker",
+      "url": "https://nanalab.kr/cuda-compatibility-checker/",
+      "title": "[앱] CUDA·드라이버·PyTorch 조건 확인",
+      "content_text": "프로필과 직접 입력한 드라이버를 비교합니다. GPU·Python·OS 세부 조건은 별도 확인이 필요합니다.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "생활·업무"
+      ],
+      "date_published": "2026-10-27T01:24:52Z",
+      "image": "/apps/img/cuda-compatibility-checker.svg"
+    },
+    {
+      "id": "urn:nanalab:apps:device-driver-finder",
+      "url": "https://nanalab.kr/device-driver-finder/",
+      "title": "[앱] 장치 ID · 공식 드라이버 찾기",
+      "content_text": "선택한 USB/HID 장치 정보, 브라우저의 제한된 GPU 정보, 직접 입력한 PCI/USB ID로 공식 지원처를 찾습니다.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "생활·업무"
+      ],
+      "date_published": "2026-10-27T01:24:40Z",
+      "image": "/apps/img/device-driver-finder.svg"
+    },
+    {
+      "id": "urn:nanalab:apps:appliance-error-guide",
+      "url": "https://nanalab.kr/appliance-error-guide/",
+      "title": "[앱] 가전 오류 코드 찾기",
+      "content_text": "제조사와 제품군을 구분해 코드 뜻, 안전한 외관 확인과 공식 지원을 찾습니다.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "생활·업무"
+      ],
+      "date_published": "2026-10-27T01:24:27Z",
+      "image": "/apps/img/appliance-error-guide.svg"
+    },
+    {
+      "id": "urn:nanalab:apps:printer-error-guide",
+      "url": "https://nanalab.kr/printer-error-guide/",
+      "title": "[앱] 프린터 오류 찾기",
+      "content_text": "제조사·모델·코드로 찾는 확인 항목과 공식 지원 링크.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "생활·업무"
+      ],
+      "date_published": "2026-10-27T01:24:12Z",
+      "image": "/apps/img/printer-error-guide.svg"
+    },
+    {
+      "id": "urn:nanalab:apps:windows-error-guide",
+      "url": "https://nanalab.kr/windows-error-guide/",
+      "title": "[앱] Windows 오류코드 안내",
+      "content_text": "작업 맥락별 오류코드, 안전한 확인항목, Microsoft 공식 안내.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "생활·업무"
+      ],
+      "date_published": "2026-10-27T01:21:49Z",
+      "image": "/apps/img/windows-error-guide.svg"
+    },
+    {
       "id": "urn:nanalab:apps:dll-directory",
       "url": "https://nanalab.kr/dll-directory/",
       "title": "[앱] DLL 공식 다운로드 자료실",
@@ -2342,66 +2402,6 @@
       ],
       "date_published": "2026-10-24T21:18:31Z",
       "image": "https://nanalab.kr/lunch-math/og/default.jpg"
-    },
-    {
-      "id": "urn:nanalab:apps:table-memory",
-      "url": "https://nanalab.kr/table-memory/",
-      "title": "[앱] 딱 3초 본 식탁, 얼마나 기억할 수 있을까?",
-      "content_text": "3초 동안 본 식탁을 기억해 사물의 배치를 맞혀 보세요.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "재미·라이프"
-      ],
-      "date_published": "2026-10-24T21:18:28Z",
-      "image": "https://nanalab.kr/table-memory/og/default.jpg"
-    },
-    {
-      "id": "urn:nanalab:apps:level-frame",
-      "url": "https://nanalab.kr/level-frame/",
-      "title": "[앱] 기울어진 액자, 얼마나 정확하게 고칠 수 있을까?",
-      "content_text": "기울어진 액자를 돌려 수평 감각을 확인하는 게임입니다.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "재미·라이프"
-      ],
-      "date_published": "2026-10-24T21:18:25Z",
-      "image": "https://nanalab.kr/level-frame/og/default.jpg"
-    },
-    {
-      "id": "urn:nanalab:apps:color-drop",
-      "url": "https://nanalab.kr/color-drop/",
-      "title": "[앱] 하나만 다른 색, 끝까지 찾아낼 수 있을까?",
-      "content_text": "비슷한 색 타일 사이에서 하나만 다른 색을 찾아보세요.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "재미·라이프"
-      ],
-      "date_published": "2026-10-24T21:18:22Z",
-      "image": "https://nanalab.kr/color-drop/og/default.jpg"
-    },
-    {
-      "id": "urn:nanalab:apps:body-clock",
-      "url": "https://nanalab.kr/body-clock/",
-      "title": "[앱] 시계 없이 10초, 정확히 멈출 수 있을까?",
-      "content_text": "숫자를 보지 않고 10초를 세 번 재며 나의 시간 감각을 확인하는 게임입니다.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "재미·라이프"
-      ],
-      "date_published": "2026-10-24T21:18:19Z",
-      "image": "https://nanalab.kr/body-clock/og/default.jpg"
-    },
-    {
-      "id": "urn:nanalab:apps:rebirth_biology",
-      "url": "https://nanalab.kr/rebirth_biology/",
-      "title": "[앱] 생물등록증",
-      "content_text": "다시 태어나면 어떤 생물일까? 지구 생물량으로 만나는 72개의 다음 생과 나만의 생물등록증.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "재미·라이프"
-      ],
-      "date_published": "2026-10-24T08:28:43Z",
-      "image": "https://nanalab.kr/rebirth_biology/og/default.jpg"
     }
   ]
 }

@@ -5342,5 +5342,135 @@
     "image_url": "/apps/img/dll-directory.svg",
     "image_fit": "contain",
     "image_alt": "DLL 공식 다운로드 자료실"
+  },
+  {
+    "id": "windows-error-guide",
+    "name": "Windows 오류코드 안내",
+    "category": "생활·업무",
+    "description": "작업 맥락별 오류코드, 안전한 확인항목, Microsoft 공식 안내.",
+    "symbol": "▤",
+    "url": "https://nanalab.kr/windows-error-guide/",
+    "repository": "https://github.com/NaNaCompany/windows-error-guide",
+    "published_at": "2026-10-27T01:21:49Z",
+    "date_source": "github_repository_created_at",
+    "languages": [
+      "ko",
+      "en",
+      "es",
+      "zh",
+      "ja",
+      "de"
+    ],
+    "language_paths": {
+      "ko": ""
+    },
+    "sitemap_lastmod": "2026-10-27",
+    "image_url": "/apps/img/windows-error-guide.svg",
+    "image_fit": "contain",
+    "image_alt": "Windows 오류코드 안내"
+  },
+  {
+    "id": "printer-error-guide",
+    "name": "프린터 오류 찾기",
+    "category": "생활·업무",
+    "description": "제조사·모델·코드로 찾는 확인 항목과 공식 지원 링크.",
+    "symbol": "▤",
+    "url": "https://nanalab.kr/printer-error-guide/",
+    "repository": "https://github.com/NaNaCompany/printer-error-guide",
+    "published_at": "2026-10-27T01:24:12Z",
+    "date_source": "github_repository_created_at",
+    "languages": [
+      "ko",
+      "en",
+      "es",
+      "zh",
+      "ja",
+      "de"
+    ],
+    "language_paths": {
+      "ko": ""
+    },
+    "sitemap_lastmod": "2026-10-27",
+    "image_url": "/apps/img/printer-error-guide.svg",
+    "image_fit": "contain",
+    "image_alt": "프린터 오류 찾기"
+  },
+  {
+    "id": "appliance-error-guide",
+    "name": "가전 오류 코드 찾기",
+    "category": "생활·업무",
+    "description": "제조사와 제품군을 구분해 코드 뜻, 안전한 외관 확인과 공식 지원을 찾습니다.",
+    "symbol": "▤",
+    "url": "https://nanalab.kr/appliance-error-guide/",
+    "repository": "https://github.com/NaNaCompany/appliance-error-guide",
+    "published_at": "2026-10-27T01:24:27Z",
+    "date_source": "github_repository_created_at",
+    "languages": [
+      "ko",
+      "en",
+      "es",
+      "zh",
+      "ja",
+      "de"
+    ],
+    "language_paths": {
+      "ko": ""
+    },
+    "sitemap_lastmod": "2026-10-27",
+    "image_url": "/apps/img/appliance-error-guide.svg",
+    "image_fit": "contain",
+    "image_alt": "가전 오류 코드 찾기"
+  },
+  {
+    "id": "device-driver-finder",
+    "name": "장치 ID · 공식 드라이버 찾기",
+    "category": "생활·업무",
+    "description": "선택한 USB/HID 장치 정보, 브라우저의 제한된 GPU 정보, 직접 입력한 PCI/USB ID로 공식 지원처를 찾습니다.",
+    "symbol": "▤",
+    "url": "https://nanalab.kr/device-driver-finder/",
+    "repository": "https://github.com/NaNaCompany/device-driver-finder",
+    "published_at": "2026-10-27T01:24:40Z",
+    "date_source": "github_repository_created_at",
+    "languages": [
+      "ko",
+      "en",
+      "es",
+      "zh",
+      "ja",
+      "de"
+    ],
+    "language_paths": {
+      "ko": ""
+    },
+    "sitemap_lastmod": "2026-10-27",
+    "image_url": "/apps/img/device-driver-finder.svg",
+    "image_fit": "contain",
+    "image_alt": "장치 ID · 공식 드라이버 찾기"
+  },
+  {
+    "id": "cuda-compatibility-checker",
+    "name": "CUDA·드라이버·PyTorch 조건 확인",
+    "category": "생활·업무",
+    "description": "프로필과 직접 입력한 드라이버를 비교합니다. GPU·Python·OS 세부 조건은 별도 확인이 필요합니다.",
+    "symbol": "▤",
+    "url": "https://nanalab.kr/cuda-compatibility-checker/",
+    "repository": "https://github.com/NaNaCompany/cuda-compatibility-checker",
+    "published_at": "2026-10-27T01:24:52Z",
+    "date_source": "github_repository_created_at",
+    "languages": [
+      "ko",
+      "en",
+      "es",
+      "zh",
+      "ja",
+      "de"
+    ],
+    "language_paths": {
+      "ko": ""
+    },
+    "sitemap_lastmod": "2026-10-27",
+    "image_url": "/apps/img/cuda-compatibility-checker.svg",
+    "image_fit": "contain",
+    "image_alt": "CUDA·드라이버·PyTorch 조건 확인"
   }
 ]

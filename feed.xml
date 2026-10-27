@@ -7,6 +7,61 @@
     <language>ko</language>
     <atom:link href="https://nanalab.kr/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>[앱] CUDA·드라이버·PyTorch 조건 확인</title>
+      <link>https://nanalab.kr/cuda-compatibility-checker/</link>
+      <description>프로필과 직접 입력한 드라이버를 비교합니다. GPU·Python·OS 세부 조건은 별도 확인이 필요합니다.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:cuda-compatibility-checker</guid>
+      <category>앱</category>
+      <category>생활·업무</category>
+      <pubDate>Tue, 27 Oct 2026 01:24:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 장치 ID · 공식 드라이버 찾기</title>
+      <link>https://nanalab.kr/device-driver-finder/</link>
+      <description>선택한 USB/HID 장치 정보, 브라우저의 제한된 GPU 정보, 직접 입력한 PCI/USB ID로 공식 지원처를 찾습니다.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:device-driver-finder</guid>
+      <category>앱</category>
+      <category>생활·업무</category>
+      <pubDate>Tue, 27 Oct 2026 01:24:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 가전 오류 코드 찾기</title>
+      <link>https://nanalab.kr/appliance-error-guide/</link>
+      <description>제조사와 제품군을 구분해 코드 뜻, 안전한 외관 확인과 공식 지원을 찾습니다.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:appliance-error-guide</guid>
+      <category>앱</category>
+      <category>생활·업무</category>
+      <pubDate>Tue, 27 Oct 2026 01:24:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 프린터 오류 찾기</title>
+      <link>https://nanalab.kr/printer-error-guide/</link>
+      <description>제조사·모델·코드로 찾는 확인 항목과 공식 지원 링크.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:printer-error-guide</guid>
+      <category>앱</category>
+      <category>생활·업무</category>
+      <pubDate>Tue, 27 Oct 2026 01:24:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] Windows 오류코드 안내</title>
+      <link>https://nanalab.kr/windows-error-guide/</link>
+      <description>작업 맥락별 오류코드, 안전한 확인항목, Microsoft 공식 안내.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:windows-error-guide</guid>
+      <category>앱</category>
+      <category>생활·업무</category>
+      <pubDate>Tue, 27 Oct 2026 01:21:49 +0000</pubDate>
+    </item>
+    <item>
       <title>[앱] DLL 공식 다운로드 자료실</title>
       <link>https://nanalab.kr/dll-directory/</link>
       <description>DLL 파일명 1,083개를 검색하고 해당 파일을 포함한 Microsoft 공식 패키지·런타임·SDK 다운로드로 이동하세요.
@@ -2150,61 +2205,6 @@
       <category>앱</category>
       <category>재미·라이프</category>
       <pubDate>Sat, 24 Oct 2026 21:18:31 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 딱 3초 본 식탁, 얼마나 기억할 수 있을까?</title>
-      <link>https://nanalab.kr/table-memory/</link>
-      <description>3초 동안 본 식탁을 기억해 사물의 배치를 맞혀 보세요.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:table-memory</guid>
-      <category>앱</category>
-      <category>재미·라이프</category>
-      <pubDate>Sat, 24 Oct 2026 21:18:28 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 기울어진 액자, 얼마나 정확하게 고칠 수 있을까?</title>
-      <link>https://nanalab.kr/level-frame/</link>
-      <description>기울어진 액자를 돌려 수평 감각을 확인하는 게임입니다.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:level-frame</guid>
-      <category>앱</category>
-      <category>재미·라이프</category>
-      <pubDate>Sat, 24 Oct 2026 21:18:25 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 하나만 다른 색, 끝까지 찾아낼 수 있을까?</title>
-      <link>https://nanalab.kr/color-drop/</link>
-      <description>비슷한 색 타일 사이에서 하나만 다른 색을 찾아보세요.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:color-drop</guid>
-      <category>앱</category>
-      <category>재미·라이프</category>
-      <pubDate>Sat, 24 Oct 2026 21:18:22 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 시계 없이 10초, 정확히 멈출 수 있을까?</title>
-      <link>https://nanalab.kr/body-clock/</link>
-      <description>숫자를 보지 않고 10초를 세 번 재며 나의 시간 감각을 확인하는 게임입니다.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:body-clock</guid>
-      <category>앱</category>
-      <category>재미·라이프</category>
-      <pubDate>Sat, 24 Oct 2026 21:18:19 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 생물등록증</title>
-      <link>https://nanalab.kr/rebirth_biology/</link>
-      <description>다시 태어나면 어떤 생물일까? 지구 생물량으로 만나는 72개의 다음 생과 나만의 생물등록증.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:rebirth_biology</guid>
-      <category>앱</category>
-      <category>재미·라이프</category>
-      <pubDate>Sat, 24 Oct 2026 08:28:43 +0000</pubDate>
     </item>
   </channel>
 </rss>

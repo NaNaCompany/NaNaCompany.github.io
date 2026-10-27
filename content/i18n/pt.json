@@ -1246,6 +1246,31 @@
       "name": "Diretório de downloads DLL",
       "description": "Pesquise 1.083 nomes de arquivos DLL e encontre os pacotes, ambientes de execução e SDKs oficiais da Microsoft que os contêm.",
       "image_alt": "Diretório de downloads DLL"
+    },
+    "windows-error-guide": {
+      "name": "Guia de erros do Windows",
+      "description": "Códigos de erro por tarefa, verificações seguras e orientações oficiais da Microsoft.",
+      "image_alt": "Guia de erros do Windows"
+    },
+    "printer-error-guide": {
+      "name": "Guia de erros de impressora",
+      "description": "Encontre verificações e links de suporte oficial por marca, modelo e código.",
+      "image_alt": "Guia de erros de impressora"
+    },
+    "appliance-error-guide": {
+      "name": "Códigos de erro de eletrodomésticos",
+      "description": "Consulte o significado dos códigos, verificações externas seguras e suporte oficial por marca e tipo de aparelho.",
+      "image_alt": "Códigos de erro de eletrodomésticos"
+    },
+    "device-driver-finder": {
+      "name": "ID de dispositivo e drivers oficiais",
+      "description": "Encontre suporte oficial usando metadados USB/HID selecionados, informações limitadas de GPU do navegador ou um ID PCI/USB inserido manualmente.",
+      "image_alt": "ID de dispositivo e drivers oficiais"
+    },
+    "cuda-compatibility-checker": {
+      "name": "Requisitos de CUDA, driver e PyTorch",
+      "description": "Compare um perfil com a versão do driver inserida. Os detalhes de GPU, Python e sistema exigem verificações separadas.",
+      "image_alt": "Requisitos de CUDA, driver e PyTorch"
     }
   },
   "schema_version": "1.0",

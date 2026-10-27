@@ -8,6 +8,66 @@
   "favicon": "https://nanalab.kr/favicon.ico/android-icon-192x192.png",
   "items": [
     {
+      "id": "urn:nanalab:apps:cuda-compatibility-checker",
+      "url": "https://nanalab.kr/cuda-compatibility-checker/",
+      "title": "[앱] CUDA·드라이버·PyTorch 조건 확인",
+      "content_text": "프로필과 직접 입력한 드라이버를 비교합니다. GPU·Python·OS 세부 조건은 별도 확인이 필요합니다.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "생활·업무"
+      ],
+      "date_published": "2026-10-27T01:24:52Z",
+      "image": "/apps/img/cuda-compatibility-checker.svg"
+    },
+    {
+      "id": "urn:nanalab:apps:device-driver-finder",
+      "url": "https://nanalab.kr/device-driver-finder/",
+      "title": "[앱] 장치 ID · 공식 드라이버 찾기",
+      "content_text": "선택한 USB/HID 장치 정보, 브라우저의 제한된 GPU 정보, 직접 입력한 PCI/USB ID로 공식 지원처를 찾습니다.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "생활·업무"
+      ],
+      "date_published": "2026-10-27T01:24:40Z",
+      "image": "/apps/img/device-driver-finder.svg"
+    },
+    {
+      "id": "urn:nanalab:apps:appliance-error-guide",
+      "url": "https://nanalab.kr/appliance-error-guide/",
+      "title": "[앱] 가전 오류 코드 찾기",
+      "content_text": "제조사와 제품군을 구분해 코드 뜻, 안전한 외관 확인과 공식 지원을 찾습니다.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "생활·업무"
+      ],
+      "date_published": "2026-10-27T01:24:27Z",
+      "image": "/apps/img/appliance-error-guide.svg"
+    },
+    {
+      "id": "urn:nanalab:apps:printer-error-guide",
+      "url": "https://nanalab.kr/printer-error-guide/",
+      "title": "[앱] 프린터 오류 찾기",
+      "content_text": "제조사·모델·코드로 찾는 확인 항목과 공식 지원 링크.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "생활·업무"
+      ],
+      "date_published": "2026-10-27T01:24:12Z",
+      "image": "/apps/img/printer-error-guide.svg"
+    },
+    {
+      "id": "urn:nanalab:apps:windows-error-guide",
+      "url": "https://nanalab.kr/windows-error-guide/",
+      "title": "[앱] Windows 오류코드 안내",
+      "content_text": "작업 맥락별 오류코드, 안전한 확인항목, Microsoft 공식 안내.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "생활·업무"
+      ],
+      "date_published": "2026-10-27T01:21:49Z",
+      "image": "/apps/img/windows-error-guide.svg"
+    },
+    {
       "id": "urn:nanalab:apps:dll-directory",
       "url": "https://nanalab.kr/dll-directory/",
       "title": "[앱] DLL 공식 다운로드 자료실",
@@ -1142,66 +1202,6 @@
       ],
       "date_published": "2026-10-25T05:27:47Z",
       "image": "https://nanalab.kr/eng-henry-solubility/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-decay-activity",
-      "url": "https://nanalab.kr/eng-decay-activity/",
-      "title": "[앱] 방사성 활동도 감쇠 계산기",
-      "content_text": "일정 붕괴상수를 가진 단일 핵종의 활동도 감소 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T05:27:38Z",
-      "image": "https://nanalab.kr/eng-decay-activity/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-nernst-potential",
-      "url": "https://nanalab.kr/eng-nernst-potential/",
-      "title": "[앱] 네른스트 전위 계산기",
-      "content_text": "명시한 반응지수와 온도로 평형 전극·전지 전위 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T05:27:30Z",
-      "image": "https://nanalab.kr/eng-nernst-potential/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-dilute-ph",
-      "url": "https://nanalab.kr/eng-dilute-ph/",
-      "title": "[앱] 이상 희석용액 pH 계산기",
-      "content_text": "활동도계수를 1로 둔 수소이온 농도 기반 pH 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T05:27:22Z",
-      "image": "https://nanalab.kr/eng-dilute-ph/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-sound-doppler",
-      "url": "https://nanalab.kr/eng-sound-doppler/",
-      "title": "[앱] 음파 도플러 주파수 계산기",
-      "content_text": "매질 기준 1차원 음원·관측자 운동의 도플러 주파수 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T05:27:13Z",
-      "image": "https://nanalab.kr/eng-sound-doppler/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-sound-pressure-level",
-      "url": "https://nanalab.kr/eng-sound-pressure-level/",
-      "title": "[앱] 음압 레벨 계산기",
-      "content_text": "기준 실효 음압에 대한 음압 레벨 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T05:27:04Z",
-      "image": "https://nanalab.kr/eng-sound-pressure-level/og.png"
     }
   ]
 }

@@ -2,6 +2,10 @@
   "schema_version": "1.0",
   "sources": [
     {
+      "app_id": "appliance-error-guide",
+      "url": "https://nanalab.kr/appliance-error-guide/sitemap.xml"
+    },
+    {
       "app_id": "astra",
       "url": "https://nanalab.kr/astra/sitemap.xml"
     },
@@ -26,12 +30,20 @@
       "url": "https://nanalab.kr/csv-inspector/sitemap.xml"
     },
     {
+      "app_id": "cuda-compatibility-checker",
+      "url": "https://nanalab.kr/cuda-compatibility-checker/sitemap.xml"
+    },
+    {
       "app_id": "deadline-planner",
       "url": "https://nanalab.kr/deadline-planner/sitemap.xml"
     },
     {
       "app_id": "decision-matrix",
       "url": "https://nanalab.kr/decision-matrix/sitemap.xml"
+    },
+    {
+      "app_id": "device-driver-finder",
+      "url": "https://nanalab.kr/device-driver-finder/sitemap.xml"
     },
     {
       "app_id": "dll-directory",
@@ -738,6 +750,10 @@
       "url": "https://nanalab.kr/ppp/sitemap.xml"
     },
     {
+      "app_id": "printer-error-guide",
+      "url": "https://nanalab.kr/printer-error-guide/sitemap.xml"
+    },
+    {
       "app_id": "qr-code",
       "url": "https://nanalab.kr/qr-code/sitemap.xml"
     },
@@ -796,6 +812,10 @@
     {
       "app_id": "url-cleaner",
       "url": "https://nanalab.kr/url-cleaner/sitemap.xml"
+    },
+    {
+      "app_id": "windows-error-guide",
+      "url": "https://nanalab.kr/windows-error-guide/sitemap.xml"
     },
     {
       "app_id": "word-merge",
