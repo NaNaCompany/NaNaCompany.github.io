@@ -17,7 +17,7 @@ SITE = 'https://nanalab.kr/'
 NS = '{http://www.sitemaps.org/schemas/sitemap/0.9}'
 
 
-def leaf(raw, location):
+def leaf(raw, location, *, directory=False):
     assert len(raw) <= 50 * 1024 * 1024, 'Sitemap exceeds 50 MiB: ' + location
     tree = ET.fromstring(raw)
     assert tree.tag == NS + 'urlset', 'Nested index or invalid leaf: ' + location
@@ -26,7 +26,9 @@ def leaf(raw, location):
     for url in urls:
         parts = urlsplit(url)
         assert parts.scheme == 'https' and parts.netloc == 'nanalab.kr' and not parts.fragment, url
-        assert url == canonical_url(url), 'Noncanonical sitemap URL: ' + url
+        # Directory link preferences do not change independently published app
+        # routes. App leaf maps retain their own valid /ko/ pages.
+        assert url == canonical_url(url, korean_aliases=directory), 'Noncanonical sitemap URL: ' + url
     return set(urls)
 
 
@@ -100,14 +102,14 @@ def check(live=False):
             body = path.read_bytes()
         if name in outputs:
             assert body.decode() == outputs[name], 'Generated sitemap is stale: ' + location
-        return location, leaf(body, location)
+        return location, leaf(body, location, directory=location == main_url)
 
     if live:
         with ThreadPoolExecutor(max_workers=8) as pool:
             maps = dict(pool.map(read, locations))
     else:
         maps = dict(map(read, locations))
-    assert maps[main_url] == leaf(outputs['sitemap-main.xml'].encode(), 'generated main')
+    assert maps[main_url] == leaf(outputs['sitemap-main.xml'].encode(), 'generated main', directory=True)
     assert grouped_landing_urls(apps) <= maps[main_url], 'Published child language landings missing'
     for child in children.values():
         if child['status'] == 'published':

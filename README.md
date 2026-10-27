@@ -88,6 +88,8 @@ node scripts/check_interactions.cjs
 
 배포 후 `python scripts/check_sitemaps.py --live`는 루트 색인·메인 목록·robots.txt의 배포 최신 상태와 모든 앱 XML의 HTTP 응답·구조·중복·동일 도메인·기존 URL·메타데이터 보존·발견 경로를 확인하고, 중복을 제외한 전체 URL 수를 출력합니다. Search Console 제출 주소는 `https://nanalab.kr/sitemap.xml`이며, 이 색인 하나에서 메인 목록과 모든 앱의 하위 사이트맵으로 연결됩니다. 색인과 하위 사이트맵을 읽는 시점은 다를 수 있으며, 발견된 페이지 수는 실제 검색 색인 완료 수와 다릅니다. 하위 경로의 robots.txt와 별개로 같은 호스트 전체에 실제 적용되는 정책은 루트 `/robots.txt`입니다. 구성 기준은 [Google의 사이트맵 색인 안내](https://developers.google.com/search/docs/crawling-indexing/sitemaps/large-sitemaps)를 따릅니다.
 
+메인 카탈로그·피드·페이지 목록은 검증한 한국어 별칭 7종의 `/ko/` 대신 앱 루트를 대표 링크로 사용합니다. 이 규칙은 개별 앱의 공개 경로나 자체 canonical을 바꾸지 않습니다. 하위 앱 사이트맵은 자체 `/ko/` 페이지를 유지할 수 있으며 HTTPS·호스트·슬래시 정규화 검사는 그대로 적용합니다. `python scripts/check_site_urls.py`로 두 범위를 함께 검사합니다.
+
 ## 구독 피드와 공개 JSON
 
 사이트 빌드에서 RSS 2.0, JSON Feed 1.1, 조회용 JSON을 함께 생성합니다. 별도 백엔드·인증 키·번역 API가 필요하지 않습니다. 사용 안내는 [구독·데이터](https://nanalab.kr/feeds/)에서 확인할 수 있습니다.
