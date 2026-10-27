@@ -1,8 +1,38 @@
 {
   "schema_version": "1.0",
   "type": "apps",
-  "count": 221,
+  "count": 222,
   "items": [
+    {
+      "id": "dll-directory",
+      "section": "apps",
+      "title": "DLL 공식 다운로드 자료실",
+      "url": "https://nanalab.kr/dll-directory/",
+      "summary": "DLL 파일명 1,083개를 검색하고 해당 파일을 포함한 Microsoft 공식 패키지·런타임·SDK 다운로드로 이동하세요.",
+      "category": "생활·업무",
+      "date_published": "2026-10-27T00:26:49Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "/apps/img/dll-directory.svg",
+      "repository": "https://github.com/NaNaCompany/dll-directory",
+      "languages": [
+        "ko",
+        "en",
+        "es",
+        "zh",
+        "ja",
+        "de"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/dll-directory/",
+        "en": "https://nanalab.kr/dll-directory/en/",
+        "es": "https://nanalab.kr/dll-directory/es/",
+        "zh": "https://nanalab.kr/dll-directory/zh/",
+        "ja": "https://nanalab.kr/dll-directory/ja/",
+        "de": "https://nanalab.kr/dll-directory/de/"
+      }
+    },
     {
       "id": "nocturne-library",
       "section": "apps",

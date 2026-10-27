@@ -1241,6 +1241,11 @@
       "name": "NOCTURNE · Die Nachtbibliothek",
       "description": "Lesen Sie zwölf Romane im Original mit schwarzem Hintergrund, weißer Schrift, anpassbaren Schriften, Inhaltsverzeichnis, Leseposition und Lesezeichen.",
       "image_alt": "NOCTURNE · Die Nachtbibliothek"
+    },
+    "dll-directory": {
+      "name": "DLL-Downloadverzeichnis",
+      "description": "Durchsuche 1.083 DLL-Dateinamen und finde die offiziellen Microsoft-Pakete, Laufzeitumgebungen und SDKs, die sie enthalten.",
+      "image_alt": "DLL-Downloadverzeichnis"
     }
   },
   "schema_version": "1.0",

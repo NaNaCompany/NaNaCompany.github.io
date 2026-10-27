@@ -82,7 +82,7 @@ def check(live=False):
         if app.get('external') or app.get('kind') == 'template':
             continue
         repository = ROOT.parent / app['id']
-        if any(path.is_file() for path in [repository / 'docs/sitemap.xml', repository / 'sitemap.xml']):
+        if any(path.is_file() for path in [repository / 'docs/sitemap.xml', repository / 'sitemap.xml', repository / 'dist/sitemap.xml']):
             assert app['id'] in registered, 'Run scripts/sync_sitemaps.py for: ' + app['id']
     source_by_url = {row['url']: row for row in manifest['sources']}
 
@@ -95,7 +95,7 @@ def check(live=False):
             body = (ROOT / name).read_bytes()
         else:
             source = ROOT.parent / source_by_url[location]['app_id']
-            path = next((p for p in [source / 'docs/sitemap.xml', source / 'sitemap.xml'] if p.is_file()), None)
+            path = next((p for p in [source / 'docs/sitemap.xml', source / 'sitemap.xml', source / 'dist/sitemap.xml'] if p.is_file()), None)
             assert path, 'Source checkout unavailable: ' + location
             body = path.read_bytes()
         if name in outputs:

@@ -1241,6 +1241,11 @@
       "name": "NOCTURNE · The night library",
       "description": "Read 12 novels in their original language on a black background with white text, adjustable fonts, contents, reading position and bookmarks.",
       "image_alt": "NOCTURNE · The night library"
+    },
+    "dll-directory": {
+      "name": "DLL Download Directory",
+      "description": "Search 1,083 DLL filenames and find the Microsoft official packages, runtimes and SDKs that contain them.",
+      "image_alt": "DLL Download Directory"
     }
   },
   "schema_version": "1.0",

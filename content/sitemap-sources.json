@@ -34,6 +34,10 @@
       "url": "https://nanalab.kr/decision-matrix/sitemap.xml"
     },
     {
+      "app_id": "dll-directory",
+      "url": "https://nanalab.kr/dll-directory/sitemap.xml"
+    },
+    {
       "app_id": "duplicate-file-lab",
       "url": "https://nanalab.kr/duplicate-file-lab/sitemap.xml"
     },

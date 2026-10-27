@@ -1241,6 +1241,11 @@
       "name": "NOCTURNE · 夜の書斎",
       "description": "原語の小説12冊を黒い背景と白い文字で読み、書体・文字サイズ・目次・読書位置・しおりを利用できます。",
       "image_alt": "NOCTURNE · 夜の書斎"
+    },
+    "dll-directory": {
+      "name": "DLL公式ダウンロード資料室",
+      "description": "1,083件のDLLファイル名を検索し、そのファイルを含むMicrosoft公式パッケージ・ランタイム・SDKのダウンロード先を確認できます。",
+      "image_alt": "DLL公式ダウンロード資料室"
     }
   },
   "schema_version": "1.0",

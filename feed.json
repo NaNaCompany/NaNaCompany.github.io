@@ -8,6 +8,18 @@
   "favicon": "https://nanalab.kr/favicon.ico/android-icon-192x192.png",
   "items": [
     {
+      "id": "urn:nanalab:apps:dll-directory",
+      "url": "https://nanalab.kr/dll-directory/",
+      "title": "[앱] DLL 공식 다운로드 자료실",
+      "content_text": "DLL 파일명 1,083개를 검색하고 해당 파일을 포함한 Microsoft 공식 패키지·런타임·SDK 다운로드로 이동하세요.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "생활·업무"
+      ],
+      "date_published": "2026-10-27T00:26:49Z",
+      "image": "/apps/img/dll-directory.svg"
+    },
+    {
       "id": "urn:nanalab:apps:nocturne-library",
       "url": "https://nanalab.kr/nocturne-library/",
       "title": "[앱] NOCTURNE · 밤의 서재",
@@ -2390,17 +2402,6 @@
       ],
       "date_published": "2026-10-24T08:28:43Z",
       "image": "https://nanalab.kr/rebirth_biology/og/default.jpg"
-    },
-    {
-      "id": "urn:nanalab:apps:ai_knowledge_tree",
-      "url": "https://mind-map.ai.kr/",
-      "title": "[앱] AI Knowledge Tree",
-      "content_text": "대기업의 의뢰로 제작하였으며, 누구든지 AI 산업의 현주소를 한눈에 확인할 수 있도록 정리한 앱입니다.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "AI·개발"
-      ],
-      "date_published": "2026-10-24T16:45:12+09:00"
     }
   ]
 }

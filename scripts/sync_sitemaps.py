@@ -40,7 +40,7 @@ def discover():
         if parts.scheme != 'https' or parts.netloc != 'nanalab.kr':
             continue
         repository = ROOT.parent / app['id']
-        source = next((path for path in [repository / 'docs/sitemap.xml', repository / 'sitemap.xml']
+        source = next((path for path in [repository / 'docs/sitemap.xml', repository / 'sitemap.xml', repository / 'dist/sitemap.xml']
                        if path.is_file()), None)
         if source is None:
             if app.get('directory_app_id'):

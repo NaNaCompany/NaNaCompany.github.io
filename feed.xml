@@ -7,6 +7,17 @@
     <language>ko</language>
     <atom:link href="https://nanalab.kr/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>[앱] DLL 공식 다운로드 자료실</title>
+      <link>https://nanalab.kr/dll-directory/</link>
+      <description>DLL 파일명 1,083개를 검색하고 해당 파일을 포함한 Microsoft 공식 패키지·런타임·SDK 다운로드로 이동하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:dll-directory</guid>
+      <category>앱</category>
+      <category>생활·업무</category>
+      <pubDate>Tue, 27 Oct 2026 00:26:49 +0000</pubDate>
+    </item>
+    <item>
       <title>[앱] NOCTURNE · 밤의 서재</title>
       <link>https://nanalab.kr/nocturne-library/</link>
       <description>원어 소설 12권을 검은 배경·흰 글자로 읽고 글꼴·크기·목차·읽던 위치·책갈피를 활용하세요.
@@ -2194,17 +2205,6 @@
       <category>앱</category>
       <category>재미·라이프</category>
       <pubDate>Sat, 24 Oct 2026 08:28:43 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] AI Knowledge Tree</title>
-      <link>https://mind-map.ai.kr/</link>
-      <description>대기업의 의뢰로 제작하였으며, 누구든지 AI 산업의 현주소를 한눈에 확인할 수 있도록 정리한 앱입니다.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:ai_knowledge_tree</guid>
-      <category>앱</category>
-      <category>AI·개발</category>
-      <pubDate>Sat, 24 Oct 2026 16:45:12 +0900</pubDate>
     </item>
   </channel>
 </rss>

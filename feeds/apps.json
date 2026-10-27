@@ -8,6 +8,18 @@
   "favicon": "https://nanalab.kr/favicon.ico/android-icon-192x192.png",
   "items": [
     {
+      "id": "urn:nanalab:apps:dll-directory",
+      "url": "https://nanalab.kr/dll-directory/",
+      "title": "[앱] DLL 공식 다운로드 자료실",
+      "content_text": "DLL 파일명 1,083개를 검색하고 해당 파일을 포함한 Microsoft 공식 패키지·런타임·SDK 다운로드로 이동하세요.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "생활·업무"
+      ],
+      "date_published": "2026-10-27T00:26:49Z",
+      "image": "/apps/img/dll-directory.svg"
+    },
+    {
       "id": "urn:nanalab:apps:nocturne-library",
       "url": "https://nanalab.kr/nocturne-library/",
       "title": "[앱] NOCTURNE · 밤의 서재",
@@ -1190,18 +1202,6 @@
       ],
       "date_published": "2026-10-25T05:27:04Z",
       "image": "https://nanalab.kr/eng-sound-pressure-level/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-grating-angle",
-      "url": "https://nanalab.kr/eng-grating-angle/",
-      "title": "[앱] 회절격자 회절각 계산기",
-      "content_text": "수직 입사 회절격자의 지정 양의 차수 방향 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T05:26:56Z",
-      "image": "https://nanalab.kr/eng-grating-angle/og.png"
     }
   ]
 }

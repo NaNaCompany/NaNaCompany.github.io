@@ -1241,6 +1241,11 @@
       "name": "NOCTURNE · La bibliothèque nocturne",
       "description": "Lisez 12 romans dans leur langue d'origine sur fond noir et texte blanc, avec polices réglables, sommaire, position de lecture et signets.",
       "image_alt": "NOCTURNE · La bibliothèque nocturne"
+    },
+    "dll-directory": {
+      "name": "Répertoire de téléchargement DLL",
+      "description": "Recherchez parmi 1 083 noms de fichiers DLL et trouvez les téléchargements des packages, environnements d’exécution et SDK officiels Microsoft qui les contiennent.",
+      "image_alt": "Répertoire de téléchargement DLL"
     }
   },
   "schema_version": "1.0",

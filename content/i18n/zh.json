@@ -1241,6 +1241,11 @@
       "name": "NOCTURNE · 夜间书房",
       "description": "在黑底白字界面阅读 12 部原文小说，使用字体与字号调整、目录、阅读位置和书签。",
       "image_alt": "NOCTURNE · 夜间书房"
+    },
+    "dll-directory": {
+      "name": "DLL官方下载目录",
+      "description": "搜索1,083个DLL文件名，查找包含该文件的Microsoft官方软件包、运行时和SDK下载链接。",
+      "image_alt": "DLL官方下载目录"
     }
   },
   "schema_version": "1.0",

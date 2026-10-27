@@ -13,6 +13,7 @@ Sitemap: https://nanalab.kr/contrast-lab/sitemap.xml
 Sitemap: https://nanalab.kr/csv-inspector/sitemap.xml
 Sitemap: https://nanalab.kr/deadline-planner/sitemap.xml
 Sitemap: https://nanalab.kr/decision-matrix/sitemap.xml
+Sitemap: https://nanalab.kr/dll-directory/sitemap.xml
 Sitemap: https://nanalab.kr/duplicate-file-lab/sitemap.xml
 Sitemap: https://nanalab.kr/eng-ac-real-power/sitemap.xml
 Sitemap: https://nanalab.kr/eng-adc-quantization-noise/sitemap.xml

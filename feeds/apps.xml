@@ -7,6 +7,17 @@
     <language>ko</language>
     <atom:link href="https://nanalab.kr/feeds/apps.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>[앱] DLL 공식 다운로드 자료실</title>
+      <link>https://nanalab.kr/dll-directory/</link>
+      <description>DLL 파일명 1,083개를 검색하고 해당 파일을 포함한 Microsoft 공식 패키지·런타임·SDK 다운로드로 이동하세요.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:dll-directory</guid>
+      <category>앱</category>
+      <category>생활·업무</category>
+      <pubDate>Tue, 27 Oct 2026 00:26:49 +0000</pubDate>
+    </item>
+    <item>
       <title>[앱] NOCTURNE · 밤의 서재</title>
       <link>https://nanalab.kr/nocturne-library/</link>
       <description>원어 소설 12권을 검은 배경·흰 글자로 읽고 글꼴·크기·목차·읽던 위치·책갈피를 활용하세요.
@@ -1094,17 +1105,6 @@
       <category>앱</category>
       <category>공학·계산</category>
       <pubDate>Sun, 25 Oct 2026 05:27:04 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 회절격자 회절각 계산기</title>
-      <link>https://nanalab.kr/eng-grating-angle/</link>
-      <description>수직 입사 회절격자의 지정 양의 차수 방향 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:eng-grating-angle</guid>
-      <category>앱</category>
-      <category>공학·계산</category>
-      <pubDate>Sun, 25 Oct 2026 05:26:56 +0000</pubDate>
     </item>
   </channel>
 </rss>
