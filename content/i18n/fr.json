@@ -1311,6 +1311,11 @@
       "name": "Archives des déclarations de Trump",
       "description": "Consultez les publications de Trump sur X/Twitter et Truth Social par date ou recherchez dans leur texte. Ces archives partielles comptent 97 084 enregistrements, dont certains sans texte ; la collecte n’est ni complète ni en temps réel.",
       "image_alt": "Archives des déclarations de Trump"
+    },
+    "bible-viewer": {
+      "name": "Lecteur biblique",
+      "description": "Lisez six éditions de la Bible par livre et chapitre. Copiez ou partagez des versets avec leur référence et le lien du chapitre.",
+      "image_alt": "Lecteur biblique"
     }
   },
   "schema_version": "1.0",

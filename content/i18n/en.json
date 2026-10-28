@@ -1311,6 +1311,11 @@
       "name": "Trump Says",
       "description": "Browse Trump's X/Twitter and Truth Social records by date or search their text. This partial archive contains 97,084 records, including records without text; it is neither complete nor collected in real time.",
       "image_alt": "Trump Says"
+    },
+    "bible-viewer": {
+      "name": "Bible Reader",
+      "description": "Read six Bible editions by book and chapter. Copy or share individual verses with their reference and chapter link.",
+      "image_alt": "Bible Reader"
     }
   },
   "schema_version": "1.0",

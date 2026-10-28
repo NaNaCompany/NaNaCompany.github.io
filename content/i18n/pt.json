@@ -1311,6 +1311,11 @@
       "name": "Arquivo de declarações de Trump",
       "description": "Consulte por data os registros de Trump no X/Twitter e no Truth Social ou pesquise seus textos. Este arquivo parcial contém 97.084 registros, incluindo registros sem texto; a coleta não é completa nem em tempo real.",
       "image_alt": "Arquivo de declarações de Trump"
+    },
+    "bible-viewer": {
+      "name": "Leitor da Bíblia",
+      "description": "Leia seis edições da Bíblia por livro e capítulo. Copie ou compartilhe versículos com a referência e o link do capítulo.",
+      "image_alt": "Leitor da Bíblia"
     }
   },
   "schema_version": "1.0",

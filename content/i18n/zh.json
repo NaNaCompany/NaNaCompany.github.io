@@ -1311,6 +1311,11 @@
       "name": "特朗普言论档案",
       "description": "按日期浏览特朗普的X/Twitter与Truth Social记录，或搜索正文。此部分档案包含97,084条记录，其中部分没有正文；并非完整收集或实时收集。",
       "image_alt": "特朗普言论档案"
+    },
+    "bible-viewer": {
+      "name": "圣经阅读器",
+      "description": "按卷和章阅读6种圣经版本，复制或分享经文及其出处链接。",
+      "image_alt": "圣经阅读器"
     }
   },
   "schema_version": "1.0",

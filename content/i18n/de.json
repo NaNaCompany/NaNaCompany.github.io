@@ -1311,6 +1311,11 @@
       "name": "Trump-Aussagenarchiv",
       "description": "Durchsuche Trumps X/Twitter- und Truth-Social-Einträge nach Datum oder Text. Dieses Teilarchiv enthält 97.084 Datensätze, darunter Einträge ohne Text; es ist weder vollständig noch eine Echtzeitsammlung.",
       "image_alt": "Trump-Aussagenarchiv"
+    },
+    "bible-viewer": {
+      "name": "Bibelleser",
+      "description": "Lesen Sie sechs Bibelausgaben nach Buch und Kapitel. Kopieren oder teilen Sie Verse mit Quellenangabe und Kapitellink.",
+      "image_alt": "Bibelleser"
     }
   },
   "schema_version": "1.0",

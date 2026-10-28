@@ -7,6 +7,17 @@
     <language>ko</language>
     <atom:link href="https://nanalab.kr/feeds/apps.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>[앱] 성경 뷰어</title>
+      <link>https://nanalab.kr/bible-viewer/</link>
+      <description>6개 성경 판본을 권·장별로 읽고 절과 출처 링크를 복사·공유하는 성경 뷰어입니다.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:bible-viewer</guid>
+      <category>앱</category>
+      <category>문서·텍스트</category>
+      <pubDate>Wed, 28 Oct 2026 13:08:30 +0000</pubDate>
+    </item>
+    <item>
       <title>[앱] 고양이 환생게임</title>
       <link>https://nanalab.kr/rebirth-cat/</link>
       <description>품종과 도메스틱·믹스를 포함한 24가지 고양이의 털색·가상 성격·생활을 뽑는 게임입니다.
@@ -1091,17 +1102,6 @@
 
 출처: https://nanalab.kr/apps/</description>
       <guid isPermaLink="false">urn:nanalab:apps:eng-rocket-nozzle-thrust</guid>
-      <category>앱</category>
-      <category>공학·계산</category>
-      <pubDate>Sun, 25 Oct 2026 06:20:04 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 조석 차등가속도 계산기</title>
-      <link>https://nanalab.kr/eng-tidal-acceleration/</link>
-      <description>같은 반지름 방향에 놓인 두 점이 받는 뉴턴 중력가속도의 크기 차를 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:eng-tidal-acceleration</guid>
       <category>앱</category>
       <category>공학·계산</category>
       <pubDate>Sun, 25 Oct 2026 06:20:04 +0000</pubDate>

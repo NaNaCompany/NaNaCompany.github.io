@@ -10,6 +10,13 @@
       "url": "https://nanalab.kr/astra/sitemap.xml"
     },
     {
+      "app_id": "bible-viewer",
+      "url": "https://nanalab.kr/bible-viewer/sitemap-ko.xml",
+      "additional_urls": [
+        "https://nanalab.kr/bible-viewer/sitemap-en.xml"
+      ]
+    },
+    {
       "app_id": "body-clock",
       "url": "https://nanalab.kr/body-clock/sitemap.xml"
     },

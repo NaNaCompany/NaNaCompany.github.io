@@ -1,8 +1,30 @@
 {
   "schema_version": "1.0",
   "type": "apps",
-  "count": 235,
+  "count": 236,
   "items": [
+    {
+      "id": "bible-viewer",
+      "section": "apps",
+      "title": "성경 뷰어",
+      "url": "https://nanalab.kr/bible-viewer/",
+      "summary": "6개 성경 판본을 권·장별로 읽고 절과 출처 링크를 복사·공유하는 성경 뷰어입니다.",
+      "category": "문서·텍스트",
+      "date_published": "2026-10-28T13:08:30Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "/apps/img/bible-viewer.svg",
+      "repository": "https://github.com/NaNaCompany/bible-viewer",
+      "languages": [
+        "ko",
+        "en"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/bible-viewer/",
+        "en": "https://nanalab.kr/bible-viewer/en/"
+      }
+    },
     {
       "id": "rebirth-cat",
       "section": "apps",

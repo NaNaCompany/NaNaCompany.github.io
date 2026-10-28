@@ -8,6 +8,18 @@
   "favicon": "https://nanalab.kr/favicon.ico/android-icon-192x192.png",
   "items": [
     {
+      "id": "urn:nanalab:apps:bible-viewer",
+      "url": "https://nanalab.kr/bible-viewer/",
+      "title": "[앱] 성경 뷰어",
+      "content_text": "6개 성경 판본을 권·장별로 읽고 절과 출처 링크를 복사·공유하는 성경 뷰어입니다.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "문서·텍스트"
+      ],
+      "date_published": "2026-10-28T13:08:30Z",
+      "image": "/apps/img/bible-viewer.svg"
+    },
+    {
       "id": "urn:nanalab:apps:rebirth-cat",
       "url": "https://nanalab.kr/rebirth-cat/",
       "title": "[앱] 고양이 환생게임",
@@ -2390,18 +2402,6 @@
       ],
       "date_published": "2026-10-25T00:59:28Z",
       "image": "https://nanalab.kr/eng-mass-flow/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-volume-flow",
-      "url": "https://nanalab.kr/eng-volume-flow/",
-      "title": "[앱] 관 단면 체적유량 계산기",
-      "content_text": "유속 유량 계산 / 배관·송풍구 단면 유량 검산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T00:59:20Z",
-      "image": "https://nanalab.kr/eng-volume-flow/og.png"
     }
   ]
 }

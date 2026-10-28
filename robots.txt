@@ -7,6 +7,8 @@ Sitemap: https://nanalab.kr/ppp/sitemap.xml
 Sitemap: https://nanalab.kr/sitemap-main.xml
 Sitemap: https://nanalab.kr/appliance-error-guide/sitemap.xml
 Sitemap: https://nanalab.kr/astra/sitemap.xml
+Sitemap: https://nanalab.kr/bible-viewer/sitemap-ko.xml
+Sitemap: https://nanalab.kr/bible-viewer/sitemap-en.xml
 Sitemap: https://nanalab.kr/body-clock/sitemap.xml
 Sitemap: https://nanalab.kr/cat-naps/sitemap.xml
 Sitemap: https://nanalab.kr/color-drop/sitemap.xml
