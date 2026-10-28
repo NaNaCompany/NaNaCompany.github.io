@@ -1316,6 +1316,26 @@
       "name": "Bibelleser",
       "description": "Lesen Sie sechs Bibelausgaben nach Buch und Kapitel. Kopieren oder teilen Sie Verse mit Quellenangabe und Kapitellink.",
       "image_alt": "Bibelleser"
+    },
+    "musk-says": {
+      "name": "Musk Says",
+      "description": "Durchsuchen Sie 55.099 erfasste X-Beiträge von Elon Musk aus 2010–2025 nach Datum. Teilarchiv mit Originallinks und offiziellen Einbettungen, weder vollständig noch in Echtzeit.",
+      "image_alt": "Musk Says"
+    },
+    "zuckerberg-says": {
+      "name": "Zuckerberg Says",
+      "description": "Durchsuchen Sie 1.681 erfasste Beiträge von Mark Zuckerberg auf Facebook, Threads und weiteren Plattformen nach Datum. Teilarchiv mit Originallinks und offiziellen Einbettungen.",
+      "image_alt": "Zuckerberg Says"
+    },
+    "tibo-says": {
+      "name": "Tibo Says",
+      "description": "Durchsuchen Sie 195 erfasste X-Beiträge von Thibault Sottiaux (@thsottiaux) nach Datum. Teilarchiv mit Originallinks und offiziellen Einbettungen.",
+      "image_alt": "Tibo Says"
+    },
+    "sam-altman-says": {
+      "name": "Sam Altman Says",
+      "description": "Durchsuchen Sie 50 ausgewählte X-Beiträge von Sam Altman (@sama) nach Datum. Kuratierte Auswahl mit Originallinks und offiziellen Einbettungen, keine vollständige Historie.",
+      "image_alt": "Sam Altman Says"
     }
   },
   "schema_version": "1.0",

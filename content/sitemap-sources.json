@@ -741,6 +741,14 @@
       "url": "https://nanalab.kr/meta-tag-studio/sitemap.xml"
     },
     {
+      "app_id": "musk-says",
+      "url": "https://nanalab.kr/musk-says/sitemap-main.xml",
+      "additional_urls": [
+        "https://nanalab.kr/musk-says/sitemap-posts-01.xml",
+        "https://nanalab.kr/musk-says/sitemap-posts-02.xml"
+      ]
+    },
+    {
       "app_id": "next-life-stats",
       "url": "https://nanalab.kr/next-life-stats/sitemap.xml"
     },
@@ -813,6 +821,13 @@
       "url": "https://nanalab.kr/regression-lab/sitemap.xml"
     },
     {
+      "app_id": "sam-altman-says",
+      "url": "https://nanalab.kr/sam-altman-says/sitemap-main.xml",
+      "additional_urls": [
+        "https://nanalab.kr/sam-altman-says/sitemap-posts-01.xml"
+      ]
+    },
+    {
       "app_id": "semester-gpa",
       "url": "https://nanalab.kr/semester-gpa/sitemap.xml"
     },
@@ -835,6 +850,13 @@
     {
       "app_id": "template-merge",
       "url": "https://nanalab.kr/template-merge/sitemap.xml"
+    },
+    {
+      "app_id": "tibo-says",
+      "url": "https://nanalab.kr/tibo-says/sitemap-main.xml",
+      "additional_urls": [
+        "https://nanalab.kr/tibo-says/sitemap-posts-01.xml"
+      ]
     },
     {
       "app_id": "timesheet-studio",
@@ -885,6 +907,13 @@
     {
       "app_id": "world-meeting-time",
       "url": "https://nanalab.kr/world-meeting-time/sitemap.xml"
+    },
+    {
+      "app_id": "zuckerberg-says",
+      "url": "https://nanalab.kr/zuckerberg-says/sitemap-main.xml",
+      "additional_urls": [
+        "https://nanalab.kr/zuckerberg-says/sitemap-posts-01.xml"
+      ]
     }
   ],
   "supplemental": []

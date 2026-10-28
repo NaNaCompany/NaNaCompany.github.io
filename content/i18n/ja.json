@@ -1316,6 +1316,26 @@
       "name": "聖書ビューア",
       "description": "6つの聖書版を書・章ごとに読み、節と出典リンクをコピー・共有できます。",
       "image_alt": "聖書ビューア"
+    },
+    "musk-says": {
+      "name": "Musk Says",
+      "description": "イーロン・マスクの2010～2025年のX投稿リンク55,099件を日付で閲覧。部分収集で、原文リンクと公式埋め込みを提供します。全履歴・リアルタイム収集ではありません。",
+      "image_alt": "Musk Says"
+    },
+    "zuckerberg-says": {
+      "name": "Zuckerberg Says",
+      "description": "マーク・ザッカーバーグのFacebook・Threadsなどの部分収集記録1,681件を日付で閲覧。原文リンクと公式埋め込みで確認できます。",
+      "image_alt": "Zuckerberg Says"
+    },
+    "tibo-says": {
+      "name": "Tibo Says",
+      "description": "Thibault Sottiaux（@thsottiaux）のX投稿の部分収集記録195件を日付で閲覧。原文リンクと公式埋め込みを提供します。",
+      "image_alt": "Tibo Says"
+    },
+    "sam-altman-says": {
+      "name": "Sam Altman Says",
+      "description": "サム・アルトマン（@sama）の選定したX投稿50件を日付で閲覧。全履歴ではなく、原文リンクと公式埋め込みを提供します。",
+      "image_alt": "Sam Altman Says"
     }
   },
   "schema_version": "1.0",

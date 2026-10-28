@@ -1,8 +1,88 @@
 {
   "schema_version": "1.0",
   "type": "apps",
-  "count": 236,
+  "count": 240,
   "items": [
+    {
+      "id": "sam-altman-says",
+      "section": "apps",
+      "title": "Sam Altman Says",
+      "url": "https://nanalab.kr/sam-altman-says/",
+      "summary": "샘 올트먼(@sama)의 선별된 X 게시물 50건을 날짜별로 찾고 원문 링크·공식 임베드로 확인합니다. 전체 이력이 아닙니다.",
+      "category": "재미·라이프",
+      "date_published": "2026-10-28T22:24:14Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "/apps/img/sam-altman-says.svg",
+      "repository": "https://github.com/NaNaCompany/sam-altman-says",
+      "languages": [
+        "en"
+      ],
+      "language_urls": {
+        "en": "https://nanalab.kr/sam-altman-says/"
+      }
+    },
+    {
+      "id": "tibo-says",
+      "section": "apps",
+      "title": "Tibo Says",
+      "url": "https://nanalab.kr/tibo-says/",
+      "summary": "Thibault Sottiaux(@thsottiaux)의 X 게시물 일부 기록 195건을 날짜별로 탐색하고 원문 링크·공식 임베드로 확인합니다.",
+      "category": "재미·라이프",
+      "date_published": "2026-10-28T22:24:04Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "/apps/img/tibo-says.svg",
+      "repository": "https://github.com/NaNaCompany/tibo-says",
+      "languages": [
+        "en"
+      ],
+      "language_urls": {
+        "en": "https://nanalab.kr/tibo-says/"
+      }
+    },
+    {
+      "id": "zuckerberg-says",
+      "section": "apps",
+      "title": "Zuckerberg Says",
+      "url": "https://nanalab.kr/zuckerberg-says/",
+      "summary": "마크 저커버그의 Facebook·Threads 등 게시물 일부 기록 1,681건을 날짜별로 찾고 원문 링크·공식 임베드로 확인합니다.",
+      "category": "재미·라이프",
+      "date_published": "2026-10-28T22:23:53Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "/apps/img/zuckerberg-says.svg",
+      "repository": "https://github.com/NaNaCompany/zuckerberg-says",
+      "languages": [
+        "en"
+      ],
+      "language_urls": {
+        "en": "https://nanalab.kr/zuckerberg-says/"
+      }
+    },
+    {
+      "id": "musk-says",
+      "section": "apps",
+      "title": "Musk Says",
+      "url": "https://nanalab.kr/musk-says/",
+      "summary": "일론 머스크의 2010~2025년 X 게시물 일부 기록 55,099건을 날짜별로 탐색합니다. 원문 링크·공식 임베드를 제공하며 실시간·전체 수집이 아닙니다.",
+      "category": "재미·라이프",
+      "date_published": "2026-10-28T22:23:28Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "/apps/img/musk-says.svg",
+      "repository": "https://github.com/NaNaCompany/musk-says",
+      "languages": [
+        "en"
+      ],
+      "language_urls": {
+        "en": "https://nanalab.kr/musk-says/"
+      }
+    },
     {
       "id": "bible-viewer",
       "section": "apps",

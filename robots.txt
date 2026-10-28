@@ -190,6 +190,9 @@ Sitemap: https://nanalab.kr/line-copy/sitemap.xml
 Sitemap: https://nanalab.kr/lunch-math/sitemap.xml
 Sitemap: https://nanalab.kr/matrix-workbench/sitemap.xml
 Sitemap: https://nanalab.kr/meta-tag-studio/sitemap.xml
+Sitemap: https://nanalab.kr/musk-says/sitemap-main.xml
+Sitemap: https://nanalab.kr/musk-says/sitemap-posts-01.xml
+Sitemap: https://nanalab.kr/musk-says/sitemap-posts-02.xml
 Sitemap: https://nanalab.kr/next-life-stats/sitemap.xml
 Sitemap: https://nanalab.kr/nocturne-library/sitemap.xml
 Sitemap: https://nanalab.kr/paste-table-cleaner/sitemap.xml
@@ -207,12 +210,16 @@ Sitemap: https://nanalab.kr/rebirth_country/sitemap.xml
 Sitemap: https://nanalab.kr/red-seal-png/sitemap.xml
 Sitemap: https://nanalab.kr/regex-lab/sitemap.xml
 Sitemap: https://nanalab.kr/regression-lab/sitemap.xml
+Sitemap: https://nanalab.kr/sam-altman-says/sitemap-main.xml
+Sitemap: https://nanalab.kr/sam-altman-says/sitemap-posts-01.xml
 Sitemap: https://nanalab.kr/semester-gpa/sitemap.xml
 Sitemap: https://nanalab.kr/shared-costs/sitemap.xml
 Sitemap: https://nanalab.kr/subtitle-shift/sitemap.xml
 Sitemap: https://nanalab.kr/table-diff/sitemap.xml
 Sitemap: https://nanalab.kr/table-memory/sitemap.xml
 Sitemap: https://nanalab.kr/template-merge/sitemap.xml
+Sitemap: https://nanalab.kr/tibo-says/sitemap-main.xml
+Sitemap: https://nanalab.kr/tibo-says/sitemap-posts-01.xml
 Sitemap: https://nanalab.kr/timesheet-studio/sitemap.xml
 Sitemap: https://nanalab.kr/trump-says/sitemap-main.xml
 Sitemap: https://nanalab.kr/trump-says/sitemap-posts-01.xml
@@ -226,3 +233,5 @@ Sitemap: https://nanalab.kr/world-law-kr-acts/sitemap.xml
 Sitemap: https://nanalab.kr/world-law-kr-orders/sitemap.xml
 Sitemap: https://nanalab.kr/world-law-portal/sitemap.xml
 Sitemap: https://nanalab.kr/world-meeting-time/sitemap.xml
+Sitemap: https://nanalab.kr/zuckerberg-says/sitemap-main.xml
+Sitemap: https://nanalab.kr/zuckerberg-says/sitemap-posts-01.xml

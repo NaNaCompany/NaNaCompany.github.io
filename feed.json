@@ -8,6 +8,54 @@
   "favicon": "https://nanalab.kr/favicon.ico/android-icon-192x192.png",
   "items": [
     {
+      "id": "urn:nanalab:apps:sam-altman-says",
+      "url": "https://nanalab.kr/sam-altman-says/",
+      "title": "[앱] Sam Altman Says",
+      "content_text": "샘 올트먼(@sama)의 선별된 X 게시물 50건을 날짜별로 찾고 원문 링크·공식 임베드로 확인합니다. 전체 이력이 아닙니다.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "재미·라이프"
+      ],
+      "date_published": "2026-10-28T22:24:14Z",
+      "image": "/apps/img/sam-altman-says.svg"
+    },
+    {
+      "id": "urn:nanalab:apps:tibo-says",
+      "url": "https://nanalab.kr/tibo-says/",
+      "title": "[앱] Tibo Says",
+      "content_text": "Thibault Sottiaux(@thsottiaux)의 X 게시물 일부 기록 195건을 날짜별로 탐색하고 원문 링크·공식 임베드로 확인합니다.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "재미·라이프"
+      ],
+      "date_published": "2026-10-28T22:24:04Z",
+      "image": "/apps/img/tibo-says.svg"
+    },
+    {
+      "id": "urn:nanalab:apps:zuckerberg-says",
+      "url": "https://nanalab.kr/zuckerberg-says/",
+      "title": "[앱] Zuckerberg Says",
+      "content_text": "마크 저커버그의 Facebook·Threads 등 게시물 일부 기록 1,681건을 날짜별로 찾고 원문 링크·공식 임베드로 확인합니다.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "재미·라이프"
+      ],
+      "date_published": "2026-10-28T22:23:53Z",
+      "image": "/apps/img/zuckerberg-says.svg"
+    },
+    {
+      "id": "urn:nanalab:apps:musk-says",
+      "url": "https://nanalab.kr/musk-says/",
+      "title": "[앱] Musk Says",
+      "content_text": "일론 머스크의 2010~2025년 X 게시물 일부 기록 55,099건을 날짜별로 탐색합니다. 원문 링크·공식 임베드를 제공하며 실시간·전체 수집이 아닙니다.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "재미·라이프"
+      ],
+      "date_published": "2026-10-28T22:23:28Z",
+      "image": "/apps/img/musk-says.svg"
+    },
+    {
       "id": "urn:nanalab:apps:bible-viewer",
       "url": "https://nanalab.kr/bible-viewer/",
       "title": "[앱] 성경 뷰어",
@@ -2354,54 +2402,6 @@
       ],
       "date_published": "2026-10-25T01:00:01Z",
       "image": "https://nanalab.kr/eng-kinematic-viscosity/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-hydraulic-power",
-      "url": "https://nanalab.kr/eng-hydraulic-power/",
-      "title": "[앱] 유체 압력동력 계산기",
-      "content_text": "압력 유량 동력 계산 / 펌프 압력일률 검산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T00:59:53Z",
-      "image": "https://nanalab.kr/eng-hydraulic-power/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-laminar-pipe-drop",
-      "url": "https://nanalab.kr/eng-laminar-pipe-drop/",
-      "title": "[앱] 층류 원관 압력강하 계산기",
-      "content_text": "포아죄유 압력강하 / 미세유로·층류 실험 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T00:59:45Z",
-      "image": "https://nanalab.kr/eng-laminar-pipe-drop/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-hydrostatic-pressure",
-      "url": "https://nanalab.kr/eng-hydrostatic-pressure/",
-      "title": "[앱] 액주 게이지압 계산기",
-      "content_text": "수두 압력 계산 / 탱크 액주압·수조 실험 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T00:59:37Z",
-      "image": "https://nanalab.kr/eng-hydrostatic-pressure/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-mass-flow",
-      "url": "https://nanalab.kr/eng-mass-flow/",
-      "title": "[앱] 질량유량 계산기",
-      "content_text": "질량유량 환산 / 가스 공급·물질수지 입력값 확인 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T00:59:28Z",
-      "image": "https://nanalab.kr/eng-mass-flow/og.png"
     }
   ]
 }

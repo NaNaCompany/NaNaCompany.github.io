@@ -7,6 +7,50 @@
     <language>ko</language>
     <atom:link href="https://nanalab.kr/feeds/apps.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>[앱] Sam Altman Says</title>
+      <link>https://nanalab.kr/sam-altman-says/</link>
+      <description>샘 올트먼(@sama)의 선별된 X 게시물 50건을 날짜별로 찾고 원문 링크·공식 임베드로 확인합니다. 전체 이력이 아닙니다.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:sam-altman-says</guid>
+      <category>앱</category>
+      <category>재미·라이프</category>
+      <pubDate>Wed, 28 Oct 2026 22:24:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] Tibo Says</title>
+      <link>https://nanalab.kr/tibo-says/</link>
+      <description>Thibault Sottiaux(@thsottiaux)의 X 게시물 일부 기록 195건을 날짜별로 탐색하고 원문 링크·공식 임베드로 확인합니다.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:tibo-says</guid>
+      <category>앱</category>
+      <category>재미·라이프</category>
+      <pubDate>Wed, 28 Oct 2026 22:24:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] Zuckerberg Says</title>
+      <link>https://nanalab.kr/zuckerberg-says/</link>
+      <description>마크 저커버그의 Facebook·Threads 등 게시물 일부 기록 1,681건을 날짜별로 찾고 원문 링크·공식 임베드로 확인합니다.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:zuckerberg-says</guid>
+      <category>앱</category>
+      <category>재미·라이프</category>
+      <pubDate>Wed, 28 Oct 2026 22:23:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] Musk Says</title>
+      <link>https://nanalab.kr/musk-says/</link>
+      <description>일론 머스크의 2010~2025년 X 게시물 일부 기록 55,099건을 날짜별로 탐색합니다. 원문 링크·공식 임베드를 제공하며 실시간·전체 수집이 아닙니다.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:musk-says</guid>
+      <category>앱</category>
+      <category>재미·라이프</category>
+      <pubDate>Wed, 28 Oct 2026 22:23:28 +0000</pubDate>
+    </item>
+    <item>
       <title>[앱] 성경 뷰어</title>
       <link>https://nanalab.kr/bible-viewer/</link>
       <description>6개 성경 판본을 권·장별로 읽고 절과 출처 링크를 복사·공유하는 성경 뷰어입니다.
@@ -1061,50 +1105,6 @@
       <category>앱</category>
       <category>공학·계산</category>
       <pubDate>Sun, 25 Oct 2026 06:20:15 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 진스 질량 계산기</title>
-      <link>https://nanalab.kr/eng-jeans-mass/</link>
-      <description>균일한 기체의 선형 진스 불안정성에서 임계 파장 구의 질량을 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:eng-jeans-mass</guid>
-      <category>앱</category>
-      <category>공학·계산</category>
-      <pubDate>Sun, 25 Oct 2026 06:20:15 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 유체 위성 로슈 한계 계산기</title>
-      <link>https://nanalab.kr/eng-fluid-roche-limit/</link>
-      <description>인장강도가 없는 유체 위성의 고전적 조석 파괴 한계 중심거리를 추정한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:eng-fluid-roche-limit</guid>
-      <category>앱</category>
-      <category>공학·계산</category>
-      <pubDate>Sun, 25 Oct 2026 06:20:14 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 아인슈타인 고리 각반지름 계산기</title>
-      <link>https://nanalab.kr/eng-einstein-ring/</link>
-      <description>관측자·점렌즈·광원이 정렬된 근거리 유클리드 기하에서 아인슈타인 고리의 각반지름을 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:eng-einstein-ring</guid>
-      <category>앱</category>
-      <category>공학·계산</category>
-      <pubDate>Sun, 25 Oct 2026 06:20:14 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 로켓 노즐 추력 계산기</title>
-      <link>https://nanalab.kr/eng-rocket-nozzle-thrust/</link>
-      <description>배기 운동량과 출구·주변 압력차로 준정상 로켓 노즐의 축방향 추력을 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:eng-rocket-nozzle-thrust</guid>
-      <category>앱</category>
-      <category>공학·계산</category>
-      <pubDate>Sun, 25 Oct 2026 06:20:04 +0000</pubDate>
     </item>
   </channel>
 </rss>

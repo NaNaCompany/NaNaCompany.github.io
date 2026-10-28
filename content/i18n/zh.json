@@ -1316,6 +1316,26 @@
       "name": "圣经阅读器",
       "description": "按卷和章阅读6种圣经版本，复制或分享经文及其出处链接。",
       "image_alt": "圣经阅读器"
+    },
+    "musk-says": {
+      "name": "Musk Says",
+      "description": "按日期浏览埃隆·马斯克2010至2025年的55,099条已收集X帖子记录。仅为部分快照，提供原文链接和官方嵌入，并非完整或实时档案。",
+      "image_alt": "Musk Says"
+    },
+    "zuckerberg-says": {
+      "name": "Zuckerberg Says",
+      "description": "按日期浏览马克·扎克伯格的1,681条Facebook、Threads等平台帖子记录。仅为部分收集，提供原文链接和官方嵌入。",
+      "image_alt": "Zuckerberg Says"
+    },
+    "tibo-says": {
+      "name": "Tibo Says",
+      "description": "按日期浏览Thibault Sottiaux（@thsottiaux）的195条X帖子记录。仅为部分收集，提供原文链接和官方嵌入。",
+      "image_alt": "Tibo Says"
+    },
+    "sam-altman-says": {
+      "name": "Sam Altman Says",
+      "description": "按日期浏览萨姆·奥尔特曼（@sama）的50条精选X帖子。并非完整历史，提供原文链接和官方嵌入。",
+      "image_alt": "Sam Altman Says"
     }
   },
   "schema_version": "1.0",

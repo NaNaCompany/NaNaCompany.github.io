@@ -7,6 +7,50 @@
     <language>ko</language>
     <atom:link href="https://nanalab.kr/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>[앱] Sam Altman Says</title>
+      <link>https://nanalab.kr/sam-altman-says/</link>
+      <description>샘 올트먼(@sama)의 선별된 X 게시물 50건을 날짜별로 찾고 원문 링크·공식 임베드로 확인합니다. 전체 이력이 아닙니다.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:sam-altman-says</guid>
+      <category>앱</category>
+      <category>재미·라이프</category>
+      <pubDate>Wed, 28 Oct 2026 22:24:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] Tibo Says</title>
+      <link>https://nanalab.kr/tibo-says/</link>
+      <description>Thibault Sottiaux(@thsottiaux)의 X 게시물 일부 기록 195건을 날짜별로 탐색하고 원문 링크·공식 임베드로 확인합니다.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:tibo-says</guid>
+      <category>앱</category>
+      <category>재미·라이프</category>
+      <pubDate>Wed, 28 Oct 2026 22:24:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] Zuckerberg Says</title>
+      <link>https://nanalab.kr/zuckerberg-says/</link>
+      <description>마크 저커버그의 Facebook·Threads 등 게시물 일부 기록 1,681건을 날짜별로 찾고 원문 링크·공식 임베드로 확인합니다.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:zuckerberg-says</guid>
+      <category>앱</category>
+      <category>재미·라이프</category>
+      <pubDate>Wed, 28 Oct 2026 22:23:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] Musk Says</title>
+      <link>https://nanalab.kr/musk-says/</link>
+      <description>일론 머스크의 2010~2025년 X 게시물 일부 기록 55,099건을 날짜별로 탐색합니다. 원문 링크·공식 임베드를 제공하며 실시간·전체 수집이 아닙니다.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:musk-says</guid>
+      <category>앱</category>
+      <category>재미·라이프</category>
+      <pubDate>Wed, 28 Oct 2026 22:23:28 +0000</pubDate>
+    </item>
+    <item>
       <title>[앱] 성경 뷰어</title>
       <link>https://nanalab.kr/bible-viewer/</link>
       <description>6개 성경 판본을 권·장별로 읽고 절과 출처 링크를 복사·공유하는 성경 뷰어입니다.
@@ -2161,50 +2205,6 @@
       <category>앱</category>
       <category>공학·계산</category>
       <pubDate>Sun, 25 Oct 2026 01:00:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 유체 압력동력 계산기</title>
-      <link>https://nanalab.kr/eng-hydraulic-power/</link>
-      <description>압력 유량 동력 계산 / 펌프 압력일률 검산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:eng-hydraulic-power</guid>
-      <category>앱</category>
-      <category>공학·계산</category>
-      <pubDate>Sun, 25 Oct 2026 00:59:53 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 층류 원관 압력강하 계산기</title>
-      <link>https://nanalab.kr/eng-laminar-pipe-drop/</link>
-      <description>포아죄유 압력강하 / 미세유로·층류 실험 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:eng-laminar-pipe-drop</guid>
-      <category>앱</category>
-      <category>공학·계산</category>
-      <pubDate>Sun, 25 Oct 2026 00:59:45 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 액주 게이지압 계산기</title>
-      <link>https://nanalab.kr/eng-hydrostatic-pressure/</link>
-      <description>수두 압력 계산 / 탱크 액주압·수조 실험 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:eng-hydrostatic-pressure</guid>
-      <category>앱</category>
-      <category>공학·계산</category>
-      <pubDate>Sun, 25 Oct 2026 00:59:37 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 질량유량 계산기</title>
-      <link>https://nanalab.kr/eng-mass-flow/</link>
-      <description>질량유량 환산 / 가스 공급·물질수지 입력값 확인 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:eng-mass-flow</guid>
-      <category>앱</category>
-      <category>공학·계산</category>
-      <pubDate>Sun, 25 Oct 2026 00:59:28 +0000</pubDate>
     </item>
   </channel>
 </rss>

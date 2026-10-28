@@ -559,6 +559,15 @@
     <loc>https://nanalab.kr/meta-tag-studio/sitemap.xml</loc>
   </sitemap>
   <sitemap>
+    <loc>https://nanalab.kr/musk-says/sitemap-main.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/musk-says/sitemap-posts-01.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/musk-says/sitemap-posts-02.xml</loc>
+  </sitemap>
+  <sitemap>
     <loc>https://nanalab.kr/next-life-stats/sitemap.xml</loc>
   </sitemap>
   <sitemap>
@@ -613,6 +622,12 @@
     <loc>https://nanalab.kr/regression-lab/sitemap.xml</loc>
   </sitemap>
   <sitemap>
+    <loc>https://nanalab.kr/sam-altman-says/sitemap-main.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/sam-altman-says/sitemap-posts-01.xml</loc>
+  </sitemap>
+  <sitemap>
     <loc>https://nanalab.kr/semester-gpa/sitemap.xml</loc>
   </sitemap>
   <sitemap>
@@ -629,6 +644,12 @@
   </sitemap>
   <sitemap>
     <loc>https://nanalab.kr/template-merge/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/tibo-says/sitemap-main.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/tibo-says/sitemap-posts-01.xml</loc>
   </sitemap>
   <sitemap>
     <loc>https://nanalab.kr/timesheet-studio/sitemap.xml</loc>
@@ -668,5 +689,11 @@
   </sitemap>
   <sitemap>
     <loc>https://nanalab.kr/world-meeting-time/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/zuckerberg-says/sitemap-main.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/zuckerberg-says/sitemap-posts-01.xml</loc>
   </sitemap>
 </sitemapindex>

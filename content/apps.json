@@ -5797,5 +5797,89 @@
     "image_url": "/apps/img/bible-viewer.svg",
     "image_fit": "contain",
     "image_alt": "성경 뷰어"
+  },
+  {
+    "id": "musk-says",
+    "name": "Musk Says",
+    "category": "재미·라이프",
+    "description": "일론 머스크의 2010~2025년 X 게시물 일부 기록 55,099건을 날짜별로 탐색합니다. 원문 링크·공식 임베드를 제공하며 실시간·전체 수집이 아닙니다.",
+    "symbol": "▤",
+    "url": "https://nanalab.kr/musk-says/",
+    "repository": "https://github.com/NaNaCompany/musk-says",
+    "published_at": "2026-10-28T22:23:28Z",
+    "date_source": "github_repository_created_at",
+    "languages": [
+      "en"
+    ],
+    "language_paths": {
+      "en": ""
+    },
+    "sitemap_lastmod": "2026-10-29",
+    "image_url": "/apps/img/musk-says.svg",
+    "image_fit": "contain",
+    "image_alt": "Musk Says"
+  },
+  {
+    "id": "zuckerberg-says",
+    "name": "Zuckerberg Says",
+    "category": "재미·라이프",
+    "description": "마크 저커버그의 Facebook·Threads 등 게시물 일부 기록 1,681건을 날짜별로 찾고 원문 링크·공식 임베드로 확인합니다.",
+    "symbol": "▤",
+    "url": "https://nanalab.kr/zuckerberg-says/",
+    "repository": "https://github.com/NaNaCompany/zuckerberg-says",
+    "published_at": "2026-10-28T22:23:53Z",
+    "date_source": "github_repository_created_at",
+    "languages": [
+      "en"
+    ],
+    "language_paths": {
+      "en": ""
+    },
+    "sitemap_lastmod": "2026-10-29",
+    "image_url": "/apps/img/zuckerberg-says.svg",
+    "image_fit": "contain",
+    "image_alt": "Zuckerberg Says"
+  },
+  {
+    "id": "tibo-says",
+    "name": "Tibo Says",
+    "category": "재미·라이프",
+    "description": "Thibault Sottiaux(@thsottiaux)의 X 게시물 일부 기록 195건을 날짜별로 탐색하고 원문 링크·공식 임베드로 확인합니다.",
+    "symbol": "▤",
+    "url": "https://nanalab.kr/tibo-says/",
+    "repository": "https://github.com/NaNaCompany/tibo-says",
+    "published_at": "2026-10-28T22:24:04Z",
+    "date_source": "github_repository_created_at",
+    "languages": [
+      "en"
+    ],
+    "language_paths": {
+      "en": ""
+    },
+    "sitemap_lastmod": "2026-10-29",
+    "image_url": "/apps/img/tibo-says.svg",
+    "image_fit": "contain",
+    "image_alt": "Tibo Says"
+  },
+  {
+    "id": "sam-altman-says",
+    "name": "Sam Altman Says",
+    "category": "재미·라이프",
+    "description": "샘 올트먼(@sama)의 선별된 X 게시물 50건을 날짜별로 찾고 원문 링크·공식 임베드로 확인합니다. 전체 이력이 아닙니다.",
+    "symbol": "▤",
+    "url": "https://nanalab.kr/sam-altman-says/",
+    "repository": "https://github.com/NaNaCompany/sam-altman-says",
+    "published_at": "2026-10-28T22:24:14Z",
+    "date_source": "github_repository_created_at",
+    "languages": [
+      "en"
+    ],
+    "language_paths": {
+      "en": ""
+    },
+    "sitemap_lastmod": "2026-10-29",
+    "image_url": "/apps/img/sam-altman-says.svg",
+    "image_fit": "contain",
+    "image_alt": "Sam Altman Says"
   }
 ]

@@ -8,6 +8,54 @@
   "favicon": "https://nanalab.kr/favicon.ico/android-icon-192x192.png",
   "items": [
     {
+      "id": "urn:nanalab:apps:sam-altman-says",
+      "url": "https://nanalab.kr/sam-altman-says/",
+      "title": "[앱] Sam Altman Says",
+      "content_text": "샘 올트먼(@sama)의 선별된 X 게시물 50건을 날짜별로 찾고 원문 링크·공식 임베드로 확인합니다. 전체 이력이 아닙니다.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "재미·라이프"
+      ],
+      "date_published": "2026-10-28T22:24:14Z",
+      "image": "/apps/img/sam-altman-says.svg"
+    },
+    {
+      "id": "urn:nanalab:apps:tibo-says",
+      "url": "https://nanalab.kr/tibo-says/",
+      "title": "[앱] Tibo Says",
+      "content_text": "Thibault Sottiaux(@thsottiaux)의 X 게시물 일부 기록 195건을 날짜별로 탐색하고 원문 링크·공식 임베드로 확인합니다.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "재미·라이프"
+      ],
+      "date_published": "2026-10-28T22:24:04Z",
+      "image": "/apps/img/tibo-says.svg"
+    },
+    {
+      "id": "urn:nanalab:apps:zuckerberg-says",
+      "url": "https://nanalab.kr/zuckerberg-says/",
+      "title": "[앱] Zuckerberg Says",
+      "content_text": "마크 저커버그의 Facebook·Threads 등 게시물 일부 기록 1,681건을 날짜별로 찾고 원문 링크·공식 임베드로 확인합니다.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "재미·라이프"
+      ],
+      "date_published": "2026-10-28T22:23:53Z",
+      "image": "/apps/img/zuckerberg-says.svg"
+    },
+    {
+      "id": "urn:nanalab:apps:musk-says",
+      "url": "https://nanalab.kr/musk-says/",
+      "title": "[앱] Musk Says",
+      "content_text": "일론 머스크의 2010~2025년 X 게시물 일부 기록 55,099건을 날짜별로 탐색합니다. 원문 링크·공식 임베드를 제공하며 실시간·전체 수집이 아닙니다.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "재미·라이프"
+      ],
+      "date_published": "2026-10-28T22:23:28Z",
+      "image": "/apps/img/musk-says.svg"
+    },
+    {
       "id": "urn:nanalab:apps:bible-viewer",
       "url": "https://nanalab.kr/bible-viewer/",
       "title": "[앱] 성경 뷰어",
@@ -1155,54 +1203,6 @@
       ],
       "date_published": "2026-10-25T06:20:15Z",
       "image": "https://nanalab.kr/eng-eddington-luminosity/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-jeans-mass",
-      "url": "https://nanalab.kr/eng-jeans-mass/",
-      "title": "[앱] 진스 질량 계산기",
-      "content_text": "균일한 기체의 선형 진스 불안정성에서 임계 파장 구의 질량을 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T06:20:15Z",
-      "image": "https://nanalab.kr/eng-jeans-mass/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-fluid-roche-limit",
-      "url": "https://nanalab.kr/eng-fluid-roche-limit/",
-      "title": "[앱] 유체 위성 로슈 한계 계산기",
-      "content_text": "인장강도가 없는 유체 위성의 고전적 조석 파괴 한계 중심거리를 추정한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T06:20:14Z",
-      "image": "https://nanalab.kr/eng-fluid-roche-limit/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-einstein-ring",
-      "url": "https://nanalab.kr/eng-einstein-ring/",
-      "title": "[앱] 아인슈타인 고리 각반지름 계산기",
-      "content_text": "관측자·점렌즈·광원이 정렬된 근거리 유클리드 기하에서 아인슈타인 고리의 각반지름을 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T06:20:14Z",
-      "image": "https://nanalab.kr/eng-einstein-ring/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-rocket-nozzle-thrust",
-      "url": "https://nanalab.kr/eng-rocket-nozzle-thrust/",
-      "title": "[앱] 로켓 노즐 추력 계산기",
-      "content_text": "배기 운동량과 출구·주변 압력차로 준정상 로켓 노즐의 축방향 추력을 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T06:20:04Z",
-      "image": "https://nanalab.kr/eng-rocket-nozzle-thrust/og.png"
     }
   ]
 }

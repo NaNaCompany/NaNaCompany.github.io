@@ -1316,6 +1316,26 @@
       "name": "Lecteur biblique",
       "description": "Lisez six éditions de la Bible par livre et chapitre. Copiez ou partagez des versets avec leur référence et le lien du chapitre.",
       "image_alt": "Lecteur biblique"
+    },
+    "musk-says": {
+      "name": "Musk Says",
+      "description": "Parcourez par date 55 099 publications X d’Elon Musk collectées entre 2010 et 2025. Archive partielle avec liens originaux et intégrations officielles, ni complète ni en temps réel.",
+      "image_alt": "Musk Says"
+    },
+    "zuckerberg-says": {
+      "name": "Zuckerberg Says",
+      "description": "Parcourez par date 1 681 publications collectées de Mark Zuckerberg sur Facebook, Threads et d’autres plateformes. Archive partielle avec liens originaux et intégrations officielles.",
+      "image_alt": "Zuckerberg Says"
+    },
+    "tibo-says": {
+      "name": "Tibo Says",
+      "description": "Parcourez par date 195 publications X collectées de Thibault Sottiaux (@thsottiaux). Archive partielle avec liens originaux et intégrations officielles.",
+      "image_alt": "Tibo Says"
+    },
+    "sam-altman-says": {
+      "name": "Sam Altman Says",
+      "description": "Parcourez par date 50 publications X sélectionnées de Sam Altman (@sama). Échantillon choisi avec liens originaux et intégrations officielles, pas son historique complet.",
+      "image_alt": "Sam Altman Says"
     }
   },
   "schema_version": "1.0",
