@@ -5339,7 +5339,7 @@
     "id": "nocturne-library",
     "name": "NOCTURNE · 밤의 서재",
     "category": "문서·텍스트",
-    "description": "원어 소설 12권을 검은 배경·흰 글자로 읽고 글꼴·크기·목차·읽던 위치·책갈피를 활용하세요.",
+    "description": "개화기 신소설·고전소설·기행 가사 10편과 영어 원작 12권을 읽으세요. 검은 배경, 글꼴·목차·책갈피·TXT 다운로드와 판본별 출처를 제공합니다.",
     "symbol": "☾",
     "url": "https://nanalab.kr/nocturne-library/",
     "repository": "https://github.com/NaNaCompany/nocturne-library",
@@ -5354,9 +5354,14 @@
       "de"
     ],
     "language_paths": {
-      "ko": ""
+      "ko": "",
+      "en": "en/",
+      "es": "es/",
+      "zh": "zh/",
+      "ja": "ja/",
+      "de": "de/"
     },
-    "sitemap_lastmod": "2026-10-26",
+    "sitemap_lastmod": "2026-10-28",
     "image_url": "https://nanalab.kr/nocturne-library/og/ko.jpg",
     "image_alt": "NOCTURNE · 밤의 서재"
   },
