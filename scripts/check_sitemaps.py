@@ -3,6 +3,7 @@ from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 from urllib.parse import urlsplit
 from urllib.request import Request, urlopen
+from urllib.error import URLError
 import argparse
 import json
 import time
@@ -11,18 +12,16 @@ import xml.etree.ElementTree as ET
 from build_site import build
 from site_urls import canonical_url
 from repository_groups import grouped_landing_urls, grouped_repositories, sitemap_repositories
+from sitemap_sources import (discover_leaf_urls, flattened_sources, local_sitemap_path,
+                             parse_leaf, sitemap_entry, source_urls, validate_location)
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = 'https://nanalab.kr/'
 NS = '{http://www.sitemaps.org/schemas/sitemap/0.9}'
 
 
-def leaf(raw, location, *, directory=False):
-    assert len(raw) <= 50 * 1024 * 1024, 'Sitemap exceeds 50 MiB: ' + location
-    tree = ET.fromstring(raw)
-    assert tree.tag == NS + 'urlset', 'Nested index or invalid leaf: ' + location
-    urls = [node.text for node in tree.findall(NS + 'url/' + NS + 'loc')]
-    assert urls and len(urls) == len(set(urls)) <= 50000, 'Empty, oversized or duplicate URLs: ' + location
+def leaf(raw, location, *, directory=False, base=SITE):
+    urls = parse_leaf(raw, location, base)
     for url in urls:
         parts = urlsplit(url)
         assert parts.scheme == 'https' and parts.netloc == 'nanalab.kr' and not parts.fragment, url
@@ -33,20 +32,24 @@ def leaf(raw, location, *, directory=False):
 
 
 def fetch(location):
-    request = Request(location + '?verify=' + str(time.time_ns()), headers={'User-Agent': 'Mozilla/5.0'})
-    with urlopen(request, timeout=40) as response:
-        assert response.status == 200, location
-        return response.read()
+    for attempt in range(3):
+        request = Request(location + '?verify=' + str(time.time_ns()), headers={'User-Agent': 'Mozilla/5.0'})
+        try:
+            with urlopen(request, timeout=40) as response:
+                assert response.status == 200, location
+                return response.read()
+        except (URLError, TimeoutError, ConnectionError):
+            if attempt == 2:
+                raise
+            time.sleep(0.5 * (attempt + 1))
 
 
-def check(live=False):
+def check(live=False, remote_leaves=False):
     outputs, _ = build()
     manifest = json.loads((ROOT / 'content/sitemap-sources.json').read_text(encoding='utf-8'))
     index_url, main_url = SITE + 'sitemap.xml', SITE + 'sitemap-main.xml'
-    source_urls = [row['url'] for row in manifest['sources']]
-    assert len(source_urls) == len(set(source_urls)), 'Duplicate sitemap source'
-    assert not set(source_urls) & {index_url, main_url, SITE + 'sitemap-details.xml'}, 'App source uses a reserved sitemap URL'
-    expected = {main_url} | set(source_urls)
+    registered_urls = flattened_sources(manifest['sources'])
+    expected = {main_url} | set(registered_urls)
     extras = {url for row in manifest.get('supplemental', []) for url in row['urls']}
     if extras:
         expected.add(SITE + 'sitemap-details.xml')
@@ -69,6 +72,7 @@ def check(live=False):
     apps = json.loads((ROOT / 'content/apps.json').read_text(encoding='utf-8'))
     repositories = sitemap_repositories(apps)
     repository_ids = {row['id'] for row in repositories}
+    repository_by_id = {row['id']: row for row in repositories}
     assert {row['app_id'] for row in manifest['sources']} <= repository_ids
     children = {row['id']: row for row in grouped_repositories(apps)}
     for source in manifest['sources']:
@@ -76,7 +80,8 @@ def check(live=False):
             child = children[source['app_id']]
             assert child['status'] == 'published'
             assert source.get('directory_app_id') == child['directory_app_id'], 'Child sitemap lost parent association'
-            assert source['url'] == child['url'] + 'sitemap.xml', 'Wrong child sitemap location'
+            for location in source_urls(source):
+                validate_location(location, child['url'])
     # A newly added app must not silently lose discovery of its detailed map.
     registered = {row['app_id'] for row in manifest['sources']}
     assert len(registered) == len(manifest['sources']), 'Duplicate app sitemap registration'
@@ -84,37 +89,52 @@ def check(live=False):
         if app.get('external') or app.get('kind') == 'template':
             continue
         repository = ROOT.parent / app['id']
-        if any(path.is_file() for path in [repository / 'docs/sitemap.xml', repository / 'sitemap.xml', repository / 'dist/sitemap.xml']):
+        entry = sitemap_entry(repository)
+        if entry:
             assert app['id'] in registered, 'Run scripts/sync_sitemaps.py for: ' + app['id']
-    source_by_url = {row['url']: row for row in manifest['sources']}
+            if not live:
+                row = next(row for row in manifest['sources'] if row['app_id'] == app['id'])
+                base = app.get('url') or SITE + app['id'] + '/'
+                assert source_urls(row) == discover_leaf_urls(entry, base), 'Run scripts/sync_sitemaps.py for: ' + app['id']
+    source_by_url = {url: row for row in manifest['sources'] for url in source_urls(row)}
+    bases = {row['app_id']: repository_by_id[row['app_id']].get('url') or SITE + row['app_id'] + '/'
+             for row in manifest['sources']}
+    for location, source in source_by_url.items():
+        validate_location(location, bases[source['app_id']])
 
     def read(location):
         assert location.startswith(SITE), location
         name = location.removeprefix(SITE)
-        if live:
+        if live or (remote_leaves and location in source_by_url):
             body = fetch(location)
         elif name in outputs:
             body = (ROOT / name).read_bytes()
         else:
-            source = ROOT.parent / source_by_url[location]['app_id']
-            path = next((p for p in [source / 'docs/sitemap.xml', source / 'sitemap.xml', source / 'dist/sitemap.xml'] if p.is_file()), None)
-            assert path, 'Source checkout unavailable: ' + location
+            source = source_by_url[location]
+            path = local_sitemap_path(ROOT.parent / source['app_id'], bases[source['app_id']], location)
             body = path.read_bytes()
         if name in outputs:
             assert body.decode() == outputs[name], 'Generated sitemap is stale: ' + location
-        return location, leaf(body, location, directory=location == main_url)
+        base = bases[source_by_url[location]['app_id']] if location in source_by_url else SITE
+        return location, leaf(body, location, directory=location == main_url, base=base)
 
-    if live:
+    if live or remote_leaves:
         with ThreadPoolExecutor(max_workers=8) as pool:
             maps = dict(pool.map(read, locations))
     else:
         maps = dict(map(read, locations))
     assert maps[main_url] == leaf(outputs['sitemap-main.xml'].encode(), 'generated main', directory=True)
     assert grouped_landing_urls(apps) <= maps[main_url], 'Published child language landings missing'
+    app_pages = {}
+    for source in manifest['sources']:
+        leaves = [maps[url] for url in source_urls(source)]
+        combined = set().union(*leaves)
+        assert len(combined) == sum(map(len, leaves)), 'Duplicate page URLs across app leaves: ' + source['app_id']
+        app_pages[source['app_id']] = combined
     for child in children.values():
         if child['status'] == 'published':
             required = {child['url']} | {child['url'] + child.get('language_paths', {}).get(language, language + '/') for language in child['languages']}
-            assert required <= maps[child['url'] + 'sitemap.xml'], 'Child sitemap misses language landings: ' + child['id']
+            assert required <= app_pages[child['id']], 'Child sitemap misses language landings: ' + child['id']
     if extras:
         assert maps[SITE + 'sitemap-details.xml'] == extras
     # Preserve every existing page URL and its metadata.
@@ -127,8 +147,10 @@ def check(live=False):
     for node in baseline.findall(NS + 'url'):
         assert metadata(node) == entries[node.findtext(NS + 'loc')], 'Original metadata changed'
     all_urls = set().union(*maps.values())
-    result = {'status': 'passed', 'mode': 'live' if live else 'local', 'sitemaps': len(maps),
-              'index_entries': len(locations), 'app_sitemaps': len(manifest['sources']), 'main_urls': len(maps[main_url]),
+    mode = 'live' if live else 'local-with-remote-leaves' if remote_leaves else 'local'
+    result = {'status': 'passed', 'mode': mode, 'sitemaps': len(maps),
+              'index_entries': len(locations), 'registered_apps': len(manifest['sources']),
+              'app_sitemaps': len(registered_urls), 'main_urls': len(maps[main_url]),
               'supplemental_urls': len(extras), 'unique_page_urls': len(all_urls),
               'additional_detail_urls': len(all_urls - maps[main_url])}
     print(json.dumps(result))
@@ -138,4 +160,7 @@ def check(live=False):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--live', action='store_true')
-    check(parser.parse_args().live)
+    parser.add_argument('--remote-leaves', action='store_true',
+                        help='Check local generated files and fetch every app leaf from its public URL')
+    args = parser.parse_args()
+    check(args.live, args.remote_leaves)

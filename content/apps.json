@@ -208,12 +208,23 @@
     "languages": [
       "ko",
       "en",
+      "es",
       "zh",
-      "es"
+      "ja",
+      "de",
+      "fr",
+      "pt"
     ],
-    "sitemap_lastmod": "2026-10-25",
+    "sitemap_lastmod": "2026-10-28",
     "language_paths": {
-      "ko": ""
+      "ko": "",
+      "en": "en/",
+      "es": "es/",
+      "zh": "zh/",
+      "ja": "ja/",
+      "de": "de/",
+      "fr": "fr/",
+      "pt": "pt/"
     }
   },
   {
@@ -242,12 +253,23 @@
     "languages": [
       "ko",
       "en",
+      "es",
       "zh",
-      "es"
+      "ja",
+      "de",
+      "fr",
+      "pt"
     ],
-    "sitemap_lastmod": "2026-10-25",
+    "sitemap_lastmod": "2026-10-28",
     "language_paths": {
-      "ko": ""
+      "ko": "",
+      "en": "en/",
+      "es": "es/",
+      "zh": "zh/",
+      "ja": "ja/",
+      "de": "de/",
+      "fr": "fr/",
+      "pt": "pt/"
     }
   },
   {
@@ -5493,5 +5515,259 @@
     "image_url": "/apps/img/cuda-compatibility-checker.svg",
     "image_fit": "contain",
     "image_alt": "CUDA·드라이버·PyTorch 조건 확인"
+  },
+  {
+    "id": "rebirth-era",
+    "name": "시대 환생",
+    "category": "재미·라이프",
+    "description": "기원전 10000년부터 2026년까지 시대·지역을 뽑아 가상의 옷·집·일·하루를 확인하는 게임입니다.",
+    "symbol": "▤",
+    "url": "https://nanalab.kr/rebirth-era/",
+    "repository": "https://github.com/NaNaCompany/rebirth-era",
+    "published_at": "2026-10-28T11:17:15Z",
+    "date_source": "github_repository_created_at",
+    "languages": [
+      "ko",
+      "en",
+      "es",
+      "zh",
+      "ja",
+      "de",
+      "fr",
+      "pt"
+    ],
+    "language_paths": {
+      "ko": "",
+      "en": "en/",
+      "es": "es/",
+      "zh": "zh/",
+      "ja": "ja/",
+      "de": "de/",
+      "fr": "fr/",
+      "pt": "pt/"
+    },
+    "sitemap_lastmod": "2026-10-28",
+    "image_url": "/apps/img/rebirth-era.svg",
+    "image_fit": "contain",
+    "image_alt": "시대 환생"
+  },
+  {
+    "id": "rebirth-status",
+    "name": "신분 환생",
+    "category": "재미·라이프",
+    "description": "조선시대의 가상 가구를 뽑아 사회적 신분과 살림 형편을 따로 확인하는 게임입니다.",
+    "symbol": "▤",
+    "url": "https://nanalab.kr/rebirth-status/",
+    "repository": "https://github.com/NaNaCompany/rebirth-status",
+    "published_at": "2026-10-28T11:18:49Z",
+    "date_source": "github_repository_created_at",
+    "languages": [
+      "ko",
+      "en",
+      "es",
+      "zh",
+      "ja",
+      "de",
+      "fr",
+      "pt"
+    ],
+    "language_paths": {
+      "ko": "",
+      "en": "en/",
+      "es": "es/",
+      "zh": "zh/",
+      "ja": "ja/",
+      "de": "de/",
+      "fr": "fr/",
+      "pt": "pt/"
+    },
+    "sitemap_lastmod": "2026-10-28",
+    "image_url": "/apps/img/rebirth-status.svg",
+    "image_fit": "contain",
+    "image_alt": "신분 환생"
+  },
+  {
+    "id": "isekai-cheat",
+    "name": "이세계 전생 치트 뽑기",
+    "category": "재미·라이프",
+    "description": "24개 창작 판타지 능력 중 하나를 뽑아 발동 조건·제약·대가·첫 사용 장면을 확인하는 게임입니다.",
+    "symbol": "▤",
+    "url": "https://nanalab.kr/isekai-cheat/",
+    "repository": "https://github.com/NaNaCompany/isekai-cheat",
+    "published_at": "2026-10-28T11:19:03Z",
+    "date_source": "github_repository_created_at",
+    "languages": [
+      "ko",
+      "en",
+      "es",
+      "zh",
+      "ja",
+      "de",
+      "fr",
+      "pt"
+    ],
+    "language_paths": {
+      "ko": "",
+      "en": "en/",
+      "es": "es/",
+      "zh": "zh/",
+      "ja": "ja/",
+      "de": "de/",
+      "fr": "fr/",
+      "pt": "pt/"
+    },
+    "sitemap_lastmod": "2026-10-28",
+    "image_url": "/apps/img/isekai-cheat.svg",
+    "image_fit": "contain",
+    "image_alt": "이세계 전생 치트 뽑기"
+  },
+  {
+    "id": "rebirth-dog",
+    "name": "강아지로 환생하기",
+    "category": "재미·라이프",
+    "description": "품종과 믹스견을 포함한 24가지 강아지의 모습·가상 성격·하루를 뽑는 게임입니다.",
+    "symbol": "▤",
+    "url": "https://nanalab.kr/rebirth-dog/",
+    "repository": "https://github.com/NaNaCompany/rebirth-dog",
+    "published_at": "2026-10-28T11:19:20Z",
+    "date_source": "github_repository_created_at",
+    "languages": [
+      "ko",
+      "en",
+      "es",
+      "zh",
+      "ja",
+      "de",
+      "fr",
+      "pt"
+    ],
+    "language_paths": {
+      "ko": "",
+      "en": "en/",
+      "es": "es/",
+      "zh": "zh/",
+      "ja": "ja/",
+      "de": "de/",
+      "fr": "fr/",
+      "pt": "pt/"
+    },
+    "sitemap_lastmod": "2026-10-28",
+    "image_url": "/apps/img/rebirth-dog.svg",
+    "image_fit": "contain",
+    "image_alt": "강아지로 환생하기"
+  },
+  {
+    "id": "rebirth-cat",
+    "name": "고양이 환생게임",
+    "category": "재미·라이프",
+    "description": "품종과 도메스틱·믹스를 포함한 24가지 고양이의 털색·가상 성격·생활을 뽑는 게임입니다.",
+    "symbol": "▤",
+    "url": "https://nanalab.kr/rebirth-cat/",
+    "repository": "https://github.com/NaNaCompany/rebirth-cat",
+    "published_at": "2026-10-28T11:19:37Z",
+    "date_source": "github_repository_created_at",
+    "languages": [
+      "ko",
+      "en",
+      "es",
+      "zh",
+      "ja",
+      "de",
+      "fr",
+      "pt"
+    ],
+    "language_paths": {
+      "ko": "",
+      "en": "en/",
+      "es": "es/",
+      "zh": "zh/",
+      "ja": "ja/",
+      "de": "de/",
+      "fr": "fr/",
+      "pt": "pt/"
+    },
+    "sitemap_lastmod": "2026-10-28",
+    "image_url": "/apps/img/rebirth-cat.svg",
+    "image_fit": "contain",
+    "image_alt": "고양이 환생게임"
+  },
+  {
+    "id": "red-seal-png",
+    "name": "도장 만들기",
+    "category": "이미지·미디어",
+    "description": "이름과 무료 글꼴로 도장을 만들고 투명 배경 PNG로 저장하는 도구입니다.",
+    "symbol": "▤",
+    "url": "https://nanalab.kr/red-seal-png/",
+    "repository": "https://github.com/NaNaCompany/red-seal-png",
+    "published_at": "2026-10-28T11:02:06Z",
+    "date_source": "github_repository_created_at",
+    "languages": [
+      "ko"
+    ],
+    "language_paths": {
+      "ko": ""
+    },
+    "sitemap_lastmod": "2026-10-28",
+    "image_url": "/apps/img/red-seal-png.svg",
+    "image_fit": "contain",
+    "image_alt": "도장 만들기"
+  },
+  {
+    "id": "pdf-night-mode",
+    "name": "PDF 색상 반전",
+    "category": "문서·텍스트",
+    "description": "PDF의 배경과 글자색을 바꿉니다. 저장본은 이미지 PDF이며 텍스트 검색·폼·링크는 유지되지 않습니다.",
+    "symbol": "▤",
+    "url": "https://nanalab.kr/pdf-night-mode/",
+    "repository": "https://github.com/NaNaCompany/pdf-night-mode",
+    "published_at": "2026-10-28T11:02:12Z",
+    "date_source": "github_repository_created_at",
+    "languages": [
+      "ko",
+      "en",
+      "ja",
+      "zh",
+      "es",
+      "de",
+      "fr",
+      "pt",
+      "ru"
+    ],
+    "language_paths": {
+      "ko": "",
+      "en": "en/",
+      "ja": "ja/",
+      "zh": "zh/",
+      "es": "es/",
+      "de": "de/",
+      "fr": "fr/",
+      "pt": "pt/",
+      "ru": "ru/"
+    },
+    "sitemap_lastmod": "2026-10-28",
+    "image_url": "/apps/img/pdf-night-mode.svg",
+    "image_fit": "contain",
+    "image_alt": "PDF 색상 반전"
+  },
+  {
+    "id": "trump-says",
+    "name": "Trump Says",
+    "category": "재미·라이프",
+    "description": "Trump의 X·Truth Social 부분 기록 97,084건을 날짜별로 찾는 아카이브입니다. 일부는 본문 없는 메타데이터이며 실시간·전체 수집이 아닙니다.",
+    "symbol": "▤",
+    "url": "https://nanalab.kr/trump-says/",
+    "repository": "https://github.com/NaNaCompany/trump-says",
+    "published_at": "2026-10-28T11:02:19Z",
+    "date_source": "github_repository_created_at",
+    "languages": [
+      "en"
+    ],
+    "language_paths": {
+      "en": ""
+    },
+    "sitemap_lastmod": "2026-10-28",
+    "image_url": "/apps/img/trump-says.svg",
+    "image_fit": "contain",
+    "image_alt": "Trump Says"
   }
 ]

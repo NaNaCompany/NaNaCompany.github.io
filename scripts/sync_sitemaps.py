@@ -9,6 +9,7 @@ import json
 import re
 import xml.etree.ElementTree as ET
 from repository_groups import grouped_repositories, sitemap_repositories
+from sitemap_sources import discover_leaf_urls, flattened_sources, sitemap_entry
 
 ROOT = Path(__file__).resolve().parents[1]
 NS = '{http://www.sitemaps.org/schemas/sitemap/0.9}'
@@ -40,8 +41,7 @@ def discover():
         if parts.scheme != 'https' or parts.netloc != 'nanalab.kr':
             continue
         repository = ROOT.parent / app['id']
-        source = next((path for path in [repository / 'docs/sitemap.xml', repository / 'sitemap.xml', repository / 'dist/sitemap.xml']
-                       if path.is_file()), None)
+        source = sitemap_entry(repository)
         if source is None:
             if app.get('directory_app_id'):
                 assert app['id'] in sources, 'Verified child sitemap unavailable: ' + app['id']
@@ -64,22 +64,25 @@ def discover():
                     pages.append(url)
             supplemental[app['id']] = {'app_id': app['id'], 'urls': pages}
             continue
-        tree = ET.parse(source).getroot()
-        assert tree.tag == NS + 'urlset', f'Expected leaf sitemap: {app["id"]}'
-        urls = [node.text for node in tree.findall(NS + 'url/' + NS + 'loc')]
-        assert urls and len(urls) == len(set(urls)) <= 50000, app['id']
-        assert all(url and url.startswith(base) for url in urls), app['id']
-        sources[app['id']] = {'app_id': app['id'], 'url': base.rstrip('/') + '/sitemap.xml'}
+        urls = discover_leaf_urls(source, base)
+        # Retain any verified source metadata while refreshing its leaf locations.
+        row = dict(sources.get(app['id'], {}))
+        row.update({'app_id': app['id'], 'url': urls[0]})
+        row.pop('additional_urls', None)
+        if len(urls) > 1:
+            row['additional_urls'] = urls[1:]
+        sources[app['id']] = row
         if app.get('directory_app_id'):
             sources[app['id']]['directory_app_id'] = app['directory_app_id']
         supplemental.pop(app['id'], None)
         scanned += 1
     rows = sorted(sources.values(), key=lambda row: row['url'])
-    assert len({row['url'] for row in rows}) == len(rows), 'Duplicate sitemap source'
+    leaf_urls = flattened_sources(rows)
     extras = [row for _, row in sorted(supplemental.items()) if row['urls']]
     MANIFEST.write_text(json.dumps({'schema_version': '1.0', 'sources': rows, 'supplemental': extras}, ensure_ascii=False, indent=2) + '\n',
                         encoding='utf-8', newline='\n')
-    print(json.dumps({'status': 'synced', 'app_sitemaps': len(rows), 'local_sitemaps_checked': scanned,
+    print(json.dumps({'status': 'synced', 'registered_apps': len(rows), 'app_sitemaps': len(leaf_urls),
+                      'local_sitemaps_checked': scanned,
                       'supplemental_pages': sum(len(row['urls']) for row in extras)}))
 
 

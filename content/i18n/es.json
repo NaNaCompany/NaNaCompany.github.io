@@ -1271,6 +1271,46 @@
       "name": "Requisitos de CUDA, controlador y PyTorch",
       "description": "Compare un perfil con el controlador introducido. Compruebe por separado GPU, Python y detalles del sistema.",
       "image_alt": "Requisitos de CUDA, controlador y PyTorch"
+    },
+    "rebirth-era": {
+      "name": "Renacer en la historia",
+      "description": "Sortea un año y una región entre 10000 a. C. y 2026 para descubrir una vida ficticia. Las probabilidades son pesos definidos para el juego, no proporciones históricas de población.",
+      "image_alt": "Renacer en la historia"
+    },
+    "rebirth-status": {
+      "name": "Renacer en un estamento",
+      "description": "Sortea un hogar ficticio de Joseon y consulta por separado su condición social y sus recursos. Las probabilidades son pesos definidos para el juego, no proporciones reales de población.",
+      "image_alt": "Renacer en un estamento"
+    },
+    "isekai-cheat": {
+      "name": "Sorteo de poderes al renacer",
+      "description": "Sortea un poder y su primera escena de uso entre escenarios de fantasía originales. Las probabilidades son pesos definidos para el juego y no predicen capacidades reales ni el destino.",
+      "image_alt": "Sorteo de poderes al renacer"
+    },
+    "rebirth-dog": {
+      "name": "Reencarnar como perro",
+      "description": "Sortea una de 24 vidas caninas ficticias, incluidos perros mestizos. Las probabilidades son pesos definidos para el juego, no proporciones reales de razas ni predicciones de temperamento.",
+      "image_alt": "Reencarnar como perro"
+    },
+    "rebirth-cat": {
+      "name": "Juego de renacer como gato",
+      "description": "Sortea una raza o un tipo de gato, incluidos domésticos y mestizos, para descubrir un día ficticio. Las probabilidades son pesos definidos para el juego, sin relación con las poblaciones reales de razas ni sus tasas de natalidad.",
+      "image_alt": "Juego de renacer como gato"
+    },
+    "red-seal-png": {
+      "name": "Crear sellos",
+      "description": "Escribe un nombre, ajusta la forma y la disposición de las letras y guarda un sello rojo como PNG transparente. Utiliza fuentes gratuitas con licencia para uso comercial.",
+      "image_alt": "Crear sellos"
+    },
+    "pdf-night-mode": {
+      "name": "Invertir colores de PDF",
+      "description": "Invierte o cambia los colores de las páginas de un PDF en el navegador y guarda un PDF nuevo. El resultado es un PDF de imágenes; no conserva búsquedas de texto, enlaces, formularios ni firmas digitales.",
+      "image_alt": "Invertir colores de PDF"
+    },
+    "trump-says": {
+      "name": "Archivo de declaraciones de Trump",
+      "description": "Consulta por fecha los registros de Trump en X/Twitter y Truth Social o busca en sus textos. Este archivo parcial contiene 97.084 registros, incluidos registros sin texto; no es una recopilación completa ni en tiempo real.",
+      "image_alt": "Archivo de declaraciones de Trump"
     }
   },
   "schema_version": "1.0",

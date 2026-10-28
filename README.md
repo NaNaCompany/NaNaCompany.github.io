@@ -117,6 +117,21 @@ const corporateLectures = items.filter(item => item.category === '기업');
 
 `python scripts/build_site.py` 후 `python scripts/check_syndication.py`를 실행하면 생성 최신성, RSS/JSON Feed 일치, XML 이스케이프, 안정적인 ID, 날짜 정밀도, 출처, 실제 항목 앵커를 검사합니다. 규격 참고: [RSS 2.0](https://www.rssboard.org/rss-specification), [JSON Feed 1.1](https://www.jsonfeed.org/version/1.1/).
 
+## 앱 목록 갱신 · 2026-10-28
+
+환생 게임 5종, 도장 만들기, PDF 색상 반전, Trump Says를 추가해 한국어 대표 카드 235개를 제공합니다. 기존 환생 여권·생물등록증 카드의 언어 경로를 한국어 포함 8개로 갱신했습니다. 앱 목록 자체는 기존 9개 언어를 유지하며, 해당 앱이 실제 제공하는 언어로만 연결합니다. 공개 저장소 생성 시각으로 정렬하고 이전 카드·날짜·이미지와 본사이트 디자인을 보존합니다.
+
+앱이 자체 `sitemapindex`를 제공하면 `scripts/sync_sitemaps.py`가 검증한 leaf를 펼쳐 등록합니다. `content/sitemap-sources.json`의 기존 `url`은 첫 leaf이며, 선택 필드 `additional_urls`가 나머지 leaf입니다. 한 앱당 source 행 하나를 유지합니다. 루트 색인과 robots는 모든 leaf를 직접 안내하며 색인 안에 다른 색인을 연결하지 않습니다. Trump Says의 102,451개 URL은 5,367·50,000·47,084개로 나뉜 leaf 세 개에 연결됩니다.
+
+로컬에 예전 앱 저장소가 없는 경우 다음 명령은 본사이트 생성물은 로컬 원본과 대조하고, 각 앱 leaf는 공개 HTTP 응답으로 엄격하게 확인합니다. 기존 로컬 검사와 배포 후 `--live` 검사는 유지됩니다.
+
+```text
+python scripts/test_sitemap_sources.py
+python scripts/check_sitemaps.py --remote-leaves
+```
+
+변경 및 검증 범위는 [UPDATE.md](UPDATE.md)에 기록합니다.
+
 강연·R&D는 메인에서도 전체 자료를 표시합니다. 강연은 원본 사이트와 같이 `lectures`와 `courses-offline`을 합쳐 ID 중복을 제거하고 최신 강의순으로 정렬합니다. 기업·공공기관·교육기관·연구기관·컨퍼런스 분류와 검색을 함께 사용할 수 있습니다. 온라인 강좌 버튼은 추가하지 않습니다. R&D의 전체 논문·특허·개발 프로젝트는 `/research/`와 각각 `/papers/`, `/patents/`, `/projects/`에서도 제공합니다.
 
 ## 디렉터리 다국어

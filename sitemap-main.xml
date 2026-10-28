@@ -3653,6 +3653,14 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nanalab.kr/eng-spring-damping-ratio/" />
   </url>
   <url><loc>https://nanalab.kr/feeds/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://nanalab.kr/rebirth_country/ja/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/rebirth_country/de/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/rebirth_country/fr/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/rebirth_country/pt/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/rebirth_biology/ja/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/rebirth_biology/de/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/rebirth_biology/fr/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/rebirth_biology/pt/</loc><lastmod>2026-10-28</lastmod></url>
   <url><loc>https://nanalab.kr/eng-escape-speed/</loc><lastmod>2026-10-25</lastmod></url>
   <url><loc>https://nanalab.kr/eng-escape-speed/en/</loc><lastmod>2026-10-25</lastmod></url>
   <url><loc>https://nanalab.kr/eng-escape-speed/es/</loc><lastmod>2026-10-25</lastmod></url>
@@ -4530,6 +4538,57 @@
   <url><loc>https://nanalab.kr/cuda-compatibility-checker/zh/</loc><lastmod>2026-10-27</lastmod></url>
   <url><loc>https://nanalab.kr/cuda-compatibility-checker/ja/</loc><lastmod>2026-10-27</lastmod></url>
   <url><loc>https://nanalab.kr/cuda-compatibility-checker/de/</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://nanalab.kr/rebirth-era/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/rebirth-era/en/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/rebirth-era/es/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/rebirth-era/zh/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/rebirth-era/ja/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/rebirth-era/de/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/rebirth-era/fr/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/rebirth-era/pt/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/rebirth-status/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/rebirth-status/en/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/rebirth-status/es/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/rebirth-status/zh/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/rebirth-status/ja/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/rebirth-status/de/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/rebirth-status/fr/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/rebirth-status/pt/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/isekai-cheat/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/isekai-cheat/en/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/isekai-cheat/es/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/isekai-cheat/zh/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/isekai-cheat/ja/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/isekai-cheat/de/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/isekai-cheat/fr/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/isekai-cheat/pt/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/rebirth-dog/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/rebirth-dog/en/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/rebirth-dog/es/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/rebirth-dog/zh/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/rebirth-dog/ja/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/rebirth-dog/de/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/rebirth-dog/fr/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/rebirth-dog/pt/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/rebirth-cat/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/rebirth-cat/en/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/rebirth-cat/es/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/rebirth-cat/zh/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/rebirth-cat/ja/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/rebirth-cat/de/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/rebirth-cat/fr/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/rebirth-cat/pt/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/red-seal-png/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/pdf-night-mode/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/pdf-night-mode/en/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/pdf-night-mode/ja/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/pdf-night-mode/zh/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/pdf-night-mode/es/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/pdf-night-mode/de/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/pdf-night-mode/fr/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/pdf-night-mode/pt/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/pdf-night-mode/ru/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://nanalab.kr/trump-says/</loc><lastmod>2026-10-28</lastmod></url>
   <url><loc>https://nanalab.kr/chatbot_v5/</loc></url>
   <url><loc>https://nanalab.kr/de/</loc></url>
   <url><loc>https://nanalab.kr/de/apps/</loc></url>

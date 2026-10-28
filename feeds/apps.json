@@ -8,6 +8,102 @@
   "favicon": "https://nanalab.kr/favicon.ico/android-icon-192x192.png",
   "items": [
     {
+      "id": "urn:nanalab:apps:rebirth-cat",
+      "url": "https://nanalab.kr/rebirth-cat/",
+      "title": "[앱] 고양이 환생게임",
+      "content_text": "품종과 도메스틱·믹스를 포함한 24가지 고양이의 털색·가상 성격·생활을 뽑는 게임입니다.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "재미·라이프"
+      ],
+      "date_published": "2026-10-28T11:19:37Z",
+      "image": "/apps/img/rebirth-cat.svg"
+    },
+    {
+      "id": "urn:nanalab:apps:rebirth-dog",
+      "url": "https://nanalab.kr/rebirth-dog/",
+      "title": "[앱] 강아지로 환생하기",
+      "content_text": "품종과 믹스견을 포함한 24가지 강아지의 모습·가상 성격·하루를 뽑는 게임입니다.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "재미·라이프"
+      ],
+      "date_published": "2026-10-28T11:19:20Z",
+      "image": "/apps/img/rebirth-dog.svg"
+    },
+    {
+      "id": "urn:nanalab:apps:isekai-cheat",
+      "url": "https://nanalab.kr/isekai-cheat/",
+      "title": "[앱] 이세계 전생 치트 뽑기",
+      "content_text": "24개 창작 판타지 능력 중 하나를 뽑아 발동 조건·제약·대가·첫 사용 장면을 확인하는 게임입니다.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "재미·라이프"
+      ],
+      "date_published": "2026-10-28T11:19:03Z",
+      "image": "/apps/img/isekai-cheat.svg"
+    },
+    {
+      "id": "urn:nanalab:apps:rebirth-status",
+      "url": "https://nanalab.kr/rebirth-status/",
+      "title": "[앱] 신분 환생",
+      "content_text": "조선시대의 가상 가구를 뽑아 사회적 신분과 살림 형편을 따로 확인하는 게임입니다.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "재미·라이프"
+      ],
+      "date_published": "2026-10-28T11:18:49Z",
+      "image": "/apps/img/rebirth-status.svg"
+    },
+    {
+      "id": "urn:nanalab:apps:rebirth-era",
+      "url": "https://nanalab.kr/rebirth-era/",
+      "title": "[앱] 시대 환생",
+      "content_text": "기원전 10000년부터 2026년까지 시대·지역을 뽑아 가상의 옷·집·일·하루를 확인하는 게임입니다.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "재미·라이프"
+      ],
+      "date_published": "2026-10-28T11:17:15Z",
+      "image": "/apps/img/rebirth-era.svg"
+    },
+    {
+      "id": "urn:nanalab:apps:trump-says",
+      "url": "https://nanalab.kr/trump-says/",
+      "title": "[앱] Trump Says",
+      "content_text": "Trump의 X·Truth Social 부분 기록 97,084건을 날짜별로 찾는 아카이브입니다. 일부는 본문 없는 메타데이터이며 실시간·전체 수집이 아닙니다.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "재미·라이프"
+      ],
+      "date_published": "2026-10-28T11:02:19Z",
+      "image": "/apps/img/trump-says.svg"
+    },
+    {
+      "id": "urn:nanalab:apps:pdf-night-mode",
+      "url": "https://nanalab.kr/pdf-night-mode/",
+      "title": "[앱] PDF 색상 반전",
+      "content_text": "PDF의 배경과 글자색을 바꿉니다. 저장본은 이미지 PDF이며 텍스트 검색·폼·링크는 유지되지 않습니다.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "문서·텍스트"
+      ],
+      "date_published": "2026-10-28T11:02:12Z",
+      "image": "/apps/img/pdf-night-mode.svg"
+    },
+    {
+      "id": "urn:nanalab:apps:red-seal-png",
+      "url": "https://nanalab.kr/red-seal-png/",
+      "title": "[앱] 도장 만들기",
+      "content_text": "이름과 무료 글꼴로 도장을 만들고 투명 배경 PNG로 저장하는 도구입니다.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "이미지·미디어"
+      ],
+      "date_published": "2026-10-28T11:02:06Z",
+      "image": "/apps/img/red-seal-png.svg"
+    },
+    {
       "id": "urn:nanalab:apps:cuda-compatibility-checker",
       "url": "https://nanalab.kr/cuda-compatibility-checker/",
       "title": "[앱] CUDA·드라이버·PyTorch 조건 확인",
@@ -1107,101 +1203,6 @@
       ],
       "date_published": "2026-10-25T06:20:04Z",
       "image": "https://nanalab.kr/eng-tidal-acceleration/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-hill-radius",
-      "url": "https://nanalab.kr/eng-hill-radius/",
-      "title": "[앱] 힐 구 반지름 계산기",
-      "content_text": "작은 천체가 큰 천체를 원궤도로 공전할 때 힐 영역의 대표 반지름을 추정한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T06:20:04Z",
-      "image": "https://nanalab.kr/eng-hill-radius/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-rocket-delta-v",
-      "url": "https://nanalab.kr/eng-rocket-delta-v/",
-      "title": "[앱] 치올콥스키 로켓 Δv 계산기",
-      "content_text": "질량 감소와 유효 배기속도로 한 번의 이상적인 로켓 연소가 제공하는 Δv를 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T06:20:03Z",
-      "image": "https://nanalab.kr/eng-rocket-delta-v/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:world-law-portal",
-      "url": "https://nanalab.kr/world-law-portal/",
-      "title": "[앱] 세계 법령 자료실",
-      "content_text": "국가별 법령 원문을 HTML로 읽는 자료실. 공식 출처·판본·재이용 조건을 확인하고, 원문 언어로 제공되는 문서를 탐색하세요.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "문서·텍스트"
-      ],
-      "date_published": "2026-10-25T06:03:27Z"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-logarithmic-decrement",
-      "url": "https://nanalab.kr/eng-logarithmic-decrement/",
-      "title": "[앱] 감쇠진동 로그감소율 계산기",
-      "content_text": "감쇠 자유진동의 두 같은 방향 피크로 로그감소율 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T05:28:20Z",
-      "image": "https://nanalab.kr/eng-logarithmic-decrement/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-combined-length-uncertainty",
-      "url": "https://nanalab.kr/eng-combined-length-uncertainty/",
-      "title": "[앱] 독립 길이측정 합성불확도 계산기",
-      "content_text": "상관 없는 두 길이 성분의 선형 결합 표준불확도 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T05:28:12Z",
-      "image": "https://nanalab.kr/eng-combined-length-uncertainty/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-orifice-flow",
-      "url": "https://nanalab.kr/eng-orifice-flow/",
-      "title": "[앱] 비압축 오리피스 유량 계산기",
-      "content_text": "상류 속도를 무시하는 비압축 오리피스의 모델 유량 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T05:28:03Z",
-      "image": "https://nanalab.kr/eng-orifice-flow/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-stokes-terminal-speed",
-      "url": "https://nanalab.kr/eng-stokes-terminal-speed/",
-      "title": "[앱] 스톡스 입자 종단속도 계산기",
-      "content_text": "매우 작은 입자 레이놀즈수에서 구형 입자의 종단속도 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T05:27:55Z",
-      "image": "https://nanalab.kr/eng-stokes-terminal-speed/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-henry-solubility",
-      "url": "https://nanalab.kr/eng-henry-solubility/",
-      "title": "[앱] 헨리법칙 용존농도 계산기",
-      "content_text": "명시한 용해도형 헨리상수와 부분압으로 용존농도 계산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T05:27:47Z",
-      "image": "https://nanalab.kr/eng-henry-solubility/og.png"
     }
   ]
 }

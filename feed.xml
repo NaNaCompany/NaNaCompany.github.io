@@ -7,6 +7,94 @@
     <language>ko</language>
     <atom:link href="https://nanalab.kr/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>[앱] 고양이 환생게임</title>
+      <link>https://nanalab.kr/rebirth-cat/</link>
+      <description>품종과 도메스틱·믹스를 포함한 24가지 고양이의 털색·가상 성격·생활을 뽑는 게임입니다.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:rebirth-cat</guid>
+      <category>앱</category>
+      <category>재미·라이프</category>
+      <pubDate>Wed, 28 Oct 2026 11:19:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 강아지로 환생하기</title>
+      <link>https://nanalab.kr/rebirth-dog/</link>
+      <description>품종과 믹스견을 포함한 24가지 강아지의 모습·가상 성격·하루를 뽑는 게임입니다.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:rebirth-dog</guid>
+      <category>앱</category>
+      <category>재미·라이프</category>
+      <pubDate>Wed, 28 Oct 2026 11:19:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 이세계 전생 치트 뽑기</title>
+      <link>https://nanalab.kr/isekai-cheat/</link>
+      <description>24개 창작 판타지 능력 중 하나를 뽑아 발동 조건·제약·대가·첫 사용 장면을 확인하는 게임입니다.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:isekai-cheat</guid>
+      <category>앱</category>
+      <category>재미·라이프</category>
+      <pubDate>Wed, 28 Oct 2026 11:19:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 신분 환생</title>
+      <link>https://nanalab.kr/rebirth-status/</link>
+      <description>조선시대의 가상 가구를 뽑아 사회적 신분과 살림 형편을 따로 확인하는 게임입니다.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:rebirth-status</guid>
+      <category>앱</category>
+      <category>재미·라이프</category>
+      <pubDate>Wed, 28 Oct 2026 11:18:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 시대 환생</title>
+      <link>https://nanalab.kr/rebirth-era/</link>
+      <description>기원전 10000년부터 2026년까지 시대·지역을 뽑아 가상의 옷·집·일·하루를 확인하는 게임입니다.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:rebirth-era</guid>
+      <category>앱</category>
+      <category>재미·라이프</category>
+      <pubDate>Wed, 28 Oct 2026 11:17:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] Trump Says</title>
+      <link>https://nanalab.kr/trump-says/</link>
+      <description>Trump의 X·Truth Social 부분 기록 97,084건을 날짜별로 찾는 아카이브입니다. 일부는 본문 없는 메타데이터이며 실시간·전체 수집이 아닙니다.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:trump-says</guid>
+      <category>앱</category>
+      <category>재미·라이프</category>
+      <pubDate>Wed, 28 Oct 2026 11:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] PDF 색상 반전</title>
+      <link>https://nanalab.kr/pdf-night-mode/</link>
+      <description>PDF의 배경과 글자색을 바꿉니다. 저장본은 이미지 PDF이며 텍스트 검색·폼·링크는 유지되지 않습니다.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:pdf-night-mode</guid>
+      <category>앱</category>
+      <category>문서·텍스트</category>
+      <pubDate>Wed, 28 Oct 2026 11:02:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>[앱] 도장 만들기</title>
+      <link>https://nanalab.kr/red-seal-png/</link>
+      <description>이름과 무료 글꼴로 도장을 만들고 투명 배경 PNG로 저장하는 도구입니다.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:red-seal-png</guid>
+      <category>앱</category>
+      <category>이미지·미디어</category>
+      <pubDate>Wed, 28 Oct 2026 11:02:06 +0000</pubDate>
+    </item>
+    <item>
       <title>[앱] CUDA·드라이버·PyTorch 조건 확인</title>
       <link>https://nanalab.kr/cuda-compatibility-checker/</link>
       <description>프로필과 직접 입력한 드라이버를 비교합니다. GPU·Python·OS 세부 조건은 별도 확인이 필요합니다.
@@ -2117,94 +2205,6 @@
       <category>앱</category>
       <category>공학·계산</category>
       <pubDate>Sun, 25 Oct 2026 00:59:20 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 동압 한 값 계산기</title>
-      <link>https://nanalab.kr/eng-dynamic-pressure/</link>
-      <description>풍속 동압 계산 / 풍동 하중과 계수 산정 전 검산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:eng-dynamic-pressure</guid>
-      <category>앱</category>
-      <category>공학·계산</category>
-      <pubDate>Sun, 25 Oct 2026 00:59:12 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 마하수 계산기</title>
-      <link>https://nanalab.kr/eng-mach/</link>
-      <description>마하수 계산 / 풍동·노즐 실험 속도비 확인 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:eng-mach</guid>
-      <category>앱</category>
-      <category>공학·계산</category>
-      <pubDate>Sun, 25 Oct 2026 00:59:04 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 레이놀즈수 계산기</title>
-      <link>https://nanalab.kr/eng-reynolds/</link>
-      <description>레이놀즈수 계산 / 관 유동 실험·모형 유사성 점검 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:eng-reynolds</guid>
-      <category>앱</category>
-      <category>공학·계산</category>
-      <pubDate>Sun, 25 Oct 2026 00:58:55 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 까다로운 고양이 6마리, 전부 재울 수 있을까?</title>
-      <link>https://nanalab.kr/cat-naps/</link>
-      <description>여섯 고양이의 조건을 살피며 모두 잠들 수 있는 자리를 찾아보세요.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:cat-naps</guid>
-      <category>앱</category>
-      <category>재미·라이프</category>
-      <pubDate>Sat, 24 Oct 2026 21:18:42 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 딱 2초 본 선, 똑같이 그릴 수 있을까?</title>
-      <link>https://nanalab.kr/line-copy/</link>
-      <description>2초 동안 본 선의 길이를 기억하고 똑같이 그려 보세요.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:line-copy</guid>
-      <category>앱</category>
-      <category>재미·라이프</category>
-      <pubDate>Sat, 24 Oct 2026 21:18:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 다음 생에 쓸 100점, 어디에 걸어야 잘 풀릴까?</title>
-      <link>https://nanalab.kr/next-life-stats/</link>
-      <description>다음 생에 쓸 100점을 나누고 나만의 결과를 확인하는 게임입니다.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:next-life-stats</guid>
-      <category>앱</category>
-      <category>재미·라이프</category>
-      <pubDate>Sat, 24 Oct 2026 21:18:36 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 방금 본 빗방울, 같은 박자로 칠 수 있을까?</title>
-      <link>https://nanalab.kr/rain-rhythm/</link>
-      <description>방금 들은 빗방울의 리듬을 기억하고 같은 박자로 따라 쳐 보세요.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:rain-rhythm</guid>
-      <category>앱</category>
-      <category>재미·라이프</category>
-      <pubDate>Sat, 24 Oct 2026 21:18:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 계산기 없이 점심값, 얼마나 빨리 맞힐 수 있을까?</title>
-      <link>https://nanalab.kr/lunch-math/</link>
-      <description>계산기 없이 점심값을 계산하며 암산 속도와 정확도를 확인해 보세요.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:lunch-math</guid>
-      <category>앱</category>
-      <category>재미·라이프</category>
-      <pubDate>Sat, 24 Oct 2026 21:18:31 +0000</pubDate>
     </item>
   </channel>
 </rss>

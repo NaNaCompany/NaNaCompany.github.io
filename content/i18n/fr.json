@@ -1271,6 +1271,46 @@
       "name": "Conditions CUDA, pilotes et PyTorch",
       "description": "Comparez un profil avec la version du pilote saisie. Les détails du GPU, de Python et du système nécessitent des vérifications distinctes.",
       "image_alt": "Conditions CUDA, pilotes et PyTorch"
+    },
+    "rebirth-era": {
+      "name": "Renaître dans l’histoire",
+      "description": "Tirez une année et une région entre 10000 av. J.-C. et 2026 pour découvrir une vie fictive. Les probabilités reposent sur des poids définis pour le jeu, pas sur les proportions historiques de population.",
+      "image_alt": "Renaître dans l’histoire"
+    },
+    "rebirth-status": {
+      "name": "Renaître dans un statut",
+      "description": "Tirez un foyer fictif de Joseon et découvrez séparément son statut social et ses ressources. Les probabilités reposent sur des poids définis pour le jeu, pas sur les proportions réelles de population.",
+      "image_alt": "Renaître dans un statut"
+    },
+    "isekai-cheat": {
+      "name": "Tirage de pouvoir de réincarnation",
+      "description": "Tirez un pouvoir et sa première utilisation parmi des scénarios fantastiques originaux. Les probabilités reposent sur des poids définis pour le jeu et ne prédisent ni capacités réelles ni destin.",
+      "image_alt": "Tirage de pouvoir de réincarnation"
+    },
+    "rebirth-dog": {
+      "name": "Se réincarner en chien",
+      "description": "Tirez une vie canine fictive parmi 24, avec des chiens croisés. Les probabilités reposent sur des poids définis pour le jeu, sans représenter les populations réelles des races ni prédire le tempérament.",
+      "image_alt": "Se réincarner en chien"
+    },
+    "rebirth-cat": {
+      "name": "Jeu de réincarnation en chat",
+      "description": "Tirez une race ou un type de chat, dont des chats domestiques et croisés, pour découvrir une journée fictive. Les probabilités reposent sur des poids définis pour le jeu, sans lien avec les populations réelles des races ou les taux de naissance.",
+      "image_alt": "Jeu de réincarnation en chat"
+    },
+    "red-seal-png": {
+      "name": "Créer un sceau",
+      "description": "Saisissez un nom, réglez la forme et la disposition des lettres, puis enregistrez un sceau rouge en PNG transparent. Les polices gratuites utilisées autorisent l’usage commercial.",
+      "image_alt": "Créer un sceau"
+    },
+    "pdf-night-mode": {
+      "name": "Inverser les couleurs du PDF",
+      "description": "Inversez ou modifiez les couleurs des pages PDF dans le navigateur et enregistrez un nouveau PDF. Le résultat est un PDF d’images ; la recherche de texte, les liens, formulaires et signatures numériques ne sont pas conservés.",
+      "image_alt": "Inverser les couleurs du PDF"
+    },
+    "trump-says": {
+      "name": "Archives des déclarations de Trump",
+      "description": "Consultez les publications de Trump sur X/Twitter et Truth Social par date ou recherchez dans leur texte. Ces archives partielles comptent 97 084 enregistrements, dont certains sans texte ; la collecte n’est ni complète ni en temps réel.",
+      "image_alt": "Archives des déclarations de Trump"
     }
   },
   "schema_version": "1.0",

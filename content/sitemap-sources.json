@@ -706,6 +706,10 @@
       "url": "https://nanalab.kr/gantt-sketch/sitemap.xml"
     },
     {
+      "app_id": "isekai-cheat",
+      "url": "https://nanalab.kr/isekai-cheat/sitemap.xml"
+    },
+    {
       "app_id": "json-workbench",
       "url": "https://nanalab.kr/json-workbench/sitemap.xml"
     },
@@ -746,6 +750,10 @@
       "url": "https://nanalab.kr/pdf-merge/sitemap.xml"
     },
     {
+      "app_id": "pdf-night-mode",
+      "url": "https://nanalab.kr/pdf-night-mode/sitemap.xml"
+    },
+    {
       "app_id": "ppp",
       "url": "https://nanalab.kr/ppp/sitemap.xml"
     },
@@ -762,12 +770,32 @@
       "url": "https://nanalab.kr/rain-rhythm/sitemap.xml"
     },
     {
+      "app_id": "rebirth-cat",
+      "url": "https://nanalab.kr/rebirth-cat/sitemap.xml"
+    },
+    {
+      "app_id": "rebirth-dog",
+      "url": "https://nanalab.kr/rebirth-dog/sitemap.xml"
+    },
+    {
+      "app_id": "rebirth-era",
+      "url": "https://nanalab.kr/rebirth-era/sitemap.xml"
+    },
+    {
+      "app_id": "rebirth-status",
+      "url": "https://nanalab.kr/rebirth-status/sitemap.xml"
+    },
+    {
       "app_id": "rebirth_biology",
       "url": "https://nanalab.kr/rebirth_biology/sitemap.xml"
     },
     {
       "app_id": "rebirth_country",
       "url": "https://nanalab.kr/rebirth_country/sitemap.xml"
+    },
+    {
+      "app_id": "red-seal-png",
+      "url": "https://nanalab.kr/red-seal-png/sitemap.xml"
     },
     {
       "app_id": "regex-lab",
@@ -804,6 +832,14 @@
     {
       "app_id": "timesheet-studio",
       "url": "https://nanalab.kr/timesheet-studio/sitemap.xml"
+    },
+    {
+      "app_id": "trump-says",
+      "url": "https://nanalab.kr/trump-says/sitemap-main.xml",
+      "additional_urls": [
+        "https://nanalab.kr/trump-says/sitemap-posts-01.xml",
+        "https://nanalab.kr/trump-says/sitemap-posts-02.xml"
+      ]
     },
     {
       "app_id": "truth-table-lab",

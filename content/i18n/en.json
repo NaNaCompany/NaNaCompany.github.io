@@ -1271,6 +1271,46 @@
       "name": "CUDA, driver and PyTorch requirements",
       "description": "Compare a selected profile with a manually entered driver. GPU, Python and OS details require separate checks.",
       "image_alt": "CUDA, driver and PyTorch requirements"
+    },
+    "rebirth-era": {
+      "name": "Historical Rebirth",
+      "description": "Draw a year and region from 10,000 BCE to 2026 and explore a fictional life. Odds use authored game weights, not historical population shares.",
+      "image_alt": "Historical Rebirth"
+    },
+    "rebirth-status": {
+      "name": "Social Status Rebirth",
+      "description": "Draw a fictional Joseon household and view its social status and resources separately. Odds use authored game weights, not actual population shares.",
+      "image_alt": "Social Status Rebirth"
+    },
+    "isekai-cheat": {
+      "name": "Fantasy Rebirth Ability Draw",
+      "description": "Randomly draw an ability and its first-use scene from original fantasy scenarios. Odds use authored game weights and do not predict real abilities or fate.",
+      "image_alt": "Fantasy Rebirth Ability Draw"
+    },
+    "rebirth-dog": {
+      "name": "Dog Reincarnation",
+      "description": "Draw one of 24 fictional dog lives, including mixed dogs. Odds use authored game weights, not real breed populations or predictions of temperament.",
+      "image_alt": "Dog Reincarnation"
+    },
+    "rebirth-cat": {
+      "name": "Cat Rebirth Game",
+      "description": "Draw a cat breed or type, including domestic and mixed cats, and explore a fictional day. Odds use authored game weights, not real breed populations or birth rates.",
+      "image_alt": "Cat Rebirth Game"
+    },
+    "red-seal-png": {
+      "name": "Seal Maker",
+      "description": "Enter a name, adjust the seal shape and lettering, and save a transparent red seal PNG. Uses free fonts licensed for commercial use.",
+      "image_alt": "Seal Maker"
+    },
+    "pdf-night-mode": {
+      "name": "PDF Color Inverter",
+      "description": "Invert or recolor PDF pages in your browser and save a new PDF. Output is an image PDF; text search, links, forms and digital signatures are not preserved.",
+      "image_alt": "PDF Color Inverter"
+    },
+    "trump-says": {
+      "name": "Trump Says",
+      "description": "Browse Trump's X/Twitter and Truth Social records by date or search their text. This partial archive contains 97,084 records, including records without text; it is neither complete nor collected in real time.",
+      "image_alt": "Trump Says"
     }
   },
   "schema_version": "1.0",

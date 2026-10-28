@@ -17,6 +17,7 @@ from syndication import anchor_cards, build_syndication, documentation
 from site_urls import canonical_url, canonical_links
 from localization import build_localized_pages
 from repository_groups import grouped_landing_urls
+from sitemap_sources import flattened_sources, validate_location
 
 ROOT = Path(__file__).resolve().parents[1]
 VOID = set('area base br col embed hr img input link meta param source track wbr'.split())
@@ -176,6 +177,26 @@ def portfolio_section(key, heading, cards, preview=False):
     return f'<section id="{key}" class="portfolio-section container"><div class="section-top"><div><p class="eyebrow">{key.upper()}</p><h2>{heading}</h2></div>{more}</div><div class="portfolio-grid">{"".join(visible)}</div></section>'
 
 
+def sitemap_index(locations):
+    assert locations and len(locations) == len(set(locations)) <= 50000, 'Duplicate sitemap source'
+    index = ET.Element('sitemapindex', xmlns='http://www.sitemaps.org/schemas/sitemap/0.9')
+    for location in locations:
+        validate_location(location)
+        assert location != 'https://nanalab.kr/sitemap.xml', 'Sitemap index cannot reference itself'
+        ET.SubElement(ET.SubElement(index, 'sitemap'), 'loc').text = location
+    ET.indent(index, space='  ')
+    return '<?xml version="1.0" encoding="UTF-8"?>\n' + ET.tostring(index, encoding='unicode') + '\n'
+
+
+def sitemap_robots(base_policy, locations):
+    robots = base_policy.rstrip() + '\n'
+    for location in ['https://nanalab.kr/sitemap.xml', *locations]:
+        directive = 'Sitemap: ' + location
+        if directive not in robots.splitlines():
+            robots += directive + '\n'
+    return robots
+
+
 def build():
     apps = json.loads(read('content/apps.json'))
     apps = sorted(apps, key=lambda app: datetime.fromisoformat(app['published_at'].replace('Z', '+00:00')), reverse=True)
@@ -252,7 +273,7 @@ def build():
     outputs['sitemap-main.xml'] = sitemap
     manifest = json.loads(read('content/sitemap-sources.json'))
     sources = manifest['sources']
-    locations = ['https://nanalab.kr/sitemap-main.xml', *[source['url'] for source in sources]]
+    locations = ['https://nanalab.kr/sitemap-main.xml', *flattened_sources(sources)]
     supplemental = sorted({url for group in manifest.get('supplemental', []) for url in group['urls']})
     if supplemental:
         details = ET.Element('urlset', xmlns='http://www.sitemaps.org/schemas/sitemap/0.9')
@@ -262,22 +283,9 @@ def build():
         ET.indent(details, space='  ')
         outputs['sitemap-details.xml'] = '<?xml version="1.0" encoding="UTF-8"?>\n' + ET.tostring(details, encoding='unicode') + '\n'
         locations.insert(1, 'https://nanalab.kr/sitemap-details.xml')
-    assert len(locations) == len(set(locations)) <= 50000, 'Duplicate sitemap source'
-    for location in locations:
-        assert location.startswith('https://nanalab.kr/') and location.endswith('.xml'), 'Invalid sitemap source'
-        assert location != 'https://nanalab.kr/sitemap.xml', 'Sitemap index cannot reference itself'
-    index = ET.Element('sitemapindex', xmlns='http://www.sitemaps.org/schemas/sitemap/0.9')
-    for location in locations:
-        ET.SubElement(ET.SubElement(index, 'sitemap'), 'loc').text = location
-    ET.indent(index, space='  ')
-    outputs['sitemap.xml'] = '<?xml version="1.0" encoding="UTF-8"?>\n' + ET.tostring(index, encoding='unicode') + '\n'
+    outputs['sitemap.xml'] = sitemap_index(locations)
     # The host-root policy governs every app path. Advertise all leaf maps too.
-    robots = read('content/robots-base.txt').rstrip() + '\n'
-    for location in ['https://nanalab.kr/sitemap.xml', *locations]:
-        directive = 'Sitemap: ' + location
-        if directive not in robots.splitlines():
-            robots += directive + '\n'
-    outputs['robots.txt'] = robots
+    outputs['robots.txt'] = sitemap_robots(read('content/robots-base.txt'), locations)
     # Normalize rendered links after assigning stable archive/feed identities.
     for name in outputs:
         if name.endswith('.html'):

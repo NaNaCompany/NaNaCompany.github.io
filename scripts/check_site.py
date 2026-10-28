@@ -9,6 +9,7 @@ import runpy
 from datetime import datetime
 import xml.etree.ElementTree as ET
 from repository_groups import grouped_repositories
+from sitemap_sources import flattened_sources
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -134,7 +135,7 @@ def check():
     assert len(index_urls) == len(set(index_urls)), 'Duplicate sitemap references'
     assert 'https://nanalab.kr/sitemap.xml' not in index_urls, 'Self-referencing sitemap index'
     manifest = json.loads((ROOT / 'content/sitemap-sources.json').read_text(encoding='utf-8'))
-    expected_maps = {'https://nanalab.kr/sitemap-main.xml'} | {row['url'] for row in manifest['sources']}
+    expected_maps = {'https://nanalab.kr/sitemap-main.xml'} | set(flattened_sources(manifest['sources']))
     if any(row['urls'] for row in manifest.get('supplemental', [])):
         expected_maps.add('https://nanalab.kr/sitemap-details.xml')
     assert set(index_urls) == expected_maps, 'Sitemap index missing or adding unregistered maps'

@@ -1271,6 +1271,46 @@
       "name": "CUDA-, Treiber- und PyTorch-Anforderungen",
       "description": "Vergleichen Sie ein Profil mit der manuell eingegebenen Treiberversion. GPU, Python und Betriebssystemdetails sind separat zu prüfen.",
       "image_alt": "CUDA-, Treiber- und PyTorch-Anforderungen"
+    },
+    "rebirth-era": {
+      "name": "Wiedergeburt in der Geschichte",
+      "description": "Ziehe ein Jahr und eine Region zwischen 10000 v. Chr. und 2026 und entdecke ein erfundenes Leben. Die Chancen beruhen auf festgelegten Spielgewichten, nicht auf historischen Bevölkerungsanteilen.",
+      "image_alt": "Wiedergeburt in der Geschichte"
+    },
+    "rebirth-status": {
+      "name": "Wiedergeburt nach Stand",
+      "description": "Ziehe einen erfundenen Haushalt der Joseon-Zeit und betrachte Stand und Vermögen getrennt. Die Chancen beruhen auf festgelegten Spielgewichten, nicht auf tatsächlichen Bevölkerungsanteilen.",
+      "image_alt": "Wiedergeburt nach Stand"
+    },
+    "isekai-cheat": {
+      "name": "Fähigkeit für die Wiedergeburt ziehen",
+      "description": "Ziehe eine Fähigkeit und ihren ersten Einsatz aus eigens erfundenen Fantasieszenarien. Die Chancen beruhen auf festgelegten Spielgewichten und sagen keine echten Fähigkeiten oder Schicksale voraus.",
+      "image_alt": "Fähigkeit für die Wiedergeburt ziehen"
+    },
+    "rebirth-dog": {
+      "name": "Als Hund wiedergeboren",
+      "description": "Ziehe eines von 24 erfundenen Hundeleben, darunter auch Mischlinge. Die Chancen beruhen auf festgelegten Spielgewichten, nicht auf realen Rassebeständen oder Vorhersagen zum Temperament.",
+      "image_alt": "Als Hund wiedergeboren"
+    },
+    "rebirth-cat": {
+      "name": "Katzen-Wiedergeburtsspiel",
+      "description": "Ziehe eine Katzenrasse oder einen Typ, darunter Hauskatzen und Mischlinge, und entdecke einen erfundenen Tag. Die Chancen beruhen auf festgelegten Spielgewichten, nicht auf realen Rassebeständen oder Geburtenraten.",
+      "image_alt": "Katzen-Wiedergeburtsspiel"
+    },
+    "red-seal-png": {
+      "name": "Siegel erstellen",
+      "description": "Gib einen Namen ein, passe Siegelform und Schriftanordnung an und speichere ein rotes Siegel als transparentes PNG. Verwendet kostenlose Schriftarten mit Lizenz für kommerzielle Nutzung.",
+      "image_alt": "Siegel erstellen"
+    },
+    "pdf-night-mode": {
+      "name": "PDF-Farben invertieren",
+      "description": "Invertiere oder ändere PDF-Seitenfarben im Browser und speichere eine neue PDF. Die Ausgabe ist eine Bild-PDF; Textsuche, Links, Formulare und digitale Signaturen bleiben nicht erhalten.",
+      "image_alt": "PDF-Farben invertieren"
+    },
+    "trump-says": {
+      "name": "Trump-Aussagenarchiv",
+      "description": "Durchsuche Trumps X/Twitter- und Truth-Social-Einträge nach Datum oder Text. Dieses Teilarchiv enthält 97.084 Datensätze, darunter Einträge ohne Text; es ist weder vollständig noch eine Echtzeitsammlung.",
+      "image_alt": "Trump-Aussagenarchiv"
     }
   },
   "schema_version": "1.0",

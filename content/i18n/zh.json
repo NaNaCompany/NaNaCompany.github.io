@@ -1271,6 +1271,46 @@
       "name": "CUDA、驱动和 PyTorch 条件检查",
       "description": "将所选配置与手动输入的驱动比较。GPU、Python 和操作系统细节需另行检查。",
       "image_alt": "CUDA、驱动和 PyTorch 条件检查"
+    },
+    "rebirth-era": {
+      "name": "时代转生",
+      "description": "随机抽取公元前10000年至2026年的年份与地区，查看虚构的生活。概率采用作者设定的游戏权重，并非历史人口比例。",
+      "image_alt": "时代转生"
+    },
+    "rebirth-status": {
+      "name": "身份转生",
+      "description": "随机抽取一个虚构的朝鲜王朝家庭，分别查看社会身份与家境。概率采用作者设定的游戏权重，并非真实人口比例。",
+      "image_alt": "身份转生"
+    },
+    "isekai-cheat": {
+      "name": "异世界转生能力抽签",
+      "description": "从原创奇幻设定中随机抽取能力及首次使用场景。概率采用作者设定的游戏权重，不预测现实能力或命运。",
+      "image_alt": "异世界转生能力抽签"
+    },
+    "rebirth-dog": {
+      "name": "转生成狗",
+      "description": "随机抽取24种虚构的狗狗生活，包含混种犬。概率采用作者设定的游戏权重，不代表真实犬种分布，也不预测性格。",
+      "image_alt": "转生成狗"
+    },
+    "rebirth-cat": {
+      "name": "猫咪转生游戏",
+      "description": "随机抽取猫咪品种或类型，包含家猫与混种猫，并查看虚构的一天。概率采用作者设定的游戏权重，与真实品种分布或出生率无关。",
+      "image_alt": "猫咪转生游戏"
+    },
+    "red-seal-png": {
+      "name": "印章制作",
+      "description": "输入姓名，调整印章形状与文字排列，保存透明背景的红色印章PNG。使用允许商业用途的免费字体。",
+      "image_alt": "印章制作"
+    },
+    "pdf-night-mode": {
+      "name": "PDF颜色反转",
+      "description": "在浏览器中反转或更改PDF页面颜色，另存为新PDF。输出为图像PDF，不保留文字搜索、链接、表单和数字签名。",
+      "image_alt": "PDF颜色反转"
+    },
+    "trump-says": {
+      "name": "特朗普言论档案",
+      "description": "按日期浏览特朗普的X/Twitter与Truth Social记录，或搜索正文。此部分档案包含97,084条记录，其中部分没有正文；并非完整收集或实时收集。",
+      "image_alt": "特朗普言论档案"
     }
   },
   "schema_version": "1.0",

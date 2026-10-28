@@ -8,6 +8,102 @@
   "favicon": "https://nanalab.kr/favicon.ico/android-icon-192x192.png",
   "items": [
     {
+      "id": "urn:nanalab:apps:rebirth-cat",
+      "url": "https://nanalab.kr/rebirth-cat/",
+      "title": "[앱] 고양이 환생게임",
+      "content_text": "품종과 도메스틱·믹스를 포함한 24가지 고양이의 털색·가상 성격·생활을 뽑는 게임입니다.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "재미·라이프"
+      ],
+      "date_published": "2026-10-28T11:19:37Z",
+      "image": "/apps/img/rebirth-cat.svg"
+    },
+    {
+      "id": "urn:nanalab:apps:rebirth-dog",
+      "url": "https://nanalab.kr/rebirth-dog/",
+      "title": "[앱] 강아지로 환생하기",
+      "content_text": "품종과 믹스견을 포함한 24가지 강아지의 모습·가상 성격·하루를 뽑는 게임입니다.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "재미·라이프"
+      ],
+      "date_published": "2026-10-28T11:19:20Z",
+      "image": "/apps/img/rebirth-dog.svg"
+    },
+    {
+      "id": "urn:nanalab:apps:isekai-cheat",
+      "url": "https://nanalab.kr/isekai-cheat/",
+      "title": "[앱] 이세계 전생 치트 뽑기",
+      "content_text": "24개 창작 판타지 능력 중 하나를 뽑아 발동 조건·제약·대가·첫 사용 장면을 확인하는 게임입니다.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "재미·라이프"
+      ],
+      "date_published": "2026-10-28T11:19:03Z",
+      "image": "/apps/img/isekai-cheat.svg"
+    },
+    {
+      "id": "urn:nanalab:apps:rebirth-status",
+      "url": "https://nanalab.kr/rebirth-status/",
+      "title": "[앱] 신분 환생",
+      "content_text": "조선시대의 가상 가구를 뽑아 사회적 신분과 살림 형편을 따로 확인하는 게임입니다.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "재미·라이프"
+      ],
+      "date_published": "2026-10-28T11:18:49Z",
+      "image": "/apps/img/rebirth-status.svg"
+    },
+    {
+      "id": "urn:nanalab:apps:rebirth-era",
+      "url": "https://nanalab.kr/rebirth-era/",
+      "title": "[앱] 시대 환생",
+      "content_text": "기원전 10000년부터 2026년까지 시대·지역을 뽑아 가상의 옷·집·일·하루를 확인하는 게임입니다.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "재미·라이프"
+      ],
+      "date_published": "2026-10-28T11:17:15Z",
+      "image": "/apps/img/rebirth-era.svg"
+    },
+    {
+      "id": "urn:nanalab:apps:trump-says",
+      "url": "https://nanalab.kr/trump-says/",
+      "title": "[앱] Trump Says",
+      "content_text": "Trump의 X·Truth Social 부분 기록 97,084건을 날짜별로 찾는 아카이브입니다. 일부는 본문 없는 메타데이터이며 실시간·전체 수집이 아닙니다.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "재미·라이프"
+      ],
+      "date_published": "2026-10-28T11:02:19Z",
+      "image": "/apps/img/trump-says.svg"
+    },
+    {
+      "id": "urn:nanalab:apps:pdf-night-mode",
+      "url": "https://nanalab.kr/pdf-night-mode/",
+      "title": "[앱] PDF 색상 반전",
+      "content_text": "PDF의 배경과 글자색을 바꿉니다. 저장본은 이미지 PDF이며 텍스트 검색·폼·링크는 유지되지 않습니다.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "문서·텍스트"
+      ],
+      "date_published": "2026-10-28T11:02:12Z",
+      "image": "/apps/img/pdf-night-mode.svg"
+    },
+    {
+      "id": "urn:nanalab:apps:red-seal-png",
+      "url": "https://nanalab.kr/red-seal-png/",
+      "title": "[앱] 도장 만들기",
+      "content_text": "이름과 무료 글꼴로 도장을 만들고 투명 배경 PNG로 저장하는 도구입니다.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "이미지·미디어"
+      ],
+      "date_published": "2026-10-28T11:02:06Z",
+      "image": "/apps/img/red-seal-png.svg"
+    },
+    {
       "id": "urn:nanalab:apps:cuda-compatibility-checker",
       "url": "https://nanalab.kr/cuda-compatibility-checker/",
       "title": "[앱] CUDA·드라이버·PyTorch 조건 확인",
@@ -2306,102 +2402,6 @@
       ],
       "date_published": "2026-10-25T00:59:20Z",
       "image": "https://nanalab.kr/eng-volume-flow/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-dynamic-pressure",
-      "url": "https://nanalab.kr/eng-dynamic-pressure/",
-      "title": "[앱] 동압 한 값 계산기",
-      "content_text": "풍속 동압 계산 / 풍동 하중과 계수 산정 전 검산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T00:59:12Z",
-      "image": "https://nanalab.kr/eng-dynamic-pressure/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-mach",
-      "url": "https://nanalab.kr/eng-mach/",
-      "title": "[앱] 마하수 계산기",
-      "content_text": "마하수 계산 / 풍동·노즐 실험 속도비 확인 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T00:59:04Z",
-      "image": "https://nanalab.kr/eng-mach/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-reynolds",
-      "url": "https://nanalab.kr/eng-reynolds/",
-      "title": "[앱] 레이놀즈수 계산기",
-      "content_text": "레이놀즈수 계산 / 관 유동 실험·모형 유사성 점검 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T00:58:55Z",
-      "image": "https://nanalab.kr/eng-reynolds/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:cat-naps",
-      "url": "https://nanalab.kr/cat-naps/",
-      "title": "[앱] 까다로운 고양이 6마리, 전부 재울 수 있을까?",
-      "content_text": "여섯 고양이의 조건을 살피며 모두 잠들 수 있는 자리를 찾아보세요.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "재미·라이프"
-      ],
-      "date_published": "2026-10-24T21:18:42Z",
-      "image": "https://nanalab.kr/cat-naps/og/default.jpg"
-    },
-    {
-      "id": "urn:nanalab:apps:line-copy",
-      "url": "https://nanalab.kr/line-copy/",
-      "title": "[앱] 딱 2초 본 선, 똑같이 그릴 수 있을까?",
-      "content_text": "2초 동안 본 선의 길이를 기억하고 똑같이 그려 보세요.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "재미·라이프"
-      ],
-      "date_published": "2026-10-24T21:18:39Z",
-      "image": "https://nanalab.kr/line-copy/og/default.jpg"
-    },
-    {
-      "id": "urn:nanalab:apps:next-life-stats",
-      "url": "https://nanalab.kr/next-life-stats/",
-      "title": "[앱] 다음 생에 쓸 100점, 어디에 걸어야 잘 풀릴까?",
-      "content_text": "다음 생에 쓸 100점을 나누고 나만의 결과를 확인하는 게임입니다.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "재미·라이프"
-      ],
-      "date_published": "2026-10-24T21:18:36Z",
-      "image": "https://nanalab.kr/next-life-stats/og/default.jpg"
-    },
-    {
-      "id": "urn:nanalab:apps:rain-rhythm",
-      "url": "https://nanalab.kr/rain-rhythm/",
-      "title": "[앱] 방금 본 빗방울, 같은 박자로 칠 수 있을까?",
-      "content_text": "방금 들은 빗방울의 리듬을 기억하고 같은 박자로 따라 쳐 보세요.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "재미·라이프"
-      ],
-      "date_published": "2026-10-24T21:18:34Z",
-      "image": "https://nanalab.kr/rain-rhythm/og/default.jpg"
-    },
-    {
-      "id": "urn:nanalab:apps:lunch-math",
-      "url": "https://nanalab.kr/lunch-math/",
-      "title": "[앱] 계산기 없이 점심값, 얼마나 빨리 맞힐 수 있을까?",
-      "content_text": "계산기 없이 점심값을 계산하며 암산 속도와 정확도를 확인해 보세요.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "재미·라이프"
-      ],
-      "date_published": "2026-10-24T21:18:31Z",
-      "image": "https://nanalab.kr/lunch-math/og/default.jpg"
     }
   ]
 }

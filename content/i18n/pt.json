@@ -1271,6 +1271,46 @@
       "name": "Requisitos de CUDA, driver e PyTorch",
       "description": "Compare um perfil com a versão do driver inserida. Os detalhes de GPU, Python e sistema exigem verificações separadas.",
       "image_alt": "Requisitos de CUDA, driver e PyTorch"
+    },
+    "rebirth-era": {
+      "name": "Renascer na história",
+      "description": "Sorteie um ano e uma região entre 10000 a.C. e 2026 para descobrir uma vida fictícia. As probabilidades usam pesos definidos para o jogo, não proporções históricas da população.",
+      "image_alt": "Renascer na história"
+    },
+    "rebirth-status": {
+      "name": "Renascer em um estamento",
+      "description": "Sorteie uma família fictícia de Joseon e veja separadamente a condição social e os recursos da casa. As probabilidades usam pesos definidos para o jogo, não proporções reais da população.",
+      "image_alt": "Renascer em um estamento"
+    },
+    "isekai-cheat": {
+      "name": "Sorteio de poderes ao renascer",
+      "description": "Sorteie um poder e sua primeira cena de uso entre cenários de fantasia originais. As probabilidades usam pesos definidos para o jogo e não preveem habilidades reais nem o destino.",
+      "image_alt": "Sorteio de poderes ao renascer"
+    },
+    "rebirth-dog": {
+      "name": "Reencarnar como cão",
+      "description": "Sorteie uma de 24 vidas caninas fictícias, incluindo cães sem raça definida. As probabilidades usam pesos definidos para o jogo, não populações reais de raças nem previsões de temperamento.",
+      "image_alt": "Reencarnar como cão"
+    },
+    "rebirth-cat": {
+      "name": "Jogo de renascer como gato",
+      "description": "Sorteie uma raça ou um tipo de gato, incluindo domésticos e mestiços, e descubra um dia fictício. As probabilidades usam pesos definidos para o jogo, sem relação com populações reais de raças ou taxas de nascimento.",
+      "image_alt": "Jogo de renascer como gato"
+    },
+    "red-seal-png": {
+      "name": "Criar carimbos",
+      "description": "Digite um nome, ajuste a forma e a disposição das letras e salve um carimbo vermelho em PNG transparente. Utiliza fontes gratuitas com licença para uso comercial.",
+      "image_alt": "Criar carimbos"
+    },
+    "pdf-night-mode": {
+      "name": "Inverter cores do PDF",
+      "description": "Inverta ou altere as cores das páginas PDF no navegador e salve um novo PDF. O resultado é um PDF de imagens; busca de texto, links, formulários e assinaturas digitais não são preservados.",
+      "image_alt": "Inverter cores do PDF"
+    },
+    "trump-says": {
+      "name": "Arquivo de declarações de Trump",
+      "description": "Consulte por data os registros de Trump no X/Twitter e no Truth Social ou pesquise seus textos. Este arquivo parcial contém 97.084 registros, incluindo registros sem texto; a coleta não é completa nem em tempo real.",
+      "image_alt": "Arquivo de declarações de Trump"
     }
   },
   "schema_version": "1.0",
