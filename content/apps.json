@@ -5881,5 +5881,425 @@
     "image_url": "/apps/img/sam-altman-says.svg",
     "image_fit": "contain",
     "image_alt": "Sam Altman Says"
+  },
+  {
+    "id": "zelenskyy-says",
+    "name": "Zelenskyy Says",
+    "category": "재미·라이프",
+    "description": "Browse 140 collected X posts from Volodymyr Zelenskyy (@ZelenskyyUa) by date. Partial snapshot; native reposts excluded; original language only.",
+    "symbol": "▤",
+    "url": "https://nanalab.kr/zelenskyy-says/",
+    "repository": "https://github.com/NaNaCompany/zelenskyy-says",
+    "published_at": "2026-10-29T00:01:17Z",
+    "date_source": "github_repository_created_at",
+    "languages": [
+      "en"
+    ],
+    "language_paths": {
+      "en": ""
+    },
+    "sitemap_lastmod": "2026-10-29",
+    "image_url": "/apps/img/zelenskyy-says.svg",
+    "image_fit": "contain",
+    "image_alt": "Zelenskyy Says"
+  },
+  {
+    "id": "melenchon-says",
+    "name": "Mélenchon Says",
+    "category": "재미·라이프",
+    "description": "Browse 353 collected X posts from Jean-Luc Mélenchon (@JLMelenchon) by date. Partial snapshot; native reposts excluded; original language only.",
+    "symbol": "▤",
+    "url": "https://nanalab.kr/melenchon-says/",
+    "repository": "https://github.com/NaNaCompany/melenchon-says",
+    "published_at": "2026-10-29T00:01:29Z",
+    "date_source": "github_repository_created_at",
+    "languages": [
+      "en"
+    ],
+    "language_paths": {
+      "en": ""
+    },
+    "sitemap_lastmod": "2026-10-29",
+    "image_url": "/apps/img/melenchon-says.svg",
+    "image_fit": "contain",
+    "image_alt": "Mélenchon Says"
+  },
+  {
+    "id": "milei-says",
+    "name": "Milei Says",
+    "category": "재미·라이프",
+    "description": "Browse 19 collected X posts from Javier Milei (@JMilei) by date. Partial snapshot; native reposts excluded; original language only.",
+    "symbol": "▤",
+    "url": "https://nanalab.kr/milei-says/",
+    "repository": "https://github.com/NaNaCompany/milei-says",
+    "published_at": "2026-10-29T00:01:39Z",
+    "date_source": "github_repository_created_at",
+    "languages": [
+      "en"
+    ],
+    "language_paths": {
+      "en": ""
+    },
+    "sitemap_lastmod": "2026-10-29",
+    "image_url": "/apps/img/milei-says.svg",
+    "image_fit": "contain",
+    "image_alt": "Milei Says"
+  },
+  {
+    "id": "petro-says",
+    "name": "Petro Says",
+    "category": "재미·라이프",
+    "description": "Browse 285 collected X posts from Gustavo Petro (@petrogustavo) by date. Partial snapshot; native reposts excluded; original language only.",
+    "symbol": "▤",
+    "url": "https://nanalab.kr/petro-says/",
+    "repository": "https://github.com/NaNaCompany/petro-says",
+    "published_at": "2026-10-29T00:01:49Z",
+    "date_source": "github_repository_created_at",
+    "languages": [
+      "en"
+    ],
+    "language_paths": {
+      "en": ""
+    },
+    "sitemap_lastmod": "2026-10-29",
+    "image_url": "/apps/img/petro-says.svg",
+    "image_fit": "contain",
+    "image_alt": "Petro Says"
+  },
+  {
+    "id": "bukele-says",
+    "name": "Bukele Says",
+    "category": "재미·라이프",
+    "description": "Browse 127 collected X posts from Nayib Bukele (@nayibbukele) by date. Partial snapshot; native reposts excluded; original language only.",
+    "symbol": "▤",
+    "url": "https://nanalab.kr/bukele-says/",
+    "repository": "https://github.com/NaNaCompany/bukele-says",
+    "published_at": "2026-10-29T00:01:59Z",
+    "date_source": "github_repository_created_at",
+    "languages": [
+      "en"
+    ],
+    "language_paths": {
+      "en": ""
+    },
+    "sitemap_lastmod": "2026-10-29",
+    "image_url": "/apps/img/bukele-says.svg",
+    "image_fit": "contain",
+    "image_alt": "Bukele Says"
+  },
+  {
+    "id": "wilders-says",
+    "name": "Wilders Says",
+    "category": "재미·라이프",
+    "description": "Browse 302 collected X posts from Geert Wilders (@geertwilderspvv) by date. Partial snapshot; native reposts excluded; original language only.",
+    "symbol": "▤",
+    "url": "https://nanalab.kr/wilders-says/",
+    "repository": "https://github.com/NaNaCompany/wilders-says",
+    "published_at": "2026-10-29T00:02:10Z",
+    "date_source": "github_repository_created_at",
+    "languages": [
+      "en"
+    ],
+    "language_paths": {
+      "en": ""
+    },
+    "sitemap_lastmod": "2026-10-29",
+    "image_url": "/apps/img/wilders-says.svg",
+    "image_fit": "contain",
+    "image_alt": "Wilders Says"
+  },
+  {
+    "id": "aoc-says",
+    "name": "AOC Says",
+    "category": "재미·라이프",
+    "description": "Browse 147 collected X posts from Alexandria Ocasio-Cortez (@AOC) by date. Partial snapshot; native reposts excluded; original language only.",
+    "symbol": "▤",
+    "url": "https://nanalab.kr/aoc-says/",
+    "repository": "https://github.com/NaNaCompany/aoc-says",
+    "published_at": "2026-10-29T00:02:21Z",
+    "date_source": "github_repository_created_at",
+    "languages": [
+      "en"
+    ],
+    "language_paths": {
+      "en": ""
+    },
+    "sitemap_lastmod": "2026-10-29",
+    "image_url": "/apps/img/aoc-says.svg",
+    "image_fit": "contain",
+    "image_alt": "AOC Says"
+  },
+  {
+    "id": "sanders-says",
+    "name": "Sanders Says",
+    "category": "재미·라이프",
+    "description": "Browse 307 collected X posts from Bernie Sanders (@BernieSanders) by date. Partial snapshot; native reposts excluded; original language only.",
+    "symbol": "▤",
+    "url": "https://nanalab.kr/sanders-says/",
+    "repository": "https://github.com/NaNaCompany/sanders-says",
+    "published_at": "2026-10-29T00:02:31Z",
+    "date_source": "github_repository_created_at",
+    "languages": [
+      "en"
+    ],
+    "language_paths": {
+      "en": ""
+    },
+    "sitemap_lastmod": "2026-10-29",
+    "image_url": "/apps/img/sanders-says.svg",
+    "image_fit": "contain",
+    "image_alt": "Sanders Says"
+  },
+  {
+    "id": "vance-says",
+    "name": "Vance Says",
+    "category": "재미·라이프",
+    "description": "Browse 104 collected X posts from J. D. Vance (@JDVance) by date. Partial snapshot; native reposts excluded; original language only.",
+    "symbol": "▤",
+    "url": "https://nanalab.kr/vance-says/",
+    "repository": "https://github.com/NaNaCompany/vance-says",
+    "published_at": "2026-10-29T00:02:42Z",
+    "date_source": "github_repository_created_at",
+    "languages": [
+      "en"
+    ],
+    "language_paths": {
+      "en": ""
+    },
+    "sitemap_lastmod": "2026-10-29",
+    "image_url": "/apps/img/vance-says.svg",
+    "image_fit": "contain",
+    "image_alt": "Vance Says"
+  },
+  {
+    "id": "newsom-says",
+    "name": "Newsom Says",
+    "category": "재미·라이프",
+    "description": "Browse 356 collected X posts from Gavin Newsom (@GavinNewsom) by date. Partial snapshot; native reposts excluded; original language only.",
+    "symbol": "▤",
+    "url": "https://nanalab.kr/newsom-says/",
+    "repository": "https://github.com/NaNaCompany/newsom-says",
+    "published_at": "2026-10-29T00:02:52Z",
+    "date_source": "github_repository_created_at",
+    "languages": [
+      "en"
+    ],
+    "language_paths": {
+      "en": ""
+    },
+    "sitemap_lastmod": "2026-10-29",
+    "image_url": "/apps/img/newsom-says.svg",
+    "image_fit": "contain",
+    "image_alt": "Newsom Says"
+  },
+  {
+    "id": "cruz-says",
+    "name": "Cruz Says",
+    "category": "재미·라이프",
+    "description": "Browse 147 collected X posts from Ted Cruz (@tedcruz) by date. Partial snapshot; native reposts excluded; original language only.",
+    "symbol": "▤",
+    "url": "https://nanalab.kr/cruz-says/",
+    "repository": "https://github.com/NaNaCompany/cruz-says",
+    "published_at": "2026-10-29T00:03:03Z",
+    "date_source": "github_repository_created_at",
+    "languages": [
+      "en"
+    ],
+    "language_paths": {
+      "en": ""
+    },
+    "sitemap_lastmod": "2026-10-29",
+    "image_url": "/apps/img/cruz-says.svg",
+    "image_fit": "contain",
+    "image_alt": "Cruz Says"
+  },
+  {
+    "id": "farage-says",
+    "name": "Farage Says",
+    "category": "재미·라이프",
+    "description": "Browse 334 collected X posts from Nigel Farage (@Nigel_Farage) by date. Partial snapshot; native reposts excluded; original language only.",
+    "symbol": "▤",
+    "url": "https://nanalab.kr/farage-says/",
+    "repository": "https://github.com/NaNaCompany/farage-says",
+    "published_at": "2026-10-29T00:03:13Z",
+    "date_source": "github_repository_created_at",
+    "languages": [
+      "en"
+    ],
+    "language_paths": {
+      "en": ""
+    },
+    "sitemap_lastmod": "2026-10-29",
+    "image_url": "/apps/img/farage-says.svg",
+    "image_fit": "contain",
+    "image_alt": "Farage Says"
+  },
+  {
+    "id": "kono-says",
+    "name": "Kono Says",
+    "category": "재미·라이프",
+    "description": "Browse 365 collected X posts from Taro Kono (@konotarogomame) by date. Partial snapshot; native reposts excluded; original language only.",
+    "symbol": "▤",
+    "url": "https://nanalab.kr/kono-says/",
+    "repository": "https://github.com/NaNaCompany/kono-says",
+    "published_at": "2026-10-29T00:03:24Z",
+    "date_source": "github_repository_created_at",
+    "languages": [
+      "en"
+    ],
+    "language_paths": {
+      "en": ""
+    },
+    "sitemap_lastmod": "2026-10-29",
+    "image_url": "/apps/img/kono-says.svg",
+    "image_fit": "contain",
+    "image_alt": "Kono Says"
+  },
+  {
+    "id": "takaichi-says",
+    "name": "Takaichi Says",
+    "category": "재미·라이프",
+    "description": "Browse 383 collected X posts from Sanae Takaichi (@takaichi_sanae) by date. Partial snapshot; native reposts excluded; original language only.",
+    "symbol": "▤",
+    "url": "https://nanalab.kr/takaichi-says/",
+    "repository": "https://github.com/NaNaCompany/takaichi-says",
+    "published_at": "2026-10-29T00:03:35Z",
+    "date_source": "github_repository_created_at",
+    "languages": [
+      "en"
+    ],
+    "language_paths": {
+      "en": ""
+    },
+    "sitemap_lastmod": "2026-10-29",
+    "image_url": "/apps/img/takaichi-says.svg",
+    "image_fit": "contain",
+    "image_alt": "Takaichi Says"
+  },
+  {
+    "id": "modi-says",
+    "name": "Modi Says",
+    "category": "재미·라이프",
+    "description": "Browse 240 collected X posts from Narendra Modi (@narendramodi) by date. Partial snapshot; native reposts excluded; original language only.",
+    "symbol": "▤",
+    "url": "https://nanalab.kr/modi-says/",
+    "repository": "https://github.com/NaNaCompany/modi-says",
+    "published_at": "2026-10-29T00:03:46Z",
+    "date_source": "github_repository_created_at",
+    "languages": [
+      "en"
+    ],
+    "language_paths": {
+      "en": ""
+    },
+    "sitemap_lastmod": "2026-10-29",
+    "image_url": "/apps/img/modi-says.svg",
+    "image_fit": "contain",
+    "image_alt": "Modi Says"
+  },
+  {
+    "id": "macron-says",
+    "name": "Macron Says",
+    "category": "재미·라이프",
+    "description": "Browse 377 collected X posts from Emmanuel Macron (@EmmanuelMacron) by date. Partial snapshot; native reposts excluded; original language only.",
+    "symbol": "▤",
+    "url": "https://nanalab.kr/macron-says/",
+    "repository": "https://github.com/NaNaCompany/macron-says",
+    "published_at": "2026-10-29T00:03:57Z",
+    "date_source": "github_repository_created_at",
+    "languages": [
+      "en"
+    ],
+    "language_paths": {
+      "en": ""
+    },
+    "sitemap_lastmod": "2026-10-29",
+    "image_url": "/apps/img/macron-says.svg",
+    "image_fit": "contain",
+    "image_alt": "Macron Says"
+  },
+  {
+    "id": "lula-says",
+    "name": "Lula Says",
+    "category": "재미·라이프",
+    "description": "Browse 238 collected X posts from Luiz Inácio Lula da Silva (@LulaOficial) by date. Partial snapshot; native reposts excluded; original language only.",
+    "symbol": "▤",
+    "url": "https://nanalab.kr/lula-says/",
+    "repository": "https://github.com/NaNaCompany/lula-says",
+    "published_at": "2026-10-29T00:04:07Z",
+    "date_source": "github_repository_created_at",
+    "languages": [
+      "en"
+    ],
+    "language_paths": {
+      "en": ""
+    },
+    "sitemap_lastmod": "2026-10-29",
+    "image_url": "/apps/img/lula-says.svg",
+    "image_fit": "contain",
+    "image_alt": "Lula Says"
+  },
+  {
+    "id": "le-pen-says",
+    "name": "Le Pen Says",
+    "category": "재미·라이프",
+    "description": "Browse 270 collected X posts from Marine Le Pen (@MLP_officiel) by date. Partial snapshot; native reposts excluded; original language only.",
+    "symbol": "▤",
+    "url": "https://nanalab.kr/le-pen-says/",
+    "repository": "https://github.com/NaNaCompany/le-pen-says",
+    "published_at": "2026-10-29T00:04:17Z",
+    "date_source": "github_repository_created_at",
+    "languages": [
+      "en"
+    ],
+    "language_paths": {
+      "en": ""
+    },
+    "sitemap_lastmod": "2026-10-29",
+    "image_url": "/apps/img/le-pen-says.svg",
+    "image_fit": "contain",
+    "image_alt": "Le Pen Says"
+  },
+  {
+    "id": "bardella-says",
+    "name": "Bardella Says",
+    "category": "재미·라이프",
+    "description": "Browse 353 collected X posts from Jordan Bardella (@J_Bardella) by date. Partial snapshot; native reposts excluded; original language only.",
+    "symbol": "▤",
+    "url": "https://nanalab.kr/bardella-says/",
+    "repository": "https://github.com/NaNaCompany/bardella-says",
+    "published_at": "2026-10-29T00:04:28Z",
+    "date_source": "github_repository_created_at",
+    "languages": [
+      "en"
+    ],
+    "language_paths": {
+      "en": ""
+    },
+    "sitemap_lastmod": "2026-10-29",
+    "image_url": "/apps/img/bardella-says.svg",
+    "image_fit": "contain",
+    "image_alt": "Bardella Says"
+  },
+  {
+    "id": "sanchez-says",
+    "name": "Sánchez Says",
+    "category": "재미·라이프",
+    "description": "Browse 305 collected X posts from Pedro Sánchez (@sanchezcastejon) by date. Partial snapshot; native reposts excluded; original language only.",
+    "symbol": "▤",
+    "url": "https://nanalab.kr/sanchez-says/",
+    "repository": "https://github.com/NaNaCompany/sanchez-says",
+    "published_at": "2026-10-29T00:04:38Z",
+    "date_source": "github_repository_created_at",
+    "languages": [
+      "en"
+    ],
+    "language_paths": {
+      "en": ""
+    },
+    "sitemap_lastmod": "2026-10-29",
+    "image_url": "/apps/img/sanchez-says.svg",
+    "image_fit": "contain",
+    "image_alt": "Sánchez Says"
   }
 ]

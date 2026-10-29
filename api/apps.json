@@ -1,8 +1,408 @@
 {
   "schema_version": "1.0",
   "type": "apps",
-  "count": 240,
+  "count": 260,
   "items": [
+    {
+      "id": "sanchez-says",
+      "section": "apps",
+      "title": "Sánchez Says",
+      "url": "https://nanalab.kr/sanchez-says/",
+      "summary": "Browse 305 collected X posts from Pedro Sánchez (@sanchezcastejon) by date. Partial snapshot; native reposts excluded; original language only.",
+      "category": "재미·라이프",
+      "date_published": "2026-10-29T00:04:38Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "/apps/img/sanchez-says.svg",
+      "repository": "https://github.com/NaNaCompany/sanchez-says",
+      "languages": [
+        "en"
+      ],
+      "language_urls": {
+        "en": "https://nanalab.kr/sanchez-says/"
+      }
+    },
+    {
+      "id": "bardella-says",
+      "section": "apps",
+      "title": "Bardella Says",
+      "url": "https://nanalab.kr/bardella-says/",
+      "summary": "Browse 353 collected X posts from Jordan Bardella (@J_Bardella) by date. Partial snapshot; native reposts excluded; original language only.",
+      "category": "재미·라이프",
+      "date_published": "2026-10-29T00:04:28Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "/apps/img/bardella-says.svg",
+      "repository": "https://github.com/NaNaCompany/bardella-says",
+      "languages": [
+        "en"
+      ],
+      "language_urls": {
+        "en": "https://nanalab.kr/bardella-says/"
+      }
+    },
+    {
+      "id": "le-pen-says",
+      "section": "apps",
+      "title": "Le Pen Says",
+      "url": "https://nanalab.kr/le-pen-says/",
+      "summary": "Browse 270 collected X posts from Marine Le Pen (@MLP_officiel) by date. Partial snapshot; native reposts excluded; original language only.",
+      "category": "재미·라이프",
+      "date_published": "2026-10-29T00:04:17Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "/apps/img/le-pen-says.svg",
+      "repository": "https://github.com/NaNaCompany/le-pen-says",
+      "languages": [
+        "en"
+      ],
+      "language_urls": {
+        "en": "https://nanalab.kr/le-pen-says/"
+      }
+    },
+    {
+      "id": "lula-says",
+      "section": "apps",
+      "title": "Lula Says",
+      "url": "https://nanalab.kr/lula-says/",
+      "summary": "Browse 238 collected X posts from Luiz Inácio Lula da Silva (@LulaOficial) by date. Partial snapshot; native reposts excluded; original language only.",
+      "category": "재미·라이프",
+      "date_published": "2026-10-29T00:04:07Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "/apps/img/lula-says.svg",
+      "repository": "https://github.com/NaNaCompany/lula-says",
+      "languages": [
+        "en"
+      ],
+      "language_urls": {
+        "en": "https://nanalab.kr/lula-says/"
+      }
+    },
+    {
+      "id": "macron-says",
+      "section": "apps",
+      "title": "Macron Says",
+      "url": "https://nanalab.kr/macron-says/",
+      "summary": "Browse 377 collected X posts from Emmanuel Macron (@EmmanuelMacron) by date. Partial snapshot; native reposts excluded; original language only.",
+      "category": "재미·라이프",
+      "date_published": "2026-10-29T00:03:57Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "/apps/img/macron-says.svg",
+      "repository": "https://github.com/NaNaCompany/macron-says",
+      "languages": [
+        "en"
+      ],
+      "language_urls": {
+        "en": "https://nanalab.kr/macron-says/"
+      }
+    },
+    {
+      "id": "modi-says",
+      "section": "apps",
+      "title": "Modi Says",
+      "url": "https://nanalab.kr/modi-says/",
+      "summary": "Browse 240 collected X posts from Narendra Modi (@narendramodi) by date. Partial snapshot; native reposts excluded; original language only.",
+      "category": "재미·라이프",
+      "date_published": "2026-10-29T00:03:46Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "/apps/img/modi-says.svg",
+      "repository": "https://github.com/NaNaCompany/modi-says",
+      "languages": [
+        "en"
+      ],
+      "language_urls": {
+        "en": "https://nanalab.kr/modi-says/"
+      }
+    },
+    {
+      "id": "takaichi-says",
+      "section": "apps",
+      "title": "Takaichi Says",
+      "url": "https://nanalab.kr/takaichi-says/",
+      "summary": "Browse 383 collected X posts from Sanae Takaichi (@takaichi_sanae) by date. Partial snapshot; native reposts excluded; original language only.",
+      "category": "재미·라이프",
+      "date_published": "2026-10-29T00:03:35Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "/apps/img/takaichi-says.svg",
+      "repository": "https://github.com/NaNaCompany/takaichi-says",
+      "languages": [
+        "en"
+      ],
+      "language_urls": {
+        "en": "https://nanalab.kr/takaichi-says/"
+      }
+    },
+    {
+      "id": "kono-says",
+      "section": "apps",
+      "title": "Kono Says",
+      "url": "https://nanalab.kr/kono-says/",
+      "summary": "Browse 365 collected X posts from Taro Kono (@konotarogomame) by date. Partial snapshot; native reposts excluded; original language only.",
+      "category": "재미·라이프",
+      "date_published": "2026-10-29T00:03:24Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "/apps/img/kono-says.svg",
+      "repository": "https://github.com/NaNaCompany/kono-says",
+      "languages": [
+        "en"
+      ],
+      "language_urls": {
+        "en": "https://nanalab.kr/kono-says/"
+      }
+    },
+    {
+      "id": "farage-says",
+      "section": "apps",
+      "title": "Farage Says",
+      "url": "https://nanalab.kr/farage-says/",
+      "summary": "Browse 334 collected X posts from Nigel Farage (@Nigel_Farage) by date. Partial snapshot; native reposts excluded; original language only.",
+      "category": "재미·라이프",
+      "date_published": "2026-10-29T00:03:13Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "/apps/img/farage-says.svg",
+      "repository": "https://github.com/NaNaCompany/farage-says",
+      "languages": [
+        "en"
+      ],
+      "language_urls": {
+        "en": "https://nanalab.kr/farage-says/"
+      }
+    },
+    {
+      "id": "cruz-says",
+      "section": "apps",
+      "title": "Cruz Says",
+      "url": "https://nanalab.kr/cruz-says/",
+      "summary": "Browse 147 collected X posts from Ted Cruz (@tedcruz) by date. Partial snapshot; native reposts excluded; original language only.",
+      "category": "재미·라이프",
+      "date_published": "2026-10-29T00:03:03Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "/apps/img/cruz-says.svg",
+      "repository": "https://github.com/NaNaCompany/cruz-says",
+      "languages": [
+        "en"
+      ],
+      "language_urls": {
+        "en": "https://nanalab.kr/cruz-says/"
+      }
+    },
+    {
+      "id": "newsom-says",
+      "section": "apps",
+      "title": "Newsom Says",
+      "url": "https://nanalab.kr/newsom-says/",
+      "summary": "Browse 356 collected X posts from Gavin Newsom (@GavinNewsom) by date. Partial snapshot; native reposts excluded; original language only.",
+      "category": "재미·라이프",
+      "date_published": "2026-10-29T00:02:52Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "/apps/img/newsom-says.svg",
+      "repository": "https://github.com/NaNaCompany/newsom-says",
+      "languages": [
+        "en"
+      ],
+      "language_urls": {
+        "en": "https://nanalab.kr/newsom-says/"
+      }
+    },
+    {
+      "id": "vance-says",
+      "section": "apps",
+      "title": "Vance Says",
+      "url": "https://nanalab.kr/vance-says/",
+      "summary": "Browse 104 collected X posts from J. D. Vance (@JDVance) by date. Partial snapshot; native reposts excluded; original language only.",
+      "category": "재미·라이프",
+      "date_published": "2026-10-29T00:02:42Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "/apps/img/vance-says.svg",
+      "repository": "https://github.com/NaNaCompany/vance-says",
+      "languages": [
+        "en"
+      ],
+      "language_urls": {
+        "en": "https://nanalab.kr/vance-says/"
+      }
+    },
+    {
+      "id": "sanders-says",
+      "section": "apps",
+      "title": "Sanders Says",
+      "url": "https://nanalab.kr/sanders-says/",
+      "summary": "Browse 307 collected X posts from Bernie Sanders (@BernieSanders) by date. Partial snapshot; native reposts excluded; original language only.",
+      "category": "재미·라이프",
+      "date_published": "2026-10-29T00:02:31Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "/apps/img/sanders-says.svg",
+      "repository": "https://github.com/NaNaCompany/sanders-says",
+      "languages": [
+        "en"
+      ],
+      "language_urls": {
+        "en": "https://nanalab.kr/sanders-says/"
+      }
+    },
+    {
+      "id": "aoc-says",
+      "section": "apps",
+      "title": "AOC Says",
+      "url": "https://nanalab.kr/aoc-says/",
+      "summary": "Browse 147 collected X posts from Alexandria Ocasio-Cortez (@AOC) by date. Partial snapshot; native reposts excluded; original language only.",
+      "category": "재미·라이프",
+      "date_published": "2026-10-29T00:02:21Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "/apps/img/aoc-says.svg",
+      "repository": "https://github.com/NaNaCompany/aoc-says",
+      "languages": [
+        "en"
+      ],
+      "language_urls": {
+        "en": "https://nanalab.kr/aoc-says/"
+      }
+    },
+    {
+      "id": "wilders-says",
+      "section": "apps",
+      "title": "Wilders Says",
+      "url": "https://nanalab.kr/wilders-says/",
+      "summary": "Browse 302 collected X posts from Geert Wilders (@geertwilderspvv) by date. Partial snapshot; native reposts excluded; original language only.",
+      "category": "재미·라이프",
+      "date_published": "2026-10-29T00:02:10Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "/apps/img/wilders-says.svg",
+      "repository": "https://github.com/NaNaCompany/wilders-says",
+      "languages": [
+        "en"
+      ],
+      "language_urls": {
+        "en": "https://nanalab.kr/wilders-says/"
+      }
+    },
+    {
+      "id": "bukele-says",
+      "section": "apps",
+      "title": "Bukele Says",
+      "url": "https://nanalab.kr/bukele-says/",
+      "summary": "Browse 127 collected X posts from Nayib Bukele (@nayibbukele) by date. Partial snapshot; native reposts excluded; original language only.",
+      "category": "재미·라이프",
+      "date_published": "2026-10-29T00:01:59Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "/apps/img/bukele-says.svg",
+      "repository": "https://github.com/NaNaCompany/bukele-says",
+      "languages": [
+        "en"
+      ],
+      "language_urls": {
+        "en": "https://nanalab.kr/bukele-says/"
+      }
+    },
+    {
+      "id": "petro-says",
+      "section": "apps",
+      "title": "Petro Says",
+      "url": "https://nanalab.kr/petro-says/",
+      "summary": "Browse 285 collected X posts from Gustavo Petro (@petrogustavo) by date. Partial snapshot; native reposts excluded; original language only.",
+      "category": "재미·라이프",
+      "date_published": "2026-10-29T00:01:49Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "/apps/img/petro-says.svg",
+      "repository": "https://github.com/NaNaCompany/petro-says",
+      "languages": [
+        "en"
+      ],
+      "language_urls": {
+        "en": "https://nanalab.kr/petro-says/"
+      }
+    },
+    {
+      "id": "milei-says",
+      "section": "apps",
+      "title": "Milei Says",
+      "url": "https://nanalab.kr/milei-says/",
+      "summary": "Browse 19 collected X posts from Javier Milei (@JMilei) by date. Partial snapshot; native reposts excluded; original language only.",
+      "category": "재미·라이프",
+      "date_published": "2026-10-29T00:01:39Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "/apps/img/milei-says.svg",
+      "repository": "https://github.com/NaNaCompany/milei-says",
+      "languages": [
+        "en"
+      ],
+      "language_urls": {
+        "en": "https://nanalab.kr/milei-says/"
+      }
+    },
+    {
+      "id": "melenchon-says",
+      "section": "apps",
+      "title": "Mélenchon Says",
+      "url": "https://nanalab.kr/melenchon-says/",
+      "summary": "Browse 353 collected X posts from Jean-Luc Mélenchon (@JLMelenchon) by date. Partial snapshot; native reposts excluded; original language only.",
+      "category": "재미·라이프",
+      "date_published": "2026-10-29T00:01:29Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "/apps/img/melenchon-says.svg",
+      "repository": "https://github.com/NaNaCompany/melenchon-says",
+      "languages": [
+        "en"
+      ],
+      "language_urls": {
+        "en": "https://nanalab.kr/melenchon-says/"
+      }
+    },
+    {
+      "id": "zelenskyy-says",
+      "section": "apps",
+      "title": "Zelenskyy Says",
+      "url": "https://nanalab.kr/zelenskyy-says/",
+      "summary": "Browse 140 collected X posts from Volodymyr Zelenskyy (@ZelenskyyUa) by date. Partial snapshot; native reposts excluded; original language only.",
+      "category": "재미·라이프",
+      "date_published": "2026-10-29T00:01:17Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "/apps/img/zelenskyy-says.svg",
+      "repository": "https://github.com/NaNaCompany/zelenskyy-says",
+      "languages": [
+        "en"
+      ],
+      "language_urls": {
+        "en": "https://nanalab.kr/zelenskyy-says/"
+      }
+    },
     {
       "id": "sam-altman-says",
       "section": "apps",

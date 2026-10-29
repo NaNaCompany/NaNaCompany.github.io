@@ -1,5 +1,18 @@
 # 업데이트 기록
 
+## 2026-10-29 · 정치인 Says 앱 20개 등록
+
+- Zelenskyy, Mélenchon, Milei, Petro, Bukele, Wilders, AOC, Sanders, Vance, Newsom, Cruz, Farage, Kono, Takaichi, Modi, Macron, Lula, Le Pen, Bardella, Sánchez Says의 대표 카드 20개를 추가했다. 기존 240개 원본 항목·게시 시각·이미지·설명을 보존해 총 260개다. 검증한 GitHub 저장소 생성 시각으로 최신순 정렬한다.
+- 원본 앱 20개는 각각 커밋·푸시했으며 동일 커밋 GitHub Pages main:/docs built와 공개 496개 응답을 대조했다. 부분 스냅샷 5,152건·6,668 HTML이다. 원문 4,158건, 본인 설명이 붙은 인용 938건, 답글 56건을 수록했다. 출처 361페이지에서 관측한 native repost 카드 발생 1,828건을 제외했으며 전역 고유 리포스트 수로 해석하지 않는다.
+- 작성자·최상위 원문 링크·timeline-item 작성자 3개 표식과 리포스트 헤더를 독립 검토했다. 자기 글 리포스트·타인 글·불명확 항목을 제외했다. 계정 운영과 인물의 직접 타이핑 여부, 전체 이력과 수집 범위를 구분한다.
+- 사용자 요청대로 번역을 새로 만들지 않았다. 신규 카드와 보조 8언어 카탈로그에는 동일 영어 이름·설명을 사용하고, 기존 번역과 기존 언어 경로는 보존했다. 신규 앱 UI는 영어뿐이며 모든 본사이트 언어에서 검증한 앱 루트로 연결한다. 본문·번역·인물 사진·타인 요약을 복제하지 않고 공식 X 임베드·원문 링크와 자체 제작 이니셜 SVG를 사용한다.
+- 9개 언어의 메인/앱 목록 18페이지·4,680개 생성 카드를 검사했다. 기존 디자인·CSS·검색/분류·언어 선택·홈 셸·저장소 그룹 소스를 보존했다. 기존 index 기반 tone 클래스는 생성 규칙대로 유지한다.
+- 신규 앱의 sitemap.xml 색인을 중첩하지 않고 leaf 40개를 전역 색인·robots에 직접 연결했다. 루트 참조 272개·앱 leaf 271개·메인 지도 1,417 URL. 기존 URL·메타데이터를 보존하고 RSS·JSON Feed·공개 API도 갱신했다.
+- 모든 신규 앱 HTML의 GA4·GTM+noscript·AdSense·Cloudflare, canonical·More Apps를 전수 검사했다. 앱별 collector 9개·publisher/runtime 13개 회귀검사가 통과했다. 로컬 게시자 요청과 외부 임베드는 hostname guard 및 preview CSP로 차단한다. 입력값을 custom analytics로 전송하지 않는다. Astra 광고 예외는 그대로다.
+- 원본 앱의 로컬 모바일 20개 홈·월별 랜덤/일별 탐색 검증을 보존하고 운영 브라우저 검증을 별도로 기록한다. 실물 기기·OS 공유 대상 송신·검색엔진 색인 완료를 주장하지 않는다.
+- 메인 빌드 최신성·현지화·canonical·피드/API·repository groups·JS 구문·상호작용·언어 선택·사이트맵 회귀검사를 수행한다. 전체 로컬 workspace/앱 지도 검사는 삭제된 과거 형제 체크아웃 때문에 제한되며 검사 규칙은 완화하지 않는다. 원본/생성 카드 보존과 배포 후 전체 공개 leaf 검사로 보완한다.
+- 이 항목은 검증한 원본 앱 공개 상태와 본사이트의 준비된 변경을 설명한다. 본사이트 최종 커밋·동일 커밋 Pages·공개 파일 대조·사이트맵 검사 결과는 워크스페이스 UpdateQue.md와 `.tools/politician-says-20261029/catalog-release.json`에 별도 기록한다. 새 Search Console 재제출은 수행하지 않았다.
+
 ## 2026-10-29 · Says 앱 4개 등록
 
 - Musk Says, Zuckerberg Says, Tibo Says, Sam Altman Says의 대표 카드 4개를 추가했다. 기존 236개 항목·게시 시각·이미지·설명을 보존해 총 240개다. 검증한 GitHub 저장소 생성 시각으로 최신순 정렬한다.

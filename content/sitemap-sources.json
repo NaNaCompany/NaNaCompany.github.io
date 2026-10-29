@@ -2,12 +2,26 @@
   "schema_version": "1.0",
   "sources": [
     {
+      "app_id": "aoc-says",
+      "url": "https://nanalab.kr/aoc-says/sitemap-main.xml",
+      "additional_urls": [
+        "https://nanalab.kr/aoc-says/sitemap-posts-01.xml"
+      ]
+    },
+    {
       "app_id": "appliance-error-guide",
       "url": "https://nanalab.kr/appliance-error-guide/sitemap.xml"
     },
     {
       "app_id": "astra",
       "url": "https://nanalab.kr/astra/sitemap.xml"
+    },
+    {
+      "app_id": "bardella-says",
+      "url": "https://nanalab.kr/bardella-says/sitemap-main.xml",
+      "additional_urls": [
+        "https://nanalab.kr/bardella-says/sitemap-posts-01.xml"
+      ]
     },
     {
       "app_id": "bible-viewer",
@@ -21,6 +35,13 @@
       "url": "https://nanalab.kr/body-clock/sitemap.xml"
     },
     {
+      "app_id": "bukele-says",
+      "url": "https://nanalab.kr/bukele-says/sitemap-main.xml",
+      "additional_urls": [
+        "https://nanalab.kr/bukele-says/sitemap-posts-01.xml"
+      ]
+    },
+    {
       "app_id": "cat-naps",
       "url": "https://nanalab.kr/cat-naps/sitemap.xml"
     },
@@ -31,6 +52,13 @@
     {
       "app_id": "contrast-lab",
       "url": "https://nanalab.kr/contrast-lab/sitemap.xml"
+    },
+    {
+      "app_id": "cruz-says",
+      "url": "https://nanalab.kr/cruz-says/sitemap-main.xml",
+      "additional_urls": [
+        "https://nanalab.kr/cruz-says/sitemap-posts-01.xml"
+      ]
     },
     {
       "app_id": "csv-inspector",
@@ -701,6 +729,13 @@
       "url": "https://nanalab.kr/eng-wire-resistance/sitemap.xml"
     },
     {
+      "app_id": "farage-says",
+      "url": "https://nanalab.kr/farage-says/sitemap-main.xml",
+      "additional_urls": [
+        "https://nanalab.kr/farage-says/sitemap-posts-01.xml"
+      ]
+    },
+    {
       "app_id": "filename-studio",
       "url": "https://nanalab.kr/filename-studio/sitemap.xml"
     },
@@ -721,6 +756,20 @@
       "url": "https://nanalab.kr/json-workbench/sitemap.xml"
     },
     {
+      "app_id": "kono-says",
+      "url": "https://nanalab.kr/kono-says/sitemap-main.xml",
+      "additional_urls": [
+        "https://nanalab.kr/kono-says/sitemap-posts-01.xml"
+      ]
+    },
+    {
+      "app_id": "le-pen-says",
+      "url": "https://nanalab.kr/le-pen-says/sitemap-main.xml",
+      "additional_urls": [
+        "https://nanalab.kr/le-pen-says/sitemap-posts-01.xml"
+      ]
+    },
+    {
       "app_id": "level-frame",
       "url": "https://nanalab.kr/level-frame/sitemap.xml"
     },
@@ -729,16 +778,51 @@
       "url": "https://nanalab.kr/line-copy/sitemap.xml"
     },
     {
+      "app_id": "lula-says",
+      "url": "https://nanalab.kr/lula-says/sitemap-main.xml",
+      "additional_urls": [
+        "https://nanalab.kr/lula-says/sitemap-posts-01.xml"
+      ]
+    },
+    {
       "app_id": "lunch-math",
       "url": "https://nanalab.kr/lunch-math/sitemap.xml"
+    },
+    {
+      "app_id": "macron-says",
+      "url": "https://nanalab.kr/macron-says/sitemap-main.xml",
+      "additional_urls": [
+        "https://nanalab.kr/macron-says/sitemap-posts-01.xml"
+      ]
     },
     {
       "app_id": "matrix-workbench",
       "url": "https://nanalab.kr/matrix-workbench/sitemap.xml"
     },
     {
+      "app_id": "melenchon-says",
+      "url": "https://nanalab.kr/melenchon-says/sitemap-main.xml",
+      "additional_urls": [
+        "https://nanalab.kr/melenchon-says/sitemap-posts-01.xml"
+      ]
+    },
+    {
       "app_id": "meta-tag-studio",
       "url": "https://nanalab.kr/meta-tag-studio/sitemap.xml"
+    },
+    {
+      "app_id": "milei-says",
+      "url": "https://nanalab.kr/milei-says/sitemap-main.xml",
+      "additional_urls": [
+        "https://nanalab.kr/milei-says/sitemap-posts-01.xml"
+      ]
+    },
+    {
+      "app_id": "modi-says",
+      "url": "https://nanalab.kr/modi-says/sitemap-main.xml",
+      "additional_urls": [
+        "https://nanalab.kr/modi-says/sitemap-posts-01.xml"
+      ]
     },
     {
       "app_id": "musk-says",
@@ -746,6 +830,13 @@
       "additional_urls": [
         "https://nanalab.kr/musk-says/sitemap-posts-01.xml",
         "https://nanalab.kr/musk-says/sitemap-posts-02.xml"
+      ]
+    },
+    {
+      "app_id": "newsom-says",
+      "url": "https://nanalab.kr/newsom-says/sitemap-main.xml",
+      "additional_urls": [
+        "https://nanalab.kr/newsom-says/sitemap-posts-01.xml"
       ]
     },
     {
@@ -767,6 +858,13 @@
     {
       "app_id": "pdf-night-mode",
       "url": "https://nanalab.kr/pdf-night-mode/sitemap.xml"
+    },
+    {
+      "app_id": "petro-says",
+      "url": "https://nanalab.kr/petro-says/sitemap-main.xml",
+      "additional_urls": [
+        "https://nanalab.kr/petro-says/sitemap-posts-01.xml"
+      ]
     },
     {
       "app_id": "ppp",
@@ -828,6 +926,20 @@
       ]
     },
     {
+      "app_id": "sanchez-says",
+      "url": "https://nanalab.kr/sanchez-says/sitemap-main.xml",
+      "additional_urls": [
+        "https://nanalab.kr/sanchez-says/sitemap-posts-01.xml"
+      ]
+    },
+    {
+      "app_id": "sanders-says",
+      "url": "https://nanalab.kr/sanders-says/sitemap-main.xml",
+      "additional_urls": [
+        "https://nanalab.kr/sanders-says/sitemap-posts-01.xml"
+      ]
+    },
+    {
       "app_id": "semester-gpa",
       "url": "https://nanalab.kr/semester-gpa/sitemap.xml"
     },
@@ -846,6 +958,13 @@
     {
       "app_id": "table-memory",
       "url": "https://nanalab.kr/table-memory/sitemap.xml"
+    },
+    {
+      "app_id": "takaichi-says",
+      "url": "https://nanalab.kr/takaichi-says/sitemap-main.xml",
+      "additional_urls": [
+        "https://nanalab.kr/takaichi-says/sitemap-posts-01.xml"
+      ]
     },
     {
       "app_id": "template-merge",
@@ -879,6 +998,20 @@
       "url": "https://nanalab.kr/url-cleaner/sitemap.xml"
     },
     {
+      "app_id": "vance-says",
+      "url": "https://nanalab.kr/vance-says/sitemap-main.xml",
+      "additional_urls": [
+        "https://nanalab.kr/vance-says/sitemap-posts-01.xml"
+      ]
+    },
+    {
+      "app_id": "wilders-says",
+      "url": "https://nanalab.kr/wilders-says/sitemap-main.xml",
+      "additional_urls": [
+        "https://nanalab.kr/wilders-says/sitemap-posts-01.xml"
+      ]
+    },
+    {
       "app_id": "windows-error-guide",
       "url": "https://nanalab.kr/windows-error-guide/sitemap.xml"
     },
@@ -907,6 +1040,13 @@
     {
       "app_id": "world-meeting-time",
       "url": "https://nanalab.kr/world-meeting-time/sitemap.xml"
+    },
+    {
+      "app_id": "zelenskyy-says",
+      "url": "https://nanalab.kr/zelenskyy-says/sitemap-main.xml",
+      "additional_urls": [
+        "https://nanalab.kr/zelenskyy-says/sitemap-posts-01.xml"
+      ]
     },
     {
       "app_id": "zuckerberg-says",

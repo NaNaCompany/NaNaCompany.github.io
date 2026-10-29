@@ -1336,6 +1336,106 @@
       "name": "Sam Altman Says",
       "description": "Browse 50 selected X posts from Sam Altman (@sama) by date. Curated sample with original links and official embeds, not his full history.",
       "image_alt": "Sam Altman Says"
+    },
+    "zelenskyy-says": {
+      "name": "Zelenskyy Says",
+      "description": "Browse 140 collected X posts from Volodymyr Zelenskyy (@ZelenskyyUa) by date. Partial snapshot; native reposts excluded; original language only.",
+      "image_alt": "Zelenskyy Says"
+    },
+    "melenchon-says": {
+      "name": "Mélenchon Says",
+      "description": "Browse 353 collected X posts from Jean-Luc Mélenchon (@JLMelenchon) by date. Partial snapshot; native reposts excluded; original language only.",
+      "image_alt": "Mélenchon Says"
+    },
+    "milei-says": {
+      "name": "Milei Says",
+      "description": "Browse 19 collected X posts from Javier Milei (@JMilei) by date. Partial snapshot; native reposts excluded; original language only.",
+      "image_alt": "Milei Says"
+    },
+    "petro-says": {
+      "name": "Petro Says",
+      "description": "Browse 285 collected X posts from Gustavo Petro (@petrogustavo) by date. Partial snapshot; native reposts excluded; original language only.",
+      "image_alt": "Petro Says"
+    },
+    "bukele-says": {
+      "name": "Bukele Says",
+      "description": "Browse 127 collected X posts from Nayib Bukele (@nayibbukele) by date. Partial snapshot; native reposts excluded; original language only.",
+      "image_alt": "Bukele Says"
+    },
+    "wilders-says": {
+      "name": "Wilders Says",
+      "description": "Browse 302 collected X posts from Geert Wilders (@geertwilderspvv) by date. Partial snapshot; native reposts excluded; original language only.",
+      "image_alt": "Wilders Says"
+    },
+    "aoc-says": {
+      "name": "AOC Says",
+      "description": "Browse 147 collected X posts from Alexandria Ocasio-Cortez (@AOC) by date. Partial snapshot; native reposts excluded; original language only.",
+      "image_alt": "AOC Says"
+    },
+    "sanders-says": {
+      "name": "Sanders Says",
+      "description": "Browse 307 collected X posts from Bernie Sanders (@BernieSanders) by date. Partial snapshot; native reposts excluded; original language only.",
+      "image_alt": "Sanders Says"
+    },
+    "vance-says": {
+      "name": "Vance Says",
+      "description": "Browse 104 collected X posts from J. D. Vance (@JDVance) by date. Partial snapshot; native reposts excluded; original language only.",
+      "image_alt": "Vance Says"
+    },
+    "newsom-says": {
+      "name": "Newsom Says",
+      "description": "Browse 356 collected X posts from Gavin Newsom (@GavinNewsom) by date. Partial snapshot; native reposts excluded; original language only.",
+      "image_alt": "Newsom Says"
+    },
+    "cruz-says": {
+      "name": "Cruz Says",
+      "description": "Browse 147 collected X posts from Ted Cruz (@tedcruz) by date. Partial snapshot; native reposts excluded; original language only.",
+      "image_alt": "Cruz Says"
+    },
+    "farage-says": {
+      "name": "Farage Says",
+      "description": "Browse 334 collected X posts from Nigel Farage (@Nigel_Farage) by date. Partial snapshot; native reposts excluded; original language only.",
+      "image_alt": "Farage Says"
+    },
+    "kono-says": {
+      "name": "Kono Says",
+      "description": "Browse 365 collected X posts from Taro Kono (@konotarogomame) by date. Partial snapshot; native reposts excluded; original language only.",
+      "image_alt": "Kono Says"
+    },
+    "takaichi-says": {
+      "name": "Takaichi Says",
+      "description": "Browse 383 collected X posts from Sanae Takaichi (@takaichi_sanae) by date. Partial snapshot; native reposts excluded; original language only.",
+      "image_alt": "Takaichi Says"
+    },
+    "modi-says": {
+      "name": "Modi Says",
+      "description": "Browse 240 collected X posts from Narendra Modi (@narendramodi) by date. Partial snapshot; native reposts excluded; original language only.",
+      "image_alt": "Modi Says"
+    },
+    "macron-says": {
+      "name": "Macron Says",
+      "description": "Browse 377 collected X posts from Emmanuel Macron (@EmmanuelMacron) by date. Partial snapshot; native reposts excluded; original language only.",
+      "image_alt": "Macron Says"
+    },
+    "lula-says": {
+      "name": "Lula Says",
+      "description": "Browse 238 collected X posts from Luiz Inácio Lula da Silva (@LulaOficial) by date. Partial snapshot; native reposts excluded; original language only.",
+      "image_alt": "Lula Says"
+    },
+    "le-pen-says": {
+      "name": "Le Pen Says",
+      "description": "Browse 270 collected X posts from Marine Le Pen (@MLP_officiel) by date. Partial snapshot; native reposts excluded; original language only.",
+      "image_alt": "Le Pen Says"
+    },
+    "bardella-says": {
+      "name": "Bardella Says",
+      "description": "Browse 353 collected X posts from Jordan Bardella (@J_Bardella) by date. Partial snapshot; native reposts excluded; original language only.",
+      "image_alt": "Bardella Says"
+    },
+    "sanchez-says": {
+      "name": "Sánchez Says",
+      "description": "Browse 305 collected X posts from Pedro Sánchez (@sanchezcastejon) by date. Partial snapshot; native reposts excluded; original language only.",
+      "image_alt": "Sánchez Says"
     }
   },
   "schema_version": "1.0",

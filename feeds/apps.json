@@ -8,6 +8,246 @@
   "favicon": "https://nanalab.kr/favicon.ico/android-icon-192x192.png",
   "items": [
     {
+      "id": "urn:nanalab:apps:sanchez-says",
+      "url": "https://nanalab.kr/sanchez-says/",
+      "title": "[앱] Sánchez Says",
+      "content_text": "Browse 305 collected X posts from Pedro Sánchez (@sanchezcastejon) by date. Partial snapshot; native reposts excluded; original language only.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "재미·라이프"
+      ],
+      "date_published": "2026-10-29T00:04:38Z",
+      "image": "/apps/img/sanchez-says.svg"
+    },
+    {
+      "id": "urn:nanalab:apps:bardella-says",
+      "url": "https://nanalab.kr/bardella-says/",
+      "title": "[앱] Bardella Says",
+      "content_text": "Browse 353 collected X posts from Jordan Bardella (@J_Bardella) by date. Partial snapshot; native reposts excluded; original language only.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "재미·라이프"
+      ],
+      "date_published": "2026-10-29T00:04:28Z",
+      "image": "/apps/img/bardella-says.svg"
+    },
+    {
+      "id": "urn:nanalab:apps:le-pen-says",
+      "url": "https://nanalab.kr/le-pen-says/",
+      "title": "[앱] Le Pen Says",
+      "content_text": "Browse 270 collected X posts from Marine Le Pen (@MLP_officiel) by date. Partial snapshot; native reposts excluded; original language only.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "재미·라이프"
+      ],
+      "date_published": "2026-10-29T00:04:17Z",
+      "image": "/apps/img/le-pen-says.svg"
+    },
+    {
+      "id": "urn:nanalab:apps:lula-says",
+      "url": "https://nanalab.kr/lula-says/",
+      "title": "[앱] Lula Says",
+      "content_text": "Browse 238 collected X posts from Luiz Inácio Lula da Silva (@LulaOficial) by date. Partial snapshot; native reposts excluded; original language only.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "재미·라이프"
+      ],
+      "date_published": "2026-10-29T00:04:07Z",
+      "image": "/apps/img/lula-says.svg"
+    },
+    {
+      "id": "urn:nanalab:apps:macron-says",
+      "url": "https://nanalab.kr/macron-says/",
+      "title": "[앱] Macron Says",
+      "content_text": "Browse 377 collected X posts from Emmanuel Macron (@EmmanuelMacron) by date. Partial snapshot; native reposts excluded; original language only.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "재미·라이프"
+      ],
+      "date_published": "2026-10-29T00:03:57Z",
+      "image": "/apps/img/macron-says.svg"
+    },
+    {
+      "id": "urn:nanalab:apps:modi-says",
+      "url": "https://nanalab.kr/modi-says/",
+      "title": "[앱] Modi Says",
+      "content_text": "Browse 240 collected X posts from Narendra Modi (@narendramodi) by date. Partial snapshot; native reposts excluded; original language only.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "재미·라이프"
+      ],
+      "date_published": "2026-10-29T00:03:46Z",
+      "image": "/apps/img/modi-says.svg"
+    },
+    {
+      "id": "urn:nanalab:apps:takaichi-says",
+      "url": "https://nanalab.kr/takaichi-says/",
+      "title": "[앱] Takaichi Says",
+      "content_text": "Browse 383 collected X posts from Sanae Takaichi (@takaichi_sanae) by date. Partial snapshot; native reposts excluded; original language only.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "재미·라이프"
+      ],
+      "date_published": "2026-10-29T00:03:35Z",
+      "image": "/apps/img/takaichi-says.svg"
+    },
+    {
+      "id": "urn:nanalab:apps:kono-says",
+      "url": "https://nanalab.kr/kono-says/",
+      "title": "[앱] Kono Says",
+      "content_text": "Browse 365 collected X posts from Taro Kono (@konotarogomame) by date. Partial snapshot; native reposts excluded; original language only.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "재미·라이프"
+      ],
+      "date_published": "2026-10-29T00:03:24Z",
+      "image": "/apps/img/kono-says.svg"
+    },
+    {
+      "id": "urn:nanalab:apps:farage-says",
+      "url": "https://nanalab.kr/farage-says/",
+      "title": "[앱] Farage Says",
+      "content_text": "Browse 334 collected X posts from Nigel Farage (@Nigel_Farage) by date. Partial snapshot; native reposts excluded; original language only.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "재미·라이프"
+      ],
+      "date_published": "2026-10-29T00:03:13Z",
+      "image": "/apps/img/farage-says.svg"
+    },
+    {
+      "id": "urn:nanalab:apps:cruz-says",
+      "url": "https://nanalab.kr/cruz-says/",
+      "title": "[앱] Cruz Says",
+      "content_text": "Browse 147 collected X posts from Ted Cruz (@tedcruz) by date. Partial snapshot; native reposts excluded; original language only.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "재미·라이프"
+      ],
+      "date_published": "2026-10-29T00:03:03Z",
+      "image": "/apps/img/cruz-says.svg"
+    },
+    {
+      "id": "urn:nanalab:apps:newsom-says",
+      "url": "https://nanalab.kr/newsom-says/",
+      "title": "[앱] Newsom Says",
+      "content_text": "Browse 356 collected X posts from Gavin Newsom (@GavinNewsom) by date. Partial snapshot; native reposts excluded; original language only.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "재미·라이프"
+      ],
+      "date_published": "2026-10-29T00:02:52Z",
+      "image": "/apps/img/newsom-says.svg"
+    },
+    {
+      "id": "urn:nanalab:apps:vance-says",
+      "url": "https://nanalab.kr/vance-says/",
+      "title": "[앱] Vance Says",
+      "content_text": "Browse 104 collected X posts from J. D. Vance (@JDVance) by date. Partial snapshot; native reposts excluded; original language only.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "재미·라이프"
+      ],
+      "date_published": "2026-10-29T00:02:42Z",
+      "image": "/apps/img/vance-says.svg"
+    },
+    {
+      "id": "urn:nanalab:apps:sanders-says",
+      "url": "https://nanalab.kr/sanders-says/",
+      "title": "[앱] Sanders Says",
+      "content_text": "Browse 307 collected X posts from Bernie Sanders (@BernieSanders) by date. Partial snapshot; native reposts excluded; original language only.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "재미·라이프"
+      ],
+      "date_published": "2026-10-29T00:02:31Z",
+      "image": "/apps/img/sanders-says.svg"
+    },
+    {
+      "id": "urn:nanalab:apps:aoc-says",
+      "url": "https://nanalab.kr/aoc-says/",
+      "title": "[앱] AOC Says",
+      "content_text": "Browse 147 collected X posts from Alexandria Ocasio-Cortez (@AOC) by date. Partial snapshot; native reposts excluded; original language only.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "재미·라이프"
+      ],
+      "date_published": "2026-10-29T00:02:21Z",
+      "image": "/apps/img/aoc-says.svg"
+    },
+    {
+      "id": "urn:nanalab:apps:wilders-says",
+      "url": "https://nanalab.kr/wilders-says/",
+      "title": "[앱] Wilders Says",
+      "content_text": "Browse 302 collected X posts from Geert Wilders (@geertwilderspvv) by date. Partial snapshot; native reposts excluded; original language only.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "재미·라이프"
+      ],
+      "date_published": "2026-10-29T00:02:10Z",
+      "image": "/apps/img/wilders-says.svg"
+    },
+    {
+      "id": "urn:nanalab:apps:bukele-says",
+      "url": "https://nanalab.kr/bukele-says/",
+      "title": "[앱] Bukele Says",
+      "content_text": "Browse 127 collected X posts from Nayib Bukele (@nayibbukele) by date. Partial snapshot; native reposts excluded; original language only.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "재미·라이프"
+      ],
+      "date_published": "2026-10-29T00:01:59Z",
+      "image": "/apps/img/bukele-says.svg"
+    },
+    {
+      "id": "urn:nanalab:apps:petro-says",
+      "url": "https://nanalab.kr/petro-says/",
+      "title": "[앱] Petro Says",
+      "content_text": "Browse 285 collected X posts from Gustavo Petro (@petrogustavo) by date. Partial snapshot; native reposts excluded; original language only.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "재미·라이프"
+      ],
+      "date_published": "2026-10-29T00:01:49Z",
+      "image": "/apps/img/petro-says.svg"
+    },
+    {
+      "id": "urn:nanalab:apps:milei-says",
+      "url": "https://nanalab.kr/milei-says/",
+      "title": "[앱] Milei Says",
+      "content_text": "Browse 19 collected X posts from Javier Milei (@JMilei) by date. Partial snapshot; native reposts excluded; original language only.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "재미·라이프"
+      ],
+      "date_published": "2026-10-29T00:01:39Z",
+      "image": "/apps/img/milei-says.svg"
+    },
+    {
+      "id": "urn:nanalab:apps:melenchon-says",
+      "url": "https://nanalab.kr/melenchon-says/",
+      "title": "[앱] Mélenchon Says",
+      "content_text": "Browse 353 collected X posts from Jean-Luc Mélenchon (@JLMelenchon) by date. Partial snapshot; native reposts excluded; original language only.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "재미·라이프"
+      ],
+      "date_published": "2026-10-29T00:01:29Z",
+      "image": "/apps/img/melenchon-says.svg"
+    },
+    {
+      "id": "urn:nanalab:apps:zelenskyy-says",
+      "url": "https://nanalab.kr/zelenskyy-says/",
+      "title": "[앱] Zelenskyy Says",
+      "content_text": "Browse 140 collected X posts from Volodymyr Zelenskyy (@ZelenskyyUa) by date. Partial snapshot; native reposts excluded; original language only.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "재미·라이프"
+      ],
+      "date_published": "2026-10-29T00:01:17Z",
+      "image": "/apps/img/zelenskyy-says.svg"
+    },
+    {
       "id": "urn:nanalab:apps:sam-altman-says",
       "url": "https://nanalab.kr/sam-altman-says/",
       "title": "[앱] Sam Altman Says",
@@ -963,246 +1203,6 @@
       ],
       "date_published": "2026-10-25T06:21:08Z",
       "image": "https://nanalab.kr/eng-point-mass-inertia/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-open-belt-length",
-      "url": "https://nanalab.kr/eng-open-belt-length/",
-      "title": "[앱] 개방 벨트 필요 길이 계산기",
-      "content_text": "교차하지 않는 두 풀리를 두르는 벨트의 피치선 길이를 접선과 원호의 정확한 기하식으로 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T06:21:07Z",
-      "image": "https://nanalab.kr/eng-open-belt-length/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-capstan-tension",
-      "url": "https://nanalab.kr/eng-capstan-tension/",
-      "title": "[앱] 캡스턴 로프 한계장력 계산기",
-      "content_text": "드럼에 감긴 로프가 미끄러지기 직전에 지탱할 수 있는 큰 쪽 장력을 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T06:21:06Z",
-      "image": "https://nanalab.kr/eng-capstan-tension/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-inertial-atwood",
-      "url": "https://nanalab.kr/eng-inertial-atwood/",
-      "title": "[앱] 관성 도르래 애트우드 가속도 계산기",
-      "content_text": "두 개의 매달린 추와 회전 관성이 있는 도르래로 이루어진 애트우드 장치의 가속도를 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T06:21:06Z",
-      "image": "https://nanalab.kr/eng-inertial-atwood/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-coriolis-horizontal",
-      "url": "https://nanalab.kr/eng-coriolis-horizontal/",
-      "title": "[앱] 수평 코리올리 가속도 계산기",
-      "content_text": "회전하는 구면의 주어진 위도에서 수평 이동에 수직인 코리올리 가속도 성분의 크기를 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T06:20:58Z",
-      "image": "https://nanalab.kr/eng-coriolis-horizontal/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-rolling-incline",
-      "url": "https://nanalab.kr/eng-rolling-incline/",
-      "title": "[앱] 경사면 순수 구름 가속도 계산기",
-      "content_text": "회전 관성까지 반영하여 경사면을 미끄러지지 않고 구르는 물체의 가속도를 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T06:20:56Z",
-      "image": "https://nanalab.kr/eng-rolling-incline/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-gyroscope-precession",
-      "url": "https://nanalab.kr/eng-gyroscope-precession/",
-      "title": "[앱] 자이로스코프 세차속도 계산기",
-      "content_text": "고속으로 자전하는 대칭 자이로스코프의 중력에 의한 느린 정상 세차속도를 추정합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T06:20:56Z",
-      "image": "https://nanalab.kr/eng-gyroscope-precession/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-collision-restitution",
-      "url": "https://nanalab.kr/eng-collision-restitution/",
-      "title": "[앱] 반발계수 충돌 후 속도 계산기",
-      "content_text": "일직선에서 충돌하는 두 물체의 운동량과 반발계수로 첫 물체의 충돌 후 속도를 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T06:20:55Z",
-      "image": "https://nanalab.kr/eng-collision-restitution/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-faraday-rotation",
-      "url": "https://nanalab.kr/eng-faraday-rotation/",
-      "title": "[앱] 패러데이 편광 회전 계산기",
-      "content_text": "균일한 종방향 자기장 속 매질의 패러데이 편광 회전각을 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T06:20:47Z",
-      "image": "https://nanalab.kr/eng-faraday-rotation/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-nuclear-q-value",
-      "url": "https://nanalab.kr/eng-nuclear-q-value/",
-      "title": "[앱] 핵반응 Q값 계산기",
-      "content_text": "반응 전후 총 정지질량 차이로 한 번의 반응에 대한 방출·흡수 에너지를 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T06:20:46Z",
-      "image": "https://nanalab.kr/eng-nuclear-q-value/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-gaussian-beam",
-      "url": "https://nanalab.kr/eng-gaussian-beam/",
-      "title": "[앱] 가우시안 레이저 빔 크기 계산기",
-      "content_text": "이상적인 가우시안 빔의 허리에서 떨어진 위치의 빔 반지름을 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T06:20:46Z",
-      "image": "https://nanalab.kr/eng-gaussian-beam/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-malus-intensity",
-      "url": "https://nanalab.kr/eng-malus-intensity/",
-      "title": "[앱] 편광판 투과광 세기 계산기",
-      "content_text": "선편광이 이상적인 편광 분석기를 통과한 뒤의 광강도를 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T06:20:46Z",
-      "image": "https://nanalab.kr/eng-malus-intensity/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-photoelectric-stop",
-      "url": "https://nanalab.kr/eng-photoelectric-stop/",
-      "title": "[앱] 광전효과 정지전압 계산기",
-      "content_text": "단일 광자 광전효과에서 가장 빠른 광전자를 멈추는 역전압의 크기를 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T06:20:37Z",
-      "image": "https://nanalab.kr/eng-photoelectric-stop/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-quantum-oscillator",
-      "url": "https://nanalab.kr/eng-quantum-oscillator/",
-      "title": "[앱] 양자 조화진동자 에너지 계산기",
-      "content_text": "영점에너지를 포함하는 1차원 양자 조화진동자의 에너지 준위를 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T06:20:36Z",
-      "image": "https://nanalab.kr/eng-quantum-oscillator/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-compton-shift",
-      "url": "https://nanalab.kr/eng-compton-shift/",
-      "title": "[앱] 콤프턴 산란 파장변화 계산기",
-      "content_text": "정지한 자유 표적에 의한 광자 산란의 파장 증가량을 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T06:20:36Z",
-      "image": "https://nanalab.kr/eng-compton-shift/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-hydrogen-transition",
-      "url": "https://nanalab.kr/eng-hydrogen-transition/",
-      "title": "[앱] 수소 원자 전이 파장 계산기",
-      "content_text": "두 주양자수 사이 수소 원자의 방출광 파장을 리드베리 근사로 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T06:20:34Z",
-      "image": "https://nanalab.kr/eng-hydrogen-transition/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-transit-depth",
-      "url": "https://nanalab.kr/eng-transit-depth/",
-      "title": "[앱] 외계행성 통과 깊이 계산기",
-      "content_text": "항성 원반 내부에 완전히 들어온 불투명한 행성이 가리는 이상적인 밝기 비율을 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T06:20:26Z",
-      "image": "https://nanalab.kr/eng-transit-depth/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-quantum-box-energy",
-      "url": "https://nanalab.kr/eng-quantum-box-energy/",
-      "title": "[앱] 무한 우물 입자 에너지 계산기",
-      "content_text": "1차원 무한 사각 우물에 갇힌 입자의 에너지 준위를 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T06:20:26Z",
-      "image": "https://nanalab.kr/eng-quantum-box-energy/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-barrier-tunneling",
-      "url": "https://nanalab.kr/eng-barrier-tunneling/",
-      "title": "[앱] 사각 장벽 터널링 확률 계산기",
-      "content_text": "유한 폭 사각 장벽의 투과확률을 장벽 아래·경계·위 에너지에서 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T06:20:26Z",
-      "image": "https://nanalab.kr/eng-barrier-tunneling/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-gravitational-redshift",
-      "url": "https://nanalab.kr/eng-gravitational-redshift/",
-      "title": "[앱] 중력 적색편이 계산기",
-      "content_text": "슈바르츠실트 외부 시공간에서 정지한 두 관측자 사이의 중력에 의한 파장 편이를 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T06:20:24Z",
-      "image": "https://nanalab.kr/eng-gravitational-redshift/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-eddington-luminosity",
-      "url": "https://nanalab.kr/eng-eddington-luminosity/",
-      "title": "[앱] 에딩턴 한계광도 계산기",
-      "content_text": "복사 가속도와 중력가속도가 같은 구대칭 에딩턴 광도 척도를 계산한다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T06:20:15Z",
-      "image": "https://nanalab.kr/eng-eddington-luminosity/og.png"
     }
   ]
 }
