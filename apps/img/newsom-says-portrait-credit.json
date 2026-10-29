@@ -1,0 +1,22 @@
+{
+  "source": "https://commons.wikimedia.org/wiki/File:Gavin_Newsom_official_photo.jpg",
+  "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Gavin_Newsom_official_photo.jpg/960px-Gavin_Newsom_official_photo.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+  "original_download_url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Gavin_Newsom_official_photo.jpg",
+  "creator": "Office of the Lieutenant Governor of California",
+  "attribution": "Office of the Lieutenant Governor of California",
+  "license": "Public domain (California government)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-CAGov",
+  "sha256": "ef1ff72ed67b5d70e493897ecb84840e21d8a3fb880dd39d330dfa3518e24a01",
+  "modifications": "Using the Wikimedia server-generated 960px-wide JPEG rendition linked by the original Commons file page. Downloaded rendition bytes unchanged; no local re-encoding or retouching. CSS may scale or crop the display. 2011 California government official photograph, recorded as public domain under PD California on Commons.",
+  "source_file_title": "File:Gavin Newsom official photo.jpg",
+  "source_page_sha256": "f225404cf00a55a327920aefc36d55528a4a36a59264f86c6fb987db557d8f2a",
+  "rights_verified_at": "2026-10-29T00:36:10.085605+00:00",
+  "rendition": {
+    "provider": "Wikimedia Commons",
+    "width": 960,
+    "height": 1440,
+    "server_resized": true,
+    "locally_reencoded": false
+  },
+  "endorsement": "No endorsement or affiliation implied."
+}

@@ -151,11 +151,19 @@ def app_card(app, index):
     if app.get('image_url'):
         fit = ' style="object-fit:contain"' if app.get('image_fit') == 'contain' else ''
         image = f'<img src="{escape(app["image_url"], quote=True)}" alt="{escape(app.get("image_alt", ""), quote=True)}" loading="lazy" width="480" height="300"{fit}>'
+    credit = ''
+    if photo := app.get('image_credit'):
+        for key in ['source', 'license_url']:
+            assert urlsplit(photo[key]).scheme == 'https', 'Photo credit requires HTTPS'
+        credit = (f'<details class="card-photo-credit"><summary>사진 출처</summary><p>'
+                  f'<a href="{escape(photo["source"], quote=True)}" target="_blank" rel="noopener noreferrer">{escape(photo["attribution"])}</a>'
+                  f' · <a href="{escape(photo["license_url"], quote=True)}" target="_blank" rel="license noopener noreferrer">{escape(photo["license"])}</a>'
+                  f'</p><p>{escape(photo["modifications"])}</p></details>')
     action = '템플릿 보기' if app.get('kind') == 'template' else '앱 열기'
     return f'''<article class="directory-card" data-category="{category}" data-name="{name}" data-app-id="{app_id}">
       <a class="card-visual tone-{index % 5}" href="{url}" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true"><span class="visual-symbol">{symbol}</span>{image}</a>
       <div class="card-copy"><span class="card-category">{category}</span><h3><a href="{url}" target="_blank" rel="noopener noreferrer">{name}</a></h3><p>{escape(app['description'])}</p>
-      <div class="card-bottom"><span>{'개발 템플릿' if app.get('kind') == 'template' else 'Web app'}</span><a href="{url}" target="_blank" rel="noopener noreferrer" aria-label="{name} {action}">{action} <span aria-hidden="true">↗</span></a></div></div></article>'''
+      {credit}<div class="card-bottom"><span>{'개발 템플릿' if app.get('kind') == 'template' else 'Web app'}</span><a href="{url}" target="_blank" rel="noopener noreferrer" aria-label="{name} {action}">{action} <span aria-hidden="true">↗</span></a></div></div></article>'''
 
 
 def directory(apps):
@@ -206,7 +214,7 @@ def build():
     assert all(sections.values())
     shell = shell.replace('</head>', '<link rel="stylesheet" href="/additions.css">\n<script defer src="/language-preference.js?v=20261025a"></script>\n</head>')
     shell = shell.replace('src="script.js"', 'src="/script.js?v=languages-20261025c"')
-    shell = shell.replace('href="/additions.css"', 'href="/additions.css?v=languages-20261025d"')
+    shell = shell.replace('href="/additions.css"', 'href="/additions.css?v=says-faces-20261029"')
     shell = shell.replace('<a href="#apps">Recent</a>', '<a href="#apps">Apps</a>')
     shell = shell.replace('<a href="https://nanalab.kr/apps">APPs</a>', '<a href="#lectures">Lectures</a><a href="#research">Research</a>')
     app_section = directory(apps).replace('class="directory-section container"', 'class="app-section catalog-addition container"')

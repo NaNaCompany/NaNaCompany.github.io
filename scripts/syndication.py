@@ -156,6 +156,8 @@ def app_record(app):
     image = app.get('image_url') or (SITE + '/apps/img/' + app['image'] if app.get('image') else None)
     if image:
         row['image'] = image
+    if app.get('image_credit'):
+        row['image_credit'] = app['image_credit']
     for key in ['repository', 'languages', 'kind']:
         if key in app:
             row[key] = app[key]
@@ -186,6 +188,10 @@ def feed_text(row):
             lines.append(label + ': ' + row[key])
     if row.get('publication_type'):
         lines.append('자료 유형: ' + row['publication_type'])
+    if photo := row.get('image_credit'):
+        lines.append('사진 출처: ' + photo['attribution'] + ' · ' + photo['source']
+                     + '\n' + photo['license'] + ' · ' + photo['license_url']
+                     + '\n' + photo['modifications'])
     lines.append('출처: ' + row['source_url'])
     return '\n\n'.join(lines)
 

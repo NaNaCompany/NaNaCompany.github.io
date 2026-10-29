@@ -5771,9 +5771,18 @@
       "en": ""
     },
     "sitemap_lastmod": "2026-10-29",
-    "image_url": "/apps/img/trump-says.svg",
+    "image_url": "/apps/img/trump-says-portrait.jpg",
     "image_fit": "contain",
-    "image_alt": "Trump Says"
+    "image_alt": "Trump Says",
+    "image_credit": {
+      "license": "Public domain - U.S. federal government work (17 USC 105)",
+      "license_url": "https://commons.wikimedia.org/wiki/File:Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025).jpg#Licensing",
+      "modifications": "Original JPEG unchanged. CSS scales and crops its display.",
+      "sha256": "6da6d96e6c4441b60b51ac22b2e534faa98186c99d61148ebd7aa92b4f2c1fa0",
+      "source": "https://www.whitehouse.gov/administration/donald-j-trump/",
+      "attribution": "Daniel Torok / The White House",
+      "credit_url": "/apps/img/trump-says-portrait-credit.json"
+    }
   },
   {
     "id": "bible-viewer",
@@ -5815,9 +5824,18 @@
       "en": ""
     },
     "sitemap_lastmod": "2026-10-29",
-    "image_url": "/apps/img/musk-says.svg",
+    "image_url": "/apps/img/musk-says-portrait.jpg",
     "image_fit": "contain",
-    "image_alt": "Musk Says"
+    "image_alt": "Musk Says",
+    "image_credit": {
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "modifications": "Downloaded JPEG file unchanged. CSS scales/crops the display; existing source crops credited above. The image remains under its stated license; no endorsement implied.",
+      "sha256": "8aab8262f1da5ae98dec83f7ed677c1aed5164130ddf73d51d80ad922ee40b45",
+      "source": "https://commons.wikimedia.org/wiki/File:Elon_Musk_Royal_Society.jpg",
+      "attribution": "Debbie Rowe / The Royal Society (uploaded by Duncan.Hull)",
+      "credit_url": "/apps/img/musk-says-portrait-credit.json"
+    }
   },
   {
     "id": "zuckerberg-says",
@@ -5836,9 +5854,18 @@
       "en": ""
     },
     "sitemap_lastmod": "2026-10-29",
-    "image_url": "/apps/img/zuckerberg-says.svg",
+    "image_url": "/apps/img/zuckerberg-says-portrait.jpg",
     "image_fit": "contain",
-    "image_alt": "Zuckerberg Says"
+    "image_alt": "Zuckerberg Says",
+    "image_credit": {
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "modifications": "Downloaded JPEG file unchanged. CSS scales/crops the display; existing source crops credited above. The image remains under its stated license; no endorsement implied.",
+      "sha256": "feea9ead998e7d49520751342fc8c2515086d6fdbe28600c211cafe40886b500",
+      "source": "https://commons.wikimedia.org/wiki/File:Mark_Zuckerberg_F8_2018_Keynote_(cropped).jpg",
+      "attribution": "Anthony Quintano; cropped version from Wikimedia Commons",
+      "credit_url": "/apps/img/zuckerberg-says-portrait-credit.json"
+    }
   },
   {
     "id": "tibo-says",
@@ -5878,9 +5905,18 @@
       "en": ""
     },
     "sitemap_lastmod": "2026-10-29",
-    "image_url": "/apps/img/sam-altman-says.svg",
+    "image_url": "/apps/img/sam-altman-says-portrait.jpg",
     "image_fit": "contain",
-    "image_alt": "Sam Altman Says"
+    "image_alt": "Sam Altman Says",
+    "image_credit": {
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "modifications": "Downloaded JPEG file unchanged. CSS scales/crops the display; existing source crops credited above. The image remains under its stated license; no endorsement implied.",
+      "sha256": "af0f05454928708cd8b827a0a6d0aaa507e25decce2b43288dae60fd01f7899b",
+      "source": "https://commons.wikimedia.org/wiki/File:Sam_Altman_TechCrunch_SF_2019_Day_2_Oct_3_(cropped).jpg",
+      "attribution": "Steve Jennings / Getty Images for TechCrunch; cropped version from Wikimedia Commons",
+      "credit_url": "/apps/img/sam-altman-says-portrait-credit.json"
+    }
   },
   {
     "id": "zelenskyy-says",
@@ -5899,9 +5935,18 @@
       "en": ""
     },
     "sitemap_lastmod": "2026-10-29",
-    "image_url": "/apps/img/zelenskyy-says.svg",
+    "image_url": "/apps/img/zelenskyy-says-portrait.jpg",
     "image_fit": "contain",
-    "image_alt": "Zelenskyy Says"
+    "image_alt": "Zelenskyy Says",
+    "image_credit": {
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "modifications": "Using the Wikimedia server-generated 960px-wide JPEG rendition explicitly linked on the original Commons file page. Downloaded rendition bytes unchanged; no local re-encoding, retouching or newly generated crop. CSS may scale or crop the display. Original-file SHA256 and attribution are retained in this record.",
+      "sha256": "43916e4bc8f3aade2ce8ed5ca2d9da1a8c9afee4dcba9f8dc0f931617c49b81f",
+      "source": "https://commons.wikimedia.org/wiki/File:Volodymyr_Zelensky_Official_portrait.jpg",
+      "attribution": "President.gov.ua",
+      "credit_url": "/apps/img/zelenskyy-says-portrait-credit.json"
+    }
   },
   {
     "id": "melenchon-says",
@@ -5920,9 +5965,18 @@
       "en": ""
     },
     "sitemap_lastmod": "2026-10-29",
-    "image_url": "/apps/img/melenchon-says.svg",
+    "image_url": "/apps/img/melenchon-says-portrait.jpg",
     "image_fit": "contain",
-    "image_alt": "Mélenchon Says"
+    "image_alt": "Mélenchon Says",
+    "image_credit": {
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "modifications": "Downloaded original Commons JPEG bytes unchanged. No re-encoding, retouching or new derivative image. CSS may scale or crop the display. Commons source is an existing cropped and rotated derivative; its recorded contributor edits are preserved.",
+      "sha256": "bb9414ce45d97f8e08e135230df45c3ce53833a857362fee0acedba0bba6014c",
+      "source": "https://commons.wikimedia.org/wiki/File:Jean_Luc_M%C3%A9lenchon_en_mai_2026-_55261894422_(cropped).jpg",
+      "attribution": "jlm2017.fr",
+      "credit_url": "/apps/img/melenchon-says-portrait-credit.json"
+    }
   },
   {
     "id": "milei-says",
@@ -5941,9 +5995,18 @@
       "en": ""
     },
     "sitemap_lastmod": "2026-10-29",
-    "image_url": "/apps/img/milei-says.svg",
+    "image_url": "/apps/img/milei-says-portrait.jpg",
     "image_fit": "contain",
-    "image_alt": "Milei Says"
+    "image_alt": "Milei Says",
+    "image_credit": {
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "modifications": "Using the Wikimedia server-generated 500px-wide JPEG rendition linked by the original Commons file page. Downloaded rendition bytes unchanged; no local re-encoding or retouching. CSS may scale or crop the display. Commons source is an existing cropped derivative of the official portrait.",
+      "sha256": "31ea1aeca909aad79c9ab33d62fc624c62811f8c280c9041c4e53dd6d7e8081d",
+      "source": "https://commons.wikimedia.org/wiki/File:Retrato_oficial_del_Presidente_Javier_(cropped).jpeg",
+      "attribution": "Argentine State portal",
+      "credit_url": "/apps/img/milei-says-portrait-credit.json"
+    }
   },
   {
     "id": "petro-says",
@@ -5962,9 +6025,18 @@
       "en": ""
     },
     "sitemap_lastmod": "2026-10-29",
-    "image_url": "/apps/img/petro-says.svg",
+    "image_url": "/apps/img/petro-says-portrait.jpg",
     "image_fit": "contain",
-    "image_alt": "Petro Says"
+    "image_alt": "Petro Says",
+    "image_credit": {
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "modifications": "Downloaded original Commons JPEG bytes unchanged. No re-encoding, retouching or new derivative image. CSS may scale or crop the display. Commons source is an existing cropped version of the official portrait.",
+      "sha256": "825a5ce7c4db4f79b35bc7d798e5561cb402aae2b4aa751fdd28a71dbf9e7735",
+      "source": "https://commons.wikimedia.org/wiki/File:Gustavo_Petro_2022.jpg",
+      "attribution": "Departamento Nacional de Planeación",
+      "credit_url": "/apps/img/petro-says-portrait-credit.json"
+    }
   },
   {
     "id": "bukele-says",
@@ -5983,9 +6055,18 @@
       "en": ""
     },
     "sitemap_lastmod": "2026-10-29",
-    "image_url": "/apps/img/bukele-says.svg",
+    "image_url": "/apps/img/bukele-says-portrait.jpg",
     "image_fit": "contain",
-    "image_alt": "Bukele Says"
+    "image_alt": "Bukele Says",
+    "image_credit": {
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modifications": "Using the Wikimedia server-generated 960px-wide JPEG rendition linked by the original Commons file page. Downloaded rendition bytes unchanged; no local re-encoding or retouching. CSS may scale or crop the display. Wikimedia VRT permission ticket 2020082710004705 recorded on Commons.",
+      "sha256": "0cb3d558c01328239b53a96d9925e97014b516303b9617befae282456afe9f63",
+      "source": "https://commons.wikimedia.org/wiki/File:Presidente_Bukele.jpg",
+      "attribution": "AndreX",
+      "credit_url": "/apps/img/bukele-says-portrait-credit.json"
+    }
   },
   {
     "id": "wilders-says",
@@ -6004,9 +6085,18 @@
       "en": ""
     },
     "sitemap_lastmod": "2026-10-29",
-    "image_url": "/apps/img/wilders-says.svg",
+    "image_url": "/apps/img/wilders-says-portrait.jpg",
     "image_fit": "contain",
-    "image_alt": "Wilders Says"
+    "image_alt": "Wilders Says",
+    "image_credit": {
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "modifications": "Using the Wikimedia server-generated 960px-wide JPEG rendition linked by the original Commons file page. Downloaded rendition bytes unchanged; no local re-encoding or retouching. CSS may scale or crop the display. Commons source is an existing crop of a photograph published by Vox España.",
+      "sha256": "7ed431ef2e747d85467f8fb22e4c3aa911027f1f03d6669572ec1215ef01bd77",
+      "source": "https://commons.wikimedia.org/wiki/File:Geert_Wilders_2025_(cropped).jpg",
+      "attribution": "Vox España",
+      "credit_url": "/apps/img/wilders-says-portrait-credit.json"
+    }
   },
   {
     "id": "aoc-says",
@@ -6025,9 +6115,18 @@
       "en": ""
     },
     "sitemap_lastmod": "2026-10-29",
-    "image_url": "/apps/img/aoc-says.svg",
+    "image_url": "/apps/img/aoc-says-portrait.jpg",
     "image_fit": "contain",
-    "image_alt": "AOC Says"
+    "image_alt": "AOC Says",
+    "image_credit": {
+      "license": "Public domain (U.S. Congress)",
+      "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Congress",
+      "modifications": "Using the Wikimedia server-generated 960px-wide JPEG rendition explicitly linked on the original Commons file page. Downloaded rendition bytes unchanged; no local re-encoding, retouching or newly generated crop. CSS may scale or crop the display. Original-file SHA256 and attribution are retained in this record.",
+      "sha256": "80434e59c9226495e1a4358324098e0eefee1f4ae82e73ee59b47dd0e2af3b8b",
+      "source": "https://commons.wikimedia.org/wiki/File:Alexandria_Ocasio-Cortez_Official_Portrait.jpg",
+      "attribution": "Franmarie Metzler / U.S. House Office of Photography",
+      "credit_url": "/apps/img/aoc-says-portrait-credit.json"
+    }
   },
   {
     "id": "sanders-says",
@@ -6046,9 +6145,18 @@
       "en": ""
     },
     "sitemap_lastmod": "2026-10-29",
-    "image_url": "/apps/img/sanders-says.svg",
+    "image_url": "/apps/img/sanders-says-portrait.jpg",
     "image_fit": "contain",
-    "image_alt": "Sanders Says"
+    "image_alt": "Sanders Says",
+    "image_credit": {
+      "license": "Public domain (U.S. Congress)",
+      "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Congress",
+      "modifications": "Downloaded original Commons JPEG bytes unchanged. No re-encoding, retouching or new derivative image. CSS may scale or crop the display. U.S. Congress official photograph, recorded as public domain on Commons.",
+      "sha256": "35fbf6839fd3bb852d2329131e84c21dcf3c163c1b2078539f83c965e663cf0e",
+      "source": "https://commons.wikimedia.org/wiki/File:Bernie_Sanders.jpg",
+      "attribution": "United States Congress",
+      "credit_url": "/apps/img/sanders-says-portrait-credit.json"
+    }
   },
   {
     "id": "vance-says",
@@ -6067,9 +6175,18 @@
       "en": ""
     },
     "sitemap_lastmod": "2026-10-29",
-    "image_url": "/apps/img/vance-says.svg",
+    "image_url": "/apps/img/vance-says-portrait.jpg",
     "image_fit": "contain",
-    "image_alt": "Vance Says"
+    "image_alt": "Vance Says",
+    "image_credit": {
+      "license": "Public domain (U.S. federal government)",
+      "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov-POTUS",
+      "modifications": "Using the Wikimedia server-generated 960px-wide JPEG rendition linked by the original Commons file page. Downloaded rendition bytes unchanged; no local re-encoding or retouching. CSS may scale or crop the display. March 25, 2026 White House photograph. The transition-team 2025 photograph with conflicting commercial-use metadata was excluded.",
+      "sha256": "d112cceb22eda0dac44f298ba69d17d204dc69f966bbcb4aeba6fe0500f73885",
+      "source": "https://commons.wikimedia.org/wiki/File:March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance.jpg",
+      "attribution": "Official White House Photo by Emily J. Higgins",
+      "credit_url": "/apps/img/vance-says-portrait-credit.json"
+    }
   },
   {
     "id": "newsom-says",
@@ -6088,9 +6205,18 @@
       "en": ""
     },
     "sitemap_lastmod": "2026-10-29",
-    "image_url": "/apps/img/newsom-says.svg",
+    "image_url": "/apps/img/newsom-says-portrait.jpg",
     "image_fit": "contain",
-    "image_alt": "Newsom Says"
+    "image_alt": "Newsom Says",
+    "image_credit": {
+      "license": "Public domain (California government)",
+      "license_url": "https://commons.wikimedia.org/wiki/Template:PD-CAGov",
+      "modifications": "Using the Wikimedia server-generated 960px-wide JPEG rendition linked by the original Commons file page. Downloaded rendition bytes unchanged; no local re-encoding or retouching. CSS may scale or crop the display. 2011 California government official photograph, recorded as public domain under PD California on Commons.",
+      "sha256": "ef1ff72ed67b5d70e493897ecb84840e21d8a3fb880dd39d330dfa3518e24a01",
+      "source": "https://commons.wikimedia.org/wiki/File:Gavin_Newsom_official_photo.jpg",
+      "attribution": "Office of the Lieutenant Governor of California",
+      "credit_url": "/apps/img/newsom-says-portrait-credit.json"
+    }
   },
   {
     "id": "cruz-says",
@@ -6109,9 +6235,18 @@
       "en": ""
     },
     "sitemap_lastmod": "2026-10-29",
-    "image_url": "/apps/img/cruz-says.svg",
+    "image_url": "/apps/img/cruz-says-portrait.jpg",
     "image_fit": "contain",
-    "image_alt": "Cruz Says"
+    "image_alt": "Cruz Says",
+    "image_credit": {
+      "license": "Public domain (U.S. federal government work)",
+      "license_url": "https://www.copyright.gov/title17/92chap1.html#105",
+      "modifications": "Selected Commons JPEG downloaded unchanged. Existing source crops are credited in the creator line where applicable. No local image re-encoding or face editing. CSS may scale or crop the display. No endorsement implied.",
+      "sha256": "a5c26cf819fc9333da54e9124cc58144b234d7612957b75fa56466e8b15d5922",
+      "source": "https://commons.wikimedia.org/wiki/File:Ted_Cruz_official_116th_portrait_(3x4_cropped).jpg",
+      "attribution": "U.S. Senate Photographic Studio / Rebecca Hammel; Commons crop by Wabbuh",
+      "credit_url": "/apps/img/cruz-says-portrait-credit.json"
+    }
   },
   {
     "id": "farage-says",
@@ -6130,9 +6265,18 @@
       "en": ""
     },
     "sitemap_lastmod": "2026-10-29",
-    "image_url": "/apps/img/farage-says.svg",
+    "image_url": "/apps/img/farage-says-portrait.jpg",
     "image_fit": "contain",
-    "image_alt": "Farage Says"
+    "image_alt": "Farage Says",
+    "image_credit": {
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "modifications": "Selected Commons JPEG downloaded unchanged. Existing source crops are credited in the creator line where applicable. No local image re-encoding or face editing. CSS may scale or crop the display. No endorsement implied.",
+      "sha256": "8d702ed762715161d72453c6feedb52948fe72968327ab21dde789f00bb83678",
+      "source": "https://commons.wikimedia.org/wiki/File:Official_portrait_of_Nigel_Farage_MP_(3x4_close_cropped).jpg",
+      "attribution": "Laurie Noble; Commons crop by Wabbuh",
+      "credit_url": "/apps/img/farage-says-portrait-credit.json"
+    }
   },
   {
     "id": "kono-says",
@@ -6151,9 +6295,18 @@
       "en": ""
     },
     "sitemap_lastmod": "2026-10-29",
-    "image_url": "/apps/img/kono-says.svg",
+    "image_url": "/apps/img/kono-says-portrait.jpg",
     "image_fit": "contain",
-    "image_alt": "Kono Says"
+    "image_alt": "Kono Says",
+    "image_credit": {
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "modifications": "Selected Commons JPEG downloaded unchanged. Existing source crops are credited in the creator line where applicable. No local image re-encoding or face editing. CSS may scale or crop the display. No endorsement implied.",
+      "sha256": "8182d795679b401f7fe1707f0e4d7734e3b7db58b0f127bc163e7464348ac6e7",
+      "source": "https://commons.wikimedia.org/wiki/File:Taro_Kono_(cropped).jpg",
+      "attribution": "多摩に暇人; Commons crop by Taro2968332",
+      "credit_url": "/apps/img/kono-says-portrait-credit.json"
+    }
   },
   {
     "id": "takaichi-says",
@@ -6172,9 +6325,18 @@
       "en": ""
     },
     "sitemap_lastmod": "2026-10-29",
-    "image_url": "/apps/img/takaichi-says.svg",
+    "image_url": "/apps/img/takaichi-says-portrait.jpg",
     "image_fit": "contain",
-    "image_alt": "Takaichi Says"
+    "image_alt": "Takaichi Says",
+    "image_credit": {
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "modifications": "Selected Commons JPEG downloaded unchanged. Existing source crops are credited in the creator line where applicable. No local image re-encoding or face editing. CSS may scale or crop the display. No endorsement implied.",
+      "sha256": "8d978601a5d85c60f8712e342537f757fa33e2a36256a27ebe980734695b791c",
+      "source": "https://commons.wikimedia.org/wiki/File:Sanae_Takaichi_20251021.jpg",
+      "attribution": "Cabinet Secretariat, Cabinet Public Relations Office / 首相官邸ホームページ",
+      "credit_url": "/apps/img/takaichi-says-portrait-credit.json"
+    }
   },
   {
     "id": "modi-says",
@@ -6193,9 +6355,18 @@
       "en": ""
     },
     "sitemap_lastmod": "2026-10-29",
-    "image_url": "/apps/img/modi-says.svg",
+    "image_url": "/apps/img/modi-says-portrait.jpg",
     "image_fit": "contain",
-    "image_alt": "Modi Says"
+    "image_alt": "Modi Says",
+    "image_credit": {
+      "license": "Public domain (U.S. federal government work)",
+      "license_url": "https://www.copyright.gov/title17/92chap1.html#105",
+      "modifications": "Wikimedia server-generated 500px JPEG rendition downloaded unchanged; server resizing is the only new rendition transformation. Existing source crops are credited in the creator line where applicable. No local image re-encoding or face editing. CSS may scale or crop the display. No endorsement implied.",
+      "sha256": "a95165fdaafecc4bdd1184e1b0ca3b036b792fcd23f5e35839c2a076a0364367",
+      "source": "https://commons.wikimedia.org/wiki/File:Narendra_Modi_2025_(cropped).jpg",
+      "attribution": "The White House / Daniel Torok; Commons crop by Ooligan",
+      "credit_url": "/apps/img/modi-says-portrait-credit.json"
+    }
   },
   {
     "id": "macron-says",
@@ -6214,9 +6385,18 @@
       "en": ""
     },
     "sitemap_lastmod": "2026-10-29",
-    "image_url": "/apps/img/macron-says.svg",
+    "image_url": "/apps/img/macron-says-portrait.jpg",
     "image_fit": "contain",
-    "image_alt": "Macron Says"
+    "image_alt": "Macron Says",
+    "image_credit": {
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "modifications": "Wikimedia server-generated 500px JPEG rendition downloaded unchanged; server resizing is the only new rendition transformation. Existing source crops are credited in the creator line where applicable. No local image re-encoding or face editing. CSS may scale or crop the display. No endorsement implied.",
+      "sha256": "fb9d0195622618a6703d2de887cc1b909b04d5a3433125dc420fff2bdb63185d",
+      "source": "https://commons.wikimedia.org/wiki/File:Emmanuel_Macron_crop.jpg",
+      "attribution": "Ecole polytechnique Université Paris; Commons crops by Nick.mon and David Levy",
+      "credit_url": "/apps/img/macron-says-portrait-credit.json"
+    }
   },
   {
     "id": "lula-says",
@@ -6235,9 +6415,18 @@
       "en": ""
     },
     "sitemap_lastmod": "2026-10-29",
-    "image_url": "/apps/img/lula-says.svg",
+    "image_url": "/apps/img/lula-says-portrait.jpg",
     "image_fit": "contain",
-    "image_alt": "Lula Says"
+    "image_alt": "Lula Says",
+    "image_credit": {
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "modifications": "Wikimedia server-generated 500px JPEG rendition downloaded unchanged; server resizing is the only new rendition transformation. Existing source crops are credited in the creator line where applicable. No local image re-encoding or face editing. CSS may scale or crop the display. No endorsement implied.",
+      "sha256": "7ec4cc6eeac588a038d4a4c9825c8a881dfc3eee68fef8a33eacd452e5c8155b",
+      "source": "https://commons.wikimedia.org/wiki/File:Foto_oficial_de_Luiz_In%C3%A1cio_Lula_da_Silva_(3x4_cropped).jpg",
+      "attribution": "Ricardo Stuckert / Presidência da República (Palácio do Planalto); Commons crop by Wabbuh",
+      "credit_url": "/apps/img/lula-says-portrait-credit.json"
+    }
   },
   {
     "id": "le-pen-says",
@@ -6256,9 +6445,18 @@
       "en": ""
     },
     "sitemap_lastmod": "2026-10-29",
-    "image_url": "/apps/img/le-pen-says.svg",
+    "image_url": "/apps/img/le-pen-says-portrait.jpg",
     "image_fit": "contain",
-    "image_alt": "Le Pen Says"
+    "image_alt": "Le Pen Says",
+    "image_credit": {
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "modifications": "Wikimedia server-generated 500px JPEG rendition downloaded unchanged; server resizing is the only new rendition transformation. Existing source crops are credited in the creator line where applicable. No local image re-encoding or face editing. CSS may scale or crop the display. No endorsement implied.",
+      "sha256": "8982d472a869c3976697c6fa5b72df5e0f505922a3ef1eba913c9ddd065e4939",
+      "source": "https://commons.wikimedia.org/wiki/File:Marine_Le_Pen_in_2026.jpg",
+      "attribution": "Elekes Andor",
+      "credit_url": "/apps/img/le-pen-says-portrait-credit.json"
+    }
   },
   {
     "id": "bardella-says",
@@ -6277,9 +6475,18 @@
       "en": ""
     },
     "sitemap_lastmod": "2026-10-29",
-    "image_url": "/apps/img/bardella-says.svg",
+    "image_url": "/apps/img/bardella-says-portrait.jpg",
     "image_fit": "contain",
-    "image_alt": "Bardella Says"
+    "image_alt": "Bardella Says",
+    "image_credit": {
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "modifications": "Wikimedia server-generated 500px JPEG rendition downloaded unchanged; server resizing is the only new rendition transformation. Existing source crops are credited in the creator line where applicable. No local image re-encoding or face editing. CSS may scale or crop the display. No endorsement implied.",
+      "sha256": "d89452da32e97668a3827ad34fba9f412055cc5fb53d2074102a00be9af938c6",
+      "source": "https://commons.wikimedia.org/wiki/File:Jordan_Bardella_(July_2022).jpg",
+      "attribution": "European Parliament; Commons crop by Vacant0",
+      "credit_url": "/apps/img/bardella-says-portrait-credit.json"
+    }
   },
   {
     "id": "sanchez-says",
@@ -6298,8 +6505,17 @@
       "en": ""
     },
     "sitemap_lastmod": "2026-10-29",
-    "image_url": "/apps/img/sanchez-says.svg",
+    "image_url": "/apps/img/sanchez-says-portrait.jpg",
     "image_fit": "contain",
-    "image_alt": "Sánchez Says"
+    "image_alt": "Sánchez Says",
+    "image_credit": {
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "modifications": "Wikimedia server-generated 330px JPEG rendition downloaded unchanged; server resizing is the only new rendition transformation. Existing source crops are credited in the creator line where applicable. No local image re-encoding or face editing. CSS may scale or crop the display. No endorsement implied.",
+      "sha256": "d8feca29003794d4feccae957b71da328ca875b11791a662bec9b6d7a821ecc3",
+      "source": "https://commons.wikimedia.org/wiki/File:Pedro_S%C3%A1nchez_2019_(portrait_crop).jpg",
+      "attribution": "European Parliament; Commons crops by David Levy and Cheep",
+      "credit_url": "/apps/img/sanchez-says-portrait-credit.json"
+    }
   }
 ]

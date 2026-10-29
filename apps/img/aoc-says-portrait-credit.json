@@ -1,0 +1,31 @@
+{
+  "source": "https://commons.wikimedia.org/wiki/File:Alexandria_Ocasio-Cortez_Official_Portrait.jpg",
+  "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Alexandria_Ocasio-Cortez_Official_Portrait.jpg/960px-Alexandria_Ocasio-Cortez_Official_Portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+  "creator": "Franmarie Metzler; U.S. House Office of Photography",
+  "attribution": "Franmarie Metzler / U.S. House Office of Photography",
+  "license": "Public domain (U.S. Congress)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Congress",
+  "sha256": "80434e59c9226495e1a4358324098e0eefee1f4ae82e73ee59b47dd0e2af3b8b",
+  "modifications": "Using the Wikimedia server-generated 960px-wide JPEG rendition explicitly linked on the original Commons file page. Downloaded rendition bytes unchanged; no local re-encoding, retouching or newly generated crop. CSS may scale or crop the display. Original-file SHA256 and attribution are retained in this record.",
+  "source_file_title": "File:Alexandria Ocasio-Cortez Official Portrait.jpg",
+  "upstream_source_urls": [
+    "https://ocasio-cortez.house.gov/about",
+    "https://web.archive.org/web/20190210103022/https://ocasio-cortez.house.gov/about",
+    "https://en.wikipedia.org/wiki/Wayback_Machine"
+  ],
+  "commons_author_field": "Franmarie Metzler; U.S. House Office of Photography",
+  "source_page_sha256": "9e1ecafbf3bc2a9de10cf7f8013955cf0450d0632671c80a1a7194f6bc908bba",
+  "rights_verified_at": "2026-10-29T00:34:14.706870+00:00",
+  "endorsement": "No endorsement or affiliation implied.",
+  "original_sha256": "d00ca307f0ee5a1f43344f0e3b8fb2757bc3c85dbbe6acbc76481d3cdc7280a8",
+  "original_bytes": 3026147,
+  "original_download_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Alexandria_Ocasio-Cortez_Official_Portrait.jpg",
+  "rendition": {
+    "provider": "Wikimedia Commons",
+    "width": 960,
+    "height": 1200,
+    "server_resized": true,
+    "locally_reencoded": false
+  },
+  "rendition_downloaded_at": "2026-10-29T00:38:08.017416+00:00"
+}

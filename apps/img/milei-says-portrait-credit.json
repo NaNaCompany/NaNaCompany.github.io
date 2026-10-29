@@ -1,0 +1,22 @@
+{
+  "source": "https://commons.wikimedia.org/wiki/File:Retrato_oficial_del_Presidente_Javier_(cropped).jpeg",
+  "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Retrato_oficial_del_Presidente_Javier_%28cropped%29.jpeg/500px-Retrato_oficial_del_Presidente_Javier_%28cropped%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+  "original_download_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Retrato_oficial_del_Presidente_Javier_%28cropped%29.jpeg",
+  "creator": "Gobierno Argentino / Argentine State portal",
+  "attribution": "Argentine State portal",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "sha256": "31ea1aeca909aad79c9ab33d62fc624c62811f8c280c9041c4e53dd6d7e8081d",
+  "modifications": "Using the Wikimedia server-generated 500px-wide JPEG rendition linked by the original Commons file page. Downloaded rendition bytes unchanged; no local re-encoding or retouching. CSS may scale or crop the display. Commons source is an existing cropped derivative of the official portrait.",
+  "source_file_title": "File:Retrato oficial del Presidente Javier (cropped).jpeg",
+  "source_page_sha256": "f9d34a3f55a2ff7977cb988c4f7de7d6d316733d3133b8a85638d93a2af4ed36",
+  "rights_verified_at": "2026-10-29T00:36:01.330143+00:00",
+  "rendition": {
+    "provider": "Wikimedia Commons",
+    "width": 500,
+    "height": 625,
+    "server_resized": true,
+    "locally_reencoded": false
+  },
+  "endorsement": "No endorsement or affiliation implied."
+}

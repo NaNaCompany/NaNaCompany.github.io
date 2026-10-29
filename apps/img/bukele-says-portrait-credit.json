@@ -1,0 +1,22 @@
+{
+  "source": "https://commons.wikimedia.org/wiki/File:Presidente_Bukele.jpg",
+  "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Presidente_Bukele.jpg/960px-Presidente_Bukele.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+  "original_download_url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Presidente_Bukele.jpg",
+  "creator": "AndreX",
+  "attribution": "AndreX",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "sha256": "0cb3d558c01328239b53a96d9925e97014b516303b9617befae282456afe9f63",
+  "modifications": "Using the Wikimedia server-generated 960px-wide JPEG rendition linked by the original Commons file page. Downloaded rendition bytes unchanged; no local re-encoding or retouching. CSS may scale or crop the display. Wikimedia VRT permission ticket 2020082710004705 recorded on Commons.",
+  "source_file_title": "File:Presidente Bukele.jpg",
+  "source_page_sha256": "260f4b6995707604f23786f3d6210236d69d6891570675fdde333309eac474f3",
+  "rights_verified_at": "2026-10-29T00:36:03.876130+00:00",
+  "rendition": {
+    "provider": "Wikimedia Commons",
+    "width": 960,
+    "height": 1439,
+    "server_resized": true,
+    "locally_reencoded": false
+  },
+  "endorsement": "No endorsement or affiliation implied."
+}

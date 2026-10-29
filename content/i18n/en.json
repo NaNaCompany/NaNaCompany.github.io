@@ -134,7 +134,8 @@
     "모든 파일은 사이트 빌드 때 함께 갱신됩니다. JSON Feed는 호스팅 환경에 따라": "All files are updated during the site build. Depending on hosting, JSON Feed may use",
     "으로 응답할 수 있으며 JSON Feed 1.1에서 허용하는 방식입니다.": ", which JSON Feed 1.1 permits.",
     "Web app": "Web app",
-    "apps & tools": "apps & tools"
+    "apps & tools": "apps & tools",
+    "사진 출처": "Photo credit"
   },
   "apps": {
     "smart_calculator": {

@@ -1,0 +1,22 @@
+{
+  "source": "https://commons.wikimedia.org/wiki/File:Geert_Wilders_2025_(cropped).jpg",
+  "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Geert_Wilders_2025_%28cropped%29.jpg/960px-Geert_Wilders_2025_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+  "original_download_url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Geert_Wilders_2025_%28cropped%29.jpg",
+  "creator": "Vox España",
+  "attribution": "Vox España",
+  "license": "CC0 1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "sha256": "7ed431ef2e747d85467f8fb22e4c3aa911027f1f03d6669572ec1215ef01bd77",
+  "modifications": "Using the Wikimedia server-generated 960px-wide JPEG rendition linked by the original Commons file page. Downloaded rendition bytes unchanged; no local re-encoding or retouching. CSS may scale or crop the display. Commons source is an existing crop of a photograph published by Vox España.",
+  "source_file_title": "File:Geert Wilders 2025 (cropped).jpg",
+  "source_page_sha256": "b958ea6996e903aab00fdb127825cbed8ac0dd25809f86b5990ef3aba112c6d8",
+  "rights_verified_at": "2026-10-29T00:36:06.548740+00:00",
+  "rendition": {
+    "provider": "Wikimedia Commons",
+    "width": 960,
+    "height": 1185,
+    "server_resized": true,
+    "locally_reencoded": false
+  },
+  "endorsement": "No endorsement or affiliation implied."
+}

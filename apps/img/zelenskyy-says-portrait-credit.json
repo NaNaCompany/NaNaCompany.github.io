@@ -1,0 +1,29 @@
+{
+  "source": "https://commons.wikimedia.org/wiki/File:Volodymyr_Zelensky_Official_portrait.jpg",
+  "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Volodymyr_Zelensky_Official_portrait.jpg/960px-Volodymyr_Zelensky_Official_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+  "creator": "President.gov.ua",
+  "attribution": "President.gov.ua",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "sha256": "43916e4bc8f3aade2ce8ed5ca2d9da1a8c9afee4dcba9f8dc0f931617c49b81f",
+  "modifications": "Using the Wikimedia server-generated 960px-wide JPEG rendition explicitly linked on the original Commons file page. Downloaded rendition bytes unchanged; no local re-encoding, retouching or newly generated crop. CSS may scale or crop the display. Original-file SHA256 and attribution are retained in this record.",
+  "source_file_title": "File:Volodymyr Zelensky Official portrait.jpg",
+  "upstream_source_urls": [
+    "https://www.president.gov.ua/en/president/biografiya"
+  ],
+  "commons_author_field": "http://www.president.gov.ua/",
+  "source_page_sha256": "2f9b0e74e961805ed54d832b4027887f00fdffb1e172375eb5711412a78f44cf",
+  "rights_verified_at": "2026-10-29T00:34:14.706870+00:00",
+  "endorsement": "No endorsement or affiliation implied.",
+  "original_sha256": "15e19b3ffcf9e92c388c9942c6e40753c58771e1bbb37abc60d9aea1046a7d0a",
+  "original_bytes": 10332805,
+  "original_download_url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Volodymyr_Zelensky_Official_portrait.jpg",
+  "rendition": {
+    "provider": "Wikimedia Commons",
+    "width": 960,
+    "height": 1300,
+    "server_resized": true,
+    "locally_reencoded": false
+  },
+  "rendition_downloaded_at": "2026-10-29T00:38:06.392854+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "source": "https://commons.wikimedia.org/wiki/File:Bernie_Sanders.jpg",
+  "download_url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Bernie_Sanders.jpg",
+  "creator": "United States Congress",
+  "attribution": "United States Congress",
+  "license": "Public domain (U.S. Congress)",
+  "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Congress",
+  "sha256": "35fbf6839fd3bb852d2329131e84c21dcf3c163c1b2078539f83c965e663cf0e",
+  "modifications": "Downloaded original Commons JPEG bytes unchanged. No re-encoding, retouching or new derivative image. CSS may scale or crop the display. U.S. Congress official photograph, recorded as public domain on Commons.",
+  "source_file_title": "File:Bernie Sanders.jpg",
+  "upstream_source_urls": [
+    "https://web.archive.org/web/20070425203500/http://sanders.senate.gov/photos/Sanders-Headshot.jpg"
+  ],
+  "commons_author_field": "United States Congress",
+  "source_page_sha256": "82c92c14f6b2dc64c1671e803371a61c0aaa784a183cad70b199f710e05ddba7",
+  "rights_verified_at": "2026-10-29T00:34:14.706870+00:00",
+  "endorsement": "No endorsement or affiliation implied."
+}
