@@ -7,6 +7,17 @@
     <language>ko</language>
     <atom:link href="https://nanalab.kr/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>[앱] 악보 암기</title>
+      <link>https://nanalab.kr/memorize_socre/</link>
+      <description>MusicXML 악보로 마디 순서·음표·악상을 연습하고 마디별 진도를 저장하는 악보 암기 도구입니다.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:memorize_socre</guid>
+      <category>앱</category>
+      <category>이미지·미디어</category>
+      <pubDate>Sat, 31 Oct 2026 12:19:20 +0000</pubDate>
+    </item>
+    <item>
       <title>[앱] Sánchez Says</title>
       <link>https://nanalab.kr/sanchez-says/</link>
       <description>Browse 305 collected X posts from Pedro Sánchez (@sanchezcastejon) by date. Partial snapshot; native reposts excluded; original language only.
@@ -2290,17 +2301,6 @@ Original JPEG unchanged. CSS scales and crops its display.
       <category>앱</category>
       <category>공학·계산</category>
       <pubDate>Sun, 25 Oct 2026 01:03:02 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 구심가속도 계산기</title>
-      <link>https://nanalab.kr/eng-centripetal-acceleration/</link>
-      <description>구심가속도 계산 / 원심 실험·회전 장치 검산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:eng-centripetal-acceleration</guid>
-      <category>앱</category>
-      <category>공학·계산</category>
-      <pubDate>Sun, 25 Oct 2026 01:02:53 +0000</pubDate>
     </item>
   </channel>
 </rss>

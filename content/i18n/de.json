@@ -1437,6 +1437,16 @@
       "name": "Sánchez Says",
       "description": "Browse 305 collected X posts from Pedro Sánchez (@sanchezcastejon) by date. Partial snapshot; native reposts excluded; original language only.",
       "image_alt": "Sánchez Says"
+    },
+    "memorize_socre": {
+      "name": "Noten auswendig lernen",
+      "description": "Taktfolgen, Noten und Vortragszeichen aus MusicXML-Partituren üben. Der Fortschritt wird im Browser gespeichert.",
+      "image_alt": "Noten auswendig lernen"
+    },
+    "score_reading": {
+      "name": "Blattspielhilfe",
+      "description": "Versetzungszeichen, Dynamik und Artikulation in MusicXML-Partituren farbig markieren, abspielen und exportieren.",
+      "image_alt": "Blattspielhilfe"
     }
   },
   "schema_version": "1.0",

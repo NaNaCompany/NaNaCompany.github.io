@@ -1,8 +1,28 @@
 {
   "schema_version": "1.0",
   "type": "apps",
-  "count": 260,
+  "count": 262,
   "items": [
+    {
+      "id": "memorize_socre",
+      "section": "apps",
+      "title": "악보 암기",
+      "url": "https://nanalab.kr/memorize_socre/",
+      "summary": "MusicXML 악보로 마디 순서·음표·악상을 연습하고 마디별 진도를 저장하는 악보 암기 도구입니다.",
+      "category": "이미지·미디어",
+      "date_published": "2026-10-31T12:19:20Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "/apps/img/memorize_socre.svg",
+      "repository": "https://github.com/NaNaCompany/memorize_socre",
+      "languages": [
+        "ko"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/memorize_socre/"
+      }
+    },
     {
       "id": "sanchez-says",
       "section": "apps",
@@ -7141,6 +7161,26 @@
       "date_precision": "second",
       "date_kind": "github_repository_created_at",
       "source_url": "https://nanalab.kr/apps/"
+    },
+    {
+      "id": "score_reading",
+      "section": "apps",
+      "title": "초견 도우미",
+      "url": "https://nanalab.kr/score_reading/",
+      "summary": "MusicXML 악보의 변화표·셈여림·아티큘레이션을 색상으로 표시하고 재생·출력하는 초견 연습 도구입니다.",
+      "category": "이미지·미디어",
+      "date_published": "2026-08-29T03:57:46Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "/apps/img/score_reading.svg",
+      "repository": "https://github.com/NaNaCompany/score_reading",
+      "languages": [
+        "ko"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/score_reading/"
+      }
     },
     {
       "id": "audio_edit",

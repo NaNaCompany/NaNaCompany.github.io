@@ -1437,6 +1437,16 @@
       "name": "Sánchez Says",
       "description": "Browse 305 collected X posts from Pedro Sánchez (@sanchezcastejon) by date. Partial snapshot; native reposts excluded; original language only.",
       "image_alt": "Sánchez Says"
+    },
+    "memorize_socre": {
+      "name": "Memorizador de partituras",
+      "description": "Practica el orden de los compases, las notas y las indicaciones de partituras MusicXML. El progreso se guarda en el navegador.",
+      "image_alt": "Memorizador de partituras"
+    },
+    "score_reading": {
+      "name": "Lectura a primera vista",
+      "description": "Resalta alteraciones, dinámicas y articulaciones de partituras MusicXML, y reproduce o exporta la partitura.",
+      "image_alt": "Lectura a primera vista"
     }
   },
   "schema_version": "1.0",

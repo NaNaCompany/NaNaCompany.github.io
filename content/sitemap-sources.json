@@ -807,6 +807,10 @@
       ]
     },
     {
+      "app_id": "memorize_socre",
+      "url": "https://nanalab.kr/memorize_socre/sitemap.xml"
+    },
+    {
       "app_id": "meta-tag-studio",
       "url": "https://nanalab.kr/meta-tag-studio/sitemap.xml"
     },
@@ -938,6 +942,10 @@
       "additional_urls": [
         "https://nanalab.kr/sanders-says/sitemap-posts-01.xml"
       ]
+    },
+    {
+      "app_id": "score_reading",
+      "url": "https://nanalab.kr/score_reading/sitemap.xml"
     },
     {
       "app_id": "semester-gpa",

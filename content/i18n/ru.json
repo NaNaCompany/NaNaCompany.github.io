@@ -1437,6 +1437,16 @@
       "name": "Sánchez Says",
       "description": "Browse 305 collected X posts from Pedro Sánchez (@sanchezcastejon) by date. Partial snapshot; native reposts excluded; original language only.",
       "image_alt": "Sánchez Says"
+    },
+    "memorize_socre": {
+      "name": "Запоминание нот",
+      "description": "Тренируйте порядок тактов, ноты и музыкальные обозначения по партитурам MusicXML. Прогресс сохраняется в браузере.",
+      "image_alt": "Запоминание нот"
+    },
+    "score_reading": {
+      "name": "Помощник чтения с листа",
+      "description": "Выделяйте цветом знаки альтерации, динамику и артикуляцию в партитурах MusicXML, воспроизводите и экспортируйте их.",
+      "image_alt": "Помощник чтения с листа"
     }
   },
   "schema_version": "1.0",

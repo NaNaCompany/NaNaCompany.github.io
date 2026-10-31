@@ -616,6 +616,9 @@
     <loc>https://nanalab.kr/melenchon-says/sitemap-posts-01.xml</loc>
   </sitemap>
   <sitemap>
+    <loc>https://nanalab.kr/memorize_socre/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
     <loc>https://nanalab.kr/meta-tag-studio/sitemap.xml</loc>
   </sitemap>
   <sitemap>
@@ -722,6 +725,9 @@
   </sitemap>
   <sitemap>
     <loc>https://nanalab.kr/sanders-says/sitemap-posts-01.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/score_reading/sitemap.xml</loc>
   </sitemap>
   <sitemap>
     <loc>https://nanalab.kr/semester-gpa/sitemap.xml</loc>

@@ -6517,5 +6517,47 @@
       "attribution": "European Parliament; Commons crops by David Levy and Cheep",
       "credit_url": "/apps/img/sanchez-says-portrait-credit.json"
     }
+  },
+  {
+    "id": "memorize_socre",
+    "name": "악보 암기",
+    "category": "이미지·미디어",
+    "description": "MusicXML 악보로 마디 순서·음표·악상을 연습하고 마디별 진도를 저장하는 악보 암기 도구입니다.",
+    "published_at": "2026-10-31T12:19:20Z",
+    "symbol": "♫",
+    "url": "https://nanalab.kr/memorize_socre/",
+    "repository": "https://github.com/NaNaCompany/memorize_socre",
+    "date_source": "github_repository_created_at",
+    "languages": [
+      "ko"
+    ],
+    "language_paths": {
+      "ko": ""
+    },
+    "sitemap_lastmod": "2026-10-31",
+    "image_url": "/apps/img/memorize_socre.svg",
+    "image_fit": "contain",
+    "image_alt": "악보 암기"
+  },
+  {
+    "id": "score_reading",
+    "name": "초견 도우미",
+    "category": "이미지·미디어",
+    "description": "MusicXML 악보의 변화표·셈여림·아티큘레이션을 색상으로 표시하고 재생·출력하는 초견 연습 도구입니다.",
+    "published_at": "2026-08-29T03:57:46Z",
+    "symbol": "♫",
+    "url": "https://nanalab.kr/score_reading/",
+    "repository": "https://github.com/NaNaCompany/score_reading",
+    "date_source": "github_repository_created_at",
+    "languages": [
+      "ko"
+    ],
+    "language_paths": {
+      "ko": ""
+    },
+    "sitemap_lastmod": "2026-10-31",
+    "image_url": "/apps/img/score_reading.svg",
+    "image_fit": "contain",
+    "image_alt": "초견 도우미"
   }
 ]

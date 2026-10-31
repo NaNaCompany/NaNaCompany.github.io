@@ -1437,6 +1437,16 @@
       "name": "Sánchez Says",
       "description": "Browse 305 collected X posts from Pedro Sánchez (@sanchezcastejon) by date. Partial snapshot; native reposts excluded; original language only.",
       "image_alt": "Sánchez Says"
+    },
+    "memorize_socre": {
+      "name": "Score Memorizer",
+      "description": "Practice bar order, notes and musical markings from MusicXML scores, with progress saved in your browser.",
+      "image_alt": "Score Memorizer"
+    },
+    "score_reading": {
+      "name": "Sight-reading Helper",
+      "description": "Highlight accidentals, dynamics and articulations in MusicXML scores, then play or export the score.",
+      "image_alt": "Sight-reading Helper"
     }
   },
   "schema_version": "1.0",

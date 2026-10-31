@@ -209,6 +209,7 @@ Sitemap: https://nanalab.kr/macron-says/sitemap-posts-01.xml
 Sitemap: https://nanalab.kr/matrix-workbench/sitemap.xml
 Sitemap: https://nanalab.kr/melenchon-says/sitemap-main.xml
 Sitemap: https://nanalab.kr/melenchon-says/sitemap-posts-01.xml
+Sitemap: https://nanalab.kr/memorize_socre/sitemap.xml
 Sitemap: https://nanalab.kr/meta-tag-studio/sitemap.xml
 Sitemap: https://nanalab.kr/milei-says/sitemap-main.xml
 Sitemap: https://nanalab.kr/milei-says/sitemap-posts-01.xml
@@ -244,6 +245,7 @@ Sitemap: https://nanalab.kr/sanchez-says/sitemap-main.xml
 Sitemap: https://nanalab.kr/sanchez-says/sitemap-posts-01.xml
 Sitemap: https://nanalab.kr/sanders-says/sitemap-main.xml
 Sitemap: https://nanalab.kr/sanders-says/sitemap-posts-01.xml
+Sitemap: https://nanalab.kr/score_reading/sitemap.xml
 Sitemap: https://nanalab.kr/semester-gpa/sitemap.xml
 Sitemap: https://nanalab.kr/shared-costs/sitemap.xml
 Sitemap: https://nanalab.kr/subtitle-shift/sitemap.xml

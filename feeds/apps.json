@@ -8,6 +8,18 @@
   "favicon": "https://nanalab.kr/favicon.ico/android-icon-192x192.png",
   "items": [
     {
+      "id": "urn:nanalab:apps:memorize_socre",
+      "url": "https://nanalab.kr/memorize_socre/",
+      "title": "[앱] 악보 암기",
+      "content_text": "MusicXML 악보로 마디 순서·음표·악상을 연습하고 마디별 진도를 저장하는 악보 암기 도구입니다.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "이미지·미디어"
+      ],
+      "date_published": "2026-10-31T12:19:20Z",
+      "image": "/apps/img/memorize_socre.svg"
+    },
+    {
       "id": "urn:nanalab:apps:sanchez-says",
       "url": "https://nanalab.kr/sanchez-says/",
       "title": "[앱] Sánchez Says",
@@ -1191,18 +1203,6 @@
       ],
       "date_published": "2026-10-25T06:21:16Z",
       "image": "https://nanalab.kr/eng-miner-fatigue/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-point-mass-inertia",
-      "url": "https://nanalab.kr/eng-point-mass-inertia/",
-      "title": "[앱] 점질량 집합 관성모멘트 계산기",
-      "content_text": "점질량별 질량과 회전축까지의 수직거리를 목록으로 입력하여 전체 질량관성모멘트를 합산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T06:21:08Z",
-      "image": "https://nanalab.kr/eng-point-mass-inertia/og.png"
     }
   ]
 }

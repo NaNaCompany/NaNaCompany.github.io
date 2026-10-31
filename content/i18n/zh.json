@@ -1437,6 +1437,16 @@
       "name": "Sánchez Says",
       "description": "Browse 305 collected X posts from Pedro Sánchez (@sanchezcastejon) by date. Partial snapshot; native reposts excluded; original language only.",
       "image_alt": "Sánchez Says"
+    },
+    "memorize_socre": {
+      "name": "乐谱记忆",
+      "description": "使用MusicXML乐谱练习小节顺序、音符和表情记号，并在浏览器中保存进度。",
+      "image_alt": "乐谱记忆"
+    },
+    "score_reading": {
+      "name": "视奏助手",
+      "description": "为MusicXML乐谱的临时记号、力度和演奏法标记着色，并播放或导出乐谱。",
+      "image_alt": "视奏助手"
     }
   },
   "schema_version": "1.0",

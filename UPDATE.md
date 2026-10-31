@@ -121,3 +121,15 @@
 - 모든 원본 앱의 4종 publisher 통합은 유지했다. 이 변경은 카탈로그·사이트맵 반영이며 Astra에 광고를 추가하지 않는다. 로컬 브라우저 검사는 미리보기 전용 CSP로 외부 추적·광고 요청을 차단한다.
 
 GitHub Pages 최종 커밋·공개 파일 대조·공개 전체 사이트맵 검사 결과는 워크스페이스 `UpdateQue.md`와 `.tools/catalog-update-20261028/` 릴리스 기록에 연결한다.
+
+
+## 2026-10-31 — 악보 앱 2개 연결
+
+- 악보 암기(memorize_socre)·초견 도우미(score_reading)를 실제 저장소·기능·한국어 공개 주소·생성일 확인 후 대표 카드 각 1개로 추가했다. 기존 260개 원본 항목 보존, 총 262개. 저장소 생성 시각 기준 최신순과 1컬럼 디자인을 유지했다.
+- 보조 8개 언어의 카드 설명·이름을 추가했다. 앱 자체는 한국어만 제공하므로 모든 카드가 검증된 기본 주소로 연결된다. 자체 SVG 아이콘을 연결했다.
+- 두 앱의 canonical 홈 URL과 sitemap.xml leaf를 메인 페이지 목록·루트 sitemapindex·robots에 연결했다. 기존 leaf 271개와 메인 URL을 보존하고 앱 leaf 2개를 추가했다. RSS·JSON Feed·공개 앱 API도 재생성했다.
+- 9언어 메인/앱 목록 18페이지의 4,716개 카드와 첫 항목 memorize_socre, 중복 없음, 기존 260개 데이터 불변을 검사했다. 빌드 최신성·현지화·상호작용·언어 선택·canonical URL·구독 피드·저장소 그룹·사이트맵 회귀 등 표준 9개 검사 통과.
+- 기존 로컬 전체 검사 2개는 삭제된 이전 형제 체크아웃(world-law-kr-acts/world-law-kr-orders/world-law-de 및 appliance-error-guide 등) 때문에 제한된다. 규칙을 완화하지 않고 기존 카드/사이트맵 보존 검사와 공개 지도 순회로 보완한다.
+- 앱의 GA4·GTM+noscript·AdSense·Cloudflare 통합을 확인했다. 메인의 기존 게시자 설정과 Astra 광고 금지 예외는 변경하지 않았다.
+- Windows 브라우저 제어가 현재 URL 확인 실패로 중단되어 실제 브라우저 레이아웃·파일 업로드·오디오 검증은 완료로 주장하지 않는다. 소스 보존, 런타임 mock, 정적 검사 및 공개 HTTP 배포 대조 결과를 별도로 기록한다. 검색엔진 색인 완료/재제출은 이번 범위에 포함하지 않는다.
+- 증거: workspace .tools/music-apps-20261031/의 baseline.json, static-check.json, checks-main.json, publish.json, live-check.json, sitemaps-live.log, completion.json.
