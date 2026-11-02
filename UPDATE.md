@@ -133,3 +133,10 @@ GitHub Pages 최종 커밋·공개 파일 대조·공개 전체 사이트맵 검
 - 앱의 GA4·GTM+noscript·AdSense·Cloudflare 통합을 확인했다. 메인의 기존 게시자 설정과 Astra 광고 금지 예외는 변경하지 않았다.
 - Windows 브라우저 제어가 현재 URL 확인 실패로 중단되어 실제 브라우저 레이아웃·파일 업로드·오디오 검증은 완료로 주장하지 않는다. 소스 보존, 런타임 mock, 정적 검사 및 공개 HTTP 배포 대조 결과를 별도로 기록한다. 검색엔진 색인 완료/재제출은 이번 범위에 포함하지 않는다.
 - 증거: workspace .tools/music-apps-20261031/의 baseline.json, static-check.json, checks-main.json, publish.json, live-check.json, sitemaps-live.log, completion.json.
+
+## 2026-11-02 — Shared book banner
+
+- Connected all public page types to `https://nanalab.kr/src_cdn/banner/astra.js`. Campaign, design, translated controls and the supplied YES24 book destination are maintained centrally in src_cdn.
+- Shared archive assets load the banner on detail/list pages; other HTML and source templates include the stable deferred loader. HTML-only generator adapters retain the connection after rebuilds and pass non-HTML values through unchanged.
+- The component is closable for the tab session, clears detected bottom navigation, and hides for modals/fullscreen/mobile input. The Astra practice site remains excluded. No additional analytics or ad-network requests are introduced by the component.
+- Existing content, routes and publisher integrations are preserved. Direct HTML changes restore exactly to the baseline when the marked loader is removed. Workspace validation/deployment evidence: `.tools/shared-book-banner-20261102/`.
