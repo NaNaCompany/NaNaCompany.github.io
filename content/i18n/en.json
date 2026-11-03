@@ -1447,6 +1447,11 @@
       "name": "Sight-reading Helper",
       "description": "Highlight accidentals, dynamics and articulations in MusicXML scores, then play or export the score.",
       "image_alt": "Sight-reading Helper"
+    },
+    "lorem-ipsum-generator": {
+      "name": "Lorem Ipsum Generator",
+      "description": "Generate placeholder text by paragraph, sentence or word count in multiple languages, then copy it or save a TXT file.",
+      "image_alt": "Lorem Ipsum Generator"
     }
   },
   "schema_version": "1.0",

@@ -1447,6 +1447,11 @@
       "name": "视奏助手",
       "description": "为MusicXML乐谱的临时记号、力度和演奏法标记着色，并播放或导出乐谱。",
       "image_alt": "视奏助手"
+    },
+    "lorem-ipsum-generator": {
+      "name": "占位文本生成器",
+      "description": "按段落、句子或词语数量及语言生成示例文本，并复制或保存为TXT文件。",
+      "image_alt": "占位文本生成器"
     }
   },
   "schema_version": "1.0",

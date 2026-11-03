@@ -1447,6 +1447,11 @@
       "name": "初見演奏ヘルパー",
       "description": "MusicXML楽譜の臨時記号・強弱・アーティキュレーションを色分けし、再生・出力できます。",
       "image_alt": "初見演奏ヘルパー"
+    },
+    "lorem-ipsum-generator": {
+      "name": "ダミーテキスト生成",
+      "description": "段落・文・単語の数と言語を指定してダミーテキストを生成し、コピーやTXT保存ができます。",
+      "image_alt": "ダミーテキスト生成"
     }
   },
   "schema_version": "1.0",

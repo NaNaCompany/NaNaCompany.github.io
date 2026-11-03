@@ -8,6 +8,18 @@
   "favicon": "https://nanalab.kr/favicon.ico/android-icon-192x192.png",
   "items": [
     {
+      "id": "urn:nanalab:apps:lorem-ipsum-generator",
+      "url": "https://nanalab.kr/lorem-ipsum-generator/",
+      "title": "[앱] 로렘 입숨 생성기",
+      "content_text": "문단·문장·단어 수와 언어를 지정해 예시 텍스트를 생성하고 복사하거나 TXT로 저장하는 도구입니다.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "문서·텍스트"
+      ],
+      "date_published": "2026-11-03T12:46:39Z",
+      "image": "/apps/img/lorem-ipsum-generator.png"
+    },
+    {
       "id": "urn:nanalab:apps:memorize_socre",
       "url": "https://nanalab.kr/memorize_socre/",
       "title": "[앱] 악보 암기",
@@ -1191,18 +1203,6 @@
       ],
       "date_published": "2026-10-25T06:21:17Z",
       "image": "https://nanalab.kr/eng-forced-vibration/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-miner-fatigue",
-      "url": "https://nanalab.kr/eng-miner-fatigue/",
-      "title": "[앱] 마이너 누적 피로손상 계산기",
-      "content_text": "하중 구간별 실제 반복수와 해당 조건의 피로수명을 목록으로 입력하여 선형 누적 손상지수를 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T06:21:16Z",
-      "image": "https://nanalab.kr/eng-miner-fatigue/og.png"
     }
   ]
 }

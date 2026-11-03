@@ -1,8 +1,38 @@
 {
   "schema_version": "1.0",
   "type": "apps",
-  "count": 262,
+  "count": 263,
   "items": [
+    {
+      "id": "lorem-ipsum-generator",
+      "section": "apps",
+      "title": "로렘 입숨 생성기",
+      "url": "https://nanalab.kr/lorem-ipsum-generator/",
+      "summary": "문단·문장·단어 수와 언어를 지정해 예시 텍스트를 생성하고 복사하거나 TXT로 저장하는 도구입니다.",
+      "category": "문서·텍스트",
+      "date_published": "2026-11-03T12:46:39Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "/apps/img/lorem-ipsum-generator.png",
+      "repository": "https://github.com/NaNaCompany/lorem-ipsum-generator",
+      "languages": [
+        "ko",
+        "en",
+        "ja",
+        "zh",
+        "es",
+        "fr"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/lorem-ipsum-generator/",
+        "en": "https://nanalab.kr/lorem-ipsum-generator/en/",
+        "ja": "https://nanalab.kr/lorem-ipsum-generator/ja/",
+        "zh": "https://nanalab.kr/lorem-ipsum-generator/zh/",
+        "es": "https://nanalab.kr/lorem-ipsum-generator/es/",
+        "fr": "https://nanalab.kr/lorem-ipsum-generator/fr/"
+      }
+    },
     {
       "id": "memorize_socre",
       "section": "apps",

@@ -1447,6 +1447,11 @@
       "name": "Auxiliar de leitura à primeira vista",
       "description": "Destaque alterações, dinâmicas e articulações de partituras MusicXML e reproduza ou exporte a partitura.",
       "image_alt": "Auxiliar de leitura à primeira vista"
+    },
+    "lorem-ipsum-generator": {
+      "name": "Gerador de Lorem Ipsum",
+      "description": "Gere texto de exemplo por parágrafos, frases ou palavras em vários idiomas e copie ou salve como TXT.",
+      "image_alt": "Gerador de Lorem Ipsum"
     }
   },
   "schema_version": "1.0",

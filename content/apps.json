@@ -6559,5 +6559,36 @@
     "image_url": "/apps/img/score_reading.svg",
     "image_fit": "contain",
     "image_alt": "초견 도우미"
+  },
+  {
+    "id": "lorem-ipsum-generator",
+    "name": "로렘 입숨 생성기",
+    "category": "문서·텍스트",
+    "description": "문단·문장·단어 수와 언어를 지정해 예시 텍스트를 생성하고 복사하거나 TXT로 저장하는 도구입니다.",
+    "published_at": "2026-11-03T12:46:39Z",
+    "date_source": "github_repository_created_at",
+    "symbol": "Aa",
+    "url": "https://nanalab.kr/lorem-ipsum-generator/",
+    "repository": "https://github.com/NaNaCompany/lorem-ipsum-generator",
+    "languages": [
+      "ko",
+      "en",
+      "ja",
+      "zh",
+      "es",
+      "fr"
+    ],
+    "language_paths": {
+      "ko": "",
+      "en": "en/",
+      "ja": "ja/",
+      "zh": "zh/",
+      "es": "es/",
+      "fr": "fr/"
+    },
+    "sitemap_lastmod": "2026-11-03",
+    "image_url": "/apps/img/lorem-ipsum-generator.png",
+    "image_fit": "contain",
+    "image_alt": "로렘 입숨 생성기"
   }
 ]

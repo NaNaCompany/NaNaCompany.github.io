@@ -201,6 +201,7 @@ Sitemap: https://nanalab.kr/le-pen-says/sitemap-main.xml
 Sitemap: https://nanalab.kr/le-pen-says/sitemap-posts-01.xml
 Sitemap: https://nanalab.kr/level-frame/sitemap.xml
 Sitemap: https://nanalab.kr/line-copy/sitemap.xml
+Sitemap: https://nanalab.kr/lorem-ipsum-generator/sitemap.xml
 Sitemap: https://nanalab.kr/lula-says/sitemap-main.xml
 Sitemap: https://nanalab.kr/lula-says/sitemap-posts-01.xml
 Sitemap: https://nanalab.kr/lunch-math/sitemap.xml

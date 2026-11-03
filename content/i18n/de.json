@@ -1447,6 +1447,11 @@
       "name": "Blattspielhilfe",
       "description": "Versetzungszeichen, Dynamik und Artikulation in MusicXML-Partituren farbig markieren, abspielen und exportieren.",
       "image_alt": "Blattspielhilfe"
+    },
+    "lorem-ipsum-generator": {
+      "name": "Lorem-Ipsum-Generator",
+      "description": "Erzeuge Beispieltext nach Absatz-, Satz- oder Wortanzahl in mehreren Sprachen und kopiere ihn oder speichere ihn als TXT.",
+      "image_alt": "Lorem-Ipsum-Generator"
     }
   },
   "schema_version": "1.0",

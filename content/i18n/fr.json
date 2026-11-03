@@ -1447,6 +1447,11 @@
       "name": "Aide à la lecture à vue",
       "description": "Colorez les altérations, les nuances et les articulations des partitions MusicXML, puis écoutez ou exportez la partition.",
       "image_alt": "Aide à la lecture à vue"
+    },
+    "lorem-ipsum-generator": {
+      "name": "Générateur de Lorem Ipsum",
+      "description": "Générez du texte de remplissage par paragraphes, phrases ou mots dans plusieurs langues, puis copiez-le ou enregistrez-le en TXT.",
+      "image_alt": "Générateur de Lorem Ipsum"
     }
   },
   "schema_version": "1.0",
