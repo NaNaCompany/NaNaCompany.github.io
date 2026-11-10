@@ -1452,6 +1452,10 @@
       "name": "Lorem-Ipsum-Generator",
       "description": "Erzeuge Beispieltext nach Absatz-, Satz- oder Wortanzahl in mehreren Sprachen und kopiere ihn oder speichere ihn als TXT.",
       "image_alt": "Lorem-Ipsum-Generator"
+    },
+    "case-law-portal": {
+      "name": "Rechtsprechungsarchiv",
+      "description": "Eine wachsende Sammlung offiziell veröffentlichter koreanischer Urteile mit einer Seite pro Fall. Internationale Urteile werden nach Prüfung ihrer Veröffentlichungs- und Weiterverwendungsbedingungen ergänzt."
     }
   },
   "schema_version": "1.0",

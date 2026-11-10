@@ -7,6 +7,17 @@
     <language>ko</language>
     <atom:link href="https://nanalab.kr/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>[앱] 판례 자료실</title>
+      <link>https://nanalab.kr/case-law-portal/</link>
+      <description>한국의 공식 공개 판결문을 판례별 페이지로 차근차근 모으는 자료실입니다. 해외 판례는 공개·재사용 조건을 확인한 자료부터 추가합니다.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:case-law-portal</guid>
+      <category>앱</category>
+      <category>문서·텍스트</category>
+      <pubDate>Tue, 10 Nov 2026 10:27:41 +0000</pubDate>
+    </item>
+    <item>
       <title>[앱] 로렘 입숨 생성기</title>
       <link>https://nanalab.kr/lorem-ipsum-generator/</link>
       <description>문단·문장·단어 수와 언어를 지정해 예시 텍스트를 생성하고 복사하거나 TXT로 저장하는 도구입니다.
@@ -2290,17 +2301,6 @@ Original JPEG unchanged. CSS scales and crops its display.
       <category>앱</category>
       <category>공학·계산</category>
       <pubDate>Sun, 25 Oct 2026 01:03:18 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 작은 진폭 단진자 주기 계산기</title>
-      <link>https://nanalab.kr/eng-pendulum-period/</link>
-      <description>단진자 주기 계산 / 기초 진동·중력 실험 검산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:eng-pendulum-period</guid>
-      <category>앱</category>
-      <category>공학·계산</category>
-      <pubDate>Sun, 25 Oct 2026 01:03:10 +0000</pubDate>
     </item>
   </channel>
 </rss>

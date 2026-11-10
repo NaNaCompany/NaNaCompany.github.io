@@ -1452,6 +1452,10 @@
       "name": "Générateur de Lorem Ipsum",
       "description": "Générez du texte de remplissage par paragraphes, phrases ou mots dans plusieurs langues, puis copiez-le ou enregistrez-le en TXT.",
       "image_alt": "Générateur de Lorem Ipsum"
+    },
+    "case-law-portal": {
+      "name": "Bibliothèque de jurisprudence",
+      "description": "Une collection enrichie progressivement de décisions coréennes publiées officiellement, avec une page par affaire. Les décisions étrangères seront ajoutées après vérification des conditions de publication et de réutilisation."
     }
   },
   "schema_version": "1.0",

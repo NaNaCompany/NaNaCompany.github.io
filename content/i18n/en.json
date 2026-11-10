@@ -1452,6 +1452,10 @@
       "name": "Lorem Ipsum Generator",
       "description": "Generate placeholder text by paragraph, sentence or word count in multiple languages, then copy it or save a TXT file.",
       "image_alt": "Lorem Ipsum Generator"
+    },
+    "case-law-portal": {
+      "name": "Case Law Library",
+      "description": "A growing collection of official, publicly available Korean judgments, with one page per case. International judgments will be added after their publication and reuse terms are verified."
     }
   },
   "schema_version": "1.0",

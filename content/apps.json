@@ -6590,5 +6590,23 @@
     "image_url": "/apps/img/lorem-ipsum-generator.png",
     "image_fit": "contain",
     "image_alt": "로렘 입숨 생성기"
+  },
+  {
+    "id": "case-law-portal",
+    "name": "판례 자료실",
+    "category": "문서·텍스트",
+    "description": "한국의 공식 공개 판결문을 판례별 페이지로 차근차근 모으는 자료실입니다. 해외 판례는 공개·재사용 조건을 확인한 자료부터 추가합니다.",
+    "symbol": "⚖",
+    "url": "https://nanalab.kr/case-law-portal/",
+    "repository": "https://github.com/NaNaCompany/case-law-portal",
+    "published_at": "2026-11-10T10:27:41Z",
+    "date_source": "github_repository_created_at",
+    "languages": [
+      "ko"
+    ],
+    "language_paths": {
+      "ko": ""
+    },
+    "sitemap_lastmod": "2026-11-10"
   }
 ]

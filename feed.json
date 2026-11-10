@@ -8,6 +8,17 @@
   "favicon": "https://nanalab.kr/favicon.ico/android-icon-192x192.png",
   "items": [
     {
+      "id": "urn:nanalab:apps:case-law-portal",
+      "url": "https://nanalab.kr/case-law-portal/",
+      "title": "[앱] 판례 자료실",
+      "content_text": "한국의 공식 공개 판결문을 판례별 페이지로 차근차근 모으는 자료실입니다. 해외 판례는 공개·재사용 조건을 확인한 자료부터 추가합니다.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "문서·텍스트"
+      ],
+      "date_published": "2026-11-10T10:27:41Z"
+    },
+    {
       "id": "urn:nanalab:apps:lorem-ipsum-generator",
       "url": "https://nanalab.kr/lorem-ipsum-generator/",
       "title": "[앱] 로렘 입숨 생성기",
@@ -2390,18 +2401,6 @@
       ],
       "date_published": "2026-10-25T01:03:18Z",
       "image": "https://nanalab.kr/eng-axial-stress/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-pendulum-period",
-      "url": "https://nanalab.kr/eng-pendulum-period/",
-      "title": "[앱] 작은 진폭 단진자 주기 계산기",
-      "content_text": "단진자 주기 계산 / 기초 진동·중력 실험 검산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T01:03:10Z",
-      "image": "https://nanalab.kr/eng-pendulum-period/og.png"
     }
   ]
 }

@@ -42,6 +42,10 @@
       ]
     },
     {
+      "app_id": "case-law-portal",
+      "url": "https://nanalab.kr/case-law-portal/sitemap.xml"
+    },
+    {
       "app_id": "cat-naps",
       "url": "https://nanalab.kr/cat-naps/sitemap.xml"
     },

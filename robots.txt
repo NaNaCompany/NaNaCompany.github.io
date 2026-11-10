@@ -16,6 +16,7 @@ Sitemap: https://nanalab.kr/bible-viewer/sitemap-en.xml
 Sitemap: https://nanalab.kr/body-clock/sitemap.xml
 Sitemap: https://nanalab.kr/bukele-says/sitemap-main.xml
 Sitemap: https://nanalab.kr/bukele-says/sitemap-posts-01.xml
+Sitemap: https://nanalab.kr/case-law-portal/sitemap.xml
 Sitemap: https://nanalab.kr/cat-naps/sitemap.xml
 Sitemap: https://nanalab.kr/color-drop/sitemap.xml
 Sitemap: https://nanalab.kr/contrast-lab/sitemap.xml
