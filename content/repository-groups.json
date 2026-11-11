@@ -32,6 +32,15 @@
           "verified_on": "2026-11-11"
         },
         {
+          "id": "world-law-jp-02",
+          "status": "published",
+          "url": "https://nanalab.kr/world-law-jp-02/",
+          "languages": ["ko", "en", "zh", "es"],
+          "language_paths": {"ko": ""},
+          "verified_commit": "4f5198973aaeb55cadd37054d525642195358697",
+          "verified_on": "2026-11-11"
+        },
+        {
           "id": "world-law-de",
           "status": "preparing"
         }

@@ -1045,6 +1045,11 @@
       "directory_app_id": "world-law-portal"
     },
     {
+      "app_id": "world-law-jp-02",
+      "url": "https://nanalab.kr/world-law-jp-02/sitemap.xml",
+      "directory_app_id": "world-law-portal"
+    },
+    {
       "app_id": "world-law-kr-acts",
       "url": "https://nanalab.kr/world-law-kr-acts/sitemap.xml",
       "directory_app_id": "world-law-portal"
