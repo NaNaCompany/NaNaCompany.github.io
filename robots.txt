@@ -271,6 +271,7 @@ Sitemap: https://nanalab.kr/wilders-says/sitemap-posts-01.xml
 Sitemap: https://nanalab.kr/windows-error-guide/sitemap.xml
 Sitemap: https://nanalab.kr/word-merge/sitemap.xml
 Sitemap: https://nanalab.kr/workday-calendar/sitemap.xml
+Sitemap: https://nanalab.kr/world-law-jp-01/sitemap.xml
 Sitemap: https://nanalab.kr/world-law-kr-acts/sitemap.xml
 Sitemap: https://nanalab.kr/world-law-kr-orders/sitemap.xml
 Sitemap: https://nanalab.kr/world-law-portal/sitemap.xml
