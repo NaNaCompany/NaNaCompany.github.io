@@ -1459,7 +1459,7 @@
     },
     "error-code-directory": {
       "name": "Error Code Portal",
-      "description": "Search 4,836 software codes from official Windows, cloud, Node.js and database documentation. View the problem context and official troubleshooting or diagnostic links. Korean interface; original English descriptions.",
+      "description": "Search 4,836 codes from official Windows, cloud, Node.js and database documentation in nine languages. View translated explanations alongside the original English text and official troubleshooting or diagnostic links.",
       "image_alt": "Error Code Portal"
     }
   },

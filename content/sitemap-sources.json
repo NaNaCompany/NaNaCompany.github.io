@@ -734,7 +734,17 @@
     },
     {
       "app_id": "error-code-directory",
-      "url": "https://nanalab.kr/error-code-directory/sitemap.xml"
+      "url": "https://nanalab.kr/error-code-directory/sitemap-ko.xml",
+      "additional_urls": [
+        "https://nanalab.kr/error-code-directory/sitemap-en.xml",
+        "https://nanalab.kr/error-code-directory/sitemap-ja.xml",
+        "https://nanalab.kr/error-code-directory/sitemap-zh.xml",
+        "https://nanalab.kr/error-code-directory/sitemap-es.xml",
+        "https://nanalab.kr/error-code-directory/sitemap-de.xml",
+        "https://nanalab.kr/error-code-directory/sitemap-fr.xml",
+        "https://nanalab.kr/error-code-directory/sitemap-pt.xml",
+        "https://nanalab.kr/error-code-directory/sitemap-ru.xml"
+      ]
     },
     {
       "app_id": "farage-says",

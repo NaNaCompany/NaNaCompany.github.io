@@ -6620,10 +6620,26 @@
     "published_at": "2026-11-12T00:32:03Z",
     "date_source": "github_repository_created_at",
     "languages": [
-      "ko"
+      "ko",
+      "en",
+      "ja",
+      "zh",
+      "es",
+      "de",
+      "fr",
+      "pt",
+      "ru"
     ],
     "language_paths": {
-      "ko": ""
+      "ko": "",
+      "en": "en/",
+      "ja": "ja/",
+      "zh": "zh/",
+      "es": "es/",
+      "de": "de/",
+      "fr": "fr/",
+      "pt": "pt/",
+      "ru": "ru/"
     },
     "sitemap_lastmod": "2026-11-12",
     "image_url": "/apps/img/error-code-directory.png",

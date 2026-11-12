@@ -556,7 +556,31 @@
     <loc>https://nanalab.kr/eng-wire-resistance/sitemap.xml</loc>
   </sitemap>
   <sitemap>
-    <loc>https://nanalab.kr/error-code-directory/sitemap.xml</loc>
+    <loc>https://nanalab.kr/error-code-directory/sitemap-ko.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/error-code-directory/sitemap-en.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/error-code-directory/sitemap-ja.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/error-code-directory/sitemap-zh.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/error-code-directory/sitemap-es.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/error-code-directory/sitemap-de.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/error-code-directory/sitemap-fr.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/error-code-directory/sitemap-pt.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://nanalab.kr/error-code-directory/sitemap-ru.xml</loc>
   </sitemap>
   <sitemap>
     <loc>https://nanalab.kr/farage-says/sitemap-main.xml</loc>

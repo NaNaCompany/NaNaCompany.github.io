@@ -189,7 +189,15 @@ Sitemap: https://nanalab.kr/eng-water-wave-length/sitemap.xml
 Sitemap: https://nanalab.kr/eng-weber-number/sitemap.xml
 Sitemap: https://nanalab.kr/eng-welding-line-heat/sitemap.xml
 Sitemap: https://nanalab.kr/eng-wire-resistance/sitemap.xml
-Sitemap: https://nanalab.kr/error-code-directory/sitemap.xml
+Sitemap: https://nanalab.kr/error-code-directory/sitemap-ko.xml
+Sitemap: https://nanalab.kr/error-code-directory/sitemap-en.xml
+Sitemap: https://nanalab.kr/error-code-directory/sitemap-ja.xml
+Sitemap: https://nanalab.kr/error-code-directory/sitemap-zh.xml
+Sitemap: https://nanalab.kr/error-code-directory/sitemap-es.xml
+Sitemap: https://nanalab.kr/error-code-directory/sitemap-de.xml
+Sitemap: https://nanalab.kr/error-code-directory/sitemap-fr.xml
+Sitemap: https://nanalab.kr/error-code-directory/sitemap-pt.xml
+Sitemap: https://nanalab.kr/error-code-directory/sitemap-ru.xml
 Sitemap: https://nanalab.kr/farage-says/sitemap-main.xml
 Sitemap: https://nanalab.kr/farage-says/sitemap-posts-01.xml
 Sitemap: https://nanalab.kr/filename-studio/sitemap.xml

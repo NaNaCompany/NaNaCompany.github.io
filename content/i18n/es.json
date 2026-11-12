@@ -1459,7 +1459,7 @@
     },
     "error-code-directory": {
       "name": "Portal de códigos de error",
-      "description": "Busca 4.836 códigos en documentación oficial de Windows, servicios en la nube, Node.js y bases de datos. Consulta el contexto y enlaces oficiales de solución o diagnóstico. Interfaz en coreano; descripciones originales en inglés.",
+      "description": "Busca 4.836 códigos de la documentación oficial de Windows, la nube, Node.js y bases de datos en nueve idiomas. Consulta explicaciones traducidas, el texto original en inglés y enlaces oficiales de solución o diagnóstico.",
       "image_alt": "Portal de códigos de error"
     }
   },

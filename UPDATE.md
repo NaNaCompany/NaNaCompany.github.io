@@ -159,3 +159,11 @@ GitHub Pages 최종 커밋·공개 파일 대조·공개 전체 사이트맵 검
 - 앱 전 HTML 5,087개에 GA4·GTM+noscript·AdSense·Cloudflare와 중앙 도서 배너를 소스 빌더로 삽입. 검색어 전송 없음. 앱 회귀 8개·재빌드·내부 링크 135,945개·전 HTML 태그 검증 통과. 기존 DLL/Windows 오류 앱은 변경하지 않음.
 - 메인 빌드 최신성·언어 9개·상호작용·구문·구독 피드 검사 통과. 기존 전체 로컬 검사 2개는 삭제된 law 그룹 체크아웃 5개와 aoc-says 등의 부재로 제한됨. 검사 규칙을 완화하지 않음. 신규 카드와 모든 기존 카탈로그 항목·지도 메타데이터 보존 검사는 별도 통과.
 - 공개 배포 대조·루트/앱 사이트맵 연결 확인 결과는 workspace .tools/error-code-portal-20261112/ 및 UpdateQue.md에 기록. 실제 브라우저 접근은 채팅에서 비활성화되어 화면 실측을 완료로 주장하지 않음.
+
+## 2026-11-12 — 에러 코드 포털 9개 언어 주소·사이트맵 확장
+
+- 기존 error-code-directory 카드 1개의 languages/language_paths를 한국어(root)·영어·일본어·중국어·스페인어·독일어·프랑스어·포르투갈어·러시아어로 확장. 등록일·생성시각·카드 ID·원래 최신순을 보존. 보조 8개 언어의 설명에서 한국어 전용 안내를 갱신.
+- 앱 상세 4,836개 × 9개 언어 = 43,524개 세부페이지. 전체 HTML 45,783개 모두 GA4·GTM+noscript·AdSense·Cloudflare·공유 도서 배너와 self canonical·reciprocal hreflang 유지. 자동 번역 표시·영문 원문·출처·적용 조건·레거시 코드 주의 보존.
+- 앱의 언어별 leaf 지도 9개를 메인 인덱스와 robots에 직접 연결. 앱 sitemap.xml 인덱스를 중첩하지 않음. 메인 URL 목록에 검증된 언어별 landing 8개 추가. RSS·JSON Feed·공개 앱 API 갱신.
+- 앱 커밋 fca2e22ba518bfb5e4a72ec77b17ac9e43e4eb62, 동일 SHA Pages built 및 workflow43160428043 success. 전체 배포 산출물 45,845개 파일 SHA 대조 통과, 9개 언어/14개 제품군의 대표 공개 파일431개 대조 통과. app 회귀11개·전HTML 원문/번역/태그/언어 전환·1,635,615개 내부 링크·생성파일 재빌드 검증 통과.
+- 원문 카탈로그와 기존 메인 디자인·다른 앱 기록은 보존. 브라우저 접근 비활성화로 실제 화면/모바일 실측은 미검증. 검증 상세와 최종 메인 배포 readback은 workspace .tools/error-code-i18n-20261112/ 및 UpdateQue.md에 기록.

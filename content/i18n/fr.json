@@ -1459,7 +1459,7 @@
     },
     "error-code-directory": {
       "name": "Portail des codes d’erreur",
-      "description": "Recherchez 4 836 codes issus de la documentation officielle de Windows, du cloud, de Node.js et des bases de données. Consultez le contexte et les liens officiels de résolution ou de diagnostic. Interface coréenne, descriptions originales en anglais.",
+      "description": "Recherchez 4 836 codes issus de la documentation officielle de Windows, du cloud, de Node.js et des bases de données en neuf langues. Consultez les explications traduites, le texte anglais original et les liens officiels de résolution ou de diagnostic.",
       "image_alt": "Portail des codes d’erreur"
     }
   },

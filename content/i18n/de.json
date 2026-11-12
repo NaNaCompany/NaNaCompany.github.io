@@ -1459,7 +1459,7 @@
     },
     "error-code-directory": {
       "name": "Fehlercode-Portal",
-      "description": "4.836 Codes aus offiziellen Windows-, Cloud-, Node.js- und Datenbankdokumentationen durchsuchen. Problemkontext und offizielle Lösungs- oder Diagnoselinks anzeigen. Koreanische Oberfläche, englische Originalbeschreibungen.",
+      "description": "4.836 Codes aus offiziellen Windows-, Cloud-, Node.js- und Datenbankdokumentationen in neun Sprachen durchsuchen. Übersetzte Erklärungen, englische Originaltexte und offizielle Lösungs- oder Diagnoselinks anzeigen.",
       "image_alt": "Fehlercode-Portal"
     }
   },
