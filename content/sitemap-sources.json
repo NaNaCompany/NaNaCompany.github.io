@@ -733,6 +733,10 @@
       "url": "https://nanalab.kr/eng-wire-resistance/sitemap.xml"
     },
     {
+      "app_id": "error-code-directory",
+      "url": "https://nanalab.kr/error-code-directory/sitemap.xml"
+    },
+    {
       "app_id": "farage-says",
       "url": "https://nanalab.kr/farage-says/sitemap-main.xml",
       "additional_urls": [

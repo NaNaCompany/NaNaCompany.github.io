@@ -8,6 +8,18 @@
   "favicon": "https://nanalab.kr/favicon.ico/android-icon-192x192.png",
   "items": [
     {
+      "id": "urn:nanalab:apps:error-code-directory",
+      "url": "https://nanalab.kr/error-code-directory/",
+      "title": "[앱] 에러 코드 포털",
+      "content_text": "Windows·클라우드·Node.js·데이터베이스 등 공식 문서의 코드 4,836개를 검색하고 문제 상황과 해결·진단 링크를 확인하는 포털입니다.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "AI·개발"
+      ],
+      "date_published": "2026-11-12T00:32:03Z",
+      "image": "/apps/img/error-code-directory.png"
+    },
+    {
       "id": "urn:nanalab:apps:case-law-portal",
       "url": "https://nanalab.kr/case-law-portal/",
       "title": "[앱] 판례 자료실",
@@ -1190,18 +1202,6 @@
       ],
       "date_published": "2026-10-25T06:21:18Z",
       "image": "https://nanalab.kr/eng-froude-number/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-weber-number",
-      "url": "https://nanalab.kr/eng-weber-number/",
-      "title": "[앱] 웨버수 계산기",
-      "content_text": "선택한 길이와 상대속도에서 관성 효과와 계면장력 효과의 비를 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T06:21:18Z",
-      "image": "https://nanalab.kr/eng-weber-number/og.png"
     }
   ]
 }

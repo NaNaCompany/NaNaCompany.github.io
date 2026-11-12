@@ -1456,6 +1456,11 @@
     "case-law-portal": {
       "name": "判例资料库",
       "description": "逐步收录韩国官方公开的判决书，每个判例设有独立页面。海外判例将在核实公开与再利用条件后陆续添加。"
+    },
+    "error-code-directory": {
+      "name": "错误代码门户",
+      "description": "搜索来自 Windows、云服务、Node.js 和数据库等官方文档的 4,836 个代码，查看问题背景及官方解决或诊断链接。界面为韩语，原文说明为英语。",
+      "image_alt": "错误代码门户"
     }
   },
   "schema_version": "1.0",

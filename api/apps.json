@@ -1,8 +1,28 @@
 {
   "schema_version": "1.0",
   "type": "apps",
-  "count": 264,
+  "count": 265,
   "items": [
+    {
+      "id": "error-code-directory",
+      "section": "apps",
+      "title": "에러 코드 포털",
+      "url": "https://nanalab.kr/error-code-directory/",
+      "summary": "Windows·클라우드·Node.js·데이터베이스 등 공식 문서의 코드 4,836개를 검색하고 문제 상황과 해결·진단 링크를 확인하는 포털입니다.",
+      "category": "AI·개발",
+      "date_published": "2026-11-12T00:32:03Z",
+      "date_precision": "second",
+      "date_kind": "github_repository_created_at",
+      "source_url": "https://nanalab.kr/apps/",
+      "image": "/apps/img/error-code-directory.png",
+      "repository": "https://github.com/NaNaCompany/error-code-directory",
+      "languages": [
+        "ko"
+      ],
+      "language_urls": {
+        "ko": "https://nanalab.kr/error-code-directory/"
+      }
+    },
     {
       "id": "case-law-portal",
       "section": "apps",

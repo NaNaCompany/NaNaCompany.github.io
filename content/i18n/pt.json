@@ -1456,6 +1456,11 @@
     "case-law-portal": {
       "name": "Biblioteca de jurisprudência",
       "description": "Uma coleção em crescimento de decisões judiciais coreanas publicadas oficialmente, com uma página por caso. Decisões estrangeiras serão adicionadas após a verificação das condições de publicação e reutilização."
+    },
+    "error-code-directory": {
+      "name": "Portal de códigos de erro",
+      "description": "Pesquise 4.836 códigos na documentação oficial do Windows, de serviços em nuvem, Node.js e bancos de dados. Consulte o contexto e links oficiais de solução ou diagnóstico. Interface em coreano; descrições originais em inglês.",
+      "image_alt": "Portal de códigos de erro"
     }
   },
   "schema_version": "1.0",

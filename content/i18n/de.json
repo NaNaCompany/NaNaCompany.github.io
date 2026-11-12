@@ -1456,6 +1456,11 @@
     "case-law-portal": {
       "name": "Rechtsprechungsarchiv",
       "description": "Eine wachsende Sammlung offiziell veröffentlichter koreanischer Urteile mit einer Seite pro Fall. Internationale Urteile werden nach Prüfung ihrer Veröffentlichungs- und Weiterverwendungsbedingungen ergänzt."
+    },
+    "error-code-directory": {
+      "name": "Fehlercode-Portal",
+      "description": "4.836 Codes aus offiziellen Windows-, Cloud-, Node.js- und Datenbankdokumentationen durchsuchen. Problemkontext und offizielle Lösungs- oder Diagnoselinks anzeigen. Koreanische Oberfläche, englische Originalbeschreibungen.",
+      "image_alt": "Fehlercode-Portal"
     }
   },
   "schema_version": "1.0",

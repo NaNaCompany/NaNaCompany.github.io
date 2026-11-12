@@ -8,6 +8,18 @@
   "favicon": "https://nanalab.kr/favicon.ico/android-icon-192x192.png",
   "items": [
     {
+      "id": "urn:nanalab:apps:error-code-directory",
+      "url": "https://nanalab.kr/error-code-directory/",
+      "title": "[앱] 에러 코드 포털",
+      "content_text": "Windows·클라우드·Node.js·데이터베이스 등 공식 문서의 코드 4,836개를 검색하고 문제 상황과 해결·진단 링크를 확인하는 포털입니다.\n\n출처: https://nanalab.kr/apps/",
+      "tags": [
+        "앱",
+        "AI·개발"
+      ],
+      "date_published": "2026-11-12T00:32:03Z",
+      "image": "/apps/img/error-code-directory.png"
+    },
+    {
       "id": "urn:nanalab:apps:case-law-portal",
       "url": "https://nanalab.kr/case-law-portal/",
       "title": "[앱] 판례 자료실",
@@ -2389,18 +2401,6 @@
       ],
       "date_published": "2026-10-25T01:03:27Z",
       "image": "https://nanalab.kr/eng-shaft-shear/og.png"
-    },
-    {
-      "id": "urn:nanalab:apps:eng-axial-stress",
-      "url": "https://nanalab.kr/eng-axial-stress/",
-      "title": "[앱] 축하중 평균 응력 계산기",
-      "content_text": "인장 하중 단면 응력 계산 / 시편·봉재 검산 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.\n\n출처: https://nanalab.kr/apps/",
-      "tags": [
-        "앱",
-        "공학·계산"
-      ],
-      "date_published": "2026-10-25T01:03:18Z",
-      "image": "https://nanalab.kr/eng-axial-stress/og.png"
     }
   ]
 }

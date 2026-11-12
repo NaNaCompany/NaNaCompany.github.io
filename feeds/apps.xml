@@ -7,6 +7,17 @@
     <language>ko</language>
     <atom:link href="https://nanalab.kr/feeds/apps.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>[앱] 에러 코드 포털</title>
+      <link>https://nanalab.kr/error-code-directory/</link>
+      <description>Windows·클라우드·Node.js·데이터베이스 등 공식 문서의 코드 4,836개를 검색하고 문제 상황과 해결·진단 링크를 확인하는 포털입니다.
+
+출처: https://nanalab.kr/apps/</description>
+      <guid isPermaLink="false">urn:nanalab:apps:error-code-directory</guid>
+      <category>앱</category>
+      <category>AI·개발</category>
+      <pubDate>Thu, 12 Nov 2026 00:32:03 +0000</pubDate>
+    </item>
+    <item>
       <title>[앱] 판례 자료실</title>
       <link>https://nanalab.kr/case-law-portal/</link>
       <description>한국의 공식 공개 판결문을 판례별 페이지로 차근차근 모으는 자료실입니다. 해외 판례는 공개·재사용 조건을 확인한 자료부터 추가합니다.
@@ -1187,17 +1198,6 @@ Original JPEG unchanged. CSS scales and crops its display.
 
 출처: https://nanalab.kr/apps/</description>
       <guid isPermaLink="false">urn:nanalab:apps:eng-froude-number</guid>
-      <category>앱</category>
-      <category>공학·계산</category>
-      <pubDate>Sun, 25 Oct 2026 06:21:18 +0000</pubDate>
-    </item>
-    <item>
-      <title>[앱] 웨버수 계산기</title>
-      <link>https://nanalab.kr/eng-weber-number/</link>
-      <description>선택한 길이와 상대속도에서 관성 효과와 계면장력 효과의 비를 계산합니다 · 단위 변환과 적용 조건을 확인하는 단일 수치 계산기.
-
-출처: https://nanalab.kr/apps/</description>
-      <guid isPermaLink="false">urn:nanalab:apps:eng-weber-number</guid>
       <category>앱</category>
       <category>공학·계산</category>
       <pubDate>Sun, 25 Oct 2026 06:21:18 +0000</pubDate>

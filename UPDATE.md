@@ -150,3 +150,12 @@ GitHub Pages 최종 커밋·공개 파일 대조·공개 전체 사이트맵 검
 - Shared archive assets load the banner on detail/list pages; other HTML and source templates include the stable deferred loader. HTML-only generator adapters retain the connection after rebuilds and pass non-HTML values through unchanged.
 - The component is closable for the tab session, clears detected bottom navigation, and hides for modals/fullscreen/mobile input. The Astra practice site remains excluded. No additional analytics or ad-network requests are introduced by the component.
 - Existing content, routes and publisher integrations are preserved. Direct HTML changes restore exactly to the baseline when the marked loader is removed. Workspace validation/deployment evidence: `.tools/shared-book-banner-20261102/`.
+
+## 2026-11-12 — 에러 코드 포털 연결
+
+- 새 앱 error-code-directory를 대표 한국어 카드 1개로 추가. 공식 출처 84건, 14개 제품, 코드 4,836개. 실제 GitHub 저장소 생성시각 2026-11-12T00:32:03Z를 사용해 최신순 정렬.
+- 기존 앱 264개와 기존 사이트맵 출처 249개·메타데이터 보존. 8개 보조 언어의 이름·설명과 자체 제작 공유 이미지를 추가. 9언어 메인/앱 목록 18곳에서 카드 1개·맨 위 노출 검증.
+- 메인 URL 목록에 앱 메인 주소를, 루트 sitemapindex·robots에 앱 sitemap.xml을 연결. 앱 하위 지도에는 코드·탐색·고지 페이지 5,086개 URL이 기재됨. RSS·JSON Feed·앱 API 갱신.
+- 앱 전 HTML 5,087개에 GA4·GTM+noscript·AdSense·Cloudflare와 중앙 도서 배너를 소스 빌더로 삽입. 검색어 전송 없음. 앱 회귀 8개·재빌드·내부 링크 135,945개·전 HTML 태그 검증 통과. 기존 DLL/Windows 오류 앱은 변경하지 않음.
+- 메인 빌드 최신성·언어 9개·상호작용·구문·구독 피드 검사 통과. 기존 전체 로컬 검사 2개는 삭제된 law 그룹 체크아웃 5개와 aoc-says 등의 부재로 제한됨. 검사 규칙을 완화하지 않음. 신규 카드와 모든 기존 카탈로그 항목·지도 메타데이터 보존 검사는 별도 통과.
+- 공개 배포 대조·루트/앱 사이트맵 연결 확인 결과는 workspace .tools/error-code-portal-20261112/ 및 UpdateQue.md에 기록. 실제 브라우저 접근은 채팅에서 비활성화되어 화면 실측을 완료로 주장하지 않음.

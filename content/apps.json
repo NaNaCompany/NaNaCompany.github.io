@@ -6608,5 +6608,26 @@
       "ko": ""
     },
     "sitemap_lastmod": "2026-11-10"
+  },
+  {
+    "id": "error-code-directory",
+    "name": "에러 코드 포털",
+    "category": "AI·개발",
+    "description": "Windows·클라우드·Node.js·데이터베이스 등 공식 문서의 코드 4,836개를 검색하고 문제 상황과 해결·진단 링크를 확인하는 포털입니다.",
+    "symbol": "!",
+    "url": "https://nanalab.kr/error-code-directory/",
+    "repository": "https://github.com/NaNaCompany/error-code-directory",
+    "published_at": "2026-11-12T00:32:03Z",
+    "date_source": "github_repository_created_at",
+    "languages": [
+      "ko"
+    ],
+    "language_paths": {
+      "ko": ""
+    },
+    "sitemap_lastmod": "2026-11-12",
+    "image_url": "/apps/img/error-code-directory.png",
+    "image_fit": "contain",
+    "image_alt": "에러 코드 포털"
   }
 ]
